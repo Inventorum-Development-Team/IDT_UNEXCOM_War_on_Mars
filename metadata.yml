@@ -1,0 +1,9 @@
+name: "UNEXCOM: War on Mars"
+version: "0.1"
+author: "efrenespartano, Hans Woofington + IDT"
+description: "1976. We have invaded Mars... It's time for payback. UNEXCOM Expansion Pack"
+id: UNEXCOM_War_on_Mars
+master: xcom1
+reservedSpace: 7
+requiredExtendedVersion: "6.5.1"
+resourceConfig: transparency.rul

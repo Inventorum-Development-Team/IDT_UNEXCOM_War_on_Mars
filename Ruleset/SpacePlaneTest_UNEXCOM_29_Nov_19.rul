@@ -1,0 +1,504 @@
+crafts:
+#Delete
+  - delete: STR_SKYRANGER
+  - delete: STR_INTERCEPTOR
+# weaponType 0 = Gatling Cannon (Fast but weak)
+# weaponType 1 = Revolver Cannon (Slow but powerful)
+# weaponType 2 = Light Missile (IR Guidance, short range)
+# weaponType 3 = Heavy Missile (Radar Guidance, long range)
+# weaponType 4 = Super Heavy Missile (Slow, very powerful)
+# weaponType 5 = Auxliary Systems (Targeting pods, afterburners, etc) 
+# weaponType 6 = Rockets (Super fast, short range, no targeting guidance. Basically a shotgun)
+######################
+###### FIGHTERS ######
+######################
+
+  - type: STR_SPACE_SHUTTLE
+    categories: [STR_AIRCRAFTS, STR_TRANSPORTS, STR_VTOL_TRANSPORT]
+    sprite: 926
+    fuelMax: 2732 # Combat range of 22,000 nmi
+    damageMax: 450
+    speedMax: 14092 # Orbital speed of 27,600 Km/h
+    accel: 3
+    weapons: 0
+    soldiers: 14
+    vehicles: 0
+    pilots: 2
+    allowLanding: true
+    costBuy: 100000
+    costRent: 6000
+    refuelRate: 50
+    repairRate: 4
+    transferTime: 48
+    score: 40
+    battlescapeTerrainData:
+      name: SHUTTLE_GROUND
+      mapDataSets:
+        - BLANKS
+        - SHUTTLE
+      mapBlocks:
+        - name: SHUTTLE_GROUND
+          width: 10
+          length: 20
+    craftInventoryTile: [5, 11, 1]
+    deployment:
+#Pilots Cabin
+      - [5, 13, 1, 4]
+      - [4, 13, 1, 4]
+#Payload Bay
+      - [4, 10, 1, 4]
+      - [5, 10, 1, 4]
+      - [4, 9, 1, 4]
+      - [5, 9, 1, 4]
+      - [4, 8, 1, 4]
+      - [5, 8, 1, 4]
+      - [4, 7, 1, 4]
+      - [5, 7, 1, 4]
+      - [4, 6, 1, 4]
+      - [5, 6, 1, 4]
+      - [4, 5, 1, 4]
+      - [5, 5, 1, 4]
+# unit facing
+# 6 7 0
+# 5   1
+# 4 3 2
+
+############################
+###### USAF AIRCRAFT #########
+###########################
+
+  - type: STR_DYNASOAR # X-20 Dyna-Soar
+    sprite: 927
+    fuelMax: 2732 # Combat range of 22,000 nmi
+    damageMax: 440
+    speedMax: 15200 # Orbital speed of 27,600 Km/h
+    accel: 4
+    weapons: 3
+    weaponTypes: 
+      - [0, 1] 
+      - 2
+      - [2, 5]
+#Gatling/Revolver Cannon
+#Light Missile
+#Light Missile/AUX
+    weaponStrings:
+      - STR_CRAFT_ALL_CANNONS_ONE
+      - STR_CRAFT_LIGHT_MISSILE_TWO
+      - STR_CRAFT_LIGHT_AUX_THREE
+    soldiers: 1
+    vehicles: 0
+    pilots: 1
+    allowLanding: false
+    costBuy: 500000
+    costRent: 40000
+    costSell: 350000
+    refuelRate: 20
+    transferTime: 72
+    autoPatrol: true
+    escortRange: 20
+    escortsJoinFightAgainstHK: true
+    sightRange: 500
+    radarRange: 500
+    radarChance: 40
+    score: 400
+
+
+############################
+###### USSR AIRCRAFT ######
+##########################
+
+  - type: STR_SPIRAL # MiG-105 Spiral
+    sprite: 929
+    fuelMax: 2732 # Combat range of 22,000 nmi
+    damageMax: 420
+    speedMax: 15200 # Orbital speed
+    accel: 5
+    weapons: 3
+    weaponTypes: 
+      - [0, 1] 
+      - 2 
+      - 2
+#Gatling/Revolver Cannon
+#Light Missile
+#Light Missile
+    weaponStrings:
+      - STR_CRAFT_ALL_CANNONS_ONE
+      - STR_CRAFT_LIGHT_MISSILE_TWO
+      - STR_CRAFT_LIGHT_MISSILE_THREE
+    soldiers: 1
+    vehicles: 0
+    pilots: 1
+    allowLanding: false
+    costBuy: 500000
+    costRent: 40000
+    costSell: 350000
+    refuelRate: 20
+    transferTime: 72
+    autoPatrol: true
+    escortRange: 20
+    escortsJoinFightAgainstHK: true
+    sightRange: 500
+    radarRange: 500
+    radarChance: 40
+    avoidBonus: 25
+    score: 400
+
+################################
+########### BOMBERS ############
+################################
+
+####################
+#### TIER IV #######
+##################
+
+
+############################
+###### NATO AIRCRAFT ######
+##########################
+
+  - type: STR_HERMES # ESF-2000 Hermes Heavy Fighter/Bomber
+    categories: [STR_AIRCRAFTS, STR_NATO_TECH, STR_BOMBERS]
+    sprite: 928
+    fuelMax: 2732 # Combat range of 22,000 nmi
+    damageMax: 550
+    speedMax: 15200 # Orbital speed of 27,600 Km/h
+    accel: 3
+    weapons: 3
+    weaponTypes: 
+      - [2, 3]
+      - [2, 3]
+      - [0, 1]
+#Heavy/Super Heavy Missile
+#Heavy Missile
+#Cannons 
+    weaponStrings:
+      - STR_CRAFT_LIGHT_HEAVY_MISSILE_ONE
+      - STR_CRAFT_LIGHT_HEAVY_MISSILE_TWO
+      - STR_CRAFT_ALL_CANNONS_THREE
+    soldiers: 4
+    vehicles: 0
+    pilots: 4
+    allowLanding: false
+    costBuy: 650000
+    costSell: 600000
+    refuelRate: 20
+    transferTime: 72
+    autoPatrol: true
+    escortRange: 20
+    escortsJoinFightAgainstHK: true
+    sightRange: 500
+    radarRange: 500
+    radarChance: 50
+    avoidBonus: -15
+    score: 400
+
+craftWeapons:
+#Delete
+  - delete: STR_STINGRAY
+  - delete: STR_AVALANCHE
+  - delete: STR_CANNON_UC
+#modders: the corresponding extrasprites file id for INTICON.PCK is sprite+5 and sprite+48 for BASEBITS.PCK
+# weaponType 0 = Gatling Cannon (Fast but weak)
+# weaponType 1 = Revolver Cannon (Slow but powerful)
+# weaponType 2 = Light Missile (IR Guidance, short range)
+# weaponType 3 = Heavy Missile (Radar Guidance, long range)
+# weaponType 4 = Super Heavy Missile (Slow, very powerful)
+# weaponType 5 = Auxliary Systems (Targeting pods, afterburners, etc) 
+# weaponType 6 = Rockets (Super fast, short range, no targeting guidance. Basically a shotgun)
+
+##################################
+#### AIRCRAFT LIGHT MISSILES #####
+##################################
+
+####################
+#### TIER I #######
+##################
+  - type: STR_CASABA_HOWITZER
+    categories: [STR_AIRCRAFT_WEAPONS, STR_LIGHT_MISSILE, STR_TIER_4]
+    weaponType: 2
+    sprite: 230
+    sound: 5
+    damage: 150
+    range: 35
+    accuracy: 50
+    reloadCautious: 84
+    reloadStandard: 62
+    reloadAggressive: 48
+    ammoMax: 2
+    launcher: STR_CASABA_HOWITZER_LAUNCHER
+    clip: STR_CASABA_HOWITZER_MISSILES
+    projectileType: 0
+    projectileSpeed: 8
+
+  - type: STR_CASABA_HOWITZER_IMPROVED
+    categories: [STR_AIRCRAFT_WEAPONS, STR_LIGHT_MISSILE, STR_TIER_4]
+    weaponType: 2
+    sprite: 231
+    sound: 5
+    damage: 190
+    range: 45
+    accuracy: 50
+    reloadCautious: 84
+    reloadStandard: 62
+    reloadAggressive: 48
+    ammoMax: 2
+    launcher: STR_CASABA_HOWITZER_IMPROVED_LAUNCHER
+    clip: STR_CASABA_HOWITZER_IMPROVED_MISSILES
+    projectileType: 0
+    projectileSpeed: 8
+
+
+items:
+#DELETE
+  - delete: STR_STINGRAY_LAUNCHER
+  - delete: STR_STINGRAY_MISSILES
+  - delete: STR_AVALANCHE_LAUNCHER
+  - delete: STR_AVALANCHE_MISSILES
+  - delete: STR_CANNON
+  - delete: STR_CANNON_ROUNDS_X50
+  - delete: STR_TANK_CANNON
+  - delete: STR_TANK_ROCKET_LAUNCHER
+  - delete: STR_INTERCEPTOR
+  - delete: STR_SKYRANGER
+
+##################################
+####### AIRCRAFT WEAPONS #########
+##################################
+  - type: STR_CASABA_HOWITZER_LAUNCHER
+    categories: [STR_AIRCRAFT_WEAPONS, STR_USA_TECH, STR_LIGHT_MISSILES, STR_TIER_1]
+    size: 0.8
+    costBuy: 21000
+    costSell: 18000
+    transferTime: 48
+  - type: STR_CASABA_HOWITZER_MISSILES
+    categories: [STR_AIRCRAFT_WEAPONS, STR_USA_TECH, STR_LIGHT_MISSILES, STR_TIER_1]
+    size: 0.4
+    costBuy: 6000
+    costSell: 4000
+    transferTime: 48
+    clipSize: 1
+
+  - type: STR_CASABA_HOWITZER_IMPROVED_LAUNCHER
+    categories: [STR_AIRCRAFT_WEAPONS, STR_USA_TECH, STR_LIGHT_MISSILES, STR_TIER_1]
+    size: 0.8
+    costBuy: 21000
+    costSell: 18000
+    transferTime: 48
+  - type: STR_CASABA_HOWITZER_IMPROVED_MISSILES
+    categories: [STR_AIRCRAFT_WEAPONS, STR_USA_TECH, STR_LIGHT_MISSILES, STR_TIER_1]
+    size: 0.4
+    costBuy: 6000
+    costSell: 4000
+    transferTime: 48
+    clipSize: 1
+
+
+ufopaedia:
+#####################################
+########## AIRCRAFTS ################
+#####################################
+
+  - id: STR_SPACE_SHUTTLE
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    text: STR_SPACE_SHUTTLE_UFOPEDIA
+    listOrder: 150
+    rect_stats:
+      x: 5
+      y: 130
+      width: 130
+      height: 65
+    rect_text:
+      x: 110
+      y: 5
+      width: 205
+      height: 80
+    image_id: SPACE_SHUTTLE_UFOPEDIA
+
+############################
+###### USAF AIRCRAFT ######
+##########################
+  - id: STR_DYNASOAR
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    text: STR_DYNASOAR_UFOPEDIA
+    listOrder: 151
+    rect_stats:
+      x: 5
+      y: 130
+      width: 130
+      height: 65
+    rect_text:
+      x: 110
+      y: 5
+      width: 205
+      height: 80
+    image_id: DYNASOAR_UFOPEDIA
+
+############################
+###### NATO AIRCRAFT ######
+##########################
+  - id: STR_HERMES
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    text: STR_HERMES_UFOPEDIA
+    listOrder: 152
+    rect_stats:
+      x: 5
+      y: 130
+      width: 130
+      height: 65
+    rect_text:
+      x: 110
+      y: 5
+      width: 205
+      height: 80
+    image_id: HERMES_UFOPEDIA
+
+############################
+###### USSR AIRCRAFT ######
+##########################
+  - id: STR_SPIRAL
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    text: STR_SPIRAL_UFOPEDIA
+    listOrder: 153
+    rect_stats:
+      x: 5
+      y: 130
+      width: 130
+      height: 65
+    rect_text:
+      x: 110
+      y: 5
+      width: 205
+      height: 80
+    image_id: SPIRAL_UFOPEDIA
+
+
+########################################
+########### CRAFT WEAPONS #############
+######################################
+
+############################
+###### USAF SUPPLIED ######
+##########################
+  - id: STR_CASABA_HOWITZER
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: CASABA_HOWITZER
+    text: STR_CASABA_HOWITZER_UFOPEDIA
+    listOrder: 232
+
+  - id: STR_CASABA_HOWITZER_IMPROVED
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: CASABA_HOWITZER_IMPROVED
+    text: STR_CASABA_HOWITZER_IMPROVED_UFOPEDIA
+    listOrder: 232
+
+
+extraSprites:
+# "Crafts : The corresponding extrasprite file id for BASEBITS.PCK is sprite+33 INTICON.PCK contains a minimized icon id=sprite the file id for the dogfight image is sprite+11"
+# INTICON Minimized Id = Sprite ; 
+# INTICON DogFight Id = Sprite+11 ; 
+# BASEBITS Id = Sprite+33
+#########################################  
+# Craft Weapons: file id for 
+# INTICON.PCK is sprite+5
+# BASEBITS.PCK is sprite+48 
+# Aircrafts
+  - type: BASEBITS.PCK
+    files:
+      959: Resources/Aircraft/Space_Shuttle_base.png
+      960: Resources/Aircraft/DynaSoar_base.png
+      961: Resources/Aircraft/Hermes_base.png
+      962: Resources/Aircraft/Spiral_base.png
+
+#Craft weapons
+      278: Resources/AircraftWeapons/Casaba_Howitzer_basebits.png
+      279: Resources/AircraftWeapons/Casaba_Howitzer_Improved_basebits.png
+
+  - type: INTICON.PCK
+    files:
+      937: Resources/Aircraft/Space_Shuttle_dogfight.png
+      938: Resources/Aircraft/DynaSoar_dogfight.png
+      939: Resources/Aircraft/Hermes_dogfight.png
+      940: Resources/Aircraft/Spiral_dogfight.png
+
+###################################################
+      926: Resources/Aircraft/Space_Shuttle_minimised.png
+      927: Resources/Aircraft/DynaSoar_minimised.png
+      928: Resources/Aircraft/Hermes_minimised.png
+      929: Resources/Aircraft/Spiral_minimised.png
+
+#
+      235: Resources/AircraftWeapons/Casaba_Howitzer_dogfight.png
+      236: Resources/AircraftWeapons/Casaba_Howitzer_Improved_dogfight.png
+
+##################################
+#### AIRCRAFT UFOPEDIA IMAGES ####
+##################################
+
+  - type: SPACE_SHUTTLE_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Aircraft/SPACE_SHUTTLE_UFOPEDIA.png
+  - type: DYNASOAR_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Aircraft/DYNASOAR_UFOPEDIA.PNG
+  - type: HERMES_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Aircraft/HERMES_UFOPEDIA.PNG
+  - type: SPIRAL_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Aircraft/SPIRAL_UFOPEDIA.PNG
+
+############################################
+  - type: CASABA_HOWITZER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AircraftWeapons/CASABA_HOWITZER.png
+  - type: CASABA_HOWITZER_IMPROVED
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AircraftWeapons/CASABA_HOWITZER_IMPROVED.png
+
+
+extraStrings:
+  - type: en-US
+    strings:
+###CRAFT
+      STR_SPACE_SHUTTLE: "RAIDER SHUTTLE"
+      STR_SPACE_SHUTTLE_UFOPEDIA: "X-73 RAIDER SPACE SHUTTLE - PROTOTYPE SPACE PLANE WITH A LARGE CARGO BAY, PLANNED TO REPLACE THE APOLLO PROGRAM AND INTENDED TO START ON THE 80s, THE NEW TECHNOLOGIES ALLOWS TO IMPLEMENT AND IMPROVE THE MODEL. HAS VTOL CAPABALITIES"
+      STR_DYNASOAR: "DYNA-SOAR"
+      STR_DYNASOAR_UFOPEDIA: "X-20 DYNA-SOAR - REBORN FROM THE CANCELLED DYNA-SOAR PROGRAM, THIS UPDATED VERSION INCLUDES A WEAPONS BAY. REQUIRES A SEPARATE ROCKET STAGE FOR ORBITAL FLIGHT, BUT IS CAPABLE TO RETURN TO EARTH LIKE A PLANE"
+      STR_HERMES: "HERMES"
+      STR_HERMES_UFOPEDIA: "ESF-2000 HERMES - THR FIRST JOINT EUROPEAN FIGHTER-BOMBER PROGRAM, ALSO THE FIRST EUROPEAN SPACEPLANE, IS CONSIDERABLY HEAVIER THAN ITS COUNTERPARTS, BUT ALSO MORE DURABLE AND CAN CARRY HEAVIER WEAPONS"
+      STR_SPIRAL: "SPIRAL"
+      STR_SPIRAL_UFOPEDIA: "MiG-105 SPIRAL - PART OF THE SOVIET RESPONSE TO THE DYNA-SOAR PROGRAM, THIS SPACEPLANE LAUNCHED INTO ORBIT FROM A MOTHERSHIP CARGO AIRCRAFT INSTEAD OF A ROCKET. LIGHT AND NIMBLE IN COMBAT."
+
+      STR_CASABA_HOWITZER: "CASABA NUCLEAR LANCE"
+      STR_CASABA_HOWITZER_LAUNCHER: "Casaba Nuclear Lance-Launcher"
+      STR_CASABA_HOWITZER_MISSILES: "Casaba Nuclear Lance-Missiles"
+      STR_CASABA_HOWITZER_UFOPEDIA: "Casaba Howitzer - Nuclear shaped-charge, a somewhat rudementary method of transporting a Casaba Howitzer (like those used to propulse the Orion-class vessels) without compromising the launching craft and its crew. It concentrates all of the power unleashed by a nuclear detonation in a narrow column of pure energy. Incorporates a full set of RCS thrusters to maximize orbital maneuvers, although this makes it slow and clumsy in the atmosphere (reducing its accuracy)"
+
+      STR_CASABA_HOWITZER_IMPROVED: "CASABA FUSION PIKE"
+      STR_CASABA_HOWITZER_IMPROVED_LAUNCHER: "Casaba Fusion Pike-Launcher"
+      STR_CASABA_HOWITZER_IMPROVED_MISSILES: "Casaba Fusion Pike-Missiles"
+      STR_CASABA_HOWITZER_IMPROVED_UFOPEDIA: "Casaba Howitzer - Elerium Fusion shaped-charge, mounted on a modern ASAT missile designed to operate on both the admosphere and the space withour any problem. The Elerium Fusion device generates a larger ammount of energy than the conventional Nuclear shaped-charge made of Uranium, with better performance and lower risk of side effects in humans The column of energy released by this charge is even narrower and more concentrated, easily melting the outer hull of the UFOs."

@@ -1,0 +1,43 @@
+terrains:
+  - name: MARS
+    mapDataSets:
+      - BLANKS
+      - MARS_NEW
+      - U_WALL02
+    script: MARS
+    mapBlocks:
+      - name: MARS00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MARS01
+        width: 10
+        length: 10
+      - name: MARS02
+        width: 10
+        length: 10
+      - name: MARS03
+        width: 10
+        length: 10
+      - name: MARS04
+        width: 10
+        length: 10
+      - name: MARS05
+        width: 10
+        length: 10
+      - name: MARS06
+        width: 10
+        length: 10
+      - name: MARS07
+        width: 10
+        length: 10
+      - name: MARS08
+        width: 10
+        length: 10
+      - name: MARS09
+        width: 10
+        length: 10
+      - name: MARS10
+        width: 10
+        length: 10
+        groups: 2
