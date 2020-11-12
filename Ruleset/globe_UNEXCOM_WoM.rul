@@ -1263,7 +1263,7 @@ countries:
   - delete: STR_AUSTRALIA
   - delete: STR_NIGERIA
   - delete: STR_SOUTH_AFRICA
-  - type: STR_US
+  - type: STR_NATO_SECTOR_1
     areas:
       - - 25.77300217013601
         - 179.52735286458005
@@ -1285,7 +1285,7 @@ countries:
     fundingCap: 100
     labelLon: 12.812509114579995
     labelLat: -70.922447482638
-  - type: STR_FRE
+  - type: STR_NATO_SECTOR_2
     areas:
       - - 172.74579171843
         - 260.272027829548
@@ -1299,7 +1299,7 @@ countries:
     fundingCap: 100
     labelLon: 193.0863958851
     labelLat: -25.117564236114
-  - type: STR_BRT
+  - type: STR_NATO_SECTOR_3
     areas:
       - - 350.1096962323242
         - 128.4874427601
@@ -1309,7 +1309,7 @@ countries:
     fundingCap: 100
     labelLon: 59.298569496212
     labelLat: -25.271659722225
-  - type: STR_RUS
+  - type: STR_WARSAW_PACT_SECTOR_4
     areas:
       - - 210.99468277746
         - 150.24811680524
@@ -1331,7 +1331,7 @@ countries:
     fundingCap: 100
     labelLon: 0.5881892878791746
     labelLat: 72.887164930553
-  - type: STR_JPN5
+  - type: STR_WARSAW_PACT_SECTOR_5
     areas:
       - - 21.116099444129986
         - 179.83445013857
@@ -1341,7 +1341,7 @@ countries:
     fundingCap: 100
     labelLon: 111.87834076357001
     labelLat: 41.104970920135
-  - type: STR_CHN
+  - type: STR_WARSAW_PACT_SECTOR_6
     areas:
       - - 234.57129215246
         - 21.57838590245899
@@ -1402,8 +1402,8 @@ regions:
         - [305, 318, -65, -60]
         - [338, 354, -17, -12]
       -
-        - [346, 346, -19, -19, -1, STR_US_OUTPOST_1]
-        - [311, 311, -35, -35, -1, STR_US_MINING_POST]
+        - [346, 346, -19, -19, -1, STR_NATO_OUTPOST_1]
+        - [311, 311, -35, -35, -1, STR_NATO_MINING_POST]
       -
         - [332, 344, -44, -40]
         - [356, 3, -53, -48]
@@ -1438,8 +1438,8 @@ regions:
       -
         - [209, 160, -82, -78]
       -
-        - [40, 40, -74, -74, -1, STR_US_OUTPOST_2]
-        - [189, 189, -80, -80, -1, STR_US_ICE_PLANT]
+        - [40, 40, -74, -74, -1, STR_NATO_OUTPOST_2]
+        - [189, 189, -80, -80, -1, STR_NATO_ICE_PLANT]
       -
         - [1.33, 91, -87, -83]
         - [176, 204, -80, -85]
@@ -1484,8 +1484,8 @@ regions:
         - [329, 346, 14, 16]
         - [19, 26, 7.6, 15]
       -
-        - [317, 317, 1.3, 1.3, -1, STR_US_OUTPOST_3]
-        - [342, 342, 17, 17, -1, STR_CHN_OUTPOST_1]
+        - [317, 317, 1.3, 1.3, -1, STR_NATO_OUTPOST_3]
+        - [342, 342, 17, 17, -1, STR_WARSAW_PACT_OUTPOST_1]
       -
         - [314, 319, 1, 3]
         - [339, 346, 14, 18]
@@ -1527,8 +1527,8 @@ regions:
         - [35, 56, -40, -30]
         - [30, 54, -65, -56]
       -
-        - [54, 54, -8, -8, -1, STR_BRT_OUTPOST_1]
-        - [23, 23, -38, -38, -1, STR_BRT_R&D]
+        - [54, 54, -8, -8, -1, STR_NATO_OUTPOST_4]
+        - [23, 23, -38, -38, -1, STR_NATO_LABORATORY]
       -
         - [29, 35, -22, -19]
         - [46, 51, -27, -22]
@@ -1570,11 +1570,11 @@ regions:
         - [122, 149, -29, -17]
         - [132, 150, -69, -57]
       -
-        - [80, 80, -46, -46, -1, STR_BRT_MANF]
-        - [114, 114, 0, 0, -1, STR_BRT_OUTPOST_2]
-        - [152, 152, -59, -59, -1, STR_US_R&D]
-        - [154, 154, -16, -16, -1, STR_FRE_OUTPOST_1]
-        - [174, 174, -47, -47, -1, STR_FRE_MANF]
+        - [80, 80, -46, -46, -1, STR_NATO_RESEARCH_STATION_1]
+        - [114, 114, 0, 0, -1, STR_NATO_OUTPOST_5]
+        - [152, 152, -59, -59, -1, STR_NATO_RESEARCH_STATION_2]
+        - [154, 154, -16, -16, -1, STR_NATO_OUTPOST_6]
+        - [174, 174, -47, -47, -1, STR_NATO_RESEARCH_STATION_3]
       -
         - [114, 131, -29, -20]
         - [95, 115, -8, -2]
@@ -1633,9 +1633,9 @@ regions:
         - [206, 225, -67, -49]
         - [199, 214, -22, -16]
       -
-        - [253, 253, -4, -4, -1, STR_FRE_OUTPOST_2]
-        - [203, 203, 17, 17, -1, STR_RUS_OUTPOST_1]
-        - [291, 291, 28, 28, -1, STR_CHN_R&D]
+        - [253, 253, -4, -4, -1, STR_NATO_OUTPOST_7]
+        - [203, 203, 17, 17, -1, STR_WARSAW_PACT_OUTPOST_2]
+        - [291, 291, 28, 28, -1, STR_WARSAW_PACT_RESEARCH_STATION_1]
       -
         - [201, 208, 16, 18]
         - [287, 294, 24, 31]
@@ -1653,7 +1653,7 @@ regions:
         - [23, 48, 31, 42]
 #      -
 #        - [249, 249, -27, -27, -1, STR_AMAZONIS_PLANITIA]
-#        - [236, 236, -18, -18, -1, STR_MOUNT_OLYMPUS]
+#        - [236, 236, -18, -18, -1, STR_OLYMPUS]
 #        - [294, 294, 8, 8, -1, STR_MARINER_TRENCH]
   - type: STR_TERRA_SIRENUM
     areas:
@@ -1688,10 +1688,10 @@ regions:
         - [258, 265, 45, 49]
         - [238, 244, 67, 72]
       -
-        - [256, 256, 53, 53, -1, STR_CHN_MANF]
-        - [236, 236, 35, 35, -1, STR_CHN_OUTPOST_2]
-        - [184, 184, 34, 34, -1, STR_RUS_OUTPOST_2]
-        - [252, 252, 70, 70, -1, STR_RUS_R&D]
+        - [256, 256, 53, 53, -1, STR_WARSAW_PACT_RESEARCH_STATION_2]
+        - [236, 236, 35, 35, -1, STR_WARSAW_PACT_OUTPOST_3]
+        - [184, 184, 34, 34, -1, STR_WARSAW_PACT_OUTPOST_4]
+        - [252, 252, 70, 70, -1, STR_WARSAW_PACT_RESEARCH_STATION_3]
       -
         - [246, 261, 68, 72]
         - [251, 261, 46, 55]
@@ -1739,8 +1739,8 @@ regions:
         - [304, 345, 58, 63]
         - [310, 318, 31, 34]
       -
-        - [321, 321, 39, 39, -1, STR_CHN_MINE]
-        - [318, 318, 69, 69, -1, STR_RUS_OUTPOST_3]
+        - [321, 321, 39, 39, -1, STR_WARSAW_PACT_MINE_COMPLEX]
+        - [318, 318, 69, 69, -1, STR_WARSAW_PACT_OUTPOST_5]
       -
         - [318, 323, 36, 40]
         - [320, 331, 54, 58]
@@ -1793,8 +1793,8 @@ regions:
         - [1, 9, 54, 64]
         - [36, 44, 28, 35]
       -
-        - [52, 52, 24, 24, -1, STR_JPN_OUTPOST_1]
-        - [355, 355, 84, 84, -1, STR_RUS_ICE_PLANT]
+        - [52, 52, 24, 24, -1, STR_WARSAW_PACT_OUTPOST_6]
+        - [355, 355, 84, 84, -1, STR_WARSAW_PACT_ICE_PLANT]
       -
         - [16, 32, 55, 60]
         - [41, 49, 23, 30]
@@ -1842,8 +1842,8 @@ regions:
         - [78, 88, 64, 73]
         - [84, 102, 28, 36]
       -
-        - [98, 98, 48, 48, -1, STR_JPN_R&D]
-        - [104, 104, 20, 20, -1, STR_JPN_OUTPOST_2]
+        - [98, 98, 48, 48, -1, STR_WARSAW_PACT_RESEARCH_STATION_4]
+        - [104, 104, 20, 20, -1, STR_WARSAW_PACT_OUTPOST_7]
       -
         - [92, 105, 9, 12]
         - [75, 92, 44, 51]
@@ -1880,8 +1880,8 @@ regions:
         - [142, 151, 49, 71]
         - [149, 168, 24, 29]
       -
-        - [137, 137, 53, 53, -1, STR_JPN_MANF]
-        - [170, 170, 19, 19, -1, STR_JPN_OUTPOST_3]
+        - [137, 137, 53, 53, -1, STR_WARSAW_PACT_LABORATORY]
+        - [170, 170, 19, 19, -1, STR_WARSAW_PACT_MINE_COMPLEX_2]
       -
         - [166, 178, 15, 23]
         - [116, 137, 57, 64]
@@ -1979,6 +1979,12 @@ customPalettes:
       157: [72, 4, 0]
       158: [60, 0, 0]
       159: [48, 0, 0]
+  - type: PAL_MARS
+    target: PAL_MARS
+    file: Resources/Geoscape/pal_Mars.pal
+  - type: PAL_MARS_LITE
+    target: PAL_MARS_LITE
+    file: Resources/Geoscape/pal_Mars_lite.pal
 
 extraSprites:
   - type: TEXTURE.DAT
@@ -1992,5 +1998,69 @@ extraSprites:
 extraStrings:
   - type: en-US
     strings:
-      STR_ACIDALIA_PLANITIA_LABEL:
-      
+      STR_ACIDALIA_PLANITIA_LABEL: Acidalia Planitia
+      STR_VASTITAS_BOREALIS_LABEL: Vastitas Borealis
+      STR_TERRA_MERIDIANI_LABEL: Terra Meridiani
+      STR_ARABIA_TERRA_LABEL: Arabia Terra
+      STR_ELYSIUM_PLANITIA_LABEL: Elysium Planitia
+      STR_AMAZONIS_PLANITIA_LABEL: Amazonis Planitia
+      STR_OLYMPUS_MONS_LABEL: Olympus Mons
+      STR_VALLES_MARINERIS_LABEL: Valles Marineris
+      STR_TERRA_SIRENUM_LABEL: Terra Sirenum
+      STR_ARGYRE_PLANITIA_LABEL: Argyre Planitia
+      STR_NOACHIS_TERRA_LABEL: Noachis Terra
+      STR_HELLAS_PLANITIA_LABEL: Hellas Planitia
+      STR_TERRA_CIMMERIA_LABEL: Terra Cimmeria
+
+      STR_ACIDALIA_PLANITIA: Acidalia Planitia
+      STR_VASTITAS_BOREALIS: Vastitas Borealis
+      STR_TERRA_MERIDIANI: Terra Meridiani
+      STR_ARABIA_TERRA: Arabia Terra
+      STR_ELYSIUM_PLANITIA: Elysium Planitia
+      STR_AMAZONIS_PLANITIA: Amazonis Planitia
+      STR_OLYMPUS_MONS: Olympus Mons
+      STR_VALLES_MARINERIS: Valles Marineris
+      STR_TERRA_SIRENUM: Terra Sirenum
+      STR_ARGYRE_PLANITIA: Argyre Planitia
+      STR_NOACHIS_TERRA: Noachis Terra
+      STR_HELLAS_PLANITIA: Hellas Planitia
+      STR_TERRA_CIMMERIA: Terra Cimmeria
+      STR_NATO_SECTOR_1: NATO SECTOR 1
+      STR_NATO_SECTOR_2: NATO SECTOR 2
+      STR_NATO_SECTOR_3: NATO SECTOR 3
+      STR_WARSAW_PACT_SECTOR_4: WARSAW PACT SECTOR 4
+      STR_WARSAW_PACT_SECTOR_5: WARSAW PACT SECTOR 5
+      STR_WARSAW_PACT_SECTOR_6: WARSAW PACT SECTOR 6
+      STR_NATO_OUTPOST_1: Jamestown Station
+      STR_NATO_MINING_POST: Clarke Mine Complex
+      STR_NATO_OUTPOST_2: Fort Armstrong
+      STR_NATO_ICE_PLANT: Endeavour Ice Plant
+      STR_NATO_OUTPOST_3: Grissom AFB
+      STR_WARSAW_PACT_OUTPOST_1: Gagarin Station 
+      STR_NATO_OUTPOST_4: Trafalgar Station
+      STR_NATO_LABORATORY: NASA/ESA Mars Hub
+      STR_NATO_RESEARCH_STATION_1: "von Braun R&D Site"
+      STR_NATO_OUTPOST_5: Tarawa USMC Station
+      STR_NATO_RESEARCH_STATION_2: Unity Site
+      STR_NATO_OUTPOST_6: La Bastille Army Base
+      STR_NATO_RESEARCH_STATION_3: Curie Scientific Outpost
+      STR_NATO_OUTPOST_7: Bolzano Station
+      STR_WARSAW_PACT_OUTPOST_2: Zvezda Army Base
+      STR_WARSAW_PACT_RESEARCH_STATION_1: Mir Station
+      STR_WARSAW_PACT_RESEARCH_STATION_2: Salyut Science Base
+      STR_WARSAW_PACT_OUTPOST_3: Magnitogorsk Outpost
+      STR_WARSAW_PACT_OUTPOST_4: Leonov Outpost
+      STR_WARSAW_PACT_RESEARCH_STATION_3: Progress Station
+      STR_WARSAW_PACT_MINE_COMPLEX: Lenin Mine Complex
+      STR_WARSAW_PACT_OUTPOST_5: Sevastopolskaya Base
+      STR_WARSAW_PACT_OUTPOST_6: Cherenkov Outpost
+      STR_WARSAW_PACT_ICE_PLANT: Vladivostok Ice Plant
+      STR_WARSAW_PACT_RESEARCH_STATION_4: Vostok Laboratory
+      STR_WARSAW_PACT_OUTPOST_7: Warsaw Army Base
+      STR_WARSAW_PACT_LABORATORY: Korolev Space Center
+      STR_WARSAW_PACT_MINE_COMPLEX_2: Kruschev Refinery Site
+#      STR_
+#      STR_
+#      STR_  STR_
+#      STR_
+#      STR_ STR_
