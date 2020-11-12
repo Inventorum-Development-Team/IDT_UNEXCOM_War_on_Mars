@@ -10,3 +10,8 @@ X-Jun-2020: UNEXCOM War on Mars v0.1
 *Added UNEXCOM space craft weapons
 	- Casaba Nuclear Lance
 	- Casaba Nuclear Pike
+*Added Gyrojet weapons
+*Added Space-Capable Weapons
+	- Mk119 SCAR Rifle
+	- Mk115 SCHG Pistol
+	- Mk117 SCPDW Submachine-gun
