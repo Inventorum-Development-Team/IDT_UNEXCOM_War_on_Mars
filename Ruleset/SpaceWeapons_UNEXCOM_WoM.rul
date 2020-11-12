@@ -1,0 +1,467 @@
+items:
+######################################
+###### SPACE CAPABLE WEAPONS ########
+####################################
+  - type: STR_MK119_SPACE_RIFLE
+    categories: [STR_SPACE, STR_FIREARMS, STR_UNEXCOM_TECH, STR_CARBINES]
+#    requires:
+#      - STR_USSR_IMPROVED_AQUATIC_WEAPONS
+    size: 0.2
+    costBuy: 3200
+    costSell: 2000
+    weight: 6
+    bigSprite: 1300
+    floorSprite: 1300
+    handSprite: 3300
+    bulletSprite: 2
+    fireSound: 4
+#    reloadSound: [186, 187, 188, 189]
+    compatibleAmmo:
+      - STR_MK119_SPACE_RIFLE_AP_CLIP
+      - STR_MK119_SPACE_RIFLE_FLECHETTE_CLIP
+    accuracyCloseQuarters: 140
+    accuracyAuto: 50
+    accuracySnap: 72
+    accuracyAimed: 85
+    bulletSpeed: 20
+    tuAuto: 25
+    tuSnap: 20
+    tuAimed: 50
+    costThrow:
+      energy: 8
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 80
+    invWidth: 1
+    invHeight: 3
+    autoRange: 16
+    maxRange: 20
+    attraction: 8
+    listOrder: 2052
+#
+  - type: STR_MK119_SPACE_RIFLE_AP_CLIP
+    categories: [STR_SPACE, STR_FIREARMS, STR_UNEXCOM_TECH, STR_PISTOLS]
+#    requires:
+#      - STR_USSR_IMPROVED_AQUATIC_WEAPONS
+    size: 0.1
+    costSell: 250
+    weight: 2
+    bigSprite: 1301
+    hitSound: 16
+    hitAnimation: 26
+    power: 75
+    damageAlter:
+      RandomType: 2
+      IgnoreOverKill: false
+      ToArmor: 2.0
+      RandomWound: false
+    damageType: 1
+    invHeight: 1
+    invWidth: 1
+    clipSize: 26
+    battleType: 2
+  - type: STR_MK119_SPACE_RIFLE_FLECHETTE_CLIP
+    categories: [STR_SPACE, STR_FIREARMS, STR_UNEXCOM_TECH, STR_PISTOLS]
+#    requires:
+#      - STR_USSR_IMPROVED_AQUATIC_WEAPONS
+    size: 0.1
+    costSell: 250
+    weight: 2
+    bigSprite: 1302
+    power: 50
+    damageType: 1
+    clipSize: 26
+    damageAlter:
+      RandomType: 2
+      IgnoreOverKill: false
+      ToWound: 1.8
+      RandomWound: true
+    hitSound: 22
+    hitAnimation: 26
+    invHeight: 1
+    invWidth: 1
+    shotgunBehavior: 1
+    shotgunPellets: 10
+    shotgunSpread: 30
+    battleType: 2
+
+  - type: STR_MK115_SPACE_PISTOL
+    categories: [STR_SPACE, STR_FIREARMS, STR_UNEXCOM_TECH, STR_PISTOLS]
+#    requires:
+#      - STR_USA_IMPROVED_AQUATIC_WEAPONS
+    size: 0.1
+    costBuy: 2500
+    costSell: 900
+    weight: 3
+    bigSprite: 1311
+    floorSprite: 1311
+    handSprite: 3348
+    bulletSprite: 2
+    fireSound: 4
+#    reloadSound: [179, 180, 181, 182]
+    compatibleAmmo:
+      - STR_MK115_SPACE_PISTOL_CLIP
+    accuracySnap: 65
+    accuracyAimed: 70
+    accuracyCloseQuarters: 100
+    kneelBonus: 115
+    tuSnap: 30
+    tuAimed: 35
+    maxRange: 24
+    invHeight: 2
+    invWidth: 1
+    battleType: 1
+    armor: 250
+#    listOrder: 2028
+
+  - type: STR_MK117_SPACE_PDW
+    categories: [STR_SPACE, STR_FIREARMS, STR_UNEXCOM_TECH, STR_SMGS]
+#    requires:
+#      - STR_USA_IMPROVED_AQUATIC_WEAPONS
+    size: 0.1
+    costBuy: 2500
+    costSell: 900
+    weight: 3
+    bigSprite: 1312
+    floorSprite: 1312
+    handSprite: 3356
+    bulletSprite: 2
+    fireSound: 4
+#    reloadSound: [179, 180, 181, 182]
+    compatibleAmmo:
+      - STR_MK115_SPACE_PISTOL_CLIP
+    accuracySnap: 45
+    accuracyAimed: 50
+    accuracyAuto: 45
+    accuracyCloseQuarters: 150
+    kneelBonus: 115
+    tuSnap: 20
+    tuAimed: 35
+    tuAuto: 25
+    invHeight: 2
+    invWidth: 1
+    maxRange: 20
+    battleType: 1
+    armor: 250
+#    listOrder: 2028
+
+  - type: STR_MK115_SPACE_PISTOL_CLIP
+    categories: [STR_SPACE, STR_FIREARMS, STR_UNEXCOM_TECH, STR_PISTOLS, STR_CLIP]
+#    requires:
+#      - STR_USA_IMPROVED_AQUATIC_WEAPONS
+    size: 0.1
+    costSell: 250
+    weight: 2
+    bigSprite: 1313
+    hitSound: 16
+    hitAnimation: 26
+    power: 65
+    damageType: 1
+    clipSize: 20
+    invHeight: 1
+    invWidth: 1
+    battleType: 2
+
+
+  - type: STR_M29_GYROJET_PISTOL
+    categories: [STR_SPACE, STR_FIREARMS, STR_US_TECH, STR_NATO_TECH, STR_USSR_TECH, STR_PISTOLS]
+#    requires:
+#      - STR_USA_IMPROVED_AQUATIC_WEAPONS
+    size: 0.1
+    costBuy: 2500
+    costSell: 900
+    weight: 3
+    bigSprite: 1305
+    floorSprite: 1305
+    handSprite: 3316
+    bulletSprite: 2
+    fireSound: 4
+#    reloadSound: [179, 180, 181, 182]
+    compatibleAmmo:
+      - STR_GYROJET_PISTOL_CLIP
+    accuracySnap: 100
+    accuracyAimed: 130
+    accuracyCloseQuarters: 100
+    kneelBonus: 115
+    tuSnap: 35
+    tuAimed: 45
+    minRange: 4
+    maxRange: 25
+    dropoff: 10
+    invHeight: 2
+    invWidth: 1
+    battleType: 1
+    armor: 250
+#    listOrder: 2028
+
+  - type: STR_GYROJET_PISTOL_CLIP
+    categories: [STR_SPACE, STR_FIREARMS, STR_US_TECH, STR_NATO_TECH, STR_USSR_TECH, STR_PISTOLS]
+#    requires:
+#      - STR_USA_IMPROVED_AQUATIC_WEAPONS
+    size: 0.1
+    costSell: 250
+    weight: 2
+    bigSprite: 1306
+    hitSound: 16
+    hitAnimation: 26
+    power: 70
+    damageType: 1
+    clipSize: 15
+    invHeight: 1
+    invWidth: 1
+    battleType: 2
+
+  - type: STR_M30_GYROJET_RIFLE
+    categories: [STR_SPACE, STR_FIREARMS, STR_SOVIET_TECH, STR_CARBINES]
+#    requires:
+#      - STR_USSR_IMPROVED_AQUATIC_WEAPONS
+    size: 0.2
+    costBuy: 3200
+    costSell: 2000
+    weight: 8
+    bigSprite: 1307
+    floorSprite: 1307
+    handSprite: 3324
+    bulletSprite: 2
+    fireSound: 4
+#    reloadSound: [186, 187, 188, 189]
+    compatibleAmmo:
+      - STR_GYROJET_RIFLE_CLIP
+    accuracyCloseQuarters: 90
+    accuracyAuto: 95
+    accuracySnap: 120
+    accuracyAimed: 180
+    bulletSpeed: 10
+    tuAuto: 55
+    tuSnap: 60
+    tuAimed: 70
+    costThrow:
+      energy: 16
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 60
+    invWidth: 1
+    invHeight: 3
+    minRange: 5
+    maxRange: 35
+    autoRange: 35
+    dropoff: 10
+    attraction: 8
+#    listOrder: 2052
+
+  - type: STR_GYROJET_RIFLE_CLIP
+    categories: [STR_SPACE, STR_FIREARMS, STR_USSR_TECH, STR_PISTOLS]
+#    requires:
+#      - STR_USSR_IMPROVED_AQUATIC_WEAPONS
+    size: 0.1
+    costSell: 250
+    weight: 2
+    bigSprite: 1308
+    hitSound: 16
+    hitAnimation: 26
+    power: 85
+    damageType: 1
+    clipSize: 26
+    battleType: 2
+
+
+  - type: STR_EGR5_GYROJET_RIFLE
+    categories: [STR_SPACE, STR_FIREARMS, STR_SOVIET_TECH, STR_CARBINES]
+#    requires:
+#      - STR_USSR_IMPROVED_AQUATIC_WEAPONS
+    size: 0.2
+    costBuy: 3200
+    costSell: 2000
+    weight: 5
+    bigSprite: 1309
+    floorSprite: 1309
+    handSprite: 3332
+    bulletSprite: 2
+    fireSound: 4
+#    reloadSound: [186, 187, 188, 189]
+    compatibleAmmo:
+      - STR_GYROJET_RIFLE_CLIP
+    accuracyCloseQuarters: 90
+    accuracyAuto: 115
+    accuracySnap: 145
+    accuracyAimed: 200
+    bulletSpeed: 10
+    tuAuto: 65
+    tuSnap: 50
+    tuAimed: 85
+    costThrow:
+      energy: 16
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 60
+    invWidth: 1
+    invHeight: 3
+    minRange: 10
+    maxRange: 40
+    autoRange: 35
+    dropoff: 10
+    attraction: 8
+#    listOrder: 2052
+
+  - type: STR_TKB1973_GYROJET_RIFLE
+    categories: [STR_SPACE, STR_FIREARMS, STR_SOVIET_TECH, STR_CARBINES]
+#    requires:
+#      - STR_USSR_IMPROVED_AQUATIC_WEAPONS
+    size: 0.2
+    costBuy: 3200
+    costSell: 2000
+    weight: 6
+    bigSprite: 1310
+    floorSprite: 1310
+    handSprite: 3340
+    bulletSprite: 2
+    fireSound: 4
+#    reloadSound: [186, 187, 188, 189]
+    compatibleAmmo:
+      - STR_GYROJET_RIFLE_CLIP
+    accuracyCloseQuarters: 90
+    accuracyAuto: 100
+    accuracySnap: 120
+    accuracyAimed: 180
+    bulletSpeed: 10
+    tuAuto: 50
+    tuSnap: 60
+    tuAimed: 80
+    costThrow:
+      energy: 16
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 60
+    invWidth: 1
+    invHeight: 3
+    autoRange: 15
+    maxRange: 25
+    dropoff: 10
+    attraction: 8
+#    listOrder: 2052
+
+ufopaedia:
+########################################
+######## AMMO CLIPS & MAGAZINES ########
+########################################
+  - id: STR_MK119_SPACE_RIFLE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MK119_SPACE_RIFLE_UFOPEDIA
+  - id: STR_MK119_SPACE_RIFLE_AP_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MK119_SPACE_RIFLE_FLECHETTE_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_MK115_SPACE_PISTOL
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MK115_SPACE_PISTOL_UFOPEDIA
+  - id: STR_MK117_SPACE_PDW
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MK117_SPACE_PDW_UFOPEDIA
+  - id: STR_MK115_SPACE_PISTOL_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_M29_GYROJET_PISTOL
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_GYROJET_PISTOL_UFOPEDIA
+
+  - id: STR_GYROJET_PISTOL_CLIP
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_GYROJET_PISTOL_CLIP_UFOPEDIA
+
+  - id: STR_M30_GYROJET_RIFLE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_M30_GYROJET_RIFLE_UFOPEDIA
+
+  - id: STR_GYROJET_RIFLE_CLIP
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_GYROJET_RIFLE_CLIP_UFOPEDIA
+
+  - id: STR_EGR5_GYROJET_RIFLE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_EGR5_GYROJET_RIFLE_UFOPEDIA
+
+  - id: STR_TKB1973_GYROJET_RIFLE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TKB1973_GYROJET_RIFLE_UFOPEDIA
+
+extraSprites:
+#########################################
+######### TIER I WEAPONS USA ############
+#########################################
+  - type: BIGOBS.PCK
+    files:
+      1300: Resources/SpaceWeapons/BigSpaceRifle.png
+      1301: Resources/SpaceWeapons/BigSpaceRifleAPMag.png
+      1302: Resources/SpaceWeapons/BigSpaceRifleFlechetteMag.png
+      1305: Resources/SpaceWeapons/BigM29.png
+      1306: Resources/SpaceWeapons/BigGyrojetPistolMag.png
+      1307: Resources/SpaceWeapons/BigM30.png
+      1308: Resources/SpaceWeapons/BigGyrojetRifleMag.png
+      1309: Resources/SpaceWeapons/BigEGR5.png
+      1310: Resources/SpaceWeapons/BigTKB1973.png
+      1311: Resources/SpaceWeapons/BigSpacePistol.png
+      1312: Resources/SpaceWeapons/BigSpacePDW.png
+      1313: Resources/SpaceWeapons/BigSpacePistolMag.png
+
+  - type: FLOOROB.PCK
+    files:
+      1300: Resources/SpaceWeapons/FloorSpaceRifle.png
+      1305: Resources/SpaceWeapons/FloorM29.png
+      1307: Resources/SpaceWeapons/FloorM30.png
+      1309: Resources/SpaceWeapons/FloorEGR5.png
+      1310: Resources/SpaceWeapons/FloorTKB1973.png
+      1311: Resources/SpaceWeapons/FloorSpacePistol.png
+      1312: Resources/SpaceWeapons/FloorSpacePDW.png
+
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      3300: Resources/SpaceWeapons/HandSpaceRifle.png
+      3316: Resources/SpaceWeapons/HandM29.png
+      3324: Resources/SpaceWeapons/HandM30.png
+      3332: Resources/SpaceWeapons/HandEGR5.png
+      3340: Resources/SpaceWeapons/HandTKB1973.png
+      3348: Resources/SpaceWeapons/HandSpacePistol.png
+      3356: Resources/SpaceWeapons/HandSpacePDW.png
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_MK119_SPACE_RIFLE: Mk119 SCAR
+      STR_MK119_SPACE_RIFLE_AP_CLIP: Mk119 SCAR AP Mag
+      STR_MK119_SPACE_RIFLE_FLECHETTE_CLIP: Mk119 SCAR Shredder Mag
+      STR_MK119_SPACE_RIFLE_UFOPEDIA: "Mk119 Space-Capable Assault Rifle (SCAR). The ammunition used is 4.8x33mm caseless, similar to that proposed for the failed H&K G11 rifle, to prevent any casing from becoming a potential danger in orbit. It includes two variants of the ammunition: AP to break space suits and Shredder, designed to fragment and create a metal cloud."
+      STR_MK115_SPACE_PISTOL: Mk115 SCHG
+      STR_MK115_SPACE_PISTOL_CLIP: Mk115/7 Mag
+      STR_MK115_SPACE_PISTOL_UFOPEDIA: "Mk115 Space-Capable Handgun (SCHG). Small and compact pistol, meant to be used on the harshness of outer space. The gun's handle is wide for easy use with astronaut gloves. It is very accurate, but has slower rate of fire than other weapons. Fires 9x18 caseless ammunition and shares the magazine with the Mk117 SCPDW."
+      STR_MK117_SPACE_PDW: Mk117 SCPDW
+      STR_MK117_SPACE_PDW_UFOPEDIA: "Mk117 Space-Capable Personal Defense Weapon (SCPDW). This automatic, ultra compact machine pistol is made in white polymer ensures that it does not overheat (like the other Space-Capable weapons), although due to the nature of the chemical reaction required to propel projectiles, its rate of fire is limited."
+
+      STR_M29_GYROJET_PISTOL: M29 Gyrojet Pistol
+      STR_M29_GYROJET_PISTOL_UFOPEDIA: Compact and ultra-precise gun, it is famous for being very quiet. It is basically the original model of Gyrojet gun created by the company MBA in the 60s, but adapted to use removable magazines. Soldiers call it 'the space spy gun' because of its stealthy qualities and ability to be used in the total vacuum of space.
+      STR_GYROJET_PISTOL_CLIP: Gyrojet Pistol Magazine
+      STR_GYROJET_PISTOL_CLIP_UFOPEDIA: The Gyrojet ammunition used by our guns is visually similar to a .45 caliber ACP bullet, but over-dimensioned. Its penetration capacity is considerable for a bullet of its size, but it suffers a small disadvantage, consisting of having little initial kinetic energy when the projectile leaves the barrel of the gun, causing it to be inaccurate at short distances. However, it is compact enough to be transported in large quantities.
+      STR_M30_GYROJET_RIFLE: M30 Gyrojet Rifle
+      STR_M30_GYROJET_RIFLE_UFOPEDIA: Co-designed with the original creators of the Gyrojet concept, MBA and the American company Colt, this combat rifle is visually identical to the Gyrojet rifle presented by MBA to the U.S. Army a few years ago, but internally it is slightly different. The firing mechanism was adapted so that it can be fed with removable magazines, instead of the internal fixed magazine of the original model, and the wood was replaced with polymers qualified for use in space.
+      STR_GYROJET_RIFLE_CLIP: Gyrojet Rifle Magazine
+      STR_GYROJET_RIFLE_CLIP_UFOPEDIA: This is a heavy variant of the Gyrojet bullets. Its particular advantage is that its size (similar to a 7.62x51mm projectile) allows the addition of a greater amount of fuel, as well as a stronger tip to penetrate better enemy armor. It has the same disadvantage of lightweight Gyrojet bullets, requiring a short time to acquire full speed and power. But there is the possibility that the projectile will deflect over short distances.
+      STR_EGR5_GYROJET_RIFLE: EGR-5 Gyrojet Rifle
+      STR_EGR5_GYROJET_RIFLE_UFOPEDIA: The fifth prototype of the European Gyrojet Rifle project was selected to be produced to equip NATO troops fighting in outer space. It is very inspired by the British EM-2 rifle, with a bullpup design. This new model is designed by Enfield and produced by the brilliant technicians of H&K and FN Herstal, with an accuracy of 100% guaranteed in ballistic tests in variable gravity environments. It includes a modern x4 magnification sight to increase long-range aiming.
+      STR_TKB1973_GYROJET_RIFLE: TKB-1973 Gyrojet Rifle
+      STR_TKB1973_GYROJET_RIFLE_UFOPEDIA: Nicknamed (incorrectly) 'Space Kalash' by western soldiers who have seen it in action, this novel rifle created by the Tula Arms Factory and designed by the (little known) genius German A. Korobov, is based on a prototype created in the 60s originally called TKB-022PM. This rifle is very effective, approximately twice as accurate as an AKM, and has been adapted to fire the new Gyrojet projectiles with more than promising results.ng results.ng results.
