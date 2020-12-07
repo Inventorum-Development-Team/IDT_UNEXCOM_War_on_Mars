@@ -10,55 +10,55 @@ globe:
       terrain:
         - name: MARS
           area: [0, 360, -90, 0]
-        - name: MARS
+        - name: IDT_MARS
           area: [0, 360, 0, 90]
     - id: 1
       terrain:
         - name: MARS
           area: [0, 360, -90, 0]
-        - name: MARS
+        - name: IDT_MARS
           area: [0, 360, 0, 90]
     - id: 2
       terrain:
         - name: MARS
           area: [0, 360, -90, 0]
-        - name: MARS
+        - name: IDT_MARS
           area: [0, 360, 0, 90]
     - id: 3
       terrain:
         - name: MARS
           area: [0, 360, -90, 0]
-        - name: MARS
+        - name: IDT_MARS
           area: [0, 360, 0, 90]
     - id: 4
       terrain:
         - name: MARS
           area: [0, 360, -90, 0]
-        - name: MARS
+        - name: IDT_MARS
           area: [0, 360, 0, 90]
     - id: 5
       terrain:
         - name: MARS
           area: [0, 360, -90, 0]
-        - name: MARS
+        - name: IDT_MARS
           area: [0, 360, 0, 90]
     - id: 6
       terrain:
         - name: MARS
           area: [0, 360, -90, 0]
-        - name: MARS
+        - name: IDT_MARS
           area: [0, 360, 0, 90]
     - id: 7
       terrain:
         - name: MARS
           area: [0, 360, -90, 0]
-        - name: MARS
+        - name: IDT_MARS
           area: [0, 360, 0, 90]
     - id: 8
       terrain:
         - name: MARS
           area: [0, 360, -90, 0]
-        - name: MARS
+        - name: IDT_MARS
           area: [0, 360, 0, 90]
     - id: 9
       terrain:
@@ -70,13 +70,13 @@ globe:
       terrain:
         - name: MARS
           area: [0, 360, -90, 0]
-        - name: MARS
+        - name: IDT_MARS
           area: [0, 360, 0, 90]
     - id: 11
       terrain:
         - name: MARS
           area: [0, 360, -90, 0]
-        - name: MARS
+        - name: IDT_MARS
           area: [0, 360, 0, 90]
     - id: 12
       terrain:
@@ -2059,6 +2059,7 @@ extraStrings:
       STR_WARSAW_PACT_OUTPOST_7: Warsaw Army Base
       STR_WARSAW_PACT_LABORATORY: Korolev Space Center
       STR_WARSAW_PACT_MINE_COMPLEX_2: Kruschev Refinery Site
+      MAP_IDT_MARS: Rocky Mars Terrain
 #      STR_
 #      STR_
 #      STR_  STR_

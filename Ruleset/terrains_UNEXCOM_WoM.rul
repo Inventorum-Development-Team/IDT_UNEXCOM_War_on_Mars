@@ -41,3 +41,59 @@ terrains:
         width: 10
         length: 10
         groups: 2
+  - name: IDT_MARS
+    mapDataSets:
+      - BLANKS
+      - IDT_MARS
+    mapBlocks:
+      - name: IDT_MARS00
+        width: 10
+        length: 10
+        groups: 1
+      - name: IDT_MARS01
+        width: 10
+        length: 10
+        groups: 1
+      - name: IDT_MARS02
+        width: 10
+        length: 10
+        groups: 1
+      - name: IDT_MARS03
+        width: 10
+        length: 10
+      - name: IDT_MARS04
+        width: 10
+        length: 10
+      - name: IDT_MARS05
+        width: 10
+        length: 10
+      - name: IDT_MARS06
+        width: 10
+        length: 10
+      - name: IDT_MARS07
+        width: 10
+        length: 10
+      - name: IDT_MARS08
+        width: 10
+        length: 10
+      - name: IDT_MARS09
+        width: 10
+        length: 10
+      - name: IDT_MARS10
+        width: 10
+        length: 10
+      - name: IDT_MARS11
+        width: 20
+        length: 20
+      - name: IDT_MARS12
+        width: 20
+        length: 20
+      - name: IDT_MARS13
+        width: 10
+        length: 10
+      - name: IDT_MARS14
+        width: 10
+        length: 10
+      - name: IDT_MARS15
+        width: 10
+        length: 10
