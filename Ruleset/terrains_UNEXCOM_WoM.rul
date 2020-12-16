@@ -1,5 +1,7 @@
 terrains:
+#IDT - efrenespartano
   - name: MARS
+    enviroEffects: STR_MARS_ENVIRO
     mapDataSets:
       - BLANKS
       - MARS_NEW
@@ -42,6 +44,7 @@ terrains:
         length: 10
         groups: 2
   - name: IDT_MARS
+    enviroEffects: STR_MARS_ENVIRO
     mapDataSets:
       - BLANKS
       - IDT_MARS
@@ -97,3 +100,176 @@ terrains:
       - name: IDT_MARS15
         width: 10
         length: 10
+# cevaralien
+  - name: MARSMOUNT
+#    script: DEFAULT
+    enviroEffects: STR_MARS_ENVIRO
+    mapDataSets:
+      - BLANKS
+      - MARSMOUNT
+    mapBlocks:
+      - name: MARSMOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MARSMOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MARSMOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MARSMOUNT03
+        width: 10
+        length: 10
+      - name: MARSMOUNT04
+        width: 10
+        length: 10
+      - name: MARSMOUNT05
+        width: 10
+        length: 10
+      - name: MARSMOUNT06
+        width: 10
+        length: 10
+      - name: MARSMOUNT07
+        width: 10
+        length: 10
+      - name: MARSMOUNT08
+        width: 10
+        length: 10
+      - name: MARSMOUNT09
+        width: 10
+        length: 10
+      - name: MARSMOUNT10
+        width: 10
+        length: 10
+      - name: MARSMOUNT11
+        width: 20
+        length: 20
+      - name: MARSMOUNT12
+        width: 20
+        length: 20
+  - name: MARSURBAN
+    script: MARSURBAN
+    enviroEffects: STR_MARS_ENVIRO
+    mapDataSets:
+      - BLANKS
+      - MARS
+      - U_WALL02M
+      - MARSURBAN
+    mapBlocks:
+      - name: MARSURBAN00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MARSURBAN01
+        width: 10
+        length: 10
+      - name: MARSURBAN02
+        width: 10
+        length: 10
+      - name: MARSURBAN03
+        width: 10
+        length: 10
+      - name: MARSURBAN04
+        width: 10
+        length: 10
+      - name: MARSURBAN05
+        width: 10
+        length: 10
+      - name: MARSURBAN06
+        width: 10
+        length: 10
+      - name: MARSURBAN07
+        width: 10
+        length: 10
+      - name: MARSURBAN08
+        width: 10
+        length: 10
+      - name: MARSURBAN09
+        width: 10
+        length: 10
+      - name: MARSURBAN10
+        width: 10
+        length: 10
+  - name: MARSPLAIN
+#    script: DEFAUL
+    enviroEffects: STR_MARS_ENVIRO
+    mapDataSets:
+      - BLANKS
+      - MARSPLAIN
+    mapBlocks:
+      - name: MARSPLAIN00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MARSPLAIN01
+        width: 10
+        length: 10
+      - name: MARSPLAIN02
+        width: 10
+        length: 10
+      - name: MARSPLAIN03
+        width: 10
+        length: 10
+      - name: MARSPLAIN04
+        width: 10
+        length: 10
+      - name: MARSPLAIN05
+        width: 10
+        length: 10
+      - name: MARSPLAIN06
+        width: 10
+        length: 10
+      - name: MARSPLAIN07
+        width: 10
+        length: 10
+      - name: MARSPLAIN08
+        width: 10
+        length: 10
+      - name: MARSPLAIN09
+        width: 20
+        length: 20
+  - name: MARSCRATER
+#    script: DEFAULT
+    enviroEffects: STR_MARS_ENVIRO
+    mapDataSets:
+      - BLANKS
+      - MARS_NEW
+    mapBlocks:
+      - name: MARSCRATER00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MARSCRATER01
+        width: 10
+        length: 10
+      - name: MARSCRATER02
+        width: 10
+        length: 10
+      - name: MARSCRATER03
+        width: 10
+        length: 10
+      - name: MARSCRATER04
+        width: 10
+        length: 10
+      - name: MARSCRATER05
+        width: 10
+        length: 10
+      - name: MARSCRATER06
+        width: 10
+        length: 10
+
+mapScripts:
+  - type: MARSURBAN
+    commands:
+    - type: addCraft
+    - type: addBlock
+      groups: 2
+    - type: fillArea
+      verticalLevels:
+      - type: ground
+        size: [1, 1, 1]
+        blocks: [1, 2, 3, 4, 5, 6, 7, 8, 9 ,10]
+        freqs: [3, 3, 2, 2, 2, 2, 1, 1, 1, 1]
