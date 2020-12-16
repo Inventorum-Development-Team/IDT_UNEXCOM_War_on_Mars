@@ -1,3 +1,17 @@
+#0.- Smoth land
+#1.- Smooth Crater-ridden land
+#2.- Hilly lava plains (lots of hills, for sure!)
+#3.- Plains with dry lava channels
+#4.- Dark lava plain with craters
+#5.- Unused
+#6.- Unused
+#7.- Volcanic plains, very high land. Light color
+#8.- Other volcanic high plains, but a little lower than the 7. Light color
+#9.- Snow
+#10.- Dark, mottled, smooth lava plains aka "seas"
+#11.- Deep canyon terrain
+#12.- Permafrost ice on the poles
+
 globe:
   data: Resources/Geoscape/WORLD.DAT
   oceanPalette: 12
@@ -6,79 +20,91 @@ globe:
   baseColor: 133
   lineColor: 162
   textures:
-    - id: 0
+    - id: 0 # Smoth land
+      startingCondition: STR_MARS_CONDITION
       terrain:
         - name: MARS
           area: [0, 360, -90, 0]
         - name: IDT_MARS
           area: [0, 360, 0, 90]
-    - id: 1
+    - id: 1 # Smooth Crater-ridden land
+      startingCondition: STR_MARS_CONDITION
+      terrain:
+        - name: MARSPLAIN
+          area: [0, 360, -90, 0]
+        - name: MARSCRATER
+          area: [0, 360, 0, 90]
+    - id: 2 # Hilly lava plains (lots of hills, for sure!)
+      startingCondition: STR_MARS_CONDITION
+      terrain:
+        - name: MARSURBAN
+          area: [0, 360, -90, 0]
+        - name: IDT_MARS
+          area: [0, 360, 0, 90]
+    - id: 3 # Plains with dry lava channels
+      startingCondition: STR_MARS_CONDITION 
+      terrain:
+        - name: MARSPLAIN
+          area: [0, 360, -90, 0]
+        - name: IDT_MARS
+          area: [0, 360, 0, 90]
+    - id: 4 # Dark lava plain with craters
+      startingCondition: STR_MARS_CONDITION   
+      terrain:
+        - name: MARS
+          area: [0, 360, -90, 0]
+        - name: MARSCRATER
+          area: [0, 360, 0, 90]
+    - id: 5 # Unused
+      startingCondition: STR_MARS_CONDITION
       terrain:
         - name: MARS
           area: [0, 360, -90, 0]
         - name: IDT_MARS
           area: [0, 360, 0, 90]
-    - id: 2
+    - id: 6 # Unused
       terrain:
         - name: MARS
           area: [0, 360, -90, 0]
         - name: IDT_MARS
           area: [0, 360, 0, 90]
-    - id: 3
+    - id: 7 # Volcanic plains, very high land. Light color
+      startingCondition: STR_MARS_CONDITION
       terrain:
         - name: MARS
           area: [0, 360, -90, 0]
         - name: IDT_MARS
           area: [0, 360, 0, 90]
-    - id: 4
+    - id: 8 # Other volcanic high plains, but a little lower than the 7. Light color
+      startingCondition: STR_MARS_CONDITION
       terrain:
         - name: MARS
           area: [0, 360, -90, 0]
         - name: IDT_MARS
           area: [0, 360, 0, 90]
-    - id: 5
-      terrain:
-        - name: MARS
-          area: [0, 360, -90, 0]
-        - name: IDT_MARS
-          area: [0, 360, 0, 90]
-    - id: 6
-      terrain:
-        - name: MARS
-          area: [0, 360, -90, 0]
-        - name: IDT_MARS
-          area: [0, 360, 0, 90]
-    - id: 7
-      terrain:
-        - name: MARS
-          area: [0, 360, -90, 0]
-        - name: IDT_MARS
-          area: [0, 360, 0, 90]
-    - id: 8
-      terrain:
-        - name: MARS
-          area: [0, 360, -90, 0]
-        - name: IDT_MARS
-          area: [0, 360, 0, 90]
-    - id: 9
+    - id: 9 # Snow
+      startingCondition: STR_MARS_CONDITION
       terrain:
         - name: POLAR
           area: [0, 360, -90, 0]
         - name: POLAR
           area: [0, 360, 0, 90]
-    - id: 10
+    - id: 10 # Dark, mottled, smooth lava plains aka "seas"
+      startingCondition: STR_MARS_CONDITION
       terrain:
         - name: MARS
           area: [0, 360, -90, 0]
         - name: IDT_MARS
           area: [0, 360, 0, 90]
-    - id: 11
+    - id: 11 # Deep canyon terrain
+      startingCondition: STR_MARS_CONDITION
       terrain:
         - name: MARS
           area: [0, 360, -90, 0]
         - name: IDT_MARS
           area: [0, 360, 0, 90]
-    - id: 12
+    - id: 12 # Permafrost ice on the poles
+      startingCondition: STR_MARS_CONDITION
       terrain:
         - name: POLAR
     - id: -1
@@ -1958,6 +1984,11 @@ extraGlobeLabels:
     labelLat: 30
     labelColor: 10 # blinding red-yellow
     zoomLevel: 2 # no zoom
+  - type: STR_THARSIS_MONTES_LABEL
+    labelLon: 252
+    labelLat: -8
+    labelColor: 10 # blinding red-yellow
+    zoomLevel: 2 # no zoom
 
 customPalettes:
   - type: PALETTE_MARS_GEOSCAPE
@@ -2011,6 +2042,7 @@ extraStrings:
       STR_NOACHIS_TERRA_LABEL: Noachis Terra
       STR_HELLAS_PLANITIA_LABEL: Hellas Planitia
       STR_TERRA_CIMMERIA_LABEL: Terra Cimmeria
+      STR_THARSIS_MONTES_LABEL: Tharsis Montes
 
       STR_ACIDALIA_PLANITIA: Acidalia Planitia
       STR_VASTITAS_BOREALIS: Vastitas Borealis
@@ -2059,7 +2091,13 @@ extraStrings:
       STR_WARSAW_PACT_OUTPOST_7: Warsaw Army Base
       STR_WARSAW_PACT_LABORATORY: Korolev Space Center
       STR_WARSAW_PACT_MINE_COMPLEX_2: Kruschev Refinery Site
-      MAP_IDT_MARS: Rocky Mars Terrain
+
+      MAP_IDT_MARS: Southern Rocky Highlands
+      MAP_MARS:  Alien Military Base
+      MAP_MARSMOUNT: Southern Highlands
+      MAP_MARSURBAN: Alien Civilian Complex
+      MAP_MARSPLAIN: Nothern Lowlands
+      MAP_MARSCRATER: Southern Plains
 #      STR_
 #      STR_
 #      STR_  STR_
