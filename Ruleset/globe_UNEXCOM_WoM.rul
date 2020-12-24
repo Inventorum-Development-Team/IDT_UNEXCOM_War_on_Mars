@@ -23,7 +23,7 @@ globe:
     - id: 0 # Smoth land
       startingCondition: STR_MARS_CONDITION
       terrain:
-        - name: MARS
+        - name: IDT_HUMAN_STATION
           area: [0, 360, -90, 0]
         - name: IDT_MARS
           area: [0, 360, 0, 90]
@@ -2098,6 +2098,7 @@ extraStrings:
       MAP_MARSURBAN: Alien Civilian Complex
       MAP_MARSPLAIN: Nothern Lowlands
       MAP_MARSCRATER: Southern Plains
+      MAP_IDT_HUMAN_STATION: Human R&D Station
 #      STR_
 #      STR_
 #      STR_  STR_

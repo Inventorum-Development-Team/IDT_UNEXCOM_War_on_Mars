@@ -1,4 +1,4 @@
-X-Jun-2020: UNEXCOM War on Mars v0.1
+X-Dic-2020: UNEXCOM War on Mars v0.1
 *Added BFM original globe data, made by liberation
 *Added new Mars textures, drawn by Hans Woofington
 *Starting to add extraStrings to Mars landmarks
@@ -15,3 +15,12 @@ X-Jun-2020: UNEXCOM War on Mars v0.1
 	- Mk119 SCAR Rifle
 	- Mk115 SCHG Pistol
 	- Mk117 SCPDW Submachine-gun
+*Added Mars terrains
+    - Southern Rocky Highlands
+    - Alien Military Base
+    - Human R&D Station
+*Added Mars terrains made by cevaralien
+    - Southern Highlands
+    - Alien Civilian Complex
+    - Nothern Lowlands
+    - Southern Plains

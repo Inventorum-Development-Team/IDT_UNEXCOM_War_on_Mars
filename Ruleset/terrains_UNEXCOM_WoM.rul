@@ -100,6 +100,53 @@ terrains:
       - name: IDT_MARS15
         width: 10
         length: 10
+
+  - name: IDT_HUMAN_STATION
+    mapDataSets:
+      - BLANKS
+      - MARS_SAND
+      - IDT_RESEARCH_STATION
+    script: HUMAN_STATION_UFO
+    enviroEffects: STR_MARS_ENVIRO
+    mapBlocks:
+      - name: IDT_HUMAN_STATION00
+        width: 10
+        length: 10
+        groups: 1
+      - name: IDT_HUMAN_STATION01
+        width: 10
+        length: 10
+      - name: IDT_HUMAN_STATION02
+        width: 10
+        length: 10
+      - name: IDT_HUMAN_STATION03
+        width: 10
+        length: 10
+      - name: IDT_HUMAN_STATION04
+        width: 10
+        length: 10
+      - name: IDT_HUMAN_STATION05
+        width: 10
+        length: 10
+      - name: IDT_HUMAN_STATION06
+        width: 10
+        length: 10
+      - name: IDT_HUMAN_STATION07
+        width: 10
+        length: 10
+      - name: IDT_HUMAN_STATION08
+        width: 20
+        length: 20
+      - name: IDT_HUMAN_STATION09
+        width: 20
+        length: 20
+      - name: IDT_HUMAN_STATION10
+        width: 20
+        length: 20
+      - name: IDT_HUMAN_STATION11
+        width: 20
+        length: 20
+
 # cevaralien
   - name: MARSMOUNT
 #    script: DEFAULT
@@ -273,3 +320,12 @@ mapScripts:
         size: [1, 1, 1]
         blocks: [1, 2, 3, 4, 5, 6, 7, 8, 9 ,10]
         freqs: [3, 3, 2, 2, 2, 2, 1, 1, 1, 1]
+
+  - type: HUMAN_STATION_UFO
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: fillArea
