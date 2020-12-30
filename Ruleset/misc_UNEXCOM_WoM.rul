@@ -1,3 +1,99 @@
+itemCategories:
+  - type: STR_TANKS
+    listOrder: 1
+  - type: STR_ARMORED_CARS
+    listOrder: 2
+  - type: STR_LIGHT_TANKS
+    listOrder: 3
+  - type: STR_HEAVY_TANKS
+    listOrder: 4
+  - type: STR_TANK_AMMO
+    listOrder: 6
+  - type: STR_AIRCRAFT_WEAPONS
+    listOrder: 7
+  - type: STR_GATLING_CANNONS
+    listOrder: 8
+  - type: STR_REVOLVER_CANNONS
+    listOrder: 9
+  - type: STR_LIGHT_MISSILES
+    listOrder: 10
+  - type: STR_HEAVY_MISSILES
+    listOrder: 11
+  - type: STR_SUPER_HEAVY_MISSILES
+    listOrder: 12
+  - type: STR_AUX
+    listOrder: 13
+  - type: STR_ROCKETS
+    listOrder: 14
+  - type: STR_BALLISTIC
+    listOrder: 15
+  - type: STR_LASER
+    listOrder: 16
+  - type: STR_ALLOY
+    listOrder: 16
+  - type: STR_SMART
+    listOrder: 18
+  - type: STR_PLASMA
+    listOrder: 17
+  - type: STR_TIER_1
+    listOrder: 18
+  - type: STR_TIER_2
+    listOrder: 19
+  - type: STR_TIER_3
+    listOrder: 20
+  - type: STR_TIER_4
+    listOrder: 21
+  - type: STR_FIREARMS
+    listOrder: 25
+  - type: STR_CLIPS
+    listOrder: 30
+  - type: STR_UNEXCOM_TECH
+    listOrder: 39
+  - type: STR_US_TECH
+    listOrder: 40
+  - type: STR_NATO_TECH
+    listOrder: 50
+  - type: STR_SOVIET_TECH
+    listOrder: 60
+  - type: STR_CIVILIAN_TECH
+    listOrder: 70
+  - type: STR_SPECIAL_FORCES_TECH
+    listOrder: 72
+  - type: STR_MERCENARY_TECH
+    listOrder: 73
+  - type: STR_WEAPON_CONVERSION
+    listOrder: 74
+  - type: STR_PISTOLS
+    listOrder: 80
+  - type: STR_RIFLES
+    listOrder: 90
+  - type: STR_CARBINES
+    listOrder: 100
+  - type: STR_SMGS
+    listOrder: 110
+  - type: STR_SNIPER_RIFLES
+    listOrder: 120
+  - type: STR_SHOTGUNS
+    listOrder: 130
+  - type: STR_ARTILLERY
+    listOrder: 140
+  - type: STR_LMGS
+    listOrder: 150
+  - type: STR_CUSTOM_WEAPON
+    listOrder: 160
+  - type: STR_MELEE
+    listOrder: 170
+  - type: STR_LIGHT_EQUIPMENT
+    listOrder: 180
+  - type: STR_MEDICAL
+    listOrder: 190
+  - type: STR_EXPLOSIVES
+    listOrder: 200
+  - type: STR_MISC
+    listOrder: 210
+  - type: STR_ALIEN_TECH
+    listOrder: 210
+
 enviroEffects:
   - type: STR_MARS_ENVIRO
     mapBackgroundColor: 46
@@ -35,3 +131,439 @@ startingConditions:
       - STR_SPACE
     allowedCraft:
       - STR_SPACE_SHUTTLE
+
+extraStrings:
+  - type: en-US
+    strings:
+###########################################
+############## MISC ################
+#######################################
+      STR_OPENXCOM: "UNEXCOM: War on Mars"
+      STR_NEW_GAME: "Martian Campaign"
+      STR_NEW_BATTLE: "Firefights"
+      STR_MISSION_GENERATOR: "THE FIGHT FOR THE RED PLANET"
+      STR_XCOM_OPERATIVES_KILLED: "UN SOLDIERS KILLED"
+      STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "UN SOLDIERS M.I.A."
+      STR_XCOM_CRAFT_LOST: "UN CRAFT LOST"
+
+###########################################
+############## CATEGORIES ################
+#######################################
+      STR_BALLISTIC: Ballistic Weapons
+      STR_LASER: Laser Weapons
+      STR_PLASMA: Plasma Weapons
+      STR_ALLOY: "Alloy Weapons"
+      STR_SMART: Smart Weapons
+      STR_TANKS: Tanks
+      STR_ARMORED_CARS: Armored Cars
+      STR_LIGHT_TANKS: Light Tanks
+      STR_HEAVY_TANKS: Heavy Tanks
+      STR_TANK_AMMO: Tank Ammo
+      STR_AIRCRAFT_WEAPONS: Aircraft Weapons
+      STR_GATLING_CANNONS: Gatling Cannons
+      STR_REVOLVER_CANNONS: Revolver Cannons
+      STR_LIGHT_MISSILES: Light Missiles
+      STR_HEAVY_MISSILES: Heavy Missiles
+      STR_SUPER_HEAVY_MISSILES: Super Heavy Missiles
+      STR_AUX: AUX Units
+      STR_ROCKETS: Rocket Pods
+      STR_TIER_1: Tier 1
+      STR_TIER_2: Tier 2
+      STR_TIER_3: Tier 3
+      STR_TIER_4: Tier 4
+      STR_FIREARMS: Firearms
+      STR_CLIPS: Ammo
+      STR_UNEXCOM_TECH: UNEXCOM Tech
+      STR_US_TECH: US Tech
+      STR_NATO_TECH: NATO Tech
+      STR_SOVIET_TECH: Soviet Tech
+      STR_CIVILIAN_TECH: Civilian Tech
+      STR_SPECIAL_FORCES_TECH: Special Forces Tech
+      STR_MERCENARY_TECH: Mercenary Tech
+      STR_WEAPON_CONVERSION: "Weapon Conversion"
+      STR_ALIEN_TECH: Alien Tech
+      STR_PISTOLS: Pistols
+      STR_RIFLES: Rifles
+      STR_CARBINES: Carbines
+      STR_SMGS: Submachine Guns
+      STR_LMGS: Light Machine Guns
+      STR_SNIPER_RIFLES: Sniper Rifles
+      STR_SHOTGUNS: Shotguns
+      STR_ARTILLERY: Artillery
+      STR_EXPLOSIVES: Explosives
+      STR_MELEE: Melee
+      STR_MISC: Misc Items
+      STR_LIGHT_EQUIPMENT: Light Equipment
+      STR_MEDICAL: Medical Equipment
+      STR_CUSTOM_WEAPON: Custom Weapons
+      STR_AIRCRAFTS: Aircrafts
+      STR_TRANSPORTS: Transports
+      STR_FIGHTERS: Fighters
+      STR_BOMBERS: Bombers
+      STR_VTOL_TRANSPORTS: VTOL Transports
+      STR_PARATROOPER_TRANSPORTS: Paratrooper Transports
+      STR_RECON_SATELLITES: Recon Satellites
+      STR_CRAFT_WEAPONS: Craft Weapons
+
+      STR_MT_RATING_EXEMPLARY: "Vini. Vidi. Vinci"
+      STR_MT_RATING_EXCELLENT: Excellent!
+      STR_MT_RATING_GREAT: Great
+      STR_MT_RATING_GOOD: The tide is turning
+      STR_MT_RATING_OK: The war continues
+      STR_MT_RATING_POOR: Hold your ground!
+      STR_MT_RATING_BAD: We are losing ground!
+      STR_MT_RATING_TERRIBLE: Preparing evactuation
+      STR_MT_RATING_ABOMINABLE: We lost Mars
+
+extraSprites:
+##########################################
+############ BACKGROUNDS #################
+##########################################
+  - type: BACK01.SCR #Main
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK01.PNG
+  - type: BACK02.SCR #soldier
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK02.PNG
+  - type: BACK04.SCR #base defense/equipment selection
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK04.PNG
+  - type: BACK05.SCR #research
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK05.PNG
+  - type: BACK12.SCR #launch interceptor
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK12.PNG
+  - type: BACK13.SCR #buy stuff, purschase things
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK13.PNG
+  - type: BACK14.SCR #equip craft
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK14.PNG
+  - type: BACK15.SCR #land at crash/landing site
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK15.PNG
+  - type: BACK16.SCR #mission briefing
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK16.PNG
+  - type: BACK17.SCR #manufacture
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK17.PNG
+
+items:
+#DELETE
+  - delete: STR_PISTOL
+  - delete: STR_PISTOL_CLIP
+  - delete: STR_RIFLE
+  - delete: STR_RIFLE_CLIP
+  - delete: STR_HEAVY_CANNON
+  - delete: STR_HC_AP_AMMO
+  - delete: STR_HC_I_AMMO
+  - delete: STR_HC_HE_AMMO
+  - delete: STR_AUTO_CANNON
+  - delete: STR_AC_AP_AMMO
+  - delete: STR_AC_I_AMMO
+  - delete: STR_AC_HE_AMMO
+  - delete: STR_ROCKET_LAUNCHER
+  - delete: STR_SMALL_ROCKET
+  - delete: STR_LARGE_ROCKET
+  - delete: STR_INCENDIARY_ROCKET
+  - delete: STR_PROXIMITY_GRENADE
+  - delete: STR_HIGH_EXPLOSIVE
+  - delete: STR_ELECTRO_FLARE
+  - delete: STR_MOTION_SCANNER
+  - delete: STR_STUN_ROD
+  - delete: STR_PSI_AMP
+  - delete: STR_MEDI_KIT
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - delete: STR_PLASMA_PISTOL
+  - delete: STR_PLASMA_PISTOL_CLIP
+  - delete: STR_PLASMA_RIFLE
+  - delete: STR_PLASMA_RIFLE_CLIP
+  - delete: STR_HEAVY_PLASMA
+  - delete: STR_HEAVY_PLASMA_CLIP
+  - delete: STR_BLASTER_LAUNCHER
+  - delete: STR_BLASTER_BOMB
+  - delete: STR_SMALL_LAUNCHER
+  - delete: STR_STUN_BOMB
+  - delete: STR_MIND_PROBE
+  - delete: STR_ALIEN_GRENADE
+  - delete: STR_STINGRAY_LAUNCHER
+  - delete: STR_STINGRAY_MISSILES
+  - delete: STR_AVALANCHE_LAUNCHER
+  - delete: STR_AVALANCHE_MISSILES
+  - delete: STR_CANNON
+  - delete: STR_CANNON_ROUNDS_X50
+
+manufacture:
+  - delete: STR_MOTION_SCANNER
+  - delete: STR_STUN_ROD
+  - delete: STR_PSI_AMP
+  - delete: STR_MEDI_KIT
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - delete: STR_PLASMA_PISTOL
+  - delete: STR_PLASMA_PISTOL_CLIP
+  - delete: STR_PLASMA_RIFLE
+  - delete: STR_PLASMA_RIFLE_CLIP
+  - delete: STR_HEAVY_PLASMA
+  - delete: STR_HEAVY_PLASMA_CLIP
+  - delete: STR_BLASTER_LAUNCHER
+  - delete: STR_BLASTER_BOMB
+  - delete: STR_SMALL_LAUNCHER
+  - delete: STR_STUN_BOMB
+  - delete: STR_MIND_PROBE
+  - delete: STR_ALIEN_GRENADE
+  - delete: STR_LIGHTNING
+  - delete: STR_AVENGER
+  - delete: STR_FIRESTORM
+
+craftWeapons:
+#<delete>
+  - delete: STR_STINGRAY
+  - delete: STR_AVALANCHE
+  - delete: STR_CANNON_UC
+  - delete: STR_FUSION_BALL_UC
+  - delete: STR_LASER_CANNON_UC
+  - delete: STR_PLASMA_BEAM_UC
+
+crafts:
+#<delete>
+  - delete: STR_AVENGER
+  - delete: STR_LIGHTNING
+  - delete: STR_INTERCEPTOR
+  - delete: STR_FIRESTORM
+
+ufopaedia:
+#<delete>
+  - delete: STR_PISTOL
+  - delete: STR_PISTOL_CLIP
+  - delete: STR_RIFLE
+  - delete: STR_RIFLE_CLIP
+  - delete: STR_HEAVY_CANNON
+  - delete: STR_HC_AP_AMMO
+  - delete: STR_HC_I_AMMO
+  - delete: STR_HC_HE_AMMO
+  - delete: STR_AUTO_CANNON
+  - delete: STR_AC_AP_AMMO
+  - delete: STR_AC_I_AMMO
+  - delete: STR_AC_HE_AMMO
+  - delete: STR_ROCKET_LAUNCHER
+  - delete: STR_SMALL_ROCKET
+  - delete: STR_LARGE_ROCKET
+  - delete: STR_INCENDIARY_ROCKET
+  - delete: STR_PROXIMITY_GRENADE
+  - delete: STR_HIGH_EXPLOSIVE
+  - delete: STR_ELECTRO_FLARE
+  - delete: STR_MOTION_SCANNER
+  - delete: STR_STUN_ROD
+  - delete: STR_PSI_AMP
+  - delete: STR_MEDI_KIT
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - delete: STR_PLASMA_PISTOL
+  - delete: STR_PLASMA_PISTOL_CLIP
+  - delete: STR_PLASMA_RIFLE
+  - delete: STR_PLASMA_RIFLE_CLIP
+  - delete: STR_HEAVY_PLASMA
+  - delete: STR_HEAVY_PLASMA_CLIP
+  - delete: STR_BLASTER_LAUNCHER
+  - delete: STR_BLASTER_BOMB
+  - delete: STR_SMALL_LAUNCHER
+  - delete: STR_STUN_BOMB
+  - delete: STR_MIND_PROBE
+  - delete: STR_ALIEN_GRENADE
+  - delete: STR_ELERIUM_115
+  - delete: STR_AVENGER
+  - delete: STR_LIGHTNING
+  - delete: STR_INTERCEPTOR
+  - delete: STR_FIRESTORM
+  - delete: STR_STINGRAY
+  - delete: STR_AVALANCHE
+  - delete: STR_CANNON_UC
+  - delete: STR_FUSION_BALL_UC
+  - delete: STR_LASER_CANNON_UC
+  - delete: STR_PLASMA_BEAM_UC
+
+invs:
+  - id: STR_GROUND
+    costs:
+      STR_QD_SLOT: 20
+      STR_BACK_PACK: 20
+      STR_BELT: 18
+      STR_LEFT_HAND: 14
+      STR_LEFT_LEG: 16
+      STR_LEFT_SHOULDER: 22
+      STR_RIGHT_HAND: 14
+      STR_RIGHT_LEG: 16
+      STR_RIGHT_SHOULDER: 22
+  - id: STR_RIGHT_HAND
+    costs:
+      STR_QD_SLOT: 5
+      STR_BACK_PACK: 10
+      STR_BELT: 6
+      STR_GROUND: 2
+      STR_LEFT_HAND: 2
+      STR_LEFT_LEG: 10
+      STR_LEFT_SHOULDER: 8
+      STR_RIGHT_LEG: 8
+      STR_RIGHT_SHOULDER: 10
+  - id: STR_LEFT_HAND
+    costs:
+      STR_QD_SLOT: 5
+      STR_BACK_PACK: 10
+      STR_BELT: 6
+      STR_GROUND: 2
+      STR_LEFT_LEG: 8
+      STR_LEFT_SHOULDER: 10
+      STR_RIGHT_HAND: 2
+      STR_RIGHT_LEG: 10
+      STR_RIGHT_SHOULDER: 8
+  - id: STR_BELT
+    x: 200
+    y: 104
+    slots:
+      - [0, 0]
+      - [1, 0]
+      - [2, 0]
+      - [3, 0]
+      - [2, 1]
+      - [3, 1]
+    costs:
+      STR_QD_SLOT: 6
+      STR_BACK_PACK: 14
+      STR_GROUND: 6
+      STR_LEFT_HAND: 4
+      STR_LEFT_LEG: 10
+      STR_LEFT_SHOULDER: 12
+      STR_RIGHT_HAND: 4
+      STR_RIGHT_LEG: 10
+      STR_RIGHT_SHOULDER: 12
+  - id: STR_RIGHT_LEG
+    costs:
+      STR_QD_SLOT: 10
+      STR_BACK_PACK: 16
+      STR_BELT: 10
+      STR_GROUND: 6
+      STR_LEFT_HAND: 8
+      STR_LEFT_LEG: 12
+      STR_LEFT_SHOULDER: 14
+      STR_RIGHT_HAND: 6
+      STR_RIGHT_SHOULDER: 16
+  - id: STR_LEFT_LEG
+    costs:
+      STR_QD_SLOT: 10
+      STR_BACK_PACK: 16
+      STR_BELT: 10
+      STR_GROUND: 6
+      STR_LEFT_HAND: 6
+      STR_LEFT_SHOULDER: 16
+      STR_RIGHT_HAND: 8
+      STR_RIGHT_LEG: 12
+      STR_RIGHT_SHOULDER: 14
+  - id: STR_RIGHT_SHOULDER
+    costs:
+      STR_QD_SLOT: 10
+      STR_BACK_PACK: 14
+      STR_BELT: 10
+      STR_GROUND: 6
+      STR_LEFT_HAND: 4
+      STR_LEFT_LEG: 14
+      STR_LEFT_SHOULDER: 10
+      STR_RIGHT_HAND: 6
+      STR_RIGHT_LEG: 12
+  - id: STR_LEFT_SHOULDER
+    costs:
+      STR_QD_SLOT: 10
+      STR_BACK_PACK: 14
+      STR_BELT: 10
+      STR_GROUND: 6
+      STR_LEFT_HAND: 6
+      STR_LEFT_LEG: 12
+      STR_RIGHT_HAND: 4
+      STR_RIGHT_LEG: 14
+      STR_RIGHT_SHOULDER: 10
+  - id: STR_BACK_PACK
+    costs:
+      STR_QD_SLOT: 26
+      STR_BELT: 26
+      STR_GROUND: 24
+      STR_LEFT_HAND: 22
+      STR_LEFT_LEG: 26
+      STR_LEFT_SHOULDER: 26
+      STR_RIGHT_HAND: 22
+      STR_RIGHT_LEG: 26
+      STR_RIGHT_SHOULDER: 26
+  - id: STR_QD_SLOT
+    x: 176
+    y: 104
+    slots:
+      - [0, 0]
+      - [0, 1]
+    costs:
+      STR_BACK_PACK: 14
+      STR_BELT: 8
+      STR_GROUND: 5
+      STR_LEFT_HAND: 3
+      STR_LEFT_LEG: 10
+      STR_LEFT_SHOULDER: 10
+      STR_RIGHT_HAND: 3
+      STR_RIGHT_LEG: 10
+      STR_RIGHT_SHOULDER: 10
+
+monthlyRatings:
+   6000: STR_MT_RATING_EXEMPLARY
+   2800: STR_MT_RATING_EXCELLENT
+   1200: STR_MT_RATING_GREAT
+   400: STR_MT_RATING_GOOD
+   0: STR_MT_RATING_OK
+   -799: STR_MT_RATING_POOR
+   -2399: STR_MT_RATING_BAD
+   -5599: STR_MT_RATING_TERRIBLE
+   -99999: STR_MT_RATING_ABOMINABLE
+missionRatings:
+   3000: STR_MT_RATING_EXEMPLARY
+   1400: STR_MT_RATING_EXCELLENT
+   600: STR_MT_RATING_GREAT
+   200: STR_MT_RATING_GOOD
+   0: STR_MT_RATING_OK
+   -399: STR_MT_RATING_POOR
+   -1199: STR_MT_RATING_BAD
+   -2799: STR_MT_RATING_TERRIBLE
+   -99999: STR_MT_RATING_ABOMINABLE
+defeatScore: -1600
+defeatFunds: -10000000
