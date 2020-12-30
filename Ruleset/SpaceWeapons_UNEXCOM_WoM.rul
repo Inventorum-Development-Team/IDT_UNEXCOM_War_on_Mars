@@ -138,9 +138,10 @@ items:
     tuSnap: 20
     tuAimed: 35
     tuAuto: 25
-    invHeight: 2
+    invHeight: 3
     invWidth: 1
     maxRange: 20
+    twoHanded: true
     battleType: 1
     armor: 250
 #    listOrder: 2028
@@ -404,27 +405,27 @@ extraSprites:
   - type: BIGOBS.PCK
     files:
       1300: Resources/SpaceWeapons/BigSpaceRifle.png
-      1301: Resources/SpaceWeapons/BigSpaceRifleAPMag.png
-      1302: Resources/SpaceWeapons/BigSpaceRifleFlechetteMag.png
-      1305: Resources/SpaceWeapons/BigM29.png
-      1306: Resources/SpaceWeapons/BigGyrojetPistolMag.png
-      1307: Resources/SpaceWeapons/BigM30.png
-      1308: Resources/SpaceWeapons/BigGyrojetRifleMag.png
-      1309: Resources/SpaceWeapons/BigEGR5.png
-      1310: Resources/SpaceWeapons/BigTKB1973.png
-      1311: Resources/SpaceWeapons/BigSpacePistol.png
-      1312: Resources/SpaceWeapons/BigSpacePDW.png
-      1313: Resources/SpaceWeapons/BigSpacePistolMag.png
+      1301: Resources/SpaceWeapons/BigSpaceAmmoRifle.png
+      1302: Resources/SpaceWeapons/BigSpaceAmmoRifle.png
+      1305: Resources/AlliedWeapons/BigM29.png
+      1306: Resources/AlliedWeapons/BigGyrojetPistolMag.png
+      1307: Resources/AlliedWeapons/BigM30.png
+      1308: Resources/AlliedWeapons/BigGyrojetRifleMag.png
+      1309: Resources/AlliedWeapons/BigEGR5.png
+      1310: Resources/AlliedWeapons/BigTKB1973.png
+      1311: Resources/SpaceWeapons/BigSpacePDW.png
+      1312: Resources/SpaceWeapons/BigSpaceCarbine.png
+      1313: Resources/SpaceWeapons/BigSpaceAmmoPistol.png
 
   - type: FLOOROB.PCK
     files:
       1300: Resources/SpaceWeapons/FloorSpaceRifle.png
-      1305: Resources/SpaceWeapons/FloorM29.png
-      1307: Resources/SpaceWeapons/FloorM30.png
-      1309: Resources/SpaceWeapons/FloorEGR5.png
-      1310: Resources/SpaceWeapons/FloorTKB1973.png
-      1311: Resources/SpaceWeapons/FloorSpacePistol.png
-      1312: Resources/SpaceWeapons/FloorSpacePDW.png
+      1305: Resources/AlliedWeapons/FloorM29.png
+      1307: Resources/AlliedWeapons/FloorM30.png
+      1309: Resources/AlliedWeapons/FloorEGR5.png
+      1310: Resources/AlliedWeapons/FloorTKB1973.png
+      1311: Resources/SpaceWeapons/FloorSpacePDW.png
+      1312: Resources/SpaceWeapons/FloorSpaceCarbine.png
 
   - type: HANDOB.PCK
     width: 256
@@ -433,12 +434,12 @@ extraSprites:
     subY: 40
     files:
       3300: Resources/SpaceWeapons/HandSpaceRifle.png
-      3316: Resources/SpaceWeapons/HandM29.png
-      3324: Resources/SpaceWeapons/HandM30.png
-      3332: Resources/SpaceWeapons/HandEGR5.png
-      3340: Resources/SpaceWeapons/HandTKB1973.png
-      3348: Resources/SpaceWeapons/HandSpacePistol.png
-      3356: Resources/SpaceWeapons/HandSpacePDW.png
+      3316: Resources/AlliedWeapons/HandM29.png
+      3324: Resources/AlliedWeapons/HandM30.png
+      3332: Resources/AlliedWeapons/HandEGR5.png
+      3340: Resources/AlliedWeapons/HandTKB1973.png
+      3348: Resources/SpaceWeapons/HandSpacePDW.png
+      3356: Resources/SpaceWeapons/HandSpaceCarbine.png
 
 extraStrings:
   - type: en-US

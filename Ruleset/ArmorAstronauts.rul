@@ -342,13 +342,13 @@ extraStrings:
       STR_ASTRONAUT_A7L_SPACESUIT_UC_UFOPEDIA: Fully pressurized suit, perfect for extra vehicular activities in difficult terrain. Improved model of the A7L suit used by the American astronauts of the Apollo missions.  Includes sections of Alien Alloys to lessen the discomfort of the suit, but still limits the movements and reactions of the user.
       STR_CORPSE_ASTRONAUT_A7L_SPACESUIT: Broken A7L Spacesuit
       STR_ASTRONAUT_A7LB_SPACESUIT_UC: A7L-B
-      STR_ASTRONAUT_A7LB_SPACESUIT_UC_UFOPEDIA: TBA
+      STR_ASTRONAUT_A7LB_SPACESUIT_UC_UFOPEDIA: Combat variant of the A7L, integrates Alien Alloy plates on the shoulders and legs to provide extra protection to limbs. Its main feature its a ballistic helmet inspired in LEVA (Lunar Extravehicular Visor Assembly) to provide increased resistance to damage that may break the helmet and compromise the survivability of the operator.
       STR_CORPSE_ASTRONAUT_A7LB_SPACESUIT: Broken A7L-B Spacesuit
       STR_ASTRONAUT_KRECHET94_SPACESUIT_UC: Krechet-94 Spacesuit
       STR_ASTRONAUT_KRECHET94_SPACESUIT_UC_UFOPEDIA: TBA
       STR_CORPSE_ASTRONAUT_KRECHET94_SPACESUIT: ...
       STR_ASTRONAUT_KRECHET94B_SPACESUIT_UC: Krechet-94-B Spacesuit
-      STR_ASTRONAUT_KRECHET94B_SPACESUIT_UC_UFOPEDIA: TBA
+      STR_ASTRONAUT_KRECHET94B_SPACESUIT_UC_UFOPEDIA: Combat variant of Krechet-94 EVA suit, includes Alien Alloy pauldrons and leg armored plates to absorb damage to limbs. It's main difference with the standard Krechet-94 is a build-in Alien Alloys vest, to greatly increase the resistance to damage to torso. 
       STR_CORPSE_ASTRONAUT_KRECHET94B_SPACESUIT: ...
       STR_ASTRONAUT_A7L_SPACESUIT_MOON_UC: A7L Lunar Spacesuit
       STR_ASTRONAUT_A7L_SPACESUIT_MARS_UC: A7L Martian Spacesuit
