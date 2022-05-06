@@ -1,0 +1,266 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Cosmonaut Aleksandar
+  - Cosmonaut Andon
+  - Cosmonaut Andrey
+  - Cosmonaut Andrian
+  - Cosmonaut Anton
+  - Cosmonaut Antoni
+  - Cosmonaut Angel
+  - Cosmonaut Apostol
+  - Cosmonaut Atanas
+  - Cosmonaut Bogdan
+  - Cosmonaut Bogomil
+  - Cosmonaut Borislav
+  - Cosmonaut Boyko
+  - Cosmonaut Damyan
+  - Cosmonaut Danail
+  - Cosmonaut Desislav
+  - Cosmonaut Dimitar
+  - Cosmonaut Dragomir
+  - Cosmonaut Gavrail
+  - Cosmonaut Georgi
+  - Cosmonaut Hristo
+  - Cosmonaut Ilian
+  - Cosmonaut Iliya
+  - Cosmonaut Ivan
+  - Cosmonaut Ivaylo
+  - Cosmonaut Ivo
+  - Cosmonaut Kaloyan
+  - Cosmonaut Kiril
+  - Cosmonaut Konstantin
+  - Cosmonaut Krasimir
+  - Cosmonaut Krastyo
+  - Cosmonaut Lyuben
+  - Cosmonaut Lyubomir
+  - Cosmonaut Lyudmil
+  - Cosmonaut Marko
+  - Cosmonaut Miroslav
+  - Cosmonaut Momchil
+  - Cosmonaut Nikola
+  - Cosmonaut Ognyan
+  - Cosmonaut Penko
+  - Cosmonaut Petar
+  - Cosmonaut Plamen
+  - Cosmonaut Radomir
+  - Cosmonaut Samuil
+  - Cosmonaut Spas
+  - Cosmonaut Stanimir
+  - Cosmonaut Stanislav
+  - Cosmonaut Stoyan
+  - Cosmonaut Teodor
+  - Cosmonaut Tihomir
+  - Cosmonaut Todor
+  - Cosmonaut Toma
+  - Cosmonaut Tsvetan
+  - Cosmonaut Vasil
+  - Cosmonaut Ventsislav
+  - Cosmonaut Viktor
+  - Cosmonaut Vladimir
+  - Cosmonaut Vladislav
+  - Cosmonaut Yanko
+  - Cosmonaut Yoan
+  - Cosmonaut Yordan
+  - Cosmonaut Yosif
+  - Cosmonaut Zahari
+  - Cosmonaut Zhivko
+  - Cosmonaut Zlatko
+femaleFirst:
+  - Cosmonaut Ana
+  - Cosmonaut Antonia
+  - Cosmonaut Bilyana
+  - Cosmonaut Bisera
+  - Cosmonaut Bogomila
+  - Cosmonaut Borislava
+  - Cosmonaut Boyana
+  - Cosmonaut Desislava
+  - Cosmonaut Elisaveta
+  - Cosmonaut Emiliya
+  - Cosmonaut Gergana
+  - Cosmonaut Hristina
+  - Cosmonaut Iva
+  - Cosmonaut Ivana
+  - Cosmonaut Ivelina
+  - Cosmonaut Ivet
+  - Cosmonaut Izabela
+  - Cosmonaut Krasimira
+  - Cosmonaut Lidiya
+  - Cosmonaut Lilyana
+  - Cosmonaut Lyubina
+  - Cosmonaut Lyubomira
+  - Cosmonaut Lyudmila
+  - Cosmonaut Maya
+  - Cosmonaut Mirela
+  - Cosmonaut Miroslava
+  - Cosmonaut Nadejda
+  - Cosmonaut Nevena
+  - Cosmonaut Nikolina
+  - Cosmonaut Pavla
+  - Cosmonaut Pavlina
+  - Cosmonaut Radomira
+  - Cosmonaut Radoslava
+  - Cosmonaut Radostina
+  - Cosmonaut Rayna
+  - Cosmonaut Rosa
+  - Cosmonaut Rositsa
+  - Cosmonaut Silviya
+  - Cosmonaut Simona
+  - Cosmonaut Snezhana
+  - Cosmonaut Sofiya
+  - Cosmonaut Stanislava
+  - Cosmonaut Stanka
+  - Cosmonaut Stoyanka
+  - Cosmonaut Svetla
+  - Cosmonaut Svetlana
+  - Cosmonaut Tanya
+  - Cosmonaut Tatyana
+  - Cosmonaut Teodora
+  - Cosmonaut Tereza
+  - Cosmonaut Tsveta
+  - Cosmonaut Tsvetelina
+  - Cosmonaut Veselina
+  - Cosmonaut Viktoria
+  - Cosmonaut Violeta
+  - Cosmonaut Vladimira
+  - Cosmonaut Yana
+  - Cosmonaut Yoana
+  - Cosmonaut Yordanka
+maleLast:
+  - Aleksandrov
+  - Andonov
+  - Andreev
+  - Antonov
+  - Antoniev
+  - Angelov
+  - Apostolov
+  - Atanasov
+  - Bogdanov
+  - Bogomilov
+  - Borislavov
+  - Boykov
+  - Damyanov
+  - Danailov
+  - Desislavov
+  - Dimitrov
+  - Dragomirov
+  - Gavrailov
+  - Georgiev
+  - Hristov
+  - Ilianov
+  - Iliev
+  - Ivanov
+  - Ivaylov
+  - Kaloyan
+  - Kirilov
+  - Konstantinov
+  - Krasimirov
+  - Lyubenov
+  - Lyubomirov
+  - Lyudmilov
+  - Markov
+  - Miroslavov
+  - Momchilov
+  - Nikolaev
+  - Ognyanov
+  - Penkov
+  - Petrov
+  - Plamenov
+  - Radomirov
+  - Samuilov
+  - Spasov
+  - Stanimirov
+  - Stanislavov
+  - Stoyanov
+  - Teodorov
+  - Tihomirov
+  - Todorov
+  - Tomov
+  - Tsvetanov
+  - Vasilev
+  - Ventsislavov
+  - Vladimirov
+  - Vladislavov
+  - Yordanov
+  - Yosifov
+  - Zahariev
+  - Zhivkov
+  - Zlatkov
+femaleLast:
+  - Aleksandrova
+  - Andonova
+  - Andreeva
+  - Antonova
+  - Antonieva
+  - Angelova
+  - Apostolova
+  - Atanasova
+  - Bogdanova
+  - Bogomilova
+  - Borislavova
+  - Boykova
+  - Damyanova
+  - Danailova
+  - Desislavova
+  - Dimitrova
+  - Dragomirova
+  - Gavrailova
+  - Georgieva
+  - Hristova
+  - Ilianova
+  - Ilieva
+  - Ivanova
+  - Ivaylova
+  - Kaloyana
+  - Kirilova
+  - Konstantinova
+  - Krasimirova
+  - Lyubenova
+  - Lyubomirova
+  - Lyudmilova
+  - Markova
+  - Miroslavova
+  - Momchilova
+  - Nikolaeva
+  - Ognyanova
+  - Penkova
+  - Petrova
+  - Plamenova
+  - Radomirova
+  - Samuilova
+  - Stanimirova
+  - Stanislavova
+  - Stoyanova
+  - Stoykova
+  - Teodorova
+  - Tihomirova
+  - Todorova
+  - Tomova
+  - Tsvetanova
+  - Vasileva
+  - Ventsislavova
+  - Vladimirova
+  - Vladislavova
+  - Yordanova
+  - Yosifova
+  - Zaharieva
+  - Zhivkova
+  - Zlatkov
+  - Petrova
+  - Popova
+  - Romanova
+  - Semyonova
+  - Sergeeva
+  - Smirnova
+  - Sokolova
+  - Solovyova
+  - Stepanova
+  - Vasilyeva
+  - Volkova
+  - Vorobyova
+  - Yakovleva
+  - Zaitseva
+  - Zaharova

@@ -1,0 +1,247 @@
+lookWeights:
+  - 4
+  - 88
+  - 4
+  - 4
+maleFirst:
+  - Astroperator Aaron
+  - Astroperator Adan
+  - Astroperator Alberto
+  - Astroperator Alejandro
+  - Astroperator Alfonso
+  - Astroperator Andres
+  - Astroperator Angel
+  - Astroperator Antonio
+  - Astroperator Augusto
+  - Astroperator Benedicto
+  - Astroperator Benjamin
+  - Astroperator Carlos
+  - Astroperator Daniel
+  - Astroperator David
+  - Astroperator Diego
+  - Astroperator Eduardo
+  - Astroperator Elias
+  - Astroperator Eliseo
+  - Astroperator Enrique
+  - Astroperator Emanuel
+  - Astroperator Eric
+  - Astroperator Ernesto
+  - Astroperator Esteban
+  - Astroperator Fabio
+  - Astroperator Felipe
+  - Astroperator Felix
+  - Astroperator Fernando
+  - Astroperator Fidel
+  - Astroperator Fortunato
+  - Astroperator Francisco
+  - Astroperator Gabriel
+  - Astroperator Gerardo
+  - Astroperator Hugo
+  - Astroperator Humberto
+  - Astroperator Ismael
+  - Astroperator Ivan
+  - Astroperator Jacobo
+  - Astroperator Jaime
+  - Astroperator Javier
+  - Astroperator Jesus
+  - Astroperator Joel
+  - Astroperator Jorge
+  - Astroperator Jose
+  - Astroperator Juan
+  - Astroperator Julian
+  - Astroperator Leo
+  - Astroperator Leonardo
+  - Astroperator Lucas
+  - Astroperator Luis
+  - Astroperator Manuel
+  - Astroperator Marco
+  - Astroperator Marcos
+  - Astroperator Martin
+  - Astroperator Matias
+  - Astroperator Mateo
+  - Astroperator Maximiliano
+  - Astroperator Miguel
+  - Astroperator Nataniel
+  - Astroperator Nicolas
+  - Astroperator Noe
+  - Astroperator Octavio
+  - Astroperator Orlando
+  - Astroperator Oscar
+  - Astroperator Pablo
+  - Astroperator Pedro
+  - Astroperator Rafael
+  - Astroperator Ramon
+  - Astroperator Raul
+  - Astroperator Rene
+  - Astroperator Ricardo
+  - Astroperator Roberto
+  - Astroperator Rolando
+  - Astroperator Salvador
+  - Astroperator Santiago
+  - Astroperator Sebastian
+  - Astroperator Sergio
+  - Astroperator Silvestre
+  - Astroperator Stefano
+  - Astroperator Teodoro
+  - Astroperator Tito
+  - Astroperator Tomas
+  - Astroperator Valentin
+  - Astroperator Vicente
+  - Astroperator Victor
+  - Astroperator Xavier
+femaleFirst:
+  - Astroperator Adriana
+  - Astroperator Aida
+  - Astroperator Alejandra
+  - Astroperator Alexia
+  - Astroperator Alma
+  - Astroperator Ana
+  - Astroperator Angela
+  - Astroperator Angelica
+  - Astroperator Aurora
+  - Astroperator Barbara
+  - Astroperator Bianca
+  - Astroperator Brenda
+  - Astroperator Carina
+  - Astroperator Carla
+  - Astroperator Carolina
+  - Astroperator Casandra
+  - Astroperator Catalina
+  - Astroperator Claudia
+  - Astroperator Cristina
+  - Astroperator Dolores
+  - Astroperator Dora
+  - Astroperator Elena
+  - Astroperator Eliana
+  - Astroperator Elvira
+  - Astroperator Ema
+  - Astroperator Esmeralda
+  - Astroperator Eva
+  - Astroperator Felicia
+  - Astroperator Fiona
+  - Astroperator Gabriela
+  - Astroperator Gloria
+  - Astroperator Guadalupe
+  - Astroperator Ines
+  - Astroperator Isabel
+  - Astroperator Jesica
+  - Astroperator Juana
+  - Astroperator Laura
+  - Astroperator Lidia
+  - Astroperator Liliana
+  - Astroperator Linda
+  - Astroperator Lisa
+  - Astroperator Lorena
+  - Astroperator Magdalena
+  - Astroperator Marcela
+  - Astroperator Margarita
+  - Astroperator Maria
+  - Astroperator Mariana
+  - Astroperator Marisol
+  - Astroperator Monica
+  - Astroperator Nadia
+  - Astroperator Nancy
+  - Astroperator Natalia
+  - Astroperator Noemi
+  - Astroperator Olivia
+  - Astroperator Patricia
+  - Astroperator Paulina
+  - Astroperator Raquel
+  - Astroperator Rosa
+  - Astroperator Selena
+  - Astroperator Sofia
+  - Astroperator Sonia
+  - Astroperator Talia
+  - Astroperator Tatiana
+  - Astroperator Teresa
+  - Astroperator Vanesa
+  - Astroperator Veronica
+  - Astroperator Victoria
+  - Astroperator Yolanda
+maleLast:
+  - Aguilar
+  - Alba
+  - Alonso
+  - Alvarado
+  - Alvarez
+  - Avila
+  - Calderon
+  - Campos
+  - Cardenas
+  - Castilla
+  - Cervantes
+  - Chavez
+  - Cortez
+  - Cruz
+  - De La Cruz
+  - De La Rosa
+  - De Soto
+  - Diaz
+  - Dominguez
+  - Estrada
+  - Falcon
+  - Fernandez
+  - Figueroa
+  - Flores
+  - Fuentes
+  - Garcia
+  - Garza
+  - Gomez
+  - Gonzalez
+  - Guerrero
+  - Gutierrez
+  - Guzman
+  - Hernandez
+  - Herrera
+  - Jimenez
+  - Juarez
+  - Leon
+  - Lima
+  - Lopez
+  - Loya
+  - Lucio
+  - Luna
+  - Martinez
+  - Medina
+  - Mejia
+  - Mendez
+  - Mendoza
+  - Miranda
+  - Montero
+  - Montes
+  - Morales
+  - Moreno
+  - Munoz
+  - Navarro
+  - Nunez
+  - Ortega
+  - Ortiz
+  - Pacheco
+  - Pascual
+  - Perez
+  - Ramirez
+  - Ramos
+  - Reyes
+  - Rios
+  - Rivera
+  - Rodriguez
+  - Romero
+  - Rosa
+  - Ruiz
+  - Sanchez
+  - Sandoval
+  - Santa Cruz
+  - Santana
+  - Santiago
+  - Santos
+  - Sosa
+  - Suarez
+  - Tapia
+  - Torres
+  - Trejo
+  - Trevino
+  - Trujillo
+  - Valdez
+  - Vasquez
+  - Vega
+  - Velasquez

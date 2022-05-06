@@ -1,0 +1,110 @@
+lookWeights:
+  - 47
+  - 50
+  - 2
+  - 1
+maleFirst:
+  - Astroperator Francesco
+  - Astroperator Alessandro
+  - Astroperator Andrea
+  - Astroperator Lorenzo
+  - Astroperator Matteo
+  - Astroperator Mattia
+  - Astroperator Gabriele
+  - Astroperator Riccardo
+  - Astroperator Davide
+  - Astroperator Leonardo
+  - Astroperator Federico
+  - Astroperator Luca
+  - Astroperator Marco
+  - Astroperator Giuseppe
+  - Astroperator Tommaso
+  - Astroperator Antonio
+  - Astroperator Simone
+  - Astroperator Giovanni
+  - Astroperator Samuele
+  - Astroperator Christian
+  - Astroperator Alessio
+  - Astroperator Nicola
+  - Astroperator Diego
+  - Astroperator Pietro
+  - Astroperator Filippo
+  - Astroperator Edoardo
+  - Astroperator Cristian
+  - Astroperator Daniele
+  - Astroperator Emanuele
+  - Astroperator Michele
+  - Astroperator Gennaro
+  - Astroperator Vincenzo
+  - Astroperator Pasquale
+  - Astroperator Carmine
+  - Astroperator Carmelo
+  - Astroperator Paolo
+femaleFirst:
+  - Astroperator Sofia
+  - Astroperator Giulia
+  - Astroperator Sara
+  - Astroperator Martina
+  - Astroperator Giorgia
+  - Astroperator Chiara
+  - Astroperator Aurora
+  - Astroperator Alice
+  - Astroperator Emma
+  - Astroperator Alessia
+  - Astroperator Anna
+  - Astroperator Francesca
+  - Astroperator Noemi
+  - Astroperator Elisa
+  - Astroperator Matilde
+  - Astroperator Giada
+  - Astroperator Gaia
+  - Astroperator Greta
+  - Astroperator Elena
+  - Astroperator Beatrice
+  - Astroperator Viola
+  - Astroperator Rebecca
+  - Astroperator Nicole
+  - Astroperator Arianna
+  - Astroperator Ginevra
+  - Astroperator Vittoria
+  - Astroperator Asia
+  - Astroperator Ilaria
+  - Astroperator Federica
+  - Astroperator Marta
+maleLast:
+  - Rossi
+  - Russo
+  - Ferrari
+  - Esposito
+  - Bianchi
+  - Romano
+  - Colombo
+  - Ricci
+  - Marino
+  - Greco
+  - Bruno
+  - Gallo
+  - Conti
+  - De Luca
+  - Mancini
+  - Costa
+  - Giordano
+  - Rizzo
+  - Lombardi
+  - Moretti
+  - Barbieri
+  - Fontana
+  - Santoro
+  - Mariani
+  - Rinaldi
+  - Caruso
+  - Ferrara
+  - Galli
+  - Martini
+  - Leone
+  - Abate
+  - De Simone
+  - Albanese
+  - Genovese
+  - Sansone
+  - Zanon

@@ -1,0 +1,854 @@
+# spellchecker:words MERCF MERCM INVM INVF ANTIGRAV
+# spellchecker:words jetpack
+soldiers:
+  - delete: STR_SOLDIER
+  - type: STR_ASTROPERATOR
+    costBuy: 40000
+    costSalary: 20000
+    minStats:
+      tu: 50
+      stamina: 50
+      health: 30
+      bravery: 20
+      reactions: 30
+      firing: 50
+      throwing: 40
+      strength: 19
+      psiStrength: 0
+      psiSkill: 0
+      melee: 45
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 60
+      throwing: 50
+      strength: 32
+      psiStrength: 100
+      psiSkill: 16
+      melee: 55
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 80
+      reactions: 90
+      firing: 100
+      throwing: 70
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 90
+    armor: STR_ASTRONAUT_A7_MMU_SPACESUIT_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 50
+    soldierNames:
+      - delete
+      - AstroperatorNames/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: false
+
+  - type: STR_COSMOPERATOR
+    costBuy: 40000
+    costSalary: 20000
+    minStats:
+      tu: 50
+      stamina: 50
+      health: 30
+      bravery: 20
+      reactions: 30
+      firing: 50
+      throwing: 40
+      strength: 19
+      psiStrength: 0
+      psiSkill: 0
+      melee: 45
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 60
+      throwing: 50
+      strength: 32
+      psiStrength: 100
+      psiSkill: 16
+      melee: 55
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 80
+      reactions: 90
+      firing: 100
+      throwing: 70
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 90
+    armor: STR_ASTRONAUT_KRECHETMMU_SPACESUIT_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 50
+    rankSprite: 806         # default 42 # basebits.pck
+    rankBattleSprite: 806   # default 20 # smoke.pck
+    soldierNames:
+      - delete
+      - CosmoperatorNames/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: false
+    rankStrings:
+    - STR_LIEUTENANT_SOVIET
+    - STR_CAPTAIN_SOVIET
+    - STR_MAJOR_SOVIET
+    - STR_LT_COLONEL_SOVIET
+    - STR_COLONEL_SOVIET
+
+  - type: STR_ASTRONAUT
+    costBuy: 50000
+    costSalary: 30000
+    costSalarySquaddie: 5000
+    costSalarySergeant: 5000
+    costSalaryCaptain: 10000
+    costSalaryColonel: 15000
+    costSalaryCommander: 20000
+    minStats:
+      tu: 40
+      stamina: 40
+      health: 25
+      bravery: 50
+      reactions: 60
+      firing: 55
+      throwing: 30
+      strength: 19
+      psiStrength: 0
+      psiSkill: 0
+      melee: 40
+    maxStats:
+      tu: 50
+      stamina: 50
+      health: 35
+      bravery: 60
+      reactions: 70
+      firing: 65
+      throwing: 40
+      strength: 26
+      psiStrength: 100
+      psiSkill: 16
+      melee: 50
+    statCaps:
+      tu: 60
+      stamina: 60
+      health: 45
+      bravery: 80
+      reactions: 110
+      firing: 100
+      throwing: 55
+      strength: 50
+      psiStrength: 100
+      psiSkill: 100
+      melee: 60
+    armor: STR_ASTRONAUT_A7L_SPACESUIT_UC
+    rankSprite: 800         # default 42 # basebits.pck
+    rankBattleSprite: 800   # default 20 # smoke.pck
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 45
+    soldierNames:
+      - delete
+      - AstronautNames/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: true
+    dogfightExperience:
+      bravery: 50
+      reactions: 75
+      firing: 100
+    rankStrings:
+    - STR_2ND_LIEUTENANT
+    - STR_1ST_LIEUTENANT
+    - STR_CAPTAIN
+    - STR_MAJOR
+    - STR_PILOT_COLONEL
+    - STR_BRIGADIER
+
+  - type: STR_COSMONAUT
+    costBuy: 50000
+    costSalary: 30000
+    costSalarySquaddie: 5000
+    costSalarySergeant: 5000
+    costSalaryCaptain: 10000
+    costSalaryColonel: 15000
+    costSalaryCommander: 20000
+    minStats:
+      tu: 40
+      stamina: 40
+      health: 25
+      bravery: 50
+      reactions: 60
+      firing: 55
+      throwing: 30
+      strength: 19
+      psiStrength: 0
+      psiSkill: 0
+      melee: 40
+    maxStats:
+      tu: 50
+      stamina: 50
+      health: 35
+      bravery: 60
+      reactions: 70
+      firing: 65
+      throwing: 40
+      strength: 26
+      psiStrength: 100
+      psiSkill: 16
+      melee: 50
+    statCaps:
+      tu: 60
+      stamina: 60
+      health: 45
+      bravery: 80
+      reactions: 110
+      firing: 100
+      throwing: 55
+      strength: 50
+      psiStrength: 100
+      psiSkill: 100
+      melee: 60
+    armor: STR_ASTRONAUT_KRECHET94_SPACESUIT_UC
+    rankSprite: 812        # default 42 # basebits.pck
+    rankBattleSprite: 812   # default 20 # smoke.pck
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 45
+    soldierNames:
+      - delete
+      - CosmonautNames/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: true
+    dogfightExperience:
+      bravery: 50
+      reactions: 75
+      firing: 100
+    rankStrings:
+    - STR_LIEUTENANT_SOVIET
+    - STR_CAPTAIN_SOVIET
+    - STR_MAJOR_SOVIET
+    - STR_LT_COLONEL_SOVIET
+    - STR_COLONEL_SOVIET
+
+
+items:
+
+  - type: STR_CORPSE_ARMOR
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 28
+    floorSprite: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+
+  - type: STR_CORPSE_ASTRONAUT_A7L_SPACESUIT
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 512
+    floorSprite: 512
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+
+  - type: STR_CORPSE_ASTRONAUT_A7MMU_SPACESUIT
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 515
+    floorSprite: 515
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+  - type: STR_CORPSE_ASTRONAUT_KRECHET94_SPACESUIT
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 513
+    floorSprite: 513
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+
+  - type: STR_CORPSE_ASTRONAUT_KRECHETMMU_SPACESUIT
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 516
+    floorSprite: 516
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+
+# Power Armor
+
+  - type: STR_CORPSE_MARAUDER
+    name: STR_CORPSE
+    battleType: 11
+    weight: 26
+    bigSprite: 517
+    floorSprite: 517
+    invWidth: 2
+    invHeight: 3
+    armor: 40
+    recover: true
+
+  - type: STR_CORPSE_PATHFINDER
+    name: STR_CORPSE
+    battleType: 11
+    weight: 26
+    bigSprite: 518
+    floorSprite: 518
+    invWidth: 2
+    invHeight: 3
+    armor: 40
+    recover: true
+
+# Armor
+
+armors:
+
+# Standard Armors
+  - type: STR_POWER_SUIT_UC
+    spriteSheet: MARAUDER_SPRITESHEET.PCK
+    spriteInv: MAN_MARAUDER
+    customArmorPreviewIndex: 517
+    corpseBattle:
+      - STR_CORPSE_MARAUDER
+    storeItem: STR_POWER_SUIT
+    corpseGeo: STR_CORPSE_MARAUDER
+    loftempsSet: [ 3 ]
+    frontArmor: 64
+    sideArmor: 51
+    rearArmor: 45
+    underArmor: 38
+    forcedTorso: 1
+    stats:
+      tu: -9
+      stamina: 10
+      reactions: -8
+      firing: -3
+      throwing: -7
+      strength: 15
+      bravery: 40
+      mana: 80
+    damageModifier:
+      - 0.7
+      - 0.45
+      - 0.2
+      - 0.5
+      - 0.6
+      - 0.65
+      - 0.6
+      - 0.70
+      - 0.85
+      - 0.0
+      - 0.8
+    personalLight: 6
+
+  - type: STR_FLYING_SUIT_UC
+    spriteSheet: PATHFINDER_SPRITESHEET.PCK
+    spriteInv: MAN_PATHFINDER
+    customArmorPreviewIndex: 527
+    corpseBattle:
+      - STR_CORPSE_PATHFINDER
+    storeItem: STR_FLYING_SUIT
+    corpseGeo: STR_CORPSE_PATHFINDER
+    loftempsSet: [ 3 ]
+    forcedTorso: 1
+    stats:
+      tu: -9
+      stamina: 10
+      reactions: -8
+      firing: -3
+      throwing: -7
+      strength: 15
+      bravery: 40
+      mana: 80
+    frontArmor: 64
+    sideArmor: 51
+    rearArmor: 45
+    underArmor: 38
+    movementType: 1
+    damageModifier:
+      - 0.75
+      - 0.50
+      - 0.30
+      - 0.6
+      - 0.65
+      - 0.70
+      - 0.65
+      - 0.73
+      - 0.88
+      - 0.0
+      - 0.8
+    personalLight: 6
+
+
+#Astronaut Armors
+
+  - &A7LSpacesuitAnchor
+    type: STR_ASTRONAUT_A7L_SPACESUIT_UC
+    spriteSheet: A7L_SPACESUIT_SPRITESHEET.PCK
+    spriteInv:  MAN_5A7L
+    customArmorPreviewIndex: 553
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    corpseBattle:
+      - STR_CORPSE_ASTRONAUT_A7L_SPACESUIT
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    movementType: 0
+    visibilityAtDark: 7
+    visibilityAtDay: 26
+    stats: &EarthStats
+      stamina: -15
+      health: 0
+      bravery: 20
+      throwing: -15
+      reactions: -10
+      melee: -15
+      mana: 40
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.3
+    personalLight: 6
+
+  - &A7MMUSpacesuitAnchor
+    type: STR_ASTRONAUT_A7_MMU_SPACESUIT_UC
+    spriteSheet: A7MMU_SPACESUIT_SPRITESHEET.PCK
+    spriteInv:  MAN_5A7MMU
+    customArmorPreviewIndex: 554
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    corpseBattle:
+      - STR_CORPSE_ASTRONAUT_A7MMU_SPACESUIT
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    movementType: 1
+    visibilityAtDark: 7
+    visibilityAtDay: 26
+    requires:
+      STR_ALIENS_ONLY
+    stats: &OrbitalStats
+      stamina: 30
+      health: 0
+      bravery: 20
+      throwing: -15
+      reactions: -10
+      melee: -15
+      mana: 40
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.3
+    personalLight: 6
+
+  - &Krechet94SpacesuitAnchor
+    type: STR_ASTRONAUT_KRECHET94_SPACESUIT_UC
+    spriteSheet: KRECHET94_SPACESUIT_SPRITESHEET.PCK
+    spriteInv:  MAN_5KRECHET94
+    customArmorPreviewIndex: 555
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    corpseBattle:
+      - STR_CORPSE_ASTRONAUT_KRECHET94_SPACESUIT
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    movementType: 0
+    visibilityAtDark: 7
+    visibilityAtDay: 26
+    stats: *EarthStats
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.1
+      - 1.3
+    personalLight: 6
+
+  - &KrechetMMUSpacesuitAnchor
+    type: STR_ASTRONAUT_KRECHETMMU_SPACESUIT_UC
+    spriteSheet: KRECHETMMU_SPACESUIT_SPRITESHEET.PCK
+    spriteInv:  MAN_5KRECHETMMU
+    customArmorPreviewIndex: 556
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    corpseBattle:
+      - STR_CORPSE_ASTRONAUT_KRECHETMMU_SPACESUIT
+    frontArmor: 15
+    sideArmor: 12
+    rearArmor: 10
+    underArmor: 8
+    movementType: 1
+    visibilityAtDark: 7
+    visibilityAtDay: 26
+    requires:
+      STR_ALIENS_ONLY
+    stats: *OrbitalStats
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.1
+      - 1.3
+    personalLight: 6
+
+manufacture:
+  - name: STR_REPAIR_POWER_SUIT
+    category: STR_PERSONAL_ARMOR
+    space: 16
+    time: 500
+    cost: 10000
+    requiredItems:
+      STR_CORPSE_MARAUDER: 1
+      STR_ALIEN_ALLOYS: 10
+    producedItems:
+      STR_POWER_SUIT: 1
+  - name: STR_REPAIR_FLYING_SUIT
+    category: STR_PERSONAL_ARMOR
+    space: 16
+    time: 700
+    cost: 12000
+    requiredItems:
+      STR_CORPSE_PATHFINDER: 1
+      STR_ALIEN_ALLOYS: 12
+      STR_ELERIUM_115: 3
+    producedItems:
+      STR_FLYING_SUIT: 1
+
+extraSprites:
+  - type: BASEBITS.PCK
+    files:
+      42: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank_0_B.png
+      43: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank_1_B.png
+      44: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank_2_B.png
+      45: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank_3_B.png
+      46: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank_4_B.png
+      47: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank_5_B.png
+      800: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank_0_C.png
+      801: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank_1_C.png
+      802: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank_2_C.png
+      803: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank_3_C.png
+      804: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank_4_C.png
+      805: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank_5_C.png
+      806: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank0_Lieutenant.png
+      807: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank1_Captain.png
+      808: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank2_Major.png
+      809: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank3_Lt_Colonel.png
+      810: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank4_Colonel.png
+      812: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank_0_D.png
+      813: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank_1_D.png
+      814: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank_2_D.png
+      815: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank_3_D.png
+      816: Resources/SoldiersAndArmors/RankSprites/Basebits/Rank_4_D.png
+  - type: SMOKE.PCK
+    files:
+      20: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank_0_B.png
+      21: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank_1_B.png
+      22: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank_2_B.png
+      23: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank_3_B.png
+      24: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank_4_B.png
+      25: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank_5_B.png
+      800: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank_0_C.png
+      801: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank_1_C.png
+      802: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank_2_C.png
+      803: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank_3_C.png
+      804: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank_4_C.png
+      805: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank_5_C.png
+      806: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank0_Lieutenant.png
+      807: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank1_Captain.png
+      808: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank2_Major.png
+      809: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank3_Lt_Colonel.png
+      810: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank4_Colonel.png
+      812: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank_0_D.png
+      813: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank_1_D.png
+      814: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank_2_D.png
+      815: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank_3_D.png
+      816: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank_4_D.png
+
+########################################
+########## COMBAT UNIFORM #############
+######################################
+  - type: MAN_0wdF0.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/CombatUniform/Inventory/MAN_0F0.png
+  - type: MAN_0wdF1.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/CombatUniform/Inventory/MAN_0F1.png
+  - type: MAN_0wdF2.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/CombatUniform/Inventory/MAN_0F2.png
+  - type: MAN_0wdF3.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/CombatUniform/Inventory/MAN_0F3.png
+  - type: MAN_0wdM0.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/CombatUniform/Inventory/MAN_0M0.png
+  - type: MAN_0wdM1.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/CombatUniform/Inventory/MAN_0M1.png
+  - type: MAN_0wdM2.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/CombatUniform/Inventory/MAN_0M2.png
+  - type: MAN_0wdM3.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/CombatUniform/Inventory/MAN_0M3.png
+
+  - type: XCOM_10.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersAndArmors/CombatUniform/BlueCombatUniform.png
+  - type: BIGOBS.PCK
+    files:
+      500: Resources/SoldiersAndArmors/CombatUniform/COMBAT_UNIFORM_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      500: Resources/SoldiersAndArmors/CombatUniform/COMBAT_UNIFORM_CORPSE_FLOOROB.png
+
+########################################
+########## PILOT JUMPSUIT #############
+######################################
+  - type: MAN_5F0.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/PilotArmor/INVENTORY/MAN_5F0.png
+  - type: MAN_5F1.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/PilotArmor/INVENTORY/MAN_5F1.png
+  - type: MAN_5F2.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/PilotArmor/INVENTORY/MAN_5F2.png
+  - type: MAN_5F3.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/PilotArmor/INVENTORY/MAN_5F3.png
+  - type: MAN_5M0.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/PilotArmor/INVENTORY/MAN_5M0.png
+  - type: MAN_5M1.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/PilotArmor/INVENTORY/MAN_5M1.png
+  - type: MAN_5M2.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/PilotArmor/INVENTORY/MAN_5M2.png
+  - type: MAN_5M3.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/PilotArmor/INVENTORY/MAN_5M3.png
+
+  - type: PILOT.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersAndArmors/PilotArmor/PilotSpritesheet.png
+
+  - type: BIGOBS.PCK
+    files:
+      501: Resources/SoldiersAndArmors/PilotArmor/PILOT_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      501: Resources/SoldiersAndArmors/PilotArmor/PILOT_CORPSE_FLOOROB.png
+
+
+##################################################
+######### UN MARAUDER POWER ARMOR ###############
+################################################
+
+# Armor
+  - type: BIGOBS.PCK
+    files:
+      517: Resources/SoldiersAndArmors/MarauderArmor/MARAUDER_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      517: Resources/SoldiersAndArmors/MarauderArmor/MARAUDER_CORPSE_FLOOROB.png
+  - type: MARAUDER_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/SoldiersAndArmors/MarauderArmor/MARAUDER_SPRITESHEET.png
+  - type: MAN_MARAUDER
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/MarauderArmor/Inventory/MAN_MARAUDER.png
+
+##################################################
+######### UN PATHFINDER FLYING ARMOR ###############
+################################################
+
+# Armor
+  - type: BIGOBS.PCK
+    files:
+      518: Resources/SoldiersAndArmors/PathfinderArmor/PATHFINDER_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      518: Resources/SoldiersAndArmors/PathfinderArmor/PATHFINDER_CORPSE_FLOOROB.png
+  - type: PATHFINDER_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/SoldiersAndArmors/PathfinderArmor/PATHFINDER_SPRITESHEET.png
+  - type: MAN_PATHFINDER
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/PathfinderArmor/Inventory/MAN_PATHFINDER.png
+
+
+####################################
+####### USA/NATO SPACESUITS #######
+##################################
+  - type: MAN_5A7L.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/AstronautA7LArmor/INVENTORY/MAN_5A7L.png
+  - type: A7L_SPACESUIT_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersAndArmors/AstronautA7LArmor/A7L_SPACESUIT_SPRITESHEET.png
+  - type: BIGOBS.PCK
+    files:
+      512: Resources/SoldiersAndArmors/AstronautA7LArmor/A7L_SPACESUIT_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      512: Resources/SoldiersAndArmors/AstronautA7LArmor/A7L_SPACESUIT_CORPSE_FLOOROB.png
+
+  - type: MAN_5A7MMU.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/AstronautA7MMUArmor/INVENTORY/MAN_5A7MMU.png
+  - type: A7MMU_SPACESUIT_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersAndArmors/AstronautA7MMUArmor/A7LMMU_SPACESUIT_SPRITESHEET.png
+  - type: BIGOBS.PCK
+    files:
+      515: Resources/SoldiersAndArmors/AstronautA7MMUArmor/A7MMU_SPACESUIT_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      515: Resources/SoldiersAndArmors/AstronautA7MMUArmor/A7MMU_SPACESUIT_CORPSE_FLOOROB.png
+
+############################################
+####### USSR/WARSAW PACT SPACESUITS #######
+##########################################
+  - type: MAN_5KRECHET94.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/AstronautKrechet94Armor/INVENTORY/MAN_5KRECHET94.png
+  - type: KRECHET94_SPACESUIT_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersAndArmors/AstronautKrechet94Armor/KRECHET94_SPACESUIT_SPRITESHEET.png
+  - type: BIGOBS.PCK
+    files:
+      513: Resources/SoldiersAndArmors/AstronautKrechet94Armor/KRECHET94_SPACESUIT_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      513: Resources/SoldiersAndArmors/AstronautKrechet94Armor/KRECHET94_SPACESUIT_CORPSE_FLOOROB.png
+
+  - type: MAN_5KRECHETMMU.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/AstronautKrechetMMUArmor/INVENTORY/MAN_5KRECHETMMU.png
+  - type: KRECHETMMU_SPACESUIT_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersAndArmors/AstronautKrechetMMUArmor/KRECHETMMU_SPACESUIT_SPRITESHEET.png
+  - type: BIGOBS.PCK
+    files:
+      516: Resources/SoldiersAndArmors/AstronautKrechetMMUArmor/KRECHETMMU_SPACESUIT_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      516: Resources/SoldiersAndArmors/AstronautKrechetMMUArmor/KRECHETMMU_SPACESUIT_CORPSE_FLOOROB.png
+
+####################################

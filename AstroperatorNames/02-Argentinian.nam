@@ -1,0 +1,59 @@
+﻿lookWeights:
+  - 10
+  - 30
+  - 30
+  - 30
+maleFirst:
+  - Astroperator Bautista
+  - Astroperator Benjamin
+  - Astroperator Felipe
+  - Astroperator Juan
+  - Astroperator Joaquin
+  - Astroperator Mateo
+  - Astroperator Santiago
+  - Astroperator Santino
+  - Astroperator Thiago
+  - Astroperator Tomas
+femaleFirst:
+  - Astroperator Alma
+  - Astroperator Catalina
+  - Astroperator Emma
+  - Astroperator Isabella
+  - Astroperator Maria
+  - Astroperator Martina
+  - Astroperator Mia
+  - Astroperator Sofia
+  - Astroperator Valentina
+  - Astroperator Zoe
+maleLast:
+  - Alonso
+  - Alvarez
+  - Blanco
+  - Castro
+  - Diaz
+  - Dominguez
+  - Fernandez
+  - Garcia
+  - Gimenez
+  - Gomez
+  - Gonzalez
+  - Gutierrez
+  - Iglesias
+  - Lopez
+  - Martin
+  - Martinez
+  - Nuñez
+  - Perez
+  - Ramirez
+  - Ramos
+  - Rodriguez
+  - Romero
+  - Rossi
+  - Ruiz
+  - Sanchez
+  - Silva
+  - Sosa
+  - Suarez
+  - Torres
+  - Varela
+  - Vazquez

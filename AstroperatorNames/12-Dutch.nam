@@ -1,0 +1,68 @@
+# A good article about dutch firstnames can be found at
+# http://www.historischnieuwsblad.nl/nl/artikel/5849/voornamen-in-nederland.html
+lookWeights:
+  - 45
+  - 45
+  - 5
+  - 5
+maleFirst:
+  - Astroperator Jan
+  - Astroperator Piet
+  - Astroperator Henk
+  - Astroperator Peter
+  - Astroperator Hans
+  - Astroperator Kees
+  - Astroperator Wim
+  - Astroperator Cor
+  - Astroperator Gerard
+  - Astroperator Gerrit
+  - Astroperator Johan
+  - Astroperator Rudi
+femaleFirst:
+  - Astroperator Annie
+  - Astroperator Emma
+  - Astroperator Marietje
+  - Astroperator Mien
+  - Astroperator Willie
+  - Astroperator Eva
+  - Astroperator Corrie
+  - Astroperator Lenie
+  - Astroperator Greetje
+  - Astroperator Hanna
+  - Astroperator Sofie
+  - Astroperator Ansje
+maleLast:
+  - de Jong
+  - Jansen
+  - de Vries
+  - van de Berg
+  - van Dijk
+  - Bakker
+  - Janssen
+  - Visser
+  - Smit
+  - Meyer
+  - de Boer
+  - Mulder
+  - de Groot
+  - Bos
+  - Vos
+  - Peters
+  - Hendriks
+  - van Leeuwen
+  - Dekker
+  - Brouwer
+  - de Wit
+  - Dijkstra
+  - Smits
+  - de Graaf
+  - van der Meer
+  - van der Linden
+  - Kok
+  - Jacobs
+  - de Haan
+  - Vermeulen
+  - van den Heuvel
+  - van der Veen
+  - van den Broek
+  - de Bruyn

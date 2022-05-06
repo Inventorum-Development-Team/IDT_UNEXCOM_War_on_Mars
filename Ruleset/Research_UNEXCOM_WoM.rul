@@ -1,0 +1,153 @@
+research:
+#######################################
+  - name: STR_LASER_WEAPONS
+    cost: 50
+    points: 10
+
+################################################
+####### ALIEN ALLOYS WEAPONS RESEARCH #########
+##############################################
+  - name: STR_ALLOY_BALLISTIC_WEAPONS
+    cost: 100
+    points: 10
+  - name: STR_ALLOY_CLOSE
+    cost: 40
+    points: 10
+    dependencies:
+      - STR_ALLOY_BALLISTIC_WEAPONS
+  - name: STR_ALLOY_RIFLES
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_ALLOY_BALLISTIC_WEAPONS
+  - name: STR_ALLOY_EXPLOSIVE
+    cost: 60
+    points: 10
+    dependencies:
+      - STR_ALLOY_BALLISTIC_WEAPONS
+  - name: STR_ALLOY_HEAVY
+    cost: 70
+    points: 10
+    dependencies:
+      - STR_ALLOY_BALLISTIC_WEAPONS
+
+### ALIEN LASERS
+
+  - name: STR_ALIEN_LASER_PISTOL
+    cost: 50
+    points: 50
+    needItem: true
+    getOneFree:
+      - STR_ALIEN_LASERS
+
+  - name: STR_ALIEN_LASER_RIFLE
+    cost: 50
+    points: 50
+    needItem: true
+    getOneFree:
+      - STR_ALIEN_LASERS
+
+  - name: STR_ALIEN_HEAVY_LASER
+    cost: 50
+    points: 50
+    getOneFree:
+      - STR_ALIEN_LASERS
+    needItem: true
+
+  - name: STR_ALIEN_LASERS
+    needItem: true
+    getOneFree:
+      - STR_ALIEN_LASERS
+
+#########################################
+####### AMERICAN LASER RESEARCH ########
+#######################################
+  - name: STR_USA_LASER_RESEARCH
+    cost: 30
+    points: 10
+    dependencies:
+      - STR_LASER_WEAPONS
+  - name: STR_USA_LASER_HANDGUNS
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_USA_LASER_RESEARCH
+  - name: STR_USA_LASER_RIFLES
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_USA_LASER_RESEARCH
+  - name: STR_USA_LASER_CLOSE_RANGE_WEAPONS
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_USA_LASER_HANDGUNS
+  - name: STR_USA_LASER_HEAVY_WEAPONS
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_USA_LASER_RIFLES
+
+
+#########################################
+####### EUROPEAN LASER RESEARCH ########
+#######################################
+  - name: STR_NATO_LASER_RESEARCH
+    cost: 30
+    points: 10
+    dependencies:
+      - STR_LASER_WEAPONS
+  - name: STR_NATO_LASER_HANDGUNS
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_NATO_LASER_RESEARCH
+  - name: STR_NATO_LASER_RIFLES
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_NATO_LASER_RESEARCH
+  - name: STR_NATO_LASER_CLOSE_RANGE_WEAPONS
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_NATO_LASER_HANDGUNS
+  - name: STR_NATO_LASER_HEAVY_WEAPONS
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_NATO_LASER_RIFLES
+#########################################
+######## SOVIET LASER RESEARCH #########
+#######################################
+  - name: STR_USSR_LASER_RESEARCH
+    cost: 30
+    points: 10
+    dependencies:
+      - STR_LASER_WEAPONS
+  - name: STR_USSR_LASER_HANDGUNS
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_USSR_LASER_RESEARCH
+  - name: STR_USSR_LASER_RIFLES
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_USSR_LASER_RESEARCH
+  - name: STR_USSR_LASER_CLOSE_RANGE_WEAPONS
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_USSR_LASER_HANDGUNS
+  - name: STR_USSR_LASER_HEAVY_WEAPONS
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_USSR_LASER_RIFLES
+
+  - name: STR_ALIENS_ONLY
+    cost: 10000
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY

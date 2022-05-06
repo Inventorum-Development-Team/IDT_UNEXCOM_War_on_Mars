@@ -1,0 +1,313 @@
+lookWeights:
+  - 35
+  - 35
+  - 20
+  - 10
+maleFirst:
+  - Astronaut Adam
+  - Astronaut Adrian
+  - Astronaut Aidan
+  - Astronaut Alan
+  - Astronaut Alexander
+  - Astronaut Alistair
+  - Astronaut Andrew
+  - Astronaut Arthur
+  - Astronaut Ben
+  - Astronaut Benjamin
+  - Astronaut Bradley
+  - Astronaut Brendan
+  - Astronaut Brett
+  - Astronaut Bruce
+  - Astronaut Carl
+  - Astronaut Charles
+  - Astronaut Charlie
+  - Astronaut Christopher
+  - Astronaut Colin
+  - Astronaut Connor
+  - Astronaut Craig
+  - Astronaut Damien
+  - Astronaut Daniel
+  - Astronaut David
+  - Astronaut Declan
+  - Astronaut Derek
+  - Astronaut Desmond
+  - Astronaut Donald
+  - Astronaut Dylan
+  - Astronaut Edmund
+  - Astronaut Edward
+  - Astronaut Euan
+  - Astronaut Frank
+  - Astronaut Francis
+  - Astronaut Gareth
+  - Astronaut Gary
+  - Astronaut Geoffrey
+  - Astronaut George
+  - Astronaut Graeme
+  - Astronaut Graham
+  - Astronaut Grant
+  - Astronaut Gregor
+  - Astronaut Gregory
+  - Astronaut Hamish
+  - Astronaut Harold
+  - Astronaut Harry
+  - Astronaut Ian
+  - Astronaut Iain
+  - Astronaut James
+  - Astronaut Jason
+  - Astronaut John
+  - Astronaut Jordan
+  - Astronaut Keith
+  - Astronaut Ken
+  - Astronaut Kenneth
+  - Astronaut Lewis
+  - Astronaut Liam
+  - Astronaut Malcolm
+  - Astronaut Mark
+  - Astronaut Michael
+  - Astronaut Neil
+  - Astronaut Patrick
+  - Astronaut Paul
+  - Astronaut Peter
+  - Astronaut Raymond
+  - Astronaut Rhys
+  - Astronaut Richard
+  - Astronaut Robert
+  - Astronaut Rory
+  - Astronaut Roy
+  - Astronaut Ryan
+  - Astronaut Samuel
+  - Astronaut Scott
+  - Astronaut Simon
+  - Astronaut Stephen
+  - Astronaut Steven
+  - Astronaut Thomas
+  - Astronaut William
+femaleFirst:
+  - Astronaut Abigail
+  - Astronaut Aileen
+  - Astronaut Ailsa
+  - Astronaut Alice
+  - Astronaut Alison
+  - Astronaut Amy
+  - Astronaut Andrea
+  - Astronaut Ann
+  - Astronaut Anna
+  - Astronaut Annabel
+  - Astronaut Anne
+  - Astronaut Bridget
+  - Astronaut Carol
+  - Astronaut Catherine
+  - Astronaut Clara
+  - Astronaut Claire
+  - Astronaut Clare
+  - Astronaut Courtney
+  - Astronaut Cynthia
+  - Astronaut Eleanor
+  - Astronaut Elizabeth
+  - Astronaut Emily
+  - Astronaut Emma
+  - Astronaut Fiona
+  - Astronaut Frances
+  - Astronaut Gail
+  - Astronaut Gemma
+  - Astronaut Gillian
+  - Astronaut Gilly
+  - Astronaut Grace
+  - Astronaut Hanna
+  - Astronaut Hannah
+  - Astronaut Harriet
+  - Astronaut Heather
+  - Astronaut Helen
+  - Astronaut Holly
+  - Astronaut Isabel
+  - Astronaut Isobel
+  - Astronaut Isla
+  - Astronaut Jade
+  - Astronaut Jane
+  - Astronaut Janet
+  - Astronaut Janice
+  - Astronaut Janine
+  - Astronaut Jayne
+  - Astronaut Jean
+  - Astronaut Jenna
+  - Astronaut Jennifer
+  - Astronaut Jenny
+  - Astronaut Jessica
+  - Astronaut Jill
+  - Astronaut Joyce
+  - Astronaut Kate
+  - Astronaut Katie
+  - Astronaut Kimberley
+  - Astronaut Kirsten
+  - Astronaut Kirsty
+  - Astronaut Kylie
+  - Astronaut Lauren
+  - Astronaut Lesley
+  - Astronaut Leslie
+  - Astronaut Lilleth
+  - Astronaut Lillian
+  - Astronaut Lindsay
+  - Astronaut Lisa
+  - Astronaut Lorna
+  - Astronaut Lucy
+  - Astronaut Lynn
+  - Astronaut Lynette
+  - Astronaut Margaret
+  - Astronaut Maria
+  - Astronaut Mary
+  - Astronaut Megan
+  - Astronaut Moira
+  - Astronaut Murron
+  - Astronaut Patricia
+  - Astronaut Rebecca
+  - Astronaut Samantha
+  - Astronaut Sarah
+  - Astronaut Shannon
+  - Astronaut Siobhan
+  - Astronaut Stacey
+  - Astronaut Theresa
+  - Astronaut Victoria
+maleLast:
+  - Adams
+  - Anderson
+  - Atkinson
+  - Bailey
+  - Baird
+  - Baker
+  - Barker
+  - Ball
+  - Barnes
+  - Bell
+  - Blake
+  - Blair
+  - Boyd
+  - Brook
+  - Brooks
+  - Brown
+  - Burns
+  - Butler
+  - Cameron
+  - Carter
+  - Chapman
+  - Clark
+  - Clarke
+  - Clyde
+  - Cole
+  - Collins
+  - Cook
+  - Cooper
+  - Cox
+  - Davies
+  - Davis
+  - Dawson
+  - Day
+  - Dixon
+  - Douglas
+  - Drummond
+  - Elliot
+  - Erskine
+  - Evans
+  - Ferguson
+  - Fisher
+  - Fletcher
+  - Forbes
+  - Ford
+  - Forsythe
+  - Foster
+  - Fox
+  - Fraser
+  - Garrow
+  - Gibson
+  - Gray
+  - Green
+  - Hall
+  - Harris
+  - Harrison
+  - Harvey
+  - Heaton
+  - Hill
+  - Holmes
+  - Howard
+  - Hughes
+  - Hunt
+  - Hunter
+  - Jackson
+  - Jenkins
+  - Johnson
+  - Jones
+  - Jonlan
+  - Kerr
+  - King
+  - Knight
+  - Knox
+  - Lawrence
+  - Lee
+  - Lennox
+  - Loy
+  - MacCallum
+  - MacCay
+  - MacColl
+  - MacIntyre
+  - Mackendrick
+  - Mackenzie
+  - MacRae
+  - Marion
+  - Marshall
+  - Martin
+  - Mason
+  - Matthews
+  - Middleton
+  - Milne
+  - Mills
+  - Mitchell
+  - Moore
+  - Mumford
+  - Owen
+  - Owens
+  - Paddon
+  - Parker
+  - Palmer
+  - Payne
+  - Pearce
+  - Pearson
+  - Peters
+  - Peterson
+  - Powell
+  - Price
+  - Pritchard
+  - Ramsay
+  - Reynolds
+  - Richards
+  - Richardson
+  - Roberts
+  - Robertson
+  - Robinson
+  - Rogers
+  - Rory
+  - Ross
+  - Rowe
+  - Russell
+  - Saunders
+  - Sharpe
+  - Shaw
+  - Smith
+  - Stevens
+  - Stewart
+  - Taylor
+  - Thompson
+  - Turner
+  - Varley
+  - Walker
+  - Wallace
+  - Walsh
+  - Ward
+  - Watson
+  - Webb
+  - West
+  - White
+  - Wilkinson
+  - Williams
+  - Wright
+  - Wood
+  - Young
+  - Yates

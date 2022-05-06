@@ -1,0 +1,166 @@
+﻿lookWeights:
+  - 25
+  - 35
+  - 35
+  - 5
+maleFirst:
+  - Cosmoperator Aleksandr
+  - Cosmoperator Aleksey
+  - Cosmoperator Anatoliy
+  - Cosmoperator Andrey
+  - Cosmoperator Anton
+  - Cosmoperator Artem
+  - Cosmoperator Artur
+  - Cosmoperator Boris
+  - Cosmoperator Denis
+  - Cosmoperator Dmitriy
+  - Cosmoperator Eduard
+  - Cosmoperator Evgeniy
+  - Cosmoperator Gennadiy
+  - Cosmoperator Georgiy
+  - Cosmoperator Grigoriy
+  - Cosmoperator Igor
+  - Cosmoperator Ilya
+  - Cosmoperator Ivan
+  - Cosmoperator Konstantin
+  - Cosmoperator Leonid
+  - Cosmoperator Maxim
+  - Cosmoperator Mihail
+  - Cosmoperator Nikolay
+  - Cosmoperator Oleg
+  - Cosmoperator Pavel
+  - Cosmoperator Petr
+  - Cosmoperator Roman
+  - Cosmoperator Ruslan
+  - Cosmoperator Sergey
+  - Cosmoperator Stanislav
+  - Cosmoperator Vadim
+  - Cosmoperator Valentin
+  - Cosmoperator Valeriy
+  - Cosmoperator Vasiliy
+  - Cosmoperator Viktor
+  - Cosmoperator Vitaliy
+  - Cosmoperator Vladimir
+  - Cosmoperator Vladislav
+  - Cosmoperator Vyacheslav
+  - Cosmoperator Yuriy
+femaleFirst:
+  - Cosmoperator Albina
+  - Cosmoperator Aleksandra
+  - Cosmoperator Alla
+  - Cosmoperator Alyona
+  - Cosmoperator Anastasiya
+  - Cosmoperator Anna
+  - Cosmoperator Antonina
+  - Cosmoperator Darya
+  - Cosmoperator Ekaterina
+  - Cosmoperator Elena
+  - Cosmoperator Evgeniya
+  - Cosmoperator Galina
+  - Cosmoperator Inna
+  - Cosmoperator Irina
+  - Cosmoperator Kristina
+  - Cosmoperator Kseniya
+  - Cosmoperator Larisa
+  - Cosmoperator Lidiya
+  - Cosmoperator Liliya
+  - Cosmoperator Lyubov
+  - Cosmoperator Lyudmila
+  - Cosmoperator Margarita
+  - Cosmoperator Marina
+  - Cosmoperator Mariya
+  - Cosmoperator Nadezhda
+  - Cosmoperator Natalya
+  - Cosmoperator Nina
+  - Cosmoperator Oksana
+  - Cosmoperator Olesya
+  - Cosmoperator Olga
+  - Cosmoperator Raisa
+  - Cosmoperator Svetlana
+  - Cosmoperator Tamara
+  - Cosmoperator Tatyana
+  - Cosmoperator Valentina
+  - Cosmoperator Varvara
+  - Cosmoperator Vera
+  - Cosmoperator Viktoriya
+  - Cosmoperator Yulia
+  - Cosmoperator Zinaida
+  - Cosmoperator Zoya  
+maleLast:
+  - Alekseev
+  - Andreev
+  - Antonov
+  - Borisov
+  - Fedorov
+  - Egorov
+  - Grigoryev
+  - Gromov
+  - Ivanov
+  - Komarov
+  - Korolyov
+  - Kozlov
+  - Kuzmin
+  - Kuznetsov
+  - Lebedev
+  - Makarov
+  - Mihailov
+  - Morozov
+  - Nikitin
+  - Nikolaev
+  - Novikov
+  - Orlov
+  - Pavlov
+  - Petrov
+  - Popov
+  - Romanov
+  - Semyonov
+  - Sergeev
+  - Smirnov
+  - Sokolov
+  - Solovyov
+  - Stepanov
+  - Vasilyev
+  - Volkov
+  - Vorobyov
+  - Yakovlev
+  - Zaitsev
+  - Zaharov
+femaleLast:
+  - Alekseeva
+  - Andreeva
+  - Antonova
+  - Borisova
+  - Fedorova
+  - Egorova
+  - Grigoryeva
+  - Gromova
+  - Ivanova
+  - Komarova
+  - Korolyova
+  - Kozlova
+  - Kuzmina
+  - Kuznetsova
+  - Lebedeva
+  - Makarova
+  - Mihailova
+  - Morozova
+  - Nikitina
+  - Nikolaeva
+  - Novikova
+  - Orlova
+  - Pavlova
+  - Petrova
+  - Popova
+  - Romanova
+  - Semyonova
+  - Sergeeva
+  - Smirnova
+  - Sokolova
+  - Solovyova
+  - Stepanova
+  - Vasilyeva
+  - Volkova
+  - Vorobyova
+  - Yakovleva
+  - Zaitseva
+  - Zaharova

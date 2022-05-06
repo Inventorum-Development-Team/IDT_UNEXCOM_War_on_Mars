@@ -1,0 +1,99 @@
+lookWeights:
+  - 48
+  - 48
+  - 2
+  - 2
+maleFirst:
+  - Astroperator Aidan
+  - Astroperator Andrew
+  - Astroperator Brendon
+  - Astroperator Cathal
+  - Astroperator Cian
+  - Astroperator Cillian
+  - Astroperator Conor
+  - Astroperator Cormac
+  - Astroperator Daniel
+  - Astroperator Darragh
+  - Astroperator David
+  - Astroperator Donal
+  - Astroperator Eoghan
+  - Astroperator Eoin
+  - Astroperator Finn
+  - Astroperator Jack
+  - Astroperator James
+  - Astroperator John
+  - Astroperator Liam
+  - Astroperator Luke
+  - Astroperator Michael
+  - Astroperator Mick
+  - Astroperator Oisin
+  - Astroperator Owen
+  - Astroperator Paddy
+  - Astroperator Padraig
+  - Astroperator Pat
+  - Astroperator Patrick
+  - Astroperator Pete
+  - Astroperator Ronan
+  - Astroperator Rory
+  - Astroperator Sean
+  - Astroperator Thomas
+femaleFirst:
+  - Astroperator Aine
+  - Astroperator Aisling
+  - Astroperator Aoife
+  - Astroperator Caoimhe
+  - Astroperator Ciara
+  - Astroperator Clara
+  - Astroperator Fiona
+  - Astroperator Grainne
+  - Astroperator Karen
+  - Astroperator Kate
+  - Astroperator Kathleen
+  - Astroperator Lisa
+  - Astroperator Lorna
+  - Astroperator Mary
+  - Astroperator Michelle
+  - Astroperator Niamh
+  - Astroperator Orla
+  - Astroperator Rachel
+  - Astroperator Roisin
+  - Astroperator Saoirse
+  - Astroperator Sarah
+  - Astroperator Shauna
+  - Astroperator Sinead
+  - Astroperator Siobhan
+maleLast:
+  - Brennan
+  - Burke
+  - Byrne
+  - Campbell
+  - Clarke
+  - Collins
+  - Doherty
+  - Doyle
+  - Dunn
+  - Duffy
+  - Farrell
+  - Flanagan
+  - Fitzgerald
+  - Fitzpatrick
+  - Flynn
+  - Gallagher
+  - Kavanagh
+  - Kelly
+  - Kennedy
+  - Lynch
+  - Maguire
+  - McCarthy
+  - McGrath
+  - Moore
+  - Murphy
+  - O'Brien
+  - O'Donnell
+  - O'Neill
+  - Quinn
+  - Reilly
+  - Ryan
+  - Sullivan
+  - Walsh  
+  - Whelan

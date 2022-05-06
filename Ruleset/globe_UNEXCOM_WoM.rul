@@ -21,42 +21,82 @@ globe:
   lineColor: 162
   textures:
     - id: 0 # Smoth land
-      startingCondition: STR_MARS_CONDITION
       terrain:
+        - name: MSTD
+          area: [0, 360, -90, 0]
+          weight: 50
+        - name: IDT_MARS_DEBRIS
+          area: [0, 360, -90, 0]
+          weight: 50
+        - name: MSTD
+          area: [0, 360, -90, 0]
+          weight: 50
+        - name: IDT_MARS_DEBRIS
+          area: [0, 360, 0, 90]
+          weight: 50
+    - id: 1 # Smooth Crater-ridden land
+      terrain:
+        - name: MARSPLAIN
+          area: [0, 360, -90, 0]
+          weight: 50
         - name: IDT_HUMAN_STATION
           area: [0, 360, -90, 0]
-        - name: IDT_MARS
-          area: [0, 360, 0, 90]
-    - id: 1 # Smooth Crater-ridden land
-      startingCondition: STR_MARS_CONDITION
-      terrain:
-        - name: MARSPLAIN
+          weight: 10
+        - name: MSTD
           area: [0, 360, -90, 0]
+          weight: 50
         - name: MARSCRATER
           area: [0, 360, 0, 90]
+          weight: 50
+        - name: MSTDS
+          area: [0, 360, 0, 90]
+          weight: 50
+        - name: MARS
+          area: [0, 360, 0, 90]
+          weight: 10
     - id: 2 # Hilly lava plains (lots of hills, for sure!)
-      startingCondition: STR_MARS_CONDITION
       terrain:
+        - name: MSTRK
+          area: [0, 360, -90, 0]
+          weight: 50
+        - name: IDT_MARS
+          area: [0, 360, 0, 90]
+          weight: 50
+    - id: 3 # Plains with dry lava channels
+      terrain:
+        - name: MSTD
+          area: [0, 360, -90, 0]
+          weight: 30
+        - name: IDT_HUMAN_STATION
+          area: [0, 360, -90, 0]
+          weight: 10
         - name: MARSURBAN
           area: [0, 360, -90, 0]
-        - name: IDT_MARS
+          weight: 20
+        - name: MSTDS
           area: [0, 360, 0, 90]
-    - id: 3 # Plains with dry lava channels
-      startingCondition: STR_MARS_CONDITION 
-      terrain:
-        - name: MARSPLAIN
-          area: [0, 360, -90, 0]
-        - name: IDT_MARS
-          area: [0, 360, 0, 90]
-    - id: 4 # Dark lava plain with craters
-      startingCondition: STR_MARS_CONDITION   
-      terrain:
+          weight: 70
         - name: MARS
+          area: [0, 360, 0, 90]
+          weight: 10
+        - name: MARSURBAN
+          area: [0, 360, 0, 90]
+          weight: 20
+    - id: 4 # Dark lava plain with craters
+      terrain:
+        - name: MSTD
           area: [0, 360, -90, 0]
+          weight: 50
+        - name: MARSCRATER
+          area: [0, 360, -90, 0]
+          weight: 50
         - name: MARSCRATER
           area: [0, 360, 0, 90]
+          weight: 50
+        - name: IDT_MARS
+          area: [0, 360, 0, 90]
+          weight: 50
     - id: 5 # Unused
-      startingCondition: STR_MARS_CONDITION
       terrain:
         - name: MARS
           area: [0, 360, -90, 0]
@@ -69,44 +109,75 @@ globe:
         - name: IDT_MARS
           area: [0, 360, 0, 90]
     - id: 7 # Volcanic plains, very high land. Light color
-      startingCondition: STR_MARS_CONDITION
       terrain:
+        - name: MSTRK
+          area: [0, 360, -90, 0]
+          weight: 50
         - name: MARS
           area: [0, 360, -90, 0]
+          weight: 10
+        - name: MARSMOUNT
+          area: [0, 360, 0, 90]
+          weight: 50
         - name: IDT_MARS
           area: [0, 360, 0, 90]
+          weight: 50
     - id: 8 # Other volcanic high plains, but a little lower than the 7. Light color
-      startingCondition: STR_MARS_CONDITION
       terrain:
+        - name: MSTRK
+          area: [0, 360, -90, 0]
+          weight: 50
         - name: MARS
           area: [0, 360, -90, 0]
+          weight: 10
+        - name: IDT_MARS_DRYLAKE
+          area: [0, 360, 0, 90]
+          weight: 50
         - name: IDT_MARS
           area: [0, 360, 0, 90]
+          weight: 50
     - id: 9 # Snow
-      startingCondition: STR_MARS_CONDITION
       terrain:
-        - name: POLAR
+        - name: MPOLN
           area: [0, 360, -90, 0]
-        - name: POLAR
+        - name: MPOLN
           area: [0, 360, 0, 90]
     - id: 10 # Dark, mottled, smooth lava plains aka "seas"
-      startingCondition: STR_MARS_CONDITION
       terrain:
-        - name: MARS
+        - name: MSTD
           area: [0, 360, -90, 0]
-        - name: IDT_MARS
+          weight: 50
+        - name: MARSPLAIN
+          area: [0, 360, -90, 0]
+          weight: 50
+        - name: MSTDS
           area: [0, 360, 0, 90]
+          weight: 50
+        - name: IDT_MARS_DEBRIS
+          area: [0, 360, 0, 90]
+          weight: 50
     - id: 11 # Deep canyon terrain
-      startingCondition: STR_MARS_CONDITION
       terrain:
-        - name: MARS
+        - name: MSTRK
           area: [0, 360, -90, 0]
-        - name: IDT_MARS
+        - name: MARSMOUNT
           area: [0, 360, 0, 90]
     - id: 12 # Permafrost ice on the poles
-      startingCondition: STR_MARS_CONDITION
       terrain:
-        - name: POLAR
+        - name: MPOLN
+    - id: -1
+      deployments:
+        STR_TERROR_MISSION: 100
+    - id: -2
+      deployments:
+        STR_HUMAN_EXCAVATION: 100
+    - id: -3
+      deployments:
+        STR_MAIN_BASE_ASSAULT: 100
+    - id: -4
+      deployments:
+        STR_HUMAN_RESEARCH: 100
+
     - id: -1
       deployments:
         STR_TERROR_MISSION: 100
@@ -1410,15 +1481,15 @@ regions:
       STR_ALIEN_BASE: 20
     missionZones:
       -
-        - [302, 8, -69, -55]
+        - [302, 368, -69, -55]
         - [302, 324, -55, -39]
-        - [302, 6.6, -30, -10]
-        - [344, 6.6, -46, -30]
+        - [302, 366.6, -30, -10]
+        - [344, 366.6, -46, -30]
       -
         - [303, 321, -52, -43]
         - [336, 342, -42, -50]
         - [319, 344, -27, -24]
-        - [348, 4, -41, -17]
+        - [348, 364, -41, -17]
         - [317, 338, -37, -32]
         - [328, 348, -65, -61]
       -
@@ -1432,7 +1503,7 @@ regions:
         - [311, 311, -35, -35, -1, STR_NATO_MINING_POST]
       -
         - [332, 344, -44, -40]
-        - [356, 3, -53, -48]
+        - [356, 363, -53, -48]
         - [305, 312, -36, -33]
         - [342, 350, -20, -15]
       -
@@ -1456,13 +1527,13 @@ regions:
       STR_ALIEN_BASE: 20
     missionZones:
       -
-        - [262, 15, -77, -72]
+        - [262, 375, -77, -72]
         - [48, 142, -78, -73]
       -
         - [198, 285, -77, -76]
         - [78, 117, -75, -84]
       -
-        - [209, 160, -82, -78]
+        - [209, 520, -82, -78]
       -
         - [40, 40, -74, -74, -1, STR_NATO_OUTPOST_2]
         - [189, 189, -80, -80, -1, STR_NATO_ICE_PLANT]
@@ -1494,18 +1565,18 @@ regions:
     missionZones:
       -
         - [305, 332, -6, -0.3]
-        - [345, 2.4, -4, -1.6]
-        - [319, 3.1, 10, 25]
+        - [345, 362.4, -4, -1.6]
+        - [319, 363.1, 10, 25]
         - [9.3, 33, 2.1, 9]
         - [44, 64, 7, 17]
       -
         - [316, 330, -3.4, 12]
-        - [343, 0, 5, 15]
+        - [343, 360, 5, 15]
         - [5, 28, 15, 19]
         - [45, 59, 3.12, 7.2]
       -
         - [333, 340, -1.2, 5]
-        - [353, 10, 0.72, 5]
+        - [353, 370, 0.72, 5]
         - [54, 65, 11, 15]
         - [329, 346, 14, 16]
         - [19, 26, 7.6, 15]
@@ -1802,7 +1873,7 @@ regions:
     missionZones:
       -
         - [10, 47, 23, 25]
-        - [358, 13, 33, 68]
+        - [358, 373, 33, 68]
         - [27, 42, 44, 53]
         - [1, 40, 73, 82]
       -
@@ -2010,12 +2081,6 @@ customPalettes:
       157: [72, 4, 0]
       158: [60, 0, 0]
       159: [48, 0, 0]
-  - type: PAL_MARS
-    target: PAL_MARS
-    file: Resources/Geoscape/pal_Mars.pal
-  - type: PAL_MARS_LITE
-    target: PAL_MARS_LITE
-    file: Resources/Geoscape/pal_Mars_lite.pal
 
 extraSprites:
   - type: TEXTURE.DAT
@@ -2092,13 +2157,19 @@ extraStrings:
       STR_WARSAW_PACT_LABORATORY: Korolev Space Center
       STR_WARSAW_PACT_MINE_COMPLEX_2: Kruschev Refinery Site
 
-      MAP_IDT_MARS: Southern Rocky Highlands
-      MAP_MARS:  Alien Military Base
-      MAP_MARSMOUNT: Southern Highlands
-      MAP_MARSURBAN: Alien Civilian Complex
-      MAP_MARSPLAIN: Nothern Lowlands
-      MAP_MARSCRATER: Southern Plains
-      MAP_IDT_HUMAN_STATION: Human R&D Station
+      MAP_IDT_MARS: "Southern Rocky Highlands"
+      MAP_IDT_HUMAN_STATION: "Human R&D Station"
+      MAP_IDT_MARS_DEBRIS: "Former Warzone"
+      MAP_IDT_MARS_DRYLAKE: "Dry Seabed"
+      MAP_MARS: "Alien Military Base"
+      MAP_MARSMOUNT: "Southern Highlands"
+      MAP_MARSURBAN: "Alien Civilian Complex"
+      MAP_MARSPLAIN: "Northern Lowlands"
+      MAP_MARSCRATER: "Southern Volcanic Plains"
+      MAP_MSTD: "Northern Volcanic Plains"
+      MAP_MSTDS: "Southern Plains"
+      MAP_MPOLN: "Polar Ice Caps"
+      MAP_MSTRK: "Volcanic Highlands"
 #      STR_
 #      STR_
 #      STR_  STR_

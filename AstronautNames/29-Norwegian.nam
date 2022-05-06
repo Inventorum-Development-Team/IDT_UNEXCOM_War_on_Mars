@@ -1,0 +1,560 @@
+lookWeights:
+  - 50
+  - 43
+  - 7
+  - 0
+maleFirst:
+  - Astronaut Adrian
+  - Astronaut Aleksander
+  - Astronaut Alexander
+  - Astronaut Alf
+  - Astronaut Alfred
+  - Astronaut Anders
+  - Astronaut Andreas
+  - Astronaut Anton
+  - Astronaut Arne
+  - Astronaut Artur
+  - Astronaut Arvid
+  - Astronaut Asbjoorn
+  - Astronaut Atle
+  - Astronaut Balder
+  - Astronaut Baldur
+  - Astronaut Benjamin
+  - Astronaut Bjorn
+  - Astronaut Boone
+  - Astronaut Borg
+  - Astronaut Brander
+  - Astronaut Burnaby
+  - Astronaut Burr
+  - Astronaut Busby
+  - Astronaut Cadby
+  - Astronaut Canute
+  - Astronaut Carr
+  - Astronaut Cawley
+  - Astronaut Christian
+  - Astronaut Christoffer
+  - Astronaut Colby
+  - Astronaut Dag
+  - Astronaut Danby
+  - Astronaut Delling
+  - Astronaut Daniel
+  - Astronaut Didrik
+  - Astronaut Edvard
+  - Astronaut Einar
+  - Astronaut Eirik
+  - Astronaut Elvis
+  - Astronaut Emil
+  - Astronaut Eric
+  - Astronaut Erik
+  - Astronaut Erlend
+  - Astronaut Erling
+  - Astronaut Espen
+  - Astronaut Even
+  - Astronaut Fredrik
+  - Astronaut Frode
+  - Astronaut Gunnar
+  - Astronaut Haakon
+  - Astronaut Haavard
+  - Astronaut Hans
+  - Astronaut Harald
+  - Astronaut Havard
+  - Astronaut Henning
+  - Astronaut Henrik
+  - Astronaut Ivar
+  - Astronaut Jakob
+  - Astronaut Jan
+  - Astronaut Jens
+  - Astronaut Joachim
+  - Astronaut Joakim
+  - Astronaut Johan
+  - Astronaut Jokkum
+  - Astronaut Jon
+  - Astronaut Jonas
+  - Astronaut Jorgen
+  - Astronaut Julius
+  - Astronaut Kare
+  - Astronaut Karl
+  - Astronaut Kjell
+  - Astronaut Knut
+  - Astronaut knute
+  - Astronaut Kristian
+  - Astronaut Kristoffer
+  - Astronaut Lars
+  - Astronaut Leif
+  - Astronaut Ludvik
+  - Astronaut Mads
+  - Astronaut Magnus
+  - Astronaut Marcus
+  - Astronaut Marius
+  - Astronaut Martin
+  - Astronaut Martinus
+  - Astronaut Mathias
+  - Astronaut Matias
+  - Astronaut Mats
+  - Astronaut Mikkel
+  - Astronaut Mons
+  - Astronaut Nikolai
+  - Astronaut Nils
+  - Astronaut Olaf
+  - Astronaut Olan
+  - Astronaut Ole
+  - Astronaut Pal
+  - Astronaut Paul
+  - Astronaut Peder
+  - Astronaut Per
+  - Astronaut Petter
+  - Astronaut Reidar
+  - Astronaut Rolf
+  - Astronaut Sander
+  - Astronaut Sebastian
+  - Astronaut Sigurd
+  - Astronaut Simen
+  - Astronaut Sindre
+  - Astronaut Stian
+  - Astronaut Svein
+  - Astronaut Svend
+  - Astronaut Sverre
+  - Astronaut Thomas
+  - Astronaut Thor
+  - Astronaut Tobias
+  - Astronaut Tomas
+  - Astronaut Tor
+  - Astronaut Vegar
+  - Astronaut Vegard
+femaleFirst:
+  - Astronaut Abigael
+  - Astronaut Adelis
+  - Astronaut Agot
+  - Astronaut Alberte
+  - Astronaut Alfhild
+  - Astronaut Ane
+  - Astronaut Annbjorg
+  - Astronaut Annborg
+  - Astronaut Arnbjorg
+  - Astronaut Asdis
+  - Astronaut Aslaug
+  - Astronaut Benedikte
+  - Astronaut Bergit
+  - Astronaut Bergliot
+  - Astronaut Berit
+  - Astronaut Brigit
+  - Astronaut Canutte
+  - Astronaut Cathrine
+  - Astronaut Dagrun
+  - Astronaut Fredrika
+  - Astronaut Gerdy
+  - Astronaut Grete
+  - Astronaut Grethe
+  - Astronaut Gry
+  - Astronaut Gudlaug
+  - Astronaut Gunnhild
+  - Astronaut Gunnvor
+  - Astronaut Halldora
+  - Astronaut Hege
+  - Astronaut Heidrun
+  - Astronaut Hjordis
+  - Astronaut Idunn
+  - Astronaut Inge
+  - Astronaut Ingebjorg
+  - Astronaut Ingfrid
+  - Astronaut Inghild
+  - Astronaut Ingvild
+  - Astronaut Janne
+  - Astronaut Johanne
+  - Astronaut Jorunn
+  - Astronaut Kanutte
+  - Astronaut Kari
+  - Astronaut Karita
+  - Astronaut Karoline
+  - Astronaut Kirsten
+  - Astronaut Kjellfrid
+  - Astronaut Kjersti
+  - Astronaut Kjerstin
+  - Astronaut Kristi
+  - Astronaut Kristine
+  - Astronaut Lise
+  - Astronaut Lovise
+  - Astronaut Magnhild
+  - Astronaut Margarete
+  - Astronaut Margarethe
+  - Astronaut Margrethe
+  - Astronaut Marit
+  - Astronaut Rebekka
+  - Astronaut Silje
+  - Astronaut Sofia
+  - Astronaut Solaug
+  - Astronaut Thorbjorg
+  - Astronaut Torbjorg
+  - Astronaut Torhilda
+  - Astronaut Torid
+  - Astronaut Toril
+  - Astronaut Urd
+  - Astronaut Valdis
+  - Astronaut Vendela
+  - Astronaut Vibeke
+  - Astronaut Viva
+  - Astronaut Waldis
+  - Astronaut Yngvild
+maleLast:
+  - Aamodt
+  - Aas
+  - Aasen
+  - Aasgaard
+  - Abel
+  - Abrahamsen
+  - Alsgaard
+  - Alving
+  - Amundsen
+  - Amundson
+  - Andersen
+  - Andreassen
+  - Andresen
+  - Andsnes
+  - Antonisen
+  - Antonsen
+  - Arnesen
+  - Arup
+  - Asheim
+  - Aune
+  - Bakke
+  - Bakken
+  - Balle
+  - Baltzersen
+  - Berg
+  - Berge
+  - Berntsen
+  - Birkeland
+  - Birknes
+  - Bjoenkaer
+  - Bjoerndalen
+  - Bjone
+  - Bjordal
+  - Bjorlo
+  - Bjornebye
+  - Bjornson
+  - Bjornstad
+  - Blix
+  - Bo
+  - Bocklin
+  - Boe
+  - Borkman
+  - Brack
+  - Brandes
+  - Brat
+  - Brataas
+  - Bredesen
+  - Brekke
+  - Brenden
+  - Brogger
+  - Brovik
+  - Buraas
+  - Burass
+  - Christensen
+  - Christiansen
+  - Daehle
+  - Daehlie
+  - Dahl
+  - Dahn
+  - Dahue
+  - Danielsen
+  - Dybendahl
+  - Edvardsen
+  - Eftevang
+  - Eggen
+  - Eide
+  - Eliassen
+  - Elieson
+  - Ellingsen
+  - Elvsted
+  - Engen
+  - Enger
+  - Englund
+  - Engstrand
+  - Eriksen
+  - Ertzgard
+  - Evensen
+  - Fagerberg
+  - Fagernes
+  - Falck
+  - Fjaerestad
+  - Fjortoft
+  - Flemmen
+  - Flo
+  - Folkow
+  - Fosli
+  - Franck
+  - Fredriksen
+  - Fretheim
+  - Fuglesang
+  - Fuglestad
+  - Furuseth
+  - Gabler
+  - Gabrielsen
+  - Garborg
+  - Gimle
+  - Gjeldnes
+  - Gjelland
+  - Gjessing
+  - Grieg
+  - Grimseth
+  - Grimsmo
+  - Gritdal
+  - Grodas
+  - Groenvold
+  - Gronelv
+  - Guidon
+  - Gulbrandsen
+  - Gundersen
+  - Gunderson
+  - Gunnestad
+  - Gylfason
+  - Haakonsen
+  - Haarberg
+  - Haarland
+  - Haartz
+  - Hagen
+  - Halskar
+  - Halvorsen
+  - Hammer
+  - Hanevold
+  - Hanke
+  - Hansen
+  - Hanssen
+  - Hanstveit
+  - Hartmark
+  - Hasso
+  - Hasund
+  - Haug
+  - Hauge
+  - Haugen
+  - Haugland
+  - Haugsrud
+  - Heiberg
+  - Helgeland
+  - Helgerod
+  - Helland
+  - Helmer
+  - Henriksen
+  - Herdal
+  - Heyerdahl
+  - Hoan
+  - Hoeg
+  - Hoen
+  - Holm
+  - Holmann
+  - Holth
+  - Hopen
+  - Horn
+  - Hultgreen
+  - Hustveit
+  - Ibsen
+  - Ingebriktsson
+  - Ingstad
+  - Isaksen
+  - Iversen
+  - Jacobsen
+  - Jagge
+  - Jakobsen
+  - Jasperson
+  - Jelesens
+  - Jensen
+  - Jenssen
+  - Jevne
+  - Johannessen
+  - Johansen
+  - Johnsen
+  - Jorgensen
+  - Juell
+  - Kaland
+  - Karlan
+  - Karlsen
+  - Kase
+  - Kildal
+  - Kippe
+  - Kjeldaas
+  - Kjelstrup
+  - Kjorestad
+  - Kjorsvik
+  - Klovstod
+  - Knudsen
+  - Knutsen
+  - Koht
+  - Koss
+  - Krafft
+  - Kristensen
+  - Kristiansen
+  - Kristoffersen
+  - Krogstad
+  - Kultin
+  - Kvarme
+  - Landa
+  - Langslet
+  - Lanser
+  - Larsen
+  - Leirfall
+  - Leonhardsen
+  - Lid
+  - Lie
+  - Lien
+  - Lier
+  - Lind
+  - Lindahl
+  - Linde
+  - Listow
+  - Ljoekelsoey
+  - Loevaas
+  - Lorch
+  - Lous
+  - Lovborg
+  - Ludwigsen
+  - Lund
+  - Lunde
+  - Lyen
+  - Malmros
+  - Malmstrom
+  - Manders
+  - Marken
+  - Martinsen
+  - Mathiesen
+  - Mathisen
+  - Meling
+  - Meyer
+  - Midttun
+  - Mikkelsen
+  - Mikkelsplass
+  - Mo
+  - Moen
+  - Mork
+  - Mostue
+  - Munch
+  - Myhre
+  - Mykland
+  - Myklebust
+  - Myrland
+  - Naess
+  - Nanstveit
+  - Naustvik
+  - Neilsen
+  - Nerhus
+  - Nielsen
+  - Nilsen
+  - Njerve
+  - Njos
+  - Noberg
+  - Nore
+  - Nyberg
+  - Nygard
+  - Odegard
+  - Oedegaard
+  - Oesten
+  - Olsen
+  - Omholt
+  - Orden
+  - Orthe
+  - Ostenstad
+  - Ottesen
+  - Paldan
+  - Paulsen
+  - Pedersen
+  - Pederssen
+  - Pettersen
+  - Poulsen
+  - Prydz
+  - Quisling
+  - Ramsfeld
+  - Ramsfjell
+  - Rank
+  - Ranning
+  - Rasmussen
+  - Ratkje
+  - Rekdal
+  - Resi
+  - Retter
+  - Ribur
+  - Riseth
+  - Rodahl
+  - Rovlund
+  - Ruud
+  - Saeterstoel
+  - Saether
+  - Salvesen
+  - Sandvik
+  - Schei
+  - Schjerven
+  - Schroder
+  - Schwane
+  - Schytte
+  - Selle
+  - Selling
+  - Selvik
+  - Sikveland
+  - Simonsen
+  - Sivertsen
+  - Sivertson
+  - Sivlee
+  - Sjo
+  - Sjovold
+  - Skarsgaard
+  - Skarsgard
+  - Skavlan
+  - Skjelbraid
+  - Skjolsvold
+  - Skovgaard
+  - Skreien
+  - Smilla
+  - Solbakken
+  - Solbakker
+  - Solberg
+  - Solheim
+  - Solness
+  - Solskaer
+  - Sondral
+  - Sorensen
+  - Stamso
+  - Steen
+  - Stensrud
+  - Stianson
+  - Stirner
+  - Storelid
+  - Stram
+  - Strand
+  - Strandli
+  - Svasand
+  - Svendson
+  - Svenoy
+  - Syversen
+  - Tangen
+  - Tangvik
+  - Tesman
+  - Thomassen
+  - Thonstad
+  - Thoresen
+  - Thorsen
+  - Thue
+  - Thulesius
+  - Thune
+  - Thymann
+  - Tobiassen
+  - Tonder
+  - Tonsberg
+  - Torgereen
+  - Torp
+  - Traa
+  - Tunold
+  - Tveit
+  - Ulstein
+  - Ulving
+  - Utskjoer
+  - Veitberg
+  - Vigeland
+  - Vik
+  - Vind
+  - Waldum
+  - Wangel
+  - Wangen
+  - Wassmo
+  - Wikborg
+  - Wullum
+  - Yons
+  - Ytterhus
+  - Zakariassen

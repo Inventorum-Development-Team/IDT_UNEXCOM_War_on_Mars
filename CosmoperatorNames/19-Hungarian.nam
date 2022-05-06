@@ -1,0 +1,491 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Cosmoperator Abel
+  - Cosmoperator Adam
+  - Cosmoperator Adrian
+  - Cosmoperator Akos
+  - Cosmoperator Albert
+  - Cosmoperator Alex
+  - Cosmoperator Andor
+  - Cosmoperator Andras
+  - Cosmoperator Antal
+  - Cosmoperator Arnold
+  - Cosmoperator Aron
+  - Cosmoperator Arpad
+  - Cosmoperator Attila
+  - Cosmoperator Balazs
+  - Cosmoperator Balint
+  - Cosmoperator Barna
+  - Cosmoperator Barnabas
+  - Cosmoperator Bela
+  - Cosmoperator Bence
+  - Cosmoperator Bendeguz
+  - Cosmoperator Benedek
+  - Cosmoperator Benjamin
+  - Cosmoperator Bertalan
+  - Cosmoperator Botond
+  - Cosmoperator Csaba
+  - Cosmoperator Csongor
+  - Cosmoperator Daniel
+  - Cosmoperator David
+  - Cosmoperator Denes
+  - Cosmoperator Dezso
+  - Cosmoperator Dominik
+  - Cosmoperator Elemer
+  - Cosmoperator Emil
+  - Cosmoperator Endre
+  - Cosmoperator Erik
+  - Cosmoperator Erno
+  - Cosmoperator Ervin
+  - Cosmoperator Ferenc
+  - Cosmoperator Gabor
+  - Cosmoperator Gergely
+  - Cosmoperator Gergo
+  - Cosmoperator Geza
+  - Cosmoperator Gusztav
+  - Cosmoperator Gyorgy
+  - Cosmoperator Gyozo
+  - Cosmoperator Gyula
+  - Cosmoperator Henrik
+  - Cosmoperator Imre
+  - Cosmoperator Istvan
+  - Cosmoperator Ivan
+  - Cosmoperator Janos
+  - Cosmoperator Jeno
+  - Cosmoperator Jozsef
+  - Cosmoperator Kalman
+  - Cosmoperator Karoly
+  - Cosmoperator Kevin
+  - Cosmoperator Kornel
+  - Cosmoperator Kristof
+  - Cosmoperator Krisztian
+  - Cosmoperator Krisztofer
+  - Cosmoperator Lajos
+  - Cosmoperator Laszlo
+  - Cosmoperator Levente
+  - Cosmoperator Lorant
+  - Cosmoperator Marcell
+  - Cosmoperator Mark
+  - Cosmoperator Martin
+  - Cosmoperator Marton
+  - Cosmoperator Mate
+  - Cosmoperator Matyas
+  - Cosmoperator Mihaly
+  - Cosmoperator Miklos
+  - Cosmoperator Milan
+  - Cosmoperator Nandor
+  - Cosmoperator Noel
+  - Cosmoperator Norbert
+  - Cosmoperator Oliver
+  - Cosmoperator Otto
+  - Cosmoperator Pal
+  - Cosmoperator Patrik
+  - Cosmoperator Peter
+  - Cosmoperator Richard
+  - Cosmoperator Robert
+  - Cosmoperator Roland
+  - Cosmoperator Rudolf
+  - Cosmoperator Sandor
+  - Cosmoperator Szabolcs
+  - Cosmoperator Szilard
+  - Cosmoperator Szilveszter
+  - Cosmoperator Tamas
+  - Cosmoperator Tibor
+  - Cosmoperator Tivadar
+  - Cosmoperator Viktor
+  - Cosmoperator Vilmos
+  - Cosmoperator Vince
+  - Cosmoperator Zalan
+  - Cosmoperator Zoltan
+  - Cosmoperator Zsigmond
+  - Cosmoperator Zsolt
+  - Cosmoperator Zsombor
+femaleFirst:
+  - Cosmoperator Adrienn
+  - Cosmoperator Agi
+  - Cosmoperator Agnes
+  - Cosmoperator Agota
+  - Cosmoperator Alberta
+  - Cosmoperator Alexa
+  - Cosmoperator Alexandra
+  - Cosmoperator Aliz
+  - Cosmoperator Anasztazia
+  - Cosmoperator Andrea
+  - Cosmoperator Anett
+  - Cosmoperator Angyalka
+  - Cosmoperator Aniko
+  - Cosmoperator Anita
+  - Cosmoperator Anna
+  - Cosmoperator Annamaria
+  - Cosmoperator Aranka
+  - Cosmoperator Aurelia
+  - Cosmoperator Barbara
+  - Cosmoperator Beata
+  - Cosmoperator Beatrix
+  - Cosmoperator Bella
+  - Cosmoperator Bernadett
+  - Cosmoperator Berta
+  - Cosmoperator Bettina
+  - Cosmoperator Bianka
+  - Cosmoperator Boglarka
+  - Cosmoperator Bora
+  - Cosmoperator Borbala
+  - Cosmoperator Boriska
+  - Cosmoperator Borka
+  - Cosmoperator Brigitta
+  - Cosmoperator Cili
+  - Cosmoperator Csilla
+  - Cosmoperator Dia
+  - Cosmoperator Diana
+  - Cosmoperator Dora
+  - Cosmoperator Dorina
+  - Cosmoperator Dorottya
+  - Cosmoperator Edina
+  - Cosmoperator Edit
+  - Cosmoperator Emese
+  - Cosmoperator Emma
+  - Cosmoperator Eniko
+  - Cosmoperator Erika
+  - Cosmoperator Ernesztina
+  - Cosmoperator Erzsebet
+  - Cosmoperator Erzsi
+  - Cosmoperator Eszter
+  - Cosmoperator Etel
+  - Cosmoperator Etelka
+  - Cosmoperator Eva
+  - Cosmoperator Evelin
+  - Cosmoperator Fanni
+  - Cosmoperator Franciska
+  - Cosmoperator Gabriella
+  - Cosmoperator Gitta
+  - Cosmoperator Gizella
+  - Cosmoperator Gyongyi
+  - Cosmoperator Gyorgyi
+  - Cosmoperator Hajna
+  - Cosmoperator Hajnalka
+  - Cosmoperator Hanna
+  - Cosmoperator Henrietta
+  - Cosmoperator Ibolya
+  - Cosmoperator Ica
+  - Cosmoperator Ildiko
+  - Cosmoperator Ilka
+  - Cosmoperator Ilona
+  - Cosmoperator Iren
+  - Cosmoperator Irenke
+  - Cosmoperator Irma
+  - Cosmoperator Janka
+  - Cosmoperator Jolan
+  - Cosmoperator Judit
+  - Cosmoperator Julia
+  - Cosmoperator Julianna
+  - Cosmoperator Juliska
+  - Cosmoperator Karola
+  - Cosmoperator Karolina
+  - Cosmoperator Katalin
+  - Cosmoperator Katarina
+  - Cosmoperator Kati
+  - Cosmoperator Katinka
+  - Cosmoperator Kinga
+  - Cosmoperator Kitti
+  - Cosmoperator Klara
+  - Cosmoperator Klaudia
+  - Cosmoperator Kriszta
+  - Cosmoperator Krisztina
+  - Cosmoperator Laura
+  - Cosmoperator Lili
+  - Cosmoperator Lilla
+  - Cosmoperator Linka
+  - Cosmoperator Liza
+  - Cosmoperator Magdolna
+  - Cosmoperator Mara
+  - Cosmoperator Margit
+  - Cosmoperator Margo
+  - Cosmoperator Maria
+  - Cosmoperator Mariann
+  - Cosmoperator Marianna
+  - Cosmoperator Marika
+  - Cosmoperator Marta
+  - Cosmoperator Melinda
+  - Cosmoperator Monika
+  - Cosmoperator Nikolett
+  - Cosmoperator Nikoletta
+  - Cosmoperator Noemi
+  - Cosmoperator Nora
+  - Cosmoperator Olga
+  - Cosmoperator Orsolya
+  - Cosmoperator Petra
+  - Cosmoperator Piroska
+  - Cosmoperator Reka
+  - Cosmoperator Renata
+  - Cosmoperator Rita
+  - Cosmoperator Roza
+  - Cosmoperator Rozalia
+  - Cosmoperator Rozsa
+  - Cosmoperator Sara
+  - Cosmoperator Sarolta
+  - Cosmoperator Szabina
+  - Cosmoperator Szilvia
+  - Cosmoperator Terez
+  - Cosmoperator Terezia
+  - Cosmoperator Timea
+  - Cosmoperator Tunde
+  - Cosmoperator Valeria
+  - Cosmoperator Veronika
+  - Cosmoperator Viktoria
+  - Cosmoperator Virag
+  - Cosmoperator Vivien
+  - Cosmoperator Zita
+  - Cosmoperator ZsaZsa
+  - Cosmoperator Zsanett
+  - Cosmoperator Zsofia
+  - Cosmoperator Zsuzska
+  - Cosmoperator Zsuzsanna
+  - Cosmoperator Zsuzsi
+maleLast:
+  - Alfoldi
+  - Andrassy
+  - Annus
+  - Antal
+  - Arany
+  - Bakos
+  - Balassa
+  - Balazs
+  - Balint
+  - Balla
+  - Balog
+  - Balogh
+  - Barati
+  - Barna
+  - Barsony
+  - Barta
+  - Bartok
+  - Bathory
+  - Berzevicky
+  - Biro
+  - Bocskay
+  - Bodnar
+  - Bogdan
+  - Bognar
+  - Borbely
+  - Bori
+  - Boros
+  - Budai
+  - Csillag
+  - Csollany
+  - Csonka
+  - Csurgo
+  - Czako
+  - Czene
+  - Czobor
+  - Dardai
+  - Daroczy
+  - Deak
+  - Dobos
+  - Doczi
+  - Dombi
+  - Dozsa
+  - Dudas
+  - Egerszegi
+  - Eotvos
+  - Fabian
+  - Farago
+  - Farkas
+  - Fazekas
+  - Feher
+  - Fekete
+  - Ferenczy
+  - Fodor
+  - Forgach
+  - Forgacs
+  - Fulop
+  - Gal
+  - Gaspar
+  - Gazdag
+  - Gero
+  - Guba
+  - Gulyas
+  - Gyorffy
+  - Gyulai
+  - Hajdu
+  - Halasz
+  - Halmai
+  - Hamori
+  - Hankiss
+  - Hedervary
+  - Hegedus
+  - Hollo
+  - Horanszky
+  - Horthy
+  - Horvath
+  - Hrutka
+  - Hunyadi
+  - Illes
+  - Illeshazy
+  - Ilyes
+  - Istvanffy
+  - Jagadics
+  - Jakab
+  - Jaszi
+  - Jokai
+  - Jonas
+  - Joo
+  - Juhasz
+  - Kalanyos
+  - Kaldi
+  - Kallay
+  - Kammerer
+  - Karolyi
+  - Katona
+  - Kazinczy
+  - Kelemen
+  - Kemeny
+  - Kerekes
+  - Kertes
+  - Kiraly
+  - Kis
+  - Kiss
+  - Knesevich
+  - Koban
+  - Kocsis
+  - Kodaly
+  - Koranyi
+  - Kortosi
+  - Kossuth
+  - Kovacs
+  - Kovago
+  - Kozma
+  - Kulcsar
+  - Kun
+  - Kurti
+  - Kurtosi
+  - Kurutz
+  - Kuti
+  - Kutsera
+  - Lajtos
+  - Lakatos
+  - Laszlo
+  - Lehotka
+  - Lengyel
+  - Ligeti
+  - Liptak
+  - Lisztes
+  - Lugosi
+  - Lukacs
+  - Madar
+  - Magyar
+  - Major
+  - Malek
+  - Mandula
+  - Markovits
+  - Mate
+  - Matyus
+  - Mecs
+  - Meszaros
+  - Mindszenty
+  - Molnar
+  - Munkacsy
+  - Nadasdy
+  - Nagy
+  - Nemes
+  - Nemeth
+  - Noszaly
+  - Novak
+  - Nyilas
+  - Nyilasi
+  - Olah
+  - Onodi
+  - Orban
+  - Orczy
+  - Orosz
+  - Orsos
+  - Pal
+  - Palagyi
+  - Pandy
+  - Pap
+  - Papp
+  - Partos
+  - Pasztor
+  - Pataki
+  - Pazmany
+  - Pecely
+  - Perneky
+  - Peter
+  - Petofi
+  - Pinter
+  - Pongratz
+  - Pulszky
+  - Racz
+  - Rakosi
+  - Redik
+  - Revay
+  - Rezessy
+  - Ronay
+  - Rosner
+  - Rosza
+  - Rubik
+  - Safar
+  - Sandor
+  - Sebok
+  - Sereny
+  - Simon
+  - Sipos
+  - Soltesz
+  - Solti
+  - Solymosi
+  - Somogyi
+  - Soos
+  - Supola
+  - Suto
+  - Svarcz
+  - Szabo
+  - Szalai
+  - Szalay
+  - Szatmary
+  - Szechenyi
+  - Szekely
+  - Szekeres
+  - Szelepcsenyi
+  - Szeman
+  - Szemere
+  - Szilagyi
+  - Szoke
+  - Szucs
+  - Szuhay
+  - Tabory
+  - Takacs
+  - Tamas
+  - Teleki
+  - Temesvari
+  - Tessedik
+  - Thurzo
+  - Tisza
+  - Tokes
+  - Tokody
+  - Tolgyesi
+  - Torok
+  - Toth
+  - Ujlaky
+  - Urbanik
+  - Vajda
+  - Vamosi
+  - Varadi
+  - Varga
+  - Varkonyi
+  - Vass
+  - Vegh
+  - Verboczy
+  - Veres
+  - Vidrai
+  - Vincze
+  - Virag
+  - Voros
+  - Wessely
+  - Zatony
+  - Zavadszky
+  - Zrinyi
+  - Zsivozky
+  - Zsoldos

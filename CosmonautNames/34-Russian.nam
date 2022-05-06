@@ -1,0 +1,166 @@
+﻿lookWeights:
+  - 25
+  - 35
+  - 35
+  - 5
+maleFirst:
+  - Cosmonaut Aleksandr
+  - Cosmonaut Aleksey
+  - Cosmonaut Anatoliy
+  - Cosmonaut Andrey
+  - Cosmonaut Anton
+  - Cosmonaut Artem
+  - Cosmonaut Artur
+  - Cosmonaut Boris
+  - Cosmonaut Denis
+  - Cosmonaut Dmitriy
+  - Cosmonaut Eduard
+  - Cosmonaut Evgeniy
+  - Cosmonaut Gennadiy
+  - Cosmonaut Georgiy
+  - Cosmonaut Grigoriy
+  - Cosmonaut Igor
+  - Cosmonaut Ilya
+  - Cosmonaut Ivan
+  - Cosmonaut Konstantin
+  - Cosmonaut Leonid
+  - Cosmonaut Maxim
+  - Cosmonaut Mihail
+  - Cosmonaut Nikolay
+  - Cosmonaut Oleg
+  - Cosmonaut Pavel
+  - Cosmonaut Petr
+  - Cosmonaut Roman
+  - Cosmonaut Ruslan
+  - Cosmonaut Sergey
+  - Cosmonaut Stanislav
+  - Cosmonaut Vadim
+  - Cosmonaut Valentin
+  - Cosmonaut Valeriy
+  - Cosmonaut Vasiliy
+  - Cosmonaut Viktor
+  - Cosmonaut Vitaliy
+  - Cosmonaut Vladimir
+  - Cosmonaut Vladislav
+  - Cosmonaut Vyacheslav
+  - Cosmonaut Yuriy
+femaleFirst:
+  - Cosmonaut Albina
+  - Cosmonaut Aleksandra
+  - Cosmonaut Alla
+  - Cosmonaut Alyona
+  - Cosmonaut Anastasiya
+  - Cosmonaut Anna
+  - Cosmonaut Antonina
+  - Cosmonaut Darya
+  - Cosmonaut Ekaterina
+  - Cosmonaut Elena
+  - Cosmonaut Evgeniya
+  - Cosmonaut Galina
+  - Cosmonaut Inna
+  - Cosmonaut Irina
+  - Cosmonaut Kristina
+  - Cosmonaut Kseniya
+  - Cosmonaut Larisa
+  - Cosmonaut Lidiya
+  - Cosmonaut Liliya
+  - Cosmonaut Lyubov
+  - Cosmonaut Lyudmila
+  - Cosmonaut Margarita
+  - Cosmonaut Marina
+  - Cosmonaut Mariya
+  - Cosmonaut Nadezhda
+  - Cosmonaut Natalya
+  - Cosmonaut Nina
+  - Cosmonaut Oksana
+  - Cosmonaut Olesya
+  - Cosmonaut Olga
+  - Cosmonaut Raisa
+  - Cosmonaut Svetlana
+  - Cosmonaut Tamara
+  - Cosmonaut Tatyana
+  - Cosmonaut Valentina
+  - Cosmonaut Varvara
+  - Cosmonaut Vera
+  - Cosmonaut Viktoriya
+  - Cosmonaut Yulia
+  - Cosmonaut Zinaida
+  - Cosmonaut Zoya  
+maleLast:
+  - Alekseev
+  - Andreev
+  - Antonov
+  - Borisov
+  - Fedorov
+  - Egorov
+  - Grigoryev
+  - Gromov
+  - Ivanov
+  - Komarov
+  - Korolyov
+  - Kozlov
+  - Kuzmin
+  - Kuznetsov
+  - Lebedev
+  - Makarov
+  - Mihailov
+  - Morozov
+  - Nikitin
+  - Nikolaev
+  - Novikov
+  - Orlov
+  - Pavlov
+  - Petrov
+  - Popov
+  - Romanov
+  - Semyonov
+  - Sergeev
+  - Smirnov
+  - Sokolov
+  - Solovyov
+  - Stepanov
+  - Vasilyev
+  - Volkov
+  - Vorobyov
+  - Yakovlev
+  - Zaitsev
+  - Zaharov
+femaleLast:
+  - Alekseeva
+  - Andreeva
+  - Antonova
+  - Borisova
+  - Fedorova
+  - Egorova
+  - Grigoryeva
+  - Gromova
+  - Ivanova
+  - Komarova
+  - Korolyova
+  - Kozlova
+  - Kuzmina
+  - Kuznetsova
+  - Lebedeva
+  - Makarova
+  - Mihailova
+  - Morozova
+  - Nikitina
+  - Nikolaeva
+  - Novikova
+  - Orlova
+  - Pavlova
+  - Petrova
+  - Popova
+  - Romanova
+  - Semyonova
+  - Sergeeva
+  - Smirnova
+  - Sokolova
+  - Solovyova
+  - Stepanova
+  - Vasilyeva
+  - Volkova
+  - Vorobyova
+  - Yakovleva
+  - Zaitseva
+  - Zaharova

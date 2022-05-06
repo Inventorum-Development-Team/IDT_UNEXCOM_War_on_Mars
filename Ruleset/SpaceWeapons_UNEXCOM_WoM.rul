@@ -1,4 +1,358 @@
 items:
+  #RIFLE AMMO
+  - &STR_5_56MM_NATO_RIFLE_AMMO
+    type: STR_5_56MM_NATO_RIFLE_AMMO
+    power: 32
+    battleType: 2
+
+  - &STR_7_62MM_SOVIET_RIFLE_AMMO
+    type: STR_7_62MM_SOVIET_RIFLE_AMMO
+    power: 38
+    battleType: 2
+
+######################################
+###### FACTION OLD WEAPONS ##########
+####################################
+
+  - type: STR_M17_CARBINE
+    categories:
+      [
+        STR_BALLISTIC,
+        STR_FIREARMS,
+        STR_US_TECH,
+        STR_CARBINES
+      ]
+    size: 0.2
+    costSell: 1750
+    weight: 9
+    bigSprite: 138
+    floorSprite: 138
+    handSprite: 404
+    bulletSprite: 2
+    fireSound: 138
+    bulletSpeed: 25
+    reloadSound: [ 186, 187, 188, 189 ]
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56MM_NATO_RIFLE_X30 ]
+    confSnap:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      shortName: STR_DOUBLE_TAP_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 6
+      name: STR_CONTROL_AUTO
+      ammoSlot: 0
+      arcing: false
+    accuracySnap: 95
+    accuracyAimed: 150
+    accuracyAuto: 75
+    tuAuto: 45
+    tuSnap: 29
+    tuAimed: 65
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    listOrder: 200820
+
+  - type: STR_5_56MM_NATO_RIFLE_X30
+    refNode: *STR_5_56MM_NATO_RIFLE_AMMO
+    categories: [ STR_FIREARMS, STR_RIFLES, STR_CARBINES, STR_CLIPS ]
+    size: 0.1
+    costSell: 525
+    weight: 3
+    bigSprite: 106
+    floorSprite: 106
+    hitAnimation: 26
+    bulletSprite: 2
+    hitSound: 22
+    damageType: 1
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.3
+      ToWound: 0.3
+      ToArmor: 0.4
+      RandomWound: false
+    clipSize: 30
+    battleType: 2
+    attraction: 8
+    listOrder: 200960
+
+  - type: STR_AK79_RIFLE
+    categories:
+      [
+        STR_BALLISTIC,
+        STR_FIREARMS,
+        STR_SOVIET_TECH,
+        STR_RIFLES
+      ]
+    size: 0.2
+    costBuy: 2500
+    costSell: 1500
+    weight: 8
+    bigSprite: 174
+    floorSprite: 174
+    handSprite: 692
+    bulletSprite: 2
+    bulletSpeed: 28
+    fireSound: 172
+    reloadSound: [ 186, 187, 188, 189 ]
+    ammo:
+      0:
+        tuLoad: 10
+        tuUnload: 20
+        compatibleAmmo:
+          [
+            STR_7_62MM_SOVIET_RIFLE_X40
+          ]
+    confAimed:
+      shots: 3
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 5
+      name: STR_CONTROL_AUTO
+      ammoSlot: 0
+      arcing: false
+    accuracyAuto: 45
+    accuracySnap: 62
+    accuracyAimed: 85
+    tuAuto: 35
+    tuSnap: 25
+    tuAimed: 70
+    costThrow:
+      energy: 16
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    attraction: 8
+    listOrder: 201320
+
+  - type: STR_7_62MM_SOVIET_RIFLE_X40
+    refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
+    categories: [ STR_FIREARMS, STR_RIFLES, STR_CARBINES, STR_CLIPS ]
+    size: 0.1
+    costBuy: 475
+    costSell: 425
+    weight: 4
+    bigSprite: 114
+    floorSprite: 114
+    hitAnimation: 26
+    hitSound: 22
+    damageType: 1
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.2
+      ToWound: 0.4
+      ToArmor: 0.2
+      RandomWound: true
+    clipSize: 40
+    battleType: 2
+    attraction: 8
+    listOrder: 201340
+
+  - type: STR_40MM_FRAG
+    categories: [ STR_FIREARMS, STR_ARTILLERY, STR_CLIPS ]
+    size: 0.1
+    costBuy: 500
+    costSell: 470
+    weight: 2
+    bigSprite: 123
+    floorSprite: 123
+    hitSound: 0
+    hitAnimation: 0
+    power: 70
+    damageAlter:
+      RandomType: 6
+      IgnoreSelfDestruct: true
+      ToTile: 0.8
+      ToWound: 0.3
+      RandomWound: true
+    damageType: 3
+    clipSize: 1
+    battleType: 2
+    armor: 20
+    blastRadius: 3
+    bulletSprite: 4
+    listOrder: 200630
+  - type: STR_40MM_INCENDIARY
+    categories: [ STR_FIREARMS, STR_ARTILLERY, STR_CLIPS ]
+    size: 0.1
+    costBuy: 600
+    costSell: 400
+    weight: 2
+    bigSprite: 124
+    floorSprite: 124
+    hitSound: 0
+    bulletSprite: 4
+    hitAnimation: 0
+    power: 90
+    damageType: 2
+    clipSize: 1
+    battleType: 2
+    armor: 20
+    damageAlter:
+      FixRadius: 7
+    blastRadius: 7
+    listOrder: 200640
+  - type: STR_40MM_SMOKE
+    categories: [ STR_FIREARMS, STR_ARTILLERY, STR_CLIPS ]
+    size: 0.1
+    costBuy: 300
+    costSell: 200
+    weight: 2
+    bigSprite: 125
+    floorSprite: 125
+    hitSound: 0
+    hitAnimation: 0
+    power: 85
+    damageType: 9
+    clipSize: 1
+    battleType: 2
+    armor: 20
+    blastRadius: 8
+    bulletSprite: 5
+    listOrder: 200660
+  - type: STR_40MM_NON_LETHAL
+    categories: [ STR_FIREARMS, STR_ARTILLERY, STR_CLIPS ]
+    size: 0.1
+    costBuy: 1500
+    costSell: 800
+    weight: 2
+    bigSprite: 126
+    floorSprite: 126
+    handSprite: 308
+    hitSound: 0
+    hitAnimation: 0
+    power: 50
+    damageAlter:
+      RandomType: 6
+      ToStun: 1.2
+      ToEnergy: 1.1
+    damageType: 6
+    clipSize: 1
+    battleType: 2
+    armor: 20
+    blastRadius: 5
+    bulletSprite: 4
+    listOrder: 200650
+
+  - type: STR_G11_CASELESS_RIFLE
+    categories: [STR_SPACE, STR_FIREARMS, STR_NATO_TECH, STR_RIFLES]
+    size: 0.2
+    costBuy: 3200
+    costSell: 2000
+    weight: 5
+    bigSprite: 1510
+    floorSprite: 1510
+    handSprite: 3332
+    bulletSprite: 2
+    fireSound: 169
+    reloadSound: [186, 187, 188, 189]
+    compatibleAmmo:
+      - STR_G11_CASELESS_RIFLE_MAG
+    accuracyCloseQuarters: 90
+    accuracyAuto: 125
+    accuracySnap: 145
+    accuracyAimed: 200
+    #bulletSpeed: 10
+    tuAuto: 65
+    tuSnap: 50
+    tuAimed: 85
+    costThrow:
+      energy: 16
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 60
+    invWidth: 1
+    invHeight: 3
+    minRange: 10
+    maxRange: 40
+    autoRange: 35
+    dropoff: 10
+    attraction: 8
+#    listOrder: 2052
+
+  - type: STR_G11_CASELESS_RIFLE_MAG
+    categories: [STR_SPACE, STR_FIREARMS, STR_NATO_TECH, STR_PISTOLS]
+    size: 0.1
+    costSell: 250
+    weight: 2
+    bigSprite: 1515
+    bulletSpeed: 28
+    hitSound: 16
+    hitAnimation: 26
+    power: 50
+    damageType: 1
+    invHeight: 2
+    invWidth: 1
+    clipSize: 50
+    battleType: 2
+
+  - type: STR_TKB1980_CASELESS_RIFLE
+    categories: [STR_SPACE, STR_FIREARMS, STR_SOVIET_TECH, STR_CARBINES]
+#    requires:
+#      - STR_USSR_IMPROVED_AQUATIC_WEAPONS
+    size: 0.2
+    costBuy: 3200
+    costSell: 2000
+    weight: 6
+    bigSprite: 1511
+    floorSprite: 1511
+    handSprite: 3340
+    bulletSprite: 2
+    fireSound: 173
+    reloadSound: [186, 187, 188, 189]
+    compatibleAmmo:
+      - STR_TKB1980_CASELESS_RIFLE_MAG
+    accuracyCloseQuarters: 90
+    accuracyAuto: 80
+    accuracySnap: 100
+    accuracyAimed: 150
+    #bulletSpeed: 10
+    tuAuto: 50
+    tuSnap: 60
+    tuAimed: 80
+    costThrow:
+      energy: 16
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 60
+    invWidth: 1
+    invHeight: 3
+    autoRange: 15
+    maxRange: 25
+    dropoff: 10
+    attraction: 8
+#    listOrder: 2052
+
+  - type: STR_TKB1980_CASELESS_RIFLE_MAG
+    categories: [STR_SPACE, STR_FIREARMS, STR_SOVIET_TECH, STR_PISTOLS]
+    size: 0.1
+    costSell: 250
+    weight: 2
+    bigSprite: 1516
+    bulletSpeed: 28
+    hitSound: 16
+    hitAnimation: 26
+    power: 65
+    damageType: 1
+    invHeight: 1
+    invWidth: 1
+    clipSize: 45
+    battleType: 2
+
 ######################################
 ###### SPACE CAPABLE WEAPONS ########
 ####################################
@@ -10,15 +364,14 @@ items:
     costBuy: 3200
     costSell: 2000
     weight: 6
-    bigSprite: 1300
-    floorSprite: 1300
+    bigSprite: 1500
+    floorSprite: 1500
     handSprite: 3300
     bulletSprite: 2
     fireSound: 4
 #    reloadSound: [186, 187, 188, 189]
     compatibleAmmo:
       - STR_MK119_SPACE_RIFLE_AP_CLIP
-      - STR_MK119_SPACE_RIFLE_FLECHETTE_CLIP
     accuracyCloseQuarters: 140
     accuracyAuto: 50
     accuracySnap: 72
@@ -46,7 +399,7 @@ items:
     size: 0.1
     costSell: 250
     weight: 2
-    bigSprite: 1301
+    bigSprite: 1501
     hitSound: 16
     hitAnimation: 26
     power: 75
@@ -60,30 +413,6 @@ items:
     invWidth: 1
     clipSize: 26
     battleType: 2
-  - type: STR_MK119_SPACE_RIFLE_FLECHETTE_CLIP
-    categories: [STR_SPACE, STR_FIREARMS, STR_UNEXCOM_TECH, STR_PISTOLS]
-#    requires:
-#      - STR_USSR_IMPROVED_AQUATIC_WEAPONS
-    size: 0.1
-    costSell: 250
-    weight: 2
-    bigSprite: 1302
-    power: 50
-    damageType: 1
-    clipSize: 26
-    damageAlter:
-      RandomType: 2
-      IgnoreOverKill: false
-      ToWound: 1.8
-      RandomWound: true
-    hitSound: 22
-    hitAnimation: 26
-    invHeight: 1
-    invWidth: 1
-    shotgunBehavior: 1
-    shotgunPellets: 10
-    shotgunSpread: 30
-    battleType: 2
 
   - type: STR_MK115_SPACE_PISTOL
     categories: [STR_SPACE, STR_FIREARMS, STR_UNEXCOM_TECH, STR_PISTOLS]
@@ -93,8 +422,8 @@ items:
     costBuy: 2500
     costSell: 900
     weight: 3
-    bigSprite: 1311
-    floorSprite: 1311
+    bigSprite: 1512
+    floorSprite: 1512
     handSprite: 3348
     bulletSprite: 2
     fireSound: 4
@@ -122,8 +451,8 @@ items:
     costBuy: 2500
     costSell: 900
     weight: 3
-    bigSprite: 1312
-    floorSprite: 1312
+    bigSprite: 1513
+    floorSprite: 1513
     handSprite: 3356
     bulletSprite: 2
     fireSound: 4
@@ -147,13 +476,13 @@ items:
 #    listOrder: 2028
 
   - type: STR_MK115_SPACE_PISTOL_CLIP
-    categories: [STR_SPACE, STR_FIREARMS, STR_UNEXCOM_TECH, STR_PISTOLS, STR_CLIP]
+    categories: [STR_SPACE, STR_FIREARMS, STR_UNEXCOM_TECH, STR_PISTOLS, STR_CLIPS]
 #    requires:
 #      - STR_USA_IMPROVED_AQUATIC_WEAPONS
     size: 0.1
     costSell: 250
     weight: 2
-    bigSprite: 1313
+    bigSprite: 1514
     hitSound: 16
     hitAnimation: 26
     power: 65
@@ -163,192 +492,351 @@ items:
     invWidth: 1
     battleType: 2
 
-
-  - type: STR_M29_GYROJET_PISTOL
-    categories: [STR_SPACE, STR_FIREARMS, STR_US_TECH, STR_NATO_TECH, STR_USSR_TECH, STR_PISTOLS]
-#    requires:
-#      - STR_USA_IMPROVED_AQUATIC_WEAPONS
+#######################################
+  ########## EXPLOSIVES ################
+  #####################################
+  - type: STR_GRENADE
+    categories: [ STR_EXPLOSIVES, STR_LIGHT_EQUIPMENT ]
     size: 0.1
-    costBuy: 2500
-    costSell: 900
+    costBuy: 300
+    costSell: 240
     weight: 3
-    bigSprite: 1305
-    floorSprite: 1305
-    handSprite: 3316
-    bulletSprite: 2
-    fireSound: 4
-#    reloadSound: [179, 180, 181, 182]
-    compatibleAmmo:
-      - STR_GYROJET_PISTOL_CLIP
-    accuracySnap: 100
-    accuracyAimed: 130
-    accuracyCloseQuarters: 100
-    kneelBonus: 115
-    tuSnap: 35
-    tuAimed: 45
-    minRange: 4
-    maxRange: 25
-    dropoff: 10
-    invHeight: 2
-    invWidth: 1
-    battleType: 1
-    armor: 250
-#    listOrder: 2028
+    bigSprite: 19
+    floorSprite: 19
+    power: 50
+    tuPrime: 20
+    damageAlter:
+      RandomType: 6
+      IgnoreSelfDestruct: true
+      ToTile: 0.6
+      ToWound: 1.2
+      RandomWound: true
+    tuUnprime: 50
+    costThrow:
+      energy: 6
+    damageType: 3
+    battleType: 4
+    blastRadius: 5
 
-  - type: STR_GYROJET_PISTOL_CLIP
-    categories: [STR_SPACE, STR_FIREARMS, STR_US_TECH, STR_NATO_TECH, STR_USSR_TECH, STR_PISTOLS]
-#    requires:
-#      - STR_USA_IMPROVED_AQUATIC_WEAPONS
+  - type: STR_PROXIMITY_GRENADE
+    categories: [ STR_EXPLOSIVES, STR_LIGHT_EQUIPMENT ]
     size: 0.1
-    costSell: 250
-    weight: 2
-    bigSprite: 1306
-    hitSound: 16
-    hitAnimation: 26
+    costBuy: 500
+    costSell: 400
+    weight: 3
+    bigSprite: 21
+    floorSprite: 21
+    tuPrime: 20
+    tuUnprime: 20
+    unprimeActionName: STR_UNPRIME_GRENADE
+    costThrow:
+      energy: 8
     power: 70
-    damageType: 1
-    clipSize: 15
-    invHeight: 1
-    invWidth: 1
-    battleType: 2
+    damageAlter:
+      RandomType: 6
+      IgnoreSelfDestruct: true
+      ToTile: 0.5
+      ToWound: 0.8
+      RandomWound: true
+    damageType: 3
+    battleType: 5
+    blastRadius: 5
 
-  - type: STR_M30_GYROJET_RIFLE
-    categories: [STR_SPACE, STR_FIREARMS, STR_SOVIET_TECH, STR_CARBINES]
-#    requires:
-#      - STR_USSR_IMPROVED_AQUATIC_WEAPONS
+  - type: STR_HIGH_EXPLOSIVE
+    categories: [ STR_EXPLOSIVES, STR_LIGHT_EQUIPMENT ]
     size: 0.2
-    costBuy: 3200
-    costSell: 2000
-    weight: 8
-    bigSprite: 1307
-    floorSprite: 1307
-    handSprite: 3324
-    bulletSprite: 2
-    fireSound: 4
-#    reloadSound: [186, 187, 188, 189]
-    compatibleAmmo:
-      - STR_GYROJET_RIFLE_CLIP
-    accuracyCloseQuarters: 90
-    accuracyAuto: 95
-    accuracySnap: 120
-    accuracyAimed: 180
-    bulletSpeed: 10
-    tuAuto: 55
-    tuSnap: 60
-    tuAimed: 70
-    costThrow:
-      energy: 16
-    battleType: 1
-    twoHanded: true
-    oneHandedPenalty: 60
-    invWidth: 1
-    invHeight: 3
-    minRange: 5
-    maxRange: 35
-    autoRange: 35
-    dropoff: 10
-    attraction: 8
-#    listOrder: 2052
+    costBuy: 1500
+    costSell: 1200
+    weight: 6
+    bigSprite: 22
+    floorSprite: 22
+    power: 110
+    damageAlter:
+      RandomType: 6
+      IgnoreSelfDestruct: true
+      ToTile: 1.2
+      ToWound: 1.8
+      RandomWound: true
+    damageType: 3
+    battleType: 4
+    invWidth: 2
+    invHeight: 1
+    blastRadius: 5
 
-  - type: STR_GYROJET_RIFLE_CLIP
-    categories: [STR_SPACE, STR_FIREARMS, STR_USSR_TECH, STR_PISTOLS]
-#    requires:
-#      - STR_USSR_IMPROVED_AQUATIC_WEAPONS
+  - type: STR_SMOKE_GRENADE
+    categories: [ STR_EXPLOSIVES, STR_LIGHT_EQUIPMENT ]
     size: 0.1
+    costBuy: 150
+    costSell: 120
+    weight: 3
+    bigSprite: 200
+    floorSprite: 200
+    handSprite: 904
+    power: 60
+    damageType: 9
+    costThrow:
+      energy: 6
+    costPrime:
+      time: 25
+    costUnprime:
+      time: 20
+    unprimeActionName: STR_UNPRIME_GRENADE
+    battleType: 4
+    blastRadius: 5
+    listOrder: 2135
+
+  - type: STR_FLASHBANG_GRENADE
+    categories: [ STR_EXPLOSIVES, STR_LIGHT_EQUIPMENT ]
+    size: 0.1
+    costBuy: 1000
+    costSell: 850
+    weight: 4
+    bigSprite: 201
+    floorSprite: 201
+    handSprite: 912
+    hitSound: 210
+    hitAnimation: 0
+    power: 30
+    fuseType: -2 # Explodes on contact
+    damageType: 6
+    damageAlter:
+      RandomType: 6
+      IgnoreSelfDestruct: true
+      ToTime: 2.5
+      ToStun: 0.5
+      ToEnergy: 2.0
+    costThrow:
+      energy: 8
+    costPrime:
+      time: 25
+    battleType: 4
+    blastRadius: 3
+    armor: 20
+    attraction: 6
+
+  - type: STR_MEDI_KIT
+    categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT ]
+    requires:
+      - STR_MEDI_KIT
+    size: 0.1
+    costSell: 46500
+    weight: 5
+    bigSprite: 24
+    floorSprite: 24
+    battleType: 6
+    invWidth: 1
+    invHeight: 2
+    painKiller: 10
+    heal: 10
+    stimulant: 10
+    woundRecovery: 3
+    healthRecovery: 5
+    stunRecovery: 5
+    energyRecovery: 10
+    tuUse: 10
+    flatRate: true
+    medikitActionName: STR_ACTIVATE_MEDIKIT
+    listOrder: 2137
+
+  - type: STR_MEDICAL_BAG
+    medikitBackground: MEDIKIT_BACKGROUND
+    categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT ]
+    size: 0.5
+    costBuy: 2000
+    costSell: 1000
+    weight: 10
+    bigSprite: 195
+    floorSprite: 195
+    handSprite: 844
+    battleType: 6
+    invWidth: 2
+    invHeight: 2
+    painKiller: 6
+    heal: 6
+    stimulant: 6
+    woundRecovery: 3
+    healthRecovery: 5
+    stunRecovery: 6
+    energyRecovery: 15
+    costUse:
+      time: 30
+      energy: -3
+    flatRate: false
+    attraction: 5
+    experienceTrainingMode: 19
+    medikitActionName: STR_DEPLOY_MEDICAL_BAG
+    listOrder: 2138
+
+  - type: STR_FIELD_DRESSING
+    categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT ]
+    size: 0.1
+    costBuy: 100
+    costSell: 50
+    weight: 1
+    bigSprite: 196
+    floorSprite: 196
+    handSprite: 852
+    battleType: 6
+    invWidth: 1
+    invHeight: 1
+    heal: 1
+    woundRecovery: 6
+    healthRecovery: 1
+    isConsumable: true
+    medikitTargetSelf: true
+    medikitType: 1 #change how medikit works, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
+    costUse:
+      time: 7
+    flatRate: true
+    attraction: 6
+    experienceTrainingMode: 19
+    medikitActionName: STR_USE_FIELD_DRESSING
+    listOrder: 2139
+
+  - type: STR_MEDICAL_POUCH
+    categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT ]
+    size: 0.1
+    costBuy: 200
     costSell: 250
     weight: 2
-    bigSprite: 1308
-    hitSound: 16
-    hitAnimation: 26
-    power: 85
-    damageType: 1
-    clipSize: 26
-    battleType: 2
+    bigSprite: 197
+    floorSprite: 197
+    handSprite: 880
+    battleType: 6
+    invWidth: 1
+    invHeight: 1
+    heal: 3
+    healthRecovery: 3
+    isConsumable: true
+    medikitTargetSelf: true
+    medikitType: 1 #change how medikit works, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
+    costUse:
+      time: 10
+    flatRate: true
+    attraction: 6
+    experienceTrainingMode: 19
+    medikitActionName: STR_USE_MEDICAL_POUCH
+    listOrder: 2140
 
+  - type: STR_DUCT_TAPE
+    categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT, STR_SPACE ]
+    size: 0.1
+    costBuy: 100
+    costSell: 50
+    weight: 1
+    bigSprite: 202
+    floorSprite: 202
+    handSprite: 988
+    battleType: 6
+    invWidth: 1
+    invHeight: 1
+    heal: 15
+    woundRecovery: 1
+    isConsumable: true
+    medikitTargetSelf: true
+    medikitType: 1 #change how medikit works, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
+    costUse:
+      time: 5
+    flatRate: true
+    attraction: 6
+    experienceTrainingMode: 19
+    medikitActionName: STR_TAPE_IT
+    listOrder: 2141
 
-  - type: STR_EGR5_GYROJET_RIFLE
-    categories: [STR_SPACE, STR_FIREARMS, STR_SOVIET_TECH, STR_CARBINES]
-#    requires:
-#      - STR_USSR_IMPROVED_AQUATIC_WEAPONS
-    size: 0.2
-    costBuy: 3200
-    costSell: 2000
+  - type: STR_DUCT_GUN
+    categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT, STR_SPACE ]
+    size: 0.1
+    costBuy: 100
+    costSell: 50
+    weight: 3
+    bigSprite: 203
+    floorSprite: 203
+    handSprite: 996
+    battleType: 6
+    invWidth: 1
+    invHeight: 2
+    heal: 25
+    woundRecovery: 2
+    healthRecovery: 0
+    isConsumable: true
+    medikitTargetSelf: true
+    medikitType: 1 #change how medikit works, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
+    costUse:
+      time: 5
+    flatRate: true
+    attraction: 6
+    experienceTrainingMode: 19
+    medikitActionName: STR_TAPE_IT
+    listOrder: 2142
+
+  - type: STR_BIO_FOAM
+    categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT, STR_SPACE ]
+    size: 0.1
     weight: 5
-    bigSprite: 1309
-    floorSprite: 1309
-    handSprite: 3332
-    bulletSprite: 2
-    fireSound: 4
-#    reloadSound: [186, 187, 188, 189]
-    compatibleAmmo:
-      - STR_GYROJET_RIFLE_CLIP
-    accuracyCloseQuarters: 90
-    accuracyAuto: 115
-    accuracySnap: 145
-    accuracyAimed: 200
-    bulletSpeed: 10
-    tuAuto: 65
-    tuSnap: 50
-    tuAimed: 85
-    costThrow:
-      energy: 16
-    battleType: 1
-    twoHanded: true
-    oneHandedPenalty: 60
+    costSell: 35000
+    bigSprite: 204
+    floorSprite: 204
+    handSprite: 1004
+    battleType: 6
     invWidth: 1
-    invHeight: 3
-    minRange: 10
-    maxRange: 40
-    autoRange: 35
-    dropoff: 10
-    attraction: 8
-#    listOrder: 2052
+    invHeight: 2
+    painKiller: 7
+    heal: 8
+    woundRecovery: 3
+    healthRecovery: 2
+    stunRecovery: 5
+    isConsumable: true
+    medikitTargetSelf: true
+    medikitType: 1 #change how medikit works, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
+    costUse:
+      time: 7
+    flatRate: true
+    attraction: 6
+    experienceTrainingMode: 19
+    medikitActionName: STR_APPLY_FOAM
+    listOrder: 2143
 
-  - type: STR_TKB1973_GYROJET_RIFLE
-    categories: [STR_SPACE, STR_FIREARMS, STR_SOVIET_TECH, STR_CARBINES]
-#    requires:
-#      - STR_USSR_IMPROVED_AQUATIC_WEAPONS
-    size: 0.2
-    costBuy: 3200
-    costSell: 2000
+  - type: STR_ELECTRO_FLARE
+    categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT, STR_SPACE ]
+    bigSprite: 888
+    handSprite: 888
+    floorSprite: 888
+    tuPrime: 15
+    battleType: 10
+    primeActionName: STR_PRIME_FLARE
+    fuseType: -2
+
+  - type: STR_PSI_AMP
+    categories: [ STR_MELEE, STR_LIGHT_EQUIPMENT, STR_SPACE ]
+
+  - type: STR_STUN_ROD
+    categories: [ STR_MELEE, STR_LIGHT_EQUIPMENT, STR_SPACE ]
+    size: 0.1
+    costBuy: 1260
+    costSell: 945
     weight: 6
-    bigSprite: 1310
-    floorSprite: 1310
-    handSprite: 3340
-    bulletSprite: 2
-    fireSound: 4
-#    reloadSound: [186, 187, 188, 189]
-    compatibleAmmo:
-      - STR_GYROJET_RIFLE_CLIP
-    accuracyCloseQuarters: 90
-    accuracyAuto: 100
-    accuracySnap: 120
-    accuracyAimed: 180
-    bulletSpeed: 10
-    tuAuto: 50
-    tuSnap: 60
-    tuAimed: 80
-    costThrow:
-      energy: 16
-    battleType: 1
+    bigSprite: 26
+    floorSprite: 26
+    handSprite: 80
+    meleeSound: 54
+    power: 65
+    damageType: 6
+    accuracyMelee: 100
+    tuMelee: 30
+    battleType: 3
     twoHanded: true
-    oneHandedPenalty: 60
     invWidth: 1
     invHeight: 3
-    autoRange: 15
-    maxRange: 25
-    dropoff: 10
-    attraction: 8
-#    listOrder: 2052
+    skillApplied: false
+    clipSize: -1
+    listOrder: 2121
+
 
 ufopaedia:
 ########################################
 ######## AMMO CLIPS & MAGAZINES ########
 ########################################
-  - id: STR_MK119_SPACE_RIFLE
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_MK119_SPACE_RIFLE_UFOPEDIA
+
   - id: STR_MK119_SPACE_RIFLE_AP_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -356,47 +844,6 @@ ufopaedia:
     type_id: 4
     section: STR_NOT_AVAILABLE
 
-  - id: STR_MK115_SPACE_PISTOL
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_MK115_SPACE_PISTOL_UFOPEDIA
-  - id: STR_MK117_SPACE_PDW
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_MK117_SPACE_PDW_UFOPEDIA
-  - id: STR_MK115_SPACE_PISTOL_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-
-  - id: STR_M29_GYROJET_PISTOL
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_GYROJET_PISTOL_UFOPEDIA
-
-  - id: STR_GYROJET_PISTOL_CLIP
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_GYROJET_PISTOL_CLIP_UFOPEDIA
-
-  - id: STR_M30_GYROJET_RIFLE
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_M30_GYROJET_RIFLE_UFOPEDIA
-
-  - id: STR_GYROJET_RIFLE_CLIP
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_GYROJET_RIFLE_CLIP_UFOPEDIA
-
-  - id: STR_EGR5_GYROJET_RIFLE
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_EGR5_GYROJET_RIFLE_UFOPEDIA
-
-  - id: STR_TKB1973_GYROJET_RIFLE
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TKB1973_GYROJET_RIFLE_UFOPEDIA
 
 extraSprites:
 #########################################
@@ -404,28 +851,73 @@ extraSprites:
 #########################################
   - type: BIGOBS.PCK
     files:
-      1300: Resources/SpaceWeapons/BigSpaceRifle.png
-      1301: Resources/SpaceWeapons/BigSpaceAmmoRifle.png
-      1302: Resources/SpaceWeapons/BigSpaceAmmoRifle.png
-      1305: Resources/AlliedWeapons/BigM29.png
-      1306: Resources/AlliedWeapons/BigGyrojetPistolMag.png
-      1307: Resources/AlliedWeapons/BigM30.png
-      1308: Resources/AlliedWeapons/BigGyrojetRifleMag.png
-      1309: Resources/AlliedWeapons/BigEGR5.png
-      1310: Resources/AlliedWeapons/BigTKB1973.png
-      1311: Resources/SpaceWeapons/BigSpacePDW.png
-      1312: Resources/SpaceWeapons/BigSpaceCarbine.png
-      1313: Resources/SpaceWeapons/BigSpaceAmmoPistol.png
+      106: Resources/BallisticWeapons/Ammo/Big556NATORifleAmmo_x30.png
+      114: Resources/BallisticWeapons/Ammo/Big762SovietRifleAmmo_x40.png
+      123: Resources/BallisticWeapons/Ammo/Big40mmFragAmmo.png
+      124: Resources/BallisticWeapons/Ammo/Big40mmIncendiaryAmmo.png
+      125: Resources/BallisticWeapons/Ammo/Big40mmSmokeAmmo.png
+      126: Resources/BallisticWeapons/Ammo/Big40mmNonLethalAmmo.png
+      138: Resources/SpaceWeapons/BigM17.png
+      144: Resources/SpaceWeapons/BigLaserMinigun.png
+      174: Resources/SpaceWeapons/BigAK79.png
+
+      1500: Resources/SpaceWeapons/BigSpaceRifle.png
+      1501: Resources/SpaceWeapons/BigSpaceAmmoRifle.png
+      1502: Resources/SpaceWeapons/BigSpaceAmmoRifle.png
+      1510: Resources/SpaceWeapons/BigG11.png
+      1511: Resources/SpaceWeapons/BigTKB1980.png
+      1512: Resources/SpaceWeapons/BigSpacePDW.png
+      1513: Resources/SpaceWeapons/BigSpaceCarbine.png
+      1514: Resources/SpaceWeapons/BigSpaceAmmoPistol.png
+      1515: Resources/SpaceWeapons/BigG11Clip.png
+      1516: Resources/SpaceWeapons/BigTKB1980Ammo.png
+
+      192: Resources/BallisticWeapons/Medical&Food/BigCannedFood.png
+      193: Resources/BallisticWeapons/Medical&Food/BigCigarettes.png
+      194: Resources/BallisticWeapons/Medical&Food/BigFlask.png
+      195: Resources/BallisticWeapons/Medical&Food/BigMedicalBag.png
+      196: Resources/BallisticWeapons/Medical&Food/BigFieldDressing.png
+      197: Resources/BallisticWeapons/Medical&Food/BigMedicalPouch.png
+
+      200: Resources/BallisticWeapons/Explosives/BigSmokeGrenade.png
+      201: Resources/BallisticWeapons/Explosives/BigFlashbangGrenade.png
+      202: Resources/BallisticWeapons/Medical&Food/BigDuctTape.png
+      203: Resources/BallisticWeapons/Medical&Food/BigDuctGun.png
+      204: Resources/BallisticWeapons/Medical&Food/BigBioFoam.png
+      888: Resources/BallisticWeapons/Explosives/BigFlare.png
+      896: Resources/BallisticWeapons/Explosives/BigFlarelit.png
 
   - type: FLOOROB.PCK
     files:
-      1300: Resources/SpaceWeapons/FloorSpaceRifle.png
-      1305: Resources/AlliedWeapons/FloorM29.png
-      1307: Resources/AlliedWeapons/FloorM30.png
-      1309: Resources/AlliedWeapons/FloorEGR5.png
-      1310: Resources/AlliedWeapons/FloorTKB1973.png
-      1311: Resources/SpaceWeapons/FloorSpacePDW.png
-      1312: Resources/SpaceWeapons/FloorSpaceCarbine.png
+      106: Resources/BallisticWeapons/Ammo/Floor556NATORifleAmmo_x30.png
+      114: Resources/BallisticWeapons/Ammo/Floor762SovietRifleAmmo_x40.png
+      123: Resources/BallisticWeapons/Ammo/Floor40mmFragAmmo.png
+      124: Resources/BallisticWeapons/Ammo/Floor40mmIncendiaryAmmo.png
+      125: Resources/BallisticWeapons/Ammo/Floor40mmSmokeAmmo.png
+      126: Resources/BallisticWeapons/Ammo/Floor40mmNonLethalAmmo.png
+      138: Resources/SpaceWeapons/FloorM17.png
+      174: Resources/SpaceWeapons/FloorAK79.png
+      1500: Resources/SpaceWeapons/FloorSpaceRifle.png
+      1510: Resources/SpaceWeapons/FloorG11.png
+      1511: Resources/SpaceWeapons/FloorTKB1980.png
+      1512: Resources/SpaceWeapons/FloorSpacePDW.png
+      1513: Resources/SpaceWeapons/FloorSpaceCarbine.png
+
+      192: Resources/BallisticWeapons/Medical&Food/FloorCannedFood.png
+      193: Resources/BallisticWeapons/Medical&Food/FloorCigarettes.png
+      194: Resources/BallisticWeapons/Medical&Food/FloorFlask.png
+      195: Resources/BallisticWeapons/Medical&Food/FloorMedicalBag.png
+      196: Resources/BallisticWeapons/Medical&Food/FloorFieldDressing.png
+      197: Resources/BallisticWeapons/Medical&Food/FloorMedicalPouch.png
+
+      200: Resources/BallisticWeapons/Explosives/FloorSmokeGrenade.png
+      201: Resources/BallisticWeapons/Explosives/FloorFlashbangGrenade.png
+      202: Resources/BallisticWeapons/Medical&Food/FloorDuctTape.png
+      203: Resources/BallisticWeapons/Medical&Food/FloorDuctGun.png
+      204: Resources/BallisticWeapons/Medical&Food/FloorBioFoam.png
+
+      888: Resources/BallisticWeapons/Explosives/FloorFlare.png
+      896: Resources/BallisticWeapons/Explosives/FloorFlarelit.png
 
   - type: HANDOB.PCK
     width: 256
@@ -433,36 +925,57 @@ extraSprites:
     subX: 32
     subY: 40
     files:
+      692: Resources/SpaceWeapons/HandAK79.png
+      404: Resources/SpaceWeapons/HandM17.png
       3300: Resources/SpaceWeapons/HandSpaceRifle.png
-      3316: Resources/AlliedWeapons/HandM29.png
-      3324: Resources/AlliedWeapons/HandM30.png
-      3332: Resources/AlliedWeapons/HandEGR5.png
-      3340: Resources/AlliedWeapons/HandTKB1973.png
+      3332: Resources/SpaceWeapons/HandG11.png
+      3340: Resources/SpaceWeapons/HandTKB1980.png
       3348: Resources/SpaceWeapons/HandSpacePDW.png
       3356: Resources/SpaceWeapons/HandSpaceCarbine.png
+
+      820: Resources/BallisticWeapons/Medical&Food/HandCannedFood.png
+      828: Resources/BallisticWeapons/Medical&Food/HandCigarettes.png
+      836: Resources/BallisticWeapons/Medical&Food/HandFlask.png
+      844: Resources/BallisticWeapons/Medical&Food/HandMedicalBag.png
+      852: Resources/BallisticWeapons/Medical&Food/HandFieldDressing.png
+      880: Resources/BallisticWeapons/Medical&Food/HandMedicalPouch.png
+      888: Resources/BallisticWeapons/Explosives/HandFlare.png
+      896: Resources/BallisticWeapons/Explosives/HandFlare.png
+      988: Resources/BallisticWeapons/Medical&Food/BigDuctTape.png
+      996: Resources/BallisticWeapons/Medical&Food/BigDuctGun.png
+      1004: Resources/BallisticWeapons/Medical&Food/BigBioFoam.png
+
+      904: Resources/BallisticWeapons/Explosives/HandSmokeGrenade.png
+      912: Resources/BallisticWeapons/Explosives/HandFlashbangGrenade.png
+      920: Resources/BallisticWeapons/CustomWeapons/HandEnforcer.png
+      928: Resources/BallisticWeapons/CustomWeapons/Hand50CalMagnum.png
+
+  - type: MEDIKIT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/BallisticWeapons/Medical&Food/MEDIKIT_BACKGROUND.png
 
 extraStrings:
   - type: en-US
     strings:
+      STR_M17_CARBINE: "M17 Light Carbine"
+      STR_M17_CARBINE_UFOPEDIA: "A specially adapted XM117 carbine, used by reserve units deployed in outer space. All the polymer surfaces were painted with a reflecting coating to avoid overheating in space. A x4 scope is added to help the astronauts in aiming using their helmet."
+      STR_AK79_RIFLE: "AK79 Assault Rifle"
+      STR_AK79_RIFLE_UFOPEDIA: "This Kalashnikov was modified to be used by cosmonauts, first deployed in the initial landings of Operation Sledgehammer. It's basically a regular AKM but with polymer handguard and trigger guard, plus a folding stock. The Kalash is highly reliable in all kind of environments, even space."
       STR_MK119_SPACE_RIFLE: Mk119 SCAR
       STR_MK119_SPACE_RIFLE_AP_CLIP: Mk119 SCAR AP Mag
       STR_MK119_SPACE_RIFLE_FLECHETTE_CLIP: Mk119 SCAR Shredder Mag
-      STR_MK119_SPACE_RIFLE_UFOPEDIA: "Mk119 Space-Capable Assault Rifle (SCAR). The ammunition used is 4.8x33mm caseless, similar to that proposed for the failed H&K G11 rifle, to prevent any casing from becoming a potential danger in orbit. It includes two variants of the ammunition: AP to break space suits and Shredder, designed to fragment and create a metal cloud."
+      STR_MK119_SPACE_RIFLE_UFOPEDIA: "Mk119 Space-Capable Assault Rifle (SCAR). The ammunition used is 4.8x33mm Gyrojet, specially meant to be used in low-gravity environments. The AP rounds used are able to pierce several layers of Kevlar-reinforced space suits and even Alien Alloys."
       STR_MK115_SPACE_PISTOL: Mk115 SCHG
       STR_MK115_SPACE_PISTOL_CLIP: Mk115/7 Mag
-      STR_MK115_SPACE_PISTOL_UFOPEDIA: "Mk115 Space-Capable Handgun (SCHG). Small and compact pistol, meant to be used on the harshness of outer space. The gun's handle is wide for easy use with astronaut gloves. It is very accurate, but has slower rate of fire than other weapons. Fires 9x18 caseless ammunition and shares the magazine with the Mk117 SCPDW."
+      STR_MK115_SPACE_PISTOL_UFOPEDIA: "Mk115 Space-Capable Handgun (SCHG). Small and compact pistol, meant to be used on the harshness of outer space. The gun's handle is wide for easy use with astronaut gloves. It is very accurate, but has slower rate of fire than other weapons. Fires 9x18 Gyrojet ammunition and shares the magazine with the Mk117 SCPDW."
       STR_MK117_SPACE_PDW: Mk117 SCPDW
       STR_MK117_SPACE_PDW_UFOPEDIA: "Mk117 Space-Capable Personal Defense Weapon (SCPDW). This automatic, ultra compact machine pistol is made in white polymer ensures that it does not overheat (like the other Space-Capable weapons), although due to the nature of the chemical reaction required to propel projectiles, its rate of fire is limited."
-
-      STR_M29_GYROJET_PISTOL: M29 Gyrojet Pistol
-      STR_M29_GYROJET_PISTOL_UFOPEDIA: Compact and ultra-precise gun, it is famous for being very quiet. It is basically the original model of Gyrojet gun created by the company MBA in the 60s, but adapted to use removable magazines. Soldiers call it 'the space spy gun' because of its stealthy qualities and ability to be used in the total vacuum of space.
-      STR_GYROJET_PISTOL_CLIP: Gyrojet Pistol Magazine
-      STR_GYROJET_PISTOL_CLIP_UFOPEDIA: The Gyrojet ammunition used by our guns is visually similar to a .45 caliber ACP bullet, but over-dimensioned. Its penetration capacity is considerable for a bullet of its size, but it suffers a small disadvantage, consisting of having little initial kinetic energy when the projectile leaves the barrel of the gun, causing it to be inaccurate at short distances. However, it is compact enough to be transported in large quantities.
-      STR_M30_GYROJET_RIFLE: M30 Gyrojet Rifle
-      STR_M30_GYROJET_RIFLE_UFOPEDIA: Co-designed with the original creators of the Gyrojet concept, MBA and the American company Colt, this combat rifle is visually identical to the Gyrojet rifle presented by MBA to the U.S. Army a few years ago, but internally it is slightly different. The firing mechanism was adapted so that it can be fed with removable magazines, instead of the internal fixed magazine of the original model, and the wood was replaced with polymers qualified for use in space.
-      STR_GYROJET_RIFLE_CLIP: Gyrojet Rifle Magazine
-      STR_GYROJET_RIFLE_CLIP_UFOPEDIA: This is a heavy variant of the Gyrojet bullets. Its particular advantage is that its size (similar to a 7.62x51mm projectile) allows the addition of a greater amount of fuel, as well as a stronger tip to penetrate better enemy armor. It has the same disadvantage of lightweight Gyrojet bullets, requiring a short time to acquire full speed and power. But there is the possibility that the projectile will deflect over short distances.
-      STR_EGR5_GYROJET_RIFLE: EGR-5 Gyrojet Rifle
-      STR_EGR5_GYROJET_RIFLE_UFOPEDIA: The fifth prototype of the European Gyrojet Rifle project was selected to be produced to equip NATO troops fighting in outer space. It is very inspired by the British EM-2 rifle, with a bullpup design. This new model is designed by Enfield and produced by the brilliant technicians of H&K and FN Herstal, with an accuracy of 100% guaranteed in ballistic tests in variable gravity environments. It includes a modern x4 magnification sight to increase long-range aiming.
-      STR_TKB1973_GYROJET_RIFLE: TKB-1973 Gyrojet Rifle
-      STR_TKB1973_GYROJET_RIFLE_UFOPEDIA: Nicknamed (incorrectly) 'Space Kalash' by western soldiers who have seen it in action, this novel rifle created by the Tula Arms Factory and designed by the (little known) genius German A. Korobov, is based on a prototype created in the 60s originally called TKB-022PM. This rifle is very effective, approximately twice as accurate as an AKM, and has been adapted to fire the new Gyrojet projectiles with more than promising results.ng results.ng results.
+      STR_G11_CASELESS_RIFLE: H&K G11-K1 Caseless Rifle
+      STR_G11_CASELESS_RIFLE_MAG: "4.73mm Caseless Mag (x50)"
+      STR_G11_CASELESS_RIFLE_UFOPEDIA: A West German revolutionary design, equipped by NATO soldiers deployed in outer space. Initially was seen with distrust by NATO partners, it was developed during the War of 1972, but eventually proved its worth on the Moon Campaign between 1975 and 1977. It features a free-floating barrel and a x4 optical sight, which greatly improves its accuracy.
+      STR_TKB1980_CASELESS_RIFLE: TKB-1980 Special Rifle
+      STR_TKB1980_CASELESS_RIFLE_MAG: "5.45mm Caseless Mag (x45)"
+      STR_TKB1980_CASELESS_RIFLE_UFOPEDIA: Nicknamed (incorrectly) 'Space Kalash' by western soldiers who have seen it in action, this novel rifle created by the Tula Arms Factory and designed by the (little known) genius German A. Korobov, is based on a prototype created in the 60s originally called TKB-022PM. This rifle is very effective, approximately twice as accurate as an AKM, and has been adapted to fire caseless projectiles in low-gravity environments.

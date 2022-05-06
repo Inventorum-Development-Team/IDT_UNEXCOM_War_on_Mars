@@ -1,3 +1,4 @@
+
 itemCategories:
   - type: STR_TANKS
     listOrder: 1
@@ -31,7 +32,7 @@ itemCategories:
     listOrder: 16
   - type: STR_ALLOY
     listOrder: 16
-  - type: STR_SMART
+  - type: STR_FUSION
     listOrder: 18
   - type: STR_PLASMA
     listOrder: 17
@@ -93,23 +94,25 @@ itemCategories:
     listOrder: 210
   - type: STR_ALIEN_TECH
     listOrder: 210
+  - type: STR_SPACE
+    listOrder: 220
 
 enviroEffects:
   - type: STR_MARS_ENVIRO
     mapBackgroundColor: 46
-    armorTransformations: &Mars
-      STR_ASTRONAUT_A7L_SPACESUIT_UC: STR_ASTRONAUT_A7L_SPACESUIT_MARS_UC
-      STR_ASTRONAUT_A7LB_SPACESUIT_UC: STR_ASTRONAUT_A7LB_SPACESUIT_MARS_UC
-      STR_ASTRONAUT_KRECHET94_SPACESUIT_UC: STR_ASTRONAUT_KRECHET94_SPACESUIT_MARS_UC
-      STR_ASTRONAUT_KRECHET94B_SPACESUIT_UC: STR_ASTRONAUT_KRECHET94B_SPACESUIT_MARS_UC
+    #armorTransformations: &Mars
+    #  STR_ASTRONAUT_A7L_SPACESUIT_UC: STR_ASTRONAUT_A7L_SPACESUIT_MARS_UC
+    #  STR_ASTRONAUT_A7LB_SPACESUIT_UC: STR_ASTRONAUT_A7LB_SPACESUIT_MARS_UC
+    #  STR_ASTRONAUT_KRECHET94_SPACESUIT_UC: STR_ASTRONAUT_KRECHET94_SPACESUIT_MARS_UC
+    #  STR_ASTRONAUT_KRECHET94B_SPACESUIT_UC: STR_ASTRONAUT_KRECHET94B_SPACESUIT_MARS_UC
 
   - type: STR_MOON_ENVIRO
     mapBackgroundColor: 7
-    armorTransformations: &Moon
-      STR_ASTRONAUT_A7L_SPACESUIT_UC: STR_ASTRONAUT_A7L_SPACESUIT_MOON_UC
-      STR_ASTRONAUT_A7LB_SPACESUIT_UC: STR_ASTRONAUT_A7LB_SPACESUIT_MOON_UC
-      STR_ASTRONAUT_KRECHET94_SPACESUIT_UC: STR_ASTRONAUT_KRECHET94_SPACESUIT_MOON_UC
-      STR_ASTRONAUT_KRECHET94B_SPACESUIT_UC: STR_ASTRONAUT_KRECHET94B_SPACESUIT_MOON_UC
+    #armorTransformations: &Moon
+    #  STR_ASTRONAUT_A7L_SPACESUIT_UC: STR_ASTRONAUT_A7L_SPACESUIT_MOON_UC
+    #  STR_ASTRONAUT_A7LB_SPACESUIT_UC: STR_ASTRONAUT_A7LB_SPACESUIT_MOON_UC
+    #  STR_ASTRONAUT_KRECHET94_SPACESUIT_UC: STR_ASTRONAUT_KRECHET94_SPACESUIT_MOON_UC
+    #  STR_ASTRONAUT_KRECHET94B_SPACESUIT_UC: STR_ASTRONAUT_KRECHET94B_SPACESUIT_MOON_UC
 
 startingConditions:
   - type: STR_MARS_CONDITION
@@ -132,88 +135,6 @@ startingConditions:
     allowedCraft:
       - STR_SPACE_SHUTTLE
 
-extraStrings:
-  - type: en-US
-    strings:
-###########################################
-############## MISC ################
-#######################################
-      STR_OPENXCOM: "UNEXCOM: War on Mars"
-      STR_NEW_GAME: "Martian Campaign"
-      STR_NEW_BATTLE: "Firefights"
-      STR_MISSION_GENERATOR: "THE FIGHT FOR THE RED PLANET"
-      STR_XCOM_OPERATIVES_KILLED: "UN SOLDIERS KILLED"
-      STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "UN SOLDIERS M.I.A."
-      STR_XCOM_CRAFT_LOST: "UN CRAFT LOST"
-
-###########################################
-############## CATEGORIES ################
-#######################################
-      STR_BALLISTIC: Ballistic Weapons
-      STR_LASER: Laser Weapons
-      STR_PLASMA: Plasma Weapons
-      STR_ALLOY: "Alloy Weapons"
-      STR_SMART: Smart Weapons
-      STR_TANKS: Tanks
-      STR_ARMORED_CARS: Armored Cars
-      STR_LIGHT_TANKS: Light Tanks
-      STR_HEAVY_TANKS: Heavy Tanks
-      STR_TANK_AMMO: Tank Ammo
-      STR_AIRCRAFT_WEAPONS: Aircraft Weapons
-      STR_GATLING_CANNONS: Gatling Cannons
-      STR_REVOLVER_CANNONS: Revolver Cannons
-      STR_LIGHT_MISSILES: Light Missiles
-      STR_HEAVY_MISSILES: Heavy Missiles
-      STR_SUPER_HEAVY_MISSILES: Super Heavy Missiles
-      STR_AUX: AUX Units
-      STR_ROCKETS: Rocket Pods
-      STR_TIER_1: Tier 1
-      STR_TIER_2: Tier 2
-      STR_TIER_3: Tier 3
-      STR_TIER_4: Tier 4
-      STR_FIREARMS: Firearms
-      STR_CLIPS: Ammo
-      STR_UNEXCOM_TECH: UNEXCOM Tech
-      STR_US_TECH: US Tech
-      STR_NATO_TECH: NATO Tech
-      STR_SOVIET_TECH: Soviet Tech
-      STR_CIVILIAN_TECH: Civilian Tech
-      STR_SPECIAL_FORCES_TECH: Special Forces Tech
-      STR_MERCENARY_TECH: Mercenary Tech
-      STR_WEAPON_CONVERSION: "Weapon Conversion"
-      STR_ALIEN_TECH: Alien Tech
-      STR_PISTOLS: Pistols
-      STR_RIFLES: Rifles
-      STR_CARBINES: Carbines
-      STR_SMGS: Submachine Guns
-      STR_LMGS: Light Machine Guns
-      STR_SNIPER_RIFLES: Sniper Rifles
-      STR_SHOTGUNS: Shotguns
-      STR_ARTILLERY: Artillery
-      STR_EXPLOSIVES: Explosives
-      STR_MELEE: Melee
-      STR_MISC: Misc Items
-      STR_LIGHT_EQUIPMENT: Light Equipment
-      STR_MEDICAL: Medical Equipment
-      STR_CUSTOM_WEAPON: Custom Weapons
-      STR_AIRCRAFTS: Aircrafts
-      STR_TRANSPORTS: Transports
-      STR_FIGHTERS: Fighters
-      STR_BOMBERS: Bombers
-      STR_VTOL_TRANSPORTS: VTOL Transports
-      STR_PARATROOPER_TRANSPORTS: Paratrooper Transports
-      STR_RECON_SATELLITES: Recon Satellites
-      STR_CRAFT_WEAPONS: Craft Weapons
-
-      STR_MT_RATING_EXEMPLARY: "Vini. Vidi. Vinci"
-      STR_MT_RATING_EXCELLENT: Excellent!
-      STR_MT_RATING_GREAT: Great
-      STR_MT_RATING_GOOD: The tide is turning
-      STR_MT_RATING_OK: The war continues
-      STR_MT_RATING_POOR: Hold your ground!
-      STR_MT_RATING_BAD: We are losing ground!
-      STR_MT_RATING_TERRIBLE: Preparing evactuation
-      STR_MT_RATING_ABOMINABLE: We lost Mars
 
 extraSprites:
 ##########################################
@@ -279,6 +200,22 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/BACK17.PNG
+
+### Interception images
+
+  - type: InterceptionTroopLander
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+     0: Resources/UFOinterception/trooplander.png
+
+  - type: InterceptionNoFeed
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+     0: Resources/UFOinterception/nofeed.png
 
 items:
 #DELETE
@@ -567,3 +504,35 @@ missionRatings:
    -99999: STR_MT_RATING_ABOMINABLE
 defeatScore: -1600
 defeatFunds: -10000000
+
+transparencyLUTs:
+  - colors:
+      - [  8,  8, 12, 2 ] # "white"
+      - [ 16,  8,  0, 2 ] # orange
+      - [  0, 12, 12, 2 ] # cyan
+      - [  4, 16,  4, 2 ] # green
+
+alienItemLevels:
+  - [0, 0, 0, 0, 0, 0, 0, 1, 1, 2]
+  - [0, 0, 0, 0, 0, 1, 1, 1, 2, 2]
+  - [0, 0, 0, 0, 0, 1, 1, 1, 2, 2]
+  - [0, 0, 0, 1, 1, 1, 1, 2, 2, 3]
+  - [0, 0, 0, 1, 1, 1, 1, 2, 2, 3]
+  - [0, 0, 1, 1, 1, 1, 2, 2, 3, 3]
+  - [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
+  - [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
+  - [1, 1, 1, 2, 2, 2, 3, 3, 3, 3]
+  - [1, 1, 1, 2, 2, 2, 3, 3, 3, 3]
+  - [1, 1, 1, 2, 2, 2, 3, 3, 3, 4]
+  - [1, 1, 2, 2, 2, 3, 3, 3, 3, 4]
+  - [1, 1, 2, 2, 2, 3, 3, 3, 4, 4]
+  - [1, 1, 2, 2, 2, 3, 3, 3, 4, 4]
+  - [1, 2, 2, 2, 3, 3, 3, 3, 4, 4]
+  - [1, 2, 2, 2, 3, 3, 3, 3, 4, 4]
+  - [1, 2, 2, 2, 3, 3, 3, 3, 4, 4]
+  - [2, 2, 2, 3, 3, 3, 3, 4, 4, 4]
+  - [2, 2, 3, 3, 3, 3, 3, 4, 4, 4]
+  - [2, 2, 3, 3, 3, 3, 3, 4, 4, 4]
+  - [2, 3, 3, 3, 3, 3, 4, 4, 4, 4]
+  - [3, 3, 3, 3, 3, 3, 4, 4, 4, 4]
+  - [3, 3, 3, 3, 3, 3, 4, 4, 4, 4]

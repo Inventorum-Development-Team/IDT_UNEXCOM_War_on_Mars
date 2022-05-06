@@ -1,0 +1,208 @@
+lookWeights:
+  - 49
+  - 49
+  - 1
+  - 1
+maleFirst:
+  - Astroperator Aaro
+  - Astroperator Aatu
+  - Astroperator Akseli
+  - Astroperator Aleksi
+  - Astroperator Antti
+  - Astroperator Arttu
+  - Astroperator Atte
+  - Astroperator Eemeli
+  - Astroperator Eero
+  - Astroperator Eino
+  - Astroperator Esko
+  - Astroperator Elias
+  - Astroperator Erkki
+  - Astroperator Heikki
+  - Astroperator Henrikki
+  - Astroperator Ilmari
+  - Astroperator Jaakko
+  - Astroperator Jere
+  - Astroperator Jesse
+  - Astroperator Joel
+  - Astroperator Joona
+  - Astroperator Juhani
+  - Astroperator Juho
+  - Astroperator Julius
+  - Astroperator Jussi
+  - Astroperator Juuso
+  - Astroperator Kalle
+  - Astroperator Konsta
+  - Astroperator Lauri
+  - Astroperator Leevi
+  - Astroperator Markku
+  - Astroperator Matias
+  - Astroperator Matti
+  - Astroperator Mika
+  - Astroperator Mikael
+  - Astroperator Mikko
+  - Astroperator Niilo
+  - Astroperator Niklas
+  - Astroperator Niko
+  - Astroperator Onni
+  - Astroperator Oskari
+  - Astroperator Roope
+  - Astroperator Sami
+  - Astroperator Santeri
+  - Astroperator Tapani
+  - Astroperator Tommi
+  - Astroperator Tuomas
+  - Astroperator Valtteri
+  - Astroperator Viljo
+  - Astroperator Ville
+femaleFirst:
+  - Astroperator Aino
+  - Astroperator Anja
+  - Astroperator Anna
+  - Astroperator Anneli
+  - Astroperator Anni
+  - Astroperator Eila
+  - Astroperator Elina
+  - Astroperator Elisa
+  - Astroperator Emilia
+  - Astroperator Emma
+  - Astroperator Emmi
+  - Astroperator Eveliina
+  - Astroperator Hanna
+  - Astroperator Hannele
+  - Astroperator Helena
+  - Astroperator Helmi
+  - Astroperator Iida
+  - Astroperator Iina
+  - Astroperator Ilona
+  - Astroperator Jenni
+  - Astroperator Johanna
+  - Astroperator Julia
+  - Astroperator Kaarina
+  - Astroperator Karoliina
+  - Astroperator Katariina
+  - Astroperator Kristiina
+  - Astroperator Laura
+  - Astroperator Leena
+  - Astroperator Liisa
+  - Astroperator Maarit
+  - Astroperator Maija
+  - Astroperator Maria
+  - Astroperator Marjatta
+  - Astroperator Martta
+  - Astroperator Milla
+  - Astroperator Minna
+  - Astroperator Noora
+  - Astroperator Oona
+  - Astroperator Pauliina
+  - Astroperator Pirjo
+  - Astroperator Riitta
+  - Astroperator Ritva
+  - Astroperator Saara
+  - Astroperator Sanni
+  - Astroperator Sari
+  - Astroperator Sofia
+  - Astroperator Susanna
+  - Astroperator Tuula
+  - Astroperator Tuuli
+  - Astroperator Veera
+maleLast:
+  - Aalto
+  - Aaltonen
+  - Aho
+  - Ahola
+  - Ahonen
+  - Anttila
+  - Arvola
+  - Eskola
+  - Haapala
+  - Haavisto
+  - Hakala
+  - Halonen
+  - Harju
+  - Hartikainen
+  - Heikkinen
+  - Heino
+  - Heinonen
+  - Heiskanen
+  - Hietala
+  - Hiltunen
+  - Hirvonen
+  - Honkanen
+  - Huttunen
+  - Ikonen
+  - Immonen
+  - Jalonen
+  - Jokinen
+  - Kallio
+  - Karhu
+  - Karjalainen
+  - Karppinen
+  - Kauppinen
+  - Kemppainen
+  - Kettunen
+  - Kinnunen
+  - Kiviniemi
+  - Koivisto
+  - Kokko
+  - Kokkonen
+  - Koponen
+  - Korhonen
+  - Korpela
+  - Koskela
+  - Koski
+  - Koskinen
+  - Laakso
+  - Laaksonen
+  - Lahti
+  - Lahtinen
+  - Laine
+  - Laitinen
+  - Lappalainen
+  - Lehtinen
+  - Lehto
+  - Lehtonen
+  - Leino
+  - Leinonen
+  - Lindholm
+  - Manninen
+  - Mattila
+  - Miettinen
+  - Mikkola
+  - Mikkonen
+  - Moilanen
+  - Mustonen
+  - Niemi
+  - Nieminen
+  - Niskanen
+  - Nurmi
+  - Nurminen
+  - Nyman
+  - Ojala
+  - Oksanen
+  - Partanen
+  - Peltola
+  - Peltonen
+  - Pesonen
+  - Pulkkinen
+  - Rajala
+  - Rantala
+  - Rantanen
+  - Rautiainen
+  - Rautio
+  - Rissanen
+  - Saari
+  - Saarinen
+  - Saimi
+  - Salminen
+  - Salo
+  - Salonen
+  - Savolainen
+  - Suominen
+  - Toivonen
+  - Tuominen
+  - Turunen
+  - Uusitalo
+  - Vainio
+  - Virtanen
+  - Vuorinen
+  - Ylitalo

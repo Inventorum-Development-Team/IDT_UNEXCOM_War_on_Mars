@@ -1,0 +1,188 @@
+lookWeights:
+  - 43
+  - 42
+  - 2
+  - 13
+maleFirst:
+  - Astronaut Alain
+  - Astronaut Alban
+  - Astronaut Armand
+  - Astronaut Benoit
+  - Astronaut Bruno
+  - Astronaut Calvin
+  - Astronaut Christian
+  - Astronaut Claude
+  - Astronaut Corentin
+  - Astronaut Damien
+  - Astronaut Denis
+  - Astronaut Emile
+  - Astronaut Etienne
+  - Astronaut Ethan
+  - Astronaut Fabien
+  - Astronaut Francis
+  - Astronaut Frederic
+  - Astronaut Gaston
+  - Astronaut Gerard
+  - Astronaut Guillaume
+  - Astronaut Henri
+  - Astronaut Hugo
+  - Astronaut Jacques
+  - Astronaut Jean
+  - Astronaut Jules
+  - Astronaut Leon
+  - Astronaut Lionel
+  - Astronaut Louis
+  - Astronaut Lucas
+  - Astronaut Mathis
+  - Astronaut Marc
+  - Astronaut Marcel
+  - Astronaut Michel
+  - Astronaut Nathan
+  - Astronaut Nicolas
+  - Astronaut Olivier
+  - Astronaut Pascal
+  - Astronaut Paul
+  - Astronaut Pierre
+  - Astronaut Philippe
+  - Astronaut Quentin
+  - Astronaut Raphael
+  - Astronaut Remi
+  - Astronaut Rene
+  - Astronaut Robert
+  - Astronaut Roger
+  - Astronaut Sebastien
+  - Astronaut Simon
+  - Astronaut Sylvain
+  - Astronaut Thibault
+  - Astronaut Victor
+  - Astronaut Vincent
+  - Astronaut Yves
+femaleFirst:
+  - Astronaut Anne
+  - Astronaut Audrey
+  - Astronaut Brigitte
+  - Astronaut Camille
+  - Astronaut Catherine
+  - Astronaut Chantal
+  - Astronaut Claire
+  - Astronaut Clara
+  - Astronaut Cloe
+  - Astronaut Danielle
+  - Astronaut Dominique
+  - Astronaut Elisabeth
+  - Astronaut Eva
+  - Astronaut Florence
+  - Astronaut Francoise
+  - Astronaut Gaelle
+  - Astronaut Geraldine
+  - Astronaut Helene
+  - Astronaut Isabelle
+  - Astronaut Ludivine
+  - Astronaut Lydia
+  - Astronaut Jacqueline
+  - Astronaut Jeanne
+  - Astronaut Julie
+  - Astronaut Laure
+  - Astronaut Lina
+  - Astronaut Lilou
+  - Astronaut Maelys
+  - Astronaut Marie
+  - Astronaut Marion
+  - Astronaut Marguerite
+  - Astronaut Maud
+  - Astronaut Murielle
+  - Astronaut Nathalie
+  - Astronaut Odile
+  - Astronaut Rachel
+  - Astronaut Rose
+  - Astronaut Sabine
+  - Astronaut Sandrine
+  - Astronaut Stephanie
+  - Astronaut Sonia
+  - Astronaut Sylvie
+  - Astronaut Valerie
+  - Astronaut Veronique
+  - Astronaut Zoe
+maleLast:
+  - Andre
+  - Berger
+  - Bernard
+  - Bertrand
+  - Bonnet
+  - Bouissou
+  - Bourgeois
+  - Bouton
+  - Bouvier
+  - Blanc
+  - Blondel
+  - Buchard
+  - Caron
+  - Chevalier
+  - Coicard
+  - Collet
+  - Collignon
+  - Coste
+  - Couturier
+  - Clement
+  - Cuvelier
+  - Dagallier
+  - Delorme
+  - Dreyfus
+  - Dubois
+  - Ducourtioux
+  - Dujardin
+  - Dumont
+  - Dupuis
+  - Dupre
+  - Duval
+  - Fabre
+  - Faure
+  - Fontaine
+  - Fournier
+  - Gaillard
+  - Garcia
+  - Gaudrin
+  - Gautier
+  - Gressier
+  - Guerin
+  - Guillot
+  - Girard
+  - Giraudon
+  - Heroin
+  - Lacroix
+  - Laroyenne
+  - Lambert
+  - Laroche
+  - Larue
+  - Laurent
+  - Leclerc
+  - Lecointe
+  - Lecomte
+  - Leduc
+  - Lefevre
+  - Legrand
+  - Leroy
+  - Luget
+  - Marcelle
+  - Martin
+  - Menardier
+  - Mercier
+  - Meunier
+  - Moreau
+  - Morel
+  - Morin
+  - Mathieu
+  - Muller
+  - Pecheux
+  - Pelletier
+  - Perrin
+  - Perrot
+  - Petit
+  - Picar
+  - Roussel
+  - Revenu
+  - Roux
+  - Richard
+  - Simon
+  - Thomas
+  - Verdier

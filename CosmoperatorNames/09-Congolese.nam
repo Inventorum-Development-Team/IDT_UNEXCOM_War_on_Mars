@@ -1,0 +1,487 @@
+lookWeights:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - Cosmoperator Aimé Dorian
+  - Cosmoperator Alban
+  - Cosmoperator Ange
+  - Cosmoperator Annoud Prestige
+  - Cosmoperator Appollinaire
+  - Cosmoperator Arcel
+  - Cosmoperator Archange
+  - Cosmoperator Aristide
+  - Cosmoperator Armand
+  - Cosmoperator Arthur
+  - Cosmoperator Awax
+  - Cosmoperator Baurion
+  - Cosmoperator Ben
+  - Cosmoperator Benjamin
+  - Cosmoperator Bensadaa
+  - Cosmoperator Bonte
+  - Cosmoperator Boris
+  - Cosmoperator Bouse
+  - Cosmoperator Calice
+  - Cosmoperator Céléstin
+  - Cosmoperator Chatel
+  - Cosmoperator Cherald
+  - Cosmoperator Cherubin
+  - Cosmoperator Chriss
+  - Cosmoperator Christian
+  - Cosmoperator Claude
+  - Cosmoperator Davy
+  - Cosmoperator Dbacom
+  - Cosmoperator Donnel
+  - Cosmoperator Dorian
+  - Cosmoperator Dos
+  - Cosmoperator Dulcine
+  - Cosmoperator Eden
+  - Cosmoperator Edvin
+  - Cosmoperator Elyse
+  - Cosmoperator Eudes
+  - Cosmoperator Evrard
+  - Cosmoperator Fred
+  - Cosmoperator Fresnel
+  - Cosmoperator Gata
+  - Cosmoperator Geslin
+  - Cosmoperator Giordani
+  - Cosmoperator Guychel
+  - Cosmoperator Harold
+  - Cosmoperator Heldora
+  - Cosmoperator Hilde
+  - Cosmoperator Japhet
+  - Cosmoperator Joad Louad
+  - Cosmoperator Jules
+  - Cosmoperator Julle
+  - Cosmoperator Karome
+  - Cosmoperator Leonce
+  - Cosmoperator Lima
+  - Cosmoperator Lionel
+  - Cosmoperator Lucien
+  - Cosmoperator Mack
+  - Cosmoperator Marzin
+  - Cosmoperator Mbayo
+  - Cosmoperator Milan
+  - Cosmoperator Murphy
+  - Cosmoperator Oudry
+  - Cosmoperator Pascal
+  - Cosmoperator Paterne
+  - Cosmoperator Patrick
+  - Cosmoperator Prevner
+  - Cosmoperator Prince
+  - Cosmoperator Ray
+  - Cosmoperator Régis
+  - Cosmoperator Resnik
+  - Cosmoperator Rishi
+  - Cosmoperator Rodrigue
+  - Cosmoperator Rudolf
+  - Cosmoperator Sajila
+  - Cosmoperator Severin
+  - Cosmoperator Shabani
+  - Cosmoperator Stanis
+  - Cosmoperator Stephane
+  - Cosmoperator Sylvio
+  - Cosmoperator Thierry
+  - Cosmoperator Van Carrel
+  - Cosmoperator Yohan
+femaleFirst:
+  - Cosmoperator Arich
+  - Cosmoperator Arrielle
+  - Cosmoperator Ashley
+  - Cosmoperator Aubierge
+  - Cosmoperator Aude
+  - Cosmoperator Belcha
+  - Cosmoperator Belvie
+  - Cosmoperator Brunelle
+  - Cosmoperator Capricia
+  - Cosmoperator Carole
+  - Cosmoperator Cecile
+  - Cosmoperator Celvie
+  - Cosmoperator Chanfrelle
+  - Cosmoperator Christelle
+  - Cosmoperator Christiane
+  - Cosmoperator Clavidia
+  - Cosmoperator Darlène
+  - Cosmoperator Deborah
+  - Cosmoperator Diche
+  - Cosmoperator Dina
+  - Cosmoperator Docile
+  - Cosmoperator Djany
+  - Cosmoperator Emmanuelle
+  - Cosmoperator Estelle
+  - Cosmoperator Fallone
+  - Cosmoperator Fernande
+  - Cosmoperator Florèse
+  - Cosmoperator Gaelle
+  - Cosmoperator Garcia
+  - Cosmoperator Geanna
+  - Cosmoperator Giovanna
+  - Cosmoperator Gloire
+  - Cosmoperator Grace
+  - Cosmoperator Granie
+  - Cosmoperator Jaelle
+  - Cosmoperator Jannie
+  - Cosmoperator Jeanny
+  - Cosmoperator Jelvie
+  - Cosmoperator Jessica
+  - Cosmoperator Jen
+  - Cosmoperator Jodrey
+  - Cosmoperator Jolienne
+  - Cosmoperator Judith
+  - Cosmoperator Julie
+  - Cosmoperator Jupsie
+  - Cosmoperator Keicha
+  - Cosmoperator Liu
+  - Cosmoperator Lys
+  - Cosmoperator Melaine
+  - Cosmoperator Merveille
+  - Cosmoperator Michelle
+  - Cosmoperator Parfaite
+  - Cosmoperator Patrique
+  - Cosmoperator Polly
+  - Cosmoperator Privel
+  - Cosmoperator Lirna
+  - Cosmoperator Madelenne
+  - Cosmoperator Manu
+  - Cosmoperator Mary
+  - Cosmoperator Mbeko
+  - Cosmoperator Milyne
+  - Cosmoperator Monia
+  - Cosmoperator Nardelie
+  - Cosmoperator Nathalie
+  - Cosmoperator Nel
+  - Cosmoperator Nicia
+  - Cosmoperator Nuptia
+  - Cosmoperator Opportune
+  - Cosmoperator Patricia
+  - Cosmoperator Pitchou
+  - Cosmoperator Raan-sady
+  - Cosmoperator Reine
+  - Cosmoperator Rose
+  - Cosmoperator Rosa
+  - Cosmoperator Rudelle
+  - Cosmoperator Sabrina
+  - Cosmoperator Sagely
+  - Cosmoperator Sidorelle
+  - Cosmoperator Sony
+  - Cosmoperator Staelle
+  - Cosmoperator Synthyche
+  - Cosmoperator Tan
+  - Cosmoperator Vanessa
+  - Cosmoperator Winnie
+  - Cosmoperator Yornella
+maleLast:
+  - Akindele
+  - Alphonse
+  - Anaclet
+  - Augustin
+  - Aurelie
+  - Axele
+  - Badibanga
+  - Bakaji
+  - Bakwamba
+  - Bangamba
+  - Bantu
+  - Biampata
+  - Bilenga
+  - Bilenge
+  - Bilengi
+  - Bilonda
+  - Bilumbu
+  - Bitala
+  - Bitelu
+  - Biumba
+  - Buabu
+  - Buikalu
+  - Bukaka
+  - Buluba
+  - Busasa
+  - Buta
+  - Dikembe
+  - Dikengu
+  - Dikiyu
+  - Dishi
+  - Diyoka
+  - Evariste
+  - Felicien
+  - Francky
+  - Francois
+  - Gabriel
+  - Ganeramba
+  - Gaston
+  - Gilbert
+  - Gourmand
+  - Henri
+  - Honore
+  - Ilunga
+  - Jean
+  - Joseph
+  - Justin
+  - Kabala
+  - Kabamba
+  - Kabanda
+  - Kabanga
+  - Kabasela
+  - Kabemba
+  - Kabeya
+  - Kaboka
+  - Kabombo
+  - Kabongo
+  - Kabukala
+  - Kabunda
+  - Kabundangoji
+  - Kabungama
+  - Kabwa
+  - Kabwaya
+  - Kadilu
+  - Kadimu
+  - Kajangala
+  - Kajila
+  - Kajimba
+  - Kakokopo
+  - Kalala
+  - Kalanga
+  - Kalawanda
+  - Kalengedi
+  - Kaleuka
+  - Kalombo
+  - Kalonji
+  - Kalubi
+  - Kalunguji
+  - Kamanga
+  - Kambaja
+  - Kambala
+  - Kamulete
+  - Kamwania
+  - Kanda
+  - Kankolongo
+  - Kankonda
+  - Kanku
+  - Kanungu
+  - Kanyandu
+  - Kanyinda
+  - Kapinga
+  - Kapongo
+  - Kasala
+  - Kasampu
+  - Kasenga
+  - Kasongo
+  - Kasuku
+  - Kasulu
+  - Kaswaswa
+  - Katamba
+  - Katanda
+  - Katanga
+  - Katekelayi
+  - Katuku
+  - Katundu
+  - Kayemba
+  - Kayembe
+  - Kayowa
+  - Kilunsila
+  - Kimba
+  - Kishi
+  - Koloyi
+  - Komba
+  - Konji
+  - Kulondi
+  - Kutemba
+  - Lala
+  - Lemba
+  - Lengela
+  - Leonard
+  - Lisa
+  - Londa
+  - Longa
+  - Luadia
+  - Luamba
+  - Luangoyi
+  - Lubanga
+  - Lubanza
+  - Lubuya
+  - Lukodi
+  - Lukoji
+  - Lukusa
+  - Luluabourg
+  - Lumbala
+  - Lumbombo
+  - Lupenzu
+  - Lusamba
+  - Lutexa
+  - Lutonga
+  - Lutundula
+  - Mabele
+  - Mabixa
+  - Malumba
+  - Mampuya
+  - Manyangana
+  - Martin
+  - Matamba
+  - Matembela
+  - Mayi
+  - Mbayi
+  - Mbimbi
+  - Mbiya
+  - Mbiyamuenza
+  - Mbiye
+  - Mbombo
+  - Mbuyamba
+  - Mbuyangudi
+  - Mbuyi
+  - Mbwaya
+  - Meso
+  - Meta
+  - Mfunyi
+  - Miabi
+  - Mianbabu
+  - Milabi
+  - Misenga
+  - Moise
+  - Mokola
+  - Moyo
+  - Mpala
+  - Mpanda
+  - Mpoloto
+  - Mpoyi
+  - Mpuka
+  - Mpunga
+  - Mpungapoyi
+  - Muadi
+  - Muamba
+  - Muanza
+  - Mubenga
+  - Mubiayi
+  - Mubimalu
+  - Mubitende
+  - Mudiayi
+  - Mudipuekesha
+  - Mufika
+  - Mufonkola
+  - Mufuansanyi
+  - Mujinga
+  - Mukadi
+  - Mukala
+  - Mukanda
+  - Mukanya
+  - Mukendi
+  - Mukenga
+  - Mukinda
+  - Mukuma
+  - Mulaja
+  - Mulanga
+  - Mulelalupu
+  - Mulenda
+  - Mulombo
+  - Mulopo
+  - Mulopue
+  - Mulowaluendu
+  - Muluila
+  - Mulumba
+  - Mundamunya
+  - Munsense
+  - Muntshiamba
+  - Munyampala
+  - Mupompa
+  - Mupoyi
+  - Musalu
+  - Musebela
+  - Mushikila
+  - Mushiya
+  - Musuamba
+  - Mutombo
+  - Muya
+  - Mvita
+  - Mwamba
+  - Mwanankesa
+  - Mwenza
+  - Mwepu
+  - Ndanda
+  - Ndaya
+  - Ndelela
+  - Ngalula
+  - Ngandu
+  - Ngeleka
+  - Ngelema
+  - Ngomba
+  - Ngonga
+  - Ngoyi
+  - Ninette
+  - Nkanda
+  - Nkitabungi
+  - Nkomo
+  - Nkongolo
+  - Noel
+  - Norbert
+  - Nseya
+  - Nshila
+  - Nshinga
+  - Nsombamanya
+  - Nsudila
+  - Ntalaja
+  - Ntambwe
+  - Ntita
+  - Ntombolo
+  - Ntondolo
+  - Ntumba
+  - Nyanzala
+  - Nyenyempa
+  - Nyoka
+  - Nzambi
+  - Nzangula
+  - Nzemba
+  - Odia
+  - Phillipe
+  - Pierre
+  - Rachelle
+  - Samuela
+  - Shaddai
+  - Stella
+  - Talatala
+  - Thomas
+  - Tshanda
+  - Tshiabu
+  - Tshialu
+  - Tshiamanina
+  - Tshiambi
+  - Tshiambula
+  - Tshiambwaya
+  - Tshianzambonga
+  - Tshibaka
+  - Tshibala
+  - Tshibalabala
+  - Tshibangu
+  - Tshibelu
+  - Tshibola
+  - Tshibwabwa
+  - Tshidibi
+  - Tshidindu
+  - Tshidingi
+  - Tshiebelela
+  - Tshiepela
+  - Tshifunka
+  - Tshikondo
+  - Tshikulu
+  - Tshikumini
+  - Tshilenga
+  - Tshimanga
+  - Tshimbi
+  - Tshimbombo
+  - Tshimini
+  - Tshiminyi
+  - Tshimowa
+  - Tshimpaka
+  - Tshimwena
+  - Tshipanda
+  - Tshipayayi
+  - Tshisekedi
+  - Tshiswaka
+  - Tshitambala
+  - Tshitoko
+  - Tshiula
+  - Tshiyola
+  - Tuendela
+  - Yabukalanga
+  - Yamba
+  - Yampanya
+  - Yowa

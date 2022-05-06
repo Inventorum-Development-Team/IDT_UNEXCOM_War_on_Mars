@@ -1,0 +1,410 @@
+lookWeights:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - Astronaut Abassi
+  - Astronaut Abayomi
+  - Astronaut Abejide
+  - Astronaut Abiodun
+  - Astronaut Abiola
+  - Astronaut Adebayo
+  - Astronaut Adejola
+  - Astronaut Adisa
+  - Astronaut Adunbi
+  - Astronaut Ajala
+  - Astronaut Ajani
+  - Astronaut Akanni
+  - Astronaut Akin
+  - Astronaut Akinlabi
+  - Astronaut Akinlana
+  - Astronaut Akins
+  - Astronaut Akono
+  - Astronaut Amadi
+  - Astronaut Aniweta
+  - Astronaut Apara
+  - Astronaut Ayodele
+  - Astronaut Azagba
+  - Astronaut Babafemi
+  - Astronaut Bem
+  - Astronaut Boseda
+  - Astronaut Chidike
+  - Astronaut Chijioke
+  - Astronaut Chike
+  - Astronaut Chukwuma
+  - Astronaut Dada
+  - Astronaut David
+  - Astronaut Dumaka
+  - Astronaut Ehioze
+  - Astronaut Ekundayo
+  - Astronaut Emeka
+  - Astronaut Emmanuel
+  - Astronaut Ewansiha
+  - Astronaut Ezekiel
+  - Astronaut Fasina
+  - Astronaut Gowo
+  - Astronaut Idowu
+  - Astronaut Imarogbe
+  - Astronaut Isah
+  - Astronaut Iyapo
+  - Astronaut Jaja
+  - Astronaut Jumoke
+  - Astronaut Kayode
+  - Astronaut Kehinde
+  - Astronaut Kosoko
+  - Astronaut Kwame
+  - Astronaut Madu
+  - Astronaut Mazi
+  - Astronaut Modupe
+  - Astronaut Morihinze
+  - Astronaut Moses
+  - Astronaut Ndulu
+  - Astronaut Ngozi
+  - Astronaut Nosakhere
+  - Astronaut Nwabudike
+  - Astronaut Obasi
+  - Astronaut Obataiye
+  - Astronaut Obayana
+  - Astronaut Obi
+  - Astronaut Obike
+  - Astronaut Ode
+  - Astronaut Odion
+  - Astronaut Ogbonna
+  - Astronaut Okechuku
+  - Astronaut Okpara
+  - Astronaut Oladele
+  - Astronaut Olafemi
+  - Astronaut Olaniyan
+  - Astronaut Olawale
+  - Astronaut Olawutobi
+  - Astronaut Olubayo
+  - Astronaut Olufemi
+  - Astronaut Olugbala
+  - Astronaut Olujimi
+  - Astronaut Olumide
+  - Astronaut Olumiji
+  - Astronaut Olushola
+  - Astronaut Oluwa
+  - Astronaut Oluwaseyi
+  - Astronaut Oluyemi
+  - Astronaut Omolara
+  - Astronaut Omorede
+  - Astronaut Onuwachi
+  - Astronaut Opeyemi
+  - Astronaut Osahar
+  - Astronaut Osakwe
+  - Astronaut Osayaba
+  - Astronaut Osayande
+  - Astronaut Osayimwese
+  - Astronaut Osaze
+  - Astronaut Samuel
+  - Astronaut Stanley
+  - Astronaut Sunday
+  - Astronaut Taiwo
+  - Astronaut Tobi
+  - Astronaut Echechi
+  - Astronaut Uzoma
+  - Astronaut Weke
+  - Astronaut Worie
+femaleFirst:
+  - Astronaut Abagbe
+  - Astronaut Abagebe
+  - Astronaut Abayomi
+  - Astronaut Abebi
+  - Astronaut Abegbe
+  - Astronaut Abeje
+  - Astronaut Abeke
+  - Astronaut Abena
+  - Astronaut Abeo
+  - Astronaut Abidemi
+  - Astronaut Abimbola
+  - Astronaut Abiona
+  - Astronaut Abisola
+  - Astronaut Adamma
+  - Astronaut Adanna
+  - Astronaut Adanya
+  - Astronaut Adebola
+  - Astronaut Adebomi
+  - Astronaut Adedagbo
+  - Astronaut Adedewe
+  - Astronaut Adedoja
+  - Astronaut Adeleke
+  - Astronaut Adenrele
+  - Astronaut Adeola
+  - Astronaut Aderinola
+  - Astronaut Adesimbo
+  - Astronaut Adesina
+  - Astronaut Adeyemi
+  - Astronaut Adio
+  - Astronaut Adjoa
+  - Astronaut Aduke
+  - Astronaut Aina
+  - Astronaut Aiyetoro
+  - Astronaut Ajala
+  - Astronaut Ajani
+  - Astronaut Akanke
+  - Astronaut Alaba
+  - Astronaut Alke
+  - Astronaut Ama
+  - Astronaut Amonke
+  - Astronaut Annakiya
+  - Astronaut Anuli
+  - Astronaut Arria
+  - Astronaut Asabi
+  - Astronaut Auta
+  - Astronaut Ayo
+  - Astronaut Ayobami
+  - Astronaut Ayobunmi
+  - Astronaut Ayodele
+  - Astronaut Ayofemi
+  - Astronaut Ayoka
+  - Astronaut Ayoluwa
+  - Astronaut Ayomide
+  - Astronaut Ayoola
+  - Astronaut Azalee
+  - Astronaut Baderinwa
+  - Astronaut Baina
+  - Astronaut Bayo
+  - Astronaut Becca
+  - Astronaut Bekide
+  - Astronaut Binah
+  - Astronaut Bolade
+  - Astronaut Bolanile
+  - Astronaut Bunmi
+  - Astronaut Chidimma
+  - Astronaut Chika
+  - Astronaut Chinonso
+  - Astronaut Chinue
+  - Astronaut Chioma
+  - Astronaut Chisom
+  - Astronaut Chizoba
+  - Astronaut Cynthia
+  - Astronaut Dada
+  - Astronaut Danuwa
+  - Astronaut Daurama
+  - Astronaut Dayo
+  - Astronaut Dubaku
+  - Astronaut Dumaka
+  - Astronaut Ebele
+  - Astronaut Ebun
+  - Astronaut Edenausegbo
+  - Astronaut Ehizemen
+  - Astronaut Ekaghogho
+  - Astronaut Exenesenarh
+  - Astronaut Enomwoyi
+  - Astronaut Esosa
+  - Astronaut Etinosa
+  - Astronaut Fabayo
+  - Astronaut Faraa
+  - Astronaut Farih
+  - Astronaut Fayola
+  - Astronaut Fayolla
+  - Astronaut Femi
+  - Astronaut Fola
+  - Astronaut Folade
+  - Astronaut Folami
+  - Astronaut Folashade
+  - Astronaut Dolayan
+  - Astronaut Foluke
+  - Astronaut Gimbya
+  - Astronaut Hanna
+  - Astronaut Hasana
+  - Astronaut Hazika
+  - Astronaut Hembadoon
+  - Astronaut Idowu
+  - Astronaut Ifama
+  - Astronaut Ife
+  - Astronaut Ifetayo
+  - Astronaut Ige
+  - Astronaut Ijaba
+  - Astronaut Ikuseghan
+  - Astronaut Innya
+  - Astronaut Irawagbon
+  - Astronaut Isoke
+  - Astronaut Iverem
+  - Astronaut Iyabo
+  - Astronaut Izegbe
+  - Astronaut Joy
+  - Astronaut Jumoke
+  - Astronaut Kehinde
+  - Astronaut Kinah
+  - Astronaut Kiziah
+  - Astronaut Kokumo
+  - Astronaut Limber
+  - Astronaut Lina
+  - Astronaut Lisha
+  - Astronaut Marjorie
+  - Astronaut Mbafor
+  - Astronaut Mbeke
+  - Astronaut Mhonum
+  - Astronaut Monifa
+  - Astronaut Morayo
+  - Astronaut Natashenka
+  - Astronaut Ngozi
+  - Astronaut Nkiruka
+  - Astronaut Nneka
+  - Astronaut Nnenaya
+  - Astronaut Nnenia
+  - Astronaut Nsia
+  - Astronaut Nourbese
+  - Astronaut Nwakaeo
+  - Astronaut Obioma
+  - Astronaut Ode
+  - Astronaut Ofure
+  - Astronaut Olabunmi
+  - Astronaut Olaniyi
+  - Astronaut Olateju
+  - Astronaut Olayinka
+  - Astronaut Olubayo
+  - Astronaut Olubunmi
+  - Astronaut Olufemi
+  - Astronaut Olufunke
+  - Astronaut Olufunmilayo
+  - Astronaut Oluremi
+  - Astronaut Omalara
+  - Astronaut Omolara
+  - Astronaut Omorenoniwara
+  - Astronaut Omorose
+  - Astronaut Omosede
+  - Astronaut Omosupe
+  - Astronaut omusupe
+  - Astronaut Oni
+  - Astronaut Onyeka
+  - Astronaut Osayioniwabo
+  - Astronaut Osemweoyenmwen
+  - Astronaut Oseye
+  - Astronaut Sade
+  - Astronaut Shade
+  - Astronaut Shiminege
+  - Astronaut Tanisha
+  - Astronaut Thema
+  - Astronaut Theresa
+  - Astronaut Titilayo
+  - Astronaut Tobi
+  - Astronaut Uchefuna
+  - Astronaut Urbi
+  - Astronaut Yahimba
+  - Astronaut Yejide
+  - Astronaut Yetunde
+  - Astronaut Yewande
+  - Astronaut Zuna
+maleLast:
+  - Abdul
+  - Abiodun
+  - Abubakar
+  - Achebe
+  - Adebayo
+  - Adebiyi
+  - Adeyemi
+  - Ahmadu
+  - Aimeihi
+  - Ajuonuma
+  - Akubueze
+  - Alamieyeseigha
+  - Alli
+  - Alvana
+  - Amadi
+  - Amaechi
+  - Amaka
+  - Anakobe
+  - Anjola
+  - Anyene
+  - Arokoyo
+  - Awani
+  - Awiyetu
+  - Awolowo
+  - Aynaw
+  - Ayoola
+  - Babangida
+  - Bugaje
+  - Chidinma
+  - Chinwe
+  - Chukwu
+  - Claaseen
+  - Dhose
+  - Ebuka
+  - Ehi
+  - Ehimen
+  - Ejogo
+  - Eke
+  - Ekwensi
+  - Enuma
+  - Eseoghene
+  - Eventus
+  - Eze
+  - Ezugo
+  - Falmata
+  - Farida
+  - Femi
+  - Garba
+  - Hope
+  - Ibe
+  - Ibori
+  - Ibrahim
+  - Ibru
+  - Ibukun
+  - Iheme
+  - Iniebong
+  - Inusa
+  - Itsifanus
+  - Jangana
+  - Jonathan
+  - Jolawole
+  - Lamidi
+  - Lawal
+  - Madaki
+  - Mahmud
+  - Maikudi
+  - Mantakari
+  - Martins
+  - Mbana
+  - Mbanefo
+  - Memuna
+  - Mohammed
+  - Mshelia
+  - Ngwube
+  - Njoku
+  - Obiola
+  - Obrutse
+  - Ochigbo
+  - Ochonogo
+  - Ogechi
+  - Okah
+  - Okafor
+  - Okeke
+  - Okere
+  - Okereke
+  - Okonkwo
+  - Okoye
+  - Olaoluwa
+  - Olugbenga
+  - Olukayode
+  - Olumide
+  - Olumodeji
+  - Olusanmi
+  - Oluwadamilare
+  - Oluwakemi
+  - Oluwayomi
+  - Oni
+  - Onita
+  - Onyinjuke
+  - Opara
+  - Orakwe
+  - Otaru
+  - Otatoru
+  - Rajuli
+  - Raphael
+  - Saraki
+  - Sekibo
+  - Shuta
+  - Sunny
+  - Temitope
+  - Tosin
+  - Uba
+  - Udoh
+  - Ugbabio
+  - Usman
+  - Wale
+  - Yar-adua
+  - Yindadi

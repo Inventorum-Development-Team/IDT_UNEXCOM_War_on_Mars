@@ -1,0 +1,467 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Cosmonaut Jan
+  - Cosmonaut Tomas
+  - Cosmonaut Zbysek
+  - Cosmonaut Zdenik
+  - Cosmonaut Michal
+  - Cosmonaut Martin
+  - Cosmonaut Jioi
+  - Cosmonaut Ivo
+  - Cosmonaut Pavel
+  - Cosmonaut Karel
+  - Cosmonaut Frantisek
+  - Cosmonaut Ctirad
+  - Cosmonaut Zbynik
+  - Cosmonaut Vladimir
+  - Cosmonaut Jaroslav
+  - Cosmonaut Petr
+  - Cosmonaut Josef
+  - Cosmonaut Vaclav
+  - Cosmonaut Miroslav
+  - Cosmonaut Mila
+  - Cosmonaut Lukas
+  - Cosmonaut David
+  - Cosmonaut Jakub
+  - Cosmonaut Stanislav
+  - Cosmonaut Roman
+  - Cosmonaut Ondoej
+  - Cosmonaut Radek
+  - Cosmonaut Antonin
+  - Cosmonaut Jozef
+  - Cosmonaut Emil
+  - Cosmonaut Filip
+  - Cosmonaut Ales  
+  - Cosmonaut Alexandr
+  - Cosmonaut Alexej
+  - Cosmonaut Ambroz	
+  - Cosmonaut Andrej
+  - Cosmonaut Arnost
+  - Cosmonaut Artur
+  - Cosmonaut Augustyn
+  - Cosmonaut Bartolomej	
+  - Cosmonaut Bedrich
+  - Cosmonaut Benedikt
+  - Cosmonaut Bernard
+  - Cosmonaut Blahoslav
+  - Cosmonaut Blazej
+  - Cosmonaut Bohdan
+  - Cosmonaut Bohumil
+  - Cosmonaut Bohumir	
+  - Cosmonaut Bohuslav
+  - Cosmonaut Boleslav
+  - Cosmonaut Bonifac
+  - Cosmonaut Borek
+  - Cosmonaut Boris
+  - Cosmonaut Borivoj
+  - Cosmonaut Bretislav
+  - Cosmonaut Bronislav
+  - Cosmonaut Bruno
+  - Cosmonaut Ctibor
+  - Cosmonaut Cenek
+  - Cosmonaut Cestmir	
+  - Cosmonaut Dalibor
+  - Cosmonaut Dalimil
+  - Cosmonaut Dobroslav
+  - Cosmonaut Dominik
+  - Cosmonaut Drahoslav
+  - Cosmonaut Dusan
+  - Cosmonaut Eduard
+  - Cosmonaut Erik
+  - Cosmonaut Evzen
+  - Cosmonaut Felix
+  - Cosmonaut Ferdinand
+  - Cosmonaut Gustav
+  - Cosmonaut Hanus	
+  - Cosmonaut Havel
+  - Cosmonaut Herman
+  - Cosmonaut Hubert
+  - Cosmonaut Hugo
+  - Cosmonaut Hynek
+  - Cosmonaut Ignac
+  - Cosmonaut Igor
+  - Cosmonaut Ilja
+  - Cosmonaut Ivan
+  - Cosmonaut Jachym
+  - Cosmonaut Jarmil
+  - Cosmonaut Jaromir
+  - Cosmonaut Jeronym
+  - Cosmonaut Jindrich
+  - Cosmonaut Jiri	
+  - Cosmonaut Jonas	
+  - Cosmonaut Julius
+  - Cosmonaut Kamil
+  - Cosmonaut Kazimir
+  - Cosmonaut Klement
+  - Cosmonaut Kristian
+  - Cosmonaut Krystof
+  - Cosmonaut Kvetoslav
+  - Cosmonaut Kvido
+  - Cosmonaut Ladislav
+  - Cosmonaut Leopold
+  - Cosmonaut Leos	
+  - Cosmonaut Libor
+  - Cosmonaut Lubomir
+  - Cosmonaut Lubor
+  - Cosmonaut Lubos	
+  - Cosmonaut Ludek
+  - Cosmonaut Ludvik
+  - Cosmonaut Lukas	
+  - Cosmonaut Lumir
+  - Cosmonaut Marcel
+  - Cosmonaut Marek
+  - Cosmonaut Marian
+  - Cosmonaut Matej	
+  - Cosmonaut Matous	
+  - Cosmonaut Maxmilian	
+  - Cosmonaut Medard
+  - Cosmonaut Mikulas	
+  - Cosmonaut Milan
+  - Cosmonaut Milos	
+  - Cosmonaut Miloslav
+  - Cosmonaut Mojmir
+  - Cosmonaut Oldrich
+  - Cosmonaut Oleg
+  - Cosmonaut Oliver
+  - Cosmonaut Ondrej	
+  - Cosmonaut Oskar
+  - Cosmonaut Otakar
+  - Cosmonaut Otmar
+  - Cosmonaut Oto
+  - Cosmonaut Pankrac	
+  - Cosmonaut Patrik
+  - Cosmonaut Pravoslav
+  - Cosmonaut Prokop
+  - Cosmonaut Premysl
+  - Cosmonaut Radim
+  - Cosmonaut Radomir
+  - Cosmonaut Radoslav
+  - Cosmonaut Radovan
+  - Cosmonaut Rostislav
+  - Cosmonaut Rudolf
+  - Cosmonaut Rehor	
+  - Cosmonaut Samuel
+  - Cosmonaut Servac
+  - Cosmonaut Silvestr
+  - Cosmonaut Slavomir
+  - Cosmonaut Sobeslav
+  - Cosmonaut Svatopluk
+  - Cosmonaut Svatoslav
+  - Cosmonaut Simon
+  - Cosmonaut Stefan
+  - Cosmonaut Stepan	
+  - Cosmonaut Tadeas	
+  - Cosmonaut Teodor
+  - Cosmonaut Tibor
+  - Cosmonaut Tomas	
+  - Cosmonaut Valdemar
+  - Cosmonaut Valentyn
+  - Cosmonaut Vavrinec
+  - Cosmonaut Venceslav
+  - Cosmonaut Vendelin
+  - Cosmonaut Veroslav
+  - Cosmonaut Viktor
+  - Cosmonaut Vilem
+  - Cosmonaut Vincenc
+  - Cosmonaut Vit
+  - Cosmonaut Vitezslav
+  - Cosmonaut Vladan
+  - Cosmonaut Vladislav
+  - Cosmonaut Vlastimil
+  - Cosmonaut Vlastislav
+  - Cosmonaut Vojtech
+  - Cosmonaut Vratislav
+  - Cosmonaut Zbynek
+  - Cosmonaut Zdenek
+  - Cosmonaut Zikmund
+femaleFirst:
+  - Cosmonaut Anna
+  - Cosmonaut Marie
+  - Cosmonaut Jana
+  - Cosmonaut Iva
+  - Cosmonaut Irina
+  - Cosmonaut Ludmila
+  - Cosmonaut Pavla
+  - Cosmonaut Kateoina
+  - Cosmonaut Simona
+  - Cosmonaut Lucie
+  - Cosmonaut Lenka
+  - Cosmonaut Alena
+  - Cosmonaut Gabina
+  - Cosmonaut Jioina
+  - Cosmonaut Michaela
+  - Cosmonaut Ivana
+  - Cosmonaut Monika
+  - Cosmonaut Veronika
+  - Cosmonaut Jarmila
+  - Cosmonaut Zdeoka
+  - Cosmonaut Jitka
+  - Cosmonaut Helena
+  - Cosmonaut Petra
+  - Cosmonaut Eva
+  - Cosmonaut Hana
+  - Cosmonaut Vira
+  - Cosmonaut Tereza
+  - Cosmonaut Adela
+  - Cosmonaut Adele
+  - Cosmonaut Adriena
+  - Cosmonaut Agata
+  - Cosmonaut Alica
+  - Cosmonaut Alzbeta
+  - Cosmonaut Ana
+  - Cosmonaut Ancika
+  - Cosmonaut Andel
+  - Cosmonaut Andela
+  - Cosmonaut Aneta
+  - Cosmonaut Anezka
+  - Cosmonaut Anichka
+  - Cosmonaut Antoinetta
+  - Cosmonaut Antonie
+  - Cosmonaut Bara
+  - Cosmonaut Barbora
+  - Cosmonaut Barcinka
+  - Cosmonaut Barunka
+  - Cosmonaut Baruska
+  - Cosmonaut Blanka
+  - Cosmonaut Bohdana
+  - Cosmonaut Bohumila
+  - Cosmonaut Bohuslava
+  - Cosmonaut Bora
+  - Cosmonaut Bozena
+  - Cosmonaut Branislava
+  - Cosmonaut Dagmar
+  - Cosmonaut Daleka
+  - Cosmonaut Dalibora
+  - Cosmonaut Dominika
+  - Cosmonaut Drahomira
+  - Cosmonaut Drahoslava
+  - Cosmonaut Dusa
+  - Cosmonaut Dusana
+  - Cosmonaut Dusanka
+  - Cosmonaut Duska
+  - Cosmonaut Edita
+  - Cosmonaut Eliska
+  - Cosmonaut Elita
+  - Cosmonaut Emilia
+  - Cosmonaut Frantiska
+  - Cosmonaut Hedvika
+  - Cosmonaut Irena
+  - Cosmonaut Izabela
+  - Cosmonaut Jaromila
+  - Cosmonaut Jaroslava
+  - Cosmonaut Jindriska
+  - Cosmonaut Jirina
+  - Cosmonaut Johana
+  - Cosmonaut Jolana
+  - Cosmonaut Josefa
+  - Cosmonaut Judita
+  - Cosmonaut Julia
+  - Cosmonaut Kamila
+  - Cosmonaut Karina
+  - Cosmonaut Karolina
+  - Cosmonaut Katarina
+  - Cosmonaut Katerina
+  - Cosmonaut Katica
+  - Cosmonaut Kristyna
+  - Cosmonaut Kunigunde
+  - Cosmonaut Kveta
+  - Cosmonaut Ladislava
+  - Cosmonaut Leona
+  - Cosmonaut Libena
+  - Cosmonaut Libuse
+  - Cosmonaut Lida
+  - Cosmonaut Lidmila
+  - Cosmonaut Lubomira
+  - Cosmonaut Lucina
+  - Cosmonaut Lydie
+  - Cosmonaut Madlenka
+  - Cosmonaut Magdalena
+  - Cosmonaut Maria
+  - Cosmonaut Marketa
+  - Cosmonaut Matylda
+  - Cosmonaut Milada
+  - Cosmonaut Milana
+  - Cosmonaut Milena
+  - Cosmonaut Miloslava
+  - Cosmonaut Nada
+  - Cosmonaut Nadezda
+  - Cosmonaut Otilie
+  - Cosmonaut Pavlina
+  - Cosmonaut Radka
+  - Cosmonaut Radomila
+  - Cosmonaut Radomira
+  - Cosmonaut Radoslava
+  - Cosmonaut Ruzena
+  - Cosmonaut Sara
+  - Cosmonaut Sobeska
+  - Cosmonaut Sobeslava
+  - Cosmonaut Stanislava
+  - Cosmonaut Stefanija
+  - Cosmonaut Stepanka
+  - Cosmonaut Svetla
+  - Cosmonaut Svetlana
+  - Cosmonaut Tatana
+  - Cosmonaut Ursula
+  - Cosmonaut Vaclava
+  - Cosmonaut Vendula
+  - Cosmonaut Vera
+  - Cosmonaut Vladimira
+  - Cosmonaut Vlasta
+  - Cosmonaut Zdenka
+  - Cosmonaut Zofie
+  - Cosmonaut Zoja
+  - Cosmonaut Zuzana
+maleLast:
+  - Bartos
+  - Benda
+  - Benes
+  - Beran
+  - Blaha
+  - Blazek
+  - Broz
+  - Bures
+  - Cech
+  - Cermak
+  - Cerny
+  - Cervenka
+  - Cizek
+  - Dolezal
+  - Dusek
+  - Dvorak
+  - Fiala
+  - Fiser
+  - Hajek
+  - Havlicek
+  - Hlavacek
+  - Hoffmann
+  - Holub
+  - Horak
+  - Hruby
+  - Hruska
+  - Janda
+  - Janecek
+  - Janousek
+  - Jelinek
+  - Jezek
+  - Kadlec
+  - Kaspar
+  - Klaus
+  - Klima
+  - Kohout
+  - Kolar
+  - Kopecky
+  - Kovar
+  - Kovarik
+  - Kral
+  - Kratochvil
+  - Kraus
+  - Krejci
+  - Kriz
+  - Kubis
+  - Kucera
+  - Machacek
+  - Maly
+  - Mares
+  - Martinek
+  - Masek
+  - Matejka
+  - Matousek
+  - Moravec
+  - Mueller
+  - Musil
+  - Navratil
+  - Nemec
+  - Nemecek
+  - Neumann
+  - Novak
+  - Novotny
+  - Pesek
+  - Pokorny
+  - Polak
+  - Pospisil
+  - Prochazka
+  - Richter
+  - Riha
+  - Ruzicka
+  - Sedlacek
+  - Sichy
+  - Simek
+  - Skala
+  - Slavik
+  - Smid
+  - Soucek
+  - Soukup
+  - Stanek
+  - Stastny
+  - Stepanek
+  - Strnad
+  - Sulc
+  - Svoboda
+  - Sykora
+  - Tuma
+  - Urban
+  - Vacek
+  - Valenta
+  - Vanek
+  - Vavra
+  - Vesely
+  - Vlcek
+  - Zelenka
+  - Zeman
+  - Stransky
+  - Tyeka
+  - Dobrynsky
+  - Krajan
+  - Marny
+  - Nimy
+  - Neeesal
+  - Rosa
+  - Kvitoslav
+  - Nadinicky
+  - Doevak
+  - Eerny
+  - Dvooak
+  - Ruzieka
+  - Sedlaeek
+  - Machaeek
+  - Carda
+  - Kueera
+femaleLast:
+  - Zemanova
+  - Kolaoova
+  - Krejei
+  - Eermakova
+  - Navratilova
+  - Komyrova
+  - Urbanova
+  - Vaokova
+  - Koizna
+  - Kratochvilova
+  - Vlazkova
+  - Trojska
+  - Petrova
+  - Romanova
+  - Kovaoova
+  - Bartosova
+  - Musilova
+  - Polakova
+  - Koneena
+  - Mala
+  - Tkadlecova
+  - Zhdanovich
+  - Soukupova
+  - Stastna
+  - Vavrova
+  - Oihova
+  - Ticha
+  - Matusova
+  - Maskova
+  - Hruba
+  - Stejskalova
+  - Tumova
+  - Zakova
+  - Brozova

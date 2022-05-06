@@ -1,0 +1,786 @@
+lookWeights:
+  - 49
+  - 49
+  - 2
+  - 0
+maleFirst:
+  - Astronaut Absalon
+  - Astronaut Adam
+  - Astronaut Adolf
+  - Astronaut Albert
+  - Astronaut Alex
+  - Astronaut Alexander
+  - Astronaut Alf
+  - Astronaut Alfred
+  - Astronaut Allan
+  - Astronaut Anders
+  - Astronaut Andreas
+  - Astronaut Anker
+  - Astronaut Anton
+  - Astronaut Arne
+  - Astronaut Arnold
+  - Astronaut Aron
+  - Astronaut Arthur
+  - Astronaut Arvid
+  - Astronaut Asbjoorn
+  - Astronaut Asger
+  - Astronaut Aske
+  - Astronaut Asmus
+  - Astronaut August
+  - Astronaut Axel
+  - Astronaut Bendt
+  - Astronaut Benjamin
+  - Astronaut Benny
+  - Astronaut Bent
+  - Astronaut Bernhard
+  - Astronaut Bernt
+  - Astronaut Bertel
+  - Astronaut Berthel
+  - Astronaut Bertram
+  - Astronaut Birger
+  - Astronaut Bjarke
+  - Astronaut Bjarne
+  - Astronaut Bjork
+  - Astronaut Bjorn
+  - Astronaut Bo
+  - Astronaut Boje
+  - Astronaut Borge
+  - Astronaut Boye
+  - Astronaut Brian
+  - Astronaut Bruno
+  - Astronaut Carsten
+  - Astronaut Casper
+  - Astronaut Chresten
+  - Astronaut Chris
+  - Astronaut Christen
+  - Astronaut Christian
+  - Astronaut Christoffer
+  - Astronaut Christopher
+  - Astronaut Claus
+  - Astronaut Daniel
+  - Astronaut Danni
+  - Astronaut Danny
+  - Astronaut David
+  - Astronaut Dennis
+  - Astronaut Ditlev
+  - Astronaut Edvard
+  - Astronaut Edvin
+  - Astronaut Egon
+  - Astronaut Eigil
+  - Astronaut Ejgil
+  - Astronaut Ejnar
+  - Astronaut Ejner
+  - Astronaut Ejvind
+  - Astronaut Elias
+  - Astronaut Elmer
+  - Astronaut Elo
+  - Astronaut Emanuel
+  - Astronaut Emil
+  - Astronaut Erik
+  - Astronaut Erland
+  - Astronaut Erling
+  - Astronaut Ernst
+  - Astronaut Esajas
+  - Astronaut Esben
+  - Astronaut Eskild
+  - Astronaut Evald
+  - Astronaut Ferdinand
+  - Astronaut Filip
+  - Astronaut Finn
+  - Astronaut Flemming
+  - Astronaut Frands
+  - Astronaut Frank
+  - Astronaut Frans
+  - Astronaut Freddy
+  - Astronaut Frede
+  - Astronaut Frederik
+  - Astronaut Frithiof
+  - Astronaut Frithjof
+  - Astronaut Frits
+  - Astronaut Frode
+  - Astronaut Georg
+  - Astronaut Gerhard
+  - Astronaut Germund
+  - Astronaut Gert
+  - Astronaut Gorm
+  - Astronaut Gotfred
+  - Astronaut Gregers
+  - Astronaut Gunder
+  - Astronaut Gunnar
+  - Astronaut Gunner
+  - Astronaut Gustav
+  - Astronaut Harald
+  - Astronaut Hardy
+  - Astronaut Harry
+  - Astronaut Helge
+  - Astronaut Helmer
+  - Astronaut Hemming
+  - Astronaut Henning
+  - Astronaut Henrik
+  - Astronaut Henry
+  - Astronaut Herman
+  - Astronaut Hjalmar
+  - Astronaut Hjalte
+  - Astronaut Holger
+  - Astronaut Hugo
+  - Astronaut Immanuel
+  - Astronaut Ingolf
+  - Astronaut Ivan
+  - Astronaut Ivar
+  - Astronaut Iver
+  - Astronaut Jacob
+  - Astronaut Jakob
+  - Astronaut Jan
+  - Astronaut Jannick
+  - Astronaut Jannik
+  - Astronaut Jens
+  - Astronaut Jeppe
+  - Astronaut Jeremias
+  - Astronaut Jes
+  - Astronaut Jesper
+  - Astronaut Jim
+  - Astronaut Jimmi
+  - Astronaut Jimmy
+  - Astronaut Joachim
+  - Astronaut Joakim
+  - Astronaut Joel
+  - Astronaut Johan
+  - Astronaut Johannes
+  - Astronaut John
+  - Astronaut Johnny
+  - Astronaut Jon
+  - Astronaut Jonas
+  - Astronaut Jonatan
+  - Astronaut Jonathan
+  - Astronaut Jorgen
+  - Astronaut Jorn
+  - Astronaut Josef
+  - Astronaut Jul
+  - Astronaut Julian
+  - Astronaut Julius
+  - Astronaut Just
+  - Astronaut Kaj
+  - Astronaut Kaleb
+  - Astronaut Karl
+  - Astronaut Karsten
+  - Astronaut Kasper
+  - Astronaut Keld
+  - Astronaut Ken
+  - Astronaut Kenneth
+  - Astronaut Kent
+  - Astronaut Kevin
+  - Astronaut Kim
+  - Astronaut Kjeld
+  - Astronaut Klaus
+  - Astronaut Knud
+  - Astronaut Kresten
+  - Astronaut Kristen
+  - Astronaut Kristian
+  - Astronaut Kristoffer
+  - Astronaut Kurt
+  - Astronaut Lars
+  - Astronaut Lasse
+  - Astronaut Lau
+  - Astronaut Lauge
+  - Astronaut Laurids
+  - Astronaut Laurits
+  - Astronaut Lauritz
+  - Astronaut Laurs
+  - Astronaut Laust
+  - Astronaut Lave
+  - Astronaut Leif
+  - Astronaut Lennart
+  - Astronaut Leo
+  - Astronaut Leon
+  - Astronaut Lucas
+  - Astronaut Ludvig
+  - Astronaut Lukas
+  - Astronaut Lykke
+  - Astronaut Mads
+  - Astronaut Magnus
+  - Astronaut Malte
+  - Astronaut Malthe
+  - Astronaut Marc
+  - Astronaut Marcus
+  - Astronaut Marinus
+  - Astronaut Marius
+  - Astronaut Mark
+  - Astronaut Markus
+  - Astronaut Martin
+  - Astronaut Mathias
+  - Astronaut Mathies
+  - Astronaut Matthaeus
+  - Astronaut Matthias
+  - Astronaut Max
+  - Astronaut Michael
+  - Astronaut Mikael
+  - Astronaut Mike
+  - Astronaut Mikkel
+  - Astronaut Mogens
+  - Astronaut Morten
+  - Astronaut Mourits
+  - Astronaut Nick
+  - Astronaut Nicki
+  - Astronaut Nicklas
+  - Astronaut Nicolai
+  - Astronaut Nicolaj
+  - Astronaut Niels
+  - Astronaut Niklas
+  - Astronaut Nikolai
+  - Astronaut Nikolaj
+  - Astronaut Nils
+  - Astronaut Nis
+  - Astronaut Noah
+  - Astronaut Olaf
+  - Astronaut Olav
+  - Astronaut Ole
+  - Astronaut Oliver
+  - Astronaut Oluf
+  - Astronaut Orla
+  - Astronaut Oscar
+  - Astronaut Oskar
+  - Astronaut Osvald
+  - Astronaut Otto
+  - Astronaut Ove
+  - Astronaut Palle
+  - Astronaut Patrick
+  - Astronaut Paul
+  - Astronaut Paulus
+  - Astronaut Paw
+  - Astronaut Peder
+  - Astronaut Per
+  - Astronaut Peter
+  - Astronaut Philip
+  - Astronaut Phillip
+  - Astronaut Poul
+  - Astronaut Povl
+  - Astronaut Preben
+  - Astronaut Rasmus
+  - Astronaut Rene
+  - Astronaut Richard
+  - Astronaut Robert
+  - Astronaut Robin
+  - Astronaut Rolf
+  - Astronaut Ronald
+  - Astronaut Ronni
+  - Astronaut Ronnie
+  - Astronaut Rune
+  - Astronaut Samuel
+  - Astronaut Sebastian
+  - Astronaut Severin
+  - Astronaut Sigfred
+  - Astronaut Sigurd
+  - Astronaut Silas
+  - Astronaut Simon
+  - Astronaut Sofus
+  - Astronaut Sonny
+  - Astronaut Sophus
+  - Astronaut Soren
+  - Astronaut Steen
+  - Astronaut Stefan
+  - Astronaut Steffen
+  - Astronaut Sten
+  - Astronaut Stephan
+  - Astronaut Steven
+  - Astronaut Stig
+  - Astronaut Storm
+  - Astronaut Sune
+  - Astronaut Svend
+  - Astronaut Tage
+  - Astronaut Teddy
+  - Astronaut Theis
+  - Astronaut Theodor
+  - Astronaut Thomas
+  - Astronaut Thor
+  - Astronaut Thorbjorn
+  - Astronaut Thorkild
+  - Astronaut Thorvald
+  - Astronaut Thyge
+  - Astronaut Tim
+  - Astronaut Tobias
+  - Astronaut Toke
+  - Astronaut Tom
+  - Astronaut Tomas
+  - Astronaut Tommy
+  - Astronaut Tonni
+  - Astronaut Tonny
+  - Astronaut Tony
+  - Astronaut Torben
+  - Astronaut Torkild
+  - Astronaut Torsten
+  - Astronaut Troels
+  - Astronaut Tue
+  - Astronaut Uffe
+  - Astronaut Ulf
+  - Astronaut Ulrik
+  - Astronaut Vagn
+  - Astronaut Valdemar
+  - Astronaut Valentin
+  - Astronaut Verner
+  - Astronaut Victor
+  - Astronaut Viggo
+  - Astronaut Viktor
+  - Astronaut Vilhelm
+  - Astronaut Villads
+  - Astronaut Villy
+  - Astronaut William
+  - Astronaut Willy
+  - Astronaut Zacharias
+  - Astronaut Zakarias
+  - Astronaut Hans
+femaleFirst:
+  - Astronaut Abellona
+  - Astronaut Abelone
+  - Astronaut Abigale
+  - Astronaut Adela
+  - Astronaut Agneta
+  - Astronaut Alberte
+  - Astronaut Albertha
+  - Astronaut Alisa
+  - Astronaut Almeta
+  - Astronaut Alvilda
+  - Astronaut Ane
+  - Astronaut Anesa
+  - Astronaut Anina
+  - Astronaut Annalisa
+  - Astronaut Anndrea
+  - Astronaut Annelise
+  - Astronaut Annemette
+  - Astronaut Annina
+  - Astronaut Aren
+  - Astronaut Arisje
+  - Astronaut Arvada
+  - Astronaut Asa
+  - Astronaut Astrid
+  - Astronaut Belenda
+  - Astronaut Belinde
+  - Astronaut Bente
+  - Astronaut Bergitte
+  - Astronaut Bergliot
+  - Astronaut Birgita
+  - Astronaut Birgitte
+  - Astronaut Birte
+  - Astronaut Britta
+  - Astronaut Brunhilde
+  - Astronaut Caia
+  - Astronaut Caja
+  - Astronaut Cathrine
+  - Astronaut Clady
+  - Astronaut Dagmar
+  - Astronaut Dana
+  - Astronaut Ditte
+  - Astronaut Dorete
+  - Astronaut Dorothea
+  - Astronaut Ebba
+  - Astronaut Elle
+  - Astronaut Else
+  - Astronaut Eva
+  - Astronaut Federikke
+  - Astronaut Freja
+  - Astronaut Freya
+  - Astronaut Fritz
+  - Astronaut Gelsomina
+  - Astronaut Gerdi
+  - Astronaut Gitte
+  - Astronaut Gjerta
+  - Astronaut Greta
+  - Astronaut Grete
+  - Astronaut Grethe
+  - Astronaut Gry
+  - Astronaut Gudrun
+  - Astronaut Gulla
+  - Astronaut Gullan
+  - Astronaut Gunilla
+  - Astronaut Gytha
+  - Astronaut Hanne
+  - Astronaut Helle
+  - Astronaut Ide
+  - Astronaut Idunn
+  - Astronaut Inga
+  - Astronaut Ingeborg
+  - Astronaut Ingelise
+  - Astronaut Inger
+  - Astronaut Ingred
+  - Astronaut Janne
+  - Astronaut Jannicke
+  - Astronaut Jensine
+  - Astronaut Johanne
+  - Astronaut Kaia
+  - Astronaut Kaja
+  - Astronaut Karen
+  - Astronaut Karin
+  - Astronaut Karon
+  - Astronaut Karoline
+  - Astronaut Karren
+  - Astronaut Karrin
+  - Astronaut Karyn
+  - Astronaut Katrine
+  - Astronaut Kirsten
+  - Astronaut Kolinka
+  - Astronaut Kristine
+  - Astronaut Laila
+  - Astronaut Larina
+  - Astronaut Larine
+  - Astronaut Laerke
+  - Astronaut Lecia
+  - Astronaut Lisbet
+  - Astronaut Lise
+  - Astronaut Lone
+  - Astronaut Lovise
+  - Astronaut Magdalone
+  - Astronaut Malene
+  - Astronaut Maren
+  - Astronaut Margareta
+  - Astronaut Margarete
+  - Astronaut Margaretha
+  - Astronaut Margarethe
+  - Astronaut Margerethe
+  - Astronaut Marika
+  - Astronaut Marike
+  - Astronaut Mathilde
+  - Astronaut Matilde
+  - Astronaut Merete
+  - Astronaut Meta
+  - Astronaut Metalise
+  - Astronaut Mettalisa
+  - Astronaut Mettalise
+  - Astronaut Mia
+  - Astronaut Pernille
+  - Astronaut Rebekka
+  - Astronaut Rikke
+  - Astronaut Silje
+  - Astronaut Solvej
+  - Astronaut Stefania
+  - Astronaut Thorbjorg
+  - Astronaut Thorborg
+  - Astronaut Thordis
+  - Astronaut Thorid
+  - Astronaut Thurid
+  - Astronaut Torbjorg
+  - Astronaut Torid
+  - Astronaut Toril
+  - Astronaut Ulrica
+  - Astronaut Ulrike
+  - Astronaut Urd
+  - Astronaut Vibeke
+  - Astronaut Anne
+  - Astronaut Mette
+  - Astronaut Anna
+  - Astronaut Susanne
+  - Astronaut Lene
+  - Astronaut Inge
+  - Astronaut Maria
+  - Astronaut Marianne
+  - Astronaut Camilla
+  - Astronaut Pia
+  - Astronaut Jette
+  - Astronaut Charlotte
+  - Astronaut Louise
+maleLast:
+  - Adriansen
+  - Andersen
+  - Andreasen
+  - Andresen
+  - Any
+  - Arge
+  - Arneborg
+  - Assenbjerg
+  - Auken
+  - Bach
+  - Bak
+  - Bang
+  - Bau
+  - Bech
+  - Beck
+  - Bekker
+  - Berg
+  - Bertelsen
+  - Berthelsen
+  - Billes
+  - Binzer
+  - Bjerregaard
+  - Blach
+  - Bock
+  - Bogedal
+  - Bondo
+  - Bonnikson
+  - Brahe
+  - Brandhorst
+  - Brandt
+  - Branstedt
+  - Broberg
+  - Brondun
+  - Bruun
+  - Burmeister
+  - Cabble
+  - Carlsen
+  - Carstensen
+  - Ceder
+  - Chemnitz
+  - Christensen
+  - Christiansen
+  - Christoffersen
+  - Clahn
+  - Clausen
+  - Claussen
+  - Colding
+  - Crumlin
+  - Dahl
+  - Dalum
+  - Dam
+  - Damgaard
+  - Damsgaard
+  - Danielsen
+  - Danielsson
+  - Didenksen
+  - Drusse
+  - Ebel
+  - Eberlein
+  - Ejlersgaard
+  - Eldjarn
+  - Ellegaard
+  - Eriksen
+  - Espersen
+  - Fajl
+  - Falkoner
+  - Fallingborg
+  - Fenger
+  - Fetterlein
+  - Fine
+  - Fog
+  - Follerup
+  - Frandsen
+  - Frandson
+  - Frederiksen
+  - Fredskild
+  - Friis
+  - Fynbo
+  - Gade
+  - Gimsing
+  - Glob
+  - Goldbaek
+  - Gram
+  - Gran
+  - Gregersen
+  - Greve
+  - Grimlot
+  - Gruntvig
+  - Guildenstern
+  - Guldbrandsen
+  - Haeg
+  - Halkenhvad
+  - Hamburger
+  - Hammer
+  - Hamsun
+  - Hannestad
+  - Hansen
+  - Hardenberg
+  - Hasso
+  - Hedegaard
+  - Hedhoft
+  - Heiberg
+  - Heintze
+  - Helveg
+  - Henriksen
+  - Hermansen
+  - Hjelmslev
+  - Hoegh
+  - Hogh
+  - Holby
+  - Holm
+  - Holst
+  - Horby
+  - Hoyer
+  - Hvass
+  - Hviid
+  - Hylgaard
+  - Iversen
+  - Jacobsen
+  - Jakkelsen
+  - Jakobsen
+  - Jamissen
+  - Jaspersen
+  - Jensen
+  - Jeppesen
+  - Jepsen
+  - Jespersen
+  - Jessen
+  - Johannsen
+  - Johansen
+  - Johansson
+  - Johnsen
+  - Jorgensen
+  - Juhl
+  - Junge
+  - Karlsen
+  - Karseffni
+  - Kaustrop
+  - Kingo
+  - Kirkeby
+  - Kjaer
+  - Kjeldsen
+  - Kjolbye
+  - Klausen
+  - Klindt
+  - Knudsen
+  - Knutzen
+  - Koch
+  - Kock
+  - Kofod
+  - Kolb
+  - Kotzebue
+  - Krak
+  - Kristensen
+  - Kristiansen
+  - Kristoffersen
+  - Krogh
+  - Kruhl
+  - Kruse
+  - Lagermann
+  - Lander
+  - Langvardt
+  - Larsen
+  - Lassen
+  - Laudrup
+  - Laugeson
+  - Laundsen
+  - Lauridsen
+  - Lauritsen
+  - Lauritzen
+  - Laursen
+  - Lavrsen
+  - Licht
+  - Lillesoe
+  - Lind
+  - Lobing
+  - Lorenz
+  - Loyen
+  - Lund
+  - Lundgaard
+  - Lundgard
+  - Lundvall
+  - Lynnerup
+  - Madsen
+  - Maj
+  - Majland
+  - Mandelbrot
+  - Markert
+  - Mathiasen
+  - Mathiesen
+  - Meindl
+  - Meinert
+  - Meling
+  - Meulengracht
+  - Mikkelsen
+  - Milling
+  - Moesgaard
+  - Mogensen
+  - Moller
+  - Molnar
+  - Moltke
+  - Mortensen
+  - Most
+  - Munk
+  - Nerhus
+  - Niebuhr
+  - Nielsen
+  - Nielson
+  - Nilsson
+  - Nissen
+  - Norgaard
+  - Nygaard
+  - Nylen
+  - Obel
+  - Olesen
+  - Olrik
+  - Olsen
+  - Orum
+  - Ostergaard
+  - Ostgerg
+  - Ottesen
+  - Overgaard
+  - Pallesen
+  - Palsson
+  - Paulsen
+  - Pedersen
+  - Petersen
+  - Piechnik
+  - Pilegaard
+  - Poertner
+  - Poulsen
+  - Qvist
+  - Raaby
+  - Rasmussen
+  - Ravn
+  - Reuter
+  - Rieper
+  - Riis
+  - Rink
+  - Riseger
+  - Roesdahl
+  - Rohrmann
+  - Ronholt
+  - Ronne
+  - Rosenkrantz
+  - Rriis
+  - Rude
+  - Sand
+  - Sandstrod
+  - Schjonberg
+  - Schmeichel
+  - Schmidt
+  - Schou
+  - Schultz
+  - Seidenfaden
+  - Sellevold
+  - Simonsen
+  - Skaarup
+  - Skou
+  - Skov
+  - Skovgaard
+  - Soerensen
+  - Solvig
+  - Sondergaard
+  - Sonne
+  - Sorensen
+  - Sponneck
+  - Staer
+  - Steffensen
+  - Steincke
+  - Stenger
+  - Storegaard
+  - Stubbe
+  - Stuer
+  - Svendsen
+  - Tarnovius
+  - Teglbjaerg
+  - Telling
+  - Thodberg
+  - Thomsen
+  - Thornom
+  - Thorsen
+  - Thunmark
+  - Thygesen
+  - Thyregod
+  - Tilling
+  - Toefting
+  - Toft
+  - Toksvig
+  - Tommen
+  - Tyllesen
+  - Uhre
+  - Vestergaard
+  - Vilfort
+  - Villadsen
+  - Villumsen
+  - Ving
+  - Virl
+  - Wain
+  - Werlauff
+  - Wieghorst
+  - Willadsen
+  - Winther
+  - Witzke
+  - Wiuff
+  - Zinck
+  - Zoega

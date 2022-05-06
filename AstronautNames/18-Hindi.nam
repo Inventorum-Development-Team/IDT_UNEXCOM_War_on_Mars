@@ -1,0 +1,85 @@
+lookWeights:
+  - 1
+  - 1
+  - 80
+  - 18
+maleFirst:
+  - Astronaut Abhijay
+  - Astronaut Adil
+  - Astronaut Chandresh
+  - Astronaut Dev
+  - Astronaut Dinesh
+  - Astronaut Govinda
+  - Astronaut Jaideep
+  - Astronaut Kanak
+  - Astronaut Mahesh
+  - Astronaut Neelam
+  - Astronaut Om
+  - Astronaut Pallav
+  - Astronaut Parmesh
+  - Astronaut Rajesh
+  - Astronaut Ranjit
+  - Astronaut Samir
+  - Astronaut Sanjiv
+  - Astronaut Sudeep
+  - Astronaut Vihaan
+  - Astronaut Yogendra
+  - Astronaut Sachin
+  - Astronaut Rahul
+  - Astronaut Anil
+  - Astronaut Virender
+  - Astronaut Kapil
+  - Astronaut Sourav
+  - Astronaut Harbhajan
+femaleFirst:
+  - Astronaut Ajita
+  - Astronaut Amma
+  - Astronaut Avinashi
+  - Astronaut Deepti
+  - Astronaut Gulab
+  - Astronaut Hina
+  - Astronaut Indira
+  - Astronaut Jasweer
+  - Astronaut Kalinda
+  - Astronaut Keva
+  - Astronaut Madhuri
+  - Astronaut Meera
+  - Astronaut Neela
+  - Astronaut Parvati
+  - Astronaut Priti
+  - Astronaut Ranhita
+  - Astronaut Roshan
+  - Astronaut Savitri
+  - Astronaut Sitesh
+  - Astronaut Ushma
+  - Astronaut Vritika
+  - Astronaut Zahra
+maleLast:
+  - Sharma
+  - Verma
+  - Chowdhury
+  - Singh
+  - Misra
+  - Kumar
+  - Gupta
+  - Malik
+  - Chopra
+  - Prasad
+  - Acharya
+  - Agarwal
+  - Malhotra
+  - Jain
+  - Saini
+  - Khan
+  - Shah
+  - Narayan
+  - Mistry
+  - Joshi
+  - Goyal
+  - Roy
+  - Tendulkar
+  - Dravid
+  - Kumble
+  - Sehwag
+  - Dev
+  - Ganguly

@@ -1,0 +1,361 @@
+lookWeights:
+  - 2
+  - 88
+  - 2
+  - 8
+maleFirst:
+  - Astronaut Afonso
+  - Astronaut Alberto
+  - Astronaut Alexandre
+  - Astronaut Alvaro
+  - Astronaut Andre
+  - Astronaut Antonio
+  - Astronaut Augusto
+  - Astronaut Bernardo
+  - Astronaut Bruno
+  - Astronaut Carlos
+  - Astronaut Cristiano
+  - Astronaut Daniel
+  - Astronaut David
+  - Astronaut Diogo
+  - Astronaut Duarte
+  - Astronaut Eduardo
+  - Astronaut Fabio
+  - Astronaut Fernando
+  - Astronaut Filipe
+  - Astronaut Flavio
+  - Astronaut Francisco
+  - Astronaut Frederico
+  - Astronaut Gabriel
+  - Astronaut Goncalo
+  - Astronaut Guilherme
+  - Astronaut Gustavo
+  - Astronaut Helder
+  - Astronaut Henrique
+  - Astronaut Hugo
+  - Astronaut Ivo
+  - Astronaut Jaime
+  - Astronaut Joao
+  - Astronaut Joaquim
+  - Astronaut Jorge
+  - Astronaut Jose
+  - Astronaut Julio
+  - Astronaut Leonardo
+  - Astronaut Leonel
+  - Astronaut Luis
+  - Astronaut Manuel
+  - Astronaut Marcelo
+  - Astronaut Marcio
+  - Astronaut Marco
+  - Astronaut Mario
+  - Astronaut Miguel
+  - Astronaut Nelson
+  - Astronaut Nuno
+  - Astronaut Orlando
+  - Astronaut Paulo
+  - Astronaut Pedro
+  - Astronaut Rafael
+  - Astronaut Raul
+  - Astronaut Ricardo
+  - Astronaut Roberto
+  - Astronaut Rodolfo
+  - Astronaut Rodrigo
+  - Astronaut Rui
+  - Astronaut Samuel
+  - Astronaut Sergio
+  - Astronaut Tiago
+  - Astronaut Telmo
+  - Astronaut Tomas
+  - Astronaut Vasco
+  - Astronaut Vitor
+femaleFirst:
+  - Astronaut Alice
+  - Astronaut Ana
+  - Astronaut Anabela
+  - Astronaut Andreia
+  - Astronaut Angela
+  - Astronaut Aurora
+  - Astronaut Barbara
+  - Astronaut Beatriz
+  - Astronaut Bia
+  - Astronaut Carina
+  - Astronaut Carla
+  - Astronaut Carolina
+  - Astronaut Catarina
+  - Astronaut Catia
+  - Astronaut Celeste
+  - Astronaut Celia
+  - Astronaut Celina
+  - Astronaut Clara
+  - Astronaut Claudia
+  - Astronaut Cristiana
+  - Astronaut Cristina
+  - Astronaut Daniela
+  - Astronaut Dalia
+  - Astronaut Debora
+  - Astronaut Diana
+  - Astronaut Dulce
+  - Astronaut Elsa
+  - Astronaut Eva
+  - Astronaut Fatima
+  - Astronaut Fernanda
+  - Astronaut Filipa
+  - Astronaut Filomena
+  - Astronaut Flavia
+  - Astronaut Florbela
+  - Astronaut Francisca
+  - Astronaut Gabriela
+  - Astronaut Gloria
+  - Astronaut Helena
+  - Astronaut Ilda
+  - Astronaut Ines
+  - Astronaut Irene
+  - Astronaut Isabel
+  - Astronaut Joana
+  - Astronaut Josefina
+  - Astronaut Julia
+  - Astronaut Lara
+  - Astronaut Laura
+  - Astronaut Leonor
+  - Astronaut Liliana
+  - Astronaut Luisa
+  - Astronaut Madalena
+  - Astronaut Mafalda
+  - Astronaut Manuela
+  - Astronaut Margarida
+  - Astronaut Maria
+  - Astronaut Mariana
+  - Astronaut Marina
+  - Astronaut Marisa
+  - Astronaut Marta
+  - Astronaut Matilde
+  - Astronaut Monica
+  - Astronaut Natalia
+  - Astronaut Nadia
+  - Astronaut Olivia
+  - Astronaut Patricia
+  - Astronaut Paula
+  - Astronaut Rafaela
+  - Astronaut Raquel
+  - Astronaut Rita
+  - Astronaut Rute
+  - Astronaut Sandra
+  - Astronaut Sara
+  - Astronaut Sofia
+  - Astronaut Sonia
+  - Astronaut Soraia
+  - Astronaut Susana
+  - Astronaut Tania
+  - Astronaut Teresa
+  - Astronaut Telma
+  - Astronaut Vanessa
+  - Astronaut Vera
+maleLast:
+  - Abrantes
+  - Abreu
+  - Agostinho
+  - Albano
+  - Albuquerque
+  - Aleixo
+  - Almeida
+  - Alves
+  - Amaro
+  - Amaral
+  - Andrade
+  - Anjos
+  - Antunes
+  - Araujo
+  - Assis
+  - Azevedo
+  - Barata
+  - Barreiras
+  - Barreto
+  - Barros
+  - Barroso
+  - Bastos
+  - Bento
+  - Beja
+  - Borges
+  - Brandao
+  - Brito
+  - Cabral
+  - Cadete
+  - Caetano
+  - Caldeira
+  - Campos
+  - Cardoso
+  - Carneiro
+  - Carrico
+  - Carrilho
+  - Carvalho
+  - Castro
+  - Cavaco
+  - Cavaleiro
+  - Chaves
+  - Coelho
+  - Conceicao
+  - Correia
+  - Cortes
+  - Costa
+  - Coutinho
+  - Couto
+  - Crespo
+  - Cristovao
+  - Cruz
+  - Cunha
+  - Cunhal
+  - Delgado
+  - Dias
+  - Dinis
+  - Dionisio
+  - Domingos
+  - Duarte
+  - Esteves
+  - Farinha
+  - Fernandes
+  - Ferreira
+  - Figueira
+  - Figueiredo
+  - Fitas
+  - Fragoso
+  - Fragata
+  - Francisco
+  - Franco
+  - Freire
+  - Freitas
+  - Fonseca
+  - Fontes
+  - Fortes
+  - Furtado
+  - Galvao
+  - Gama
+  - Garcia
+  - Godinho
+  - Gomes
+  - Goncalves
+  - Gouveia
+  - Graca
+  - Grilo
+  - Guedes
+  - Guerra
+  - Guerreiro
+  - Guimaraes
+  - Henriques
+  - Homem
+  - Horta
+  - Jacinto
+  - Jesus
+  - Lameiras
+  - Laranjeiro
+  - Leal
+  - Lima
+  - Lopes
+  - Lourenco
+  - Luz
+  - Macedo
+  - Machado
+  - Madeira
+  - Maia
+  - Magalhaes
+  - Marques
+  - Martinho
+  - Martins
+  - Marujo
+  - Mateus
+  - Matias
+  - Matos
+  - Maximo
+  - Meireles
+  - Melo
+  - Mendes
+  - Mendonca
+  - Mestre
+  - Mira
+  - Miranda
+  - Moniz
+  - Monteiro
+  - Morais
+  - Moreira
+  - Morgado
+  - Mota
+  - Moura
+  - Mourinho
+  - Nascimento
+  - Neto
+  - Neves
+  - Nobrega
+  - Nogueira
+  - Noronha
+  - Nunes
+  - Oliveira
+  - Pacheco
+  - Pais
+  - Paiva
+  - Parreira
+  - Pato
+  - Peixe
+  - Peixoto
+  - Pereira
+  - Pessoa
+  - Pimentel
+  - Pinheiro
+  - Pinho
+  - Pinto
+  - Pires
+  - Portugal
+  - Povoa
+  - Prata
+  - Queiros
+  - Raimundo
+  - Ramalho
+  - Ramos
+  - Raposo
+  - Rato
+  - Real
+  - Rebelo
+  - Reis
+  - Relvas
+  - Ribeiro
+  - Rio
+  - Rocha
+  - Rodrigues
+  - Ronaldo
+  - Rosario
+  - Roseiro
+  - Salgado
+  - Salgueiro
+  - Sampaio
+  - Sanches
+  - Santana
+  - Santos
+  - Sebastiao
+  - Semedo
+  - Sequeira
+  - Serra
+  - Serrao
+  - Serras
+  - Silva
+  - Silvestre
+  - Silvino
+  - Simoes
+  - Soares
+  - Sobral
+  - Sousa
+  - Tavares
+  - Teixeira
+  - Teles
+  - Torres
+  - Valadas
+  - Valente
+  - Varandas
+  - Varela
+  - Vasconcelos
+  - Vaz
+  - Veloso
+  - Viana
+  - Vicente
+  - Vidal
+  - Vieira
+  - Viegas
+  - Vitorino
+  - Xavier

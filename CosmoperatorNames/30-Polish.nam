@@ -1,0 +1,206 @@
+﻿lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Cosmoperator Adam
+  - Cosmoperator Andrzej
+  - Cosmoperator Bogdan
+  - Cosmoperator Dariusz
+  - Cosmoperator Grzegorz
+  - Cosmoperator Henryk
+  - Cosmoperator Jacek
+  - Cosmoperator Jan
+  - Cosmoperator Janusz
+  - Cosmoperator Jerzy
+  - Cosmoperator Józef
+  - Cosmoperator Kazimierz
+  - Cosmoperator Krzysztof
+  - Cosmoperator Łukasz
+  - Cosmoperator Maciej
+  - Cosmoperator Maksymilian
+  - Cosmoperator Marcin
+  - Cosmoperator Marek
+  - Cosmoperator Marian
+  - Cosmoperator Mariusz
+  - Cosmoperator Mateusz
+  - Cosmoperator Michał
+  - Cosmoperator Mirosław
+  - Cosmoperator Paweł
+  - Cosmoperator Piotr
+  - Cosmoperator Rafał
+  - Cosmoperator Robert
+  - Cosmoperator Ryszard
+  - Cosmoperator Stanisław
+  - Cosmoperator Stefan
+  - Cosmoperator Tadeusz
+  - Cosmoperator Tomasz
+  - Cosmoperator Wojciech
+  - Cosmoperator Zbigniew
+femaleFirst:
+  - Cosmoperator Agnieszka
+  - Cosmoperator Aleksandra
+  - Cosmoperator Anna
+  - Cosmoperator Barbara
+  - Cosmoperator Bernadeta
+  - Cosmoperator Beata
+  - Cosmoperator Elżbieta
+  - Cosmoperator Danuta
+  - Cosmoperator Dorota
+  - Cosmoperator Ewa
+  - Cosmoperator Grażyna
+  - Cosmoperator Halina
+  - Cosmoperator Helena
+  - Cosmoperator Irena
+  - Cosmoperator Iwona
+  - Cosmoperator Jadwiga
+  - Cosmoperator Janina
+  - Cosmoperator Joanna
+  - Cosmoperator Jolanta
+  - Cosmoperator Karolina
+  - Cosmoperator Katarzyna
+  - Cosmoperator Krystyna
+  - Cosmoperator Magdalena
+  - Cosmoperator Małgorzata
+  - Cosmoperator Maria
+  - Cosmoperator Marianna
+  - Cosmoperator Marta
+  - Cosmoperator Monika
+  - Cosmoperator Stanisława
+  - Cosmoperator Teresa
+  - Cosmoperator Zofia
+maleLast:
+  - Adamczyk
+  - Baron
+  - Białoń
+  - Brzechwa
+  - Budziński
+  - Curuś
+  - Dąbrowski
+  - Dudek
+  - Dudziak
+  - Figura
+  - Gocyła
+  - Grabowski
+  - Indeka
+  - Jabłoński
+  - Janik
+  - Jankowski
+  - Jarczok
+  - Kaczmarek
+  - Kaminski
+  - Kobza
+  - Kominek
+  - Kopeć
+  - Kossak
+  - Kot
+  - Kowalczyk
+  - Kowalski
+  - Kozłowski
+  - Krawczyk
+  - Król
+  - Kwiatkowski
+  - Lalurny
+  - Lewandowski
+  - Londzin
+  - Mazur
+  - Michalski
+  - Milik
+  - Mleczko
+  - Nowak
+  - Nowakowski
+  - Nowicki
+  - Pawłowski
+  - Piotrowski
+  - Płatek
+  - Podkański
+  - Poradowski
+  - Pragłowski
+  - Radwan
+  - Sikora
+  - Solański
+  - Stachurski
+  - Szczerba
+  - Szczypka
+  - Szymański
+  - Światłoch
+  - Świerkot
+  - Tumidajewicz
+  - Wajdeczko
+  - Wieczorek
+  - Wiśniewski
+  - Wojciechowski
+  - Woźniak
+  - Wójcik
+  - Wrona
+  - Wyrostek
+  - Zając
+  - Zieliński
+femaleLast:
+  - Adamczyk
+  - Baron
+  - Białoń
+  - Brzechwa
+  - Budzińska
+  - Curuś
+  - Dąbrowska
+  - Dudek
+  - Dudziak
+  - Figura
+  - Gocyła
+  - Grabowska
+  - Indeka
+  - Jabłońska
+  - Janik
+  - Jankowska
+  - Jarczok
+  - Kaczmarek
+  - Kamińska
+  - Kobza
+  - Kominek
+  - Kopeć
+  - Kossak
+  - Kot
+  - Kowalczyk
+  - Kowalska
+  - Kozłowska
+  - Krawczyk
+  - Król
+  - Kwiatkowska
+  - Lalurny
+  - Lewandowska
+  - Londzin
+  - Mazur
+  - Michalska
+  - Milik
+  - Mleczko
+  - Nowak
+  - Nowakowska
+  - Nowicka
+  - Pawłowska
+  - Piotrowska
+  - Płatek
+  - Podkańska
+  - Poradowska
+  - Pragłowska
+  - Radwan
+  - Sikora
+  - Solańska
+  - Stachurski
+  - Szczerba
+  - Szczypka
+  - Szymańska
+  - Światłoch
+  - Świerkot
+  - Tumidajewicz
+  - Wajdeczko
+  - Wieczorek
+  - Wiśniewska
+  - Wojciechowska
+  - Woźniak
+  - Wójcik
+  - Wrona
+  - Wyrostek
+  - Zając
+  - Zielińska

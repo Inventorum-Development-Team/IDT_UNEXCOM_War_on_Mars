@@ -1,0 +1,88 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Cosmonaut Andriy
+  - Cosmonaut Borys
+  - Cosmonaut Dmytro
+  - Cosmonaut Ihor
+  - Cosmonaut Ivan
+  - Cosmonaut Kostyantyn
+  - Cosmonaut Kyrylo
+  - Cosmonaut Leonid
+  - Cosmonaut Maksym
+  - Cosmonaut Mykhaylo
+  - Cosmonaut Mykola
+  - Cosmonaut Oleksandr
+  - Cosmonaut Oleksiy
+  - Cosmonaut Orest
+  - Cosmonaut Pavlo
+  - Cosmonaut Petro
+  - Cosmonaut Roman
+  - Cosmonaut Ruslan
+  - Cosmonaut Serhiy
+  - Cosmonaut Stanislav
+  - Cosmonaut Taras
+  - Cosmonaut Vasyl
+  - Cosmonaut Viktor
+  - Cosmonaut Vladyslav
+  - Cosmonaut Volodymyr
+  - Cosmonaut Yehor
+  - Cosmonaut Yuriy
+femaleFirst:
+  - Cosmonaut Anastasiya
+  - Cosmonaut Hanna
+  - Cosmonaut Kateryna
+  - Cosmonaut Lyubomyra
+  - Cosmonaut Lyubov
+  - Cosmonaut Mariya
+  - Cosmonaut Mikhaylyna
+  - Cosmonaut Myroslava
+  - Cosmonaut Nadiya
+  - Cosmonaut Natalya
+  - Cosmonaut Oksana
+  - Cosmonaut Oleksandra
+  - Cosmonaut Olena
+  - Cosmonaut Olha
+  - Cosmonaut Romana
+  - Cosmonaut Ruslana
+  - Cosmonaut Snizhana
+  - Cosmonaut Sofiya
+  - Cosmonaut Svitlana
+  - Cosmonaut Svyatoslava
+  - Cosmonaut Tetyana
+  - Cosmonaut Vasylyna
+  - Cosmonaut Vira
+  - Cosmonaut Yaroslava
+  - Cosmonaut Yuliya
+  - Cosmonaut Zoryana
+maleLast:
+  - Bondar
+  - Bondarenko
+  - Boyko
+  - Gavrilyuk
+  - Lisenko
+  - Klimenko
+  - Koval
+  - Kovalenko
+  - Kovalchuk
+  - Kravchenko
+  - Kravchuk
+  - Kuzmienko
+  - Marchenko
+  - Melnik
+  - Moroz
+  - Oliynik
+  - Pawlenko
+  - Petrenko
+  - Polishuk
+  - Rudenko
+  - Savchenko
+  - Savchuk
+  - Shevchenko
+  - Shevchuk
+  - Shved
+  - Tkachenko
+  - Tkachuk

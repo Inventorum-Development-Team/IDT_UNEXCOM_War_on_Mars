@@ -1,0 +1,2611 @@
+ufopaedia:
+  - delete: STR_SKYRANGER
+  - delete: STR_INTERCEPTOR
+  - delete: STR_STINGRAY
+  - delete: STR_AVALANCHE
+  - delete: STR_CANNON_UC
+  - delete: STR_LARGE_RADAR_SYSTEM
+  - delete: STR_PISTOL
+  - delete: STR_PISTOL_CLIP
+  - delete: STR_RIFLE
+  - delete: STR_RIFLE_CLIP
+  - delete: STR_HEAVY_CANNON
+  - delete: STR_HC_AP_AMMO
+  - delete: STR_HC_HE_AMMO
+  - delete: STR_HC_I_AMMO
+  - delete: STR_AUTO_CANNON
+  - delete: STR_AC_AP_AMMO
+  - delete: STR_AC_HE_AMMO
+  - delete: STR_AC_I_AMMO
+  - delete: STR_FUSION_BALL_UC
+  - delete: STR_FUSION_BALL_LAUNCHER
+  - delete: STR_PLASMA_BEAM_UC
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - delete: STR_TANK_CANNON
+  - delete: STR_TANK_ROCKET_LAUNCHER
+  - delete: STR_LARGE_RADAR_SYSTEM
+  - delete: STR_STINGRAY_LAUNCHER
+  - delete: STR_STINGRAY_MISSILES
+  - delete: STR_AVALANCHE_LAUNCHER
+  - delete: STR_AVALANCHE_MISSILES
+  - delete: STR_CANNON
+  - delete: STR_CANNON_ROUNDS_X50
+  - delete: STR_ROCKET_LAUNCHER
+  - delete: STR_SMALL_ROCKET
+  - delete: STR_LARGE_ROCKET
+  - delete: STR_INCENDIARY_ROCKET
+  - delete: STR_ACCESS_LIFT
+  - delete: STR_LIVING_QUARTERS
+  - delete: STR_HANGAR
+  - delete: STR_GENERAL_STORES
+  - delete: STR_LABORATORY
+  - delete: STR_WORKSHOP
+  - delete: STR_ALIEN_CONTAINMENT
+  - delete: STR_SMALL_RADAR_SYSTEM
+  - delete: STR_MISSILE_DEFENSES
+  - delete: STR_LASER_DEFENSE
+  - delete: STR_PLASMA_DEFENSES
+  - delete: STR_FUSION_BALL_DEFENSES
+  - delete: STR_GRAV_SHIELD
+  - delete: STR_MIND_SHIELD
+  - delete: STR_PSI_LAB
+  - delete: STR_HYPER_WAVE_DECODER
+  - delete: STR_AVENGER
+  - delete: STR_THE_MARTIAN_SOLUTION
+  - delete: STR_CYDONIA_OR_BUST
+
+########################################
+########### COMMENDATIONS ##############
+######################################
+
+  - id: STR_MEDALS_AND_AWARDS
+    type_id: 8
+    listOrder: 1
+    text: STR_MEDALS_AND_AWARDS_UFOPEDIA
+    section: STR_MEDALS_AND_AWARDS_UC
+
+
+  - id: STR_MEDAL_SERVICE
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_SERVICE_IMAGE
+    text: STR_MEDAL_SERVICE_UFOPEDIA
+    listOrder: 10
+    text_width: 180
+  - id: STR_MEDAL_NATION_GRATITUDE
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_NATION_GRATITUDE_IMAGE
+    text: STR_MEDAL_NATION_GRATITUDE_UFOPEDIA
+    listOrder: 11
+    text_width: 180
+  - id: STR_MEDAL_COMBAT_MEDIC
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_COMBAT_MEDIC_IMAGE
+    text: STR_MEDAL_COMBAT_MEDIC_UFOPEDIA
+    listOrder: 12
+    text_width: 180
+  - id: STR_MEDAL_PURPLE_HEART
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_PURPLE_HEART_IMAGE
+    text: STR_MEDAL_PURPLE_HEART_UFOPEDIA
+    listOrder: 13
+    text_width: 180
+  - id: STR_MEDAL_VALIANT_CRUX
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_VALIANT_CRUX_IMAGE
+    text: STR_MEDAL_VALIANT_CRUX_UFOPEDIA
+    listOrder: 14
+    text_width: 180
+  - id: STR_MEDAL_FIELD_SUPPORT
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_FIELD_SUPPORT_IMAGE
+    text: STR_MEDAL_FIELD_SUPPORT_UFOPEDIA
+    listOrder: 15
+    text_width: 180
+  - id: STR_MEDAL_DISTINGUISHED_SERVICE
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_DISTINGUISHED_SERVICE_IMAGE
+    text: STR_MEDAL_DISTINGUISHED_SERVICE_UFOPEDIA
+    listOrder: 16
+    text_width: 180
+  - id: STR_MEDAL_EXEMPLARY_SERVICE
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_EXEMPLARY_SERVICE_IMAGE
+    text: STR_MEDAL_EXEMPLARY_SERVICE_UFOPEDIA
+    listOrder: 17
+    text_width: 180
+  - id: STR_MEDAL_FALLEN_HERO
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_FALLEN_HERO_IMAGE
+    text: STR_MEDAL_FALLEN_HERO_UFOPEDIA
+    listOrder: 18
+    text_width: 180
+  - id: STR_MEDAL_ENEMY_CRAFT_SPECIALIST
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_ENEMY_CRAFT_SPECIALIST_IMAGE
+    text: STR_MEDAL_ENEMY_CRAFT_SPECIALIST_UFOPEDIA
+    listOrder: 19
+    text_width: 180
+  - id: STR_MEDAL_NIGHT_STALKER
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_NIGHT_STALKER_IMAGE
+    text: STR_MEDAL_NIGHT_STALKER_UFOPEDIA
+    listOrder: 21
+    text_width: 180
+  - id: STR_MEDAL_ALIEN_BASE_ASSAULT
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_ALIEN_BASE_ASSAULT_IMAGE
+    text: STR_MEDAL_ALIEN_BASE_ASSAULT_UFOPEDIA
+    listOrder: 24
+    text_width: 180
+  - id: STR_MEDAL_ALIEN_BASE_ASSAULT_CAMPAIGN
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_ALIEN_BASE_ASSAULT_CAMPAIGN_IMAGE
+    text: STR_MEDAL_ALIEN_BASE_ASSAULT_CAMPAIGN_UFOPEDIA
+    listOrder: 25
+    text_width: 180
+  - id: STR_MEDAL_EARTH_CAMPAIGN_RIBBON
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_EARTH_CAMPAIGN_RIBBON_IMAGE
+    text: STR_MEDAL_EARTH_CAMPAIGN_RIBBON_UFOPEDIA
+    listOrder: 26
+    text_width: 180
+  - id: STR_MEDAL_WEAPON_PROFICIENCY
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_WEAPON_PROFICIENCY_IMAGE
+    text: STR_MEDAL_WEAPON_PROFICIENCY_UFOPEDIA
+    listOrder: 31
+    text_width: 180
+  - id: STR_MEDAL_SHARPSHOOTER
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_SHARPSHOOTER_IMAGE
+    text: STR_MEDAL_SHARPSHOOTER_UFOPEDIA
+    listOrder: 32
+    text_width: 180
+  - id: STR_MEDAL_RIFLE_MARKSMAN
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_RIFLE_MARKSMAN_IMAGE
+    text: STR_MEDAL_RIFLE_MARKSMAN_UFOPEDIA
+    listOrder: 33
+    text_width: 180
+  - id: STR_MEDAL_PISTOL_MARKSMAN
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_PISTOL_MARKSMAN_IMAGE
+    text: STR_MEDAL_PISTOL_MARKSMAN_UFOPEDIA
+    listOrder: 34
+    text_width: 180
+  - id: STR_MEDAL_CARBINE_MARKSMAN
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_CARBINE_MARKSMAN_IMAGE
+    text: STR_MEDAL_CARBINE_MARKSMAN_UFOPEDIA
+    listOrder: 35
+    text_width: 180
+  - id: STR_MEDAL_LMG_MARKSMAN
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_LMG_MARKSMAN_IMAGE
+    text: STR_MEDAL_LMG_MARKSMAN_UFOPEDIA
+    listOrder: 36
+    text_width: 180
+  - id: STR_MEDAL_SMG_MARKSMAN
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_SMG_MARKSMAN_IMAGE
+    text: STR_MEDAL_SMG_MARKSMAN_UFOPEDIA
+    listOrder: 37
+    text_width: 180
+  - id: STR_MEDAL_ARTILLERY_SPECIALIST
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_ARTILLERY_SPECIALIST_IMAGE
+    text: STR_MEDAL_ARTILLERY_SPECIALIST_UFOPEDIA
+    listOrder: 38
+    text_width: 180
+  - id: STR_MEDAL_SNIPER_MARKSMAN
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_SNIPER_MARKSMAN_IMAGE
+    text: STR_MEDAL_SNIPER_MARKSMAN_UFOPEDIA
+    listOrder: 39
+    text_width: 180
+  - id: STR_MEDAL_SHOTGUN_SPECIALIST
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_SHOTGUN_SPECIALIST_IMAGE
+    text: STR_MEDAL_SHOTGUN_SPECIALIST_UFOPEDIA
+    listOrder: 40
+    text_width: 180
+  - id: STR_MEDAL_GRENADIER_SPECIALIST
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_GRENADIER_SPECIALIST_IMAGE
+    text: STR_MEDAL_GRENADIER_SPECIALIST_UFOPEDIA
+    listOrder: 41
+    text_width: 180
+  - id: STR_MEDAL_RAIDER_SPECIALIST
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_RAIDER_SPECIALIST_IMAGE
+    text: STR_MEDAL_RAIDER_SPECIALIST_UFOPEDIA
+    listOrder: 42
+    text_width: 180
+  - id: STR_MEDAL_CAPTURE_SPECIALIST
+    type_id: 7
+    section: STR_MEDALS_AND_AWARDS_UC
+    image_id: MEDAL_CAPTURE_SPECIALIST_IMAGE
+    text: STR_MEDAL_CAPTURE_SPECIALIST_UFOPEDIA
+    listOrder: 43
+    text_width: 180
+
+  - id: STR_FIGHTERS
+    type_id: 8
+    listOrder: 50
+    text: STR_FIGHTERS_UFOPEDIA
+    section: STR_XCOM_CRAFTS
+
+  - id: STR_HARRIER
+    section: STR_XCOM_CRAFTS
+    text: STR_HARRIER_UFOPEDIA
+    type_id: 1
+    listOrder: 99
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: HARRIER_UFOPEDIA
+
+  - id: STR_FORGER
+    section: STR_XCOM_CRAFTS
+    text: STR_FORGER_UFOPEDIA
+    type_id: 1
+    listOrder: 99
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: FORGER_UFOPEDIA
+
+  - id: STR_SABRE
+    section: STR_XCOM_CRAFTS
+    text: STR_SABRE_UFOPAEDIA
+    listOrder: 114
+    image_id: SABRE_UFOPEDIA
+    type_id: 1
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+
+  - id: STR_DYNASOAR
+    section: STR_XCOM_CRAFTS
+    text: STR_DYNASOAR_UFOPAEDIA
+    listOrder: 115
+    image_id: DYNASOAR_UFOPEDIA
+    type_id: 1
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+
+  - id: STR_MIG_105
+    section: STR_XCOM_CRAFTS
+    text: STR_MIG_105_UFOPAEDIA
+    listOrder: 116
+    image_id: SPIRAL_UFOPEDIA
+    type_id: 1
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+
+  - id: STR_BOMBERS
+    type_id: 8
+    listOrder: 150
+    text: STR_BOMBERS_UFOPEDIA
+    section: STR_XCOM_CRAFTS
+
+  - id: STR_HERMES
+    section: STR_XCOM_CRAFTS
+    listOrder: 210
+    text: STR_HERMES_UFOPAEDIA
+    image_id: HERMES_UFOPEDIA
+    type_id: 1
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+
+  #satellites
+
+  - id: STR_RECONS
+    type_id: 8
+    listOrder: 250
+    text: STR_RECONS_UFOPEDIA
+    section: STR_XCOM_CRAFTS
+
+
+  - id: STR_ATALAYA
+    type_id: 1
+    section: STR_XCOM_CRAFTS
+    text: STR_ATALAYA_UFOPEDIA
+    listOrder: 301
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: ATALAYA_UFOPEDIA
+
+  - id: STR_BASTION
+    section: STR_XCOM_CRAFTS
+    text: STR_BASTION_UFOPAEDIA
+    listOrder: 302
+    image_id: BASTION_UFOPEDIA
+    type_id: 1
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+
+  #Transports
+
+  - id: STR_LIGHTNING
+    listOrder: 501
+    image_id: NEWLIGHTNING_UFOPEDIA
+    section: STR_XCOM_CRAFTS
+
+  - id: STR_SPACE_SHUTTLE
+    type_id: 1
+    section: STR_XCOM_CRAFTS
+    text: STR_SPACE_SHUTTLE_UFOPEDIA
+    listOrder: 503
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: SPACE_SHUTTLE_UFOPEDIA
+
+  - id: STR_LASER_ARRAY_UC
+    type_id: 2
+    listOrder: 1004
+    section: STR_CRAFT_ARMAMENT
+    requires:
+      - STR_LASER_ARRAY
+    image_id: APOLLO
+    text: STR_APOLLO_LASER_GATLING_UFOPEDIA
+
+  - id: STR_ZEUS
+    section: STR_CRAFT_ARMAMENT
+    listOrder: 1005
+    image_id: ZEUS_PLASMA_GATLING
+    type_id: 2
+    text: STR_ZEUS_UFOPAEDIA
+
+  - id: STR_LASER_CANNON_UC
+    type_id: 2
+    section: STR_CRAFT_ARMAMENT
+    image_id: KODIAK
+    text: STR_KODIAK_LASER_CANNON_UFOPEDIA
+    listOrder: 1104
+
+  - id: STR_VOSTOK_PLASMA_CANNON
+    section: STR_CRAFT_ARMAMENT
+    image_id: VOSTOK_PLASMA_CANNON
+    type_id: 2
+    text: STR_VOSTOK_PLASMA_CANNON_UFOPAEDIA
+    listOrder: 1105
+
+  - id: STR_GORGON_ROCKETS
+    section: STR_CRAFT_ARMAMENT
+    image_id: GORGON_FUSSION_ROCKET_POD
+    type_id: 2
+    text: STR_GORGON_ROCKETS_UFOPAEDIA
+    listOrder: 1203
+
+  - id: STR_KRAKEN_ROCKETS
+    section: STR_CRAFT_ARMAMENT
+    image_id: HYDRA
+    type_id: 2
+    text: STR_KRAKEN_ROCKETS_UFOPAEDIA
+    listOrder: 1204
+
+  - id: STR_LONGSWORD_FUSION_MISSILE
+    section: STR_CRAFT_ARMAMENT
+    image_id: LONGSWORD_FUSION_LIGHT_MISSILE
+    type_id: 2
+    text: STR_LONGSWORD_FUSION_MISSILE_UFOPAEDIA
+    listOrder: 1305
+
+  - id: STR_EXCALIBUR_LIGHT_MISSILE
+    section: STR_CRAFT_ARMAMENT
+    image_id: SHORTSWORD
+    type_id: 2
+    text: STR_EXCALIBUR_LIGHT_MISSILE_UFOPAEDIA
+    listOrder: 1306
+
+  - id: STR_KATANA
+    section: STR_CRAFT_ARMAMENT
+    image_id: KATANA_FUSION_HEAVY_MISSILE
+    type_id: 2
+    text: STR_KATANA_UFOPAEDIA
+    listOrder: 1405
+
+  - id: STR_MJOLNIR
+    section: STR_CRAFT_ARMAMENT
+    image_id: HAMMER
+    type_id: 2
+    text: STR_MJOLNIR_UFOPAEDIA
+    listOrder: 1406
+
+  - id: STR_KONDOR
+    section: STR_CRAFT_ARMAMENT
+    image_id: KONDOR_FUSION_SUPER_HEAVY_MISSILE
+    type_id: 2
+    text: STR_KONDOR_UFOPAEDIA
+    listOrder: 1504
+
+  - id: STR_CASABA_SPIKE
+    section: STR_CRAFT_ARMAMENT
+    image_id: CASABA_HOWITZER
+    type_id: 2
+    text: STR_CASABA_SPIKE_UFOPAEDIA
+    listOrder: 1505
+
+  - id: STR_CASABA_LANCE
+    section: STR_CRAFT_ARMAMENT
+    image_id: CASABA_HOWITZER_IMPROVED
+    type_id: 2
+    text: STR_CASABA_LANCE_UFOPAEDIA
+    listOrder: 1506
+
+  - id: STR_FUEL_TANK_UC
+    type_id: 2
+    section: STR_CRAFT_ARMAMENT
+    image_id: FUEL_TANK
+    text: STR_FUEL_TANK_UFOPEDIA
+    listOrder: 1601
+
+  - id: STR_AFTERBURNER_UC
+    type_id: 2
+    section: STR_CRAFT_ARMAMENT
+    image_id: AFTERBURNER
+    text: STR_AFTERBURNER_UFOPEDIA
+    listOrder: 1602
+
+  - id: STR_TARGETING_POD_UC
+    type_id: 2
+    section: STR_CRAFT_ARMAMENT
+    image_id: TARGETING_POD
+    text: STR_TARGETING_POD_UFOPEDIA
+    listOrder: 1603
+
+  - id: STR_ALLOY_CRAFT_ARMOR_UC
+    type_id: 2
+    section: STR_CRAFT_ARMAMENT
+    image_id: ALLOY_CRAFT_ARMOR
+    text: STR_ALLOY_CRAFT_ARMOR_UFOPEDIA
+    listOrder: 1604
+
+  - id: STR_USA_LASER_RESEARCH
+    type_id: 7
+    requires:
+      - STR_USA_LASER_RESEARCH
+    section: STR_UNEXCOM_RESEARCH
+    image_id: USA_LASER_RESEARCH_IMAGE
+    text: STR_USA_LASER_RESEARCH_UFOPEDIA
+    text_width: 150
+    listOrder: 2101
+
+  - id: STR_USA_LASER_HANDGUNS
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    requires:
+      - STR_USA_LASER_HANDGUNS
+    text: STR_USA_LASER_HANDGUNS_UFOPEDIA
+    listOrder: 2102
+  - id: STR_USA_LASER_RIFLES
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    requires:
+      - STR_USA_LASER_RIFLES
+    text: STR_USA_LASER_RIFLES_UFOPEDIA
+    listOrder: 2103
+  - id: STR_USA_LASER_CLOSE_RANGE_WEAPONS
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    requires:
+      - STR_USA_LASER_CLOSE_RANGE_WEAPONS
+    text: STR_USA_LASER_CLOSE_RANGE_WEAPONS_UFOPEDIA
+    listOrder: 2104
+  - id: STR_USA_LASER_HEAVY_WEAPONS
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    requires:
+      - STR_USA_LASER_HEAVY_WEAPONS
+    text: STR_USA_LASER_HEAVY_WEAPONS_UFOPEDIA
+    listOrder: 2105
+  #################################
+  - id: STR_NATO_LASER_RESEARCH
+    type_id: 7
+    requires:
+      - STR_NATO_LASER_RESEARCH
+    section: STR_UNEXCOM_RESEARCH
+    image_id: NATO_LASER_RESEARCH_IMAGE
+    text: STR_NATO_LASER_RESEARCH_UFOPEDIA
+    text_width: 150
+    listOrder: 2106
+
+  - id: STR_NATO_LASER_HANDGUNS
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    requires:
+      - STR_NATO_LASER_HANDGUNS
+    text: STR_NATO_LASER_HANDGUNS_UFOPEDIA
+    listOrder: 2107
+  - id: STR_NATO_LASER_RIFLES
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    requires:
+      - STR_NATO_LASER_RIFLES
+    text: STR_NATO_LASER_RIFLES_UFOPEDIA
+    listOrder: 2108
+  - id: STR_NATO_LASER_CLOSE_RANGE_WEAPONS
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    requires:
+      - STR_NATO_LASER_CLOSE_RANGE_WEAPONS
+    text: STR_NATO_LASER_CLOSE_RANGE_WEAPONS_UFOPEDIA
+    listOrder: 2109
+  - id: STR_NATO_LASER_HEAVY_WEAPONS
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    requires:
+      - STR_NATO_LASER_HEAVY_WEAPONS
+    text: STR_NATO_LASER_HEAVY_WEAPONS_UFOPEDIA
+    listOrder: 2110
+  ##################################
+  - id: STR_USSR_LASER_RESEARCH
+    type_id: 7
+    requires:
+      - STR_USSR_LASER_RESEARCH
+    section: STR_UNEXCOM_RESEARCH
+    image_id: USSR_LASER_RESEARCH_IMAGE
+    text: STR_USSR_LASER_RESEARCH_UFOPEDIA
+    text_width: 150
+    listOrder: 2111
+
+  - id: STR_USSR_LASER_HANDGUNS
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    requires:
+      - STR_USSR_LASER_HANDGUNS
+    text: STR_USSR_LASER_HANDGUNS_UFOPEDIA
+    listOrder: 2112
+  - id: STR_USSR_LASER_RIFLES
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    requires:
+      - STR_USSR_LASER_RIFLES
+    text: STR_USSR_LASER_RIFLES_UFOPEDIA
+    listOrder: 2113
+  - id: STR_USSR_LASER_CLOSE_RANGE_WEAPONS
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    requires:
+      - STR_USSR_LASER_CLOSE_RANGE_WEAPONS
+    text: STR_USSR_LASER_CLOSE_RANGE_WEAPONS_UFOPEDIA
+    listOrder: 2114
+  - id: STR_USSR_LASER_HEAVY_WEAPONS
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    requires:
+      - STR_USSR_LASER_HEAVY_WEAPONS
+    text: STR_USSR_LASER_HEAVY_WEAPONS_UFOPEDIA
+    listOrder: 2115
+
+  - id: STR_ALLOY_BALLISTIC_WEAPONS
+    type_id: 7
+    section: STR_UNEXCOM_RESEARCH
+    requires:
+      - STR_ALLOY_BALLISTIC_WEAPONS
+    text: STR_ALLOY_BALLISTIC_WEAPONS_UFOPEDIA
+    image_id: ALLOY_BALLISTIC_WEAPONS_IMAGE
+    text_width: 160
+    listOrder: 2200
+
+  - id: STR_FLECHETTE
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    requires:
+      - STR_ALLOY_BALLISTIC_WEAPONS
+    text: STR_FLECHETTE_WEAPONS_UFOPEDIA
+    listOrder: 2201
+  - id: STR_DU
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    requires:
+      - STR_ALLOY_BALLISTIC_WEAPONS
+    text: STR_DEPLETED_URANIUM_UFOPEDIA
+    listOrder: 2202
+
+  - id: STR_FUSION_WEAPONS_RESEARCH_1
+    type_id: 7
+    #    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    image_id: FUSION_WEAPONS_RESEARCH_IMAGE_1
+    text: STR_FUSION_WEAPONS_RESEARCH_1_UFOPEDIA
+    text_width: 150
+    listOrder: 2301
+
+  - id: STR_FUSION_WEAPONS_RESEARCH_2
+    type_id: 7
+    #    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    image_id: FUSION_WEAPONS_RESEARCH_IMAGE_2
+    text: STR_FUSION_WEAPONS_RESEARCH_2_UFOPEDIA
+    text_width: 130
+    listOrder: 2302
+
+  - id: STR_INITIAL_FUSION_CELLS_RESEARCH
+    type_id: 7
+    #    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    image_id: INITIAL_FUSION_CELLS_RESEARCH_IMAGE
+    text: STR_INITIAL_FUSION_CELLS_RESEARCH_UFOPEDIA
+    text_width: 150
+    listOrder: 2303
+
+  #Weapons
+
+  #Pistols
+  - id: STR_UNEXCOM_WEAPONS
+    type_id: 8
+    section: STR_WEAPONS
+    text: STR_UNEXCOM_WEAPONS_UFOPEDIA
+    listOrder: 4000
+  - id: STR_PISTOL_REPORT
+    type_id: 7
+    section: STR_WEAPONS
+    image_id: PISTOL_REPORT_IMAGE
+    text: STR_PISTOL_REPORT_UFOPEDIA
+    text_width: 150
+    listOrder: 4001
+
+  - id: STR_M1972_LASER_PISTOL
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_USA_LASER_HANDGUNS
+    text: STR_M1972_LASER_PISTOL_UFOPEDIA
+    listOrder: 4010
+  - id: STR_38_LASER_MAGNUM
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_USA_LASER_HANDGUNS
+    text: STR_38_LASER_MAGNUM_UFOPEDIA
+    listOrder: 4011
+  - id: STR_P71_LASER_PISTOL
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_NATO_LASER_HANDGUNS
+    text: STR_P71_LASER_PISTOL_UFOPEDIA
+    listOrder: 4012
+  - id: STR_P72_COMPACT_LASER
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_USSR_LASER_HANDGUNS
+    text: STR_P72_COMPACT_LASER_UFOPEDIA
+    listOrder: 4013
+  - id: STR_FLECHETTE_PISTOL
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_ALLOY_CLOSE
+    pages:
+    - title: STR_FLECHETTE_PISTOL
+      text: STR_FLECHETTE_PISTOL_UFOPEDIA
+      ammoSlot: 0
+    - title: STR_FLECHETTE_PISTOL
+      text: STR_FLECHETTE_PISTOL_UFOPEDIA
+      ammoSlot: 1
+    listOrder: 4014
+  - id: STR_GYROJET_PISTOL
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_GYROJET_PISTOL_UFOPEDIA
+    listOrder: 4017
+  - id: STR_MK115_SPACE_PISTOL
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_MK115_SPACE_PISTOL_UFOPEDIA
+  - id: STR_MK117_SPACE_PDW
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_MK117_SPACE_PDW_UFOPEDIA
+  - id: STR_MK115_SPACE_PISTOL_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  #SMGs
+  - id: STR_SMG_REPORT
+    type_id: 7
+    section: STR_WEAPONS
+    image_id: SMG_REPORT_IMAGE
+    text: STR_SMG_REPORT_UFOPEDIA
+    text_width: 150
+    listOrder: 4100
+
+  - id: STR_M5_LASER_SMG
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_USA_LASER_CLOSE_RANGE_WEAPONS
+    text: STR_M5_LASER_SMG_UFOPEDIA
+    listOrder: 4108
+
+  - id: STR_MAT72_SUBMACHINE_LASER
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_NATO_LASER_CLOSE_RANGE_WEAPONS
+    text: STR_MAT72_SUBMACHINE_LASER_UFOPEDIA
+    listOrder: 4109
+
+  - id: STR_ALP_SUBMACHINE_LASER
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_USSR_LASER_HANDGUNS
+    text: STR_ALP_SUBMACHINE_LASER_UFOPEDIA
+    listOrder: 4110
+
+  #Shotguns
+  - id: STR_SHOTGUN_REPORT
+    type_id: 7
+    section: STR_WEAPONS
+    image_id: SHOTGUN_REPORT_IMAGE
+    text: STR_SHOTGUN_REPORT_UFOPEDIA
+    text_width: 150
+    listOrder: 4200
+
+  - id: STR_X4_LASER_SHOTGUN
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_USA_LASER_CLOSE_RANGE_WEAPONS
+    text: STR_X4_LASER_SHOTGUN_UFOPEDIA
+    listOrder: 4207
+
+  - id: STR_FLECHETTE_SHOTGUN
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_ALLOY_CLOSE
+    pages:
+    - title: STR_FLECHETTE_SHOTGUN
+      text: STR_FLECHETTE_SHOTGUN_UFOPEDIA
+      ammoSlot: 0
+    listOrder: 4208
+  - id: STR_FLECHETTE_AUTO_SHOTGUN
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_ALLOY_CLOSE
+    text: STR_FLECHETTE_AUTOMATIC_SHOTGUN_UFOPEDIA
+    listOrder: 4209
+
+  - id: STR_CARBINE_REPORT
+    type_id: 7
+    section: STR_WEAPONS
+    image_id: CARBINE_REPORT_IMAGE
+    text: STR_CARBINE_REPORT_UFOPEDIA
+    text_width: 150
+    listOrder: 4300
+
+  - id: STR_M17_CARBINE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_M17_CARBINE_UFOPEDIA
+    listOrder: 4306
+
+  - id: STR_M20_M203_LASER_CARBINE
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_USA_LASER_RIFLES
+    text: STR_M20_M203_LASER_CARBINE_UFOPEDIA
+    listOrder: 4312
+
+  - id: STR_FN_FLA_LASER_CARBINE
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_NATO_LASER_RIFLES
+    text: STR_FN_FLA_LASER_CARBINE_UFOPEDIA
+    listOrder: 4313
+
+  - id: STR_FLECHETTE_CARBINE
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_ALLOY_RIFLES
+    pages:
+    - title: STR_FLECHETTE_CARBINE
+      text: STR_FLECHETTE_CARBINE_UFOPEDIA
+      ammoSlot: 0
+    - title: STR_FLECHETTE_CARBINE
+      text: STR_FLECHETTE_CARBINE_UFOPEDIA
+      ammoSlot: 1
+    listOrder: 4314
+
+  - id: STR_RIFLE_REPORT
+    type_id: 7
+    section: STR_WEAPONS
+    image_id: RIFLE_REPORT_IMAGE
+    text: STR_RIFLE_REPORT_UFOPEDIA
+    text_width: 150
+    listOrder: 4400
+
+  - id: STR_AK79_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_AK79_RIFLE_UFOPEDIA
+    listOrder: 4408
+
+  - id: STR_PEACEMAKER
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_PEACEMAKER_UFOPEDIA
+    listOrder: 4410
+
+  - id: STR_CALBR
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_USA_LASER_RIFLES
+    text: STR_CALBR_UFOPEDIA
+    listOrder: 4411
+
+  - id: STR_L4_ASSAULT_LASER
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_NATO_LASER_RIFLES
+    text: STR_L4_ASSAULT_LASER_UFOPEDIA
+    listOrder: 4412
+
+  - id: STR_FN_FLA_LASER_BATTLE_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_NATO_LASER_RIFLES
+    text: STR_FN_FLA_LASER_BATTLE_RIFLE_UFOPEDIA
+    listOrder: 4413
+
+  - id: STR_ALK72_LASER_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_USSR_LASER_RIFLES
+    text: STR_ALK72_LASER_RIFLE_UFOPEDIA
+    listOrder: 4414
+  - id: STR_KHARITONOV_LASER_BATTLE_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_USSR_LASER_RIFLES
+    text: STR_KHARITONOV_LASER_BATTLE_RIFLE_UFOPEDIA
+    listOrder: 4415
+
+  - id: STR_FLECHETTE_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_ALLOY_RIFLES
+    pages:
+    - title: STR_FLECHETTE_RIFLE
+      text: STR_FLECHETTE_RIFLE_UFOPEDIA
+      ammoSlot: 0
+    - title: STR_FLECHETTE_RIFLE
+      text: STR_FLECHETTE_RIFLE_UFOPEDIA
+      ammoSlot: 1
+    listOrder: 4416
+
+  - id: STR_HUMAN_FUSION_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_HUMAN_FUSION_RIFLE_UFOPEDIA
+    listOrder: 4418
+
+  - id: STR_GYROJET_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_GYROJET_RIFLE_UFOPEDIA
+    listOrder: 4419
+
+  - id: STR_MK119_SPACE_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_MK119_SPACE_RIFLE_UFOPEDIA
+    listOrder: 4420
+
+  - id: STR_G11_CASELESS_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_G11_CASELESS_RIFLE_UFOPEDIA
+    listOrder: 4421
+
+  - id: STR_TKB1980_CASELESS_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_TKB1980_CASELESS_RIFLE_UFOPEDIA
+    listOrder: 4422
+
+  - id: STR_LMG_REPORT
+    type_id: 7
+    section: STR_WEAPONS
+    image_id: LMG_REPORT_IMAGE
+    text: STR_LMG_REPORT_UFOPEDIA
+    text_width: 150
+    listOrder: 4500
+
+  - id: STR_M4_LASER_LMG
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_USA_LASER_HEAVY_WEAPONS
+    text: STR_M4_LASER_LMG_UFOPEDIA
+    listOrder: 4506
+
+  - id: STR_ML73_LASER_MACHINE_GUN
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_NATO_LASER_HEAVY_WEAPONS
+    text: STR_ML73_LASER_MACHINE_GUN_UFOPEDIA
+    listOrder: 4506
+
+  - id: STR_AN_MACHINE_LASER
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_USSR_LASER_HEAVY_WEAPONS
+    text: STR_AN_MACHINE_LASER_UFOPEDIA
+    listOrder: 4507
+
+  - id: STR_FLECHETTE_CANNON
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_ALLOY_HEAVY
+    pages:
+    - title: STR_FLECHETTE_CANNON
+      text: STR_FLECHETTE_CANNON_UFOPEDIA
+      ammoSlot: 0
+    - title: STR_FLECHETTE_CANNON
+      text: STR_FLECHETTE_CANNON_UFOPEDIA
+      ammoSlot: 1
+    listOrder: 4508
+
+  - id: STR_SNIPER_RIFLE_REPORT
+    type_id: 7
+    section: STR_WEAPONS
+    image_id: SNIPER_RIFLE_REPORT_IMAGE
+    text: STR_SNIPER_RIFLE_REPORT_UFOPEDIA
+    text_width: 150
+    listOrder: 4600
+
+  - id: STR_ULYSSES_LASER_SNIPER_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_USA_LASER_HEAVY_WEAPONS
+    text: STR_ULYSSES_LASER_SNIPER_RIFLE_UFOPEDIA
+    listOrder: 4608
+
+  - id: STR_CHURCHILL_MARKSMAN_LASER_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_NATO_LASER_HEAVY_WEAPONS
+    text: STR_CHURCHILL_MARKSMAN_LASER_RIFLE_UFOPEDIA
+    listOrder: 4609
+
+  - id: STR_MIRINOV_LASER_SNIPER
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_USSR_LASER_HEAVY_WEAPONS
+    text: STR_MIRINOV_LASER_SNIPER_UFOPEDIA
+    listOrder: 4610
+
+  - id: STR_FLECHETTE_SNIPER
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_ALLOY_HEAVY
+    pages:
+    - title: STR_FLECHETTE_SNIPER
+      text: STR_FLECHETTE_SNIPER_UFOPEDIA
+      ammoSlot: 0
+    - title: STR_FLECHETTE_SNIPER
+      text: STR_FLECHETTE_SNIPER_UFOPEDIA
+      ammoSlot: 1
+    listOrder: 4611
+
+  - id: STR_ARTILLERY_REPORT
+    type_id: 7
+    section: STR_WEAPONS
+    image_id: ARTILLERY_REPORT_IMAGE
+    text: STR_ARTILLERY_REPORT_UFOPEDIA
+    text_width: 150
+    listOrder: 4700
+  
+  - id: STR_M72_AUTOMATIC_RECOILLESS_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_NATO_LASER_HEAVY_WEAPONS
+    pages:
+    - title: STR_M72_AUTOMATIC_RECOILLESS_RIFLE
+      text: STR_M72_AUTOMATIC_RECOILLESS_RIFLE_UFOPEDIA
+      ammoSlot: 0
+    - title: STR_M72_AUTOMATIC_RECOILLESS_RIFLE
+      text: STR_M72_AUTOMATIC_RECOILLESS_RIFLE_UFOPEDIA
+      ammoSlot: 0
+    listOrder: 4705
+
+  - id: STR_AFINA_ANTITANK_LASER
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_USSR_LASER_HEAVY_WEAPONS
+    text: STR_AFINA_ANTITANK_LASER_UFOPEDIA
+    listOrder: 4706
+
+  - id: STR_FLECHETTE_GL
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_ALLOY_EXPLOSIVE
+    text: STR_FLECHETTE_GRENADE_LAUNCHER_UFOPEDIA
+    listOrder: 4710
+
+  - id: STR_ELERIUM_FLAMETHROWER
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_USA_LASER_HEAVY_WEAPONS
+    text: STR_ELERIUM_FLAMETHROWER_UFOPEDIA
+    listOrder: 4711
+
+  - id: STR_MELEE_REPORT
+    type_id: 7
+    section: STR_WEAPONS
+    image_id: MELEE_REPORT_IMAGE
+    text: STR_MELEE_REPORT_UFOPEDIA
+    text_width: 150
+    listOrder: 4800
+
+  - id: STR_SPACE_KNIFE
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_OLYMPUS
+    text: STR_SPACE_KNIFE_UFOPEDIA
+    listOrder: 4806
+
+  - id: STR_STUN_ROD
+    section: STR_WEAPONS
+    listOrder: 4807
+
+  - id: STR_GENERATOR_STICK
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_GENERATOR_STICK
+    text: STR_GENERATOR_STICK_UFOPEDIA
+    listOrder: 4808
+
+  #Ammunition
+  - id: STR_5_56MM_NATO_RIFLE_X30
+    type_id: 4
+    section: STR_AMMUNITION
+    text: STR_5_56MM_NATO_RIFLE_X30_UFOPEDIA
+    listOrder: 5011
+  - id: STR_7_62MM_SOVIET_RIFLE_X40
+    type_id: 4
+    section: STR_AMMUNITION
+    text: STR_7_62MM_SOVIET_RIFLE_X40_UFOPEDIA
+    listOrder: 5019
+  - id: STR_40MM_FRAG
+    type_id: 4
+    section: STR_AMMUNITION
+    text: STR_40MM_FRAG_UFOPEDIA
+    listOrder: 5028
+
+  - id: STR_40MM_INCENDIARY
+    type_id: 4
+    section: STR_AMMUNITION
+    text: STR_40MM_INCENDIARY_UFOPEDIA
+    listOrder: 5029
+
+  - id: STR_40MM_SMOKE
+    type_id: 4
+    section: STR_AMMUNITION
+    text: STR_40MM_SMOKE_UFOPEDIA
+    listOrder: 5030
+
+  - id: STR_40MM_NON_LETHAL
+    type_id: 4
+    section: STR_AMMUNITION
+    text: STR_40MM_NON_LETHAL_UFOPEDIA
+    listOrder: 5031
+  - id: STR_ALLOY_RIFLE_AP
+    requires:
+      - STR_ALLOY_RIFLES
+    type_id: 4
+    section: STR_AMMUNITION
+    text: STR_ALLOY_RIFLE_AP_UFOPEDIA
+    listOrder: 5100
+  - id: STR_ALLOY_RIFLE_FL
+    requires:
+      - STR_ALLOY_RIFLES
+    type_id: 4
+    section: STR_AMMUNITION
+    text: STR_ALLOY_RIFLE_FL_UFOPEDIA
+    listOrder: 5101
+  - id: STR_ALLOY_PISTOL_AP
+    requires:
+      - STR_ALLOY_CLOSE
+    type_id: 4
+    section: STR_AMMUNITION
+    text: STR_ALLOY_PISTOL_AP_UFOPEDIA
+    listOrder: 5102
+  - id: STR_ALLOY_PISTOL_FL
+    requires:
+      - STR_ALLOY_CLOSE
+    type_id: 4
+    section: STR_AMMUNITION
+    text: STR_ALLOY_PISTOL_FL_UFOPEDIA
+    listOrder: 5103
+  - id: STR_ALLOY_SHOTGUN_FL
+    requires:
+      - STR_ALLOY_CLOSE
+    type_id: 4
+    section: STR_AMMUNITION
+    text: STR_ALLOY_SHOTGUN_FL_UFOPEDIA
+    listOrder: 5104
+  - id: STR_ALLOY_AUTO_SHOTGUN_FL
+    requires:
+      - STR_ALLOY_CLOSE
+    type_id: 4
+    section: STR_AMMUNITION
+    text: STR_ALLOY_AUTO_SHOTGUN_FL_UFOPEDIA
+    listOrder: 5105
+  - id: STR_ALLOY_HEAVY_AP
+    requires:
+      - STR_ALLOY_HEAVY
+    type_id: 4
+    section: STR_AMMUNITION
+    text: STR_ALLOY_HEAVY_AP_UFOPEDIA
+    listOrder: 5106
+  - id: STR_ALLOY_HEAVY_FL
+    requires:
+      - STR_ALLOY_HEAVY
+    type_id: 4
+    section: STR_AMMUNITION
+    text: STR_ALLOY_HEAVY_FL_UFOPEDIA
+    listOrder: 5107
+  - id: STR_ALLOY_SNIPER_AP
+    requires:
+      - STR_ALLOY_HEAVY
+    type_id: 4
+    section: STR_AMMUNITION
+    text: STR_ALLOY_SNIPER_AP_UFOPEDIA
+    listOrder: 5108
+  - id: STR_ALLOY_SNIPER_FL
+    requires:
+      - STR_ALLOY_HEAVY
+    type_id: 4
+    section: STR_AMMUNITION
+    text: STR_ALLOY_SNIPER_FL_UFOPEDIA
+    listOrder: 5109
+  - id: STR_30MM_AAG
+    requires:
+      - STR_ALLOY_EXPLOSIVE
+    type_id: 4
+    section: STR_AMMUNITION
+    text: STR_30MM_AAG_UFOPEDIA
+    listOrder: 5110
+
+  - id: STR_M72_ARR_HEAT_MAG
+    type_id: 4
+    section: STR_AMMUNITION
+    text: ...
+    listOrder: 5111
+    requires:
+      - STR_NATO_LASER_HEAVY_WEAPONS
+  - id: STR_M72_ARR_HE_MAG
+    type_id: 4
+    section: STR_AMMUNITION
+    text: ...
+    listOrder: 5112
+    requires:
+      - STR_NATO_LASER_HEAVY_WEAPONS
+  - id: STR_M72_ARR_SMOKE_MAG
+    type_id: 4
+    section: STR_AMMUNITION
+    text: ...
+    listOrder: 5113
+    requires:
+      - STR_NATO_LASER_HEAVY_WEAPONS
+  - id: STR_M72_ARR_ELERIUM_MAG
+    type_id: 4
+    section: STR_AMMUNITION
+    text: ...
+    listOrder: 5114
+    requires:
+      - STR_NATO_LASER_HEAVY_WEAPONS
+  - id: STR_GYROJET_AMMO_MAGAZINE
+    type_id: 4
+    section: STR_AMMUNITION
+    text: STR_GYROJET_AMMO_MAGAZINE_UFOPEDIA
+    listOrder: 5208
+
+  #Equipment
+
+  - id: STR_MOTION_SCANNER
+    section: STR_EQUIPMENT
+    listOrder: 6000
+  - id: STR_ELECTRO_FLARE
+    section: STR_EQUIPMENT
+    listOrder: 6001
+
+  - id: STR_GRENADE_REPORT
+    type_id: 7
+    section: STR_EQUIPMENT
+    image_id: GRENADE_REPORT_IMAGE
+    text: STR_GRENADE_REPORT_UFOPEDIA
+    text_width: 150
+    listOrder: 6100
+  - id: STR_GRENADE
+    section: STR_EQUIPMENT
+    listOrder: 6101
+  - id: STR_FLECHETTE_GRENADE
+    type_id: 4
+    section: STR_EQUIPMENT
+    requires:
+      - STR_ALLOY_EXPLOSIVE
+    text: STR_FLECHETTE_GRENADE_UFOPEDIA
+    listOrder: 6102
+  - id: STR_PROXIMITY_GRENADE
+    section: STR_EQUIPMENT
+    listOrder: 6103
+  - id: STR_HIGH_EXPLOSIVE
+    section: STR_EQUIPMENT
+    listOrder: 6104
+  - id: STR_SMOKE_GRENADE
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_SMOKE_GRENADE_UFOPEDIA
+    listOrder: 6105
+  - id: STR_FLASHBANG_GRENADE
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_FLASHBANG_GRENADE_UFOPEDIA
+    listOrder: 6106
+
+  - id: STR_MEDICAL_ITEMS_REPORT
+    type_id: 7
+    section: STR_EQUIPMENT
+    image_id: MEDICAL_ITEMS_REPORT_IMAGE
+    text: STR_MEDICAL_ITEMS_REPORT_UFOPEDIA
+    text_width: 150
+    listOrder: 6200
+
+  - id: STR_MEDICAL_BAG
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_MEDICAL_BAG_UFOPEDIA
+    listOrder: 6201
+
+  - id: STR_FIELD_DRESSING
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_FIELD_DRESSING_UFOPEDIA
+    listOrder: 6202
+
+  - id: STR_MEDICAL_POUCH
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_MEDICAL_POUCH_UFOPEDIA
+    listOrder: 6203
+
+  - id: STR_MEDI_KIT
+    requires:
+      - STR_MEDI_KIT
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_MEDI_KIT_UFOPEDIA
+    listOrder: 6204
+
+  - id: STR_DUCT_TAPE
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_DUCT_TAPE_UFOPEDIA
+    listOrder: 6205
+
+  - id: STR_DUCT_GUN
+    requires:
+      - STR_DUCT_GUN
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_DUCT_GUN_UFOPEDIA
+    listOrder: 6206
+
+  - id: STR_BIO_FOAM
+    requires:
+      - STR_BIO_FOAM
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_BIO_FOAM_UFOPEDIA
+    listOrder: 6207
+
+  - id: STR_FOOD_REPORT
+    type_id: 7
+    section: STR_EQUIPMENT
+    image_id: FOOD_REPORT_IMAGE
+    text: STR_FOOD_REPORT_UFOPEDIA
+    text_width: 130
+    listOrder: 6300
+
+  - id: STR_CANNED_FOOD
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_CANNED_FOOD_UFOPEDIA
+    listOrder: 6301
+
+  - id: STR_BREAD
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_BREAD_UFOPEDIA
+    listOrder: 6302
+
+  - id: STR_CIGARETTES
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_CIGARETTES_UFOPEDIA
+    listOrder: 6305
+
+  - id: STR_FLASK
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_FLASK_UFOPEDIA
+    listOrder: 6306
+
+  - id: STR_POWER_RESERVES
+    type_id: 8
+    section: STR_EQUIPMENT
+    text: STR_POWER_RESERVES_UFOPEDIA
+    listOrder: 6500
+
+  - id: STR_BATTERY
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_BATTERY_UFOPAEDIA
+    listOrder: 6501
+  - id: STR_ELERIUM_BATTERY
+    type_id: 4
+    requires:
+      - STR_ELERIUM_FUSION
+    section: STR_EQUIPMENT
+    text: STR_ELERIUM_BATTERY_UFOPAEDIA
+    listOrder: 6502
+
+  - id: STR_AIR_STRIKES
+    type_id: 8
+    requires:
+      - STR_AIR_STRIKES
+    section: STR_EQUIPMENT
+    text: STR_AIR_STRIKES_UFOPEDIA
+    listOrder: 6503
+  - id: STR_PSI_AMP
+    section: STR_EQUIPMENT
+    listOrder: 6504
+
+  #Armours
+
+  - id: STR_POWER_SUIT_UC
+    section: STR_ARMOR
+    listOrder: 7301
+  - id: STR_FLYING_SUIT_UC
+    section: STR_ARMOR
+    listOrder: 7303
+
+  - id: STR_ASTRONAUT_A7L_SPACESUIT_UC
+    type_id: 5
+    section: STR_ARMOR
+    listOrder: 7400
+    requires:
+      - STR_OLYMPUS
+    text: STR_ASTRONAUT_A7L_SPACESUIT_UC_UFOPEDIA
+
+  - id: STR_ASTRONAUT_A7_MMU_SPACESUIT_UC
+    type_id: 5
+    section: STR_ARMOR
+    listOrder: 7402
+    requires:
+      - STR_OLYMPUS
+    text: STR_ASTRONAUT_A7_MMU_SPACESUIT_UC_UFOPEDIA
+
+  - id: STR_ASTRONAUT_KRECHET94_SPACESUIT_UC
+    type_id: 5
+    section: STR_ARMOR
+    listOrder: 7403
+    requires:
+      - STR_OLYMPUS
+    text: STR_ASTRONAUT_KRECHET94_SPACESUIT_UC_UFOPEDIA
+
+  - id: STR_ASTRONAUT_KRECHETMMU_SPACESUIT_UC
+    type_id: 5
+    section: STR_ARMOR
+    listOrder: 7405
+    requires:
+      - STR_OLYMPUS
+    text: STR_ASTRONAUT_KRECHETMMU_SPACESUIT_UC_UFOPEDIA
+
+  #Alien Lifeforms
+
+  - id: STR_SECTOID
+    image_id: SECTOID_UFOPEDIA_IMAGE
+    listOrder: 11000
+  - id: STR_SECTOID_COMMANDER
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SECTOID_COMMANDER
+    image_id: SECTOID_COMMANDER_UFOPEDIA_IMAGE
+    text: STR_SECTOID_COMMANDER_UFOPEDIA
+    text_width: 158
+    listOrder: 11001
+  - id: STR_SECTOID_COMMANDER_AUTOPSY
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SECTOID_COMMANDER_CORPSE
+    image_id: UP025.SPK
+    text: STR_SECTOID_COMMANDER_AUTOPSY_UFOPEDIA
+    text_width: 158
+    listOrder: 11001
+  - id: STR_ARMORED_SECTOID
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_ARMORED_SECTOID
+    image_id: ARMORED_SECTOID_UFOPEDIA_IMAGE
+    text: STR_ARMORED_SECTOID_UFOPEDIA
+    text_width: 158
+    listOrder: 11002
+  - id: STR_SECTOID_AUTOPSY
+    listOrder: 11003
+
+  - id: STR_FLOATER
+    image_id: FLOATER_UFOPEDIA_IMAGE
+    listOrder: 11004
+  - id: STR_ARMORED_FLOATER
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_ARMORED_FLOATER
+    image_id: ARMORED_FLOATER_UFOPEDIA_IMAGE
+    text: STR_ARMORED_FLOATER_UFOPEDIA
+    text_width: 158
+    listOrder: 11005
+
+  - id: STR_FLOATER_AUTOPSY
+    listOrder: 11006
+
+  - id: STR_SNAKEMAN
+    listOrder: 11007
+  #- id: STR_NAKED_SNAKEMAN
+  #  listOrder: 11008
+
+  - id: STR_SNAKEMAN_AUTOPSY
+    listOrder: 11009
+
+  - id: STR_MUTON
+    image_id: MUTON_UFOPEDIA_IMAGE
+    listOrder: 11010
+  - id: STR_MUTON_LEADER
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_MUTON_LEADER
+    image_id: MUTON_LEADER_UFOPEDIA_IMAGE
+    text: STR_MUTON_LEADER_UFOPEDIA
+    text_width: 158
+    listOrder: 11011
+
+  - id: STR_ARMORED_MUTON
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_ARMORED_MUTON
+    image_id: ARMORED_MUTON_UFOPEDIA_IMAGE
+    text: STR_ARMORED_MUTON_UFOPEDIA
+    text_width: 158
+    listOrder: 11012
+  - id: STR_ARMORED_MUTON_LEADER
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_ARMORED_MUTON_LEADER
+    image_id: ARMORED_MUTON_LEADER_UFOPEDIA_IMAGE
+    text: STR_ARMORED_MUTON_LEADER_UFOPEDIA
+    text_width: 158
+    listOrder: 11013
+  - id: STR_MUTON_AUTOPSY
+    listOrder: 11014
+
+  - id: STR_ETHEREAL
+    listOrder: 11015
+  #- id: STR_ETHEREAL
+  #  listOrder: 11016
+  #- id: STR_ETHEREAL
+  #  listOrder: 11017
+
+  - id: STR_ETHEREAL_AUTOPSY
+    listOrder: 11018
+
+  - id: STR_SECTOPOD
+    text: STR_SECTOPOD_UFOPEDIA
+    listOrder: 11127
+
+  - id: STR_SECTOPOD_AUTOPSY
+    listOrder: 11128
+
+  - id: STR_CYBERDISC
+    listOrder: 11129
+
+  - id: STR_CYBERDISC_AUTOPSY
+    listOrder: 11130
+
+  - id: STR_MECHTOID
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_MECHTOID
+    image_id: MECHTOID_UFOPEDIA_IMAGE
+    text: STR_MECHTOID_UFOPEDIA
+    text_width: 150
+    listOrder: 11131
+  - id: STR_MECHTOID_AUTOPSY
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: AUTOPSY_IMAGE
+    text: STR_MECHTOID_AUTOPSY_UFOPEDIA
+    requires:
+      - STR_MECHTOID_CORPSE
+    text_width: 158
+    listOrder: 11131
+
+  - id: STR_CYBERSPHERE
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CYBERSPHERE
+    image_id: CYBERSPHERE_UFOPEDIA_IMAGE
+    text: STR_CYBERSPHERE_UFOPEDIA
+    text_width: 150
+    listOrder: 11132
+  - id: STR_CYBERSPHERE_AUTOPSY
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: AUTOPSY_IMAGE
+    text: STR_CYBERSPHERE_AUTOPSY_UFOPEDIA
+    requires:
+      - STR_CYBERSPHERE_CORPSE
+    text_width: 158
+    listOrder: 11132
+
+  - id: STR_PROBE
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_PROBE
+    image_id: PROBE_UFOPEDIA_IMAGE
+    text: STR_PROBE_UFOPEDIA
+    text_width: 150
+    listOrder: 11133
+  - id: STR_PROBE_AUTOPSY
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_PROBE_CORPSE
+    image_id: PROBE_AUTOPSY_UFOPEDIA
+    text: STR_PROBE_AUTOPSY_UFOPEDIA
+    text_width: 158
+    listOrder: 11133
+
+  - id: STR_REAPER
+    listOrder: 11134
+
+  - id: STR_REAPER_AUTOPSY
+    listOrder: 11135
+
+  - id: STR_CHRYSSALID
+    listOrder: 11136
+
+  - id: STR_CHRYSSALID_AUTOPSY
+    listOrder: 11137
+
+  - id: STR_CELATID
+    listOrder: 11138
+
+  - id: STR_CELATID_AUTOPSY
+    listOrder: 11139
+
+  - id: STR_SILACOID
+    listOrder: 11140
+
+  - id: STR_SILACOID_AUTOPSY
+    listOrder: 11141
+
+  #Alien Equipment
+
+  - id: STR_ALIEN_LASERS
+    type_id: 8
+    section: STR_ALIEN_EQUIPMENT
+    requires:
+      - STR_ALIEN_LASERS
+    text: STR_ALIEN_LASERS_UFOPEDIA
+    listOrder: 11990
+  - id: STR_ALIEN_LASER_PISTOL
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    requires:
+      - STR_PLASMA_PISTOL
+    text: STR_ALIEN_LASER_PISTOL_UFOPEDIA
+    listOrder: 11991
+  - id: STR_ALIEN_LASER_RIFLE
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    text: STR_ALIEN_LASER_RIFLE_UFOPEDIA
+    requires:
+      - STR_ALIEN_LASER_RIFLE
+    listOrder: 11992
+  - id: STR_ALIEN_HEAVY_LASER
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    text: STR_ALIEN_HEAVY_LASER_UFOPEDIA
+    requires:
+      - STR_ALIEN_HEAVY_LASER
+    listOrder: 11993
+  - id: STR_ALIEN_CRYSTAL
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    text: STR_ALIEN_CRYSTAL_UFOPEDIA
+    requires:
+      - STR_ALIEN_LASERS
+    listOrder: 11993
+
+  - id: STR_ALIEN_LASER_PISTOL_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_ALIEN_LASER_RIFLE_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_ALIEN_HEAVY_LASER_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_ALIEN_PLASMA_WEAPONS
+    type_id: 8
+    section: STR_ALIEN_EQUIPMENT
+    requires:
+      - STR_ALIEN_PLASMA_WEAPONS
+    text: STR_ALIEN_PLASMA_WEAPONS_UFOPEDIA
+    listOrder: 12000
+  - id: STR_PLASMA_PISTOL
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    requires:
+      - STR_PLASMA_PISTOL
+    text: STR_PLASMA_PISTOL_UFOPEDIA
+    listOrder: 12001
+  - id: STR_PLASMA_CASTER
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    requires:
+      - STR_PLASMA_CASTER
+    text: STR_PLASMA_CASTER_UFOPEDIA
+    listOrder: 12002
+  - id: STR_PLASMA_CASTER_CLIP
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    requires:
+      - STR_PLASMA_CASTER_CLIP
+    text: STR_PLASMA_CASTER_CLIP_UFOPEDIA
+    listOrder: 12003
+  - id: STR_PLASMA_RIFLE
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    requires:
+      - STR_PLASMA_RIFLE
+    text: STR_PLASMA_RIFLE_UFOPEDIA
+    listOrder: 12004
+  - id: STR_PLASMA_SNIPER_RIFLE
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    requires:
+      - STR_PLASMA_SNIPER_RIFLE
+    text: STR_PLASMA_SNIPER_RIFLE_UFOPEDIA
+    listOrder: 12005
+  - id: STR_PLASMA_SNIPER_RIFLE_CLIP
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    requires:
+      - STR_PLASMA_SNIPER_RIFLE_CLIP
+    text: STR_PLASMA_SNIPER_RIFLE_CLIP_UFOPEDIA
+    listOrder: 12006
+  - id: STR_HEAVY_PLASMA
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    requires:
+      - STR_HEAVY_PLASMA
+    text: STR_HEAVY_PLASMA_UFOPEDIA
+    listOrder: 12007
+  - id: STR_PLASMA_BLASTER
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    requires:
+      - STR_PLASMA_BLASTER
+    text: STR_PLASMA_BLASTER_UFOPEDIA
+    listOrder: 12008
+  - id: STR_PLASMA_BLASTER_CLIP
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    requires:
+      - STR_PLASMA_BLASTER_CLIP
+    text: STR_PLASMA_BLASTER_CLIP_UFOPEDIA
+    listOrder: 12009
+  - id: STR_TOXIGUN
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    requires:
+      - STR_TOXIGUN
+    text: STR_TOXIGUN_UFOPEDIA
+    listOrder: 12010
+  - id: STR_TOXIGUN_FLASK
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    requires:
+      - STR_TOXIGUN_FLASK
+    text: STR_TOXIGUN_FLASK_UFOPEDIA
+    listOrder: 12011
+  - id: STR_SMALL_LAUNCHER
+    section: STR_ALIEN_EQUIPMENT
+    listOrder: 12012
+  - id: STR_ELERIUM_BOMB
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    requires:
+      - STR_SMALL_LAUNCHER
+      - STR_ALIEN_PLASMA_WEAPONS
+    text: STR_ELERIUM_BOMB_UFOPEDIA
+    listOrder: 12013
+  - id: STR_STUN_BOMB
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    listOrder: 5300
+    requires:
+      - STR_SMALL_LAUNCHER
+      - STR_ALIEN_PLASMA_WEAPONS
+    text: STR_STUN_BOMB_UFOPEDIA
+  - id: STR_ACID_BOMB
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    listOrder: 12014
+    requires:
+      - STR_SMALL_LAUNCHER
+      - STR_ALIEN_PLASMA_WEAPONS
+    text: STR_ACID_BOMB_UFOPEDIA
+  - id: STR_BLASTER_LAUNCHER
+    section: STR_ALIEN_EQUIPMENT
+    listOrder: 12014
+
+  - id: STR_BLASTER_BOMB
+    section: STR_ALIEN_EQUIPMENT
+    listOrder: 12015
+
+  - id: STR_ALIEN_GRENADE
+    section: STR_ALIEN_EQUIPMENT
+    listOrder: 12016
+
+  - id: STR_ALIEN_CEPHALOPOD_TISSUE
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    text: STR_ALIEN_CEPHALOPOD_TISSUE_UFOPEDIA
+    requires:
+      - STR_FUSION_WEAPONS_RESEARCH
+    listOrder: 12100
+  - id: STR_FUSION_HANDGUN
+    requires:
+      - STR_FUSION_HANDGUN
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    text: STR_FUSION_HANDGUN_UFOPEDIA
+    listOrder: 12101
+  - id: STR_FUSION_SMG
+    requires:
+      - STR_FUSION_SMG
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    text: STR_FUSION_SMG_UFOPEDIA
+    listOrder: 12102
+  - id: STR_FUSION_POWER_CELL_LIGHT
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_FUSION_RIFLE
+    requires:
+      - STR_FUSION_RIFLE
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    text: STR_FUSION_RIFLE_UFOPEDIA
+    listOrder: 12103
+  - id: STR_FUSION_SNIPER
+    requires:
+      - STR_FUSION_SNIPER
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    text: STR_FUSION_SNIPER_UFOPEDIA
+    listOrder: 12104
+  - id: STR_FUSION_POWER_CELL_HEAVY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_FUSION_SPLITTER
+    requires:
+      - STR_FUSION_SPLITTER
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    text: STR_FUSION_SPLITTER_UFOPEDIA
+    listOrder: 12105
+  - id: STR_FUSION_POWER_CELL_HUGE
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_FUSION_LANCE
+    requires:
+      - STR_FUSION_LANCE
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    text: STR_FUSION_LANCE_UFOPEDIA
+    listOrder: 12106
+  - id: STR_ETHEREAL_NOBLE_SWORD
+    requires:
+      - STR_ETHEREAL_NOBLE_SWORD
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    text: STR_ETHEREAL_NOBLE_SWORD_UFOPEDIA
+    listOrder: 12107
+  - id: STR_THERMONUCLEAR_PROJECTILE_LAUNCHER
+    requires:
+      - STR_THERMONUCLEAR_PROJECTILE_LAUNCHER
+    type_id: 4
+    section: STR_ALIEN_EQUIPMENT
+    text: STR_THERMONUCLEAR_PROJECTILE_LAUNCHER_UFOPEDIA
+    listOrder: 12108
+  - id: STR_THERMONUCLEAR_PROJECTILE_LAUNCHER_MAGAZINE
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MIND_PROBE
+    section: STR_ALIEN_EQUIPMENT
+    listOrder: 12200
+
+  #UFO Components
+  - id: STR_UFO_POWER_SOURCE
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_UFO_POWER_SOURCE
+    image_id: UP032.SPK
+    text: STR_UFO_POWER_SOURCE_UFOPEDIA
+    text_width: 163
+    listOrder: 13000
+  - id: STR_UFO_NAVIGATION
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_UFO_NAVIGATION
+    image_id: UP033.SPK
+    text: STR_UFO_NAVIGATION_UFOPEDIA
+    text_width: 147
+    listOrder: 13001
+  - id: STR_UFO_CONSTRUCTION
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_UFO_CONSTRUCTION
+    image_id: UP034.SPK
+    text: STR_UFO_CONSTRUCTION_UFOPEDIA
+    text_width: 148
+    listOrder: 13002
+  - id: STR_ALIEN_FOOD
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_ALIEN_FOOD
+    image_id: UP035.SPK
+    text: STR_ALIEN_FOOD_UFOPEDIA
+    text_width: 173
+    listOrder: 13003
+  - id: STR_ALIEN_REPRODUCTION
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_ALIEN_REPRODUCTION
+    image_id: UP036.SPK
+    text: STR_ALIEN_REPRODUCTION_UFOPEDIA
+    text_width: 167
+    listOrder: 13004
+  - id: STR_ALIEN_ENTERTAINMENT
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_ALIEN_ENTERTAINMENT
+    image_id: UP037.SPK
+    text: STR_ALIEN_ENTERTAINMENT_UFOPEDIA
+    text_width: 146
+    listOrder: 13005
+  - id: STR_ALIEN_SURGERY
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_ALIEN_SURGERY
+    image_id: UP038.SPK
+    text: STR_ALIEN_SURGERY_UFOPEDIA
+    text_width: 108
+    listOrder: 13006
+  - id: STR_EXAMINATION_ROOM
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_EXAMINATION_ROOM
+    image_id: UP039.SPK
+    text: STR_EXAMINATION_ROOM_UFOPEDIA
+    text_width: 150
+    listOrder: 13007
+  - id: STR_ALIEN_ALLOYS
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_ALIEN_ALLOYS
+    image_id: UP040.SPK
+    text: STR_ALIEN_ALLOYS_UFOPEDIA
+    text_width: 145
+    listOrder: 13008
+
+  - id: STR_ELERIUM_115
+    section: STR_UFO_COMPONENTS
+    listOrder: 13009
+
+extraSprites:
+#########################################
+######### UFOPEDIA IMAGES ###############
+#########################################
+  - type: UNEXCOM_HISTORY_1_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/UFO_CRASH_UFOPEDIA.PNG
+  - type: UNEXCOM_HISTORY_2_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/UFO_SPOTTED_UFOPEDIA.PNG
+  - type: UNEXCOM_HISTORY_3_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/PLANE_SHOOTDOWN_UFOPEDIA.PNG
+  - type: SECURITY_COUNCIL_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECURITY_COUNCIL_UFOPEDIA.PNG
+  - type: UNEXCOM_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/UNEXCOM_UFOPEDIA.PNG
+  - type: BLUE_HELMETS_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/BLUE_HELMETS_UFOPEDIA.PNG
+  - type: PILOTS_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/PILOTS_UFOPEDIA.PNG
+#####################################################
+  - type: PISTOL_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/PISTOL_REPORT_IMAGE.PNG
+  - type: RIFLE_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/RIFLE_REPORT_IMAGE.PNG
+  - type: CARBINE_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/CARBINE_REPORT_IMAGE.PNG
+  - type: SMG_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SMG_REPORT_IMAGE.PNG
+  - type: SNIPER_RIFLE_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SNIPER_RIFLE_REPORT_IMAGE.PNG
+  - type: SHOTGUN_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SHOTGUN_REPORT_IMAGE.PNG
+  - type: ARTILLERY_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/ARTILLERY_REPORT_IMAGE.PNG
+  - type: LMG_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/LMG_REPORT_IMAGE.PNG
+  - type: GRENADE_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/GRENADE_REPORT_IMAGE.PNG
+  - type: MELEE_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/MELEE_REPORT_IMAGE.PNG
+  - type: MEDICAL_ITEMS_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/MEDICAL_ITEMS_REPORT_IMAGE.PNG
+  - type: FOOD_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/FOOD_REPORT_IMAGE.PNG
+
+#####################################################
+  - type: USA_INITIAL_APPROACH_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/USA_INITIAL_APPROACH_IMAGE.PNG
+  - type: NATO_INITIAL_APPROACH_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/NATO_INITIAL_APPROACH_IMAGE.PNG
+  - type: USSR_INITIAL_APPROACH_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/USSR_INITIAL_APPROACH_IMAGE.PNG
+
+  - type: USA_SUPPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/USA_SUPPORT_UFOPEDIA.PNG
+  - type: NATO_SUPPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/NATO_SUPPORT_UFOPEDIA.PNG
+  - type: USSR_SUPPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/USSR_SUPPORT_UFOPEDIA.PNG
+
+  - type: USA_AERONAUTIC_SUPPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/USA_AERONAUTIC_SUPPORT_IMAGE.PNG
+  - type: NATO_AERONAUTIC_SUPPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/NATO_AERONAUTIC_SUPPORT_IMAGE.PNG
+  - type: USSR_AERONAUTIC_SUPPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/USSR_AERONAUTIC_SUPPORT_IMAGE.PNG
+
+  - type: NATO_AIRCRAFT_OPTION1_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/NATO_AIRCRAFT_OPTION1_IMAGE.PNG
+  - type: NATO_AIRCRAFT_OPTION2_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/NATO_AIRCRAFT_OPTION2_IMAGE.PNG
+  - type: NATO_AIRCRAFT_OPTION3_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/NATO_AIRCRAFT_OPTION3_IMAGE.PNG
+
+  - type: USSR_AIRCRAFT_OPTION1_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/USSR_AIRCRAFT_OPTION1_IMAGE.PNG
+  - type: USSR_AIRCRAFT_OPTION2_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/USSR_AIRCRAFT_OPTION2_IMAGE.PNG
+################################################
+  - type: UNITED_WE_STAND_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/UNITED_WE_STAND_IMAGE.PNG
+
+  - type: OLYMPUS_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/OLYMPUS_IMAGE.PNG
+  - type: OLYMPUS_ORION_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/OLYMPUS_ORION_IMAGE.PNG
+  - type: OLYMPUS_SHUTTLE_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/OLYMPUS_SHUTTLE_IMAGE.PNG
+  - type: DEVASTATION_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/DEVASTATION_IMAGE.PNG
+  - type: DESTINATION_MARS_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/DESTINATION_MARS_IMAGE.PNG
+  - type: CYDONIA_OR_BUST_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/CYDONIA_OR_BUST_IMAGE.PNG
+
+################################################
+  - type: SPECIAL_FORCES_RESEARCH_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SPECIAL_FORCES_RESEARCH_IMAGE.PNG
+
+  - type: MERCENARY_RESEARCH_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/MERCENARY_RESEARCH_IMAGE.PNG
+
+  - type: UN_CUSTOM_WEAPONS_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/UN_CUSTOM_WEAPONS_IMAGE.PNG
+  - type: UN_FLAG_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/UN_FLAG_IMAGE.PNG
+
+  - type: ALLOY_BALLISTIC_WEAPONS_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/ALLOY_BALLISTIC_WEAPONS_IMAGE.PNG
+
+  - type: USA_LASER_RESEARCH_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/USA_LASER_RESEARCH_IMAGE.PNG
+  - type: NATO_LASER_RESEARCH_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/NATO_LASER_RESEARCH_IMAGE.PNG
+  - type: USSR_LASER_RESEARCH_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/USSR_LASER_RESEARCH_IMAGE.PNG
+
+  - type: ALIEN_CAPITAL_SHIPS_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/ALIEN_CAPITAL_SHIPS_UFOPEDIA.PNG
+  - type: ALIEN_FIGHTER_SHIPS_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/ALIEN_FIGHTER_SHIPS_UFOPEDIA.PNG
+  - type: ALIEN_SCOUT_SHIPS_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/ALIEN_SCOUT_SHIPS_UFOPEDIA.PNG
+  - type: ALIEN_SUPPORT_SHIPS_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/ALIEN_SUPPORT_SHIPS_UFOPEDIA.PNG
+  - type: ALIEN_SHIELDS_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/ALIEN_SHIELDS_UFOPEDIA.PNG
+#################################
+########## MEDALS ##############
+##############################
+
+  - type: MEDAL_ALIEN_BASE_ASSAULT_CAMPAIGN_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_ALIEN_BASE_ASSAULT_CAMPAIGN_IMAGE.png
+  - type: MEDAL_ALIEN_BASE_ASSAULT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_ALIEN_BASE_ASSAULT_IMAGE.png
+  - type: MEDAL_ARTILLERY_SPECIALIST_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_ARTILLERY_SPECIALIST_IMAGE.png
+  - type: MEDAL_CAPTURE_SPECIALIST_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_CAPTURE_SPECIALIST_IMAGE.png
+  - type: MEDAL_CARBINE_MARKSMAN_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_CARBINE_MARKSMAN_IMAGE.png
+  - type: MEDAL_COMBAT_MEDIC_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_COMBAT_MEDIC_IMAGE.png
+
+  - type: MEDAL_COUNTER_TERRORISM_CAMPAIGN_RIBBON_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_COUNTER_TERRORISM_CAMPAIGN_RIBBON_IMAGE.png
+  - type: MEDAL_DEFENDER_OF_EARTH_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_DEFENDER_OF_EARTH_IMAGE.png
+  - type: MEDAL_DISTINGUISHED_SERVICE_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_DISTINGUISHED_SERVICE_IMAGE.png
+  - type: MEDAL_EARTH_CAMPAIGN_RIBBON_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_EARTH_CAMPAIGN_RIBBON_IMAGE.png
+  - type: MEDAL_ENEMY_CRAFT_SPECIALIST_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_ENEMY_CRAFT_SPECIALIST_IMAGE.png
+  - type: MEDAL_EXEMPLARY_SERVICE_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_EXEMPLARY_SERVICE_IMAGE.png
+
+  - type: MEDAL_FALLEN_HERO_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_FALLEN_HERO_IMAGE.png
+  - type: MEDAL_FIELD_SUPPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_FIELD_SUPPORT_IMAGE.png
+  - type: MEDAL_GRENADIER_SPECIALIST_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_GRENADIER_SPECIALIST_IMAGE.png
+  - type: MEDAL_JOINT_OPERATIONS_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_JOINT_OPERATIONS_IMAGE.png
+  - type: MEDAL_LMG_MARKSMAN_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_LMG_MARKSMAN_IMAGE.png
+  - type: MEDAL_NATION_GRATITUDE_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_NATION_GRATITUDE_IMAGE.png
+
+  - type: MEDAL_NIGHT_STALKER_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_NIGHT_STALKER_IMAGE.png
+  - type: MEDAL_OPERATION_DEVASTATION_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_OPERATION_DEVASTATION_IMAGE.png
+  - type: MEDAL_OPERATION_FALSE_FLAG_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_OPERATION_FALSE_FLAG_IMAGE.png
+  - type: MEDAL_ORBITAL_DEFENDER_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_ORBITAL_DEFENDER_IMAGE.png
+  - type: MEDAL_PISTOL_MARKSMAN_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_PISTOL_MARKSMAN_IMAGE.png
+  - type: MEDAL_PURPLE_HEART_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_PURPLE_HEART_IMAGE.png
+
+  - type: MEDAL_RAIDER_SPECIALIST_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_RAIDER_SPECIALIST_IMAGE.png
+  - type: MEDAL_RIFLE_MARKSMAN_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_RIFLE_MARKSMAN_IMAGE.png
+  - type: MEDAL_SERVICE_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_SERVICE_IMAGE.png
+  - type: MEDAL_SHARPSHOOTER_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_SHARPSHOOTER_IMAGE.png
+  - type: MEDAL_SHOTGUN_SPECIALIST_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_SHOTGUN_SPECIALIST_IMAGE.png
+  - type: MEDAL_SMG_MARKSMAN_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_SMG_MARKSMAN_IMAGE.png
+  - type: MEDAL_SNIPER_MARKSMAN_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_SNIPER_MARKSMAN_IMAGE.png
+  - type: MEDAL_VALIANT_CRUX_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_VALIANT_CRUX_IMAGE.png
+  - type: MEDAL_WEAPON_PROFICIENCY_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/MEDAL_WEAPON_PROFICIENCY_IMAGE.png

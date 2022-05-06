@@ -1,0 +1,79 @@
+lookWeights:
+  - 44
+  - 44
+  - 9
+  - 3
+maleFirst:
+  - Cosmoperator Thomas
+  - Cosmoperator Andreas
+  - Cosmoperator Michael
+  - Cosmoperator Frank
+  - Cosmoperator Peter
+  - Cosmoperator Joerg
+  - Cosmoperator Uwe
+  - Cosmoperator Matthias
+  - Cosmoperator Stefan
+  - Cosmoperator Juergen
+  - Cosmoperator Ralf
+  - Cosmoperator Bernd
+  - Cosmoperator Klaus
+  - Cosmoperator Torsten
+  - Cosmoperator Hans
+  - Cosmoperator Rainer
+  - Cosmoperator Jens
+  - Cosmoperator Martin
+  - Cosmoperator Dirk
+  - Cosmoperator Wolfgang
+  - Cosmoperator Norbert
+  - Cosmoperator Holger
+  - Cosmoperator Kai
+  - Cosmoperator Joachim
+  - Cosmoperator Christian
+  - Cosmoperator Karsten
+  - Cosmoperator Dieter
+femaleFirst:
+  - Cosmoperator Susanne
+  - Cosmoperator Sabine
+  - Cosmoperator Petra
+  - Cosmoperator Birgit
+  - Cosmoperator Andrea
+  - Cosmoperator Gabriele
+  - Cosmoperator Martina
+  - Cosmoperator Heike
+  - Cosmoperator Ute
+  - Cosmoperator Barbara
+  - Cosmoperator Bettina
+  - Cosmoperator Karin
+  - Cosmoperator Angelika
+  - Cosmoperator Monika
+  - Cosmoperator Angela
+maleLast:
+  - Mueller
+  - Schmidt
+  - Schneider
+  - Fischer
+  - Weber
+  - Meyer
+  - Wagner
+  - Becker
+  - Schulz
+  - Hoffmann
+  - Schaefer
+  - Koch
+  - Bauer
+  - Richter
+  - Klein
+  - Wolf
+  - Schroeder 
+  - Neumann
+  - Schwarz
+  - Zimmermann
+  - Braun
+  - Krueger
+  - Hartmann
+  - Lange
+  - Schmitz
+  - Krause
+  - Meier
+  - Kauffman
+  - Goering

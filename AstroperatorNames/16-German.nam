@@ -1,0 +1,77 @@
+lookWeights:
+  - 44
+  - 44
+  - 9
+  - 3
+maleFirst:
+  - Astroperator Thomas
+  - Astroperator Andreas
+  - Astroperator Michael
+  - Astroperator Frank
+  - Astroperator Peter
+  - Astroperator Joerg
+  - Astroperator Uwe
+  - Astroperator Matthias
+  - Astroperator Stefan
+  - Astroperator Juergen
+  - Astroperator Ralf
+  - Astroperator Bernd
+  - Astroperator Klaus
+  - Astroperator Torsten
+  - Astroperator Hans
+  - Astroperator Rainer
+  - Astroperator Jens
+  - Astroperator Martin
+  - Astroperator Dirk
+  - Astroperator Wolfgang
+  - Astroperator Norbert
+  - Astroperator Holger
+  - Astroperator Kai
+  - Astroperator Joachim
+  - Astroperator Christian
+  - Astroperator Karsten
+  - Astroperator Dieter
+femaleFirst:
+  - Astroperator Susanne
+  - Astroperator Sabine
+  - Astroperator Petra
+  - Astroperator Birgit
+  - Astroperator Andrea
+  - Astroperator Gabriele
+  - Astroperator Martina
+  - Astroperator Heike
+  - Astroperator Ute
+  - Astroperator Barbara
+  - Astroperator Bettina
+  - Astroperator Karin
+  - Astroperator Angelika
+  - Astroperator Monika
+  - Astroperator Angela
+maleLast:
+  - Mueller
+  - Schmidt
+  - Schneider
+  - Fischer
+  - Weber
+  - Meyer
+  - Wagner
+  - Becker
+  - Schulz
+  - Hoffmann
+  - Schaefer
+  - Koch
+  - Bauer
+  - Richter
+  - Klein
+  - Wolf
+  - Schroeder 
+  - Neumann
+  - Schwarz
+  - Zimmermann
+  - Braun
+  - Krueger
+  - Hartmann
+  - Lange
+  - Schmitz
+  - Krause
+  - Meier
