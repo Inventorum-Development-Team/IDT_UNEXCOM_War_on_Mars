@@ -97,6 +97,223 @@ itemCategories:
   - type: STR_SPACE
     listOrder: 220
 
+startingBase:
+  facilities:
+    - type: STR_ACCESS_LIFT
+      x: 1
+      y: 2
+    - type: STR_HANGAR
+      x: 0
+      y: 0
+    - type: STR_HANGAR
+      x: 2
+      y: 0
+    - type: STR_HANGAR
+      x: 4
+      y: 0
+    - type: STR_GENERAL_STORES
+      x: 1
+      y: 3
+    - type: STR_LIVING_QUARTERS
+      x: 1
+      y: 4
+    - type: STR_LABORATORY
+      x: 1
+      y: 5
+    - type: STR_SMALL_RADAR_SYSTEM
+      x: 5
+      y: 2
+    - type: STR_WORKSHOP
+      x: 5
+      y: 3
+    - type: STR_LIVING_QUARTERS
+      x: 2
+      y: 4
+    - type: STR_LIVING_QUARTERS
+      x: 0
+      y: 4
+    - type: STR_GENERAL_STORES
+      x: 2
+      y: 3
+
+  randomSoldiers:
+    STR_ASTRONAUT: 8
+    STR_COSMONAUT: 8
+    STR_ASTROPERATOR: 4
+    STR_COSMOPERATOR: 4
+  crafts:
+    - type: STR_HARRIER
+      id: 1
+      fuel: 1500
+      damage: 0
+      weapons:
+        - type: STR_LASER_ARRAY_UC
+          ammo: 300
+        - type: STR_LONGSWORD
+          ammo: 2
+        - type: STR_LONGSWORD
+          ammo: 2
+        - type: STR_FUEL_TANK_UC
+    - type: STR_FORGER
+      id: 1
+      fuel: 1000
+      damage: 0
+      weapons:
+        - type: STR_KODIAK_LASER_CANNON
+          ammo: 100
+        - type: STR_LONGSWORD
+          ammo: 2
+        - type: STR_GORGON_ROCKETS
+          ammo: 6
+        - type: STR_FUEL_TANK_UC
+    - type: STR_SABRE
+      id: 1
+      fuel: 950
+      damage: 0
+      weapons:
+        - type: STR_KONDOR
+          ammo: 1
+        - type: STR_MJOLNIR
+          ammo: 2
+        - type: STR_ZEUS
+          ammo: 200
+        - type: STR_LONGSWORD
+          ammo: 2
+    - type: STR_SPACE_SHUTTLE
+      id: 1
+      fuel: 2732
+      damage: 0
+      weapons:
+        - type: STR_LASER_ARRAY_UC
+          ammo: 300
+        - type: STR_KRAKEN_ROCKETS
+          ammo: 8
+      items:
+        STR_GRENADE: 8
+        STR_M17_CARBINE: 4
+        STR_5_56MM_NATO_RIFLE_X30: 8
+        STR_M1972_LASER_PISTOL: 8
+        STR_P71_LASER_PISTOL: 4
+        STR_M20_M203_LASER_CARBINE: 2
+        STR_40MM_FRAG: 4
+        STR_L4_ASSAULT_LASER: 1
+        STR_G11_CASELESS_RIFLE: 2
+        STR_G11_CASELESS_RIFLE_MAG: 8
+        STR_FLECHETTE_RIFLE: 2
+        STR_ALLOY_RIFLE_FL: 8
+        STR_ALLOY_RIFLE_AP: 4
+        STR_BATTERY: 8
+        STR_MEDI_KIT: 4
+        STR_BIO_FOAM: 6
+      status: STR_READY
+    - type: STR_SPACE_SHUTTLE
+      id: 2
+      fuel: 2732
+      damage: 0
+      weapons:
+        - type: STR_LASER_ARRAY_UC
+          ammo: 300
+        - type: STR_KRAKEN_ROCKETS
+          ammo: 8
+      items:
+        STR_GRENADE: 8
+        STR_AK79_RIFLE: 6
+        STR_7_62MM_SOVIET_RIFLE_X40: 12
+        STR_P72_COMPACT_LASER: 12
+        STR_ALK72_LASER_RIFLE: 4
+        STR_KHARITONOV_LASER_BATTLE_RIFLE: 2
+        STR_MIRINOV_LASER_SNIPER: 1
+        STR_AN_MACHINE_LASER: 1
+        STR_TKB1980_CASELESS_RIFLE: 2
+        STR_TKB1980_CASELESS_RIFLE_MAG: 8
+        STR_FLECHETTE_CANNON: 1
+        STR_ALLOY_HEAVY_AP: 4
+        STR_ALLOY_HEAVY_FL: 4
+        STR_BATTERY: 8
+        STR_MEDI_KIT: 4
+        STR_BIO_FOAM: 6
+      status: STR_READY
+    - type: STR_ATALAYA
+      id: 1
+      fuel: 1000
+      damage: 0
+  items:
+    STR_FUEL_TANK: 2
+    STR_GRENADE: 5
+    STR_FLECHETTE_GRENADE: 5
+    STR_FLECHETTE_AUTO_SHOTGUN: 2
+    STR_ALLOY_AUTO_SHOTGUN_FL: 10
+    STR_FLECHETTE_GL: 2
+    STR_30MM_AAG: 6
+    STR_7_62MM_SOVIET_RIFLE_X40: 20
+    STR_5_56MM_NATO_RIFLE_X30: 20
+    STR_G11_CASELESS_RIFLE_MAG: 5
+    STR_TKB1980_CASELESS_RIFLE_MAG: 5
+    STR_BATTERY: 15
+    STR_40MM_FRAG: 10
+    STR_DUCT_TAPE: 10
+    STR_BIO_FOAM: 10
+  scientists: 10
+  engineers: 10
+
+
+
+monthlyRatings:
+  6000: STR_MT_RATING_EXEMPLARY
+  2800: STR_MT_RATING_EXCELLENT
+  1200: STR_MT_RATING_GREAT
+  400: STR_MT_RATING_GOOD
+  0: STR_MT_RATING_OK
+  -799: STR_MT_RATING_POOR
+  -2399: STR_MT_RATING_BAD
+  -5599: STR_MT_RATING_TERRIBLE
+  -99999: STR_MT_RATING_ABOMINABLE
+missionRatings:
+  3000: STR_MT_RATING_EXEMPLARY
+  1400: STR_MT_RATING_EXCELLENT
+  600: STR_MT_RATING_GREAT
+  200: STR_MT_RATING_GOOD
+  0: STR_MT_RATING_OK
+  -399: STR_MT_RATING_POOR
+  -1199: STR_MT_RATING_BAD
+  -2799: STR_MT_RATING_TERRIBLE
+  -99999: STR_MT_RATING_ABOMINABLE
+defeatScore: -1600
+defeatFunds: -1000000
+alienItemLevels:
+  - [0, 0, 0, 0, 0, 0, 0, 1, 1, 2]
+  - [0, 0, 0, 0, 0, 1, 1, 1, 2, 2]
+  - [0, 0, 0, 0, 0, 1, 1, 1, 2, 2]
+  - [0, 0, 0, 1, 1, 1, 1, 2, 2, 3]
+  - [0, 0, 0, 1, 1, 1, 1, 2, 2, 3]
+  - [0, 0, 1, 1, 1, 1, 2, 2, 3, 3]
+  - [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
+  - [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
+  - [1, 1, 1, 2, 2, 2, 3, 3, 3, 3]
+  - [1, 1, 1, 2, 2, 2, 3, 3, 3, 3]
+  - [1, 1, 1, 2, 2, 2, 3, 3, 3, 4]
+  - [1, 1, 2, 2, 2, 3, 3, 3, 3, 4]
+  - [1, 1, 2, 2, 2, 3, 3, 3, 4, 4]
+  - [1, 1, 2, 2, 2, 3, 3, 3, 4, 4]
+  - [1, 2, 2, 2, 3, 3, 3, 3, 4, 4]
+  - [1, 2, 2, 2, 3, 3, 3, 3, 4, 4]
+  - [1, 2, 2, 2, 3, 3, 3, 3, 4, 4]
+  - [2, 2, 2, 3, 3, 3, 3, 4, 4, 4]
+  - [2, 2, 3, 3, 3, 3, 3, 4, 4, 4]
+  - [2, 2, 3, 3, 3, 3, 3, 4, 4, 4]
+  - [2, 3, 3, 3, 3, 3, 4, 4, 4, 4]
+  - [3, 3, 3, 3, 3, 3, 4, 4, 4, 4]
+  - [3, 3, 3, 3, 3, 3, 4, 4, 4, 4]
+#############################
+#### UNDERWATER STUFF ######
+###########################
+transparencyLUTs:
+  - colors:
+      - [  8,  8, 12, 2 ] # "white"
+      - [ 16,  8,  0, 2 ] # orange
+      - [  0, 12, 12, 2 ] # cyan
+      - [  4, 16,  4, 2 ] # green
+
 enviroEffects:
   - type: STR_MARS_ENVIRO
     mapBackgroundColor: 46
@@ -200,6 +417,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/BACK17.PNG
+  - type: RnD_TERROR_SITE_ALERT_BACKGROUND.SCR #R&D terror site alert
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/RnD_TERROR_SITE_ALERT_BACKGROUND.PNG
 
 ### Interception images
 
@@ -481,58 +704,3 @@ invs:
       STR_RIGHT_HAND: 3
       STR_RIGHT_LEG: 10
       STR_RIGHT_SHOULDER: 10
-
-monthlyRatings:
-   6000: STR_MT_RATING_EXEMPLARY
-   2800: STR_MT_RATING_EXCELLENT
-   1200: STR_MT_RATING_GREAT
-   400: STR_MT_RATING_GOOD
-   0: STR_MT_RATING_OK
-   -799: STR_MT_RATING_POOR
-   -2399: STR_MT_RATING_BAD
-   -5599: STR_MT_RATING_TERRIBLE
-   -99999: STR_MT_RATING_ABOMINABLE
-missionRatings:
-   3000: STR_MT_RATING_EXEMPLARY
-   1400: STR_MT_RATING_EXCELLENT
-   600: STR_MT_RATING_GREAT
-   200: STR_MT_RATING_GOOD
-   0: STR_MT_RATING_OK
-   -399: STR_MT_RATING_POOR
-   -1199: STR_MT_RATING_BAD
-   -2799: STR_MT_RATING_TERRIBLE
-   -99999: STR_MT_RATING_ABOMINABLE
-defeatScore: -1600
-defeatFunds: -10000000
-
-transparencyLUTs:
-  - colors:
-      - [  8,  8, 12, 2 ] # "white"
-      - [ 16,  8,  0, 2 ] # orange
-      - [  0, 12, 12, 2 ] # cyan
-      - [  4, 16,  4, 2 ] # green
-
-alienItemLevels:
-  - [0, 0, 0, 0, 0, 0, 0, 1, 1, 2]
-  - [0, 0, 0, 0, 0, 1, 1, 1, 2, 2]
-  - [0, 0, 0, 0, 0, 1, 1, 1, 2, 2]
-  - [0, 0, 0, 1, 1, 1, 1, 2, 2, 3]
-  - [0, 0, 0, 1, 1, 1, 1, 2, 2, 3]
-  - [0, 0, 1, 1, 1, 1, 2, 2, 3, 3]
-  - [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
-  - [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
-  - [1, 1, 1, 2, 2, 2, 3, 3, 3, 3]
-  - [1, 1, 1, 2, 2, 2, 3, 3, 3, 3]
-  - [1, 1, 1, 2, 2, 2, 3, 3, 3, 4]
-  - [1, 1, 2, 2, 2, 3, 3, 3, 3, 4]
-  - [1, 1, 2, 2, 2, 3, 3, 3, 4, 4]
-  - [1, 1, 2, 2, 2, 3, 3, 3, 4, 4]
-  - [1, 2, 2, 2, 3, 3, 3, 3, 4, 4]
-  - [1, 2, 2, 2, 3, 3, 3, 3, 4, 4]
-  - [1, 2, 2, 2, 3, 3, 3, 3, 4, 4]
-  - [2, 2, 2, 3, 3, 3, 3, 4, 4, 4]
-  - [2, 2, 3, 3, 3, 3, 3, 4, 4, 4]
-  - [2, 2, 3, 3, 3, 3, 3, 4, 4, 4]
-  - [2, 3, 3, 3, 3, 3, 4, 4, 4, 4]
-  - [3, 3, 3, 3, 3, 3, 4, 4, 4, 4]
-  - [3, 3, 3, 3, 3, 3, 4, 4, 4, 4]
