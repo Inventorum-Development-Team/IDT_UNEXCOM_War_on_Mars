@@ -12,10 +12,10 @@ ufos:
       name: EXCAVTR
       mapDataSets:
         - BLANKS
-        - U_EXT02
-        - U_WALL02
+        - U_EXT02_MARS
+        - U_WALL02_MARS
         - U_BITS
-        - UFOL83
+        - UFOL83_MARS
       mapBlocks:
         - name: EXCAVTR1
           width: 20
@@ -92,10 +92,10 @@ ufos:
       name: SENTRY
       mapDataSets:
         - BLANKS
-        - U_EXT02
-        - U_WALL02
+        - U_EXT02_MARS
+        - U_WALL02_MARS
         - U_BITS
-        - UFOL83
+        - UFOL83_MARS
       mapBlocks:
         - name: SENTRY1
           width: 20
@@ -187,10 +187,10 @@ ufos:
       name: FIGHTER
       mapDataSets:
         - BLANKS
-        - U_EXT02
-        - U_WALL02
+        - U_EXT02_MARS
+        - U_WALL02_MARS
         - U_BITS
-        - UFOL83
+        - UFOL83_MARS
       mapBlocks:
         - name: FIGHTER1
           width: 20
@@ -315,13 +315,13 @@ ufos:
       name: LABSHIP
       mapDataSets:
         - BLANKS
-        - U_EXT02
-        - U_WALL02
+        - U_EXT02_MARS
+        - U_WALL02_MARS
         - U_PODS
         - U_BITS
         - U_DISEC2
         - U_OPER2
-        - UFOL83
+        - UFOL83_MARS
       mapBlocks:
         - name: LABSHIP1
           width: 30

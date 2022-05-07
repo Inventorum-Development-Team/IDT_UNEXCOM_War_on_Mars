@@ -1228,8 +1228,8 @@ ufos:
         - U_WALL01
         - U_DISEC1
         - U_OPER1
-        - PUFOL83_MARS
-        - PUFOL83_MARS-B
+        - PUFOL83
+        - PUFOL83-B
       mapBlocks:
         - name: P4_C
           width: 20
@@ -1246,11 +1246,60 @@ ufos:
         - U_WALL01
         - U_DISEC1
         - U_OPER1
+        - PUFOL83
+        - PUFOL83-B
+      mapBlocks:
+        - name: PTOWER_ENTRY
+          width: 20
+          length: 20
+
+  - type: STR_INSTANT_INFILTRATION_UFO
+    speedMax: 999999
+    damageMax: 1
+    breakOffTime: 1
+    markerLand: 0 # 25
+    marker: 0 # 36
+    score: 0
+    missionScore: 0
+    size: STR_SMALL
+    sprite: 1
+    #modSprite: InterceptionUFO-01 # rest doesn't matter as player can't intercept it anyway
+    battlescapeTerrainData:
+      name: PTOWER_ENTRY
+      mapDataSets:
+        - BLANKS
+        - U_EXT01
+        - U_WALL01
+        - U_DISEC1
+        - U_OPER1
         - PUFOL83_MARS
         - PUFOL83_MARS-B
       mapBlocks:
         - name: PTOWER_ENTRY
           width: 20
           length: 20
+          items:
+            STR_ELERIUM_115:
+              - [ 5, 14, 0]
+              - [ 23, 14, 0]
+              - [ 14, 5, 0]
+              - [ 14, 23, 0]
+            PTURRET_SPAWNER:
+              - [ 13, 25, 3]
+              - [ 25, 14, 3]
+              - [ 14, 2, 3]
+              - [ 2, 13, 3]
+            SPTURRET_SPAWNER:
+              - [ 13, 26, 1]
+              - [ 15, 26, 1]
+              - [ 13, 2, 1]
+              - [ 15, 2, 1]
+              - [ 2, 15, 1]
+              - [ 2, 13, 1]
+              - [ 26, 15, 1]
+              - [ 26, 13, 1]
+          fuseTimers:
+            PTURRET_SPAWNER: [0, 0]
+            SPTURRET_SPAWNER: [0, 0]
 
 ##END UFOS

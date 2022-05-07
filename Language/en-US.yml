@@ -94,6 +94,8 @@ en-US:
   STR_POWER_DESTROYED: "POWER SOURCES DESTROYED"
   STR_OVERSEER_BRIEFING: "CODENAME: Operation False Flag - Using a captured Hyper Wave Encoder we were able to get the Overseer UFO to land, faking a base location. Our mission: we have to either kill all aliens or destroy the power source and evacuate before the time runs out and the aliens realize what is happening and lift off. They'll never know - we give no warning. We set a trap, they took the bait."
 
+  STR_COUNTRY_HAS_SIGNED_A_SECRET_PACT: "{0} has been overrun by alien insurgents and we have lost contact with the UN forces in the area. There are reports of a new alien base in the area."
+  STR_COUNTRIES_HAVE_SIGNED_A_SECRET_PACT: "{0} have been overrun by alien insurgents and we have lost contact with the UN forces in the area. There are reports of new alien bases in the area."
 
 ####################################################
 
@@ -258,17 +260,15 @@ en-US:
   STR_MONTH: "Month> {ALT}{0} {1}"
   STR_COUNCIL_IS_GENERALLY_SATISFIED: "The council of funding nations is generally satisfied with your progress so far."
   STR_COUNCIL_IS_VERY_PLEASED: "The council of funding nations is very pleased with your excellent progress. Keep up the good work."
-  STR_COUNCIL_IS_DISSATISFIED: "The council of funding nations is dissatisfied with your performance. You must improve your effectiveness in dealing with the alien menace or risk termination of the project."
-  STR_YOU_HAVE_NOT_SUCCEEDED: "You have not succeeded in dealing with the alien invasion and the council of funding nations has regrettably decided to terminate the project. Each nation shall deal with the problem as they see fit. We can only hope that we can come to some accommodation with these apparently hostile forces, and that the general population will come to terms with the alien visitors."
-  STR_COUNTRY_IS_PARTICULARLY_PLEASED: "{0} is particularly pleased with your ability to deal with the localized threat and has agreed to increase its funding."
-  STR_COUNTRIES_ARE_PARTICULARLY_HAPPY: "{0} are particularly happy with your progress in dealing with local alien incursion and have agreed to increase their funding."
+  STR_COUNCIL_IS_DISSATISFIED: "The council of funding nations is dissatisfied with your performance. You must improve your effectiveness in dealing with the alien local insurgents or risk losing our foothold on Mars."
+  STR_YOU_HAVE_NOT_SUCCEEDED: "The Mankind colonization and occupation efforts in the Red Planet have failed and the UNSC is retreating from the surface. Sensitive information from civilian and military outposts have been deleted and all the supplies we cannot retrive are destroyed to prevent the aliens to adquire them."
+  STR_COUNTRY_IS_PARTICULARLY_PLEASED: "{0} is particularly pleased with your ability to deal with the local guerrillas and has agreed to increase its funding."
+  STR_COUNTRIES_ARE_PARTICULARLY_HAPPY: "{0} are particularly happy with your progress in dealing with local alien insurgents and have agreed to increase their funding."
   STR_COUNTRIES_COMMA: "{0}, {1}"
   STR_COUNTRIES_AND: "{0} and {1}"
   STR_COUNTRY_IS_UNHAPPY_WITH_YOUR_ABILITY: "{0} is unhappy with your ability to deal with alien activity in its territory and has decided to reduce its financial commitment."
   STR_COUNTRIES_ARE_UNHAPPY_WITH_YOUR_ABILITY: "{0} are unhappy with your ability to deal with alien activity in their territory and have decided to reduce their funding."
   STR_KNOTS: "{0} knots"
-  STR_COUNTRY_HAS_SIGNED_A_SECRET_PACT: "{0} has signed a secret pact with unknown alien forces and has withdrawn from the project."
-  STR_COUNTRIES_HAVE_SIGNED_A_SECRET_PACT: "{0} have signed a secret pact with unknown alien forces and have withdrawn from the project."
   STR_MONTHLY_RATING: "Monthly Rating> {ALT}{0}{ALT} {1}"
   STR_FUNDING_CHANGE: "Funding change> {ALT}{0}"
   STR_COUNCIL_REDUCE_DEBTS: "The funding council is not happy with your financial position. You must reduce your debts below $1 million or the project will be terminated."

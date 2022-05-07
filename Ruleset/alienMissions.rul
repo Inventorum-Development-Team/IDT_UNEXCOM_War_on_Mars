@@ -1,0 +1,283 @@
+alienMissions:
+  - type: STR_ALIEN_INFILTRATION_INITIAL
+    points: 50 #Pact score only awarded on month end
+    objective: 1
+    siteType: STR_ALIEN_BASE_ASSAULT
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0: # end game list
+        STR_SECTOID: 10
+        STR_ARMORED_SECTOID: 10
+        STR_SNAKEMAN: 10
+        STR_ARMORED_SNAKEMAN: 10
+        STR_ETHEREAL: 10
+        STR_ARMORED_ETHEREAL: 10
+        STR_FLOATER: 10
+        STR_ARMORED_FLOATER: 10
+        STR_MUTON: 10
+        STR_ARMORED_MUTON: 10
+
+    waves:
+      - ufo: STR_INSTANT_INFILTRATION_UFO
+        count: 1
+        trajectory: P7
+        timer: 10 # 9000
+    endlessInfiltration: false
+
+  - type: STR_ALIEN_RETALIATION
+    points: 0
+    objective: 4
+    spawnUfo: STR_TROOP_LANDER # Spawned for the final retaliation run
+    raceWeights: # In the case of a shoot-down, race comes from the UFO that triggered the mission.
+      0:
+        STR_ARMORED_SECTOID: 20
+        STR_ARMORED_SNAKEMAN: 20
+        STR_ARMORED_ETHEREAL: 20
+        STR_ARMORED_MUTON: 20
+        STR_ARMORED_FLOATER: 20
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P8
+        timer: 5000
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P8
+        timer: 5000
+      - ufo: STR_SENTRY_SHIP
+        count: 1
+        trajectory: P8
+        timer: 5000
+
+  - type: STR_ALIEN_SUPPLY
+    points: 0
+    objective: 5
+    raceWeights: {} #Special case, race comes from base.
+    waves:
+      - ufo: STR_SUPPLY_SHIP
+        count: 1
+        trajectory: P9
+        timer: 6000
+        objective: true
+
+  - type: STR_AIR_SUPERIORITY_1
+    raceWeights:
+      0:
+        STR_SECTOID: 30
+        STR_SNAKEMAN: 10
+        STR_MUTON: 30
+      9:
+        STR_ARMORED_SECTOID: 30
+        STR_ARMORED_SNAKEMAN: 10
+        STR_ARMORED_MUTON: 30
+    waves:
+      - ufo: STR_SMALL_FIGHTER
+        count: 1
+        trajectory: P2
+        timer: 5000
+      - ufo: STR_SMALL_FIGHTER
+        count: 1
+        trajectory: P2
+        timer: 5000
+  - type: STR_AIR_SUPERIORITY_2
+    raceWeights:
+      0:
+        STR_SECTOID: 30
+        STR_SNAKEMAN: 10
+        STR_MUTON: 30
+      9:
+        STR_SECTOID: 30
+        STR_SNAKEMAN: 10
+    waves:
+      - ufo: STR_SMALL_FIGHTER
+        count: 1
+        trajectory: P2
+        timer: 5000
+      - ufo: STR_SMALL_FIGHTER
+        count: 1
+        trajectory: P2
+        timer: 5000
+      - ufo: STR_SMALL_FIGHTER
+        count: 1
+        trajectory: P2
+        timer: 5000
+      - ufo: STR_SMALL_FIGHTER
+        count: 1
+        trajectory: P2
+        timer: 5000
+  - type: STR_AIR_SUPERIORITY_3
+    raceWeights:
+      0:
+        STR_SECTOID: 30
+        STR_SNAKEMAN: 10
+        STR_MUTON: 30
+      9:
+        STR_ARMORED_SECTOID: 30
+        STR_ARMORED_SNAKEMAN: 10
+        STR_ARMORED_MUTON: 30
+    waves:
+      - ufo: STR_FIGHTER_SHIP
+        count: 1
+        trajectory: P2
+        timer: 5000
+      - ufo: STR_FIGHTER_SHIP
+        count: 1
+        trajectory: P2
+        timer: 5000
+
+  - type: STR_ALIEN_INTERCEPTION_1 # Light interception
+    operationType: 6
+    points: 0
+    raceWeights:
+      1:
+        STR_SECTOID: 10
+        STR_SNAKEMAN: 10
+      5:
+        STR_SECTOID: 30
+        STR_SNAKEMAN: 10
+        STR_MUTON: 30
+      9:
+        STR_ARMORED_SECTOID: 30
+        STR_ARMORED_SNAKEMAN: 10
+        STR_ARMORED_MUTON: 30
+    waves:
+      - ufo: STR_SMALL_FIGHTER
+        count: 1
+        trajectory: P2
+        timer: 90
+        huntMode: 1 #transports first
+  - type: STR_ALIEN_INTERCEPTION_2 # Medium interception
+    operationType: 6
+    points: 0
+    raceWeights:
+      1:
+        STR_SECTOID: 10
+        STR_SNAKEMAN: 10
+      5:
+        STR_SECTOID: 30
+        STR_SNAKEMAN: 10
+        STR_MUTON: 30
+      9:
+        STR_ARMORED_SECTOID: 30
+        STR_ARMORED_SNAKEMAN: 10
+        STR_ARMORED_MUTON: 30
+    waves:
+      - ufo: STR_SMALL_FIGHTER
+        count: 1
+        trajectory: P2
+        huntMode: 0
+        timer: 90
+      - ufo: STR_SMALL_FIGHTER
+        count: 1
+        trajectory: P3
+        timer: 90
+        huntMode: 1
+
+  - type: STR_INVASION_START
+    points: 0
+    raceWeights:
+      2:
+        STR_SECTOID: 5
+        STR_SNAKEMAN: 5
+        STR_FLOATER: 5
+      3:
+        STR_SECTOID: 10
+        STR_SNAKEMAN: 10
+        STR_MUTON: 10
+        STR_FLOATER: 10
+      5:
+        STR_SECTOID: 10
+        STR_SNAKEMAN: 10
+        STR_MUTON: 30
+        STR_FLOATER: 20
+      7:
+        STR_SECTOID: 20
+        STR_SNAKEMAN: 10
+        STR_MUTON: 20
+        STR_FLOATER: 20
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 5000
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 5000
+      - ufo: STR_LARGE_SCOUT
+        count: 2
+        trajectory: P4
+        timer: 5000
+      - ufo: STR_EXCAVATOR
+        count: 1
+        trajectory: P2
+        timer: 5000
+      - ufo: STR_LAB_SHIP
+        count: 1
+        trajectory: P4
+        timer: 5000
+  - type: STR_ALIEN_HARVEST
+    points: 100
+    raceWeights:
+      2:
+        STR_SECTOID: 10
+        STR_SNAKEMAN: 5
+      3:
+        STR_SECTOID: 50
+        STR_FLOATER: 35
+      6:
+        STR_SECTOID: 30
+        STR_FLOATER: 40
+      12:
+        STR_ARMORED_SECTOID: 30
+        STR_ARMORED_MUTON: 30
+        STR_ARMORED_FLOATER: 10
+    waves:
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 5000
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 5000
+      - ufo: STR_HARVESTER
+        count: 1
+        trajectory: P4
+        timer: 5000
+      - ufo: STR_LAB_SHIP
+        count: 1
+        trajectory: P2
+        timer: 5000
+  - type: STR_ALIEN_ABDUCTION
+    points: 100
+    raceWeights:
+      2:
+        STR_SECTOID: 5
+        STR_FLOATER: 10
+      3:
+        STR_SECTOID: 10
+        STR_FLOATER: 30
+      6:
+        STR_SECTOID: 30
+        STR_FLOATER: 10
+      12:
+        STR_ARMORED_SECTOID: 30
+        STR_ARMORED_FLOATER: 20
+    waves:
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 5000
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P3
+        timer: 5000
+      - ufo: STR_ABDUCTOR
+        count: 1
+        trajectory: P4
+        timer: 5000
+      - ufo: STR_ABDUCTOR
+        count: 1
+        trajectory: P4
+        timer: 5000
