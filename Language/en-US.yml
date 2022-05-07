@@ -499,13 +499,18 @@ en-US:
   STR_HERMES: "HERMES"
   STR_MIG_105: "FIERY"
   STR_BASTION: "BASTION"
-  STR_SPACE_SHUTTLE: "RAIDER SHUTTLE"
-  STR_SPACE_SHUTTLE_ORBITAL: "RAIDER SHUTTLE (ORBITAL)"
+  STR_SPACE_SHUTTLE: "INTRUDER SHUTTLE"
+  STR_SPACE_SHUTTLE_ORBITAL: "INTRUDER SHUTTLE (ORBITAL)"
   STR_BLACKBIRD: "BLACKBIRD"
+
+  STR_HARRIER: "HARRIER"
+  STR_HARRIER_UFOPEDIA: "Yak-38M 'Forger' - VTOL naval interceptor and attack fighter, originally meant for the Soviet Naval Aviation onboard aircraft carriers. Modified to operate in the thin Martian atmosphere, it's very fast."
+  STR_FORGER: "FORGER"
+  STR_FORGER_UFOPEDIA: "SAV-8M Harrier - VTOL strike fighter, specialized version of the Harrier jumpjet used by several NATO countries in Earth. It's thrusters have been modified to be used in makeshift airstrips in Mars surface, can be used in CAS missions."
 
   STR_TUNNAN_MK2: "TORNSVALAN"
 
-  STR_SPACE_SHUTTLE_NPC: "Allied Raider Shuttle"
+  STR_SPACE_SHUTTLE_NPC: "Allied Intruder Shuttle"
   STR_MOON_STATION: "Alien Moon Station"
   STR_MOON_AA: "Alien Moon AA Battery"
 
@@ -1300,7 +1305,7 @@ en-US:
 
   STR_APOLLO_LASER_GATLING_UFOPEDIA: GAU-50 Apollo - The most recent advances in laser weaponry have allowed us to develop a mechanism to allow a fast and intermittent light pulse, but significantly reducing its power. This general electric designed cannon is focused on short range.
 
-  STR_KODIAK_LASER_CANNON_UFOPEDIA: YLC-10 Kodiak Laser Cannon - prototype of experimental laser cannon designed exclusively by UNEXCOM engineers. Its refracting lenses and modern self-recharging power cell allow it to have an undisputed power, effectiveness and acceptable range.
+  STR_KODIAK_LASER_CANNON_UFOPEDIA: LC-10 Kodiak Laser Cannon - prototype of experimental laser cannon designed exclusively by UNEXCOM engineers. Its refracting lenses and modern self-recharging power cell allow it to have an undisputed power, effectiveness and acceptable range.
 
   STR_FUEL_TANK_UFOPEDIA: "Extra fuel tank, carried under wing. Add 150 extra fuel units, which means additional 400 nautical miles or 740 km, with the disadvantage that it makes the aircraft slower (accel -1) and less agile (avoid bonus -5)."
 
@@ -1320,11 +1325,11 @@ en-US:
 
   STR_HIND_UFOPEDIA: "Mi-24X Hind - Advanced Soviet gunship model, built in collaboration with Mikhail Mil and UNEXCOM. Nicknamed 'flying tank' for its fire power and hardness, sacrifices a little the ability to transport troops for increased armor and space for fuel. Performs a missile strike during the first turn of combat (troops cannot leave the craft during the first turn of combat)"
 
-  STR_CRUSADER_UFOPEDIA: "XF-38 Crusader - Hybrid interceptor created with stealth technology, specially designed for UFO combat. Its stealth technology allows it to have some room to manoeuvre without being detected, while maintaining its combat capability."
+  STR_CRUSADER_UFOPEDIA: "F-38 Crusader - Hybrid interceptor created with stealth technology, specially designed for UFO combat. Its stealth technology allows it to have some room to manoeuvre without being detected, while maintaining its combat capability."
 
   STR_SARACEN_UFOPEDIA: "XB-90 Saracen - Hybrid bomber created with alien avionics and human stealth technology. Its internal weapons bay can carry an enormous variety of missiles and bombs without compromising its infiltration capabilities. "
 
-  STR_SPACE_SHUTTLE_UFOPEDIA: "X-73 Raider Shuttle - Prototype space plane with a large cargo bay, planned to replace the Apollo program and intended to start in the 80s, the new technologies allowed us to improve and implement the model. Has VTOL capabilities."
+  STR_SPACE_SHUTTLE_UFOPEDIA: "SDS-80 Intruder Shuttle - Transport space plane with a large cargo bay, used by the UN as the standard transport and gunship. The Warsaw Pact uses a similar model named Buran. Has VTOL capabilities."
 
   STR_BLACKBIRD_UFOPEDIA: "SR-71 Blackbird - American high altitude stealth spy plane. Notorious for its speed, it is currently the fastest aircraft ever built. The plane was painted black so that it would be harder to spot against the night sky, which led to it gaining its nickname."
 
@@ -1376,7 +1381,7 @@ en-US:
 
   STR_SABRE_UFOPAEDIA: "Sabre Endo/Exo-atmospheric Fighter - Revolutionary aircraft design developed by UNEXCOM. The aircraft is capable of high-atmospheric flight and even short exo-atmospheric flight if required. Due to being able to operate in these high altitudes the Sabre encounters minimal air resistance, making its extreme speed possible. In addition, the Sabre can carry a versatile set of weaponry."
 
-  STR_DYNASOAR_UFOPAEDIA: "Boeing X-20 Dyna-Soar - A spaceplane design that has been in development since 1957, although plagued by a lack of funds the program has avoided cancellation due to the repeated UFO sightings during the 60s. After the beginning of the alien invasion the program garnered a lot more interest. Although expensive to produce, the Dyna-Soar could provide a significant advantage in our struggle against the Aliens."
+  STR_DYNASOAR_UFOPAEDIA: "Boeing SF-22 Dyna-MOWS - A spaceplane design that has been in development since 1957, although plagued by a lack of funds the program has avoided cancellation due to the repeated UFO sightings during the 60s. After the beginning of the alien invasion the program garnered a lot more interest. Although expensive to produce, the Dyna-Soar could provide a significant advantage in our struggle against the Aliens."
 
   STR_HERMES_UFOPAEDIA: "Hermes - Originally planned as a reusable space shuttle to deliver cargo into orbit, but after the alien invasion plans quickly changed. The HERMES became an exo-atmospheric strike fighter capable of delivering nuclear missiles. Due to the non-military origins of the craft the design lacks the durability and maneuverability."
 

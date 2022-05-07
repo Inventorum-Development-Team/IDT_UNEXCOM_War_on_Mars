@@ -27,14 +27,16 @@ crafts:
     speedMax: 1500
     avoidBonus: 25
     accel: 4
-    weapons: 3
+    weapons: 5
     weaponTypes:
       - [0, 1]
       - 2
+      - [2, 6]
       - [2, 5]
     weaponStrings:
       - STR_CRAFT_ALL_CANNONS_ONE
       - STR_CRAFT_LIGHT_MISSILE_TWO
+      - STR_CRAFT_ROCKET_LIGHT_THREE
       - STR_CRAFT_LIGHT_AUX_THREE
     soldiers: 1
     vehicles: 0
@@ -58,16 +60,18 @@ crafts:
     damageMax: 550
     speedMax: 2000
     avoidBonus: 25
-    accel: 4
-    weapons: 3
+    accel: 6
+    weapons: 4
     weaponTypes:
       - [0, 1]
       - 2
       - 2
+      - [2, 5]
     weaponStrings:
       - STR_CRAFT_ALL_CANNONS_ONE
       - STR_CRAFT_LIGHT_MISSILE_TWO
       - STR_CRAFT_LIGHT_MISSILE_THREE
+      - STR_CRAFT_LIGHT_AUX_THREE
     soldiers: 1
     vehicles: 0
     pilots: 1
@@ -250,7 +254,6 @@ crafts:
     damageMax: 450
     speedMax: 14092 # Orbital speed of 27,600 Km/h
     accel: 3
-    weapons: 0
     soldiers: 14
     vehicles: 0
     pilots: 2
@@ -262,6 +265,19 @@ crafts:
     repairRate: 4
     transferTime: 48
     score: 40
+    weapons: 4
+    weaponTypes:
+      - [5, 0, 1]
+      - [5, 6]
+      - [5, 0, 1]
+      - [5, 6]
+#AUX Systems/Gatling/Revolver Cannon
+#AUX Systems/Rocket
+    weaponStrings:
+      - STR_CRAFT_ALL_CANNONS_ONE
+      - STR_CRAFT_ROCKET_AUX_TWO
+      - STR_CRAFT_ALL_CANNONS_ONE
+      - STR_CRAFT_ROCKET_AUX_TWO
     battlescapeTerrainData:
       name: SHUTTLE_GROUND
       mapDataSets:
@@ -1607,8 +1623,8 @@ extraSprites:
       945: Resources/Aircraft/Space_Shuttle_minimised.png
       956: Resources/Aircraft/Space_Shuttle_dogfight.png
 
-      947: Resources/Aircraft/Tunnan_minimised.png
-      958: Resources/Aircraft/Tunnan_dogfight.png
+      #947: Resources/Aircraft/Tunnan_minimised.png
+      #958: Resources/Aircraft/Tunnan_dogfight.png
 #      203: Resources/Aircraft/Sabre_minimised.png
 
 #      206: Resources/Aircraft/Bastion_dogfight.png
@@ -1737,144 +1753,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Aircraft/FORGER_UFOPEDIA.PNG
-  - type: THUNDERCHIEF_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/THUNDERCHIEF_UFOPEDIA.PNG
-  - type: HERCULES_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/HERCULES_UFOPEDIA.PNG
-  - type: HUEY_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/HUEY_UFOPEDIA.PNG
-  - type: FOXBAT_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/FOXBAT_UFOPEDIA.PNG
-  - type: FISHBED_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/FISHBED_UFOPEDIA.PNG
-  - type: BACKFIRE_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/BACKFIRE_UFOPEDIA.PNG
-  - type: LIGHTNING_F6_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/LIGHTNING_F6_UFOPEDIA.PNG
-  - type: STARFIGHTER_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/STARFIGHTER_UFOPEDIA.PNG
-  - type: DRAKEN_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/DRAKEN_UFOPEDIA.PNG
-  - type: MIRAGE_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/MIRAGE_UFOPEDIA.PNG
-  - type: LINNA_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/LINNA_UFOPEDIA.PNG
-  - type: RAPIER_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/RAPIER_UFOPEDIA.PNG
-  - type: VALKYRIE_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/VALKYRIE_UFOPEDIA.PNG
-  - type: HIND_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/HIND_UFOPEDIA.PNG
   - type: ATALAYA_UFOPEDIA
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Aircraft/ATALAYA_UFOPEDIA.PNG
-  - type: CRUSADER_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/CRUSADER_UFOPEDIA.PNG
-  - type: SARACEN_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/SARACEN_UFOPEDIA.PNG
-  - type: AVENGER_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/AVENGER_UFOPEDIA.PNG
-  - type: COBRA_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/COBRA_UFOPEDIA.PNG
-  - type: TUPOLEV_TU45_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/TUPOLEV_TU45M_UFOPEDIA.PNG
-  - type: FIREFOX_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/FIREFOX_UFOPEDIA.PNG
-  - type: LAMPYRIDAE_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/LAMPYRIDAE_UFOPEDIA.PNG
-  - type: SHARKNADO_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/SHARKNADO_UFOPEDIA.PNG
   - type: SABRE_UFOPEDIA
     singleImage: true
     width: 320
@@ -1905,30 +1789,6 @@ extraSprites:
     height: 200
     files:
       0: Resources/Aircraft/BASTION_UFOPEDIA.PNG
-  - type: FLANKER_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/FLANKER_UFOPEDIA.PNG
-  - type: VIGGEN_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/VIGGEN_UFOPEDIA.PNG
-  - type: JAGUAR_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/JAGUAR_UFOPEDIA.PNG
-  - type: M50_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/M50_NUCLEAR_BOMBER_UFOPEDIA.PNG
   - type: NEWFIRESTORM_UFOPEDIA
     singleImage: true
     width: 320
@@ -1947,19 +1807,8 @@ extraSprites:
     height: 200
     files:
       0: Resources/Aircraft/SPACE_SHUTTLE_UFOPEDIA.png
-  - type: BLACKBIRD_UFOPEDIA
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/BLACKBIRD_UFOPEDIA.png
 
-  - type: TUNNAN_MK2_IMAGE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Aircraft/TORNSVALA_UFOPEDIA.PNG
+
 ############################################
   - type: SIDEWINDER
     singleImage: true
@@ -2153,80 +2002,3 @@ extraSprites:
     height: 200
     files:
       0: Resources/AircraftWeapons/CASABA_HOWITZER.png
-################################
-####### CRAFT RESEARCH ########
-##############################
-  - type: IMPROVED_FIGHTER_IMAGE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UFOpedia/IMPROVED_FIGHTER_UFOPEDIA.PNG
-  - type: IMPROVED_BOMBER_IMAGE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UFOpedia/IMPROVED_BOMBER_UFOPEDIA.PNG
-  - type: IMPROVED_VTOL_TRANSPORT_IMAGE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UFOpedia/IMPROVED_VTOL_TRANSPORT_IMAGE.PNG
-  - type: IMPROVED_SATELLITE_IMAGE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UFOpedia/IMPROVED_SATELLITE_IMAGE.PNG
-
-  - type: IMPROVED_LIGHT_MISSILE_IMAGE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UFOpedia/IMPROVED_LIGHT_MISSILE_IMAGE.PNG
-  - type: IMPROVED_HEAVY_MISSILE_IMAGE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UFOpedia/IMPROVED_HEAVY_MISSILE_IMAGE.PNG
-  - type: IMPROVED_GATLING_CANNON_IMAGE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UFOpedia/IMPROVED_GATLING_CANNON_IMAGE.PNG
-  - type: IMPROVED_REVOLVER_CANNON_IMAGE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UFOpedia/IMPROVED_REVOLVER_CANNON_IMAGE.PNG
-  - type: IMPROVED_SUPER_HEAVY_MISSILE_IMAGE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UFOpedia/IMPROVED_SUPER_HEAVY_MISSILE_IMAGE.PNG
-  - type: IMPROVED_ROCKET_IMAGE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UFOpedia/IMPROVED_ROCKET_IMAGE.PNG
-
-  - type: ADVANCED_FIGHTER_IMAGE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UFOpedia/ADVANCED_FIGHTER_IMAGE.PNG
-  - type: ADVANCED_BOMBER_IMAGE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/UFOpedia/ADVANCED_BOMBER_IMAGE.PNG
