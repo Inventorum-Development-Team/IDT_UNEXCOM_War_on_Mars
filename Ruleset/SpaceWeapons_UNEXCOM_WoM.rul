@@ -947,9 +947,6 @@ extraSprites:
 
       904: Resources/BallisticWeapons/Explosives/HandSmokeGrenade.png
       912: Resources/BallisticWeapons/Explosives/HandFlashbangGrenade.png
-      920: Resources/BallisticWeapons/CustomWeapons/HandEnforcer.png
-      928: Resources/BallisticWeapons/CustomWeapons/Hand50CalMagnum.png
-
   - type: MEDIKIT_BACKGROUND
     singleImage: true
     width: 320

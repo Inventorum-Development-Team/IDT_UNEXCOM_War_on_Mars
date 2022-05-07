@@ -1447,6 +1447,7 @@ extraSprites:
       2025: Resources/LaserWeapons/USSR/FloorMirinovLaserSniper.png
       2026: Resources/LaserWeapons/USSR/FloorANMachineLaser.png
       2027: Resources/LaserWeapons/USSR/FloorAfinaAntiTankLaser.png
+      2028: RESOURCES/Battery/battery.png
 
   - type: HANDOB.PCK
     width: 256
