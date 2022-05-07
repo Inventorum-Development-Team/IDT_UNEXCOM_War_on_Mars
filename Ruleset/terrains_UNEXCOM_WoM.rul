@@ -472,7 +472,7 @@ terrains:
       - IDT_RESEARCH_STATION
     script: HUMAN_STATION_UFO
     enviroEffects: STR_MARS_ENVIRO
-    mapBlocks:
+    mapBlocks: &IDT_HUMAN_STATION_MAPBLOCKS
       - name: IDT_HUMAN_STATION00
         width: 10
         length: 10
@@ -510,6 +510,15 @@ terrains:
       - name: IDT_HUMAN_STATION11
         width: 20
         length: 20
+
+  - name: IDT_HUMAN_STATION_NO_UFO
+    mapDataSets:
+      - BLANKS
+      - MARS_SAND
+      - IDT_RESEARCH_STATION
+    script: HUMAN_STATION_NO_UFO
+    enviroEffects: STR_MARS_ENVIRO
+    mapBlocks: *IDT_HUMAN_STATION_MAPBLOCKS
 
   - name: IDT_MARS_DEBRIS
     mapDataSets:
@@ -1037,6 +1046,14 @@ mapScripts:
   - type: HUMAN_STATION_UFO
     commands:
     - type: addUFO
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: fillArea
+
+  - type: HUMAN_STATION_NO_UFO
+    commands:
     - type: addCraft
     - type: addBlock
       size: 2
