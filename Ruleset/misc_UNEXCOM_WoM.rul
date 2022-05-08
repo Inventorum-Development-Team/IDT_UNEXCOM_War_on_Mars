@@ -149,9 +149,9 @@ startingBase:
       weapons:
         - type: STR_LASER_ARRAY_UC
           ammo: 300
-        - type: STR_LONGSWORD
+        - type: STR_LONGSWORD_FUSION_MISSILE
           ammo: 2
-        - type: STR_LONGSWORD
+        - type: STR_LONGSWORD_FUSION_MISSILE
           ammo: 2
         - type: STR_FUEL_TANK_UC
     - type: STR_FORGER
@@ -159,9 +159,9 @@ startingBase:
       fuel: 1000
       damage: 0
       weapons:
-        - type: STR_KODIAK_LASER_CANNON
+        - type: STR_LASER_CANNON_UC
           ammo: 100
-        - type: STR_LONGSWORD
+        - type: STR_LONGSWORD_FUSION_MISSILE
           ammo: 2
         - type: STR_GORGON_ROCKETS
           ammo: 6
@@ -177,7 +177,7 @@ startingBase:
           ammo: 2
         - type: STR_ZEUS
           ammo: 200
-        - type: STR_LONGSWORD
+        - type: STR_LONGSWORD_FUSION_MISSILE
           ammo: 2
     - type: STR_SPACE_SHUTTLE
       id: 1
@@ -333,9 +333,9 @@ enviroEffects:
 
 startingConditions:
   - type: STR_MARS_CONDITION
-    defaultArmor:
-      STR_SOLDIER:
-        STR_ASTRONAUT_A7L_SPACESUIT_UC: 100
+    #defaultArmor:
+    #  #STR_SOLDIER:
+      #  STR_ASTRONAUT_A7L_SPACESUIT_UC: 100
 #      STR_PILOT:
 #        STR_ASTRONAUT_A7LB_SPACESUIT_UC: 100
 #      STR_SPECIAL_FORCES_SOLDIER:
@@ -347,10 +347,10 @@ startingConditions:
       - STR_ASTRONAUT_KRECHET94B_SPACESUIT_UC
 #    forbiddenSoldierTypes:
 #      - STR_MERCENARY
-    allowedItemCategories:
-      - STR_SPACE
-    allowedCraft:
-      - STR_SPACE_SHUTTLE
+    #allowedItemCategories:
+    #  - STR_SPACE
+    #allowedCraft:
+    #  - STR_SPACE_SHUTTLE
 
 
 extraSprites:

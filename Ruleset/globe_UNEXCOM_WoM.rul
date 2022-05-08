@@ -1477,7 +1477,6 @@ regions:
       STR_ALIEN_RESEARCH: 14
       STR_ALIEN_HARVEST: 17
       STR_ALIEN_ABDUCTION: 20
-      STR_ALIEN_INFILTRATION: 20
       STR_ALIEN_BASE: 20
     missionZones:
       -
@@ -1523,7 +1522,6 @@ regions:
       STR_ALIEN_RESEARCH: 14
       STR_ALIEN_HARVEST: 17
       STR_ALIEN_ABDUCTION: 20
-      STR_ALIEN_INFILTRATION: 20
       STR_ALIEN_BASE: 20
     missionZones:
       -
@@ -1560,7 +1558,6 @@ regions:
       STR_ALIEN_RESEARCH: 14
       STR_ALIEN_HARVEST: 17
       STR_ALIEN_ABDUCTION: 20
-      STR_ALIEN_INFILTRATION: 20
       STR_ALIEN_BASE: 20
     missionZones:
       -
@@ -1646,7 +1643,6 @@ regions:
       STR_ALIEN_RESEARCH: 14
       STR_ALIEN_HARVEST: 17
       STR_ALIEN_ABDUCTION: 20
-      STR_ALIEN_INFILTRATION: 20
       STR_ALIEN_BASE: 20
     missionZones:
       -
@@ -1694,7 +1690,6 @@ regions:
       STR_ALIEN_RESEARCH: 14
       STR_ALIEN_HARVEST: 17
       STR_ALIEN_ABDUCTION: 20
-      STR_ALIEN_INFILTRATION: 20
       STR_ALIEN_BASE: 20
     missionZones:
       -
@@ -1815,7 +1810,6 @@ regions:
       STR_ALIEN_RESEARCH: 14
       STR_ALIEN_HARVEST: 17
       STR_ALIEN_ABDUCTION: 20
-      STR_ALIEN_INFILTRATION: 20
       STR_ALIEN_BASE: 20
     missionZones:
       -
@@ -1917,7 +1911,6 @@ regions:
       STR_ALIEN_RESEARCH: 14
       STR_ALIEN_HARVEST: 17
       STR_ALIEN_ABDUCTION: 20
-      STR_ALIEN_INFILTRATION: 20
       STR_ALIEN_BASE: 20
     missionZones:
       -
