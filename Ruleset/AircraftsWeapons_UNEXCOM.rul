@@ -21,8 +21,9 @@ crafts:
 #{
 
   - type: STR_HARRIER
-    skinSprites: [398, 399]
-    maxSkinIndex: 2
+    sprite: 398
+    skinSprites: [399]
+    maxSkinIndex: 1
     fuelMax: 1500
     damageMax: 440
     speedMax: 1500
@@ -56,8 +57,9 @@ crafts:
     listOrder: 117
 
   - type: STR_FORGER
-    skinSprites: [823, 824]
-    maxSkinIndex: 2
+    sprite: 823
+    skinSprites: [824]
+    maxSkinIndex: 1
     fuelMax: 1000
     damageMax: 550
     speedMax: 2000
