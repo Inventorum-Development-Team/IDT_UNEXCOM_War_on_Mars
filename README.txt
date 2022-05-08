@@ -5,9 +5,11 @@ Using as basis the great work made by liberation on his awesome mod "Battle for 
 Credits by name:
 
 *bulletdesigner: original tilesets used on Space Shuttle
+*Buscher: original alien mission alien infiltration ruleset (modified)
 *efrenespartano: main ruleset work, Gyrojet weapons,  
 *Dauntless1942: original USA/NATO/USSR laser weapons artwork, alien Fusion weapons artwork
 *Hans Woofington: new Mars textures, space suit paperdolls
 *liberation: original globe data (WORLD.DAT), Martian Rocky, Plain and Polar maps and terrains
 *Luke83: Pyramid UFOs
+*Ultrak
 *wolwerin: Human Outpost/Station maps 

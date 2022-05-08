@@ -903,8 +903,8 @@ armors:
 ##############################
   - type: SECTOID_ARMOR0
     allowInv: true
-    spriteInv: SECTOID_INVENTORY.SPK
-    spriteSheet: SECTOID.PCK
+    spriteInv: SECTOID_SPACESUIT_INVENTORY.SPK
+    spriteSheet: SECTOID_SPACESUIT_SPRITESHEET.PCK
     corpseBattle:
       - STR_SECTOID_CORPSE
     frontArmor: 4
@@ -927,8 +927,8 @@ armors:
 
   - type: SECTOID_COMMANDER_ARMOR
     allowInv: true
-    spriteInv: SECTOID_COMMANDER_INVENTORY.SPK
-    spriteSheet: SECTOID_COMMANDER_SPRITESHEET.PCK
+    spriteInv: SECTOID_SPACESUIT_INVENTORY.SPK
+    spriteSheet: SECTOID_SPACESUIT_SPRITESHEET.PCK
     corpseBattle:
       - STR_SECTOID_CORPSE
     frontArmor: 4
@@ -1173,7 +1173,9 @@ armors:
 ##############################
 
   - type: SNAKEMAN_ARMOR0
-    spriteSheet: SNAKEMAN.PCK
+    spriteSheet: SNAKEMAN_SPACESUIT_SPRITESHEET.PCK
+    allowInv: true
+    spriteInv: SNAKEMAN_SPACESUIT_INVENTORY.SPK
     corpseBattle:
       - STR_SNAKEMAN_CORPSE
     frontArmor: 20
@@ -1196,7 +1198,9 @@ armors:
       - 1.3
     loftempsSet: [ 3 ]
   - type: SNAKEMAN_ARMOR1
-    spriteSheet: SNAKEMAN.PCK
+    spriteSheet: SNAKEMAN_SPACESUIT_SPRITESHEET.PCK
+    allowInv: true
+    spriteInv: SNAKEMAN_SPACESUIT_INVENTORY.SPK
     corpseBattle:
       - STR_SNAKEMAN_CORPSE
     frontArmor: 20
@@ -1219,7 +1223,9 @@ armors:
       - 1.3
     loftempsSet: [ 3 ]
   - type: SNAKEMAN_ARMOR2
-    spriteSheet: SNAKEMAN.PCK
+    spriteSheet: SNAKEMAN_SPACESUIT_SPRITESHEET.PCK
+    allowInv: true
+    spriteInv: SNAKEMAN_SPACESUIT_INVENTORY.SPK
     corpseBattle:
       - STR_SNAKEMAN_CORPSE
     frontArmor: 26
@@ -3131,6 +3137,14 @@ extraSprites:
     files:
       0: Resources/AlienFactions/Sectoids/SECTOID_COMMANDER_SPRITESHEET.png
 
+  - type: SECTOID_SPACESUIT_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1360
+    files:
+      0: Resources/AlienFactions/Sectoids/SECTOID_SPACESUIT_SPRITESHEET.png
+
   - type: ARMORED_SECTOID_SPRITESHEET.PCK
     subX: 32
     subY: 40
@@ -3199,7 +3213,15 @@ extraSprites:
     height: 280
     files:
       0: Resources/AlienFactions/ArmoredFloaters/ARMORED_FLOATER_LEADER_SPRITESHEET.png
+#####################
 
+  - type: SNAKEMAN_SPACESUIT_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 680
+    files:
+      0: Resources/AlienFactions/Snakepeople/SNAKEMAN_SPACESUIT_SPRITESHEET.png
 
 ##################################
   - type: MUTON_SOLDIER_SPRITESHEET.PCK
@@ -3287,6 +3309,7 @@ extraSprites:
 ################################
   - type: BIGOBS.PCK
     files:
+      46: Resources/AlienFactions/Sectoids/BIGOB_SECTOID_SPACESUIT_CORPSE.png
       #3100: Resources/AlienFactions/Sectoids/SECTOID_COMMANDER_CORPSE_BIGOB.png
       #3101: Resources/AlienFactions/Sectoids/SECTOID_PSION_CORPSE_BIGOB.png
       3102: Resources/AlienFactions/ArmoredSectoids/ARMORED_SECTOID_CORPSE_BIGOB.png
@@ -3324,6 +3347,7 @@ extraSprites:
 
   - type: FLOOROB.PCK
     files:
+      42: Resources/AlienFactions/Sectoids/FLOOROB_SECTOID_SPACESUIT_CORPSE.png
       #3100: Resources/AlienFactions/Sectoids/SECTOID_COMMANDER_CORPSE_FLOOROB.png
       #3101: Resources/AlienFactions/Sectoids/SECTOID_PSION_CORPSE_FLOOROB.png
       3102: Resources/AlienFactions/ArmoredSectoids/ARMORED_SECTOID_CORPSE_FLOOROB.png
@@ -3374,6 +3398,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/AlienFactions/Sectoids/SECTOID_COMMANDER_INVENTORY.png
+  - type: SECTOID_SPACESUIT_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AlienFactions/Sectoids/SECTOID_SPACESUIT_INVENTORY.png
   - type: ARMORED_SECTOID_INVENTORY.SPK
     singleImage: true
     width: 320
@@ -3425,6 +3455,14 @@ extraSprites:
       0: Resources/AlienFactions/ArmoredFloaters/ARMORED_FLOATER_LEADER_INVENTORY.png
 #######################
 
+  - type: SNAKEMAN_SPACESUIT_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AlienFactions/Snakepeople/SNAKEMAN_SPACESUIT_INVENTORY.png
+
+#######################
   - type: MUTON_SOLDIER_INVENTORY.SPK
     singleImage: true
     width: 320

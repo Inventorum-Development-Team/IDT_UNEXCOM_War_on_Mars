@@ -20,6 +20,11 @@ buildInfiltrationBaseCloseToTheCountry: true
 lessAliensDuringBaseDefense: true
 fixedUserOptions:
   friendlyCraftEscort: true
+  weaponSelfDestruction: true
+  sneakyAi: true
+recommendedUserOptions:
+  aggressiveRetaliation: true
+  craftLaunchAlways: true
 allowCountriesToCancelAlienPact: true
 showDogfightDistanceInKm: true
 pediaReplaceCraftFuelWithRangeType: 1
@@ -242,3 +247,6 @@ baseNamesLast:
   - Ops Centre
   - Headquarters
   - Outpost
+
+
+  
