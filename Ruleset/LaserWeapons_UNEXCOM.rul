@@ -16,6 +16,7 @@ items:
   - type: STR_PEACEMAKER
     categories: [STR_LASER, STR_FIREARMS, STR_RIFLES, STR_UNEXCOM_TECH]
     size: 0.3
+    costBuy: 75000
     costSell: 60000
     weight: 6
     bigSprite: 1999

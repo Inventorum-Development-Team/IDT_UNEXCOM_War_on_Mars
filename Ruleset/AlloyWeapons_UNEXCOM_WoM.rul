@@ -9,7 +9,7 @@ items:
 ##### FLECHETTE WEAPONS #######
 ##############################
   - type: STR_FLECHETTE_RIFLE
-    requires:
+    requiresBuy:
       - STR_ALLOY_RIFLES
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_FIREARMS, STR_RIFLES]
     size: 0.2
@@ -66,7 +66,7 @@ items:
     armor: 250
     tuMelee: 0
   - type: STR_FLECHETTE_CARBINE
-    requires:
+    requiresBuy:
       - STR_ALLOY_RIFLES
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_FIREARMS, STR_RIFLES]
     size: 0.2
@@ -123,7 +123,7 @@ items:
     armor: 250
     tuMelee: 0
   - type: STR_ALLOY_RIFLE_AP
-    requires:
+    requiresBuy:
       - STR_ALLOY_RIFLES
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_FIREARMS, STR_RIFLES, STR_CARBINES, STR_CLIPS]
     size: 0.1
@@ -150,7 +150,7 @@ items:
     vaporDensitySurface: 1
     vaporProbabilitySurface: 33
   - type: STR_ALLOY_RIFLE_FL
-    requires:
+    requiresBuy:
       - STR_ALLOY_RIFLES
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_FIREARMS, STR_RIFLES, STR_CARBINES, STR_CLIPS]
     size: 0.1
@@ -180,7 +180,7 @@ items:
     vaporProbabilitySurface: 33
 
   - type: STR_FLECHETTE_PISTOL
-    requires:
+    requiresBuy:
       - STR_ALLOY_CLOSE
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_FIREARMS, STR_PISTOLS]
     size: 0.1
@@ -229,7 +229,7 @@ items:
     armor: 30
     attraction: 10
   - type: STR_ALLOY_PISTOL_AP
-    requires:
+    requiresBuy:
       - STR_ALLOY_CLOSE
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_FIREARMS, STR_RIFLES, STR_CARBINES, STR_CLIPS]
     size: 0.1
@@ -257,7 +257,7 @@ items:
     vaporProbabilitySurface: 33
 
   - type: STR_ALLOY_PISTOL_FL
-    requires:
+    requiresBuy:
       - STR_ALLOY_CLOSE
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_FIREARMS, STR_RIFLES, STR_CARBINES, STR_CLIPS]
     size: 0.1
@@ -287,7 +287,7 @@ items:
     vaporProbabilitySurface: 33
 
   - type: STR_FLECHETTE_AUTO_SHOTGUN
-    requires:
+    requiresBuy:
       - STR_ALLOY_CLOSE
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_FIREARMS, STR_SHOTGUNS]
     size: 0.3
@@ -332,7 +332,7 @@ items:
     armor: 250
 
   - type: STR_ALLOY_AUTO_SHOTGUN_FL
-    requires:
+    requiresBuy:
       - STR_ALLOY_CLOSE
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     size: 0.1
@@ -366,7 +366,7 @@ items:
     vaporProbabilitySurface: 33
 
   - type: STR_ALLOY_SMART_RIFLE
-    requires:
+    requiresBuy:
       - STR_ALLOY_HEAVY
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_FIREARMS, STR_SNIPER_RIFLES]
     size: 0.3
@@ -395,7 +395,7 @@ items:
     armor: 250
 
   - type: STR_ALLOY_SMART_RIFLE_MAG
-    requires:
+    requiresBuy:
       - STR_ALLOY_HEAVY
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_FIREARMS, STR_SNIPER_RIFLES, STR_CLIPS]
     size: 0.1
@@ -429,7 +429,7 @@ items:
 
   - type: STR_FLECHETTE_GL
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_FIREARMS, STR_ARTILLERY]
-    requires:
+    requiresBuy:
       - STR_ALLOY_EXPLOSIVE
     size: 0.2
     costSell: 42500
@@ -459,7 +459,7 @@ items:
     arcingShot: true
 
   - type: STR_30MM_AAG
-    requires:
+    requiresBuy:
       - STR_ALLOY_EXPLOSIVE
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_FIREARMS, STR_CLIPS, STR_ARTILLERY]
     size: 0.1
@@ -492,7 +492,7 @@ items:
 
   - type: STR_FLECHETTE_GRENADE
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_LIGHT_EQUIPMENT, STR_EXPLOSIVES]
-    requires:
+    requiresBuy:
       - STR_ALLOY_EXPLOSIVE
     size: 0.1
     costSell: 2400
@@ -515,7 +515,7 @@ items:
     blastRadius: 4
 
   - type: STR_FLECHETTE_CANNON
-    requires:
+    requiresBuy:
       - STR_ALLOY_HEAVY
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_FIREARMS, STR_ARTILLERY, STR_LMGS]
     size: 0.4
@@ -563,7 +563,7 @@ items:
     attraction: 10
 
   - type: STR_ALLOY_HEAVY_AP
-    requires:
+    requiresBuy:
       - STR_ALLOY_HEAVY
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_ARTILLERY, STR_LMGS, STR_CLIPS]
     size: 0.1
@@ -593,7 +593,7 @@ items:
     vaporProbabilitySurface: 33
 
   - type: STR_ALLOY_HEAVY_FL
-    requires:
+    requiresBuy:
       - STR_ALLOY_HEAVY
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_ARTILLERY, STR_LMGS, STR_CLIPS]
     size: 0.1
@@ -626,7 +626,7 @@ items:
 
   - type: STR_FLECHETTE_SNIPER
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_FIREARMS, STR_SNIPER_RIFLES]
-    requires:
+    requiresBuy:
       - STR_ALLOY_HEAVY
     size: 0.3
     costSell: 62600
@@ -674,7 +674,7 @@ items:
     attraction: 10
 
   - type: STR_ALLOY_SNIPER_AP
-    requires:
+    requiresBuy:
       - STR_ALLOY_HEAVY
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_FIREARMS, STR_SNIPER_RIFLES]
     size: 0.1
@@ -706,7 +706,7 @@ items:
 
   - type: STR_ALLOY_SNIPER_FL
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_FIREARMS, STR_SNIPER_RIFLES]
-    requires:
+    requiresBuy:
       - STR_ALLOY_HEAVY
     size: 0.1
     costSell: 2250

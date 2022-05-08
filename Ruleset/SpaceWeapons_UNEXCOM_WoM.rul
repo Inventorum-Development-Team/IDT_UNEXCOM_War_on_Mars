@@ -23,6 +23,7 @@ items:
         STR_CARBINES
       ]
     size: 0.2
+    costBuy: 2500
     costSell: 1750
     weight: 9
     bigSprite: 138
@@ -65,6 +66,7 @@ items:
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
     categories: [ STR_FIREARMS, STR_RIFLES, STR_CARBINES, STR_CLIPS ]
     size: 0.1
+    costBuy: 500
     costSell: 525
     weight: 3
     bigSprite: 106
@@ -94,7 +96,7 @@ items:
         STR_RIFLES
       ]
     size: 0.2
-    costBuy: 2500
+    costBuy: 2000
     costSell: 1500
     weight: 8
     bigSprite: 174
@@ -251,8 +253,8 @@ items:
   - type: STR_G11_CASELESS_RIFLE
     categories: [STR_SPACE, STR_FIREARMS, STR_NATO_TECH, STR_RIFLES]
     size: 0.2
-    costBuy: 3200
-    costSell: 2000
+    costBuy: 5200
+    costSell: 4000
     weight: 5
     bigSprite: 1510
     floorSprite: 1510
@@ -287,7 +289,8 @@ items:
   - type: STR_G11_CASELESS_RIFLE_MAG
     categories: [STR_SPACE, STR_FIREARMS, STR_NATO_TECH, STR_PISTOLS]
     size: 0.1
-    costSell: 250
+    costBuy: 800
+    costSell: 750
     weight: 2
     bigSprite: 1515
     bulletSpeed: 28
@@ -305,8 +308,8 @@ items:
 #    requires:
 #      - STR_USSR_IMPROVED_AQUATIC_WEAPONS
     size: 0.2
-    costBuy: 3200
-    costSell: 2000
+    costBuy: 4200
+    costSell: 4000
     weight: 6
     bigSprite: 1511
     floorSprite: 1511
@@ -340,7 +343,8 @@ items:
   - type: STR_TKB1980_CASELESS_RIFLE_MAG
     categories: [STR_SPACE, STR_FIREARMS, STR_SOVIET_TECH, STR_PISTOLS]
     size: 0.1
-    costSell: 250
+    costBuy: 700
+    costSell: 650
     weight: 2
     bigSprite: 1516
     bulletSpeed: 28
@@ -397,7 +401,8 @@ items:
 #    requires:
 #      - STR_USSR_IMPROVED_AQUATIC_WEAPONS
     size: 0.1
-    costSell: 250
+    costBuy: 500
+    costSell: 450
     weight: 2
     bigSprite: 1501
     hitSound: 16
@@ -480,7 +485,8 @@ items:
 #    requires:
 #      - STR_USA_IMPROVED_AQUATIC_WEAPONS
     size: 0.1
-    costSell: 250
+    costBuy: 300
+    costSell: 450
     weight: 2
     bigSprite: 1514
     hitSound: 16
@@ -616,8 +622,6 @@ items:
 
   - type: STR_MEDI_KIT
     categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT ]
-    requires:
-      - STR_MEDI_KIT
     size: 0.1
     costSell: 46500
     weight: 5
