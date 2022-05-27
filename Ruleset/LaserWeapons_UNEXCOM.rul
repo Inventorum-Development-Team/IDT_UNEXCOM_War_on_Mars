@@ -995,9 +995,9 @@ items:
     confAuto:
       shots: 3
       arcing: false
-    accuracyAimed: 70
-    accuracySnap: 55
-    accuracyAuto: 40
+    accuracyAimed: 90
+    accuracySnap: 70
+    accuracyAuto: 48
     costAimed:
       time: 14
       mana: 1
