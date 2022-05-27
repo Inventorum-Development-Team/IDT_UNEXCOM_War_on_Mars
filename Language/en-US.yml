@@ -2258,7 +2258,9 @@ en-US:
 
   STR_M72_AUTOMATIC_RECOILLESS_RIFLE_UFOPEDIA: An American 40mm recoilless rifle that combines old and new technology, used both by the US and NATO. The 'Teddy' is capable of firing 6 rounds without reloading and fires both anti infantry and anti tank munitions. Named after US president Theodore Roosevelt.
 
-  STR_P72_COMPACT_LASER_UFOPEDIA: During the first stage of war with Ethereals, General Mirinov and his bureau received a quite amount of complaint about P-72, generally users were complaining about it's low realibility and accuracy. In a responce they constructed a new model of laser handgun. Built completely out of new alloys and packed with a reworked cooling system, as well as improved lenses, new Tulskiy-Mirinov-78 (or TM-78) also have a pleasant resemblance of TT handgun, primary handgun of Red Army in Great Patriotic War. This pistol is commonly issued with thin belts, to ensure that soldier will never lose his handgun.
+  STR_P72_COMPACT_LASER_UFOPEDIA_1: During the first stage of war with Ethereals, General Mirinov and his bureau received a quite amount of complaint about P-72, generally users were complaining about its low realibility and accuracy. In a responce they constructed a new model of laser handgun. 
+
+  STR_P72_COMPACT_LASER_UFOPEDIA_2: Built completely out of new alloys and packed with a reworked cooling system, as well as improved lenses, new Tulskiy-Mirinov-78 (or TM-78) also have a pleasant resemblance of TT handgun, primary handgun of Red Army in Great Patriotic War. This pistol is commonly issued with thin belts, to ensure that soldier will never lose his handgun.
 
   STR_ALK72_LASER_RIFLE_UFOPEDIA: The backbone of the Red Army and integral in the war against the alien threat, the ALK-72 is one of the first laser assault rifles ever made. After pulsed laser fire was proven to be possible, a new weapon to replace the AK-47 was quickly designed by Markov Kharitonov. The heavy assault weapon was able to quickly prove its worth in the battle against the aliens, being both cheap and powerful, although some soldiers have complained about its less than favorable accuracy and weight.
 

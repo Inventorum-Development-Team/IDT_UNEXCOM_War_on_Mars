@@ -770,7 +770,13 @@ ufopaedia:
     section: STR_WEAPONS
     requires:
       - STR_USSR_LASER_HANDGUNS
-    text: STR_P72_COMPACT_LASER_UFOPEDIA
+    pages:
+    - title: STR_P72_COMPACT_LASER
+      text: STR_P72_COMPACT_LASER_UFOPEDIA_1
+      ammoSlot: 0
+    - title: STR_P72_COMPACT_LASER
+      text: STR_P72_COMPACT_LASER_UFOPEDIA_2
+      ammoSlot: 0
     listOrder: 4013
   - id: STR_FLECHETTE_PISTOL
     type_id: 4
