@@ -778,9 +778,9 @@ en-US:
   STR_FLECHETTE_GL: "M62 Alloy Grenade Launcher"
   STR_30MM_AAG: "30mm Alloy Grenades (x9)"
   STR_FLECHETTE_GRENADE: "Flechette Grenade"
-  STR_FLECHETTE_CANNON: "M70 Harpoon Cannon"
-  STR_ALLOY_HEAVY_AP: "TC Harpoon Rack (x9)"
-  STR_ALLOY_HEAVY_FL: "AA Harpoon Rack (x21)"
+  STR_FLECHETTE_CANNON: "M70 Javelin Cannon"
+  STR_ALLOY_HEAVY_AP: "TC Javelin Rack (x9)"
+  STR_ALLOY_HEAVY_FL: "AA Javelin Rack (x21)"
   STR_FLECHETTE_SNIPER: "M55A3 Dual Purpose Sniper Rifle"
   STR_ALLOY_SNIPER_AP: "TC Anti-Materiel Rounds (x5)"
   STR_ALLOY_SNIPER_FL: "Flechette Anti-Personnel Rounds  (x5)"
@@ -1460,7 +1460,7 @@ en-US:
 
 
   STR_ALIEN_CRYSTAL_UFOPEDIA: "This crystal is found in every alien laser weapon. While early research concluded that the crystal is the power source of the laser weaponry, this is only partially true. Funneling a weak laser trough the crystal seems to cause a nuclear reaction within it, amplifying the power of the laser. If we extract these crystals from the alien weaponry we could use them to construct powerful laser weapons of our own"
-  STR_FLECHETTE_RIFLE_UFOPEDIA: "Our new rifle uses a modern handle to provide extra stability to the shooter. Its construction in plastic polymers makes it very lightweight, although there are some concerns regarding its ability. Others would have preferred to build them entirely from AA. Either way, it is a stable weapon that will allow any infant who uses it to cause considerable damage to their target."
+  STR_FLECHETTE_RIFLE_UFOPEDIA: "A new design made by UNEXCOM Armory features a heavier barrel with an integral suppressor to help dissipate the recoil. The standard model lacks a stock to allow easier handle inside closed environments like spaceships and pressurized habitats."
 
   STR_FLECHETTE_MACHINE_PISTOL_UFOPEDIA: "This compact machine gun is intended to be the standard secondary weapon for light and mechanized infantry troops, as well as armored vehicle and artillery crews. It is slightly heavier than our standard M1911 Colt, but its ammunition is considerably lighter. The recoil is very manageable and has a fire selector for bursts and automatic mode. It cannot fire in semi-automatic mode."
 
@@ -1468,13 +1468,13 @@ en-US:
 
   STR_FLECHETTE_PISTOL_UFOPEDIA: "This compact machine gun is intended to be the standard secondary weapon for light and mechanized infantry troops, as well as armored car crews and artillery. It is extremely lightweight and versatile, being able to fire either bursts of flechette rounds or armor-penetrating TC rounds."
 
-  STR_FLECHETTE_SHOTGUN_UFOPEDIA: "Our team of gunsmiths created this interesting design. Initially, it gives the impression of being some kind of semi-automatic rifle, but in reality it is a shotgun with an exceptionally long barrel. It fires flechette ammunition stored in a cylindrical magazine. Its greatest advantage is its long range."
+  STR_ALLOY_SMART_RIFLE_UFOPEDIA: "A highly unusual yet effective weapon. A large sight with a miniature targeting computer calculates the trajectory of a a burst of small rocket-like projectiles until it strikes the objective with pinpoint accuracy."
 
   STR_FLECHETTE_SNIPER_UFOPEDIA: "Powerful anti-material rifle, designed to destroy light vehicles and heavy armored soldiers. Our team of engineers created a robust, shock and impact resistant rifle that you can have, without compromising its structural integrity. This allows the shooter to fire without much alteration in the position of the variable telescopic sight from x8 to x16 magnification. Its huge muzzle brake is necessary to give the gun stability."
 
   STR_FLECHETTE_GRENADE_UFOPEDIA: "This fragmentation grenade is designed to inflict the maximum amount of damage possible. Upon detonation, it ejects hundreds of Alien Alloys flechettes which can destroy an organic target within three meters. Its ability to penetrate armor is extremely limited, but its lethal potential is just as incredible."
 
-  STR_FLECHETTE_CANNON_UFOPEDIA: "The need to develop a heavy automatic weapon to support our squadron led to this automatic gun. By mounting two cannons on it, the ROF is doubled without affecting the physical integrity of the weapon. Its entire Alien Alloys construction makes it surprisingly light (approximately the weight of a conventional light machine gun), for its size."
+  STR_FLECHETTE_CANNON_UFOPEDIA: "Based around the concept of the Sabot slugs, a super dense metal rod with Tungsten Carbide or Elerium tip. Able to impale it's victims, ignoring any kind of armor used by them."
 
   STR_FLECHETTE_GRENADE_LAUNCHER_UFOPEDIA: "An interesting proposal for a relatively simple design. This grenade launcher uses drum loaders to store the projectiles and fire them fully automatically."
 
@@ -2256,23 +2256,28 @@ en-US:
 
   STR_ML73_LASER_MACHINE_GUN_UFOPEDIA: A West German Laser Machine Gun designed by Heckler & Koch. By late 1972 new techniques and technology allowed for larger and more efficient weapons. By converting some of the thermal energy made by firing the gun back into electrical energy, the ML-73 is able to fire large laser beams at a steady rate.
 
-  STR_M72_AUTOMATIC_RECOILLESS_RIFLE_UFOPEDIA: An American 40mm recoilless rifle that combines old and new technology, used both by the US and NATO. The 'Teddy' is capable of firing 6 rounds without reloading and fires both anti infantry and anti tank munitions. Named after US president Theodore Roosevelt.
+  STR_M72_AUTOMATIC_RECOILLESS_RIFLE_UFOPEDIA: An American 40mm recoilless rifle that combines old and new technology, used both by the US and NATO. The 'Teddy' is capable of firing 6 rounds without reloading and fires both anti infantry and anti tank munitions. Named after US president Theodore Roosevelt. Originally developed during the first stage of war with Ethereals, M72 was modified in a preparation for martian campaign. M72A1 Teddy received a reinforced firing system to reduce chance of jamming in case of being soiled by martian dust
 
   STR_P72_COMPACT_LASER_UFOPEDIA_1: During the first stage of war with Ethereals, General Mirinov and his bureau received a quite amount of complaint about P-72, generally users were complaining about its low realibility and accuracy. In a responce they constructed a new model of laser handgun. 
 
   STR_P72_COMPACT_LASER_UFOPEDIA_2: Built completely out of new alloys and packed with a reworked cooling system, as well as improved lenses, new Tulskiy-Mirinov-78 (or TM-78) also have a pleasant resemblance of TT handgun, primary handgun of Red Army in Great Patriotic War. This pistol is commonly issued with thin belts, to ensure that soldier will never lose his handgun.
 
-  STR_ALK72_LASER_RIFLE_UFOPEDIA: The backbone of the Red Army and integral in the war against the alien threat, the ALK-72 is one of the first laser assault rifles ever made. After pulsed laser fire was proven to be possible, a new weapon to replace the AK-47 was quickly designed by Markov Kharitonov. The heavy assault weapon was able to quickly prove its worth in the battle against the aliens, being both cheap and powerful, although some soldiers have complained about its less than favorable accuracy and weight.
+  STR_ALK72_LASER_RIFLE_UFOPEDIA: ALKh-79 (Avtomat Laserniy Kharitonova), 2nd in the line of soviet laser rifles, was designed by Mikayel Kharitonov in 1979, by request of newly formed Space Forces of Soviet Army to make a new rifle, more comfortable for cosmonauts. This rifle came up with new ergonomic stock and handheld, and also with optimized charging system, which made ALKh-79 lighter than '72 model.
 
-  STR_KHARITONOV_LASER_BATTLE_RIFLE_UFOPEDIA: UNEXCOM officers expressed the need for a weapon that bridges the gap between the ALK-72 and the Mironov Sniper Rifle, and the Kharitonov is what the engineers came up with. This weapon is capable of delivering a powerful beam over medium to long distances without sacrificing power or closer combat abilities. Named after the lead designer, Markov Kharitonov.
+  STR_KHARITONOV_LASER_BATTLE_RIFLE_UFOPEDIA_1: Originally developed by request of UNEXCOM, KhLBR-72 (Kharitonov Laser Battle Rifle) also found it's way into Spetznaz forces, such as Alpha or Vympel squads. War of 1972 shown for the Soviet Army value of marksman support on a battlefield, so Mikayel Kharitonov received in 1978 a new request by SA to create a DMR, both suitable for army marksman soldiers and Spetznaz operatives. 
+  STR_KHARITONOV_LASER_BATTLE_RIFLE_UFOPEDIA_2: With new stock and optimized charging and cooling systems, SVPKh-80 (Snaiperskaya Vintovka Podderzhki Kharitonova, or Kharitonov Support Sniper Rifle in English) became significantly shorter and lighter, without loss in accuracy or power
 
-  STR_ALP_SUBMACHINE_LASER_UFOPEDIA: This iconic Laser submachine gun was designed by famed Russian laser scientist, Michael Artemiy, and was personally approved by the Soviet Minister of Defense, Andrei Grechko. Its balance in design, favoring no one aspect over any other, makes it one of the most versatile weapons among UNEXCOM soldiers.
+  STR_ALP_SUBMACHINE_LASER_UFOPEDIA_1: KLUAO-79 (Kompaktnaya Lazernaya Ustanovka Avtomaticheskogo Ognya, Compact Laser Device of Automatic Fire) was designed by request of KGB for their Spetznaz forces, such as Alpha and Vympel squads. In order to create a laser SMG both light and comfortable for use, KBLV came up with a new stock, merged with a grip. 
+  STR_ALP_SUBMACHINE_LASER_UFOPEDIA_2: This combined grip, as it was oficially named, together with improved charging system, helped bureau to create a weapon, not only equal to ALP Submachine, but also achieve a small increase on damage output. This weapon used only by Spetznaz, but soviet suppliers on Mars have a small shipment of them to quickly transfer it to UNEXCOM, if requested
 
-  STR_MIRINOV_LASER_SNIPER_UFOPEDIA: Laser Sniper weapon from the minds of the Soviet Red Army. Early laser technology suffered in accuracy, due to weaker optics and high power output. After advancements in focusing optics and toning down the power output, Ukrainian General Peter Mironov was able to design an accurate long-range rifle, although it suffers somewhat in damage output.
+  STR_MIRINOV_LASER_SNIPER_UFOPEDIA: SVM-79 (Snaiperskaya Vintovka Mirinova) is a new laser sniper rifle, created by General Pyotr Mirinov and his bureau for Space Forces of Soviet Army specifically for martian conditions. Not only this rifle received a new cooling system and better lenses for greater accuracy, bureau also managed to add some modularity with customized grip and sights, thanks to added 'dovetail rail' mounting
 
-  STR_AN_MACHINE_LASER_UFOPEDIA: A Heavy Soviet machine gun developed in cooperation with the Red Army in 1972. It can reliably deliver a lot of damage in a short amount of time, but is heavier than most machine guns.
+  STR_AN_MACHINE_LASER_UFOPEDIA_1: Developed during the War of 1972, AN Machine Laser served as a fire support weapon in Soviet Army. Despite it's great damage and respectable accuracy, this weapon suffered from overheat, and in responce Constructor Bureau of Laser Weaponry (KBLO, Konstruktorskoye Byuro Lazernogo Vooruzhenia), with General Pyotr Mirinov as it's head, designed LUAO-81.
 
-  STR_AFINA_ANTITANK_LASER_UFOPEDIA: An anti-tank laser put into service in late 1973. It is named after the Greek Goddess of Wisdom and War, Athena. The Afina was created in response to the threat posed by Cyberdiscs to UNEXCOM forces. By using all of the advancements made in laser technology in 1972, this powerful anti-tank weapon can penetrate some of the heaviest armor, short of UFO outer walls. If you can overcome the weight and the time it takes to aim and fire, the Afina is one of the greatest assets to our cause.
+  STR_AN_MACHINE_LASER_UFOPEDIA_2: (Lazernaya Ustanovka Avtomaticheskogo Ognya, Laser Device of Automatic Fire). This new LMG gained new cooling system, as well as option to easily change barrel even at the battlefield, which qreatly reduced problems with overheat. This LMG was adopted by Soviet Army in 1979 and quickly replaced AN ML
+
+  STR_AFINA_ANTITANK_LASER_UFOPEDIA_1: AFINA PTLU-M (Protivotankovaya Lazernaya Ustanovka Modificirovannaya, or Anti-Tank Laser Device Modified). Developed in a responce of a threat of alien mechanised units, such as Cyberdisks or Mechtoids, AFINA received positive reviews by various ranks of Soviet Army. Yet, there was quite amount of complaint about low rate of fire, which is deemed crucial by many, so in 1976 KBLV modernised AFINA.
+  STR_AFINA_ANTITANK_LASER_UFOPEDIA_2: They improved both charging and cooling systems, which led to rate of fire being increased by 20%. In 1977 new standard for AFINA PTLU, now PTLU-M, was adopted by Soviet Army, which quickly modernised all it's AFINAs
 
   STR_POWER_RESERVES_UFOPEDIA: "Each UNEXCOM soldier carries a small powercell as a part of their equipment, which is used to power electronic equipment, such as laser weaponry, in the field. These powercells are recharged once a soldier returns from a mission, though they can be recharged during a operation by using a battery if it proves necessary."
 
@@ -3278,7 +3283,7 @@ en-US:
   STR_MAT72_SUBMACHINE_LASER: "MAT-72 'Charlemagne' Submachine Laser"
   STR_CHURCHILL_MARKSMAN_LASER_RIFLE: "'Churchill' Marksman Laser Rifle"
   STR_ML73_LASER_MACHINE_GUN: "ML-73 'Bassenheim' Laser MG"
-  STR_M72_AUTOMATIC_RECOILLESS_RIFLE: "M72 'Teddy' Auto Recoilless Rifle"
+  STR_M72_AUTOMATIC_RECOILLESS_RIFLE: "M72A1 'Teddy' Auto Recoilless Rifle"
   STR_M72_ARR_HEAT_MAG: M72 ARR HEAT Rack (x6)
   STR_M72_ARR_HE_MAG: M72 ARR HE Rack (x6)
   STR_M72_ARR_SMOKE_MAG: M72 ARR Smoke Rack (x6)
@@ -3288,12 +3293,12 @@ en-US:
   STR_X6_SHOT: x6 Auto Shot
 ########################
   STR_P72_COMPACT_LASER: TM-78 Laser Handgun
-  STR_ALK72_LASER_RIFLE: ALK-72M Laser Rifle
-  STR_KHARITONOV_LASER_BATTLE_RIFLE: Kharitonov Laser Battle Rifle
-  STR_ALP_SUBMACHINE_LASER: ALPM Submachine Laser
-  STR_MIRINOV_LASER_SNIPER: Mirinov Laser Sniper
-  STR_AN_MACHINE_LASER: ANM Machine Laser
-  STR_AFINA_ANTITANK_LASER: AFINA-M Anti-Tank Laser
+  STR_ALK72_LASER_RIFLE: ALKh-79 Laser Rifle
+  STR_KHARITONOV_LASER_BATTLE_RIFLE: SVPKh-80 Kharitonov Support Sniper Rifle
+  STR_ALP_SUBMACHINE_LASER: KLUAO-79 Submachine Laser
+  STR_MIRINOV_LASER_SNIPER: SVM-79 Mirinov Laser Sniper
+  STR_AN_MACHINE_LASER: LUAO-81 Machine Laser
+  STR_AFINA_ANTITANK_LASER: AFINA PTLU-M Anti-Tank Laser
   STR_MANA: "POWER RESERVE"
   STR_NOT_ENOUGH_MANA: "Not Enough Power"
   STR_MANA_POOL: "POWER RESERVE"

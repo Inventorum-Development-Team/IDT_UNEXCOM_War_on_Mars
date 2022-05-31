@@ -791,11 +791,6 @@ ufopaedia:
       text: STR_FLECHETTE_PISTOL_UFOPEDIA
       ammoSlot: 1
     listOrder: 4014
-  - id: STR_GYROJET_PISTOL
-    type_id: 4
-    section: STR_WEAPONS
-    text: STR_GYROJET_PISTOL_UFOPEDIA
-    listOrder: 4017
   - id: STR_MK115_SPACE_PISTOL
     type_id: 4
     section: STR_WEAPONS
@@ -839,6 +834,13 @@ ufopaedia:
     requires:
       - STR_USSR_LASER_HANDGUNS
     text: STR_ALP_SUBMACHINE_LASER_UFOPEDIA
+    pages:
+    - title: STR_ALP_SUBMACHINE_LASER
+      text: STR_ALP_SUBMACHINE_LASER_UFOPEDIA_1
+      ammoSlot: 0
+    - title: STR_ALP_SUBMACHINE_LASER
+      text: STR_ALP_SUBMACHINE_LASER_UFOPEDIA_2
+      ammoSlot: 0
     listOrder: 4110
 
   #Shotguns
@@ -858,16 +860,7 @@ ufopaedia:
     text: STR_X4_LASER_SHOTGUN_UFOPEDIA
     listOrder: 4207
 
-  - id: STR_FLECHETTE_SHOTGUN
-    type_id: 4
-    section: STR_WEAPONS
-    requires:
-      - STR_ALLOY_CLOSE
-    pages:
-    - title: STR_FLECHETTE_SHOTGUN
-      text: STR_FLECHETTE_SHOTGUN_UFOPEDIA
-      ammoSlot: 0
-    listOrder: 4208
+
   - id: STR_FLECHETTE_AUTO_SHOTGUN
     type_id: 4
     section: STR_WEAPONS
@@ -977,6 +970,13 @@ ufopaedia:
     requires:
       - STR_USSR_LASER_RIFLES
     text: STR_KHARITONOV_LASER_BATTLE_RIFLE_UFOPEDIA
+    pages:
+    - title: STR_KHARITONOV_LASER_BATTLE_RIFLE
+      text: STR_KHARITONOV_LASER_BATTLE_RIFLE_UFOPEDIA_1
+      ammoSlot: 0
+    - title: STR_KHARITONOV_LASER_BATTLE_RIFLE
+      text: STR_KHARITONOV_LASER_BATTLE_RIFLE_UFOPEDIA_2
+      ammoSlot: 0
     listOrder: 4415
 
   - id: STR_FLECHETTE_RIFLE
@@ -999,12 +999,6 @@ ufopaedia:
     text: STR_HUMAN_FUSION_RIFLE_UFOPEDIA
     listOrder: 4418
 
-  - id: STR_GYROJET_RIFLE
-    type_id: 4
-    section: STR_WEAPONS
-    text: STR_GYROJET_RIFLE_UFOPEDIA
-    listOrder: 4419
-
   - id: STR_MK119_SPACE_RIFLE
     type_id: 4
     section: STR_WEAPONS
@@ -1016,12 +1010,18 @@ ufopaedia:
     section: STR_WEAPONS
     text: STR_G11_CASELESS_RIFLE_UFOPEDIA
     listOrder: 4421
+  - id: STR_G11_CASELESS_RIFLE_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
 
   - id: STR_TKB1980_CASELESS_RIFLE
     type_id: 4
     section: STR_WEAPONS
     text: STR_TKB1980_CASELESS_RIFLE_UFOPEDIA
     listOrder: 4422
+  - id: STR_TKB1980_CASELESS_RIFLE_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
 
   - id: STR_LMG_REPORT
     type_id: 7
@@ -1052,7 +1052,13 @@ ufopaedia:
     section: STR_WEAPONS
     requires:
       - STR_USSR_LASER_HEAVY_WEAPONS
-    text: STR_AN_MACHINE_LASER_UFOPEDIA
+    pages:
+    - title: STR_AN_MACHINE_LASER
+      text: STR_AN_MACHINE_LASER_UFOPEDIA_1
+      ammoSlot: 0
+    - title: STR_AN_MACHINE_LASER
+      text: STR_AN_MACHINE_LASER_UFOPEDIA_2
+      ammoSlot: 0
     listOrder: 4507
 
   - id: STR_FLECHETTE_CANNON
@@ -1115,6 +1121,17 @@ ufopaedia:
       ammoSlot: 1
     listOrder: 4611
 
+  - id: STR_ALLOY_SMART_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_ALLOY_HEAVY
+    text: STR_ALLOY_SMART_RIFLE_UFOPEDIA
+    listOrder: 4611
+  - id: STR_ALLOY_SMART_RIFLE_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
   - id: STR_ARTILLERY_REPORT
     type_id: 7
     section: STR_WEAPONS
@@ -1130,10 +1147,10 @@ ufopaedia:
       - STR_NATO_LASER_HEAVY_WEAPONS
     pages:
     - title: STR_M72_AUTOMATIC_RECOILLESS_RIFLE
-      text: STR_M72_AUTOMATIC_RECOILLESS_RIFLE_UFOPEDIA
+      text: STR_M72_AUTOMATIC_RECOILLESS_RIFLE_UFOPEDIA_1
       ammoSlot: 0
     - title: STR_M72_AUTOMATIC_RECOILLESS_RIFLE
-      text: STR_M72_AUTOMATIC_RECOILLESS_RIFLE_UFOPEDIA
+      text: STR_M72_AUTOMATIC_RECOILLESS_RIFLE_UFOPEDIA_2
       ammoSlot: 0
     listOrder: 4705
 
@@ -1142,7 +1159,13 @@ ufopaedia:
     section: STR_WEAPONS
     requires:
       - STR_USSR_LASER_HEAVY_WEAPONS
-    text: STR_AFINA_ANTITANK_LASER_UFOPEDIA
+    pages:
+    - title: STR_AFINA_ANTITANK_LASER
+      text: STR_AFINA_ANTITANK_LASER_UFOPEDIA_1
+      ammoSlot: 0
+    - title: STR_AFINA_ANTITANK_LASER
+      text: STR_AFINA_ANTITANK_LASER_UFOPEDIA_2
+      ammoSlot: 0
     listOrder: 4706
 
   - id: STR_FLECHETTE_GL
