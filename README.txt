@@ -9,9 +9,9 @@ Credits by name:
 *cevaralien: MARSMOUNT, MARSURBAN, MARSPLAIN, MARSCRATER map and terrains
 *Dauntless1942: original USA/NATO/USSR laser weapons artwork, alien Fusion weapons artwork
 *efrenespartano: main ruleset work, Gyrojet weapons,
-*Fegelein: Tulskiy-Mirinov-78 Laser pistol sprite and Pedia entry
+*Fegelein: All the US, Soviet and NATO Laser sprites and Pedia text, Geoscape events 
 *Hans Woofington: new Mars textures, space suit paperdolls
-*Kael Schwabauer: alpha tester
+*Kael Schwabauer: alpha tester, Geoscape events
 *liberation: original globe data (WORLD.DAT), Martian Rocky, Plain and Polar maps and terrains
 *Luke83: Pyramid UFOs
 *Ultrakiroxei: alpha tester
