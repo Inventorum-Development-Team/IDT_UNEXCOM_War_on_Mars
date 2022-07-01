@@ -2228,17 +2228,19 @@ en-US:
 
   STR_38_LASER_MAGNUM_UFOPEDIA: An American heavy laser sidearm for soldiers who feel the need to compensate for the M1972's lack of firepower. Although Heavier than most laser sidearms, it can be useful when going up against more powerful aliens.
 
-  STR_CALBR_UFOPEDIA: The Colt Advanced Laser Battle Rifle is a high power laser rifle made by Colt's Manufacturing Company. This semiautomatic weapon fires a powerful laser beam at the pull of a trigger. The CALBR's high accuracy and power makes it a good mid to long range weapon.
+  STR_CALBR_UFOPEDIA: "After first stage of war with Ethereals, United States Army ordered a new main battle rifle for USSF from an ArmaLite. Eugene Stoner, although being new to the laser technologies, still managed to create a powerful, accurate and reliable gun. Based upon design of a M63 Stoner, new CALBR-76 also features it's modularity, giving ability to easily change stock, grip, scope, fire mods and etc."
+  
+  STR_CALBR_DMR_UFOPEDIA: "Modified version of CALBR-76. This one features a new 8x scope, with several different zoom modes, bipod, and differently focused charging system, making this rifle more powerful, but removing automatic fire."
 
-  STR_M20_M203_LASER_CARBINE_UFOPEDIA: The M20 is an American laser assault carbine based on the widely used M16. Created as a replacement for the outdated ballistic weapon, this laser share many of the same characteristics. This weapon is very accurate, lightweight, but suffers in Firepower. This variant utilizes an underbarrel grenade launcher.
+  STR_M20_M203_LASER_CARBINE_UFOPEDIA: "In 1978, the US Army started competition among armament companies for a new laser carbine for the Army Rangers and Airborne paratroopers. This competition was won by Knight's Armament Company, with their M54C. Being light and compact, this carbine also managed to be almost as powerful as a CALBR-76. This weapon also features cutting-edge scope with several modes, including heat vision, infravision and targets tracking."
 
-  STR_M5_LASER_SMG_UFOPEDIA: The M5 is America's new laser submachine gun, developed after making a breakthrough in laser technology. The M5 has a higher rate of fire than any other laser weapon due to it's advanced cycling emitter banks. Although this weapon excels in close combat, it suffers at range and stray beams can become an issue.
+  STR_M5_LASER_SMG_UFOPEDIA: "In 1979, for the the request of the US Navy SEALs, KRISS USA have created a new laser submachine gun, known as KRISS Radiant. With if unusual design, KRISS USA managed to create both light and powerful SMG, suitable for special operations in various conditions. KRISS Radiant was accepted by the SEALs in 1980, and by USSF in 1981 as an optional self-defence weapon for pilots."
 
-  STR_ULYSSES_LASER_SNIPER_RIFLE_UFOPEDIA: The Ulysses is a long range laser available to UNEXCOM marksmen. The advantages of this rifle are it's ease of use and its integrated advanced scope. Although this is the least powerful Sniper available to our forces, the impressive scope has faster target acquisition allowing for more follow up shots. This weapon is useful for picking off weaker targets at long ranges.
+  STR_ULYSSES_LASER_SNIPER_RIFLE_UFOPEDIA: "Recently founded in 1980 by Ronnie Barrett, Barrett Firearms has started a development of their own laser sniper rifle, aiming to get contract with the US Army. In the next year, Ronnie Barrett and his team created the new M49 Mountaineer sniper rifle. Accurate and powerful, this rifle also received new revolutionary scope with digital touchscreen, allowing the user switch between several different modes, be it heatvision, infravision, target tracking or sun protection. This sniper rifle was accepted by the Army at the end of 1981, by the name of M49 Mountaineer, and currently it's replacing an Ulysses Sniper Rifle."
 
-  STR_X4_LASER_SHOTGUN_UFOPEDIA: A laser 'shotgun' developed when an American researcher accidentally shattered a focusing optic during rifle testing, sending several small laser beams flying across the room. Although this incident at first created panic, the scientists later reasoned they could create a laser shotgun for close combat, something previously not thought possible. This laser uses an array of small mirrors to spread the lasers in several directions.
+  STR_X4_LASER_SHOTGUN_UFOPEDIA: "Designed for USSF in 1981 by Remington Arms, Remington 700L features a new charging system and lenses, making it possible to shoot 9 rays at once. It's also have a small weight and compact size, making Remington 700L perfect for close-quarters combat."
 
-  STR_M4_LASER_LMG_UFOPEDIA: The M4 is Squad Automatic Weapon developed by DARPA and UNEXCOM to replace the suddenly outdated M-60. Although it's a bit heavy and unwieldy, the M4 is a reliable machine gun and rather accurate.
+  STR_M4_LASER_LMG_UFOPEDIA: "In 1979, the United States Army started competition among armament companies to create a new laser light machine gun. This competition was won by General Electrics, with their M565 Microlaser. Design for this machine laser based on a famous M134 Minigun, featuring electronic rotating system for 6 barrels. With new and improved cooling system, M565 Microlaser managed to get really high firerate, although it's heavier and less accurate, in comparison with M4 Laser LMG."
 
   STR_ELERIUM_FLAMETHROWER_UFOPEDIA: After the discovery of Element 115 was made available to the American government, Pentagon officials asked if the element could be used to create a powerful incendiary weapon. By fusing Elerium with Napalm, they were able to create the fuel mixture used by the X55. They discovered that the powerful incendiary mixture could burn even the toughest aliens as well as force them out of hiding spots, but that it could also pose a threat to our own, as well as civilians, if we're not careful. They reluctantly put the weapon into service, with a warning to the soldiers using them.
 
@@ -3266,15 +3268,15 @@ en-US:
 ######################################################################################
   STR_PEACEMAKER: "XL-1 'Peacemaker' Hybrid Laser Rifle"
 ######################################################################################
-  STR_M1972_LASER_PISTOL: M1972 Laser Pistol
+  STR_M1972_LASER_PISTOL: "M1972A1 Laser Pistol"
   STR_38_LASER_MAGNUM: Laser Magnum
-  STR_CALBR: CALBR
-  STR_M20_M203_LASER_CARBINE: M20 M203 Laser Carbine
-  STR_M5_LASER_SMG: M5 Laser SMG
-  STR_ULYSSES_LASER_SNIPER_RIFLE: Ulysses Laser Sniper
-  STR_X4_LASER_SHOTGUN: X44 Scatter Laser
-  STR_M4_LASER_LMG: M4 Laser LMG
-  STR_ELERIUM_FLAMETHROWER: X55 Elerium Flamethrower
+  STR_CALBR: "CALBR-76"
+  STR_M20_M203_LASER_CARBINE: "M54C Laser Carbine"
+  STR_M5_LASER_SMG: "KRISS Radiant Laser SMG"
+  STR_ULYSSES_LASER_SNIPER_RIFLE: "M49 'Mountaineer' Laser Sniper"
+  STR_X4_LASER_SHOTGUN: "Remington 700L Scatter Laser"
+  STR_M4_LASER_LMG: "XM565 Microlaser"
+  STR_ELERIUM_FLAMETHROWER: "M55A2 Elerium Flamethrower"
 ######################
   STR_P71_LASER_PISTOL: "Glock 17LP Laser Pistol"
   STR_FN_FLA_LASERBATTLE_RIFLE: "FN FLA 'Leopold' Battle Rifle"
