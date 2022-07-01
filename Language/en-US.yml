@@ -2242,7 +2242,7 @@ en-US:
 
   STR_ELERIUM_FLAMETHROWER_UFOPEDIA: After the discovery of Element 115 was made available to the American government, Pentagon officials asked if the element could be used to create a powerful incendiary weapon. By fusing Elerium with Napalm, they were able to create the fuel mixture used by the X55. They discovered that the powerful incendiary mixture could burn even the toughest aliens as well as force them out of hiding spots, but that it could also pose a threat to our own, as well as civilians, if we're not careful. They reluctantly put the weapon into service, with a warning to the soldiers using them.
 
-  STR_P71_LASER_PISTOL_UFOPEDIA: Although several different nations suggested designs for a new standard NATO sidearm, Beretta's P-71 would be the only one adopted. With no need for an external power source or reloading and fine tuned for accuracy, the P-71 represents the next stage in human technology.
+  STR_P71_LASER_PISTOL_UFOPEDIA: "When NATO started a competition for new laser handgun in 1977, among well-known armament companies, such as 'Heckler und Koch' and 'Beretta', was an unknown Austrian engineer, known as Gaston Glock. And yet his design of a pistol, using not only new alloys, but also polymers, made Glock's handgun lighter and cheaper than the competitors designs. And so, in 1978, a newly formed Glock armament company received a huge contract for producing it's handgun, which was oficially named Glock 17LP (Laser Pistole), for the use in UASCNAT forces (United Aerospace Command of North Atlantic Treaty). Thanks to it's relatively cheap production and reliability Glock 17LP also became first laser handgun from European armament company, that made it's way into civilian gun market."
 
   STR_FN_FLA_LASER_BATTLE_RIFLE_UFOPEDIA: The FN FLA is the laser derivative of the famous FN FAL. Although the design and size are similar, the FLA is much more powerful and does not require reloading. This laser was made to provide a weapon for soldiers who desired higher accuracy and power at the cost of rate of fire.
 
@@ -3276,8 +3276,8 @@ en-US:
   STR_M4_LASER_LMG: M4 Laser LMG
   STR_ELERIUM_FLAMETHROWER: X55 Elerium Flamethrower
 ######################
-  STR_P71_LASER_PISTOL: "P-71 'Garibaldi' Laser Handgun"
-  STR_FN_FLA_LASER_BATTLE_RIFLE: "FN FLA 'Leopold' Battle Rifle"
+  STR_P71_LASER_PISTOL: "Glock 17LP Laser Pistol"
+  STR_FN_FLA_LASERBATTLE_RIFLE: "FN FLA 'Leopold' Battle Rifle"
   STR_FN_FLA_LASER_CARBINE: "FN FLA 'Leopold' Carbine"
   STR_L4_ASSAULT_LASER: "L-44 'Angevin' Assault Laser"
   STR_MAT72_SUBMACHINE_LASER: "MAT-72 'Charlemagne' Submachine Laser"
