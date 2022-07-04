@@ -2224,9 +2224,9 @@ en-US:
 
   STR_PEACEMAKER_UFOPEDIA: "A feat of ingenuity in desperate situations. Our experimental Laser-1 (XL-1) rifle is a special adaptation of alien technology. It has a damage output similar to the Alien Laser Rifle we used as the basis for building ours, although it draws more energy from our Energy Reserve than weapons built by the World Powers. Dubbed the 'Peacemaker' by our engineers, we think the name is very appropriate."
 
-  STR_M1972_LASER_PISTOL_UFOPEDIA: A laser powered handgun designed and developed by UNEXCOM and US scientists in 1972. Not only is this the first laser gun put into service, it is one of the best sidearms available to UNEXCOM forces.
+  STR_M1972_LASER_PISTOL_UFOPEDIA: "After acquiring of license for laser technology, Savage Arms developed a new handgun, which was adopted by US Army and even some security companies. Savage Arms managed to create miniature charging system, which perfomance was similar to perfomance of M1972 handgun, while being smaller and lighter, thanks to the use of new alloy. M77 Rasputin use design of Savage Model 1907, well-known handgun from the beginning of 20th Century."
 
-  STR_38_LASER_MAGNUM_UFOPEDIA: An American heavy laser sidearm for soldiers who feel the need to compensate for the M1972's lack of firepower. Although Heavier than most laser sidearms, it can be useful when going up against more powerful aliens.
+  STR_38_LASER_MAGNUM_UFOPEDIA: "Magnum Research acquired license for laser technology in 1976 and started development of a new powerful handgun. Constructors managed to create strong-looking handgun with powerful charging system and accurate lenses. New alloys, used in this weapon, allows to make it relatively light. This new Daring Eagle handgun was accepted by USSF (United States Space Forces) as self-defense gun for pilots, and optional sidearm for soldiers, looking for handgun, capable of killing strong aliens. Daring Eagle also became popular in Hollywood, being featured in recent action movies, thanks to it's brutal design."
 
   STR_CALBR_UFOPEDIA: "After first stage of war with Ethereals, United States Army ordered a new main battle rifle for USSF from an ArmaLite. Eugene Stoner, although being new to the laser technologies, still managed to create a powerful, accurate and reliable gun. Based upon design of a M63 Stoner, new CALBR-76 also features it's modularity, giving ability to easily change stock, grip, scope, fire mods and etc."
   
@@ -3268,8 +3268,8 @@ en-US:
 ######################################################################################
   STR_PEACEMAKER: "XL-1 'Peacemaker' Hybrid Laser Rifle"
 ######################################################################################
-  STR_M1972_LASER_PISTOL: "M1972A1 Laser Pistol"
-  STR_38_LASER_MAGNUM: Laser Magnum
+  STR_M1972_LASER_PISTOL: "M77 Rasputin Laser Pistol"
+  STR_38_LASER_MAGNUM: "Daring Eagle Laser Magnum"
   STR_CALBR: "CALBR-76"
   STR_M20_M203_LASER_CARBINE: "M54C Laser Carbine"
   STR_M5_LASER_SMG: "KRISS Radiant Laser SMG"
