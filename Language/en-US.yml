@@ -2246,19 +2246,20 @@ en-US:
 
   STR_P71_LASER_PISTOL_UFOPEDIA: "When NATO started a competition for new laser handgun in 1977, among well-known armament companies, such as 'Heckler und Koch' and 'Beretta', was an unknown Austrian engineer, known as Gaston Glock. And yet his design of a pistol, using not only new alloys, but also polymers, made Glock's handgun lighter and cheaper than the competitors designs. And so, in 1978, a newly formed Glock armament company received a huge contract for producing it's handgun, which was oficially named Glock 17LP (Laser Pistole), for the use in UASCNAT forces (United Aerospace Command of North Atlantic Treaty). Thanks to it's relatively cheap production and reliability Glock 17LP also became first laser handgun from European armament company, that made it's way into civilian gun market."
 
-  STR_FN_FLA_LASER_BATTLE_RIFLE_UFOPEDIA: The FN FLA is the laser derivative of the famous FN FAL. Although the design and size are similar, the FLA is much more powerful and does not require reloading. This laser was made to provide a weapon for soldiers who desired higher accuracy and power at the cost of rate of fire.
+  STR_FN_FLA_LASER_BATTLE_RIFLE_UFOPEDIA: "Designed by 'Steyr-Daimler-Puch', ArmeeLaserGewehr (or ALG-77), is a rifle from a new generation. Build out of new alloys and using innovative ideas in weapon-making sphere, this rifle managed to achieve high level of modularity, being able to use any additional sidegrades, ever produced by western armament companies. This rifle was quickly accepted by NATO in 1978 and soon became new main battle rifle in it's forces."
 
-  STR_FN_FLA_LASER_CARBINE_UFOPEDIA: A smaller and lighter version of the FN FLA laser rifle, meant for airborne and light infantry troops. It includes a collapsible stock and shorter barrel. Better for close combat but lacks the range and accuracy of the Leopold Battle Rifle.
+  STR_FN_FLA_LASER_CARBINE_UFOPEDIA: "Laser carbine, developed by Royal Small Arms Factory. This light and accurate weapon is suitable for close-quarters combat, but it's lacking a power. Yet it's a good weapon for carbine niche, so RSAF LC-80 was accepted in 1980 by UASCNAT, as a weapon for assault groups."
 
-  STR_L4_ASSAULT_LASER_UFOPEDIA: The L-44 Assault Rifle is an experimental West German Assault Laser submitted to the NATO Advanced Laser Weapon Project by Heckler and Koch. At first mocked for its strange design and uncomfortable grip, the L-4 would eventually impress even the greatest skeptics with its high accuracy and light weight. Eventually UNEXCOM officials approved the design for combat.
+  STR_L4_ASSAULT_LASER_UFOPEDIA: "The LG3-ZF ('LazerGewehr Zielfernrohr' , or 'Laser Rifle Scoped' in German) is a designated marksman rifle, built by Heckler und Koch armament company in 1979. It's uses design of G3 rifles and also features new and improved cooling system, making this rifle highly reliable. It's powerful and accurate DMR, good for supporting troops in a battle."
 
-  STR_MAT72_SUBMACHINE_LASER_UFOPEDIA: French laser submachine gun developed and supplied by the French weapons manufacturer, Nexter Systems, uses smaller heat sinks than a typical laser rifle, so power input is reduced to avoid overheating. Still, this submachine gun is great for counter terror operations and close combat.
+  STR_MAT72_SUBMACHINE_LASER_UFOPEDIA: "Despite high reviews of L4 by various ranks of NATO forces during War of 1972, Heckler und Koch armament company wasn't quite pleased with the revenue they made from it's production, so in 1976 they created a new laser SMG. Being modeled after iconic MP5, LMP6K light, compact and really powerful for it's size, suitable for use in spec ops operations and as self-defence weapon for pilots of UASCNAT. It was accepted by NATO in 1978, and many different nations in Organisation purchased them in large numbers."
+.
 
-  STR_CHURCHILL_MARKSMAN_LASER_RIFLE_UFOPEDIA: A Laser Sniper of British origin. Unlike their Soviet and American counterparts, British engineers, with the help of our scientists, were able to retain the full power of the laser as well as the accuracy. The Churchill can cut through enemies from far away, but its weight prevents quick relocation. Named after late British Prime Minister Winston Churchill.
+  STR_CHURCHILL_MARKSMAN_LASER_RIFLE_UFOPEDIA: "The Mauser LSSG-80 (Laserscharfschützengewehr, or Laser Sniper Rifle in German) is a sniper rifle, developed by Mauser company for the use in UASCNAT forces. This weapon features improved charging system, which makes shots more powerful and accurate. Also, this rifle received a new scope with several vision modes available for user."
 
   STR_ML73_LASER_MACHINE_GUN_UFOPEDIA: A West German Laser Machine Gun designed by Heckler & Koch. By late 1972 new techniques and technology allowed for larger and more efficient weapons. By converting some of the thermal energy made by firing the gun back into electrical energy, the ML-73 is able to fire large laser beams at a steady rate.
 
-  STR_M72_AUTOMATIC_RECOILLESS_RIFLE_UFOPEDIA: An American 40mm recoilless rifle that combines old and new technology, used both by the US and NATO. The 'Teddy' is capable of firing 6 rounds without reloading and fires both anti infantry and anti tank munitions. Named after US president Theodore Roosevelt. Originally developed during the first stage of war with Ethereals, M72 was modified in a preparation for martian campaign. M72A1 Teddy received a reinforced firing system to reduce chance of jamming in case of being soiled by martian dust
+  STR_M72_AUTOMATIC_RECOILLESS_RIFLE_UFOPEDIA: "An American 40mm recoilless rifle that combines old and new technology, used both by the US and NATO. The 'Teddy' is capable of firing 6 rounds without reloading and fires both anti infantry and anti tank munitions. Named after US president Theodore Roosevelt. Originally developed during the first stage of war with Ethereals, M72 was modified in a preparation for martian campaign. M72A1 Teddy received a reinforced firing system to reduce chance of jamming in case of being soiled by martian dust."
 
   STR_P72_COMPACT_LASER_UFOPEDIA_1: During the first stage of war with Ethereals, General Mirinov and his bureau received a quite amount of complaint about P-72, generally users were complaining about its low realibility and accuracy. In a responce they constructed a new model of laser handgun. 
 
@@ -3279,11 +3280,11 @@ en-US:
   STR_ELERIUM_FLAMETHROWER: "M55A2 Elerium Flamethrower"
 ######################
   STR_P71_LASER_PISTOL: "Glock 17LP Laser Pistol"
-  STR_FN_FLA_LASERBATTLE_RIFLE: "FN FLA 'Leopold' Battle Rifle"
-  STR_FN_FLA_LASER_CARBINE: "FN FLA 'Leopold' Carbine"
-  STR_L4_ASSAULT_LASER: "L-44 'Angevin' Assault Laser"
-  STR_MAT72_SUBMACHINE_LASER: "MAT-72 'Charlemagne' Submachine Laser"
-  STR_CHURCHILL_MARKSMAN_LASER_RIFLE: "'Churchill' Marksman Laser Rifle"
+  STR_FN_FLA_LASERBATTLE_RIFLE: "ALG-77 Laser Battle Rifle"
+  STR_FN_FLA_LASER_CARBINE: "RSAF LC-80 Laser Carbine"
+  STR_L4_ASSAULT_LASER: "LG3-ZF Laser DMR"
+  STR_MAT72_SUBMACHINE_LASER: "LMP6K Submachine Laser"
+  STR_CHURCHILL_MARKSMAN_LASER_RIFLE: "Mauser LSSG-80 Laser Sniper"
   STR_ML73_LASER_MACHINE_GUN: "ML-73 'Bassenheim' Laser MG"
   STR_M72_AUTOMATIC_RECOILLESS_RIFLE: "M72A1 'Teddy' Auto Recoilless Rifle"
   STR_M72_ARR_HEAT_MAG: M72 ARR HEAT Rack (x6)
