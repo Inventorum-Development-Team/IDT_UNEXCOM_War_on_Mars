@@ -763,7 +763,8 @@ en-US:
   STR_SOVIET_CITY_DEFENSE_BRIEFING: A core population of a Warsaw Pact country has been the target of an unprecedented attack. The Council has sent our units to liaise with Covenant troops in the area, to help contain the threat and evacuate the civilians.
 
   POLICE_SWAT: "SWAT Officer"
-  
+
+
   STR_FLECHETTE_RIFLE: "M52 Alloy Rifle"
   STR_ALLOY_RIFLE_AP: "TC Rifle Rounds (x20)"
   STR_ALLOY_RIFLE_FL: "Flechette Rifle Rounds (x60)"
@@ -863,6 +864,8 @@ en-US:
 
   STR_12GAUGE_ELERIUM_SHARDS_X8: "12-Gauge Elerium Shards (x8)"
 
+  STR_GRENADE: "M45 Frag Grenade"
+  STR_GRENADE_UFOPEDIA: "M45 is a frag grenade, developed specifically for martian conditions. It has received a new detonator, capable of working in non-breathable conditions. M45 was nicknamed in allied forces as 'Flask' due to it's shape looking similar to flask of liquor"
   STR_M202_FLASH_RACK: "M235 Incendiary Missile Rack (x4)"
   STR_40MM_FRAG: "40mm Frag Grenade (x1)"
   STR_40MM_INCENDIARY: "40mm INC Grenade (x1)"
