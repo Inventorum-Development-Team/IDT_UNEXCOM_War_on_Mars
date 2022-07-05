@@ -2253,11 +2253,10 @@ en-US:
   STR_L4_ASSAULT_LASER_UFOPEDIA: "The LG3-ZF ('LazerGewehr Zielfernrohr' , or 'Laser Rifle Scoped' in German) is a designated marksman rifle, built by Heckler und Koch armament company in 1979. It's uses design of G3 rifles and also features new and improved cooling system, making this rifle highly reliable. It's powerful and accurate DMR, good for supporting troops in a battle."
 
   STR_MAT72_SUBMACHINE_LASER_UFOPEDIA: "Despite high reviews of L4 by various ranks of NATO forces during War of 1972, Heckler und Koch armament company wasn't quite pleased with the revenue they made from it's production, so in 1976 they created a new laser SMG. Being modeled after iconic MP5, LMP6K light, compact and really powerful for it's size, suitable for use in spec ops operations and as self-defence weapon for pilots of UASCNAT. It was accepted by NATO in 1978, and many different nations in Organisation purchased them in large numbers."
-.
 
   STR_CHURCHILL_MARKSMAN_LASER_RIFLE_UFOPEDIA: "The Mauser LSSG-80 (Laserscharfschützengewehr, or Laser Sniper Rifle in German) is a sniper rifle, developed by Mauser company for the use in UASCNAT forces. This weapon features improved charging system, which makes shots more powerful and accurate. Also, this rifle received a new scope with several vision modes available for user."
 
-  STR_ML73_LASER_MACHINE_GUN_UFOPEDIA: A West German Laser Machine Gun designed by Heckler & Koch. By late 1972 new techniques and technology allowed for larger and more efficient weapons. By converting some of the thermal energy made by firing the gun back into electrical energy, the ML-73 is able to fire large laser beams at a steady rate.
+  STR_ML73_LASER_MACHINE_GUN_UFOPEDIA: "The FN Minimi Machine Laser was developed by FN Herstal in 1977. This weapon, in comparison with ML-73, have better and more powerful cooling system, and more toned lenses, with higher firerate and accuracy as a result. This machine laser has already received high reviews by soldiers and officers from various countries of NATO."
 
   STR_M72_AUTOMATIC_RECOILLESS_RIFLE_UFOPEDIA: "An American 40mm recoilless rifle that combines old and new technology, used both by the US and NATO. The 'Teddy' is capable of firing 6 rounds without reloading and fires both anti infantry and anti tank munitions. Named after US president Theodore Roosevelt. Originally developed during the first stage of war with Ethereals, M72 was modified in a preparation for martian campaign. M72A1 Teddy received a reinforced firing system to reduce chance of jamming in case of being soiled by martian dust."
 
@@ -3285,7 +3284,7 @@ en-US:
   STR_L4_ASSAULT_LASER: "LG3-ZF Laser DMR"
   STR_MAT72_SUBMACHINE_LASER: "LMP6K Submachine Laser"
   STR_CHURCHILL_MARKSMAN_LASER_RIFLE: "Mauser LSSG-80 Laser Sniper"
-  STR_ML73_LASER_MACHINE_GUN: "ML-73 'Bassenheim' Laser MG"
+  STR_ML73_LASER_MACHINE_GUN: "FN Minimi Machine Laser"
   STR_M72_AUTOMATIC_RECOILLESS_RIFLE: "M72A1 'Teddy' Auto Recoilless Rifle"
   STR_M72_ARR_HEAT_MAG: M72 ARR HEAT Rack (x6)
   STR_M72_ARR_HE_MAG: M72 ARR HE Rack (x6)
