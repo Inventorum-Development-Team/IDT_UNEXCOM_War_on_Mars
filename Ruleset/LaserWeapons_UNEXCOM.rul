@@ -346,7 +346,7 @@ items:
     autoRange: 50
     minRange: 5
     dropoff: 1
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
 
   - type: STR_X4_LASER_SHOTGUN
