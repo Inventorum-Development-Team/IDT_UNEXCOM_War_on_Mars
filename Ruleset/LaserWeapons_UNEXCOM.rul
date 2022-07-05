@@ -728,11 +728,11 @@ items:
     aimRange: 12
     snapRange: 15
     autoRange: 14
-    twoHanded: true
+    twoHanded: false
     dropoff: 1
     sprayWaypoints: 2
     invWidth: 1
-    invHeight: 3
+    invHeight: 2
 
   - type: STR_CHURCHILL_MARKSMAN_LASER_RIFLE
     categories: [STR_LASER, STR_FIREARMS, STR_SNIPER_RIFLES, STR_NATO_TECH]
@@ -778,7 +778,7 @@ items:
     autoRange: 25
     minRange: 25
     dropoff: 1
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
 
   - type: STR_ML73_LASER_MACHINE_GUN
