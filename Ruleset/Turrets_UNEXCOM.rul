@@ -6,12 +6,6 @@ items:
     invWidth: 0
     recover: false
     hiddenOnMinimap: true
-  - type: HIND_TURRET_SPAWNER
-    spawnUnit: HIND_TURRET
-    spawnUnitFaction: 2
-    invWidth: 0
-    invHeight: 0
-    battleType: 4
   - type: HUEY_SPAWNER
     spawnUnit: H_TURRET
     spawnUnitFaction: 0
@@ -185,11 +179,12 @@ items:
   - type: STR_M60_TURRET
     size: 0.4
     weight: 20
-    bigSprite: 144
-    floorSprite: 138
-    bulletSprite: 2
-    fireSound: 11
+    bigSprite: 2029
+    floorSprite: 2029
+    bulletSprite: 27
+    fireSound: 2966
     bulletSpeed: 35
+    hitAnimation: -1
     #reloadSound: [194, 195, 196]
     confSnap:
       shots: 5

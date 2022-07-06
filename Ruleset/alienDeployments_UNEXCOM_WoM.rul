@@ -18,23 +18,23 @@ alienDeployments:
             - STR_ALIEN_LASER_PISTOL
             - STR_ALIEN_LASER_PISTOL_BATTERY
             - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_ALIEN_LASER_RIFLE
             - STR_ALIEN_LASER_RIFLE_BATTERY
             - STR_ALIEN_LASER_RIFLE_BATTERY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_SNIPER_RIFLE
             - STR_PLASMA_SNIPER_RIFLE_CLIP
             - STR_PLASMA_SNIPER_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_FUSION_RIFLE
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
   - type: STR_MEDIUM_SCOUT
     civilians: 3
     #missionBountyItem: STR_MEDIUM_SCOUT_ANALYSIS
@@ -54,23 +54,23 @@ alienDeployments:
             - STR_ALIEN_LASER_PISTOL
             - STR_ALIEN_LASER_PISTOL_BATTERY
             - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_ALIEN_LASER_RIFLE
             - STR_ALIEN_LASER_RIFLE_BATTERY
             - STR_ALIEN_LASER_RIFLE_BATTERY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_SNIPER_RIFLE
             - STR_PLASMA_SNIPER_RIFLE_CLIP
             - STR_PLASMA_SNIPER_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_FUSION_RIFLE
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -85,23 +85,23 @@ alienDeployments:
             - STR_ALIEN_LASER_PISTOL
             - STR_ALIEN_LASER_PISTOL_BATTERY
             - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CLIP
             - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_CASTER
             - STR_PLASMA_CASTER_CLIP
             - STR_PLASMA_CASTER_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_FUSION_HANDGUN
             - STR_FUSION_POWER_CELL_LIGHT
             - STR_FUSION_POWER_CELL_LIGHT
             - STR_FUSION_POWER_CELL_LIGHT
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
   - type: STR_LARGE_SCOUT
     civilians: 4
     #missionBountyItem: STR_LARGE_SCOUT_ANALYSIS
@@ -121,23 +121,23 @@ alienDeployments:
             - STR_ALIEN_LASER_RIFLE
             - STR_ALIEN_LASER_RIFLE_BATTERY
             - STR_ALIEN_LASER_RIFLE_BATTERY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_SNIPER_RIFLE
             - STR_PLASMA_SNIPER_RIFLE_CLIP
             - STR_PLASMA_SNIPER_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_FUSION_RIFLE
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 1
@@ -152,23 +152,23 @@ alienDeployments:
             - STR_PLASMA_CASTER
             - STR_PLASMA_CASTER_CLIP
             - STR_PLASMA_CASTER_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CLIP
             - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_CASTER
             - STR_PLASMA_CASTER_CLIP
             - STR_PLASMA_CASTER_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_FUSION_HANDGUN
             - STR_FUSION_POWER_CELL_LIGHT
             - STR_FUSION_POWER_CELL_LIGHT
             - STR_FUSION_POWER_CELL_LIGHT
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
 
       - alienRank: 3
         lowQty: 1
@@ -215,17 +215,17 @@ alienDeployments:
             - STR_ALIEN_HEAVY_LASER
             - STR_ALIEN_HEAVY_LASER_BATTERY
             - STR_ALIEN_HEAVY_LASER_BATTERY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CLIP
             - STR_PLASMA_PISTOL_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_FUSION_SMG
             - STR_FUSION_POWER_CELL_LIGHT
@@ -250,23 +250,23 @@ alienDeployments:
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CLIP
             - STR_PLASMA_PISTOL_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_SNIPER_RIFLE
             - STR_PLASMA_SNIPER_RIFLE_CLIP
             - STR_PLASMA_SNIPER_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_FUSION_RIFLE
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -281,23 +281,23 @@ alienDeployments:
             - STR_ALIEN_LASER_PISTOL
             - STR_ALIEN_LASER_PISTOL_BATTERY
             - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CLIP
             - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_CASTER
             - STR_PLASMA_CASTER_CLIP
             - STR_PLASMA_CASTER_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_FUSION_HANDGUN
             - STR_FUSION_POWER_CELL_LIGHT
             - STR_FUSION_POWER_CELL_LIGHT
             - STR_FUSION_POWER_CELL_LIGHT
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
       - alienRank: 3
         lowQty: 1
         highQty: 2
@@ -405,23 +405,23 @@ alienDeployments:
             - STR_ALIEN_LASER_PISTOL
             - STR_ALIEN_LASER_PISTOL_BATTERY
             - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_ALIEN_LASER_RIFLE
             - STR_ALIEN_LASER_RIFLE_BATTERY
             - STR_ALIEN_LASER_RIFLE_BATTERY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_FUSION_RIFLE
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 1
@@ -436,23 +436,23 @@ alienDeployments:
             - STR_ALIEN_LASER_PISTOL
             - STR_ALIEN_LASER_PISTOL_BATTERY
             - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CLIP
             - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_CASTER
             - STR_PLASMA_CASTER_CLIP
             - STR_PLASMA_CASTER_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_FUSION_HANDGUN
             - STR_FUSION_POWER_CELL_LIGHT
             - STR_FUSION_POWER_CELL_LIGHT
             - STR_FUSION_POWER_CELL_LIGHT
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
       - alienRank: 3
         lowQty: 2
         highQty: 4
@@ -557,23 +557,23 @@ alienDeployments:
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CLIP
             - STR_PLASMA_PISTOL_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_SNIPER_RIFLE
             - STR_PLASMA_SNIPER_RIFLE_CLIP
             - STR_PLASMA_SNIPER_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_FUSION_RIFLE
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -588,23 +588,23 @@ alienDeployments:
             - STR_PLASMA_CASTER
             - STR_PLASMA_CASTER_CLIP
             - STR_PLASMA_CASTER_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CLIP
             - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_CASTER
             - STR_PLASMA_CASTER_CLIP
             - STR_PLASMA_CASTER_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_FUSION_HANDGUN
             - STR_FUSION_POWER_CELL_LIGHT
             - STR_FUSION_POWER_CELL_LIGHT
             - STR_FUSION_POWER_CELL_LIGHT
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
       - alienRank: 3
         lowQty: 1
         highQty: 1
@@ -737,23 +737,23 @@ alienDeployments:
             - STR_PLASMA_CASTER
             - STR_PLASMA_CASTER_CLIP
             - STR_PLASMA_CASTER_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_SNIPER_RIFLE
             - STR_PLASMA_SNIPER_RIFLE_CLIP
             - STR_PLASMA_SNIPER_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_FUSION_RIFLE
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -768,24 +768,24 @@ alienDeployments:
             - STR_PLASMA_CASTER
             - STR_PLASMA_CASTER_CLIP
             - STR_PLASMA_CASTER_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_CASTER
             - STR_PLASMA_CASTER_CLIP
             - STR_PLASMA_CASTER_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_FUSION_HANDGUN
             - STR_FUSION_POWER_CELL_LIGHT
             - STR_FUSION_POWER_CELL_LIGHT
             - STR_FUSION_POWER_CELL_LIGHT
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_FUSION_SMG
             - STR_FUSION_POWER_CELL_LIGHT
             - STR_FUSION_POWER_CELL_LIGHT
             - STR_FUSION_POWER_CELL_LIGHT
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
       - alienRank: 3
         lowQty: 1
         highQty: 2
@@ -957,23 +957,23 @@ alienDeployments:
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CLIP
             - STR_PLASMA_PISTOL_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_SNIPER_RIFLE
             - STR_PLASMA_SNIPER_RIFLE_CLIP
             - STR_PLASMA_SNIPER_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_FUSION_RIFLE
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -988,23 +988,23 @@ alienDeployments:
             - STR_PLASMA_CASTER
             - STR_PLASMA_CASTER_CLIP
             - STR_PLASMA_CASTER_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CLIP
             - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_CASTER
             - STR_PLASMA_CASTER_CLIP
             - STR_PLASMA_CASTER_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_FUSION_HANDGUN
             - STR_FUSION_POWER_CELL_LIGHT
             - STR_FUSION_POWER_CELL_LIGHT
             - STR_FUSION_POWER_CELL_LIGHT
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
       - alienRank: 3
         lowQty: 1
         highQty: 2
@@ -1228,7 +1228,7 @@ alienDeployments:
             - STR_PLASMA_SNIPER_RIFLE
             - STR_PLASMA_SNIPER_RIFLE_CLIP
             - STR_PLASMA_SNIPER_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
@@ -1272,17 +1272,17 @@ alienDeployments:
           -
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_SMALL_LAUNCHER
             - STR_STUN_BOMB
@@ -1494,23 +1494,23 @@ alienDeployments:
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CLIP
             - STR_PLASMA_PISTOL_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_SNIPER_RIFLE
             - STR_PLASMA_SNIPER_RIFLE_CLIP
             - STR_PLASMA_SNIPER_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_FUSION_RIFLE
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -1717,22 +1717,22 @@ alienDeployments:
             - STR_ALIEN_LASER_RIFLE
             - STR_ALIEN_LASER_RIFLE_BATTERY
             - STR_ALIEN_LASER_RIFLE_BATTERY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_ALIEN_LASER_RIFLE
             - STR_ALIEN_LASER_RIFLE_BATTERY
             - STR_ALIEN_LASER_RIFLE_BATTERY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_ALIEN_HEAVY_LASER
             - STR_ALIEN_HEAVY_LASER_BATTERY
             - STR_ALIEN_HEAVY_LASER_BATTERY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -1747,17 +1747,17 @@ alienDeployments:
             - STR_ALIEN_LASER_PISTOL
             - STR_ALIEN_LASER_PISTOL_BATTERY
             - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_ALIEN_LASER_PISTOL
             - STR_ALIEN_LASER_PISTOL_BATTERY
             - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_ALIEN_LASER_PISTOL
             - STR_ALIEN_LASER_PISTOL_BATTERY
             - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_ALIEN_LASER_PISTOL
             - STR_ALIEN_LASER_PISTOL_BATTERY
@@ -1925,22 +1925,22 @@ alienDeployments:
             - STR_ALIEN_LASER_RIFLE
             - STR_ALIEN_LASER_RIFLE_BATTERY
             - STR_ALIEN_LASER_RIFLE_BATTERY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_SNIPER_RIFLE
             - STR_PLASMA_SNIPER_RIFLE_CLIP
             - STR_PLASMA_SNIPER_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -1955,17 +1955,17 @@ alienDeployments:
             - STR_ALIEN_LASER_PISTOL
             - STR_ALIEN_LASER_PISTOL_BATTERY
             - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CLIP
             - STR_PLASMA_PISTOL_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_CASTER
             - STR_PLASMA_CASTER_CLIP
             - STR_PLASMA_CASTER_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CLIP
@@ -2146,23 +2146,23 @@ alienDeployments:
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CLIP
             - STR_PLASMA_PISTOL_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_SNIPER_RIFLE
             - STR_PLASMA_SNIPER_RIFLE_CLIP
             - STR_PLASMA_SNIPER_RIFLE_CLIP
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_FUSION_RIFLE
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY
             - STR_FUSION_POWER_CELL_HEAVY
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
       - alienRank: 4
         lowQty: 2
         highQty: 4

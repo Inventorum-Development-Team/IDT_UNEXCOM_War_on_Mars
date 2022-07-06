@@ -293,50 +293,6 @@ extraSprites:
       340: Resources/AlienLasers/Alien Energy Axe/Energy_Axe_Hand.png
 
 
-ufopaedia:
-  - id: STR_ALIEN_LASER_PISTOL
-    type_id: 4
-    section: STR_ALIEN_ARTIFACTS
-    text: STR_ALIEN_LASER_PISTOL_UFOPEDIA
-    listOrder: 301
-  - id: STR_ALIEN_LASER_PISTOL_BATTERY
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_ALIEN_LASER_RIFLE
-    type_id: 4
-    section: STR_ALIEN_ARTIFACTS
-    text: STR_ALIEN_LASER_RIFLE_UFOPEDIA
-    listOrder: 301
-  - id: STR_ALIEN_LASER_RIFLE_BATTERY
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_ALIEN_HEAVY_LASER
-    type_id: 4
-    section: STR_ALIEN_ARTIFACTS
-    text: STR_ALIEN_HEAVY_LASER_UFOPEDIA
-    listOrder: 301
-  - id: STR_ALIEN_HEAVY_LASER_BATTERY
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_ALIEN_REACTIVE_GRENADE
-    type_id: 4
-    section: STR_ALIEN_ARTIFACTS
-    text: STR_ALIEN_REACTIVE_GRENADE_UFOPEDIA
-    listOrder: 301
-  - id: STR_ALIEN_SIEGE_LAUNCHER
-    type_id: 4
-    section: STR_ALIEN_ARTIFACTS
-    text: STR_ALIEN_SIEGE_LAUNCHER_UFOPEDIA
-    listOrder: 301
-  - id: STR_ALIEN_SIEGE_LAUNCHER_SHELL
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_DEVIL_AXE
-    type_id: 4
-    section: STR_ALIEN_ARTIFACTS
-    text: STR_DEVIL_AXE_UFOPEDIA
-    listOrder: 306
-
 extraStrings:
   - type: en-US
     strings:

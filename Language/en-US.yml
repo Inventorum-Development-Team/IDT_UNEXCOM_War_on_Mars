@@ -944,7 +944,7 @@ en-US:
 
   STR_M202_FLASH: "M202 FLASH"
 
-  STR_M60: "M60 LMG"
+  STR_M60: "M250H Laser Gatling"
 
   STR_AR5: "AR-5 Survival Rifle"
 
@@ -3282,7 +3282,7 @@ en-US:
   STR_ELERIUM_FLAMETHROWER: "M55A2 Elerium Flamethrower"
 ######################
   STR_P71_LASER_PISTOL: "Glock 17LP Laser Pistol"
-  STR_FN_FLA_LASERBATTLE_RIFLE: "ALG-77 Laser Battle Rifle"
+  STR_FN_FLA_LASER_BATTLE_RIFLE: "ALG-77 Laser Battle Rifle"
   STR_FN_FLA_LASER_CARBINE: "RSAF LC-80 Laser Carbine"
   STR_L4_ASSAULT_LASER: "LG3-ZF Laser DMR"
   STR_MAT72_SUBMACHINE_LASER: "LMP6K Submachine Laser"
@@ -3694,7 +3694,7 @@ en-US:
   STR_PLASMA_TURRET:  "Plasma Turret"
   STR_ARTILLERY_TURRET: "Artillery Turret"
   STR_SMALL_PLASMA_TURRET: "Small Plasma Turret"
-  STR_M60_TURRET: "M60 Turret"
+  STR_M60_TURRET: "M250H Laser Gatling Turret"
   STR_HIND_ROCKETS: "Hind Rocket Pods"
   STR_HTURRET_UC: "M60 Turret Mounting"
   STR_SMALL_PLASMA_TURRET_UC: "Small Plasma Turret Hover Mounting"

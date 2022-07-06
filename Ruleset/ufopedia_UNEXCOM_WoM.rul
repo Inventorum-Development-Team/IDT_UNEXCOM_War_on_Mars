@@ -442,8 +442,6 @@ ufopaedia:
     type_id: 2
     listOrder: 1004
     section: STR_CRAFT_ARMAMENT
-    requires:
-      - STR_LASER_ARRAY
     image_id: APOLLO
     text: STR_APOLLO_LASER_GATLING_UFOPEDIA
 
@@ -1195,8 +1193,7 @@ ufopaedia:
   - id: STR_SPACE_KNIFE
     type_id: 4
     section: STR_WEAPONS
-    requires:
-      - STR_OLYMPUS
+
     text: STR_SPACE_KNIFE_UFOPEDIA
     listOrder: 4806
 
@@ -1207,8 +1204,6 @@ ufopaedia:
   - id: STR_GENERATOR_STICK
     type_id: 4
     section: STR_WEAPONS
-    requires:
-      - STR_GENERATOR_STICK
     text: STR_GENERATOR_STICK_UFOPEDIA
     listOrder: 4808
 
@@ -1428,8 +1423,6 @@ ufopaedia:
     listOrder: 6203
 
   - id: STR_MEDI_KIT
-    requires:
-      - STR_MEDI_KIT
     type_id: 4
     section: STR_EQUIPMENT
     text: STR_MEDI_KIT_UFOPEDIA
@@ -1442,16 +1435,12 @@ ufopaedia:
     listOrder: 6205
 
   - id: STR_DUCT_GUN
-    requires:
-      - STR_DUCT_GUN
     type_id: 4
     section: STR_EQUIPMENT
     text: STR_DUCT_GUN_UFOPEDIA
     listOrder: 6206
 
   - id: STR_BIO_FOAM
-    requires:
-      - STR_BIO_FOAM
     type_id: 4
     section: STR_EQUIPMENT
     text: STR_BIO_FOAM_UFOPEDIA
@@ -1532,32 +1521,28 @@ ufopaedia:
     type_id: 5
     section: STR_ARMOR
     listOrder: 7400
-    requires:
-      - STR_OLYMPUS
+
     text: STR_ASTRONAUT_A7L_SPACESUIT_UC_UFOPEDIA
 
   - id: STR_ASTRONAUT_A7_MMU_SPACESUIT_UC
     type_id: 5
     section: STR_ARMOR
     listOrder: 7402
-    requires:
-      - STR_OLYMPUS
+
     text: STR_ASTRONAUT_A7_MMU_SPACESUIT_UC_UFOPEDIA
 
   - id: STR_ASTRONAUT_KRECHET94_SPACESUIT_UC
     type_id: 5
     section: STR_ARMOR
     listOrder: 7403
-    requires:
-      - STR_OLYMPUS
+
     text: STR_ASTRONAUT_KRECHET94_SPACESUIT_UC_UFOPEDIA
 
   - id: STR_ASTRONAUT_KRECHETMMU_SPACESUIT_UC
     type_id: 5
     section: STR_ARMOR
     listOrder: 7405
-    requires:
-      - STR_OLYMPUS
+
     text: STR_ASTRONAUT_KRECHETMMU_SPACESUIT_UC_UFOPEDIA
 
   #Alien Lifeforms

@@ -653,12 +653,9 @@ items:
     damageType: 4
     damageAlter:
       RandomType: 6
-    confAimed:
-      shots: 3
-      name: STR_BURST
     confAuto:
-      shots: 5
-      name: STR_CONTROL_AUTO
+      shots: 1
+      name: STR_HEADSHOT
     accuracyAuto: 75
     accuracySnap: 85
     accuracyAimed: 80
@@ -679,7 +676,7 @@ items:
     snapRange: 25
     autoRange: 18
     dropoff: 1
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
 
   - type: STR_MAT72_SUBMACHINE_LASER
@@ -1412,6 +1409,7 @@ extraSprites:
       2026: Resources/LaserWeapons/USSR/BigANMachineLaser.png
       2027: Resources/LaserWeapons/USSR/BigAfinaAntiTankLaser.png
       2028: RESOURCES/Battery/battery.png
+      2029: Resources/Turrets/BigLaserGatling.png
 #####################
   - type: FLOOROB.PCK
     files:
@@ -1448,7 +1446,8 @@ extraSprites:
       2025: Resources/LaserWeapons/USSR/FloorMirinovLaserSniper.png
       2026: Resources/LaserWeapons/USSR/FloorANMachineLaser.png
       2027: Resources/LaserWeapons/USSR/FloorAfinaAntiTankLaser.png
-      2028: RESOURCES/Battery/battery.png
+      2028: RESOURCES/Battery/FloorBattery.png
+      2029: Resources/Turrets/FloorLaserGatling.png
 
   - type: HANDOB.PCK
     width: 256

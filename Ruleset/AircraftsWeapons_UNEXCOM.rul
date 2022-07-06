@@ -255,11 +255,11 @@ crafts:
   - type: STR_SPACE_SHUTTLE
     sprite: 945
     fuelMax: 2732 # Combat range of 22,000 nmi
-    damageMax: 450
+    damageMax: 650
     speedMax: 14092 # Orbital speed of 27,600 Km/h
-    accel: 3
-    soldiers: 14
-    vehicles: 0
+    accel: 5
+    soldiers: 18
+    vehicles: 1
     pilots: 2
     allowLanding: true
     spacecraft: true
@@ -283,20 +283,30 @@ crafts:
       - STR_CRAFT_ALL_CANNONS_ONE
       - STR_CRAFT_ROCKET_AUX_TWO
     battlescapeTerrainData:
-      name: SHUTTLE_GROUND
+      name: SHUTTLE_1980_GROUND
       mapDataSets:
         - BLANKS
         - SHUTTLE
       mapBlocks:
-        - name: SHUTTLE_GROUND
+        - name: SHUTTLE_1980_GROUND
           width: 10
           length: 20
+          items:
+            HUEY_SPAWNER:
+              - [2, 14, 1]
+              - [7, 14, 1]
+          fuseTimers:
+            HUEY_SPAWNER: [0, 0]
     craftInventoryTile: [5, 11, 1]
     deployment:
 #Pilots Cabin
-      - [5, 13, 1, 4]
-      - [4, 13, 1, 4]
+      - [5, 15, 1, 4]
+      - [4, 15, 1, 4]
 #Payload Bay
+      - [4, 12, 1, 4]
+      - [5, 12, 1, 4]
+      - [4, 11, 1, 4]
+      - [5, 11, 1, 4]
       - [4, 10, 1, 4]
       - [5, 10, 1, 4]
       - [4, 9, 1, 4]
