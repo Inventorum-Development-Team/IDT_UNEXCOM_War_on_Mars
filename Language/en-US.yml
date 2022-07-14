@@ -3753,8 +3753,21 @@ en-US:
   STR_TANK_LASER_CANNON: XM22 Legionnaire
   LEGIONNAIRE_TANK_ARMOR: Alien Alloys hull
   STR_XM343: LGM34-3H Kodiak Laser Cannon
-  STR_TANK_LASER_MINIGUN: XM250 Laser Minigun
+  STR_TANK_LASER_MINIGUN: XM250 Laser Minigun 
 
+
+########################
+#### WAR ON MARS #######
+########################
+
+  STR_STORY_REPORT_1: "Report: Operation Downfall"
+  STR_STORY_REPORT_1_UFOPEDIA: "October 26th, 1974. After three weeks of travel, three battlecruisers of allied nations - UNS Enterprise, UNS Marathon and UNS Stalingrad - made their way to Martian orbit, and attacked alien forces. With them, a small landing team, including UNEXCOM special squad, landed in a Cydonia, near Ethereals main HQ. After 2 hours of fierce battle, UNEXCOM squad infiltrated the headquarters and managed, despite heavy resistance, to destroy alien commanders, toppling their resistance. Yet, evacuation wasn't possible due to high amount of alien forces, and squad leader had to call an orbital strike at their location. Aliens was wiped out due to heavy bombings, and Cydonia's facilities were destroyed. Humans flew back home victorious, with defeated enemy behind. War of 1972 has ended."
+  STR_STORY_REPORT_2: "Report: Interwar Period"
+  STR_STORY_REPORT_2_UFOPEDIA:
+  STR_STORY_REPORT_3: "Data: Interwar Period III"
+  STR_STORY_REPORT_3_UFOPEDIA:
+  STR_STORY_REPORT_4: "Report: Base Modules"
+  STR_STORY_REPORT_4_UFOPEDIA: "The problem with a permanent human settlement in the Red Planet is the harshness of the environment and the constant threat of alien insurgents raiding said settlements. The solution was found actually before the War of 1972. During the Secret Crisis in the early 60s, several alien crafts were shot down around Kansas and Nevada. Engineers from the Area 51 branch of the CIA special unit Bureau 11 designed a mobile fortified barracks for the armed forces, made with the alien alloys. The end of the global conflict in the early 70s saw the fundation of Schwabauer Tech Inc, by the former lead engineers of B11. They adapted their schematics to use the hundreds of UFO wrecks into a compact, orbital-dropped, reinforced habitat, widely used by Earth's forces in Mars."
 
 ##########################################
 ########## COMMENDATIONS ###############
