@@ -11,8 +11,10 @@ Credits by name:
 *efrenespartano: main ruleset work, Gyrojet weapons,
 *Fegelein: All the US, Soviet and NATO Laser sprites and Pedia text, Geoscape events 
 *Hans Woofington: new Mars textures, space suit paperdolls
+*Ikhanad: official OST; Red Sand on a Boot (GMGEO1), Soil of Ares (GMTACTIC1), Martian Greeting (GMTACTIC2), Octet Chorus (GMMARS) 
 *Kael Schwabauer: alpha tester, Geoscape events
 *liberation: original globe data (WORLD.DAT), Martian Rocky, Plain and Polar maps and terrains
 *Luke83: Pyramid UFOs
+*Southoftheline: Inteception track (GMINTER)
 *Ultrakiroxei: alpha tester
 *wolwerin: Human Outpost/Station maps 
