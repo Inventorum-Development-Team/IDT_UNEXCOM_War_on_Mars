@@ -1190,12 +1190,12 @@ ufopaedia:
     text_width: 150
     listOrder: 4800
 
-  - id: STR_SPACE_KNIFE
-    type_id: 4
-    section: STR_WEAPONS
+  #- id: STR_SPACE_KNIFE
+  #  type_id: 4
+  #  section: STR_WEAPONS
 
-    text: STR_SPACE_KNIFE_UFOPEDIA
-    listOrder: 4806
+  #  text: STR_SPACE_KNIFE_UFOPEDIA
+  #  listOrder: 4806
 
   - id: STR_STUN_ROD
     section: STR_WEAPONS

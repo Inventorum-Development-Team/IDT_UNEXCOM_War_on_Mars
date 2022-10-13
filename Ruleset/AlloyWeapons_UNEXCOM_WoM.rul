@@ -608,7 +608,7 @@ items:
     invWidth: 1
     bulletSprite: 31
     battleType: 2
-    power: 35
+    power: 55
     hitSound: 22
     damageAlter:
       RandomType: 6
