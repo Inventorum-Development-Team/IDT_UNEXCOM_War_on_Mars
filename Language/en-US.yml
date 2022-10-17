@@ -504,9 +504,9 @@ en-US:
   STR_BLACKBIRD: "BLACKBIRD"
 
   STR_HARRIER: "HARRIER"
-  STR_HARRIER_UFOPEDIA: "Yak-38M 'Forger' - VTOL naval interceptor and attack fighter, originally meant for the Soviet Naval Aviation onboard aircraft carriers. Modified to operate in the thin Martian atmosphere, it's very fast."
+  STR_HARRIER_UFOPEDIA: "SAV-8M Harrier - VTOL strike fighter, specialized version of the Harrier jumpjet used by several NATO countries in Earth. It's thrusters have been modified to be used in makeshift airstrips in Mars surface, can be used in CAS missions."
   STR_FORGER: "FORGER"
-  STR_FORGER_UFOPEDIA: "SAV-8M Harrier - VTOL strike fighter, specialized version of the Harrier jumpjet used by several NATO countries in Earth. It's thrusters have been modified to be used in makeshift airstrips in Mars surface, can be used in CAS missions."
+  STR_FORGER_UFOPEDIA: "Yak-38M 'Forger' - VTOL naval interceptor and attack fighter, originally meant for the Soviet Naval Aviation onboard aircraft carriers. Modified to operate in the thin Martian atmosphere, it's very fast." 
 
   STR_TUNNAN_MK2: "TORNSVALAN"
 
