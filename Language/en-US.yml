@@ -1384,11 +1384,11 @@ en-US:
 
   STR_SABRE_UFOPAEDIA: "Sabre Endo/Exo-atmospheric Fighter - Revolutionary aircraft design developed by UNEXCOM. The aircraft is capable of high-atmospheric flight and even short exo-atmospheric flight if required. Due to being able to operate in these high altitudes the Sabre encounters minimal air resistance, making its extreme speed possible. In addition, the Sabre can carry a versatile set of weaponry."
 
-  STR_DYNASOAR_UFOPAEDIA: "Boeing SF-22 Dyna-MOWS - A spaceplane design that has been in development since 1957, although plagued by a lack of funds the program has avoided cancellation due to the repeated UFO sightings during the 60s. After the beginning of the alien invasion the program garnered a lot more interest. Although expensive to produce, the Dyna-Soar could provide a significant advantage in our struggle against the Aliens."
+  STR_DYNASOAR_UFOPAEDIA: "Boeing SF-22 Dyna-MOWS - American orbital interceptor, derived of the Dyna-Soar used in the War of 1972. Fully built in Alien Alloys and with larger cargo bay, its the primary space fighter of the USSF."
 
-  STR_HERMES_UFOPAEDIA: "Hermes - Originally planned as a reusable space shuttle to deliver cargo into orbit, but after the alien invasion plans quickly changed. The HERMES became an exo-atmospheric strike fighter capable of delivering nuclear missiles. Due to the non-military origins of the craft the design lacks the durability and maneuverability."
+  STR_HERMES_UFOPAEDIA: "Eurofighter HERMES ECSF-3 - Upgraded version of the Hermes strike fighter, improved with reinforced fuselage and better maneuver thrusters. Standard orbital combat craft of UASCNAT. "
 
-  STR_MIG_105_UFOPAEDIA: "MiG-105 Fiery - Entered development shortly after the alien invasion began. Benefitting from innovations discovered by UNEXCOM, the MiG-105 surpassed early expectations despite being the first spaceplane designed exclusively for military use. However, the MiG-105 still lags behind conventional aircraft designs in some aspects; the size of its payload is limited due to the requirement of having a low weight."
+  STR_MIG_105_UFOPAEDIA: "MiG-135 Super Fiery - The final development of Project Spiral, the MiG-135 remains the most agile military spaceplane in active service. The lightweight craft has improved radar and tracking systems."
 
   STR_BASTION_UFOPAEDIA: "The Bastion was designed with the sole purpose of spotting UFOs in mind, Capable of spotting and tracking UFOs in an unprecedented 2300-mile radius. Due to improvements in efficiency, the Bastion is capable of relocating with twice the speed of its predecessor. It houses a replicated alien IFF system, masking itself as friendly to alien sensors"
 
@@ -3760,6 +3760,8 @@ en-US:
 #### WAR ON MARS #######
 ########################
 
+
+
   STR_STORY_REPORT_1: "Report 1: Operation Downfall"
   STR_STORY_REPORT_1_UFOPEDIA: "October 26th, 1974. After three weeks of travel, three battlecruisers of allied nations - UNS Enterprise, UNS Marathon and UNS Stalingrad - made their way to Martian orbit, and attacked alien forces. With them, a small landing team, including UNEXCOM special squad, landed in a Cydonia, near Ethereals main HQ. After 2 hours of fierce battle, UNEXCOM squad infiltrated the headquarters and managed, despite heavy resistance, to destroy alien commanders, toppling their resistance. Yet, evacuation wasn't possible due to high amount of alien forces, and squad leader had to call an orbital strike at their location. Aliens was wiped out due to heavy bombings, and Cydonia's facilities were destroyed. Humans flew back home victorious, with defeated enemy behind. War of 1972 has ended."
   STR_STORY_REPORT_2: "Report 2: Preparation for colonisation"
@@ -3769,6 +3771,8 @@ en-US:
   STR_STORY_REPORT_4: "Report 4: Base Modules"
   STR_STORY_REPORT_4_UFOPEDIA: "The problem with a permanent human settlement in the Red Planet is the harshness of the environment and the constant threat of alien insurgents raiding said settlements. The solution was found actually before the War of 1972. During the Secret Crisis in the early 60s, several alien crafts were shot down around Kansas and Nevada. Engineers from the Area 51 branch of the CIA special unit Bureau 11 designed a mobile fortified barracks for the armed forces, made with the alien alloys. The end of the global conflict in the early 70s saw the fundation of Schwabauer Tech Inc, by the former lead engineers of B11. They adapted their schematics to use the hundreds of UFO wrecks into a compact, orbital-dropped, reinforced habitat, widely used by Earth's forces in Mars."
 
+  STR_REPORT_MARS_ORBITAL_DEFENSE: "Report - Mars Orbital Defense"
+  STR_REPORT_MARS_ORBITAL_DEFENSE_UFOPEDIA: "The main Mars planetary defense is carried by an international squadron of Orion ships - usually a couple of battleships and several frigates or destroyers. In order to boost said fleet, several spaceplane wings are prepared for deployment from launch pads near the UN military bases, with a couple dozen already in orbit. This projection of power is deemed essential to maintain the human position in Mars and considered strong enough to keep the Ethereal insurgency at bay. There have been some incidents with vehicles damaged or shot down by hidden Elerium Fusion-equipped SAM batteries, but the UNSC considers them isolated actions."
 ##########################################
 ########## COMMENDATIONS ###############
 #######################################
