@@ -557,6 +557,105 @@ ufopaedia:
     text: STR_ALLOY_CRAFT_ARMOR_UFOPEDIA
     listOrder: 1604
 
+###############################
+
+
+  - id: STR_STORY_REPORT_1
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_STORY_REPORT_1
+    text: STR_STORY_REPORT_1_UFOPEDIA
+    listOrder: 1700
+
+  - id: STR_STORY_REPORT_2
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_STORY_REPORT_2
+    text: STR_STORY_REPORT_2_UFOPEDIA
+    listOrder: 1701
+
+  - id: STR_STORY_REPORT_3
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_STORY_REPORT_3
+    text: STR_STORY_REPORT_3_UFOPEDIA
+    listOrder: 1702
+
+  - id: STR_STORY_REPORT_4
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_STORY_REPORT_4
+    text: STR_STORY_REPORT_4_UFOPEDIA
+    listOrder: 1703
+
+  - id: STR_STORY_REPORT_5
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_STORY_REPORT_5
+    text: STR_STORY_REPORT_5_UFOPEDIA
+    listOrder: 1704
+
+  - id: STR_STORY_REPORT_6
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_STORY_REPORT_6
+    text: STR_STORY_REPORT_6_UFOPEDIA
+    listOrder: 1705
+
+  - id: STR_STORY_REPORT_7
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_STORY_REPORT_7
+    text: STR_STORY_REPORT_7_UFOPEDIA
+    listOrder: 1706
+
+  - id: STR_MARS_ORBITAL_DEFENSE_REPORT
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_MARS_ORBITAL_DEFENSE_REPORT
+    text: STR_MARS_ORBITAL_DEFENSE_REPORT_UFOPEDIA
+    listOrder: 1710
+
+  - id: STR_PSIONIC_LORE_REPORT_1
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_PSIONIC_LORE_REPORT_1
+    text: STR_PSIONIC_LORE_REPORT_1_UFOPEDIA
+    listOrder: 1720
+
+  - id: STR_SOVIET_PSIONIC_CORPS_REPORT_1
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_SOVIET_PSIONIC_CORPS_REPORT_1
+    text: STR_SOVIET_PSIONIC_CORPS_REPORT_1_UFOPEDIA
+    listOrder: 1730
+
+  - id: STR_NATO_CYBORG_OPERATORS_REPORT_1
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_NATO_CYBORG_OPERATORS_REPORT_1
+    text: STR_NATO_CYBORG_OPERATORS_REPORT_1_UFOPEDIA
+    listOrder: 1740
+
+  - id: STR_NATO_CYBORG_OPERATORS_REPORT_2
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_NATO_CYBORG_OPERATORS_REPORT_2
+    text: STR_NATO_CYBORG_OPERATORS_REPORT_2_UFOPEDIA
+    listOrder: 1740
+##############################
   - id: STR_USA_LASER_RESEARCH
     type_id: 7
     requires:

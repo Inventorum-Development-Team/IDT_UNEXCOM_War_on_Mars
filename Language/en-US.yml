@@ -4188,7 +4188,8 @@ en-US:
   STR_MEDAL_CAPTURE_SPECIALIST_10: "Capture Specialist X"
 
 #####################
-  GMTACTIC1: "Soil of Ares"
+  GMSTORY: "Red Sand on a Boot"
+  GMTACTIC: "Soil of Ares"
   GMTACTIC2: "Martian Meeting"
   GMMARS: "Octet Chorus"
   GMNEWMAR: "Open Path"
@@ -4197,6 +4198,7 @@ en-US:
   GMGEO2: "Wind Over Dunes"
   GMGEO3: "The Easy Way or the Hard Way"
   GMDEFEND: "Routinary Operations"
+  GMENBASE: "Routinary Operations"
 
 
 
