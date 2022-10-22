@@ -106,7 +106,7 @@ alienDeployments:
     civilians: 4
     #missionBountyItem: STR_LARGE_SCOUT_ANALYSIS
     height: 10
-    data:
+    data: &LargeScoutData
       - alienRank: 5
         lowQty: 1
         highQty: 3
@@ -2351,3 +2351,32 @@ alienDeployments:
     objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
 #END ALIEN BASE, STAGE 3
+
+#################
+#### ACT 1 #####
+###############
+  - type: STR_COUNTER_INSURGENCY_OPERATION_DEPLOYMENT
+
+    #startingCondition: STR_CONCEALED
+
+    #customUfo: STR_KGB_HIDEOUT_UFO
+    baseSelfDestructCode: STR_DELETE_COUNTER_INSURGENCY_OPERATIONS
+    #civiliansByType:
+     # STR_GLADIO_OPERATIVE_M: 2
+     # STR_GLADIO_OPERATIVE_F: 2
+    height: 10
+    width: 40
+    length: 40
+    data: *LargeScoutData 
+    #terrains:
+    #  - EXPANDED_TERROR_UFO
+    #  - RURAL
+    briefing:
+      #textOffset: -16
+      background: BACK03.SCR
+      showTarget: true
+      showCraft: true
+      desc: STR_COUNTER_INSURGENCY_OPERATION_DESCRIPTION
+      palette: 2
+    markerName: STR_COUNTER_INSURGENCY_OPERATION_MARKER_NAME
+    #markerIcon: 32
