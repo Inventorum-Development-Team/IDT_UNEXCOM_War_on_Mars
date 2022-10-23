@@ -1205,11 +1205,47 @@ en-US:
   STR_HIJACKED_PLANE_BRIEFING: A civilian plane has been hijacked by a group of terrorists. The extremists are demanding the release of their comrades held in prisons in the country where we will be deployed, as well as safe passage to escape. We cannot allow that. The aircraft is parked on a runway at the local airport. Our mission will be to storm the plane, neutralize the hostiles and avoid civilian casualties at all costs. Extreme caution, it's a closed environment and a stray bullet could injure someone.
   STR_HUMAN_TERROR_ATTACK: Terrorist Attack
   STR_URBAN_TERROR_BRIEFING: A squad of terrorists has started an attack on a city and we have been called upon to support the local authorities. The reason for the assault is not known, but there is speculation that the enemy is trying to make a show of force, perhaps directed at members of other anarchist groups. There are no hostages, but chaos reigns in the streets. It is our mission to support the local forces in restoring order, neutralizing the hostiles and ensuring the safety of civilians, before the attack escalates and gets out of control.
+  
+  
+  
+  
   STR_TERRORIST_HQ_MARKER: "Terrorist Hideout"
   STR_TERRORIST_HQ_FOUND: "Terrorist Hideout Found"
   STR_TERRORIST_HQ_BRIEFING: "Intelligence has confirmed that this building is the source of the alien weaponry. The number of individuals inside is unknown, but is estimated at between 20 and 30. Your objective is to clear out the building and either capture or neutralize whoever is in charge of the cell. Speed and discretion is essential, as we do not want to draw unwanted attention from the public to the operation"
   STR_TERRORIST_HQ_RAID: "Terrorist Hideout Raid"
-
+  
+  
+  ##################
+  STR_COUNTER_INSURGENCY_OPERATION: "Counter-Insurgency Operation"
+  STR_COUNTER_INSURGENCY_OPERATION_DEPLOYMENT: "COUNTER-INSURGENCY OPERATION"
+  STR_COUNTER_INSURGENCY_OPERATION_DESCRIPTION: "Allied forces operating in the area have reported Insurgent activity, most likely aimed to compromise their safety. We have been tasked to engage the alien guerrilla before they manage to damage our assets and retreat. "
+  STR_COUNTER_INSURGENCY_OPERATION_MARKER_NAME: "Counter-Insurgency Operation Requested"
+  STR_DELETE_COUNTER_INSURGENCY_OPERATIONS: "End Counter-Insurgency Operations"
+  
+  STR_SEARCH_AND_DESTROY_OPERATION: "Search and Destroy Operation"
+  STR_SEARCH_AND_DESTROY_OPERATION_DEPLOYMENT: "SEARCH AND DESTROY"
+  STR_SEARCH_AND_DESTROY_OPERATION_DESCRIPTION: "We were deployed to what appears to be an Insurgent facility, recently detected by allied recon units. The mission consists in approach the enemy settlement, detect any armed hostile and engage them, then quickly return before the enemy manages to prepare a counterstrike. Be careful, this is urban combat. There may be Insurgents in every house. Evacuate before 10 turns."
+  STR_SEARCH_AND_DESTROY_OPERATION_MARKER_NAME: "Search and Destroy Operation requested"
+  STR_DELETE_SEARCH_AND_DESTROY_OPERATIONS: "End Search and Destroy Operations"
+  
+  STR_SUPPLY_RECOVERY_OPERATION: "Supply Recovery Operation"
+  STR_SUPPLY_RECOVERY_OPERATION_DEPLOYMENT: "SUPPLY RECOVERY OPERATION"
+  STR_SUPPLY_RECOVERY_OPERATION_DESCRIPTION: "Local recon has identified supplies left behind in a small outpost left untouched after the enemy offensive. Our task is approach the site and retrieve any useful supply or equipment. Be careful, the enemy attackers may be near the area, they will intercept our team if we take too long. Evacuate before 10 turns."
+  STR_SUPPLY_RECOVERY_OPERATION_MARKER_NAME: "Supply Recovery Operation planned"
+  STR_DELETE_SUPPLY_RECOVERY_OPERATIONS: "End Supply Recovery Operations"
+  
+  STR_MAJOR_ENGAGEMENT: "Major Engagement"
+  STR_MAJOR_ENGAGEMENT_DEPLOYMENT: "MAJOR ENGAGEMENT"
+  STR_MAJOR_ENGAGEMENT_DESCRIPTION: "UN forces have intercepted a large group of Insurgents and a fierce battle has begun. While the allied forces could win the combat on their own, the UNSC has tasked us to turn the tide. Land and support the friendly units before the enemy manages to flee."
+  STR_MAJOR_ENGAGEMENT_MARKER_NAME: "Major Engagement ongoing"
+  
+  STR_OPERATION_SLEDGEHAMMER: "Operation Sledgehammer"
+  STR_OPERATION_SLEDGEHAMMER_DEPLOYMENT: "OPERATION SLEDGEHAMMER - LANDING"
+  STR_OPERATION_SLEDGEHAMMER_DESCRIPTION: "Orbital recon has found the main HQ of the Insurgency, located deep inside the Olympus Mons. Our task force has been requested to assault the hideout and destroy the leadership once and for all. Most of the enemy forces have been recalled to defend their main base. UNSC has launched this joint operation, allied forces have landed along with us. This is the final battle for the control of Mars."
+  STR_OPERATION_SLEDGEHAMMER_MARKER_NAME: "Operation Sledgehammer scheduled to start"
+  STR_OPERATION_SLEDGEHAMMER_STAGE_2_DEPLOYMENT: "OPERATION SLEDGEHAMMER - HQ"
+  STR_OPERATION_SLEDGEHAMMER_STAGE_2_DESCRIPTION: "We have managed to enter what seems a complex artificial cave system inside Olympus Mons. Other friendly forces have entered as well. Our mission will be accomplished after locating and destroying the Brain controlling the Insurgent activities. "
+  
   STR_GOOD_ENDING_1: "After breaching through the depths of the alien command center, our troops we able to destroy the Brain, a supercomputer used by the aliens to coordinate efforts on Earth. A nuclear attack from orbit happened right after our troops left the facility, negating the enemy the possibility of retrieving any artifacts or data. No known alien survivors are reported."
   STR_GOOD_ENDING_2: "Other UN-led forces around the planet report similar success on their designated objectives. There is still heavy resistance, but we have crippled their military forces and they are routed."
   STR_GOOD_ENDING_3: "Operation Downfall meant the beginning of the colonization of the space. Human spaceships are built, meant to reach the planets and moons on the Solar System. A dream that was impossible a decade ago. The power of the atom, instead of destroying the Mankind, has propel us to the stars and beyond."
@@ -3774,7 +3810,7 @@ en-US:
   STR_STORY_REPORT_6: "Report #6: First landings"
   STR_STORY_REPORT_6_UFOPEDIA: "In January 20th, 1979, the united fleet of allied nations, UNS Enterprise, UNS Austerlitz, UNS Stalingrad and UNS Bagration, started their approach to Martian orbit. This operation, known as Operation Cleanup in classified documents, started their second phase with landings on a martian surface at February 5th, 1979. Those landings did a Mars surface survey, looking for any signs of alien activity, but, surprisingly, they found nothing. So, Operation Cleanup was deemed technically succesful, even though there was no aliens to fight. After that, in February 9th, allied nations started a construction of permanent military bases at Arcadia Plains, named as Suvorov station for Soviet Space Forces, MacArthur for USSF, and Napoleon for UASCNAT"
   STR_STORY_REPORT_7: "Report #7: Establishing Expansion"
-  STR_STORY_REPORT_7_UFOPEDIA: "After Operation Cleanup and creation of the first military bases on Mars, allied nations started to slowly expand their spheres of influence. First, international scientific base, known as New Horizon, were founded in 1979, who started exploring the Red Planet. With generous fundings from both goverments and private companies, new bases and settlements are started appearing rapidly, be it for scientific or military purposes. The humanity slowly, yet surely were securing it's position on Mars, turning planet into their backyard"
+  STR_STORY_REPORT_7_UFOPEDIA: "After Operation Cleanup and creation of the first military bases on Mars, allied nations started to slowly expand their spheres of influence. First, international scientific base, known as New Horizon, were founded in 1979, who started exploring the Red Planet. With generous fundings from both goverments and private companies, new bases and settlements are started appearing rapidly, be it for scientific or military purposes. Th humanity slowly, yet surely were securing it's position on Mars, turning planet into their backyard"
   
   STR_MARS_ORBITAL_DEFENSE_REPORT: "Operational Report - Mars Orbital Defense"
   STR_MARS_ORBITAL_DEFENSE_REPORT_UFOPEDIA: "The main Mars planetary defense is carried by an international squadron of Orion ships - usually a couple of battleships and several frigates or destroyers. In order to boost said fleet, several spaceplane wings are prepared for deployment from launch pads near the UN military bases, with a couple dozen already in orbit. This projection of power is deemed essential to maintain the human position in Mars and considered strong enough to keep the Ethereal insurgency at bay. There have been some incidents with vehicles damaged or shot down by hidden Elerium Fusion-equipped SAM batteries, but the UNSC considers them isolated actions."
