@@ -1,4 +1,70 @@
 alienMissions:
+  - type: STR_COUNTER_INSURGENCY_OPERATION_MISSION
+    objective: 3
+    siteType: STR_COUNTER_INSURGENCY_OPERATION_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+        STR_SECTOID: 25
+        STR_SNAKEMAN: 25
+        STR_FLOATER: 50
+      2:
+        STR_SECTOID: 10
+        STR_SNAKEMAN: 20
+        STR_ETHEREAL: 40
+        STR_MUTON: 20
+        STR_FLOATER: 10
+    waves:
+      - ufo: STR_COUNTER_INSURGENCY_OPERATION_DEPLOYMENT
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 0
+        objective: true
+
+  - type: STR_SEARCH_AND_DESTROY_OPERATION_MISSION
+    objective: 3
+    siteType: STR_SEARCH_AND_DESTROY_OPERATION_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+        STR_SECTOID: 25
+        STR_SNAKEMAN: 25
+        STR_FLOATER: 50
+      2:
+        STR_SECTOID: 10
+        STR_SNAKEMAN: 20
+        STR_ETHEREAL: 40
+        STR_MUTON: 20
+        STR_FLOATER: 10
+    waves:
+      - ufo: STR_SEARCH_AND_DESTROY_OPERATION_DEPLOYMENT
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 0
+        objective: true
+
+  - type: STR_SUPPLY_RECOVERY_OPERATION_MISSION
+    objective: 3
+    siteType: STR_SUPPLY_RECOVERY_OPERATION_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+        STR_SECTOID: 25
+        STR_SNAKEMAN: 25
+        STR_FLOATER: 50
+      2:
+        STR_SECTOID: 10
+        STR_SNAKEMAN: 20
+        STR_ETHEREAL: 40
+        STR_MUTON: 20
+        STR_FLOATER: 10
+    waves:
+      - ufo: STR_SUPPLY_RECOVERY_OPERATION_DEPLOYMENT
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 0
+        objective: true
+
   - type: STR_ALIEN_INFILTRATION_INITIAL
     points: 50 #Pact score only awarded on month end
     objective: 1

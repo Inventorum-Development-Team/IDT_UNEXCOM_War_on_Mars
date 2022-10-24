@@ -1467,11 +1467,11 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_BLASTER_LAUNCHER
-            - STR_BLASTER_BOMB
-            - STR_BLASTER_BOMB
-            - STR_BLASTER_BOMB
-            - STR_BLASTER_BOMB
+            - STR_ALIEN_SIEGE_LAUNCHER
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
     width: 50
     length: 50
     civilians: 6
@@ -2373,13 +2373,16 @@ alienDeployments:
       - MSTRK
     briefing:
       #textOffset: -16
-      background: BACK03.SCR
+      background: BACK02.SCR
       showTarget: true
       showCraft: true
       desc: STR_COUNTER_INSURGENCY_OPERATION_DESCRIPTION
       palette: 2
     markerName: STR_COUNTER_INSURGENCY_OPERATION_MARKER_NAME
+    alert: STR_COUNTER_INSURGENCY_OPERATION_ALERT
     #markerIcon: 32
+    duration: [78, 99]
+    despawnPenalty: 100
 
   - type: STR_SEARCH_AND_DESTROY_OPERATION_DEPLOYMENT
     #baseSelfDestructCode: STR_DELETE_SEARCH_AND_DESTROY_OPERATION_OPERATIONS
@@ -2392,13 +2395,16 @@ alienDeployments:
       - MARS
     briefing:
       #textOffset: -16
-      background: BACK03.SCR
+      background: BACK16.SCR
       showTarget: true
       showCraft: true
       desc: STR_SEARCH_AND_DESTROY_OPERATION_DESCRIPTION
       palette: 2
     markerName: STR_SEARCH_AND_DESTROY_OPERATION_MARKER_NAME
+    alert: STR_SEARCH_AND_DESTROY_OPERATION_ALERT
     #markerIcon: 32
+    duration: [78, 99]
+    despawnPenalty: 100
 
   - type: STR_SUPPLY_RECOVERY_OPERATION_DEPLOYMENT
     #baseSelfDestructCode: STR_DELETE_SUPPLY_RECOVERY_OPERATION_OPERATIONS
@@ -2410,10 +2416,14 @@ alienDeployments:
       - IDT_HUMAN_STATION_NO_UFO
     briefing:
       #textOffset: -16
-      background: BACK03.SCR
+      background: BACK16.SCR
       showTarget: true
       showCraft: true
       desc: STR_SUPPLY_RECOVERY_OPERATION_DESCRIPTION
       palette: 2
     markerName: STR_SUPPLY_RECOVERY_OPERATION_MARKER_NAME
-    #markerIcon: 32  
+    alert: STR_SUPPLY_RECOVERY_OPERATION_ALERT
+    #missionBountyItem: 
+    #markerIcon: 32 
+    duration: [78, 99]
+    despawnPenalty: 100 

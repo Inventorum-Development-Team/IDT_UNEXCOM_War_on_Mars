@@ -10,6 +10,62 @@ missionScripts:
   - delete: superhumanRetaliation
   #- delete: recurringTerror
 
+#####################
+###### ACT 1 #######
+###################
+
+  - type: counterInsurgency
+    varName: counterInsurgency
+    missionWeights:
+      0:
+        STR_COUNTER_INSURGENCY_OPERATION_MISSION: 100
+    regionWeights:
+      0:
+        REGION_COUNTER_INSURGENCY_OPERATION: 100
+    #researchTriggers:
+      #STR_TERRORISTS_OPERATIONS: true
+      #STR_END_OF_TERRORISTS: false
+    useTable: false
+    startDelay: 21600 # 15 Days
+    executionOdds: 100
+    lastMonth: 5
+    maxRuns: 6
+
+  - type: searchAndDestroy
+    varName: searchAndDestroy
+    missionWeights:
+      0:
+        STR_SEARCH_AND_DESTROY_OPERATION_MISSION: 100
+    regionWeights:
+      0:
+        REGION_SEARCH_AND_DESTROY_OPERATION: 100
+    #researchTriggers:
+      #STR_TERRORISTS_OPERATIONS: true
+      #STR_END_OF_TERRORISTS: false
+    useTable: false
+    startDelay: 21600 # 15 Days
+    executionOdds: 100
+    lastMonth: 5
+    maxRuns: 6
+
+  - type: supplyRecovery
+    varName: supplyRecovery
+    missionWeights:
+      0:
+        STR_SUPPLY_RECOVERY_OPERATION_MISSION: 100
+    regionWeights:
+      0:
+        REGION_SUPPLY_RECOVERY_OPERATION: 100
+    #researchTriggers:
+      #STR_TERRORISTS_OPERATIONS: true
+      #STR_END_OF_TERRORISTS: false
+    useTable: false
+    startDelay: 21600 # 15 Days
+    executionOdds: 100
+    firstMonth: 3
+    lastMonth: 6
+    maxRuns: 6
+
   - type: guerrillaStart
     missionWeights:
       0:
