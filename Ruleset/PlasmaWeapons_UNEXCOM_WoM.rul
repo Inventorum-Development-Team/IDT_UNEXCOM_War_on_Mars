@@ -121,6 +121,8 @@ items:
     aimRange: 30
     snapRange: 28
     autoRange: 25
+    invHeight: 3
+    invWidth: 2
     minRange: 5
     dropoff: 3
     autoShots: 2 # 3
