@@ -1303,10 +1303,10 @@ extraSprites:
       0: Resources/SoldiersAndArmors/AstronautArmor/A14_SPACESUIT_SPRITESHEET.png
   - type: BIGOBS.PCK
     files:
-      512: Resources/SoldiersAndArmors/AstronautArmor/A14_SPACESUIT_CORPSE_BIGOB.png
+      520: Resources/SoldiersAndArmors/AstronautArmor/A14_SPACESUIT_CORPSE_BIGOB.png
   - type: FLOOROB.PCK
     files:
-      512: Resources/SoldiersAndArmors/AstronautArmor/A14_SPACESUIT_CORPSE_FLOOROB.png
+      520: Resources/SoldiersAndArmors/AstronautArmor/A14_SPACESUIT_CORPSE_FLOOROB.png
 
   - type: MAN_5A14MMU.SPK
     singleImage: true
@@ -1321,10 +1321,10 @@ extraSprites:
       0: Resources/SoldiersAndArmors/USSFRangerArmor/A14MMU_SPACESUIT_SPRITESHEET.png
   - type: BIGOBS.PCK
     files:
-      515: Resources/SoldiersAndArmors/USSFRangerArmor/A14MMU_SPACESUIT_CORPSE_BIGOB.png
+      521: Resources/SoldiersAndArmors/USSFRangerArmor/A14MMU_SPACESUIT_CORPSE_BIGOB.png
   - type: FLOOROB.PCK
     files:
-      515: Resources/SoldiersAndArmors/USSFRangerArmor/A14MMU_SPACESUIT_CORPSE_FLOOROB.png
+      521: Resources/SoldiersAndArmors/USSFRangerArmor/A14MMU_SPACESUIT_CORPSE_FLOOROB.png
 
 ####################################
 ######### NATO SPACESUITS #########
