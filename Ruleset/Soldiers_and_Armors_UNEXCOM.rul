@@ -798,7 +798,7 @@ armors:
 ###############################
 
   - type: STR_EURONAUT_SPACESUIT_UC
-    spriteSheet: EURONAUT_SPRITESHEET.PCK
+    spriteSheet: EURONAUT_SPACESUIT_SPRITESHEET.PCK
     spriteInv:  MAN_5EURONAUT
     customArmorPreviewIndex: 552
     storeItem: STR_NONE
