@@ -616,6 +616,14 @@ ufopaedia:
     text: STR_STORY_REPORT_7_UFOPEDIA
     listOrder: 1706
 
+  - id: STR_STORY_REPORT_8
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_STORY_REPORT_8
+    text: STR_STORY_REPORT_8_UFOPEDIA
+    listOrder: 1707
+
   - id: STR_MARS_ORBITAL_DEFENSE_REPORT
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
