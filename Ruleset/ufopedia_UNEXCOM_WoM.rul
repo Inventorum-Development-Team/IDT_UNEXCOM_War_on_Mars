@@ -664,174 +664,7 @@ ufopaedia:
     text: STR_NATO_CYBORG_OPERATORS_REPORT_2_UFOPEDIA
     listOrder: 1740
 ##############################
-  - id: STR_USA_LASER_RESEARCH
-    type_id: 7
-    requires:
-      - STR_USA_LASER_RESEARCH
-    section: STR_UNEXCOM_RESEARCH
-    image_id: USA_LASER_RESEARCH_IMAGE
-    text: STR_USA_LASER_RESEARCH_UFOPEDIA
-    text_width: 150
-    listOrder: 2101
-
-  - id: STR_USA_LASER_HANDGUNS
-    type_id: 8
-    section: STR_UNEXCOM_RESEARCH
-    requires:
-      - STR_USA_LASER_HANDGUNS
-    text: STR_USA_LASER_HANDGUNS_UFOPEDIA
-    listOrder: 2102
-  - id: STR_USA_LASER_RIFLES
-    type_id: 8
-    section: STR_UNEXCOM_RESEARCH
-    requires:
-      - STR_USA_LASER_RIFLES
-    text: STR_USA_LASER_RIFLES_UFOPEDIA
-    listOrder: 2103
-  - id: STR_USA_LASER_CLOSE_RANGE_WEAPONS
-    type_id: 8
-    section: STR_UNEXCOM_RESEARCH
-    requires:
-      - STR_USA_LASER_CLOSE_RANGE_WEAPONS
-    text: STR_USA_LASER_CLOSE_RANGE_WEAPONS_UFOPEDIA
-    listOrder: 2104
-  - id: STR_USA_LASER_HEAVY_WEAPONS
-    type_id: 8
-    section: STR_UNEXCOM_RESEARCH
-    requires:
-      - STR_USA_LASER_HEAVY_WEAPONS
-    text: STR_USA_LASER_HEAVY_WEAPONS_UFOPEDIA
-    listOrder: 2105
-  #################################
-  - id: STR_NATO_LASER_RESEARCH
-    type_id: 7
-    requires:
-      - STR_NATO_LASER_RESEARCH
-    section: STR_UNEXCOM_RESEARCH
-    image_id: NATO_LASER_RESEARCH_IMAGE
-    text: STR_NATO_LASER_RESEARCH_UFOPEDIA
-    text_width: 150
-    listOrder: 2106
-
-  - id: STR_NATO_LASER_HANDGUNS
-    type_id: 8
-    section: STR_UNEXCOM_RESEARCH
-    requires:
-      - STR_NATO_LASER_HANDGUNS
-    text: STR_NATO_LASER_HANDGUNS_UFOPEDIA
-    listOrder: 2107
-  - id: STR_NATO_LASER_RIFLES
-    type_id: 8
-    section: STR_UNEXCOM_RESEARCH
-    requires:
-      - STR_NATO_LASER_RIFLES
-    text: STR_NATO_LASER_RIFLES_UFOPEDIA
-    listOrder: 2108
-  - id: STR_NATO_LASER_CLOSE_RANGE_WEAPONS
-    type_id: 8
-    section: STR_UNEXCOM_RESEARCH
-    requires:
-      - STR_NATO_LASER_CLOSE_RANGE_WEAPONS
-    text: STR_NATO_LASER_CLOSE_RANGE_WEAPONS_UFOPEDIA
-    listOrder: 2109
-  - id: STR_NATO_LASER_HEAVY_WEAPONS
-    type_id: 8
-    section: STR_UNEXCOM_RESEARCH
-    requires:
-      - STR_NATO_LASER_HEAVY_WEAPONS
-    text: STR_NATO_LASER_HEAVY_WEAPONS_UFOPEDIA
-    listOrder: 2110
-  ##################################
-  - id: STR_USSR_LASER_RESEARCH
-    type_id: 7
-    requires:
-      - STR_USSR_LASER_RESEARCH
-    section: STR_UNEXCOM_RESEARCH
-    image_id: USSR_LASER_RESEARCH_IMAGE
-    text: STR_USSR_LASER_RESEARCH_UFOPEDIA
-    text_width: 150
-    listOrder: 2111
-
-  - id: STR_USSR_LASER_HANDGUNS
-    type_id: 8
-    section: STR_UNEXCOM_RESEARCH
-    requires:
-      - STR_USSR_LASER_HANDGUNS
-    text: STR_USSR_LASER_HANDGUNS_UFOPEDIA
-    listOrder: 2112
-  - id: STR_USSR_LASER_RIFLES
-    type_id: 8
-    section: STR_UNEXCOM_RESEARCH
-    requires:
-      - STR_USSR_LASER_RIFLES
-    text: STR_USSR_LASER_RIFLES_UFOPEDIA
-    listOrder: 2113
-  - id: STR_USSR_LASER_CLOSE_RANGE_WEAPONS
-    type_id: 8
-    section: STR_UNEXCOM_RESEARCH
-    requires:
-      - STR_USSR_LASER_CLOSE_RANGE_WEAPONS
-    text: STR_USSR_LASER_CLOSE_RANGE_WEAPONS_UFOPEDIA
-    listOrder: 2114
-  - id: STR_USSR_LASER_HEAVY_WEAPONS
-    type_id: 8
-    section: STR_UNEXCOM_RESEARCH
-    requires:
-      - STR_USSR_LASER_HEAVY_WEAPONS
-    text: STR_USSR_LASER_HEAVY_WEAPONS_UFOPEDIA
-    listOrder: 2115
-
-  - id: STR_ALLOY_BALLISTIC_WEAPONS
-    type_id: 7
-    section: STR_UNEXCOM_RESEARCH
-    requires:
-      - STR_ALLOY_BALLISTIC_WEAPONS
-    text: STR_ALLOY_BALLISTIC_WEAPONS_UFOPEDIA
-    image_id: ALLOY_BALLISTIC_WEAPONS_IMAGE
-    text_width: 160
-    listOrder: 2200
-
-  - id: STR_FLECHETTE
-    type_id: 8
-    section: STR_UNEXCOM_RESEARCH
-    requires:
-      - STR_ALLOY_BALLISTIC_WEAPONS
-    text: STR_FLECHETTE_WEAPONS_UFOPEDIA
-    listOrder: 2201
-  - id: STR_DU
-    type_id: 8
-    section: STR_UNEXCOM_RESEARCH
-    requires:
-      - STR_ALLOY_BALLISTIC_WEAPONS
-    text: STR_DEPLETED_URANIUM_UFOPEDIA
-    listOrder: 2202
-
-  - id: STR_FUSION_WEAPONS_RESEARCH_1
-    type_id: 7
-    #    type_id: 8
-    section: STR_UNEXCOM_RESEARCH
-    image_id: FUSION_WEAPONS_RESEARCH_IMAGE_1
-    text: STR_FUSION_WEAPONS_RESEARCH_1_UFOPEDIA
-    text_width: 150
-    listOrder: 2301
-
-  - id: STR_FUSION_WEAPONS_RESEARCH_2
-    type_id: 7
-    #    type_id: 8
-    section: STR_UNEXCOM_RESEARCH
-    image_id: FUSION_WEAPONS_RESEARCH_IMAGE_2
-    text: STR_FUSION_WEAPONS_RESEARCH_2_UFOPEDIA
-    text_width: 130
-    listOrder: 2302
-
-  - id: STR_INITIAL_FUSION_CELLS_RESEARCH
-    type_id: 7
-    #    type_id: 8
-    section: STR_UNEXCOM_RESEARCH
-    image_id: INITIAL_FUSION_CELLS_RESEARCH_IMAGE
-    text: STR_INITIAL_FUSION_CELLS_RESEARCH_UFOPEDIA
-    text_width: 150
-    listOrder: 2303
+  
 
   #Weapons
 
@@ -1308,11 +1141,11 @@ ufopaedia:
     section: STR_WEAPONS
     listOrder: 4807
 
-  - id: STR_GENERATOR_STICK
-    type_id: 4
-    section: STR_WEAPONS
-    text: STR_GENERATOR_STICK_UFOPEDIA
-    listOrder: 4808
+  #- id: STR_GENERATOR_STICK
+  #  type_id: 4
+  #  section: STR_WEAPONS
+  #  text: STR_GENERATOR_STICK_UFOPEDIA
+  #  listOrder: 4808
 
   #Ammunition
   - id: STR_5_56MM_NATO_RIFLE_X30
@@ -1619,39 +1452,70 @@ ufopaedia:
 
   - id: STR_POWER_SUIT_UC
     section: STR_ARMOR
-    listOrder: 7301
+    listOrder: 7300
   - id: STR_FLYING_SUIT_UC
     section: STR_ARMOR
-    listOrder: 7303
+    listOrder: 7301
 
   - id: STR_ASTRONAUT_A7L_SPACESUIT_UC
     type_id: 5
     section: STR_ARMOR
     listOrder: 7400
-
     text: STR_ASTRONAUT_A7L_SPACESUIT_UC_UFOPEDIA
 
   - id: STR_ASTRONAUT_A7_MMU_SPACESUIT_UC
     type_id: 5
     section: STR_ARMOR
     listOrder: 7402
-
     text: STR_ASTRONAUT_A7_MMU_SPACESUIT_UC_UFOPEDIA
+
+  - id: STR_ASTRONAUT_SPACESUIT_UC
+    type_id: 5
+    section: STR_ARMOR
+    listOrder: 7403
+    text: STR_ASTRONAUT_SPACESUIT_UC_UFOPEDIA
+
+  - id: STR_USSF_RANGER_SPACESUIT_UC
+    type_id: 5
+    section: STR_ARMOR
+    listOrder: 7404
+    text: STR_USSF_RANGER_SPACESUIT_UC_UFOPEDIA
+
+  - id: STR_EURONAUT_SPACESUIT_UC
+    type_id: 5
+    section: STR_ARMOR
+    listOrder: 7406
+    text: STR_EURONAUT_SPACESUIT_UC_UFOPEDIA
+
+  - id: STR_UASCNAT_ESPATIER_SPACESUIT_UC
+    type_id: 5
+    section: STR_ARMOR
+    listOrder: 7407
+    text: STR_UASCNAT_ESPATIER_SPACESUIT_UC_UFOPEDIA
 
   - id: STR_ASTRONAUT_KRECHET94_SPACESUIT_UC
     type_id: 5
     section: STR_ARMOR
-    listOrder: 7403
-
+    listOrder: 7409
     text: STR_ASTRONAUT_KRECHET94_SPACESUIT_UC_UFOPEDIA
 
   - id: STR_ASTRONAUT_KRECHETMMU_SPACESUIT_UC
     type_id: 5
     section: STR_ARMOR
-    listOrder: 7405
-
+    listOrder: 7410
     text: STR_ASTRONAUT_KRECHETMMU_SPACESUIT_UC_UFOPEDIA
 
+  - id: STR_COSMONAUT_SPACESUIT_UC
+    type_id: 5
+    section: STR_ARMOR
+    listOrder: 7412
+    text: STR_COSMONAUT_SPACESUIT_UC_UFOPEDIA
+
+  - id: STR_VKS_OPERATOR_SPACESUIT_UC
+    type_id: 5
+    section: STR_ARMOR
+    listOrder: 7413
+    text: STR_VKS_OPERATOR_SPACESUIT_UC_UFOPEDIA
   #Alien Lifeforms
 
   - id: STR_SECTOID

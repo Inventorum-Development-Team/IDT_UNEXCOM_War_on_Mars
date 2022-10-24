@@ -2,113 +2,57 @@
 # spellchecker:words jetpack
 soldiers:
   - delete: STR_SOLDIER
-  - type: STR_ASTROPERATOR
-    costBuy: 40000
-    costSalary: 20000
-    minStats:
-      tu: 50
-      stamina: 50
-      health: 30
-      bravery: 20
-      reactions: 30
-      firing: 50
-      throwing: 40
-      strength: 19
-      psiStrength: 0
-      psiSkill: 0
-      melee: 45
-    maxStats:
-      tu: 60
-      stamina: 70
-      health: 40
-      bravery: 60
-      reactions: 60
-      firing: 60
-      throwing: 50
-      strength: 32
-      psiStrength: 100
-      psiSkill: 16
-      melee: 55
-    statCaps:
-      tu: 80
-      stamina: 100
-      health: 60
-      bravery: 80
-      reactions: 90
-      firing: 100
-      throwing: 70
-      strength: 70
-      psiStrength: 100
-      psiSkill: 100
-      melee: 90
-    armor: STR_ASTRONAUT_A7_MMU_SPACESUIT_UC
-    standHeight: 22
-    kneelHeight: 14
-    femaleFrequency: 50
-    soldierNames:
-      - delete
-      - AstroperatorNames/
-    deathMale: [41, 42, 43]
-    deathFemale: [44, 45, 46]
-    allowPiloting: false
 
-  - type: STR_COSMOPERATOR
-    costBuy: 40000
-    costSalary: 20000
+  - type: STR_UNEXCOM_LEGIONARY
+    costBuy: 90000
+    costSalary: 40000
     minStats:
-      tu: 50
-      stamina: 50
-      health: 30
-      bravery: 20
-      reactions: 30
-      firing: 50
-      throwing: 40
-      strength: 19
-      psiStrength: 0
-      psiSkill: 0
-      melee: 45
-    maxStats:
       tu: 60
-      stamina: 70
+      stamina: 65
       health: 40
       bravery: 60
+      reactions: 50
+      firing: 70
+      throwing: 60
+      strength: 35
+      psiStrength: 0
+      psiSkill: 0
+      melee: 80
+    maxStats:
+      tu: 70
+      stamina: 80
+      health: 50
+      bravery: 100
       reactions: 60
-      firing: 60
-      throwing: 50
-      strength: 32
-      psiStrength: 100
-      psiSkill: 16
-      melee: 55
-    statCaps:
-      tu: 80
-      stamina: 100
-      health: 60
-      bravery: 80
-      reactions: 90
-      firing: 100
+      firing: 80
       throwing: 70
-      strength: 70
-      psiStrength: 100
-      psiSkill: 100
+      strength: 50
+      psiStrength: 75
+      psiSkill: 16
       melee: 90
-    armor: STR_ASTRONAUT_KRECHETMMU_SPACESUIT_UC
+    statCaps:
+      tu: 100
+      stamina: 110
+      health: 70
+      bravery: 90
+      reactions: 70
+      firing: 110
+      throwing: 80
+      strength: 80
+      psiStrength: 75
+      psiSkill: 100
+      melee: 100
+    armor: STR_POWER_SUIT_UC
     standHeight: 22
     kneelHeight: 14
     femaleFrequency: 50
-    rankSprite: 806         # default 42 # basebits.pck
-    rankBattleSprite: 806   # default 20 # smoke.pck
     soldierNames:
       - delete
-      - CosmoperatorNames/
+      - NamesUNLegionary/
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
-    allowPiloting: false
-    rankStrings:
-    - STR_LIEUTENANT_SOVIET
-    - STR_CAPTAIN_SOVIET
-    - STR_MAJOR_SOVIET
-    - STR_LT_COLONEL_SOVIET
-    - STR_COLONEL_SOVIET
+    allowPiloting: true
+
 
   - type: STR_ASTRONAUT
     costBuy: 50000
@@ -154,7 +98,7 @@ soldiers:
       psiStrength: 100
       psiSkill: 100
       melee: 60
-    armor: STR_ASTRONAUT_A7L_SPACESUIT_UC
+    armor: STR_ASTRONAUT_SPACESUIT_UC
     rankSprite: 800         # default 42 # basebits.pck
     rankBattleSprite: 800   # default 20 # smoke.pck
     standHeight: 22
@@ -162,7 +106,7 @@ soldiers:
     femaleFrequency: 45
     soldierNames:
       - delete
-      - AstronautNames/
+      - NamesAstronaut/
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
     allowPiloting: true
@@ -177,6 +121,173 @@ soldiers:
     - STR_MAJOR
     - STR_PILOT_COLONEL
     - STR_BRIGADIER
+  - type: STR_USSF_RANGER
+    costBuy: 40000
+    costSalary: 20000
+    minStats:
+      tu: 50
+      stamina: 50
+      health: 30
+      bravery: 50
+      reactions: 40
+      firing: 60
+      throwing: 40
+      strength: 19
+      psiStrength: 0
+      psiSkill: 0
+      melee: 45
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 50
+      strength: 32
+      psiStrength: 100
+      psiSkill: 16
+      melee: 55
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 80
+      reactions: 90
+      firing: 100
+      throwing: 70
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 90
+    armor: STR_USSF_RANGER_SPACESUIT_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 50
+    soldierNames:
+      - delete
+      - NamesUSSFRanger/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: false
+
+  - type: STR_EURONAUT
+    costBuy: 50000
+    costSalary: 30000
+    costSalarySquaddie: 5000
+    costSalarySergeant: 5000
+    costSalaryCaptain: 10000
+    costSalaryColonel: 15000
+    costSalaryCommander: 20000
+    minStats:
+      tu: 40
+      stamina: 40
+      health: 25
+      bravery: 50
+      reactions: 60
+      firing: 55
+      throwing: 30
+      strength: 19
+      psiStrength: 0
+      psiSkill: 0
+      melee: 40
+    maxStats:
+      tu: 50
+      stamina: 50
+      health: 35
+      bravery: 60
+      reactions: 70
+      firing: 65
+      throwing: 40
+      strength: 26
+      psiStrength: 100
+      psiSkill: 16
+      melee: 50
+    statCaps:
+      tu: 60
+      stamina: 60
+      health: 45
+      bravery: 80
+      reactions: 110
+      firing: 100
+      throwing: 55
+      strength: 50
+      psiStrength: 100
+      psiSkill: 100
+      melee: 60
+    armor: STR_EURONAUT_SPACESUIT_UC
+    rankSprite: 800         # default 42 # basebits.pck
+    rankBattleSprite: 800   # default 20 # smoke.pck
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 45
+    soldierNames:
+      - delete
+      - NamesEuronaut/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: true
+    dogfightExperience:
+      bravery: 50
+      reactions: 75
+      firing: 100
+    rankStrings:
+    - STR_2ND_LIEUTENANT
+    - STR_1ST_LIEUTENANT
+    - STR_CAPTAIN
+    - STR_MAJOR
+    - STR_PILOT_COLONEL
+    - STR_BRIGADIER
+  - type: STR_UASCNAT_ESPATIER
+    costBuy: 40000
+    costSalary: 20000
+    minStats:
+      tu: 50
+      stamina: 50
+      health: 30
+      bravery: 50
+      reactions: 40
+      firing: 60
+      throwing: 40
+      strength: 19
+      psiStrength: 0
+      psiSkill: 0
+      melee: 45
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 50
+      strength: 32
+      psiStrength: 100
+      psiSkill: 16
+      melee: 55
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 80
+      reactions: 90
+      firing: 100
+      throwing: 70
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 90
+    armor: STR_UASCNAT_ESPATIER_SPACESUIT_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 50
+    soldierNames:
+      - delete
+      - NamesUASCNATEspatier/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: false
+
 
   - type: STR_COSMONAUT
     costBuy: 50000
@@ -222,7 +333,7 @@ soldiers:
       psiStrength: 100
       psiSkill: 100
       melee: 60
-    armor: STR_ASTRONAUT_KRECHET94_SPACESUIT_UC
+    armor: STR_COSMONAUT_SPACESUIT_UC
     rankSprite: 812        # default 42 # basebits.pck
     rankBattleSprite: 812   # default 20 # smoke.pck
     standHeight: 22
@@ -230,7 +341,7 @@ soldiers:
     femaleFrequency: 45
     soldierNames:
       - delete
-      - CosmonautNames/
+      - NamesCosmonaut/
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
     allowPiloting: true
@@ -244,10 +355,66 @@ soldiers:
     - STR_MAJOR_SOVIET
     - STR_LT_COLONEL_SOVIET
     - STR_COLONEL_SOVIET
+  - type: STR_VKS_OPERATOR
+    costBuy: 40000
+    costSalary: 20000
+    minStats:
+      tu: 50
+      stamina: 50
+      health: 30
+      bravery: 20
+      reactions: 30
+      firing: 50
+      throwing: 40
+      strength: 19
+      psiStrength: 0
+      psiSkill: 0
+      melee: 45
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 60
+      throwing: 50
+      strength: 32
+      psiStrength: 100
+      psiSkill: 16
+      melee: 55
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 80
+      reactions: 90
+      firing: 100
+      throwing: 70
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 90
+    armor: STR_VKS_OPERATOR_SPACESUIT_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 50
+    rankSprite: 806         # default 42 # basebits.pck
+    rankBattleSprite: 806   # default 20 # smoke.pck
+    soldierNames:
+      - delete
+      - NamesVKSOperator/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: false
+    rankStrings:
+    - STR_LIEUTENANT_SOVIET
+    - STR_CAPTAIN_SOVIET
+    - STR_MAJOR_SOVIET
+    - STR_LT_COLONEL_SOVIET
+    - STR_COLONEL_SOVIET
 
 
 items:
-
   - type: STR_CORPSE_ARMOR
     name: STR_CORPSE
     battleType: 11
@@ -280,6 +447,54 @@ items:
     invHeight: 3
     armor: 30
     recover: false
+
+  - type: STR_CORPSE_ASTRONAUT_SPACESUIT
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 520
+    floorSprite: 520
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+
+  - type: STR_CORPSE_USSF_RANGER_SPACESUIT
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 521
+    floorSprite: 521
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+############################
+
+  - type: STR_CORPSE_EURONAUT_SPACESUIT
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 523
+    floorSprite: 523
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+
+  - type: STR_CORPSE_UASCNAT_ESPATIER_SPACESUIT
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 524
+    floorSprite: 524
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+
+############################
+
   - type: STR_CORPSE_ASTRONAUT_KRECHET94_SPACESUIT
     name: STR_CORPSE
     battleType: 11
@@ -297,6 +512,28 @@ items:
     weight: 24
     bigSprite: 516
     floorSprite: 516
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+
+  - type: STR_CORPSE_COSMONAUT_SPACESUIT
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 526
+    floorSprite: 526
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+
+  - type: STR_CORPSE_VKS_OPERATOR_SPACESUIT
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 527
+    floorSprite: 527
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -409,6 +646,10 @@ armors:
 
 #Astronaut Armors
 
+###########################
+##### US SPACESUITS ######
+#########################
+
   - &A7LSpacesuitAnchor
     type: STR_ASTRONAUT_A7L_SPACESUIT_UC
     spriteSheet: A7L_SPACESUIT_SPRITESHEET.PCK
@@ -487,6 +728,142 @@ armors:
       - 1.3
     personalLight: 6
 
+# MILITARY 
+
+  - type: STR_ASTRONAUT_SPACESUIT_UC
+    spriteSheet: A14_SPACESUIT_SPRITESHEET.PCK
+    spriteInv:  MAN_5A14
+    customArmorPreviewIndex: 553
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    corpseBattle:
+      - STR_CORPSE_ASTRONAUT_SPACESUIT
+    frontArmor: 35
+    sideArmor: 15
+    rearArmor: 18
+    underArmor: 15
+    movementType: 0
+    visibilityAtDark: 7
+    visibilityAtDay: 26
+    stats: *EarthStats
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 0.6
+      - 0.8
+      - 0.7
+      - 0.9
+      - 1.0
+      - 0.8
+      - 0.7
+      - 0.0
+      - 1.1
+    personalLight: 6
+
+
+  - type: STR_USSF_RANGER_SPACESUIT_UC
+    spriteSheet: A14MMU_SPACESUIT_SPRITESHEET.PCK
+    spriteInv:  MAN_5A14MMU
+    customArmorPreviewIndex: 554
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    corpseBattle:
+      - STR_CORPSE_USSF_RANGER_SPACESUIT
+    frontArmor: 40
+    sideArmor: 20
+    rearArmor: 18
+    underArmor: 15
+    movementType: 1
+    visibilityAtDark: 7
+    visibilityAtDay: 26
+    requires:
+      STR_ALIENS_ONLY
+    stats: *OrbitalStats
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 0.6
+      - 0.8
+      - 0.7
+      - 0.9
+      - 1.0
+      - 0.8
+      - 0.7
+      - 0.0
+      - 1.1
+    personalLight: 6
+
+#################################
+####### NATO SPACESUITS ########
+###############################
+
+  - type: STR_EURONAUT_SPACESUIT_UC
+    spriteSheet: EURONAUT_SPRITESHEET.PCK
+    spriteInv:  MAN_5EURONAUT
+    customArmorPreviewIndex: 552
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    corpseBattle:
+      - STR_CORPSE_EURONAUT_SPACESUIT
+    frontArmor: 38
+    sideArmor: 15
+    rearArmor: 18
+    underArmor: 15
+    movementType: 0
+    visibilityAtDark: 7
+    visibilityAtDay: 26
+    stats: *EarthStats
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 0.6
+      - 0.8
+      - 0.7
+      - 0.9
+      - 1.0
+      - 0.8
+      - 0.7
+      - 0.0
+      - 1.1
+    personalLight: 6
+
+
+  - type: STR_UASCNAT_ESPATIER_SPACESUIT_UC
+    spriteSheet: ESPATIER_SPACESUIT_SPRITESHEET.PCK
+    spriteInv:  MAN_5ESPATIER
+    customArmorPreviewIndex: 551
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    corpseBattle:
+      - STR_CORPSE_UASCNAT_ESPATIER_SPACESUIT
+    frontArmor: 44
+    sideArmor: 20
+    rearArmor: 18
+    underArmor: 15
+    movementType: 1
+    visibilityAtDark: 7
+    visibilityAtDay: 26
+    requires:
+      STR_ALIENS_ONLY
+    stats: *OrbitalStats
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 0.6
+      - 0.8
+      - 0.7
+      - 0.9
+      - 1.0
+      - 0.8
+      - 0.7
+      - 0.0
+      - 1.1
+    personalLight: 6
+
+#################################
+##### USSR/WTO SPACESUITS ######
+##############################
+
   - &Krechet94SpacesuitAnchor
     type: STR_ASTRONAUT_KRECHET94_SPACESUIT_UC
     spriteSheet: KRECHET94_SPACESUIT_SPRITESHEET.PCK
@@ -549,6 +926,70 @@ armors:
       - 1.0
       - 1.1
       - 1.3
+    personalLight: 6
+
+# MILITARY
+
+  - type: STR_COSMONAUT_SPACESUIT_UC
+    spriteSheet: ORLAN109_SPACESUIT_SPRITESHEET.PCK
+    spriteInv:  MAN_5ORLAN109
+    customArmorPreviewIndex: 555
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    corpseBattle:
+      - STR_CORPSE_COSMONAUT_SPACESUIT
+    frontArmor: 36
+    sideArmor: 16
+    rearArmor: 14
+    underArmor: 12
+    movementType: 0
+    visibilityAtDark: 7
+    visibilityAtDay: 26
+    stats: *EarthStats
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 0.6
+      - 0.8
+      - 0.7
+      - 0.9
+      - 1.0
+      - 0.8
+      - 0.7
+      - 0.0
+      - 1.1
+    personalLight: 6
+
+  - type: STR_VKS_OPERATOR_SPACESUIT_UC
+    spriteSheet: ORLANMMU_SPACESUIT_SPRITESHEET.PCK
+    spriteInv:  MAN_5ORLANMMU
+    customArmorPreviewIndex: 556
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    corpseBattle:
+      - STR_CORPSE_VKS_OPERATOR_SPACESUIT
+    frontArmor: 42
+    sideArmor: 25
+    rearArmor: 18
+    underArmor: 15
+    movementType: 1
+    visibilityAtDark: 7
+    visibilityAtDay: 26
+    requires:
+      STR_ALIENS_ONLY
+    stats: *OrbitalStats
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 0.6
+      - 0.8
+      - 0.7
+      - 0.9
+      - 1.0
+      - 0.8
+      - 0.7
+      - 0.0
+      - 1.1
     personalLight: 6
 
 units:
@@ -806,8 +1247,11 @@ extraSprites:
 
 
 ####################################
-####### USA/NATO SPACESUITS #######
+######### USA SPACESUITS ##########
 ##################################
+
+# NPC CIVILIANS
+
   - type: MAN_5A7L.SPK
     singleImage: true
     files:
@@ -844,9 +1288,93 @@ extraSprites:
     files:
       515: Resources/SoldiersAndArmors/AstronautA7MMUArmor/A7MMU_SPACESUIT_CORPSE_FLOOROB.png
 
+# MILITARY
+
+  - type: MAN_5A14.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/AstronautArmor/INVENTORY/MAN_5A14.png
+  - type: A14_SPACESUIT_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersAndArmors/AstronautArmor/A14_SPACESUIT_SPRITESHEET.png
+  - type: BIGOBS.PCK
+    files:
+      512: Resources/SoldiersAndArmors/AstronautArmor/A14_SPACESUIT_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      512: Resources/SoldiersAndArmors/AstronautArmor/A14_SPACESUIT_CORPSE_FLOOROB.png
+
+  - type: MAN_5A14MMU.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/USSFRangerArmor/INVENTORY/MAN_5A14MMU.png
+  - type: A14MMU_SPACESUIT_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersAndArmors/USSFRangerArmor/A14MMU_SPACESUIT_SPRITESHEET.png
+  - type: BIGOBS.PCK
+    files:
+      515: Resources/SoldiersAndArmors/USSFRangerArmor/A14MMU_SPACESUIT_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      515: Resources/SoldiersAndArmors/USSFRangerArmor/A14MMU_SPACESUIT_CORPSE_FLOOROB.png
+
+####################################
+######### NATO SPACESUITS #########
+##################################
+
+# NPC CIVILIANS
+
+  - type: MAN_5EURONAUT.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/EuronautArmor/INVENTORY/MAN_5EURONAUT.png
+  - type: EURONAUT_SPACESUIT_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersAndArmors/EuronautArmor/EURONAUT_SPACESUIT_SPRITESHEET.png
+  - type: BIGOBS.PCK
+    files:
+      523: Resources/SoldiersAndArmors/EuronautArmor/EURONAUT_SPACESUIT_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      523: Resources/SoldiersAndArmors/EuronautArmor/EURONAUT_SPACESUIT_CORPSE_FLOOROB.png
+
+  - type: MAN_5ESPATIER.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/EspatierArmor/INVENTORY/MAN_5ESPATIER.png
+  - type: ESPATIER_SPACESUIT_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersAndArmors/EspatierArmor/ESPATIER_SPACESUIT_SPRITESHEET.png
+  - type: BIGOBS.PCK
+    files:
+      524: Resources/SoldiersAndArmors/EspatierArmor/ESPATIER_SPACESUIT_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      524: Resources/SoldiersAndArmors/EspatierArmor/ESPATIER_SPACESUIT_CORPSE_FLOOROB.png
+
+
 ############################################
 ####### USSR/WARSAW PACT SPACESUITS #######
 ##########################################
+
+# CIVILIAN NPC
+
   - type: MAN_5KRECHET94.SPK
     singleImage: true
     files:
@@ -883,4 +1411,51 @@ extraSprites:
     files:
       516: Resources/SoldiersAndArmors/AstronautKrechetMMUArmor/KRECHETMMU_SPACESUIT_CORPSE_FLOOROB.png
 
+# MILITARY
+
+  - type: MAN_5ORLAN109.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/CosmonautArmor/INVENTORY/MAN_5ORLAN109.png
+  - type: ORLAN109_SPACESUIT_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersAndArmors/CosmonautArmor/ORLAN109_SPACESUIT_SPRITESHEET.png
+  - type: BIGOBS.PCK
+    files:
+      526: Resources/SoldiersAndArmors/CosmonautArmor/ORLAN109_SPACESUIT_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      526: Resources/SoldiersAndArmors/CosmonautArmor/ORLAN109_SPACESUIT_CORPSE_FLOOROB.png
+
+  - type: MAN_5ORLANMMU.SPK
+    singleImage: true
+    files:
+      0: Resources/SoldiersAndArmors/VKSOperatorArmor/INVENTORY/MAN_5ORLANMMU.png
+  - type: ORLANMMU_SPACESUIT_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersAndArmors/VKSOperatorArmor/ORLANMMU_SPACESUIT_SPRITESHEET.png
+  - type: BIGOBS.PCK
+    files:
+      527: Resources/SoldiersAndArmors/VKSOperatorArmor/ORLANMMU_SPACESUIT_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      527: Resources/SoldiersAndArmors/VKSOperatorArmor/ORLANMMU_SPACESUIT_CORPSE_FLOOROB.png
+
 ####################################
+
+  - type: BIGOBS.PCK
+    files:
+      530: Resources/SoldiersAndArmors/AstronautArmor/US_Backpack_3x3.png
+      531: Resources/SoldiersAndArmors/USSFRangerArmor/NATO_MMU_80s_3x3.png
+      532: Resources/SoldiersAndArmors/EuronautArmor/NATO_Backpack_3x3.png
+      533: Resources/SoldiersAndArmors/CosmonautArmor/Soviet_Backpack_70s_3x3.png
+      534: Resources/SoldiersAndArmors/CosmonautArmor/Soviet_Backpack_80s_3x3.png
+      535: Resources/SoldiersAndArmors/VKSOperatorArmor/Soviet_MMU_3x3.png

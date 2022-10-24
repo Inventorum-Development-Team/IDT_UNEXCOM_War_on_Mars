@@ -137,10 +137,13 @@ startingBase:
       y: 3
 
   randomSoldiers:
-    STR_ASTRONAUT: 8
-    STR_COSMONAUT: 8
-    STR_ASTROPERATOR: 4
-    STR_COSMOPERATOR: 4
+    STR_UNEXCOM_LEGIONARY: 8
+    STR_ASTRONAUT: 2
+    STR_USSF_RANGER: 4
+    STR_EURONAUT: 2
+    STR_UASCNAT_ESPATIER: 4
+    STR_COSMONAUT: 2
+    STR_VKS_OPERATOR: 4
   crafts:
     - type: STR_HARRIER
       id: 1
@@ -345,6 +348,12 @@ startingConditions:
       - STR_ASTRONAUT_A7_MMU_SPACESUIT_UC
       - STR_ASTRONAUT_KRECHET94_SPACESUIT_UC
       - STR_ASTRONAUT_KRECHETMMU_SPACESUIT_UC
+      - STR_ASTRONAUT_SPACESUIT_UC
+      - STR_USSF_RANGER_SPACESUIT_UC
+      - STR_EURONAUT_SPACESUIT_UC
+      - STR_UASCNAT_ESPATIER_SPACESUIT_UC
+      - STR_COSMONAUT_SPACESUIT_UC
+      - STR_VKS_OPERATOR_SPACESUIT_UC
 #    forbiddenSoldierTypes:
 #      - STR_MERCENARY
     #allowedItemCategories:
@@ -417,6 +426,18 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/BACK17.PNG
+  - type: BACK08.SCR #weapon entry
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK08.PNG
+  - type: BACK10.SCR #general entry
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK10.PNG
   - type: RnD_TERROR_SITE_ALERT_BACKGROUND.SCR #R&D terror site alert
     singleImage: true
     width: 320

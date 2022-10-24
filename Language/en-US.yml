@@ -1777,6 +1777,36 @@ en-US:
 
   STR_ASTRONAUT_KRECHETMMU_SPACESUIT_UC_UFOPEDIA: Specialized version of the Krechet spacesuit, features a build-in propulsion unit named SPK. Uses compressed oxygen as the propulsion system, stored and protected within the backpack-like structure. It has an autonomy of seven hours of extravehicular activity (EVA). Well liked by Warsaw Pact cosmonauts, it is larger than the American counterpart, the MMU.
 
+  STR_UNEXCOM_LEGIONARY: "UNEXCOM Legionary"
+
+  STR_ASTRONAUT: "Astronaut"
+  STR_ASTRONAUT_SPACESUIT_UC: "A14C SPACESUIT"
+  STR_ASTRONAUT_SPACESUIT_UC_UFOPEDIA: "Improved American spacesuit, predecessor of the A7 line used in the War of 1972. The fibers incorporate large quantities of Alien Alloys to provide protection against damage, yet keeping the suit light enough. Used by NASA personnel."
+  STR_CORPSE_ASTRONAUT_SPACESUIT: "Fallen Astronaut"
+  STR_USSF_RANGER: "USSF Ranger"
+  STR_USSF_RANGER_SPACESUIT_UC: "A14R COMBAT SPACESUIT"
+  STR_USSF_RANGER_SPACESUIT_UC_UFOPEDIA: "Specialized version of the standard A14 suit, this variant is used by the United States Space Force Ranger units. Includes a MMU-6 gravitational propulsion unit for extended flight in orbital and surface environments. It incorporates additional Alien Alloy plating in the chest, below the outer protection. "
+  STR_CORPSE_USSF_RANGER_SPACESUIT: "Fallen Ranger"
+
+  STR_EURONAUT: "Euronaut"
+  STR_EURONAUT_SPACESUIT_UC: "E-8 AUSF. D SPACESUIT"
+  STR_EURONAUT_SPACESUIT_UC_UFOPEDIA: "European-made version of the A7 spacesuit made by NASA, it incorporates a reinforced ballistic visor and high-tech comms systems. In order to increase the comfort for the users, additional temperature regulator systems were added. Used by ESA personnel."
+  STR_CORPSE_EURONAUT_SPACESUIT: "Fallen Euronaut"
+  STR_UASCNAT_ESPATIER: "UASCNAT Espatier"
+  STR_UASCNAT_ESPATIER_SPACESUIT_UC: "ETS-9 MK.4 TACTICAL SPACESUIT"
+  STR_UASCNAT_ESPATIER_SPACESUIT_UC_UFOPEDIA: "Militarized version of the E-8 line worn by the UASCNAT Espatier Corps, includes hidden Alien Alloy plates below the outer layers, plus extra communication equipment. In order to adquire advantage in the battlefield, an US-made MMU-6 grav unit was added to the suit."
+  STR_CORPSE_UASCNAT_ESPATIER_SPACESUIT: "Fallen Espatier"
+
+  STR_COSMONAUT: "Cosmonaut"
+  STR_COSMONAUT_SPACESUIT_UC: "ORLAN-D SPACESUIT"
+  STR_COSMONAUT_SPACESUIT_UC_UFOPEDIA: "The newest space protection suit made by Zvezda NPP, used by the civilian personnel of Interkosmos. A development of the sucessful Krechet suits, it integrates additional layers of Alien Alloys to increase the protection of the user. The visor was reinforced and tactical lights added to both sides of the helmet."
+  STR_CORPSE_COSMONAUT_SPACESUIT: "Fallen Cosmonaut"
+  STR_VKS_OPERATOR: "VKS Operator"
+  STR_VKS_OPERATOR_SPACESUIT_UC: "ORLAN-MS ASSAULT SPACESUIT"
+  STR_VKS_OPERATOR_SPACESUIT_UC_UFOPEDIA: "Modernized and improved version of the Orlan spacesuit, used exclusively by VKS Operators deployed in the frontlines. It may appear similar to the civilian Orlan, but it incoporates a series of clasified survey systems aimed to gain as much battlefield data as possible. Equipped with a SPKM gravitational propulsion unit."
+  STR_CORPSE_VKS_OPERATOR_SPACESUIT: "Fallen Operator"
+
+
   STR_FERRET_CAR_UFOPEDIA:  The Ferret Scout Car is a British armoured fighting vehicle designed and built for reconnaissance purposes. These vehicles are provided by the United Nations, very used by the UN Peacekeeping Forces all around the globe. It has reduced armor, but is equipped with two powerful .50 caliber M2 Machine Guns (50 rds) and a smoke grenade dispenser (6 rds).
 
   STR_SHERIDAN_UFOPEDIA: The M551 Sheridan AR/AAV (Armored Reconnaissance/Airborne Assault Vehicle) is a light tank developed by the United States, provided to UNEXCOM for ground combat support. It's designed to be landed by parachute and to swim across rivers. It's armed with the technically advanced M81E1 152mm gun/launcher (20 rds), adapted for the use of the MGM-51 Shillelagh guided anti-tank missile (9 rds).
