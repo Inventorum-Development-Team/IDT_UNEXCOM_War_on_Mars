@@ -725,3 +725,15 @@ invs:
       STR_RIGHT_HAND: 3
       STR_RIGHT_LEG: 10
       STR_RIGHT_SHOULDER: 10
+
+ufoTrajectories:
+
+  - id: STATIC_TRAJECTORY
+    groundTimer: 0
+    waypoints:
+      - [0, 0, 0]
+
+  - id: STATIC_TRAJECTORY_BASE
+    groundTimer: 0
+    waypoints:
+      - [4, 0, 0]
