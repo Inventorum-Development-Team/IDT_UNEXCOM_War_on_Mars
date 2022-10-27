@@ -347,3 +347,17 @@ alienMissions:
         count: 1
         trajectory: P4
         timer: 5000
+
+  - type: STR_OPERATION_SWORDBREAKER_MISSION
+    objective: 3
+    siteType: STR_OPERATION_SWORDBREAKER_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+        STR_MIXED: 100
+    waves:
+      - ufo: STR_OPERATION_SWORDBREAKER_DEPLOYMENT
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 0
+        objective: true

@@ -170,13 +170,17 @@ globe:
         STR_TERROR_MISSION: 100
     - id: -10
       deployments:
-        STR_COUNTER_INSURGENCY_OPERATION: 100
+        STR_COUNTER_INSURGENCY_OPERATION_DEPLOYMENT: 100
     - id: -11
       deployments:
-        STR_SEARCH_AND_DESTROY_OPERATION: 100
+        STR_SEARCH_AND_DESTROY_OPERATION_DEPLOYMENT: 100
     - id: -12
       deployments:
-        STR_SUPPLY_RECOVERY_OPERATION: 100
+        STR_SUPPLY_RECOVERY_OPERATION_DEPLOYMENT: 100
+    - id: -20
+      deployments:
+        STR_OPERATION_SWORDBREAKER_DEPLOYMENT: 100
+
 
   polylines:
     - - 174.39215710264
@@ -2175,6 +2179,16 @@ regions:
         - [80.5, 80.5, -8.8, -8.8, -12]
 
 # END REGION SUPPLY RECOVERY
+
+
+###START REGION OPERATION SWORDBREAKER
+
+  - type: REGION_OPERATION_SWORDBREAKER
+    missionZones:
+      -
+        - [236, 236, -18, -18, -20]
+
+# END REGION OPERATION SWORDBREAKER
 
 extraGlobeLabels:
   - type: STR_ACIDALIA_PLANITIA_LABEL

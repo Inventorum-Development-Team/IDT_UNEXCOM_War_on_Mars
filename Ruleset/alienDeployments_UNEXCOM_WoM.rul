@@ -722,7 +722,7 @@ alienDeployments:
     civilians: 10
     #missionBountyItem: STR_BATTLESHIP_ANALYSIS
     height: 10
-    data:
+    data: &BattleshipData
       - alienRank: 5
         lowQty: 4
         highQty: 8
@@ -2406,6 +2406,11 @@ alienDeployments:
     duration: [78, 99]
     despawnPenalty: 100
 
+
+#################
+#### ACT 2 #####
+###############
+
   - type: STR_SUPPLY_RECOVERY_OPERATION_DEPLOYMENT
     #baseSelfDestructCode: STR_DELETE_SUPPLY_RECOVERY_OPERATION_OPERATIONS
     height: 10
@@ -2427,3 +2432,59 @@ alienDeployments:
     #markerIcon: 32 
     duration: [78, 99]
     despawnPenalty: 100 
+
+
+#################
+#### ACT 3 #####
+###############
+
+  - type: STR_OPERATION_SWORDBREAKER_DEPLOYMENT
+    #baseSelfDestructCode: STR_DELETE_SUPPLY_RECOVERY_OPERATION_OPERATIONS
+    height: 10
+    width: 40
+    length: 40
+    data: *BattleshipData
+    terrains:
+      - MARS
+    briefing:
+      #textOffset: -16
+      background: BACK16.SCR
+      showTarget: true
+      showCraft: true
+      desc: STR_OPERATION_SWORDBREAKER_DESCRIPTION
+      palette: 2
+      music: GMENDGAME
+    markerName: STR_OPERATION_SWORDBREAKER_MARKER_NAME
+    alert: STR_OPERATION_SWORDBREAKER_ALERT
+    nextStage: STR_OPERATION_SWORDBREAKER_STAGE_2_DEPLOYMENT
+    #missionBountyItem: 
+    #markerIcon: 32 
+    duration: [78, 99]
+    despawnPenalty: 10000 
+
+  - type: STR_OPERATION_SWORDBREAKER_STAGE_2_DEPLOYMENT
+    height: 2
+    data: *AlienBaseRanks
+    width: 60
+    length: 60
+    #civiliansByType:
+     # STR_ALLIED_SOVIET_COSMONAUT: 5
+      #STR_ALLIED_AMERICAN_ASTRONAUT: 5
+    terrains:
+      - UBASE_MARS
+    shade: 5
+    race: STR_MIXED
+    winCutscene: winGame
+    loseCutscene: loseGame
+    abortCutscene: loseGame
+    briefing:
+      desc: STR_OPERATION_SWORDBREAKER_STAGE_2_DESCRIPTION
+      background: BACK16.SCR
+      textOffset: -16
+      palette: 6
+      music: GMENDGAME
+      showTarget: false
+      showCraft: false
+    script: BOSSBATTLE
+    objectiveType: 14
+    objectivesRequired: 1

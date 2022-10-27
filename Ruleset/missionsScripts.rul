@@ -443,4 +443,24 @@ missionScripts:
       0: 
         STR_TERRA_CIMMERIA: 100
 
+#####################
+###### ACT 3 #######
+###################
 
+  - type: operationSwordbreaker
+    varName: operationSwordbreaker
+    missionWeights:
+      0:
+        STR_OPERATION_SWORDBREAKER_MISSION: 100
+    regionWeights:
+      0:
+        REGION_OPERATION_SWORDBREAKER: 100
+    #researchTriggers:
+      #STR_TERRORISTS_OPERATIONS: true
+      #STR_END_OF_TERRORISTS: false
+    useTable: false
+    startDelay: 21600 # 15 Days
+    executionOdds: 100
+    firstMonth: 12
+    lastMonth: 13
+    maxRuns: 1
