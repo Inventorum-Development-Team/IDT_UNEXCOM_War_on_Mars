@@ -2380,6 +2380,8 @@ alienDeployments:
       palette: 2
     markerName: STR_COUNTER_INSURGENCY_OPERATION_MARKER_NAME
     alert: STR_COUNTER_INSURGENCY_OPERATION_ALERT
+    missionCompleteText: STR_COUNTER_INSURGENCY_OPERATION_COMPLETE
+    missionFailedText: STR_COUNTER_INSURGENCY_OPERATION_FAILED
     #markerIcon: 32
     duration: [78, 99]
     despawnPenalty: 100
@@ -2403,6 +2405,10 @@ alienDeployments:
     markerName: STR_SEARCH_AND_DESTROY_OPERATION_MARKER_NAME
     alert: STR_SEARCH_AND_DESTROY_OPERATION_ALERT
     #markerIcon: 32
+    missionCompleteText: STR_SEARCH_AND_DESTROY_OPERATION_COMPLETE
+    missionFailedText: STR_SEARCH_AND_DESTROY_OPERATION_FAILED
+    turnLimit: 10
+    chronoTrigger: 1
     duration: [78, 99]
     despawnPenalty: 100
 
@@ -2428,6 +2434,10 @@ alienDeployments:
       palette: 2
     markerName: STR_SUPPLY_RECOVERY_OPERATION_MARKER_NAME
     alert: STR_SUPPLY_RECOVERY_OPERATION_ALERT
+    missionCompleteText: STR_SUPPLY_RECOVERY_OPERATION_COMPLETE
+    missionFailedText: STR_SUPPLY_RECOVERY_OPERATION_FAILED
+    turnLimit: 10
+    chronoTrigger: 0
     #missionBountyItem: 
     #markerIcon: 32 
     duration: [78, 99]
