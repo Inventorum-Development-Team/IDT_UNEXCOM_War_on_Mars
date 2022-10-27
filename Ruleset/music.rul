@@ -5,10 +5,10 @@ musics:
     normalization: 1.0
   - type: GMGEO1
     normalization: 1.7
-  #- type: GMGEO2
-  #  normalization: 1.0
-  #- type: GMGEO3
-  #  normalization: 1.0
+  - type: GMGEO2
+    normalization: 1.0
+  - type: GMGEO3
+    normalization: 1.0
   - type: GMINTER
     normalization: 0.74
   - type: GMINTRO1
@@ -28,10 +28,12 @@ musics:
     normalization: 0.81
   - type: GMSTORY
     normalization: 1.0
-  - type: GMTACTIC1
+  - type: GMTACTIC
     normalization: 1.4
   - type: GMTACTIC2
     normalization: 1.4
   - type: GMWIN
     catPos: 11
     normalization: 0.84
+  - type: GMENDGAME
+    normalization: 1.0

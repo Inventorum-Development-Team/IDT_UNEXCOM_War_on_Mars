@@ -1239,12 +1239,13 @@ en-US:
   STR_MAJOR_ENGAGEMENT_DESCRIPTION: "UN forces have intercepted a large group of Insurgents and a fierce battle has begun. While the allied forces could win the combat on their own, the UNSC has tasked us to turn the tide. Land and support the friendly units before the enemy manages to flee."
   STR_MAJOR_ENGAGEMENT_MARKER_NAME: "Major Engagement ongoing"
   
-  STR_OPERATION_SLEDGEHAMMER: "Operation Sledgehammer"
-  STR_OPERATION_SLEDGEHAMMER_DEPLOYMENT: "OPERATION SLEDGEHAMMER - LANDING"
-  STR_OPERATION_SLEDGEHAMMER_DESCRIPTION: "Orbital recon has found the main HQ of the Insurgency, located deep inside the Olympus Mons. Our task force has been requested to assault the hideout and destroy the leadership once and for all. Most of the enemy forces have been recalled to defend their main base. UNSC has launched this joint operation, allied forces have landed along with us. This is the final battle for the control of Mars."
-  STR_OPERATION_SLEDGEHAMMER_MARKER_NAME: "Operation Sledgehammer scheduled to start"
-  STR_OPERATION_SLEDGEHAMMER_STAGE_2_DEPLOYMENT: "OPERATION SLEDGEHAMMER - HQ"
-  STR_OPERATION_SLEDGEHAMMER_STAGE_2_DESCRIPTION: "We have managed to enter what seems a complex artificial cave system inside Olympus Mons. Other friendly forces have entered as well. Our mission will be accomplished after locating and destroying the Brain controlling the Insurgent activities. "
+  STR_OPERATION_SWORDBREAKER: "Operation Swordbreaker"
+  STR_OPERATION_SWORDBREAKER_DEPLOYMENT: "OPERATION SWORDBREAKER - LANDING"
+  STR_OPERATION_SWORDBREAKER_DESCRIPTION: "Orbital recon has found the main HQ of the Insurgency, located deep inside the Olympus Mons. Our task force has been requested to assault the hideout and destroy the leadership once and for all. Most of the enemy forces have been recalled to defend their main base. UNSC has launched this joint operation, allied forces have landed along with us. This is the final battle for the control of Mars."
+  STR_OPERATION_SWORDBREAKER_MARKER_NAME: "Operation Swordbreaker Ongoing"
+  STR_OPERATION_SWORDBREAKER_ALERT: "Operation Swordbreaker scheduled to start"
+  STR_OPERATION_SWORDBREAKER_STAGE_2_DEPLOYMENT: "OPERATION SWORDBREAKER - HQ"
+  STR_OPERATION_SWORDBREAKER_STAGE_2_DESCRIPTION: "We have managed to enter what seems a complex artificial cave system inside Olympus Mons. Other friendly forces have entered as well. Our mission will be accomplished after locating and destroying the Brain controlling the Insurgent activities. "
   
   STR_GOOD_ENDING_1: "After breaching through the depths of the alien command center, our troops we able to destroy the Brain, a supercomputer used by the aliens to coordinate efforts on Earth. A nuclear attack from orbit happened right after our troops left the facility, negating the enemy the possibility of retrieving any artifacts or data. No known alien survivors are reported."
   STR_GOOD_ENDING_2: "Other UN-led forces around the planet report similar success on their designated objectives. There is still heavy resistance, but we have crippled their military forces and they are routed."
@@ -2830,6 +2831,7 @@ en-US:
   GMDEFEND: "Routinary Operations"
   GMENBASE: "Routinary Operations"
   GMLOSE: "Iskander"
+  GMENDGAME: "Take That Thing Down"
 
 
 
