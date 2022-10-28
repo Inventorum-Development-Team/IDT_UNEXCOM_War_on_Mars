@@ -631,6 +631,14 @@ ufopaedia:
       #- STR_MARS_ORBITAL_DEFENSE_REPORT
     text: STR_MARS_ORBITAL_DEFENSE_REPORT_UFOPEDIA
     listOrder: 1710
+    
+  - id: STR_UNEXCOM_MARS_DEPLOYMENT_REPORT
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_UNEXCOM_MARS_DEPLOYMENT_REPORT
+    text: STR_UNEXCOM_MARS_DEPLOYMENT_REPORT_UFOPEDIA
+    listOrder: 1715
 
   - id: STR_PSIONIC_LORE_REPORT_1
     type_id: 8
@@ -663,6 +671,55 @@ ufopaedia:
       #- STR_NATO_CYBORG_OPERATORS_REPORT_2
     text: STR_NATO_CYBORG_OPERATORS_REPORT_2_UFOPEDIA
     listOrder: 1740
+
+  - id: STR_ETHEREAL_INSURGENCY_REPORT_1
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_ETHEREAL_INSURGENCY_REPORT_1
+    text: STR_ETHEREAL_INSURGENCY_REPORT_1_UFOPEDIA
+    listOrder: 1750
+
+  - id: STR_ETHEREAL_INSURGENCY_REPORT_2
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_ETHEREAL_INSURGENCY_REPORT_2
+    text: STR_ETHEREAL_INSURGENCY_REPORT_2_UFOPEDIA
+    listOrder: 1755    
+
+  - id: STR_ETHEREAL_INSURGENCY_REPORT_3
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_ETHEREAL_INSURGENCY_REPORT_3
+    text: STR_ETHEREAL_INSURGENCY_REPORT_3_UFOPEDIA
+    listOrder: 1756
+    
+  - id: STR_HEARTS_AND_MINDS_PROJECT_1
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_HEARTS_AND_MINDS_PROJECT_1
+    text: STR_HEARTS_AND_MINDS_PROJECT_1_UFOPEDIA
+    listOrder: 1760 
+
+  - id: STR_HEARTS_AND_MINDS_PROJECT_2
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_HEARTS_AND_MINDS_PROJECT_2
+    text: STR_HEARTS_AND_MINDS_PROJECT_2_UFOPEDIA
+    listOrder: 1770
+ 
+  - id: STR_HEARTS_AND_MINDS_PROJECT_3
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_HEARTS_AND_MINDS_PROJECT_3
+    text: STR_HEARTS_AND_MINDS_PROJECT_3_UFOPEDIA
+    listOrder: 1780   
+    
 ##############################
   
 
@@ -1287,11 +1344,7 @@ ufopaedia:
     listOrder: 5114
     requires:
       - STR_NATO_LASER_HEAVY_WEAPONS
-  - id: STR_GYROJET_AMMO_MAGAZINE
-    type_id: 4
-    section: STR_AMMUNITION
-    text: STR_GYROJET_AMMO_MAGAZINE_UFOPEDIA
-    listOrder: 5208
+
 
   #Equipment
 
