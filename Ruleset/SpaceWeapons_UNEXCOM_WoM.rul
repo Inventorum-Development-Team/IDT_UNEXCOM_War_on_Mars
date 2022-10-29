@@ -262,8 +262,25 @@ items:
     bulletSprite: 2
     fireSound: 169
     reloadSound: [186, 187, 188, 189]
-    compatibleAmmo:
-      - STR_G11_CASELESS_RIFLE_MAG
+    ammo:
+      0:
+        tuLoad: 20
+        tuUnload: 25
+        compatibleAmmo:
+          [
+            STR_G11_CASELESS_RIFLE_MAG
+          ]
+    confSnap:
+      shots: 3
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 6
+      name: STR_CONTROL_AUTO
+      ammoSlot: 0
+      arcing: false
     accuracyCloseQuarters: 90
     accuracyAuto: 125
     accuracySnap: 145
@@ -317,8 +334,25 @@ items:
     bulletSprite: 2
     fireSound: 173
     reloadSound: [186, 187, 188, 189]
-    compatibleAmmo:
-      - STR_TKB1980_CASELESS_RIFLE_MAG
+    ammo:
+      0:
+        tuLoad: 10
+        tuUnload: 20
+        compatibleAmmo:
+          [
+            STR_TKB1980_CASELESS_RIFLE_MAG
+          ]
+    confSnap:
+      shots: 5
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 9
+      name: STR_CONTROL_AUTO
+      ammoSlot: 0
+      arcing: false
     accuracyCloseQuarters: 90
     accuracyAuto: 80
     accuracySnap: 100
@@ -374,8 +408,25 @@ items:
     bulletSprite: 2
     fireSound: 4
 #    reloadSound: [186, 187, 188, 189]
-    compatibleAmmo:
-      - STR_MK119_SPACE_RIFLE_AP_CLIP
+    ammo:
+      0:
+        tuLoad: 10
+        tuUnload: 20
+        compatibleAmmo:
+          [
+            STR_MK119_SPACE_RIFLE_AP_CLIP
+          ]
+    confAimed:
+      shots: 3
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 6
+      name: STR_CONTROL_AUTO
+      ammoSlot: 0
+      arcing: false
     accuracyCloseQuarters: 140
     accuracyAuto: 50
     accuracySnap: 72
@@ -416,7 +467,7 @@ items:
     damageType: 1
     invHeight: 1
     invWidth: 1
-    clipSize: 26
+    clipSize: 36
     battleType: 2
 
   - type: STR_MK115_SPACE_PISTOL
@@ -435,6 +486,9 @@ items:
 #    reloadSound: [179, 180, 181, 182]
     compatibleAmmo:
       - STR_MK115_SPACE_PISTOL_CLIP
+    confAuto:
+      shots: 3
+      name: STR_RAPID_FIRE
     accuracySnap: 65
     accuracyAimed: 70
     accuracyCloseQuarters: 100
@@ -464,6 +518,12 @@ items:
 #    reloadSound: [179, 180, 181, 182]
     compatibleAmmo:
       - STR_MK115_SPACE_PISTOL_CLIP
+    confAimed:
+      shots: 2
+      name: STR_DOUBLE_TAP
+    confAuto:
+      shots: 10
+      name: STR_FULL_AUTO      
     accuracySnap: 45
     accuracyAimed: 50
     accuracyAuto: 45
