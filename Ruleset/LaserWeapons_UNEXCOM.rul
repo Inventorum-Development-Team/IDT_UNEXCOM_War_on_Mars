@@ -63,7 +63,7 @@ items:
 #################################
   - type: STR_M1972_LASER_PISTOL
     categories: [STR_LASER, STR_FIREARMS, STR_PISTOLS, STR_US_TECH]
-    requiresBuyCountryCountry:
+    requiresBuyCountry:
       - STR_NATO_SECTOR_1
     size: 0.1
     costBuy: 30000
