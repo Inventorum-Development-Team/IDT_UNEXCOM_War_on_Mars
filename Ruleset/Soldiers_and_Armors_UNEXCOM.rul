@@ -4,8 +4,9 @@ soldiers:
   - delete: STR_SOLDIER
 
   - type: STR_UNEXCOM_LEGIONARY
-    costBuy: 90000
-    costSalary: 40000
+    costBuy: 150000
+    costSalary: 60000
+    monthlyBuyLimit: 5
     minStats:
       tu: 60
       stamina: 65
@@ -62,6 +63,7 @@ soldiers:
     costSalaryCaptain: 10000
     costSalaryColonel: 15000
     costSalaryCommander: 20000
+    monthlyBuyLimit: 20
     minStats:
       tu: 40
       stamina: 40
@@ -124,6 +126,7 @@ soldiers:
   - type: STR_USSF_RANGER
     costBuy: 40000
     costSalary: 20000
+    monthlyBuyLimit: 15
     minStats:
       tu: 50
       stamina: 50
@@ -179,6 +182,7 @@ soldiers:
     costSalaryCaptain: 10000
     costSalaryColonel: 15000
     costSalaryCommander: 20000
+    monthlyBuyLimit: 20
     minStats:
       tu: 40
       stamina: 40
@@ -241,6 +245,7 @@ soldiers:
   - type: STR_UASCNAT_ESPATIER
     costBuy: 40000
     costSalary: 20000
+    monthlyBuyLimit: 15
     minStats:
       tu: 50
       stamina: 50
@@ -297,6 +302,7 @@ soldiers:
     costSalaryCaptain: 10000
     costSalaryColonel: 15000
     costSalaryCommander: 20000
+    monthlyBuyLimit: 20
     minStats:
       tu: 40
       stamina: 40
@@ -358,6 +364,7 @@ soldiers:
   - type: STR_VKS_OPERATOR
     costBuy: 40000
     costSalary: 20000
+    monthlyBuyLimit: 15
     minStats:
       tu: 50
       stamina: 50
