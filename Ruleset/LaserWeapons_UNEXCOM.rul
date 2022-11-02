@@ -985,16 +985,16 @@ items:
     hitSound: 19
     hitAnimation: 100
     bulletSprite: 29
-    power: 60
+    power: 70
     damageType: 4
     damageAlter:
       RandomType: 6
     confAuto:
       shots: 3
       arcing: false
-    accuracyAimed: 90
-    accuracySnap: 70
-    accuracyAuto: 48
+    accuracyAimed: 95
+    accuracySnap: 75
+    accuracyAuto: 55
     costAimed:
       time: 14
       mana: 1
@@ -1007,9 +1007,9 @@ items:
     clipSize: -1
     battleType: 1
     maxRange: 60
-    aimRange: 18
-    snapRange: 11
-    autoRange: 5
+    aimRange: 20
+    snapRange: 15
+    autoRange: 6
     dropoff: 2
     invWidth: 1
     invHeight: 2
@@ -1029,37 +1029,37 @@ items:
     hitSound: 19
     hitAnimation: 100
     bulletSprite: 29
-    power: 60
+    power: 75
     damageType: 4
     damageAlter:
       RandomType: 6
     confAimed:
-      shots: 3
+      shots: 2
       name: STR_CONTROL_AUTO
     confSnap:
       shots: 4
       name: STR_BURST
     confAuto:
-      shots: 5
+      shots: 6
       name: STR_FULL_AUTO
-    accuracyAimed: 65
-    accuracySnap: 55
-    accuracyAuto: 45
+    accuracyAimed: 80
+    accuracySnap: 70
+    accuracyAuto: 50
     costAimed:
       time: 35
-      mana: 3
+      mana: 2
     costSnap:
       time: 33
       mana: 4
     costAuto:
       time: 31
-      mana: 5
+      mana: 6
     clipSize: -1
     battleType: 1
     twoHanded: true
     maxRange: 80
-    aimRange: 14
-    snapRange: 10
+    aimRange: 18
+    snapRange: 12
     autoRange: 7
     dropoff: 3
     invWidth: 1
@@ -1080,7 +1080,7 @@ items:
     hitSound: 19
     hitAnimation: 100
     bulletSprite: 29
-    power: 75
+    power: 85
     damageType: 4
     damageAlter:
       RandomType: 6
@@ -1088,9 +1088,9 @@ items:
     confAuto:
       shots: 2
       name: STR_DOUBLE_TAP
-    accuracyAimed: 90
-    accuracySnap: 70
-    accuracyAuto: 50
+    accuracyAimed: 95
+    accuracySnap: 80
+    accuracyAuto: 55
     costAimed:
       time: 40
       mana: 2
@@ -1104,9 +1104,9 @@ items:
     battleType: 1
     twoHanded: true
     maxRange: 60
-    aimRange: 22
+    aimRange: 25
     snapRange: 15
-    autoRange: 8
+    autoRange: 10
     dropoff: 1
     invWidth: 1
     invHeight: 3
@@ -1126,22 +1126,22 @@ items:
     hitSound: 19
     hitAnimation: -1
     bulletSprite: 29
-    power: 40
+    power: 55
     damageType: 4
     damageAlter:
       RandomType: 6
     confAimed:
-      shots: 4
+      shots: 5
       name: STR_CONTROL_AUTO
     confSnap:
-      shots: 7
+      shots: 8
       name: STR_FULL_AUTO
     confAuto:
       shots: 10
       name: STR_PRAY_N_SPRAY
-    accuracyAimed: 75
-    accuracySnap: 55
-    accuracyAuto: 35
+    accuracyAimed: 80
+    accuracySnap: 65
+    accuracyAuto: 45
     costAimed:
       time: 31
       mana: 3
@@ -1154,9 +1154,9 @@ items:
     clipSize: -1
     battleType: 1
     maxRange: 50
-    aimRange: 22
-    snapRange: 13
-    autoRange: 4
+    aimRange: 24
+    snapRange: 15
+    autoRange: 8
     twoHanded: false
     dropoff: 2
     invWidth: 1
@@ -1177,7 +1177,7 @@ items:
     hitSound: 19
     hitAnimation: 100
     bulletSprite: 29
-    power: 90
+    power: 95
     damageType: 4
     damageAlter:
       RandomType: 6
@@ -1224,13 +1224,13 @@ items:
     hitSound: 19
     hitAnimation: -1
     bulletSprite: 29
-    power: 65
+    power: 75
     damageType: 4
     damageAlter:
       RandomType: 6
-    accuracyAimed: 70
-    accuracySnap: 45
-    accuracyAuto: 40
+    accuracyAimed: 80
+    accuracySnap: 60
+    accuracyAuto: 50
     confAimed:
       shots: 4
       name: STR_CONTROL_AUTO
@@ -1259,9 +1259,9 @@ items:
     clipSize: -1
     battleType: 1
     maxRange: 60
-    aimRange: 11
-    snapRange: 8
-    autoRange: 6
+    aimRange: 14
+    snapRange: 10
+    autoRange: 8
     minRange: 5
     dropoff: 2
     invWidth: 2
@@ -1292,10 +1292,10 @@ items:
     accuracySnap: 70
     costAimed:
       time: 78
-      mana: 5
+      mana: 4
     costSnap:
       time: 42
-      mana: 5
+      mana: 4
     clipSize: -1
     battleType: 1
     maxRange: 120
