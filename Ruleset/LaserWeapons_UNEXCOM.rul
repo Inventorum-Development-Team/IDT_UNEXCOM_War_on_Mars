@@ -244,7 +244,7 @@ items:
     snapRange: 24
     autoRange: 18
     dropoff: 1
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
 
   - type: STR_M5_LASER_SMG
