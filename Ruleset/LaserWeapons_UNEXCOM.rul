@@ -975,13 +975,13 @@ items:
     accuracyAuto: 55
     costAimed:
       time: 14
-      mana: 1
+      mana: 2
     costSnap:
       time: 9
-      mana: 1
+      mana: 2
     costAuto:
       time: 18
-      mana: 3
+      mana: 6
     clipSize: -1
     battleType: 1
     maxRange: 60
@@ -1024,13 +1024,13 @@ items:
     accuracyAuto: 50
     costAimed:
       time: 35
-      mana: 2
+      mana: 4
     costSnap:
       time: 33
-      mana: 4
+      mana: 8
     costAuto:
       time: 31
-      mana: 6
+      mana: 12
     clipSize: -1
     battleType: 1
     twoHanded: true
@@ -1119,13 +1119,13 @@ items:
     accuracyAuto: 45
     costAimed:
       time: 31
-      mana: 3
+      mana: 5
     costSnap:
       time: 34
-      mana: 5
+      mana: 8
     costAuto:
       time: 33
-      mana: 7
+      mana: 10
     clipSize: -1
     battleType: 1
     maxRange: 50
@@ -1221,13 +1221,13 @@ items:
       arcing: false
     costAimed:
       time: 37
-      mana: 3
+      mana: 4
     costSnap:
       time: 45
-      mana: 6
+      mana: 9
     costAuto:
       time: 75
-      mana: 10
+      mana: 15
     twoHanded: true
     clipSize: -1
     battleType: 1
