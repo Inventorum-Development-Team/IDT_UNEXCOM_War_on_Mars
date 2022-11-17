@@ -2422,19 +2422,19 @@ en-US:
   STR_NATO_CYBORG_OPERATORS_REPORT_2: "Tactical Report - UASCNAT Cyberoperators II"
   STR_NATO_CYBORG_OPERATORS_REPORT_2_UFOPEDIA: "They kept on developing augmentation technology, and in 1977 has received a special request from main command of NATO. They were interested in possible opportunities, created by augmentations, and now wanted to get a new type of forces, composed of heavily augmented soldiers. This research project, codenamed 'Project Reborn', has been succesfully finished in 1980, and this the first human cyborgs has been created. This Cyberoperators are stronger and more agile than normal humans, and less vulnerable to damage, but their adaptation skills has suffered after implantation"
   
-  STR_FACTIONS_REPORT_USSF: "Factions Report - USSF"
+  STR_FACTIONS_REPORT_USSF: "Faction Report - USSF"
   STR_FACTIONS_REPORT_USSF_UFOPEDIA: "The American interest in the militarization of space begun even before the Space Race. After gaining its independence from the US Army, the US Air Force started developing ballistic missiles in the early 50s. The success of Sputnik 1 and several congressional pressures resulted in three separate Space branches. Eventually, the Aerospace Defense Command became active in 1968, still dependant on the USAF. Its ultimate purpose was justified in the orbital raids in late 1973 and the subsequent Lunar Campaign. By 1980, it was reformed into the US Space Force, becoming a separate branch. The USSF Rangers are handpicked elements from the Air Force and Marines, enduring a 6-weeks long training in Fort Tranquility, Moon."
-  STR_FACTIONS_REPORT_NASA: "Factions Report - NASA"
+  STR_FACTIONS_REPORT_NASA: "Faction Report - NASA"
   STR_FACTIONS_REPORT_NASA_UFOPEDIA: "The main space exploration civilian agency of the United States is directly responsible for the development of American space tech and materials. While initially it struggled to compete with the Soviet space program, the first crewed landing on the Moon gave it the necessary public and financial support to further expand the human presence in space. One of the most important achievements by the National Aeronautics Space Administration is the development of the novel Space Shuttle and the Orion Nuclear Pulse Battleships, two of the groundbreaking technological innovations which gave Earth an edge over the Ethereals in the 1972-1974 conflict."
   
-  STR_FACTIONS_REPORT_UASCNAT:
-  STR_FACTIONS_REPORT_UASCNAT_UFOPEDIA:
-  STR_FACTIONS_REPORT_ESA: "Factions Report - ESA"
-  STR_FACTIONS_REPORT_ESA_UFOPEDIA: "The European Space Agency is the joint effort of all the Western European nations, spearheaded by France, Italy and the Unified Germany. Initially two separate agencies tasked with developing rockets and satellites, the alien conflict of 1972 made clear Europe needed a common space agency tasked on researching the invader's movements in outer space and how yo include their tech for the benefits of mankind's dream of conquering the stars. Funded in 1973, its peak of activity started after the official end of the War, with logistics support for the Allied forces fighting the alien remnants in the Moon. Since the return of the UN to Mars, the ESA has relentlessly worked along NASA to establish a permanent human settlement on the Red Planet, with routine rocket launches ferrying cargo and travelers between both planets."
+  STR_FACTIONS_REPORT_UASCNAT: "Faction Report - UASCNAT"
+  STR_FACTIONS_REPORT_UASCNAT_UFOPEDIA: "WIP"
+  STR_FACTIONS_REPORT_ESA: "Faction Report - ESA"
+  STR_FACTIONS_REPORT_ESA_UFOPEDIA: "The European Space Agency is the joint effort of all the Western European nations, spearheaded by France, Italy and the Unified Germany. Initially two separate agencies tasked with developing rockets and satellites, the alien conflict of 1972 made clear Europe needed a common space agency tasked on researching the invader's movements in outer space and how yo include their tech for the benefits of mankind's dream of conquering the stars. Founded in 1973 after the merge of ESRO and ELDO, its peak of activity started after the official end of the War, with logistics support for the Allied forces fighting the alien remnants in the Moon. Since the return of the UN to Mars, the ESA has relentlessly worked along NASA to establish a permanent human settlement on the Red Planet, with routine rocket launches ferrying cargo and travelers between both planets."
   
-  STR_FACTIONS_REPORT_VKS: "..."
-  STR_FACTIONS_REPORT_VKS_UFOPEDIA: "..."
-  STR_FACTIONS_REPORT_INTERKOSMOS: "Factions Report - Interkosmos"
+  STR_FACTIONS_REPORT_VKS: "Faction Report - VKS"
+  STR_FACTIONS_REPORT_VKS_UFOPEDIA: "WIP"
+  STR_FACTIONS_REPORT_INTERKOSMOS: "Faction Report - Interkosmos"
   STR_FACTIONS_REPORT_INTERKOSMOS_UFOPEDIA: "The highly successful state-run Soviet space program became wider when, in 1968, several cosmonauts, technicians and scientists from Soviet-aligned countries were invited to collaborate actively in the program. An international group, similar in scope to the European Space Agency, has allowed even non-aligned nations to fly onboard Soviet ships. Working directly with the Americans in the creation of the large fleet of Orion nuclear pulse ships, the state program is currently focused on deploying orbital laboratories around Mars. The main issue is the heavy internal competition between design bureaus, now exacerbated by the addition of Warsaw Pact development teams working to surpass the Russians."
   
   
