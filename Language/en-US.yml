@@ -1679,13 +1679,31 @@ en-US:
   STR_AN_MACHINE_LASER_UFOPEDIA_2: (Lazernaya Ustanovka Avtomaticheskogo Ognya, Laser Device of Automatic Fire). This new LMG gained new cooling system, as well as option to easily change barrel even at the battlefield, which qreatly reduced problems with overheat. This LMG was adopted by Soviet Army in 1979 and quickly replaced AN ML
 
   STR_AFINA_ANTITANK_LASER_UFOPEDIA_1: AFINA PTLU-M (Protivotankovaya Lazernaya Ustanovka Modificirovannaya, or Anti-Tank Laser Device Modified). Developed in a responce of a threat of alien mechanised units, such as Cyberdisks or Mechtoids, AFINA received positive reviews by various ranks of Soviet Army. Yet, there was quite amount of complaint about low rate of fire, which is deemed crucial by many, so in 1976 KBLV modernised AFINA.
-  STR_AFINA_ANTITANK_LASER_UFOPEDIA_2: They improved both charging and cooling systems, which led to rate of fire being increased by 20%. In 1977 new standard for AFINA PTLU, now PTLU-M, was adopted by Soviet Army, which quickly modernised all it's AFINAs
+  STR_AFINA_ANTITANK_LASER_UFOPEDIA_2: They improved both charging and cooling systems, which led to rate of fire being increased by 20%. In 1977 new standard for AFINA PTLU, now PTLU-M, was adopted by Soviet Army, which quickly modernised all its AFINAs
 
   STR_POWER_RESERVES_UFOPEDIA: "Each UNEXCOM soldier carries a small powercell as a part of their equipment, which is used to power electronic equipment, such as laser weaponry, in the field. These powercells are recharged once a soldier returns from a mission, though they can be recharged during a operation by using a battery if it proves necessary."
 
   STR_BATTERY_UFOPAEDIA: "This battery holds enough power to recharge the powercell of our soldiers attires fully. It is heavy, but might prove necessary on longer missions. The battery is automatically recharged when returned to the base"
 
   STR_ELERIUM_BATTERY_UFOPAEDIA: "This battery is extremely similar to the power cells of Alien Fusion weaponry, granting it twice the capacity of our regular batteries while being the same weight"
+
+#################################
+###### ELECTRIC AND GAUSS WEAPONS #####
+###############################
+
+   STR_ELECTRIC_RIFLE: "Taifun Egewehr Electric Rifle"
+   STR_ELECTRIC_RIFLE_MAG: "Electric Standard Cell (x10)"
+   STR_ELECTRIC_RIFLE_UFOPEDIA: "Based on the success of the Hurrikan Electric Rifle ten years ago, the 'Typhoon' has a double energy generator and larger batteries to increase the potency of the electrical discharge. A sturdier frame and better conductors allow a marginal increase in range. Even when its best used to disable mechanical enemies, organic threats are no match neither. The amount of discharges remains limited, though."
+   STR_ELECTRIC_PISTOL: "Zyklon Epistole Electric Handgun"
+   STR_ELECTRIC_PISTOL_MAG: "Electric Compact Cell (x20)"
+   STR_ELECTRIC_PISTOL_UFOPEDIA: "The 'Cyclone' is a compact weapon meant to supplement the larger Electric Rifles, often too bulky to be carried and aimed quickly. The short size restricts the range and focusing of the discharge and the power, dispersing the lighting over a wide area. On the other hand, the battery supply lasts a bit longer due the lower energy required to operate the pistol."
+   STR_GAUSS_RIFLE: "Groza EMR"
+   STR_GAUSS_RIFLE_MAG: "Ferromagnetic 8mm Mag (x15)"
+   STR_GAUSS_RIFLE_UFOPEDIA: "Improved version of the Burya EMR firing the same 8mm high-armor-piercing rounds, the 'Thunderstorm' includes a tactical enhanced modification system, adding a digital scope and laser targeting sight, to greatly increase the accuracy of the marksman using the rifle. The scope automatically calculates the most optimal trajectory, helping the user to shot over longer distances. The additions put more weight into an already heavy weapon, but iincrements the effectiveness."
+   STR_GAUSS_CARBINE: "Grad EMC"
+   STR_GAUSS_CARBINE_UFOPEDIA: "A shortened Carbine version of the EMR family, the 'Hailstorm' was meant to be used by airborne assault units like the VDV. It lacks a stock and has a short barrel with fewer coils. The effective range is reduced and the weapon becomes a little unwieldy, but the weight reduction greatly helps to avoid the fatigue on the user. It uses the same 8mm rounds as the other Electromagnetic weapons."
+
+#################################
 
   STR_ALIEN_PLASMA_WEAPONS_UFOPEDIA: The capture and interrogation of the alien engineer allowed researchers to finally break the lock-out technology on their weapons and fully explore the design of the alien plasma weapons. Each weapon ionizes a small pellet of Alien Alloys and uses a linear accelerator to fire the superheated metal at a target. Cultured living cells from the captured alien will have to be built into re-purposed/captured weapons in order to use the weapons, while newly constructed plasma weapons will not require this bypass.
 
