@@ -506,7 +506,7 @@ en-US:
   STR_HARRIER: "HARRIER"
   STR_HARRIER_UFOPEDIA: "SAV-8M Harrier - VTOL strike fighter, specialized version of the Harrier jumpjet used by several NATO countries in Earth. It's thrusters have been modified to be used in makeshift airstrips in Mars surface, can be used in CAS missions."
   STR_FORGER: "FORGER"
-  STR_FORGER_UFOPEDIA: "Yak-38M 'Forger' - VTOL naval interceptor and attack fighter, originally meant for the Soviet Naval Aviation onboard aircraft carriers. Modified to operate in the thin Martian atmosphere, it's very fast." 
+  STR_FORGER_UFOPEDIA: "Yak-38M 'Forger' - VTOL naval interceptor and attack fighter, originally meant for the Soviet Naval Aviation onboard aircraft carriers. Modified to operate in the thin Martian atmosphere, it's very fast."
 
   STR_TUNNAN_MK2: "TORNSVALAN"
 
@@ -1205,9 +1205,9 @@ en-US:
   STR_HIJACKED_PLANE_BRIEFING: A civilian plane has been hijacked by a group of terrorists. The extremists are demanding the release of their comrades held in prisons in the country where we will be deployed, as well as safe passage to escape. We cannot allow that. The aircraft is parked on a runway at the local airport. Our mission will be to storm the plane, neutralize the hostiles and avoid civilian casualties at all costs. Extreme caution, it's a closed environment and a stray bullet could injure someone.
   STR_HUMAN_TERROR_ATTACK: Terrorist Attack
   STR_URBAN_TERROR_BRIEFING: A squad of terrorists has started an attack on a city and we have been called upon to support the local authorities. The reason for the assault is not known, but there is speculation that the enemy is trying to make a show of force, perhaps directed at members of other anarchist groups. There are no hostages, but chaos reigns in the streets. It is our mission to support the local forces in restoring order, neutralizing the hostiles and ensuring the safety of civilians, before the attack escalates and gets out of control.
-  
-  
-  
+
+
+
   ##################
   STR_COUNTER_INSURGENCY_OPERATION: "Counter-Insurgency Operation"
   STR_COUNTER_INSURGENCY_OPERATION_DEPLOYMENT: "COUNTER-INSURGENCY OPERATION"
@@ -1217,7 +1217,7 @@ en-US:
   STR_COUNTER_INSURGENCY_OPERATION_COMPLETE: "The alien guerrillas were suppressed and no longer pose a threat for our personnel. Orbital recon reports the surviving Insurgents try to flee away from the combat zone, gunships are directed to intercept them."
   STR_COUNTER_INSURGENCY_OPERATION_FAILURE: "The enemy managed to flee the warzone, they'll most likely continue they terror campaign on our civilian and military outposts. We cannot allow it to happen again. "
   STR_DELETE_COUNTER_INSURGENCY_OPERATIONS: "End Counter-Insurgency Operations"
-  
+
   STR_SEARCH_AND_DESTROY_OPERATION: "Search and Destroy Operation"
   STR_SEARCH_AND_DESTROY_OPERATION_DEPLOYMENT: "SEARCH AND DESTROY"
   STR_SEARCH_AND_DESTROY_OPERATION_DESCRIPTION: "We were deployed to what appears to be an Insurgent facility, recently detected by allied recon units. The mission consists in approach the enemy settlement, detect any armed hostile and engage them, then quickly return before the enemy manages to prepare a counterstrike. Be careful, this is urban combat. There may be Insurgents in every house. Evacuate before 10 turns, otherwise the LZ will be compromised and your forces overrun."
@@ -1226,7 +1226,7 @@ en-US:
   STR_SEARCH_AND_DESTROY_OPERATION_COMPLETE: "We managed to locate and eliminate all the insurgents in the alien settlement. This has substantially reduced the support they get from the local dwellers, while improving our presence around the area."
   STR_SEARCH_AND_DESTROY_OPERATION_FAILURE: "We failed to accomplish the mission. The guerrillas overran the landing zone and we lost contact with our forces. The enemy has secured yet another alien settlement, increasing their resources and manpower. We must avoid any further insurgent expanse."
   STR_DELETE_SEARCH_AND_DESTROY_OPERATIONS: "End Search and Destroy Operations"
-  
+
   STR_SUPPLY_RECOVERY_OPERATION: "Supply Recovery Operation"
   STR_SUPPLY_RECOVERY_OPERATION_DEPLOYMENT: "SUPPLY RECOVERY OPERATION"
   STR_SUPPLY_RECOVERY_OPERATION_DESCRIPTION: "Local recon has identified supplies left behind in a small outpost left untouched after the enemy offensive. Our task is approach the site and retrieve any useful supply or equipment. Be careful, the enemy attackers may be near the area, they will intercept our team if we take too long. Evacuate before 10 turns."
@@ -1235,7 +1235,7 @@ en-US:
   STR_SUPPLY_RECOVERY_OPERATION_COMPLETE: "Our supply run was successful and we managed to adquire valuable assets from the warzone, needed to keep our operations ongoing. Any bullet or battery we got keep us on the fight another day."
   STR_SUPPLY_RECOVERY_OPERATION_FAILURE: "Our scavenger team was overwhelmed and destroyed. Local recon informs the aliens completely burnt the site to the ground, negating us of another possible supply point. We will lose this war if we don't have bullets or batteries to fight it."
   STR_DELETE_SUPPLY_RECOVERY_OPERATIONS: "End Supply Recovery Operations"
-  
+
   STR_MAJOR_ENGAGEMENT: "Major Engagement"
   STR_MAJOR_ENGAGEMENT_DEPLOYMENT: "MAJOR ENGAGEMENT"
   STR_MAJOR_ENGAGEMENT_DESCRIPTION: "UN forces have intercepted a large group of Insurgents and a fierce battle has begun. While the allied forces could win the combat on their own, the UNSC has tasked us to turn the tide. Land and support the friendly units before the enemy manages to flee."
@@ -1243,7 +1243,7 @@ en-US:
   STR_MAJOR_ENGAGEMENT_ALERT: "Major Engagement"
   STR_MAJOR_ENGAGEMENT_COMPLETE: "The victory is ours. The Insurgent forces were completely annihilated, this is a severe blow to their war efforts."
   STR_MAJOR_ENGAGEMENT_FAILURE: "Although we tried our best, the enemy managed to hold their ground. Don't let this stop our advance, keep pushing forward."
-  
+
   STR_OPERATION_SWORDBREAKER: "Operation Swordbreaker"
   STR_OPERATION_SWORDBREAKER_DEPLOYMENT: "OPERATION SWORDBREAKER - LANDING"
   STR_OPERATION_SWORDBREAKER_DESCRIPTION: "Orbital recon has found the main HQ of the Insurgency, located deep inside the Olympus Mons. Our task force has been requested to assault the hideout and destroy the leadership once and for all. Most of the enemy forces have been recalled to defend their main base. UNSC has launched this joint operation, allied forces have landed along with us. This is the final battle for the control of Mars."
@@ -1251,7 +1251,7 @@ en-US:
   STR_OPERATION_SWORDBREAKER_ALERT: "Operation Swordbreaker scheduled to start"
   STR_OPERATION_SWORDBREAKER_STAGE_2_DEPLOYMENT: "OPERATION SWORDBREAKER - HQ"
   STR_OPERATION_SWORDBREAKER_STAGE_2_DESCRIPTION: "We have managed to enter what seems a complex artificial cave system inside Olympus Mons. Other friendly forces have entered as well. Our mission will be accomplished after locating and destroying the Brain controlling the Insurgent activities. "
-  
+
   STR_GOOD_ENDING_1: "Our second strike on the alien leadership was the definitive. All the known Ethereal insurgent leaders were killed and the rebel Brain was destroyed once and for all.  "
   STR_GOOD_ENDING_2: "The complete pacification of the Red Planet allowed us to increase the scientific development on the surface."
   STR_GOOD_ENDING_3: "Operation Downfall meant the beginning of the colonization of the space. Human spaceships are built, meant to reach the planets and moons on the Solar System. A dream that was impossible a decade ago. The power of the atom, instead of destroying the Mankind, has propel us to the stars and beyond."
@@ -1625,7 +1625,7 @@ en-US:
   STR_38_LASER_MAGNUM_UFOPEDIA: "Magnum Research acquired license for laser technology in 1976 and started development of a new powerful handgun. Constructors managed to create strong-looking handgun with powerful charging system and accurate lenses. New alloys, used in this weapon, allows to make it relatively light. This new Daring Eagle handgun was accepted by USSF (United States Space Forces) as self-defense gun for pilots, and optional sidearm for soldiers, looking for handgun, capable of killing strong aliens. Daring Eagle also became popular in Hollywood, being featured in recent action movies, thanks to it's brutal design."
 
   STR_CALBR_UFOPEDIA: "After first stage of war with Ethereals, United States Army ordered a new main battle rifle for USSF from an ArmaLite. Eugene Stoner, although being new to the laser technologies, still managed to create a powerful, accurate and reliable gun. Based upon design of a M63 Stoner, new CALBR-76 also features it's modularity, giving ability to easily change stock, grip, scope, fire mods and etc."
-  
+
   STR_CALBR_DMR_UFOPEDIA: "Modified version of CALBR-76. This one features a new 8x scope, with several different zoom modes, bipod, and differently focused charging system, making this rifle more powerful, but removing automatic fire."
 
   STR_M20_M203_LASER_CARBINE_UFOPEDIA: "In 1978, the US Army started competition among armament companies for a new laser carbine for the Army Rangers and Airborne paratroopers. This competition was won by Knight's Armament Company, with their M54C. Being light and compact, this carbine also managed to be almost as powerful as a CALBR-76. This weapon also features cutting-edge scope with several modes, including heat vision, infravision and targets tracking."
@@ -1639,9 +1639,9 @@ en-US:
   STR_M4_LASER_LMG_UFOPEDIA: "In 1979, the United States Army started competition among armament companies to create a new laser light machine gun. This competition was won by General Electrics, with their M565 Microlaser. Design for this machine laser based on a famous M134 Minigun, featuring electronic rotating system for 6 barrels. With new and improved cooling system, M565 Microlaser managed to get really high firerate, although it's heavier and less accurate, in comparison with M4 Laser LMG."
 
   STR_ELERIUM_FLAMETHROWER_UFOPEDIA: "One of the most terrifying weapons fielded by the US and UNEXCOM forces since the '73, there were reports of aliens surrendering upon sight of this weapon. The ultrahot stream of Elerium-infused napalm keeps burning even after the unfortunate target dies. The M55A2 operators were often attacked by the enemy, most likely motivated by a combination of fear and hatred."
-  
+
   STR_P71_LASER_PISTOL_UFOPEDIA_1: "When NATO started a competition for new laser handgun in 1977, among well-known armament companies, such as 'Heckler und Koch' and 'Beretta', was an unknown Austrian engineer, known as Gaston Glock. And yet his design of a pistol, using not only new alloys, but also polymers, made Glock's handgun lighter and cheaper than the competitors designs."
-  
+
   STR_P71_LASER_PISTOL_UFOPEDIA_2: "And so, in 1978, a newly formed Glock armament company received a huge contract for producing it's handgun, which was oficially named Glock 17LP (Laser Pistole), for the use in UASCNAT forces (United Aerospace Command of North Atlantic Treaty). Thanks to it's relatively cheap production and reliability Glock 17LP also became first laser handgun from European armament company, that made it's way into civilian gun market."
 
   STR_FN_FLA_LASER_BATTLE_RIFLE_UFOPEDIA: "Designed by 'Steyr-Daimler-Puch', ArmeeLaserGewehr (or ALG-77), is a rifle from a new generation. Build out of new alloys and using innovative ideas in weapon-making sphere, this rifle managed to achieve high level of modularity, being able to use any additional sidegrades, ever produced by western armament companies. This rifle was quickly accepted by NATO in 1978 and soon became new main battle rifle in it's forces."
@@ -1650,26 +1650,26 @@ en-US:
 
   STR_L4_ASSAULT_LASER_UFOPEDIA: "The LG3-ZF ('LazerGewehr Zielfernrohr' , or 'Laser Rifle Scoped' in German) is a designated marksman rifle, built by Heckler und Koch armament company in 1979. It's uses design of G3 rifles and also features new and improved cooling system, making this rifle highly reliable. It's powerful and accurate DMR, good for supporting troops in a battle."
 
-  STR_MAT72_SUBMACHINE_LASER_UFOPEDIA_1: "Despite high reviews of L4 by various ranks of NATO forces during War of 1972, Heckler und Koch armament company wasn't quite pleased with the revenue they made from it's production, so in 1976 they created a new laser SMG." 
+  STR_MAT72_SUBMACHINE_LASER_UFOPEDIA_1: "Despite high reviews of L4 by various ranks of NATO forces during War of 1972, Heckler und Koch armament company wasn't quite pleased with the revenue they made from it's production, so in 1976 they created a new laser SMG."
   STR_MAT72_SUBMACHINE_LASER_UFOPEDIA_2: "Being modeled after iconic MP5, LMP6K light, compact and really powerful for it's size, suitable for use in spec ops operations and as self-defence weapon for pilots of UASCNAT. It was accepted by NATO in 1978, and many different nations in Organisation purchased them in large numbers."
 
   STR_CHURCHILL_MARKSMAN_LASER_RIFLE_UFOPEDIA: "The Mauser LSSG-80 (Laserscharfschützengewehr, or Laser Sniper Rifle in German) is a sniper rifle, developed by Mauser company for the use in UASCNAT forces. This weapon features improved charging system, which makes shots more powerful and accurate. Also, this rifle received a new scope with several vision modes available for user."
 
   STR_ML73_LASER_MACHINE_GUN_UFOPEDIA: "The FN Minimi Machine Laser was developed by FN Herstal in 1977. This weapon, in comparison with ML-73, have better and more powerful cooling system, and more toned lenses, with higher firerate and accuracy as a result. This machine laser has already received high reviews by soldiers and officers from various countries of NATO."
 
-  STR_M72_AUTOMATIC_RECOILLESS_RIFLE_UFOPEDIA: "An American 40mm recoilless rifle that combines old and new technology, used both by the US and NATO. The 'Teddy' is capable of firing 6 rounds without reloading and fires both anti infantry and anti tank munitions. Named after US president Theodore Roosevelt."
-  STR_M72_AUTOMATIC_RECOILLESS_RIFLE_UFOPEDIA: "Originally developed during the first stage of war with Ethereals, M72 was modified in a preparation for martian campaign. M72A1 Teddy received a reinforced firing system to reduce chance of jamming in case of being soiled by martian dust."
+  STR_M72_AUTOMATIC_RECOILLESS_RIFLE_UFOPEDIA_1: "An American 40mm recoilless rifle that combines old and new technology, used both by the US and NATO. The 'Teddy' is capable of firing 6 rounds without reloading and fires both anti infantry and anti tank munitions. Named after US president Theodore Roosevelt."
+  STR_M72_AUTOMATIC_RECOILLESS_RIFLE_UFOPEDIA_2: "Originally developed during the first stage of war with Ethereals, M72 was modified in a preparation for martian campaign. M72A1 Teddy received a reinforced firing system to reduce chance of jamming in case of being soiled by martian dust."
 
-  STR_P72_COMPACT_LASER_UFOPEDIA_1: During the first stage of war with Ethereals, General Mirinov and his bureau received a quite amount of complaint about P-72, generally users were complaining about its low realibility and accuracy. In a responce they constructed a new model of laser handgun. 
+  STR_P72_COMPACT_LASER_UFOPEDIA_1: During the first stage of war with Ethereals, General Mirinov and his bureau received a quite amount of complaint about P-72, generally users were complaining about its low realibility and accuracy. In a responce they constructed a new model of laser handgun.
 
   STR_P72_COMPACT_LASER_UFOPEDIA_2: Built completely out of new alloys and packed with a reworked cooling system, as well as improved lenses, new Tulskiy-Mirinov-78 (or TM-78) also have a pleasant resemblance of TT handgun, primary handgun of Red Army in Great Patriotic War. This pistol is commonly issued with thin belts, to ensure that soldier will never lose his handgun.
 
   STR_ALK72_LASER_RIFLE_UFOPEDIA: ALKh-79 (Avtomat Laserniy Kharitonova), 2nd in the line of soviet laser rifles, was designed by Mikayel Kharitonov in 1979, by request of newly formed Space Forces of Soviet Army to make a new rifle, more comfortable for cosmonauts. This rifle came up with new ergonomic stock and handheld, and also with optimized charging system, which made ALKh-79 lighter than '72 model.
 
-  STR_KHARITONOV_LASER_BATTLE_RIFLE_UFOPEDIA_1: Originally developed by request of UNEXCOM, KhLBR-72 (Kharitonov Laser Battle Rifle) also found it's way into Spetznaz forces, such as Alpha or Vympel squads. War of 1972 shown for the Soviet Army value of marksman support on a battlefield, so Mikayel Kharitonov received in 1978 a new request by SA to create a DMR, both suitable for army marksman soldiers and Spetznaz operatives. 
+  STR_KHARITONOV_LASER_BATTLE_RIFLE_UFOPEDIA_1: Originally developed by request of UNEXCOM, KhLBR-72 (Kharitonov Laser Battle Rifle) also found it's way into Spetznaz forces, such as Alpha or Vympel squads. War of 1972 shown for the Soviet Army value of marksman support on a battlefield, so Mikayel Kharitonov received in 1978 a new request by SA to create a DMR, both suitable for army marksman soldiers and Spetznaz operatives.
   STR_KHARITONOV_LASER_BATTLE_RIFLE_UFOPEDIA_2: With new stock and optimized charging and cooling systems, SVPKh-80 (Snaiperskaya Vintovka Podderzhki Kharitonova, or Kharitonov Support Sniper Rifle in English) became significantly shorter and lighter, without loss in accuracy or power
 
-  STR_ALP_SUBMACHINE_LASER_UFOPEDIA_1: KLUAO-79 (Kompaktnaya Lazernaya Ustanovka Avtomaticheskogo Ognya, Compact Laser Device of Automatic Fire) was designed by request of KGB for their Spetznaz forces, such as Alpha and Vympel squads. In order to create a laser SMG both light and comfortable for use, KBLV came up with a new stock, merged with a grip. 
+  STR_ALP_SUBMACHINE_LASER_UFOPEDIA_1: KLUAO-79 (Kompaktnaya Lazernaya Ustanovka Avtomaticheskogo Ognya, Compact Laser Device of Automatic Fire) was designed by request of KGB for their Spetznaz forces, such as Alpha and Vympel squads. In order to create a laser SMG both light and comfortable for use, KBLV came up with a new stock, merged with a grip.
   STR_ALP_SUBMACHINE_LASER_UFOPEDIA_2: This combined grip, as it was oficially named, together with improved charging system, helped bureau to create a weapon, not only equal to ALP Submachine, but also achieve a small increase on damage output. This weapon used only by Spetznaz, but soviet suppliers on Mars have a small shipment of them to quickly transfer it to UNEXCOM, if requested
 
   STR_MIRINOV_LASER_SNIPER_UFOPEDIA: SVM-79 (Snaiperskaya Vintovka Mirinova) is a new laser sniper rifle, created by General Pyotr Mirinov and his bureau for Space Forces of Soviet Army specifically for martian conditions. Not only this rifle received a new cooling system and better lenses for greater accuracy, bureau also managed to add some modularity with customized grip and sights, thanks to added 'dovetail rail' mounting
@@ -1691,17 +1691,17 @@ en-US:
 ###### ELECTRIC AND GAUSS WEAPONS #####
 ###############################
 
-   STR_ELECTRIC_RIFLE: "Taifun Egewehr Electric Rifle"
-   STR_ELECTRIC_RIFLE_MAG: "Electric Standard Cell (x10)"
-   STR_ELECTRIC_RIFLE_UFOPEDIA: "Based on the success of the Hurrikan Electric Rifle ten years ago, the 'Typhoon' has a double energy generator and larger batteries to increase the potency of the electrical discharge. A sturdier frame and better conductors allow a marginal increase in range. Even when its best used to disable mechanical enemies, organic threats are no match neither. The amount of discharges remains limited, though."
-   STR_ELECTRIC_PISTOL: "Zyklon Epistole Electric Handgun"
-   STR_ELECTRIC_PISTOL_MAG: "Electric Compact Cell (x20)"
-   STR_ELECTRIC_PISTOL_UFOPEDIA: "The 'Cyclone' is a compact weapon meant to supplement the larger Electric Rifles, often too bulky to be carried and aimed quickly. The short size restricts the range and focusing of the discharge and the power, dispersing the lighting over a wide area. On the other hand, the battery supply lasts a bit longer due the lower energy required to operate the pistol."
-   STR_GAUSS_RIFLE: "Groza EMR"
-   STR_GAUSS_RIFLE_MAG: "Ferromagnetic 8mm Mag (x15)"
-   STR_GAUSS_RIFLE_UFOPEDIA: "Improved version of the Burya EMR firing the same 8mm high-armor-piercing rounds, the 'Thunderstorm' includes a tactical enhanced modification system, adding a digital scope and laser targeting sight, to greatly increase the accuracy of the marksman using the rifle. The scope automatically calculates the most optimal trajectory, helping the user to shot over longer distances. The additions put more weight into an already heavy weapon, but iincrements the effectiveness."
-   STR_GAUSS_CARBINE: "Grad EMC"
-   STR_GAUSS_CARBINE_UFOPEDIA: "A shortened Carbine version of the EMR family, the 'Hailstorm' was meant to be used by airborne assault units like the VDV. It lacks a stock and has a short barrel with fewer coils. The effective range is reduced and the weapon becomes a little unwieldy, but the weight reduction greatly helps to avoid the fatigue on the user. It uses the same 8mm rounds as the other Electromagnetic weapons."
+  STR_ELECTRIC_RIFLE: "Taifun Egewehr Electric Rifle"
+  STR_ELECTRIC_RIFLE_MAG: "Electric Standard Cell (x10)"
+  STR_ELECTRIC_RIFLE_UFOPEDIA: "Based on the success of the Hurrikan Electric Rifle ten years ago, the 'Typhoon' has a double energy generator and larger batteries to increase the potency of the electrical discharge. A sturdier frame and better conductors allow a marginal increase in range. Even when its best used to disable mechanical enemies, organic threats are no match neither. The amount of discharges remains limited, though."
+  STR_ELECTRIC_PISTOL: "Zyklon Epistole Electric Handgun"
+  STR_ELECTRIC_PISTOL_MAG: "Electric Compact Cell (x20)"
+  STR_ELECTRIC_PISTOL_UFOPEDIA: "The 'Cyclone' is a compact weapon meant to supplement the larger Electric Rifles, often too bulky to be carried and aimed quickly. The short size restricts the range and focusing of the discharge and the power, dispersing the lighting over a wide area. On the other hand, the battery supply lasts a bit longer due the lower energy required to operate the pistol."
+  STR_GAUSS_RIFLE: "Groza EMR"
+  STR_GAUSS_RIFLE_MAG: "Ferromagnetic 8mm Mag (x15)"
+  STR_GAUSS_RIFLE_UFOPEDIA: "Improved version of the Burya EMR firing the same 8mm high-armor-piercing rounds, the 'Thunderstorm' includes a tactical enhanced modification system, adding a digital scope and laser targeting sight, to greatly increase the accuracy of the marksman using the rifle. The scope automatically calculates the most optimal trajectory, helping the user to shot over longer distances. The additions put more weight into an already heavy weapon, but iincrements the effectiveness."
+  STR_GAUSS_CARBINE: "Grad EMC"
+  STR_GAUSS_CARBINE_UFOPEDIA: "A shortened Carbine version of the EMR family, the 'Hailstorm' was meant to be used by airborne assault units like the VDV. It lacks a stock and has a short barrel with fewer coils. The effective range is reduced and the weapon becomes a little unwieldy, but the weight reduction greatly helps to avoid the fatigue on the user. It uses the same 8mm rounds as the other Electromagnetic weapons."
 
 #################################
 
@@ -1738,6 +1738,24 @@ en-US:
   STR_HUMAN_PLASMA_LMG_UFOPEDIA: Expanding techniques learned with the plasma submachine gun, the research team devised squad support weapon using the plasma weapon technology by scaling up the design.  Compromising on the plasma generator, it instead boasts a staggering rate of fire while mitigating flash and recoil.
 
   STR_HUMAN_SMALL_LAUNCHER_UFOPEDIA: This adapted launcher features the same superb handling of the alien Small Launcher and the ability to use the same ammo. We can use it against its masters to stun, capture and if needed, kill any enemy on the sight of this weapon.
+
+#############################################
+#### FACTION SPECIFIC PLASMA WEAPONS #######
+###########################################
+
+
+  STR_US_PLASMA_RIFLE: "M590A Plasma Battle Rifle"
+  STR_US_PLASMA_RIFLE_UFOPEDIA: "While found effective in long to mid distances, the M590 would not become the next standard service rifle of USSOCOM due to cost and lackluster CQB capabilities. Instead, a mid-powered electronic 4x scope was added and improved variants became the mainstay DMR for US interplanetary special forces."
+  STR_US_PLASMA_SHOTGUN: "M88 Plasma Stormgun"
+  STR_US_PLASMA_SHOTGUN_UFOPEDIA: "Initially meant to replace both the M79 grenade launcher and combat shotguns in squad support and crowd-control missions, respectively. Due the difficulty to utilize it, as highly specialized tactics and training were required to properly use the weapon, the 'Devil's Shark' was phased out shortly after introduction. However several can still be found in service, especially among the shock troop forces operating on Mars."
+  STR_US_PLASMA_RL: "M47 Dragon II Guided Munitions Launcher"
+  STR_US_PLASMA_RL_UFOPEDIA: "An improvement of the FGM-77 with enhanced penetration warheads. Due to extreme manufacturing costs, the launcher was discontinued shortly after the upgrades in 1977. The few remaining in service are treasured by the troops and basically kept in reserve for emergencies, as each rocket is an ensured overkill... albeit a very expensive one."
+
+  STR_NATO_PLASMA_CARBINE: "MAS-73 F1 Plasma Carbine"
+  STR_NATO_PLASMA_CARBINE_UFOPEDIA: "Nicknamed 'le Clairon', basically the most succesful of the 1st Generation Plasma weapons, being adopted by most European interplanetary forces. With only slight improvements made over the years, the new F1 version includes a reinforced particle accelerator, slightly different magazine well, extended handguard and a bayonet."
+
+#######################
+
 
   STR_CEREBREAL_UFOPAEDIA: "Cerebreals are a race that is not fully integrated into the alien hive-like society; they are more like allies, who agreed to serve the invaders for some unfathomable reasons.  They bear incredibly strong psionic powers, which can be focused as a weapon:  a violent discharge of plasma, fuelled by will alone.  Their independent and completely alien pattern of thinking make them unpredictable, but also more prone to panic than other alien races."
 
@@ -2389,7 +2407,7 @@ en-US:
   STR_TANK_LASER_CANNON: XM22 Legionnaire
   LEGIONNAIRE_TANK_ARMOR: Alien Alloys hull
   STR_XM343: LGM34-3H Kodiak Laser Cannon
-  STR_TANK_LASER_MINIGUN: XM250 Laser Minigun 
+  STR_TANK_LASER_MINIGUN: XM250 Laser Minigun
 
 
 ########################
@@ -2416,59 +2434,59 @@ en-US:
 
   STR_MARS_ORBITAL_DEFENSE_REPORT: "Operational Report - Mars Orbital Defense"
   STR_MARS_ORBITAL_DEFENSE_REPORT_UFOPEDIA: "The main Mars planetary defense is carried by an international squadron of Orion ships - usually a couple of battleships and several frigates or destroyers. In order to boost said fleet, a large number of spaceplane wings are prepared for deployment from launch pads near the UN military bases, with a couple dozen already in orbit. This projection of power is deemed essential to maintain the human position in Mars and considered strong enough to keep the Ethereal insurgency at bay. There have been some incidents with vehicles damaged or shot down by hidden Elerium Fusion-equipped SAM batteries, but the UNSC considers them isolated actions."
-  
+
   STR_UNEXCOM_MARS_DEPLOYMENT_REPORT: "Operational Report - UNEXCOM's deployment in Mars "
   STR_UNEXCOM_MARS_DEPLOYMENT_REPORT_UFOPEDIA: "Being tasked to engage aliens in asymmetrical combat for years made the United Nations Extraterrestrial Combat Command the most experienced unit in dealing with both the invaders and unconventional warfare against them. The nations of the world were accustomed to symmetrical warfare... now it is exceedingly harder on Mars, as we are in foreign lands where coalitions find it hard to coordinate or upkeep consistent supply lines. This made us the prime choice of the UNSC when the Ethereal insurgency became a serious problem. We're equiped with the latest version of the Marauder Powered Armor System, as we're expected to operate behind the enemy lines. Most of our Legionaries are hardened veterans of countless battles against the alien vermin, some even since the Secret War twenty years ago."
-  
+
   STR_ETHEREAL_INSURGENCY_REPORT_1: "Operational Report - Ethereal Insurgency I"
   STR_ETHEREAL_INSURGENCY_REPORT_1_UFOPEDIA: "After the decisive victory of the Operation Downfall and the lack of opposition in Operation Cleanup, the UN considered the remnants of the alien hierarchy completely disabled, incapable of conducting any further military action. We were wrong. First labeled as 'minor incidents', the alien guerrillas were persistent in their terror campaign until being recognized as a real threat. The major issue is the incapability of the World Powers and their relatively new spaceborne military forces to deal with an enemy who attacks without warning and vanishes in the Martian dunes, without trace. That's why we were called back to service. We need to interrogate an insurgent leader in order to know more about them, although we suspect the presence of a new Brain."
   STR_ETHEREAL_INSURGENCY_REPORT_2: "Operational Report - Ethereal Insurgency II"
   STR_ETHEREAL_INSURGENCY_REPORT_2_UFOPEDIA: "We became aware of the presence of alien 'civilian' settlements when our survey teams began their mission of cartography the planet at detail (something previously almost impossible with Earth-launched probes). After destroying the Brain back in 1974, the alien races part of the enemy collective broke free from the Ethereal control. And it seems the secessionist movement happened in Mars as well. Without a concrete leader, each warlord fights other factions for land and resources, sometimes even armed with primitive weapons. This, of course, benefit us. At least some of the aliens are willing to dialogue with us, even side with us if we support them against their opposition. The clearest example was the Third Battle of Bello Horizonte, in 1977. UN-led forces fighting to liberate the city were joined by a battalion-sized splinter Muton party led by a powerful Psionic human and successfully annihilated a Chryssalid hive. In an unprecedented diplomatic move, they requested the Brazilian government for political asile, which was granted two years later. This may help us in our efforts to secure the Red Planet."
   STR_ETHEREAL_INSURGENCY_REPORT_3: "Operational Report - Ethereal Insurgency III"
   STR_ETHEREAL_INSURGENCY_REPORT_3_UFOPEDIA: "The captured leader confirmed our suspected hypothesis: there's a new Brain operating in Mars. A certain Ethereal faction regained control of a partially-build backup Brain and began subduing opposing alien forces, subjugating them if they didn't joined them voluntarily. And this happened more or less at the same time we were preparing for the occupation of Mars. This explains the surge of enemy activity several months after Operation Cleanup, as they didn't had enough power to compete and destroy other factions. We have requested the UNSC for reinforcements in order to locate this new Brain and destroy it once and for all. It's just a matter of waiting till the cavalry arrives, meanwhile we should try to keep the guerrilla at bay."
-  
+
   STR_PSIONIC_LORE_REPORT_1: "7 years of Psionics Circle"
   STR_PSIONIC_LORE_REPORT_1_UFOPEDIA: "During the War of 1972, UNEXCOM managed to capture a few Ethereals. Interrogating and studying them have led to one of the most notorious change for humanity since industrialisation - psionics. And today the organisation, known as Psionic Circle, are celebrating seventh anniversary of their creation, which was at December 18, 1975. The Psionic Circle was founded by scientists from classified USA scientific base, who studied psi technology, shared by UNEXCOM. Their goal is to be an official representatives of psionics all across the Earth in order to protect from any ill-treatment. Allied forces have special psi corps too, and we could ask them to help us with it's manpower, if situation escalates"
-  
+
   STR_SOVIET_PSIONIC_CORPS_REPORT_1: "Tactical Report - SA Psionic Corps I"
   STR_SOVIET_PSIONIC_CORPS_REPORT_1_UFOPEDIA: "During the Secret War, Directorate 17 agents managed to capture a few Thin Men. Upon succesful delivery in Soviet Union, in closed town of Novosibirsk-54, scientists from Institute of Alien Technology, located here, started their research. During interrogation, they not only found out the location of some alien hideouts in Europe, but also discovered their psi abilities, and hidden psi potential in some of the humans. After sending their reports to Kremlin, scientists later received a new order: find the way to awaken psi abilities and then organise and train the small team of psionics. This project took a several years to complete, but at the end of 1960s Institute has succeded in that task."
   STR_SOVIET_PSIONIC_CORPS_REPORT_2: "Tactical Report - SA Psionic Corps II"
   STR_SOVIET_PSIONIC_CORPS_REPORT_2_UFOPEDIA: "At the beginning of War of 1972, Soviet Union had tried to deploy that small team on the battlefield to see how effective it's gonna be. And the results has been greatly exceeded their expectations. And so, in 1974, Leonid Brezhnev has personally gave an order to high command of Soviet Army to create a full-scale regiments of military psionics. With use of technologies and techniques from Novosibirsk-54, SA has created Psionic Forces at the middle of 1976, with General-Lieutenant Yuri Yuriev, from the first psi squad, at their command. Soviet psionics are best that Soviet Union can offer. Psi corps accept soldiers with psi power rating (according to Tihonenko-Sergeev rating system), higher that 90. This soldiers also complete hard and tense training courses making them skilled and powerful enough to become major threat at the battlefield for aliens"
-  
+
   STR_NATO_CYBORG_OPERATORS_REPORT_1: "Tactical Report - UASCNAT Cyberoperators I"
   STR_NATO_CYBORG_OPERATORS_REPORT_1_UFOPEDIA: "During the War of 1972, allied nations has been studied all alien tech they recovered, including corpses of killed and captured aliens. And main interest for european scientists was an alien augmentations, used to enhance their abilities. In association with american scientists, they're developed new prosthetics, able to react at the brain commands as fast as natural limbs,which were used to help heavily injured soldiers return back to fight. After the end of war, those scientists has founded a 'CyberSpartan Pharm. Inc.', and then received a huge fundings from USA and some european countries."
   STR_NATO_CYBORG_OPERATORS_REPORT_2: "Tactical Report - UASCNAT Cyberoperators II"
   STR_NATO_CYBORG_OPERATORS_REPORT_2_UFOPEDIA: "They kept on developing augmentation technology, and in 1977 has received a special request from main command of NATO. They were interested in possible opportunities, created by augmentations, and now wanted to get a new type of forces, composed of heavily augmented soldiers. This research project, codenamed 'Project Reborn', has been succesfully finished in 1980, and this the first human cyborgs has been created. This Cyberoperators are stronger and more agile than normal humans, and less vulnerable to damage, but their adaptation skills has suffered after implantation"
-  
+
   STR_FACTIONS_REPORT_USSF: "Faction Report - USSF"
   STR_FACTIONS_REPORT_USSF_UFOPEDIA: "The American interest in the militarization of space begun even before the Space Race. After gaining its independence from the US Army, the US Air Force started developing ballistic missiles in the early 50s. The success of Sputnik 1 and several congressional pressures resulted in three separate Space branches. Eventually, the Aerospace Defense Command became active in 1968, still dependant on the USAF. Its ultimate purpose was justified in the orbital raids in late 1973 and the subsequent Lunar Campaign. By 1980, it was reformed into the US Space Force, becoming a separate branch. The USSF Rangers are handpicked elements from the Air Force and Marines, enduring a 6-weeks long training in Fort Tranquility, Moon."
   STR_FACTIONS_REPORT_NASA: "Faction Report - NASA"
   STR_FACTIONS_REPORT_NASA_UFOPEDIA: "The main space exploration civilian agency of the United States is directly responsible for the development of American space tech and materials. While initially it struggled to compete with the Soviet space program, the first crewed landing on the Moon gave it the necessary public and financial support to further expand the human presence in space. One of the most important achievements by the National Aeronautics Space Administration is the development of the novel Space Shuttle and the Orion Nuclear Pulse Battleships, two of the groundbreaking technological innovations which gave Earth an edge over the Ethereals in the 1972-1974 conflict."
-  
+
   STR_FACTIONS_REPORT_UASCNAT: "Faction Report - UASCNAT"
   STR_FACTIONS_REPORT_UASCNAT_UFOPEDIA: "WIP"
   STR_FACTIONS_REPORT_ESA: "Faction Report - ESA"
   STR_FACTIONS_REPORT_ESA_UFOPEDIA: "The European Space Agency is the joint effort of all the Western European nations, spearheaded by France, Italy and the Unified Germany. Initially two separate agencies tasked with developing rockets and satellites, the alien conflict of 1972 made clear Europe needed a common space agency tasked on researching the invader's movements in outer space and how yo include their tech for the benefits of mankind's dream of conquering the stars. Founded in 1973 after the merge of ESRO and ELDO, its peak of activity started after the official end of the War, with logistics support for the Allied forces fighting the alien remnants in the Moon. Since the return of the UN to Mars, the ESA has relentlessly worked along NASA to establish a permanent human settlement on the Red Planet, with routine rocket launches ferrying cargo and travelers between both planets."
-  
+
   STR_FACTIONS_REPORT_VKS: "Faction Report - VKS"
-  STR_FACTIONS_REPORT_VKS_UFOPEDIA: "The beginning of VKS started in 1955 with a started building the scientific polygon for rockets testing, which later became a Baikonur spaceport. Success with USSR space program, such as first satellite at Earth's orbit, first man on space and first human vessel on Moon, in next 15 years has drawn an attention from high military ranks. And so, in 1964, they created a Central Space Administration, which was reorganised in 1970 as Main Space Administration, to centralise researching a new space assets for military purposes and effectively control their use. At the start of War of 1972, MSA worked hard to develop a technologies, that will allow Union to effectively deal with Ethereals in the space. For example, a Krechet space suit, based upon suit, used by Alexei Leonov, first man in open space. In 1974, with construction of UNS Stalingrad, the first military space vessel of Soviet Union, soldiers, dispatched to it, were organised as separate branch of military, becoming the first VKS ('Military Space Forces', or 'Voenno-Kosmicheskie Sily' in russian) unit. Succesful ending of both Operation Devastation and Operation Downfall, with soviet troops fighting hard to achieve victory, Soviet Army began construction of new space ships, thus enlarging their Space Forces. Also, in 1977, military were reorganised, and Air Forces were merged into VKS, due to exo-atmospheric jets becoming a new standard military aircraft. Also, VKS is known for their Space Drop Troopers, trained on the Friendship of Nations base on Moon. They're coming through hard training, including courses of survival in airless conditions and movement in rough terrains of Moon and Mars" 
-  
+  STR_FACTIONS_REPORT_VKS_UFOPEDIA: "The beginning of VKS started in 1955 with a started building the scientific polygon for rockets testing, which later became a Baikonur spaceport. Success with USSR space program, such as first satellite at Earth's orbit, first man on space and first human vessel on Moon, in next 15 years has drawn an attention from high military ranks. And so, in 1964, they created a Central Space Administration, which was reorganised in 1970 as Main Space Administration, to centralise researching a new space assets for military purposes and effectively control their use. At the start of War of 1972, MSA worked hard to develop a technologies, that will allow Union to effectively deal with Ethereals in the space. For example, a Krechet space suit, based upon suit, used by Alexei Leonov, first man in open space. In 1974, with construction of UNS Stalingrad, the first military space vessel of Soviet Union, soldiers, dispatched to it, were organised as separate branch of military, becoming the first VKS ('Military Space Forces', or 'Voenno-Kosmicheskie Sily' in russian) unit. Succesful ending of both Operation Devastation and Operation Downfall, with soviet troops fighting hard to achieve victory, Soviet Army began construction of new space ships, thus enlarging their Space Forces. Also, in 1977, military were reorganised, and Air Forces were merged into VKS, due to exo-atmospheric jets becoming a new standard military aircraft. Also, VKS is known for their Space Drop Troopers, trained on the Friendship of Nations base on Moon. They're coming through hard training, including courses of survival in airless conditions and movement in rough terrains of Moon and Mars"
+
   STR_BALLISTIC_WEAPONS_REPORT: "Logistics Report - Ballistic Weapons"
   STR_BALLISTIC_WEAPONS_REPORT_UFOPEDIA: "The great leap forward in most science fields after the War quickly made outdated several items and equipment previously thought 'cutting-edge'. The prevalence of Directed Energy Weapons (DEW) slowly and surely made most ballistic weaponry an obsolete tech. Those are not completely useless, though; as the expansion of 3D printing made them extremely cheap it became easy to just print ammo and even entire firearms in relatively small factories. Several minor powers still field classic rifles and machine guns, but the World Powers have relegated their arsenals as reserve equipment, no longer meant for frontline combat. Some modernized rifles made their way to Mars, where they are used by patrolling and garrison forces. "
   STR_LASER_WEAPONS_REPORT: "Logistics Report - Laser Weapons"
   STR_LASER_WEAPONS_REPORT_UFOPEDIA: "The most important military development since the creation of the atomic bomb was also one of the 'victory weapons' widely recognized as one of the key tools in the Ethereal defeat in Earth. Result of a decade-long research, the 1st Generation Lasers of the early 60s were bulky and unwieldily, but more effective than a regular rifle. The 2nd Generation began operational service in the middle of the War of 1972, turning the tide of the conflict. The start of the decade saw the introduction of even better laser guns in the form of the 3rd Generation, although 2-GEN lasers are likely to be prominent DEW technology field by most major Powers for several more years. Most 3-GEN weapons are used in the ongoing Martian conflict, while military forces in Earth are equipped with Second Generation assets. It seems our enemies have developed another generation of Lasers on their own too, as they are employing mew models never seen before. "
-  
+
   STR_PLASMA_WEAPONS_REPORT: "Logistics Report - Plasma Weapons"
-  STR_PLASMA_WEAPONS_REPORT_UFOPEDIA: "Plasma weapons became an staple of the enemy invasion, even when technically lasers were more used. Very powerful and really difficult to adapt to human needs, the Plasma equipment never became as widespread as hard light or alloy weaponry. The difficulty on the adaptation and maintenance of each piece of equipment relegated the use to just few special forces. Even now, the relative scarcity of the ammunition restricts the use in the current human military intervention. Each plasma bolt fired needs to be worthy. But the raw firepower compensates the expensiveness of the use. The deployment of human Plasmas put the soldiers in equal terms to the invading forces." 
-  
+  STR_PLASMA_WEAPONS_REPORT_UFOPEDIA: "Plasma weapons became an staple of the enemy invasion, even when technically lasers were more used. Very powerful and really difficult to adapt to human needs, the Plasma equipment never became as widespread as hard light or alloy weaponry. The difficulty on the adaptation and maintenance of each piece of equipment relegated the use to just few special forces. Even now, the relative scarcity of the ammunition restricts the use in the current human military intervention. Each plasma bolt fired needs to be worthy. But the raw firepower compensates the expensiveness of the use. The deployment of human Plasmas put the soldiers in equal terms to the invading forces."
+
   STR_ALLOY_WEAPONS_REPORT: "Logistics Report - Alloy Weapons"
   STR_ALLOY_WEAPONS_REPORT_UFOPEDIA: "A major creation of the engineering staff in the UNEXCOM HQ during the 1972-1974 conflict, the Alloy weaponry became the most reliable alternative to laser equipment. Those were used only by the Extraterrestrial Combat Command, as we had the most reserves of alien alloys. Tactically flexible and easy to maintain, many minor powers adopted them after the War. Ten years later, the new iterations of Alloy weapons are used by UN Peacekeepers deployed in stabilizing warzones all over the Earth and Mars."
-  
+
   STR_UNEXCOM_WEAPONS_REPORT: "Logistics Report - UNEXCOM Weapons"
   STR_UNEXCOM_WEAPONS_REPORT_UFOPEDIA: "The nature of our missions demand us to use specialized equipment, as the standard service weapons are not always enough. The standard choice for UNEXCOM battalions deployed in outer space are Gyrojet ballistics, specially adapted to Zero-G combat. Expensive to maintain and field, only the UN special forces are permitted to employ them in numbers. To engage heavily armored aliens or vehicles, unique Electric and Gauss weapons are available as well. Originally developed by intelligence services to help in the War against the Ethereals, the prohibitive costs reduced them to handcrafted pieces, not officially issued to our forces but allowed by the Security Council, as the results were satisfactory. However, we're able to secure any piece of equipment needed to our operations, no matter the origin or affiliation. "
-  
+
   STR_FUSION_WEAPONS_REPORT: "Logistics Report - Bio-Fusion Weapons"
-  STR_FUSION_WEAPONS_REPORT_UFOPEDIA: "The most fearsome alien equipment field in the conflict for Earth wasn't even created, but grown. Organic technology born in a distant planet and adapted for war, the Ethereal forces used them only after the end of the war... after the human defenders began to defeat the invaders in every front. The assets were the hardest to be reverse-engineered, the only R&D team able to do so was the UN science lab based in Yokohama, Japan. With their research, they could adapt a Fusion Rifle to be used by humans. Dangerous to both the operator and the target, the Peacemakers were used to wreak havoc among the enemy forces. Some are assigned to the Martian occupation forces to augment UN units." 
+  STR_FUSION_WEAPONS_REPORT_UFOPEDIA: "The most fearsome alien equipment field in the conflict for Earth wasn't even created, but grown. Organic technology born in a distant planet and adapted for war, the Ethereal forces used them only after the end of the war... after the human defenders began to defeat the invaders in every front. The assets were the hardest to be reverse-engineered, the only R&D team able to do so was the UN science lab based in Yokohama, Japan. With their research, they could adapt a Fusion Rifle to be used by humans. Dangerous to both the operator and the target, the Peacemakers were used to wreak havoc among the enemy forces. Some are assigned to the Martian occupation forces to augment UN units."
 #######################
 ###### EVENTS ########
 #####################
