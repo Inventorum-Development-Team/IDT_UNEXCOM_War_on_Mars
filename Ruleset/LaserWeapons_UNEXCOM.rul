@@ -498,7 +498,7 @@ items:
     hitSound: 19
     hitAnimation: 90
     bulletSprite: 28
-    power: 45
+    power: 50
     damageType: 4
     damageAlter:
       RandomType: 6
@@ -516,7 +516,7 @@ items:
       mana: 1
     costAuto:
       time: 30
-      mana: 3
+      mana: 4
     clipSize: -1
     battleType: 1
     maxRange: 60
@@ -541,7 +541,7 @@ items:
     hitSound: 19
     hitAnimation: 90
     bulletSprite: 28
-    power: 55
+    power: 60
     damageType: 4
     damageAlter:
       RandomType: 6
@@ -562,7 +562,7 @@ items:
       mana: 3
     costAuto:
       time: 30
-      mana: 5
+      mana: 6
     clipSize: -1
     battleType: 1
     twoHanded: true
@@ -589,7 +589,7 @@ items:
     hitSound: 19
     hitAnimation: -1
     bulletSprite: 28
-    power: 55
+    power: 60
     damageType: 4
     damageAlter:
       RandomType: 6
@@ -610,7 +610,7 @@ items:
       mana: 2
     costAuto:
       time: 30
-      mana: 10
+      mana: 12
     clipSize: -1
     battleType: 1
     twoHanded: true
@@ -628,7 +628,7 @@ items:
     size: 0.3
     costBuy: 50000
     costSell: 40000
-    weight: 4
+    weight: 6
     bigSprite: 2012
     floorSprite: 2012
     handSprite: 2096
@@ -636,22 +636,25 @@ items:
     hitSound: 19
     hitAnimation: 90
     bulletSprite: 28
-    power: 52
+    power: 70
     damageType: 4
     damageAlter:
       RandomType: 6
-    confAuto:
+    confAimed:
       shots: 1
       name: STR_HEADSHOT
-    accuracyAuto: 75
-    accuracySnap: 85
-    accuracyAimed: 80
+    confAuto:
+      shots: 2
+      name: STR_DOUBLE_TAP
+    accuracyAuto: 80
+    accuracySnap: 90
+    accuracyAimed: 120
     costSnap:
       time: 25
-      mana: 1
+      mana: 2
     costAimed:
       time: 55
-      mana: 3
+      mana: 2
     costAuto:
       time: 30
       mana: 5
@@ -659,9 +662,9 @@ items:
     battleType: 1
     twoHanded: true
     maxRange: 60
-    aimRange: 22
+    aimRange: 30
     snapRange: 25
-    autoRange: 18
+    autoRange: 20
     dropoff: 1
     invWidth: 2
     invHeight: 3
@@ -680,7 +683,7 @@ items:
     hitSound: 19
     hitAnimation: -1
     bulletSprite: 28
-    power: 45
+    power: 50
     damageType: 4
     damageAlter:
       RandomType: 6
@@ -701,10 +704,10 @@ items:
       mana: 3
     costAimed:
       time: 40
-      mana: 10
+      mana: 11
     costAuto:
       time: 35
-      mana: 7
+      mana: 8
     clipSize: -1
     battleType: 1
     maxRange: 60
@@ -731,7 +734,7 @@ items:
     hitSound: 19
     hitAnimation: 90
     bulletSprite: 28
-    power: 80
+    power: 90
     damageType: 4
     damageAlter:
       RandomType: 6
@@ -745,20 +748,20 @@ items:
     accuracyAuto: 200
     costSnap:
       time: 40
-      mana: 3
+      mana: 4
     costAimed:
       time: 70
-      mana: 3
+      mana: 4
     costAuto:
-      time: 70
-      mana: 3
+      time: 75
+      mana: 4
     clipSize: -1
     battleType: 1
     maxRange: 200
     aimRange: 55
     snapRange: 25
-    autoRange: 25
-    minRange: 25
+    autoRange: 55
+    minRange: 15
     dropoff: 1
     invWidth: 2
     invHeight: 3
@@ -777,7 +780,7 @@ items:
     hitSound: 19
     hitAnimation: -1
     bulletSprite: 28
-    power: 55
+    power: 60
     damageType: 4
     damageAlter:
       RandomType: 6
@@ -791,10 +794,10 @@ items:
     accuracySnap: 80
     costSnap:
       time: 35
-      mana: 5
+      mana: 6
     costAuto:
       time: 38
-      mana: 15
+      mana: 17
     twoHanded: true
     clipSize: -1
     battleType: 1
