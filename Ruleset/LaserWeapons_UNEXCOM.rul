@@ -417,10 +417,10 @@ items:
       name: STR_SUPPRESSION
     costSnap:
       time: 28
-      mana: 5
+      mana: 10
     costAuto:
       time: 34
-      mana: 15
+      mana: 30
     twoHanded: true
     clipSize: -1
     battleType: 1
