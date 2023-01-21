@@ -20,7 +20,7 @@ buildInfiltrationBaseCloseToTheCountry: true
 lessAliensDuringBaseDefense: true
 fixedUserOptions:
   friendlyCraftEscort: true
-  weaponSelfDestruction: true
+  weaponSelfDestruction: false
   sneakyAi: true
 recommendedUserOptions:
   aggressiveRetaliation: true
