@@ -1268,12 +1268,12 @@ ufopaedia:
     section: STR_AMMUNITION
     text: STR_ALLOY_PISTOL_FL_UFOPEDIA
     listOrder: 5103
-  - id: STR_ALLOY_SHOTGUN_FL
+  - id: STR_ALLOY_SMART_RIFLE
     requires:
       - STR_ALLOY_CLOSE
     type_id: 4
     section: STR_AMMUNITION
-    text: STR_ALLOY_SHOTGUN_FL_UFOPEDIA
+    text: STR_ALLOY_SMART_RIFLE_UFOPEDIA
     listOrder: 5104
   - id: STR_ALLOY_AUTO_SHOTGUN_FL
     requires:
