@@ -379,24 +379,6 @@ ufopaedia:
     text: STR_RECONS_UFOPEDIA
     section: STR_XCOM_CRAFTS
 
-
-  - id: STR_ATALAYA
-    type_id: 1
-    section: STR_XCOM_CRAFTS
-    text: STR_ATALAYA_UFOPEDIA
-    listOrder: 301
-    rect_stats:
-      x: 5
-      y: 125
-      width: 130
-      height: 80
-    rect_text:
-      x: 110
-      y: 18
-      width: 205
-      height: 80
-    image_id: ATALAYA_UFOPEDIA
-
   - id: STR_BASTION
     section: STR_XCOM_CRAFTS
     text: STR_BASTION_UFOPAEDIA
