@@ -782,7 +782,15 @@ ufopaedia:
     #requires:
       #- STR_HEARTS_AND_MINDS_PROJECT_3
     text: STR_HEARTS_AND_MINDS_PROJECT_3_UFOPEDIA
-    listOrder: 1780   
+    listOrder: 1780
+
+  - id: STR_HEARTS_AND_MINDS_PROJECT_4
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_HEARTS_AND_MINDS_PROJECT_4
+    text: STR_HEARTS_AND_MINDS_PROJECT_4_UFOPEDIA
+    listOrder: 1781   
     
 ##############################
   
