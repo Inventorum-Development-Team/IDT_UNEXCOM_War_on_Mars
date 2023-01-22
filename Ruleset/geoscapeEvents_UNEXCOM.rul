@@ -1,0 +1,60 @@
+# spellchecker:words Stratofortress Skyhawks Thunderchiefs Leonov
+eventScripts:
+
+
+  - type: STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT
+    firstMonth: 2
+
+
+# - type: STR_TEST_EVENT_SCRIPT
+#    eventWeights:                 # randomly generated repeatable events
+#      0:
+#        STR_TEST_EVENT_A: 100
+#        STR_TEST_EVENT_B: 100
+#    oneTimeSequentialEvents:      # sequentially generated one-time events (cannot repeat)
+#      - STR_TEST_EVENT2
+#      - STR_TEST_EVENT3
+#    oneTimeRandomEvents:          # randomly generated one-time events (cannot repeat)
+#      STR_TEST_EVENT1R: 100
+#      STR_TEST_EVENT1R: 100
+#    timerRandom: 150
+
+events:
+#    regionList: [STR_ARCTIC, STR_NORTH_AMERICA, STR_EUROPE, STR_SOUTH_AMERICA, STR_NORTH_AFRICA, STR_SOUTHERN_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA, STR_NORTH_PACIFIC, STR_SOUTH_PACIFIC, STR_NORTH_ATLANTIC, STR_SOUTH_ATLANTIC, STR_INDIAN_OCEAN]
+#############################
+###### STORY EVENTS ########
+###########################
+  - name: STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT
+    description: STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_DESCRIPTION
+    background: RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_BACKGROUND
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+
+
+extraSprites:
+##########################################
+############ BACKGROUNDS #################
+##########################################
+  - type: GROUND_BATTLE_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/GROUND_BATTLE_EVENT_BACKGROUND.PNG
+  - type: LARGE_SUPPLY_DROP_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/LARGE_SUPPLY_DROP_EVENT_BACKGROUND.PNG
+  - type: RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_BACKGROUND.PNG

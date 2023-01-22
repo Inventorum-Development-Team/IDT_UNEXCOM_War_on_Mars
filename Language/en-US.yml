@@ -2519,6 +2519,8 @@ en-US:
 # TNI Subplot
 
   #STR_
+      STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT: "Recon probes confirm increase in Insurgent activity"
+      STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_DESCRIPTION: "There are aliens everywhere, dude. Be careful, they gonna kick your ass anytime soon."
 
 #SOLDIERS
 

@@ -1358,7 +1358,7 @@ mapScripts:
       - type: ground
         size: [1, 1, 1]
         blocks: [1, 2, 3, 4, 5, 6, 7, 8, 9 ,10]
-        freqs: [3, 3, 2, 2, 2, 2, 1, 1, 1, 1]
+        #freqs: [3, 3, 2, 2, 2, 2, 1, 1, 1, 1]
 
   - type: HUMAN_STATION_UFO
     commands:
