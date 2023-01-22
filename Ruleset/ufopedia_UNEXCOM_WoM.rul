@@ -656,13 +656,21 @@ ufopaedia:
     text: STR_FACTIONS_REPORT_NASA_UFOPEDIA
     listOrder: 1717
 
-  - id: STR_FACTIONS_REPORT_UASCNAT
+  - id: STR_FACTIONS_REPORT_UASCNAT_1
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
     #requires:
-      #- STR_FACTIONS_REPORT_UASCNAT
-    text: STR_FACTIONS_REPORT_UASCNAT_UFOPEDIA
+      #- STR_FACTIONS_REPORT_UASCNAT_1
+    text: STR_FACTIONS_REPORT_UASCNAT_UFOPEDIA_1
     listOrder: 1718
+
+  - id: STR_FACTIONS_REPORT_UASCNAT_2
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_FACTIONS_REPORT_UASCNAT_2
+    text: STR_FACTIONS_REPORT_UASCNAT_UFOPEDIA_2
+    listOrder: 1719
 
   - id: STR_FACTIONS_REPORT_ESA
     type_id: 8
@@ -670,15 +678,23 @@ ufopaedia:
     #requires:
       #- STR_FACTIONS_REPORT_ESA
     text: STR_FACTIONS_REPORT_ESA_UFOPEDIA
-    listOrder: 1719
+    listOrder: 1720
 
-  - id: STR_FACTIONS_REPORT_VKS
+  - id: STR_FACTIONS_REPORT_VKS_1
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
     #requires:
-      #- STR_FACTIONS_REPORT_VKS
-    text: STR_FACTIONS_REPORT_VKS_UFOPEDIA
-    listOrder: 1720
+      #- STR_FACTIONS_REPORT_VKS_1
+    text: STR_FACTIONS_REPORT_VKS_UFOPEDIA_1
+    listOrder: 1721
+
+  - id: STR_FACTIONS_REPORT_VKS_2
+    type_id: 8
+    section: STR_UNEXCOM_RESEARCH
+    #requires:
+      #- STR_FACTIONS_REPORT_VKS_2
+    text: STR_FACTIONS_REPORT_VKS_UFOPEDIA_2
+    listOrder: 1722
 
   - id: STR_FACTIONS_REPORT_INTERKOSMOS
     type_id: 8
@@ -686,7 +702,7 @@ ufopaedia:
     #requires:
       #- STR_FACTIONS_REPORT_INTERKOSMOS
     text: STR_FACTIONS_REPORT_INTERKOSMOS_UFOPEDIA
-    listOrder: 1721
+    listOrder: 1723
 
   - id: STR_PSIONIC_LORE_REPORT_1
     type_id: 8
@@ -795,7 +811,11 @@ ufopaedia:
   - id: STR_38_LASER_MAGNUM
     type_id: 4
     section: STR_WEAPONS
-    text: STR_38_LASER_MAGNUM_UFOPEDIA
+    pages:
+    - title: STR_38_LASER_MAGNUM
+      text: STR_38_LASER_MAGNUM_UFOPEDIA_1
+    - title: STR_38_LASER_MAGNUM
+      text: STR_38_LASER_MAGNUM_UFOPEDIA_2
     listOrder: 4011
   - id: STR_P71_LASER_PISTOL
     type_id: 4
@@ -1101,6 +1121,11 @@ ufopaedia:
   - id: STR_ULYSSES_LASER_SNIPER_RIFLE
     type_id: 4
     section: STR_WEAPONS
+    pages:
+    - title: STR_ULYSSES_LASER_SNIPER_RIFLE
+      text: STR_ULYSSES_LASER_SNIPER_RIFLE_UFOPEDIA_1
+    - title: STR_ULYSSES_LASER_SNIPER_RIFLE
+      text: STR_ULYSSES_LASER_SNIPER_RIFLE_UFOPEDIA_2
     text: STR_ULYSSES_LASER_SNIPER_RIFLE_UFOPEDIA
     listOrder: 4608
 
