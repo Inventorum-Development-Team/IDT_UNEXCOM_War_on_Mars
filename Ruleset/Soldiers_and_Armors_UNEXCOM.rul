@@ -4,7 +4,7 @@ soldiers:
   - delete: STR_SOLDIER
 
   - type: STR_UNEXCOM_LEGIONARY
-    costBuy: 150000
+    costBuy: 180000
     costSalary: 60000
     monthlyBuyLimit: 5
     minStats:
@@ -124,8 +124,8 @@ soldiers:
     - STR_PILOT_COLONEL
     - STR_BRIGADIER
   - type: STR_USSF_RANGER
-    costBuy: 40000
-    costSalary: 20000
+    costBuy: 80000
+    costSalary: 40000
     monthlyBuyLimit: 15
     minStats:
       tu: 50
@@ -243,8 +243,8 @@ soldiers:
     - STR_PILOT_COLONEL
     - STR_BRIGADIER
   - type: STR_UASCNAT_ESPATIER
-    costBuy: 40000
-    costSalary: 20000
+    costBuy: 80000
+    costSalary: 40000
     monthlyBuyLimit: 15
     minStats:
       tu: 50
@@ -362,8 +362,8 @@ soldiers:
     - STR_LT_COLONEL_SOVIET
     - STR_COLONEL_SOVIET
   - type: STR_VKS_OPERATOR
-    costBuy: 40000
-    costSalary: 20000
+    costBuy: 80000
+    costSalary: 40000
     monthlyBuyLimit: 15
     minStats:
       tu: 50
