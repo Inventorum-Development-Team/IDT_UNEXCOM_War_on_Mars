@@ -1446,38 +1446,6 @@ ufopaedia:
     text: STR_BIO_FOAM_UFOPEDIA
     listOrder: 6207
 
-  - id: STR_FOOD_REPORT
-    type_id: 7
-    section: STR_EQUIPMENT
-    image_id: FOOD_REPORT_IMAGE
-    text: STR_FOOD_REPORT_UFOPEDIA
-    text_width: 130
-    listOrder: 6300
-
-  - id: STR_CANNED_FOOD
-    type_id: 4
-    section: STR_EQUIPMENT
-    text: STR_CANNED_FOOD_UFOPEDIA
-    listOrder: 6301
-
-  - id: STR_BREAD
-    type_id: 4
-    section: STR_EQUIPMENT
-    text: STR_BREAD_UFOPEDIA
-    listOrder: 6302
-
-  - id: STR_CIGARETTES
-    type_id: 4
-    section: STR_EQUIPMENT
-    text: STR_CIGARETTES_UFOPEDIA
-    listOrder: 6305
-
-  - id: STR_FLASK
-    type_id: 4
-    section: STR_EQUIPMENT
-    text: STR_FLASK_UFOPEDIA
-    listOrder: 6306
-
   - id: STR_POWER_RESERVES
     type_id: 8
     section: STR_EQUIPMENT
