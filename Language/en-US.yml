@@ -1168,7 +1168,7 @@ en-US:
       STR_INITIAL_FUSION_CELLS_RESEARCH: Fusion Cells Research
 
       STR_HYBRID_FUSION_PROJECT: Hybrid Fusion Weapon Project
-      STR_HUMAN_FUSION_RIFLE: "UNF-10 'Peacekeeper' Hybrid Fusion Rifle "
+      STR_HUMAN_FUSION_RIFLE: "UNF-3 'Peacekeeper' Hybrid Fusion "
 ############################################
       STR_FUSION_HANDGUN: Fusion Handgun
       STR_FUSION_SMG: Fusion SMG
@@ -1740,29 +1740,49 @@ en-US:
 #############################################
 #### FACTION SPECIFIC PLASMA WEAPONS #######
 ###########################################
-
+      STR_UN_PLASMA_RIFLE: "UNP-2 Peacebringer Hybrid Plasma"
+      STR_UN_PLASMA_RIFLE_UFOPEDIA: "A carbine variant of the Plasma battle rifle first developed in 1973 by a joint UN-Swiss team. The short and comfortable handling of the ergonomics allows the user to engage in close quarters combat easily, as the Alien particle accelerator was reduced to fit in a smaller frame. To bolster the tactical options available to the Peacebringer operators, an underbarrel grenade launcher is added."
 
       STR_US_PLASMA_RIFLE: "M590A Plasma Battle Rifle"
+      STR_US_PLASMA_RIFLE_MAG: "P-EC1 Plasma BR Cell (x30)"
       STR_US_PLASMA_RIFLE_UFOPEDIA: "While found effective in long to mid distances, the M590 would not become the next standard service rifle of USSOCOM due to cost and lackluster CQB capabilities. Instead, a mid-powered electronic 4x scope was added and improved variants became the mainstay DMR for US interplanetary special forces."
+      STR_US_PLASMA_RIFLE_MAG_UFOPEDIA: "The Battle Rifle's MOD12-P particle accelerator is powered by a Plasma-Energy Cell 1, 5 mW Elerium battery. Said battery provides enough power to energize the power source inside the weapon. The Cells are relatively easier (although not cheaper) to make, compared to other batteries of contemporary Plasma weaponry field by other Powers, using the R.E.A.V.E.R. Procedure."
       STR_US_PLASMA_SHOTGUN: "M88 Plasma Stormgun"
+      STR_US_PLASMA_SHOTGUN_MAG: "X8D Plasma Stormgun Container (x5)"
       STR_US_PLASMA_SHOTGUN_UFOPEDIA: "Initially meant to replace both the M79 grenade launcher and combat shotguns in squad support and crowd-control missions, respectively. Due the difficulty to utilize it, as highly specialized tactics and training were required to properly use the weapon, the 'Devil's Shark' was phased out shortly after introduction. However several can still be found in service, especially among the shock troop forces operating on Mars."
+      STR_US_PLASMA_SHOTGUN_MAG_UFOPEDIA: "The highly-classified compound inside the Container used to fuel the Stormgun is the motive of much speculation among the troop. Only high-ranked engineering personnel has clearance enough to have said information. It is said it contains traces of white phosporous or Elerium-infused napalm. The only thing well known is the devastating effects on the targets."
       STR_US_PLASMA_RL: "M47 Dragon II Guided Munitions Launcher"
       STR_US_PLASMA_RL_UFOPEDIA: "An improvement of the FGM-77 with enhanced penetration warheads. Due to extreme manufacturing costs, the launcher was discontinued shortly after the upgrades in 1977. The few remaining in service are treasured by the troops and basically kept in reserve for emergencies, as each rocket is an ensured overkill... albeit a very expensive one."
+      STR_US_PLASMA_RL_HEAT_ROCKET: "Dragon M222 HEAT Rocket"
+      STR_US_PLASMA_RL_ELERIUM_ROCKET: "Dragon M230 HE Rocket"
+      STR_US_PLASMA_RL_HEAT_ROCKET_UFOPEDIA: "The standard munition used by the Dragon rocket launcher is a High-Explosive, Anti-Tank shaped charge round, with the optimal 330mm armor penetrating capability. Not an extremely powerful munition, but the greatest advantage is the reverse-engineered 'BLASTER' guidance system used to follow up to 9 waypoints without losing target lock."
+      STR_US_PLASMA_RL_ELERIUM_ROCKET_UFOPEDIA: "As an effort to reduce the unnecessary waste of valuable Elerium reserves, the XM225 E115 warhead was replaced with an 15kg RDX high reactive explosive charge, with the same purpose of serving as anti-fortification element."
 
       STR_NATO_PLASMA_CARBINE: "MAS-73 F1 Plasma Carbine"
+      STR_NATO_PLASMA_CARBINE_MAG: "Plasma Carbine Standard Battery (x20)"
       STR_NATO_PLASMA_CARBINE_UFOPEDIA: "Nicknamed 'le Clairon', basically the most succesful of the 1st Generation Plasma weapons, being adopted by most European interplanetary forces. With only slight improvements made over the years, the new F1 version includes a reinforced particle accelerator, slightly different magazine well, extended handguard and a bayonet."
+      STR_NATO_PLASMA_CARBINE_MAG_UFOPEDIA: "The NATO researchers had a tough time trying to create an Elerium battery strong enough to power a carbine-sized firearm. The result was less than satisfactory, but with the main advantage of being cheap and fast to make. There were some concerns of the security measures in the manufacturing of the 4 mW Elerium Standard Battery, but so far there are not accidents reported."
       STR_NATO_PLASMA_PISTOL: "Enfield APEX Plasma Pistol"
       STR_NATO_PLASMA_PISTOL_UFOPEDIA: "Appreciated by the high stopping power but with limited users due some issues with the ejection of spent batteries (some were reported to be expelled with such force, they broke several noses). Aiming the APEX is easy due the build-in laser sight, but the recoil can surprise the novice shooters. A good alternative for shock troopers looking for some extra firepower."
+      STR_NATO_PLASMA_PISTOL_MAG: "Plasma Pistol Compact Battery (x12)"
+      STR_NATO_PLASMA_PISTOL_MAG_UFOPEDIA: "Royal Small Arms Factory (RSAF) Enfield worked directly with the physics specialists at NATO Science and Technology Centre to create the most compact-yet-efficient Elerium battery as possible, in an effort to miniaturize the particle accelerator without losing stopping power. The main idea in RSAF was creating a 'hand cannon', a trustworthy sidearm but very powerful, as the enemy is deploying more and more armored units, and rear echeleon and support units were often outgunned."
       STR_NATO_SNIPER_PLASMA: "Walther L/PlSG 200"
+      STR_NATO_SNIPER_PLASMA_MAG: "Sniper Plasma Heavy Battery (x6)"
       STR_NATO_SNIPER_PLASMA_UFOPEDIA: "'Langstrecken-Plasma-Scharfshützengewehr', Long-range Plasma Sniper Rifle. A pretty expensive but very effective precision rifle, able to make decisive shots at long distances... it quickly became an iconic image of Unified Germany elite sniper teams. Originally meant for the Police forces, both NATO and UASC adopted it for its efficiency although in reduced numbers. Trying to use this weapon in close ranges it's not advised. "
+      STR_NATO_SNIPER_PLASMA_MAG_UFOPEDIA: "We could consider these finely-crafted 7 mW Elerium Heavy Batteries another staple of the German engineering feats. Even when European plasma developments are directed as being 'lighter, cheaper, efficient', the West Germans had put an extra amount of work to create an above-average energy cell to power their long gun. No less level of quality could be accepted into such promising sniper rifle. "
 
       STR_SOVIET_PLASMA_ASSAULT_RIFLE: "APVCh Plasma Assault Rifle"
+      STR_SOVIET_PLASMA_ASSAULT_RIFLE_MAG: "Plasma Assault Optimal Elerium Cell (x35)"
       STR_SOVIET_PLASMA_ASSAULT_RIFLE_UFOPEDIA: "The tough assault rifle designed by the Cherenkov Energy Institute and produced by Tula Arms Plant has proven very reliable even in the harsh Martian climate. The high damage output and decent rate of fire balances the excessive cost of production. VKS infantrymen are advised to not use their rifles as improvised clubs to melee insurgents, as certain incidents in the late 70s provoked unexpected explosions of the Elerium-filled batteries."
+      STR_SOVIET_PLASMA_ASSAULT_RIFLE_MAG_UFOPEDIA: "The Soviet scientist working for the Cherenkov Institute had some doubts of adding a very powerful (and a bit inestable) Elerium cell for the next main infantry rifle of the Warsaw Pact. So they underwent a series of redesings and reworks until they came with a decently protected battery. The only concern is the fact their rifle's frame is strong enough to be used as a club to melee enemies, but the still delicate Elerium containers may be compromised with fatal results."
       STR_SOVIET_PLASMA_SMG: "PlShABM Plasma PDW"
+      STR_SOVIET_PLASMA_SMG_MAG: "Plasma PDW Miniaturized Elerium Cell (x25)"
       STR_SOVIET_PLASMA_SMG_UFOPEDIA: "While the initial models were not refined - as the engineers at Budker Institute weren't experienced with weapons - later models became better. The compact submachine plasma gun was welcomed in several armored and mechanized troop units, as the small size and decent weight were enough to complement the standard Laser weaponry. The Alpha unit of Spetznaz became the main user of this weapon, as well some security forces tasked on protecting high-value VIPs. "
-      STR_PLASMA_LMG: "PPCh Plasma MG"
+      STR_SOVIET_PLASMA_SMG_MAG_UFOPEDIA: "The size and weigh constrains limited the Budker Institute weaponry bureau to develop a larger Elerium cell to power their submachine gun. A compromise was made to reduce the rate of fire of the PShAb gun and keep the quality of the power cells, to increase the total amount of plasma discharges. Still, the large energy output of the transmuted Elerium makes the Budker submachine gun a competent support weapon."
+      STR_SOVIET_PLASMA_LMG: "PPCh Plasma MG"
+      STR_SOVIET_PLASMA_LMG_MAG: "Plasma MG High-Density Elerium Cell (x50)"
       STR_PLASMA_LMG_UFOPEDIA: "A partially successful design, this heavy automatic plasma gun is often used in fire support in high-value missions. The damage done by the ionized pellets inflicts gruesome wounds, difficult to heal. The major drawback reported by the users is the difficulties to maneuver and relocate quickly, as the size and weight of the machine gun restricts the movement. Firing from static positions, specially knee-down, is recommended to increase the performance of the plasma machine gun."
-
+      STR_SOVIET_PLASMA_LMG_MAG_UFOPEDIA: "The Cherenkov Energy Institute scientists were very proud of this particular model of Elerium Cell. By transmuting a large amount of inert Elerium shards into a pure element again, it was possible to fill as much as possible... again, with the latent risk of a contention failure in case of a strong physical impact. Machine Gunners trained with the PPCh are taught to keep their 9 mW cells in special armored cases, to avoid an accident."
 
       STR_CEREBREAL_UFOPAEDIA: "Cerebreals are a race that is not fully integrated into the alien hive-like society; they are more like allies, who agreed to serve the invaders for some unfathomable reasons.  They bear incredibly strong psionic powers, which can be focused as a weapon:  a violent discharge of plasma, fuelled by will alone.  Their independent and completely alien pattern of thinking make them unpredictable, but also more prone to panic than other alien races."
 
@@ -1930,7 +1950,7 @@ en-US:
 
   #STR_LASER_WEAPONS: Laser Weapons
 ######################################################################################
-      STR_PEACEMAKER: "UNL-1 'Peacemaker' Hybrid Laser Rifle"
+      STR_PEACEMAKER: "UNL-1 'Peacemaker' Hybrid Laser"
 ######################################################################################
       STR_M1972_LASER_PISTOL: "M77 Rasputin Laser Pistol"
       STR_38_LASER_MAGNUM: "Daring Eagle Laser Magnum"
