@@ -254,7 +254,7 @@ items:
     categories: [STR_PLASMA, STR_ARTILLERY, STR_ALIEN_TECH, STR_CLIPS, STR_EXPLOSIVES]
     requires:
       - STR_SMALL_LAUNCHER
-      - STR_ALIEN_PLASMA_WEAPONS
+      #- STR_ALIEN_PLASMA_WEAPONS
     size: 0.1
     costSell: 15200
     weight: 6
@@ -272,7 +272,7 @@ items:
     categories: [STR_PLASMA, STR_ARTILLERY, STR_ALIEN_TECH, STR_CLIPS, STR_EXPLOSIVES]
     requires:
       - STR_SMALL_LAUNCHER
-      - STR_ALIEN_PLASMA_WEAPONS
+      #- STR_ALIEN_PLASMA_WEAPONS
     size: 0.1
     costSell: 16500
     weight: 6
@@ -290,7 +290,7 @@ items:
     categories: [STR_PLASMA, STR_ARTILLERY, STR_ALIEN_TECH, STR_CLIPS, STR_EXPLOSIVES]
     requires:
       - STR_SMALL_LAUNCHER
-      - STR_ALIEN_PLASMA_WEAPONS
+      #- STR_ALIEN_PLASMA_WEAPONS
     size: 0.1
     costSell: 13000
     weight: 3
@@ -1426,8 +1426,6 @@ extraSprites:
       1963: Resources/FourthState/PlasmaPistol/Human/HumanPlasmaPistol.gif
       1964: Resources/FourthState/PlasmaPistol/PlasmaPistolClip.gif
       1115: Resources/FourthState/HWE/HyperWaveEncoder.gif
-    # Armor
-      1901: Resources/SoldiersAndArmors/ScoutArmor/BigCorpse.png
 #####################################
 ##### FACTION SPECIFIC WEAPONS #####
 ###################################
@@ -1487,8 +1485,6 @@ extraSprites:
       1966: Resources/FourthState/PlasmaPistol/Human/HumanPlasmaPistolf.gif
       1967: Resources/FourthState/PlasmaPistol/PlasmaPistolClipf.gif
       1115: Resources/FourthState/HWE/HyperWaveEncoderf.gif
-      # Armor
-      1902: Resources/SoldiersAndArmors/ScoutArmor/FloorCorpse.png
 
 #####################################
 ##### FACTION SPECIFIC WEAPONS #####
