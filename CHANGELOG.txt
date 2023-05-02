@@ -1,26 +1,26 @@
-X-Dic-2020: UNEXCOM War on Mars v0.1
+X-May-2023: UNEXCOM War on Mars v0.1
 *Added BFM original globe data, made by liberation
 *Added new Mars textures, drawn by Hans Woofington
-*Starting to add extraStrings to Mars landmarks
+*Custom string in main Mars landscapes
 *Added UNEXCOM space planes
 	- USA: X-20 DynaSoar
 	- NATO: EFS-2000 Hermes
 	- USSR: MiG-105 Spiral
 	- UN: X-73 Raider Space Shuttle
-*Added UNEXCOM space craft weapons
-	- Casaba Nuclear Lance
-	- Casaba Nuclear Pike
-*Added Gyrojet weapons
-*Added Space-Capable Weapons
+*Added UN Alloy Weapons, by wolverin
+*Added Faction Specific Lasers, by Fegelein & efrenespartano
+*Added Space-Capable Weapons, by Hans Woofington
 	- Mk119 SCAR Rifle
 	- Mk115 SCHG Pistol
 	- Mk117 SCPDW Submachine-gun
-*Added Mars terrains
+*Added Mars terrains, by efrenespartano
     - Southern Rocky Highlands
     - Alien Military Base
-    - Human R&D Station
+    - Human R&D Station 
+    - Former Warzone
+    - Drylake
 *Added Mars terrains made by cevaralien
     - Southern Highlands
     - Alien Civilian Complex
     - Nothern Lowlands
-    - Southern Plains
+    - Southern Plains 
