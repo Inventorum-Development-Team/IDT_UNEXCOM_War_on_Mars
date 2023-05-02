@@ -99,129 +99,6 @@ en-US:
 
 ####################################################
 
-  # NEW CIVILIAN UNITS
-      STR_HUMAN_JUMPSUIT_0_0: Civilian
-      STR_HUMAN_JUMPSUIT_0_1: Civilian
-      STR_HUMAN_JUMPSUIT_0_2: Civilian
-      STR_HUMAN_JUMPSUIT_0_3: Civilian
-      STR_HUMAN_JUMPSUIT_0_4: Civilian
-      STR_HUMAN_JUMPSUIT_1_0: Civilian
-      STR_HUMAN_JUMPSUIT_1_1: Civilian
-      STR_HUMAN_JUMPSUIT_1_2: Civilian
-      STR_HUMAN_JUMPSUIT_1_3: Civilian
-      STR_HUMAN_JUMPSUIT_1_4: Civilian
-      STR_HUMAN_JUMPSUIT_2_0: Civilian
-      STR_HUMAN_JUMPSUIT_2_1: Civilian
-      STR_HUMAN_JUMPSUIT_2_2: Civilian
-      STR_HUMAN_JUMPSUIT_2_3: Civilian
-      STR_HUMAN_JUMPSUIT_2_4: Civilian
-      STR_HUMAN_JUMPSUIT_2_5: Civilian
-      STR_HUMAN_JUMPSUIT_2_6: Civilian
-      STR_HUMAN_JUMPSUIT_2_7: Civilian
-      STR_HUMAN_SOLDIER_0_0: Soldier
-      STR_HUMAN_SOLDIER_0_1: Soldier
-      STR_HUMAN_SOLDIER_0_2: Soldier
-      STR_HUMAN_SOLDIER_0_3: Soldier
-      STR_HUMAN_SOLDIER_0_4: Soldier
-      STR_HUMAN_SOLDIER_1_0: Soldier
-      STR_HUMAN_SOLDIER_1_1: Soldier
-      STR_HUMAN_SOLDIER_1_2: Soldier
-      STR_HUMAN_SOLDIER_1_3: Soldier
-      STR_HUMAN_SOLDIER_1_4: Soldier
-      STR_HUMAN_SOLDIER_1_5: Soldier
-      STR_HUMAN_SOLDIER_2_0: Soldier
-      STR_HUMAN_SOLDIER_2_1: Soldier
-      STR_HUMAN_SOLDIER_2_2: Soldier
-      STR_HUMAN_SOLDIER_2_3: Soldier
-      STR_HUMAN_SOLDIER_2_4: Soldier
-      STR_HUMAN_SOLDIER_2_5: Soldier
-      STR_HUMAN_SOLDIER_2_6: Soldier
-      STR_HUMAN_SOLDIER_2_7: Soldier
-      STR_HUMAN_SOLDIER_2_8: Soldier
-      STR_HUMAN_SOLDIER_2_9: Soldier
-      STR_HUMAN_SOLDIER_2_10: Soldier
-      STR_HUMAN_SOLDIER_2_11: Soldier
-      STR_HUMAN_SOLDIER_3_0: Soldier
-      STR_HUMAN_SOLDIER_3_1: Soldier
-      STR_HUMAN_SOLDIER_3_2: Soldier
-      STR_HUMAN_SOLDIER_3_3: Soldier
-      STR_HUMAN_SOLDIER_3_4: Soldier
-      STR_HUMAN_SOLDIER_3_5: Soldier
-      STR_HUMAN_SOLDIER_4_0: Soldier
-      STR_HUMAN_SOLDIER_4_1: Soldier
-      STR_HUMAN_SOLDIER_4_2: Soldier
-      STR_HUMAN_SOLDIER_4_3: Soldier
-      STR_HUMAN_SOLDIER_4_4: Soldier
-      STR_HUMAN_SUIT_RED_1: Civilian
-      STR_HUMAN_SUIT_RED_2: Civilian
-      STR_HUMAN_SUIT_RED_3: Civilian
-      STR_HUMAN_SUIT_BLUE_1: Civilian
-      STR_HUMAN_SUIT_BLUE_2: Civilian
-      STR_HUMAN_SUIT_BLUE_3: Civilian
-      STR_HUMAN_SUIT_PINK_1: Civilian
-      STR_HUMAN_SUIT_PINK_2: Civilian
-      STR_HUMAN_SUIT_PINK_3: Civilian
-      STR_HUMAN_SUIT_GREY_1: Civilian
-      STR_HUMAN_SUIT_GREY_2: Civilian
-      STR_HUMAN_SUIT_GREY_3: Civilian
-      STR_HUMAN_SUIT_GREEN_1: Civilian
-      STR_HUMAN_SUIT_GREEN_2: Civilian
-      STR_HUMAN_SUIT_GREEN_3: Civilian
-      STR_HUMAN_SUIT_PURPLE_1: Civilian
-      STR_HUMAN_SUIT_PURPLE_2: Civilian
-      STR_HUMAN_SUIT_PURPLE_3: Civilian
-      STR_HUMAN_SUIT_BLACK_1: Civilian
-      STR_HUMAN_SUIT_BLACK_2: Civilian
-      STR_HUMAN_SUIT_BLACK_3: Civilian
-      STR_HUMAN_SUIT_BLACK_4: Civilian
-      STR_HUMAN_SUIT_BLACK_5: Civilian
-      STR_HUMAN_SUIT_BLACK_6: Civilian
-      STR_HUMAN_SUIT_BLACK_7: Civilian
-      STR_HUMAN_SUIT_BLACK_8: Civilian
-      MALE_CIVILIAN2: Civilian
-      MALE_CIVILIAN3: Civilian
-      MALE_CIVILIAN4: Civilian
-      MALE_CIVILIAN5: Civilian
-      MALE_CIVILIAN6: Civilian
-      MALE_CIVILIAN7: Civilian
-      MALE_CIVILIAN8: Civilian
-      MALE_CIVILIAN9: Civilian
-      MALE_CIVILIAN10: Civilian
-      FEMALE_CIVILIAN2: Civilian
-      FEMALE_CIVILIAN3: Civilian
-      FEMALE_CIVILIAN4: Civilian
-      FEMALE_CIVILIAN5: Civilian
-      FEMALE_CIVILIAN6: Civilian
-      FEMALE_CIVILIAN7: Civilian
-      FEMALE_CIVILIAN8: Civilian
-      FEMALE_CIVILIAN9: Civilian
-      FEMALE_CIVILIAN10: Civilian
-      FEMALE_CIVILIAN11: Civilian
-      FEMALE_CIVILIAN12: Civilian
-      FEMALE_CIVILIAN13: Civilian
-      FEMALE_CIVILIAN14: Civilian
-      FEMALE_CIVILIAN15: Civilian
-      STR_MALE_FARMER: Farmer
-      STR_FEMALE_FARMER: Farmer
-      HERO_CIVILIAN0: Batman
-      HERO_CIVILIAN1: Superman
-      HERO_CIVILIAN2: Flash
-      HERO_CIVILIAN3: Green Lantern
-      POLICE_MALE_CIVILIAN: Policeman
-      POLICE_FEMALE_CIVILIAN: Policewoman
-      STR_AMERICAN_RIFLEMAN: US Army Rifleman
-      STR_AMERICAN_ASSAULT: US Army Assault
-      STR_AMERICAN_SUPPORT: US Army Sapper
-      AMERICAN_SOLDIER_ARMOR: OG-107 Uniform
-      STR_EUROPEAN_RIFLEMAN: NATO Infantryman
-      STR_EUROPEAN_ASSAULT: NATO Commando
-      STR_EUROPEAN_SUPPORT: NATO Engineer
-      EUROPEAN_SOLDIER_ARMOR: Combat Fatigues
-      STR_SOVIET_RIFLEMAN: Warsaw Pact Soldier
-      STR_SOVIET_ASSAULT: Warsaw Pact Raider
-      STR_SOVIET_SUPPORT: Warsaw Pact Machine Gunner
-      SOVIET_SOLDIER_ARMOR: M69 Uniform
-
       STR_ROOKIE: "Private"
       STR_SQUADDIE: "Corporal"
       STR_SERGEANT: "Sergeant"
@@ -2540,7 +2417,7 @@ en-US:
       STR_ENERGY_BATTERY_REPORT_2_UFOPEDIA: "In 1981 a scientists came up with an idea to use a magnesium-graphene batteries. With a high capacity, enough to charge lasers, and relatively compact size, they've been accepted for use for Martian forces at the start of 1982. The only issue here is that graphene, a new material, discovered in 1979, is still very expensive to produce, and thus making those batteries expensive too"
       
       STR_SMALL_GRAPHENE_BATTERY: "Small Graphene Battery"
-      STR_SMALL_GRAPHENE_BATTERY_UFOPESIA: "The smallest practical application of the new material. Used to energize "
+      STR_SMALL_GRAPHENE_BATTERY_UFOPESIA: "The smallest practical application of the new material. Used to energize lightweight energy weapons, most of those require relatively low power demand. It contains 50 units."
       
 
 
@@ -2951,6 +2828,10 @@ en-US:
       STR_MEDAL_CAPTURE_SPECIALIST_10: "Capture Specialist X"
 
 #####################
+
+      STR_GOOD_ENDING_1: "The successful assault on the last Insurgent stronghold proved crucial to dismantle the main opposition in the Red Planet. "
+
+#####################
       GMSTORY: "Done and Dusted"
       GMTACTIC: "Soil of Ares"
       GMTACTIC2: "Martian Meeting"
@@ -2962,6 +2843,8 @@ en-US:
       GMGEO1: "Red Sand on a Boot"
       GMGEO2: "Wind Over Dunes"
       GMGEO3: "The Easy Way or the Hard Way"
+      GMGEO4: "Phobos"
+      GMGEO5: "Deimos"
       GMDEFEND: "Routinary Operations"
       GMENBASE: "Routinary Operations"
       GMLOSE: "Iskander"
