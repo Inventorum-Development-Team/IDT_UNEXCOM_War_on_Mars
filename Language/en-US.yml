@@ -1128,10 +1128,8 @@ en-US:
       STR_OPERATION_SWORDBREAKER_STAGE_2_DEPLOYMENT: "OPERATION SWORDBREAKER - HQ"
       STR_OPERATION_SWORDBREAKER_STAGE_2_DESCRIPTION: "We have managed to enter what seems a complex artificial cave system inside Olympus Mons. Other friendly forces have entered as well. Our mission will be accomplished after locating and destroying the Brain controlling the Insurgent activities. "
 
-      STR_GOOD_ENDING_1: "Our second strike on the alien leadership was the definitive. All the known Ethereal insurgent leaders were killed and the rebel Brain was destroyed once and for all.  "
-      STR_GOOD_ENDING_2: "The complete pacification of the Red Planet allowed us to increase the scientific development on the surface."
-      STR_GOOD_ENDING_3: "Operation Downfall meant the beginning of the colonization of the space. Human spaceships are built, meant to reach the planets and moons on the Solar System. A dream that was impossible a decade ago. The power of the atom, instead of destroying the Mankind, has propel us to the stars and beyond."
-      STR_GOOD_ENDING_4: "Mars is still a contested planet. Estimations expect our troops to be outmatched in 10 to 1. But this won't be a stop to our campaign, as new scientific and military vessels are prepared to arrive to the Red Planet and establish a firm foothold. The War for Mars has begun."
+      
+      
 
       STR_XCOM_CRAFTS: "UNEXCOM CRAFT"
       STR_CRAFT_ARMAMENT: "CRAFT ARMAMENT"
@@ -2829,7 +2827,14 @@ en-US:
 
 #####################
 
-      STR_GOOD_ENDING_1: "The successful assault on the last Insurgent stronghold proved crucial to dismantle the main opposition in the Red Planet. "
+      STR_GOOD_ENDING_1: "Our second strike on the alien leadership was the definitive.   "
+      
+
+      
+      STR_GOOD_ENDING_1: "Despite the heavy resistance inside the hastily built complex, the UNEXCOM strike team managed to destroy the makeshift Brain supercomputer, crippling the enemy's ability to command and control the surviving guerrilla forces."
+      STR_GOOD_ENDING_2: "The successful assault on the last Insurgent stronghold proved crucial to dismantle the main opposition in the Red Planet. All the known Ethereal insurgent leaders were killed and the rebels were destroyed once and for all."
+      STR_GOOD_ENDING_3: "The complete pacification of the Red Planet allowed us to increase the scientific development on the surface. Over the years, Mars grew to become a major science and military hub. There are projects to terraform it using alien-derivated tech."
+      STR_GOOD_ENDING_4: "With the shadows of the conflict behind, Mankind is set  "
 
 #####################
       GMSTORY: "Done and Dusted"
