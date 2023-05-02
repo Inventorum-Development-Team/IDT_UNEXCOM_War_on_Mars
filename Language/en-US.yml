@@ -2951,9 +2951,11 @@ en-US:
       STR_MEDAL_CAPTURE_SPECIALIST_10: "Capture Specialist X"
 
 #####################
-      GMSTORY: "Red Sand on a Boot"
+      GMSTORY: "Done and Dusted"
       GMTACTIC: "Soil of Ares"
       GMTACTIC2: "Martian Meeting"
+      GMTACTIC3: "Desperate Measures"
+      GMTACTIC4: "Ionizing"
       GMMARS: "Octet Chorus"
       GMNEWMAR: "Open Path"
       GMINTER: "Interception"
