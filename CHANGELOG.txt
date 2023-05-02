@@ -18,11 +18,15 @@ X-May-2023: v0.1 Martian Greeting
     - Alien Military Base
     - Human R&D Station 
     - Former Warzone
-    - Drylake
-*Added Mars terrains made by cevaralien
+    - Dry Seabed
+* Added Mars terrains made by cevaralien
     - Southern Highlands
     - Alien Civilian Complex
     - Nothern Lowlands
     - Southern Plains 
-* 
+* Added Mars terrains made by liberation
+    - Northern Volcanic Plains 
+    - Southern Plains 
+    - Polar Ice Caps 
+    - Volcanic Highlands
     
