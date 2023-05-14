@@ -613,7 +613,7 @@ ufopaedia:
       #- STR_MARS_ORBITAL_DEFENSE_REPORT
     text: STR_MARS_ORBITAL_DEFENSE_REPORT_UFOPEDIA
     listOrder: 1710
-    
+
   - id: STR_UNEXCOM_MARS_DEPLOYMENT_REPORT
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
@@ -732,7 +732,7 @@ ufopaedia:
     #requires:
       #- STR_ETHEREAL_INSURGENCY_REPORT_2
     text: STR_ETHEREAL_INSURGENCY_REPORT_2_UFOPEDIA
-    listOrder: 1755    
+    listOrder: 1755
 
   - id: STR_ETHEREAL_INSURGENCY_REPORT_3
     type_id: 8
@@ -741,14 +741,14 @@ ufopaedia:
       #- STR_ETHEREAL_INSURGENCY_REPORT_3
     text: STR_ETHEREAL_INSURGENCY_REPORT_3_UFOPEDIA
     listOrder: 1756
-    
+
   - id: STR_HEARTS_AND_MINDS_PROJECT_1
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
     #requires:
       #- STR_HEARTS_AND_MINDS_PROJECT_1
     text: STR_HEARTS_AND_MINDS_PROJECT_1_UFOPEDIA
-    listOrder: 1760 
+    listOrder: 1760
 
   - id: STR_HEARTS_AND_MINDS_PROJECT_2
     type_id: 8
@@ -757,7 +757,7 @@ ufopaedia:
       #- STR_HEARTS_AND_MINDS_PROJECT_2
     text: STR_HEARTS_AND_MINDS_PROJECT_2_UFOPEDIA
     listOrder: 1770
- 
+
   - id: STR_HEARTS_AND_MINDS_PROJECT_3
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
@@ -772,10 +772,10 @@ ufopaedia:
     #requires:
       #- STR_HEARTS_AND_MINDS_PROJECT_4
     text: STR_HEARTS_AND_MINDS_PROJECT_4_UFOPEDIA
-    listOrder: 1781   
-    
+    listOrder: 1781
+
 ##############################
-  
+
 
   #Weapons
 
@@ -1029,7 +1029,7 @@ ufopaedia:
       ammoSlot: 0
     - title: STR_HUMAN_FUSION_RIFLE
       text: STR_HUMAN_FUSION_RIFLE_UFOPEDIA_2
-      ammoSlot: 0    
+      ammoSlot: 0
     listOrder: 4418
 
   - id: STR_MK119_SPACE_RIFLE
@@ -1159,7 +1159,7 @@ ufopaedia:
     text: STR_ARTILLERY_REPORT_UFOPEDIA
     text_width: 150
     listOrder: 4700
-  
+
   - id: STR_M72_AUTOMATIC_RECOILLESS_RIFLE
     type_id: 4
     section: STR_WEAPONS
@@ -1195,6 +1195,38 @@ ufopaedia:
     section: STR_WEAPONS
     text: STR_ELERIUM_FLAMETHROWER_UFOPEDIA
     listOrder: 4711
+
+  - id: STR_ELECTRIC_HEAVY_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_SECRET_CRISIS_PROTOTYPES
+    text: STR_ELECTRIC_HEAVY_RIFLE_UFOPEDIA
+    listOrder: 4751
+
+  - id: STR_ELECTRIC_PISTOL
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_SECRET_CRISIS_PROTOTYPES
+    text: STR_ELECTRIC_PISTOL_UFOPEDIA
+    listOrder: 4752
+
+  - id: STR_GAUSS_HEAVY_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_SECRET_CRISIS_PROTOTYPES
+    text: STR_GAUSS_HEAVY_RIFLE_UFOPEDIA
+    listOrder: 4754
+
+  - id: STR_GAUSS_CARBINE
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_SECRET_CRISIS_PROTOTYPES
+    text: STR_GAUSS_CARBINE_UFOPEDIA
+    listOrder: 4755
 
   - id: STR_MELEE_REPORT
     type_id: 7
@@ -1354,6 +1386,23 @@ ufopaedia:
     text: ...
     listOrder: 5114
 
+  - id: STR_ELECTRIC_HEAVY_RIFLE_MAG
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_ELECTRIC_HEAVY_RIFLE_MAG_UFOPEDIA
+    listOrder: 5226
+
+  - id: STR_ELECTRIC_PISTOL_MAG
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_ELECTRIC_PISTOL_MAG_UFOPEDIA
+    listOrder: 5227
+
+  - id: STR_GAUSS_RIFLE_MAG
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_GAUSS_RIFLE_MAG_UFOPEDIA
+    listOrder: 5228
 
   #Equipment
 
