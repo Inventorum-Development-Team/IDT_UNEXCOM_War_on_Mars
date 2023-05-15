@@ -2048,23 +2048,23 @@ en-US:
 ##########################################
       STR_LASER_WEAPONS: "Directed Energy Weapons Theory"
       STR_HYBRID_LASER_PROJECT: "Hybrid Laser Weapon Project"
-      STR_USA_LASER_RESEARCH: USA Laser Research
-      STR_USA_LASER_HANDGUNS: USA Laser Handguns
-      STR_USA_LASER_RIFLES: USA Laser Rifles
-      STR_USA_LASER_CLOSE_RANGE_WEAPONS: USA Laser Close-Range Weapons
-      STR_USA_LASER_HEAVY_WEAPONS: USA Laser Heavy Weapons
+      STR_USA_LASER_RESEARCH: "US Laser Requisition"
+      STR_USA_LASER_HANDGUNS: "US Laser Handguns"
+      STR_USA_LASER_RIFLES: "US Laser Rifles"
+      STR_USA_LASER_CLOSE_RANGE_WEAPONS: "US Laser Close-Range Weapons"
+      STR_USA_LASER_HEAVY_WEAPONS: "US Laser Heavy Weapons"
 
-      STR_NATO_LASER_RESEARCH: NATO Laser Research
-      STR_NATO_LASER_HANDGUNS: NATO Laser Handguns
-      STR_NATO_LASER_RIFLES: NATO Laser Rifles
-      STR_NATO_LASER_CLOSE_RANGE_WEAPONS: NATO Laser Close-Range Weapons
-      STR_NATO_LASER_HEAVY_WEAPONS: NATO Laser Heavy Weapons
+      STR_NATO_LASER_RESEARCH: "European Laser Requisition"
+      STR_NATO_LASER_HANDGUNS: "UASCNAT Laser Handguns"
+      STR_NATO_LASER_RIFLES: "UASCNAT Laser Rifles"
+      STR_NATO_LASER_CLOSE_RANGE_WEAPONS: "UASCNAT Laser Close-Range Weapons"
+      STR_NATO_LASER_HEAVY_WEAPONS: "UASCNAT Laser Heavy Weapons"
 
-      STR_USSR_LASER_RESEARCH: USSR Laser Research
-      STR_USSR_LASER_HANDGUNS: USSR Laser Handguns
-      STR_USSR_LASER_RIFLES: USSR Laser Rifles
-      STR_USSR_LASER_CLOSE_RANGE_WEAPONS: USSR Laser Close-Range Weapons
-      STR_USSR_LASER_HEAVY_WEAPONS: USSR Laser Heavy Weapons
+      STR_USSR_LASER_RESEARCH: "USSR Laser Research"
+      STR_USSR_LASER_HANDGUNS: "USSR Laser Handguns"
+      STR_USSR_LASER_RIFLES: "USSR Laser Rifles"
+      STR_USSR_LASER_CLOSE_RANGE_WEAPONS: "USSR Laser Close-Range Weapons"
+      STR_USSR_LASER_HEAVY_WEAPONS: "USSR Laser Heavy Weapons"
 
 ###########################################
       STR_UNITED_WE_STAND_RESEARCH: "United We Stand"
