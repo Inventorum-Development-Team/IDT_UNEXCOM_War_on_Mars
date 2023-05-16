@@ -2011,12 +2011,14 @@ en-US:
       STR_NATO_INITIAL_APPROACH_RESEARCH: "NATO Initial Diplomacy"
       STR_USSR_INITIAL_APPROACH_RESEARCH: "USSR Initial Diplomacy"
 
-      STR_USA_SUPPORT_RESEARCH: "USA Support"
-      STR_USA_WEAPON_SUPPLY: "US Supply Airdrop"
-      STR_USSR_SUPPORT_RESEARCH: "USSR Support"
-      STR_NATO_WEAPON_SUPPLY: "NATO Supply Airdrop"
-      STR_NATO_SUPPORT_RESEARCH: "NATO Support"
-      STR_USSR_WEAPON_SUPPLY: "USSR Supply Airdrop"
+      STR_USA_SUPPORT_RESEARCH: "United States Logistics Support"
+      STR_USA_SUPPORT_RESEARCH_UFOPEDIA: "We have requested the U.S. Space Force Command for supplies and technology assets. The American energy beam developments are characterized by their balanced features and high-quality construction. Jack-of-all-trades and adaptability to all and any situations has been the American laser doctrine for two decades. More requisition options are available for specific blueprints.  "
+      
+      STR_USSR_SUPPORT_RESEARCH: "Soviet Logistics Support"
+      STR_USSR_SUPPORT_RESEARCH_UFOPEDIA: "The Warsaw Pact doctrine is focused on raw firepower, dominating the battlefield with overwhelming numbers. This is reflected in the Soviet weaponry, powerful and hard-hitting. The relative lack of accuracy is a noticeable drawback, however. Specific blueprints are available for further requisitions."
+      
+      STR_NATO_SUPPORT_RESEARCH: "European Logistics Support"
+      STR_NATO_SUPPORT_RESEARCH_UFOPEDIA: "Europe's manpower was severely reduced after the devastating conflict ten years ago. A professionalized army was created with fewer elements than the other World Powers but better training. To complement this, light and highly accurate weapons are field by the European Task Forces. By abiding to a 'strike fast, strike first' doctrine, the weapons have reduced power outputs, thus requiring more volleys to put down and enemy. More blueprints are available for request."
 ##########################################
       STR_USA_AERONAUTIC_SUPPORT_RESEARCH: "USA Aeronautic Support"
       STR_NATO_AERONAUTIC_SUPPORT_RESEARCH: "NATO Aeronautic Support"
@@ -2049,10 +2051,10 @@ en-US:
       STR_LASER_WEAPONS: "Directed Energy Weapons Theory"
       STR_HYBRID_LASER_PROJECT: "Hybrid Laser Weapon Project"
       STR_USA_LASER_RESEARCH: "US Laser Requisition"
-      STR_USA_LASER_HANDGUNS: "US Laser Handguns"
-      STR_USA_LASER_RIFLES: "US Laser Rifles"
-      STR_USA_LASER_CLOSE_RANGE_WEAPONS: "US Laser Close-Range Weapons"
-      STR_USA_LASER_HEAVY_WEAPONS: "US Laser Heavy Weapons"
+      STR_USA_LASER_HANDGUNS: "USSF Laser Handguns"
+      STR_USA_LASER_RIFLES: "USSF Laser Rifles"
+      STR_USA_LASER_CLOSE_RANGE_WEAPONS: "USSF Laser Close-Range Weapons"
+      STR_USA_LASER_HEAVY_WEAPONS: "USSF Laser Heavy Weapons"
 
       STR_NATO_LASER_RESEARCH: "European Laser Requisition"
       STR_NATO_LASER_HANDGUNS: "UASCNAT Laser Handguns"
@@ -2060,11 +2062,11 @@ en-US:
       STR_NATO_LASER_CLOSE_RANGE_WEAPONS: "UASCNAT Laser Close-Range Weapons"
       STR_NATO_LASER_HEAVY_WEAPONS: "UASCNAT Laser Heavy Weapons"
 
-      STR_USSR_LASER_RESEARCH: "USSR Laser Research"
-      STR_USSR_LASER_HANDGUNS: "USSR Laser Handguns"
-      STR_USSR_LASER_RIFLES: "USSR Laser Rifles"
-      STR_USSR_LASER_CLOSE_RANGE_WEAPONS: "USSR Laser Close-Range Weapons"
-      STR_USSR_LASER_HEAVY_WEAPONS: "USSR Laser Heavy Weapons"
+      STR_USSR_LASER_RESEARCH: "Soviet Laser Requisition"
+      STR_USSR_LASER_HANDGUNS: "VKS Laser Handguns"
+      STR_USSR_LASER_RIFLES: "VKS Laser Rifles"
+      STR_USSR_LASER_CLOSE_RANGE_WEAPONS: "VKS Laser Close-Range Weapons"
+      STR_USSR_LASER_HEAVY_WEAPONS: "VKS Laser Heavy Weapons"
 
 ###########################################
       STR_UNITED_WE_STAND_RESEARCH: "United We Stand"
