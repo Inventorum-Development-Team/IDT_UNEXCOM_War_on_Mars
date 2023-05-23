@@ -103,7 +103,23 @@ research:
       - STR_NATO_SUPPORT_RESEARCH
       - STR_USSR_SUPPORT_RESEARCH  
 
+  - name: STR_LASER_CARBINE_SELECTION
+    cost: 30
+    points: 10
+    dependencies:
+      - STR_USA_SUPPORT_RESEARCH
+      - STR_NATO_SUPPORT_RESEARCH
+      - STR_USSR_SUPPORT_RESEARCH  
+
   - name: STR_LASER_CLOSE_RANGE_WEAPONS_SELECTION
+    cost: 30
+    points: 10
+    dependencies:
+      - STR_USA_SUPPORT_RESEARCH
+      - STR_NATO_SUPPORT_RESEARCH
+      - STR_USSR_SUPPORT_RESEARCH
+
+  - name: STR_LASER_HEAVY_WEAPONS_SELECTION
     cost: 30
     points: 10
     dependencies:
@@ -114,16 +130,12 @@ research:
 #########################################
 ####### AMERICAN LASER RESEARCH ########
 #######################################
-  - name: STR_USA_LASER_RESEARCH
-    cost: 30
-    points: 10
-    dependencies:
-      - STR_USA_SUPPORT_RESEARCH
+
   - name: STR_USA_LASER_HANDGUNS
     cost: 50
     points: 10
     dependencies:
-      - STR_USA_LASER_RESEARCH
+      - STR_LASER_HANDGUN_SELECTION
     disables:
       - STR_NATO_LASER_HANDGUNS
       - STR_USSR_LASER_HANDGUNS
@@ -131,15 +143,23 @@ research:
     cost: 50
     points: 10
     dependencies:
-      - STR_USA_SUPPORT_RESEARCH
+      - STR_LASER_RIFLE_SELECTION
     disables:
       - STR_NATO_LASER_RIFLES
       - STR_USSR_LASER_RIFLES
+  - name: STR_USA_LASER_CARBINES
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_LASER_CARBINE_SELECTION
+    disables:
+      - STR_NATO_LASER_CARBINES
+      - STR_USSR_LASER_CARBINES    
   - name: STR_USA_LASER_CLOSE_RANGE_WEAPONS
     cost: 50
     points: 10
     dependencies:
-      - STR_USA_SUPPORT_RESEARCH
+      - STR_LASER_CLOSE_RANGE_WEAPONS_SELECTION
     disables:
       - STR_NATO_LASER_CLOSE_RANGE_WEAPONS
       - STR_USSR_LASER_CLOSE_RANGE_WEAPONS
@@ -147,7 +167,7 @@ research:
     cost: 50
     points: 10
     dependencies:
-      - STR_USA_SUPPORT_RESEARCH
+      - STR_LASER_HEAVY_WEAPONS_SELECTION
     disables:
       - STR_NATO_LASER_HEAVY_WEAPONS
       - STR_USSR_LASER_HEAVY_WEAPONS
@@ -156,59 +176,91 @@ research:
 #########################################
 ####### EUROPEAN LASER RESEARCH ########
 #######################################
-  - name: STR_NATO_LASER_RESEARCH
-    cost: 30
-    points: 10
-    dependencies:
-      - STR_LASER_WEAPONS
+
   - name: STR_NATO_LASER_HANDGUNS
     cost: 50
     points: 10
     dependencies:
-      - STR_NATO_LASER_RESEARCH
+      - STR_LASER_HANDGUN_SELECTION
+    disables:
+      - STR_USA_LASER_HANDGUNS
+      - STR_USSR_LASER_HANDGUNS
   - name: STR_NATO_LASER_RIFLES
     cost: 50
     points: 10
     dependencies:
-      - STR_NATO_LASER_RESEARCH
+      - STR_LASER_RIFLE_SELECTION
+    disables:
+      - STR_USA_LASER_RIFLES
+      - STR_USSR_LASER_RIFLES
+  - name: STR_NATO_LASER_CARBINES
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_LASER_CARBINE_SELECTION
+    disables:
+      - STR_USA_LASER_CARBINES
+      - STR_USSR_LASER_CARBINES  
   - name: STR_NATO_LASER_CLOSE_RANGE_WEAPONS
     cost: 50
     points: 10
     dependencies:
-      - STR_NATO_LASER_HANDGUNS
+      - STR_LASER_CLOSE_RANGE_WEAPONS_SELECTION
+    disables:
+      - STR_USA_LASER_CLOSE_RANGE_WEAPONS
+      - STR_USSR_LASER_CLOSE_RANGE_WEAPONS
   - name: STR_NATO_LASER_HEAVY_WEAPONS
     cost: 50
     points: 10
     dependencies:
-      - STR_NATO_LASER_RIFLES
+      - STR_LASER_HEAVY_WEAPONS_SELECTION
+    disables:
+      - STR_USSR_LASER_HEAVY_WEAPONS
+      - STR_USSR_LASER_HEAVY_WEAPONS
 #########################################
 ######## SOVIET LASER RESEARCH #########
 #######################################
-  - name: STR_USSR_LASER_RESEARCH
-    cost: 30
-    points: 10
-    dependencies:
-      - STR_LASER_WEAPONS
+
   - name: STR_USSR_LASER_HANDGUNS
     cost: 50
     points: 10
     dependencies:
-      - STR_USSR_LASER_RESEARCH
+      - STR_LASER_HANDGUN_SELECTION
+    disables:
+      - STR_USA_LASER_RIFLES
+      - STR_NATO_LASER_RIFLES
   - name: STR_USSR_LASER_RIFLES
     cost: 50
     points: 10
     dependencies:
-      - STR_USSR_LASER_RESEARCH
+      - STR_LASER_RIFLE_SELECTION
+    disables:
+      - STR_USA_LASER_RIFLES
+      - STR_NATO_LASER_RIFLES
+  - name: STR_USSR_LASER_CARBINES
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_LASER_CARBINE_SELECTION
+    disables:
+      - STR_USA_LASER_CARBINES
+      - STR_NATO_LASER_CARBINES      
   - name: STR_USSR_LASER_CLOSE_RANGE_WEAPONS
     cost: 50
     points: 10
     dependencies:
-      - STR_USSR_LASER_HANDGUNS
+      - STR_LASER_CLOSE_RANGE_WEAPONS_SELECTION
+    disables:
+      - STR_USA_LASER_RIFLES
+      - STR_NATO_LASER_RIFLES
   - name: STR_USSR_LASER_HEAVY_WEAPONS
     cost: 50
     points: 10
     dependencies:
-      - STR_USSR_LASER_RIFLES
+      - STR_LASER_HEAVY_WEAPONS_SELECTION
+    disables:
+      - STR_USA_LASER_RIFLES
+      - STR_NATO_LASER_RIFLES
 
   - name: STR_ALIENS_ONLY
     cost: 10000
