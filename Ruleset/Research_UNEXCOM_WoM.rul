@@ -1,9 +1,6 @@
 research:
 
-#######################################
-  - name: STR_LASER_WEAPONS
-    cost: 50
-    points: 10
+
 
 ################################################
 ####### ALIEN ALLOYS WEAPONS RESEARCH #########
@@ -70,6 +67,12 @@ research:
     #disables:
     #  - STR_NATO_SUPPORT_RESEARCH
     #  - STR_USSR_SUPPORT_RESEARCH
+    unlocks:
+      - STR_LASER_HANDGUN_SELECTION
+      - STR_LASER_RIFLE_SELECTION
+      - STR_LASER_CARBINE_SELECTION
+      - STR_LASER_CLOSE_RANGE_WEAPONS_SELECTION
+      - STR_LASER_HEAVY_WEAPONS_SELECTION
 
 
   - name: STR_NATO_SUPPORT_RESEARCH
@@ -78,7 +81,12 @@ research:
     #disables:
     #  - STR_USSR_SUPPORT_RESEARCH
     #  - STR_USA_SUPPORT_RESEARCH
-
+    unlocks:
+      - STR_LASER_HANDGUN_SELECTION
+      - STR_LASER_RIFLE_SELECTION
+      - STR_LASER_CARBINE_SELECTION
+      - STR_LASER_CLOSE_RANGE_WEAPONS_SELECTION
+      - STR_LASER_HEAVY_WEAPONS_SELECTION
 
   - name: STR_USSR_SUPPORT_RESEARCH
     cost: 500
@@ -86,6 +94,14 @@ research:
     #disables:
     #  - STR_NATO_SUPPORT_RESEARCH
     #  - STR_USA_SUPPORT_RESEARCH
+    unlocks:
+      - STR_LASER_HANDGUN_SELECTION
+      - STR_LASER_RIFLE_SELECTION
+      - STR_LASER_CARBINE_SELECTION
+      - STR_LASER_CLOSE_RANGE_WEAPONS_SELECTION
+      - STR_LASER_HEAVY_WEAPONS_SELECTION
+
+#######################################
 
   - name: STR_LASER_HANDGUN_SELECTION
     cost: 30
