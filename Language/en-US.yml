@@ -2040,6 +2040,7 @@ en-US:
       STR_USSR_IMPROVED_AQUATIC_WEAPONS: USSR Specialized UW Weapons
 ##########################################
       STR_ALLOY_BALLISTIC_WEAPONS: "Alloy Ballistic Weaponry"
+      STR_ALLOY_BALLISTIC_WEAPONS_UFOPEDIA: "The next generation of Alien Alloy weapons developed by UN engineers deployed in Mars. It's main design is focused on low-gravity combat by space suit users. While the currently existing weapons are generally useful so far, the dynamics of outer space warfare weren't taken in account in their design. Sturdier and easy to use and mass-produce, the new Alloy weapons are expected to begin prototype trials phase by United Nations' military units in the Red Planet. Our workshops are the only ones producing them meanwhile the designs are refined enough to sent them to Earth. We could consider our weapons as the first Martian native assets ever!"
       STR_FLECHETTE: "AA Flechette Ammunition"
       STR_DU: "Tungsten Carbide Ammunition"
       STR_ALLOY_CLOSE: "Close Range Alloy Weaponry"
@@ -2050,21 +2051,31 @@ en-US:
 ##########################################
       STR_LASER_WEAPONS: "Directed Energy Weapons Theory"
       STR_HYBRID_LASER_PROJECT: "Hybrid Laser Weapon Project"
+      
+      STR_LASER_HANDGUN_SELECTION: "Laser Handguns Selection"
+      STR_LASER_RIFLE_SELECTION: "Laser Rifles Selection"
+      STR_LASER_CARBINE_SELECTION: "Laser Carbines Selection"
+      STR_LASER_CLOSE_RANGE_WEAPONS_SELECTION: "Laser Close-Range Weapons Selection"
+      STR_LASER_HEAVY_WEAPONS_SELECTION: "Laser Heavy Ordnance Selection"
+      
       STR_USA_LASER_RESEARCH: "US Laser Requisition"
       STR_USA_LASER_HANDGUNS: "USSF Laser Handguns"
       STR_USA_LASER_RIFLES: "USSF Laser Rifles"
-      STR_USA_LASER_CLOSE_RANGE_WEAPONS: "USSF Laser Close-Range Weapons"
-      STR_USA_LASER_HEAVY_WEAPONS: "USSF Laser Heavy Weapons"
+      STR_USA_LASER_CARBINES: "USSF Laser Carbines"
+      STR_USA_LASER_CLOSE_RANGE_WEAPONS: "USSF Laser CQB Weapons"
+      STR_USA_LASER_HEAVY_WEAPONS: "USSF Heavy Laser Weapons"
 
       STR_NATO_LASER_RESEARCH: "European Laser Requisition"
       STR_NATO_LASER_HANDGUNS: "UASCNAT Laser Handguns"
       STR_NATO_LASER_RIFLES: "UASCNAT Laser Rifles"
+      STR_NATO_LASER_CARBINES: "UASCNAT Laser Carbines"
       STR_NATO_LASER_CLOSE_RANGE_WEAPONS: "UASCNAT Laser Close-Range Weapons"
       STR_NATO_LASER_HEAVY_WEAPONS: "UASCNAT Laser Heavy Weapons"
 
       STR_USSR_LASER_RESEARCH: "Soviet Laser Requisition"
       STR_USSR_LASER_HANDGUNS: "VKS Laser Handguns"
       STR_USSR_LASER_RIFLES: "VKS Laser Rifles"
+      STR_USSR_LASER_CARBINES: "VKS Laser Carbines"
       STR_USSR_LASER_CLOSE_RANGE_WEAPONS: "VKS Laser Close-Range Weapons"
       STR_USSR_LASER_HEAVY_WEAPONS: "VKS Laser Heavy Weapons"
 
