@@ -1,6 +1,22 @@
 research:
 
+########################################
+####### ALIEN ALLIES RESEARCH #########
+######################################
 
+  - name: STR_HEARTS_AND_MINDS_PROJECT_1
+    cost: 500
+    points: 50
+  - name: STR_HEARTS_AND_MINDS_PROJECT_2
+    cost: 1000
+    points: 100
+    dependencies:
+      - STR_HEARTS_AND_MINDS_PROJECT_1
+  - name: STR_HEARTS_AND_MINDS_PROJECT_3
+    cost: 2000
+    points: 200
+    dependencies:
+      - STR_HEARTS_AND_MINDS_PROJECT_2
 
 ################################################
 ####### ALIEN ALLOYS WEAPONS RESEARCH #########
