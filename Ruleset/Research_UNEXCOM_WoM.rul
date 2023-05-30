@@ -1,5 +1,19 @@
 research:
 
+  - name: STR_ETHEREAL_INSURGENCY_REPORT_1
+    cost: 500
+    points: 50
+  - name: STR_ETHEREAL_INSURGENCY_REPORT_2
+    cost: 500
+    points: 50
+    dependencies:
+      - STR_ETHEREAL_INSURGENCY_REPORT_1
+  - name: STR_ETHEREAL_INSURGENCY_REPORT_3
+    cost: 500
+    points: 50
+    dependencies:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+
 ########################################
 ####### ALIEN ALLIES RESEARCH #########
 ######################################
