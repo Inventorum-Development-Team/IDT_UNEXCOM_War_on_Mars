@@ -18,6 +18,32 @@ research:
     dependencies:
       - STR_HEARTS_AND_MINDS_PROJECT_2
 
+  - name: STR_HEARTS_AND_MINDS_SECTOIDS
+    cost: 1000
+    points: 200
+    dependencies:
+      - STR_HEARTS_AND_MINDS_PROJECT_3
+  - name: STR_HEARTS_AND_MINDS_SNAKEMEN
+    cost: 2000
+    points: 200
+    dependencies:
+      - STR_HEARTS_AND_MINDS_PROJECT_3
+  - name: STR_HEARTS_AND_MINDS_FLOATERS
+    cost: 1000
+    points: 200
+    dependencies:
+      - STR_HEARTS_AND_MINDS_PROJECT_3
+  - name: STR_HEARTS_AND_MINDS_MUTONS
+    cost: 2000
+    points: 200
+    dependencies:
+      - STR_HEARTS_AND_MINDS_PROJECT_3
+  - name: STR_HEARTS_AND_MINDS_CEREBREALS
+    cost: 1500
+    points: 200
+    dependencies:
+      - STR_HEARTS_AND_MINDS_PROJECT_3
+
 ################################################
 ####### ALIEN ALLOYS WEAPONS RESEARCH #########
 ##############################################
