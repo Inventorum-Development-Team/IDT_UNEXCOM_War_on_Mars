@@ -553,56 +553,56 @@ ufopaedia:
   - id: STR_STORY_REPORT_2
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
-    #requires:
-      #- STR_STORY_REPORT_2
+    requires:
+      - STR_STORY_REPORT_2
     text: STR_STORY_REPORT_2_UFOPEDIA
     listOrder: 1701
 
   - id: STR_STORY_REPORT_3
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
-    #requires:
-      #- STR_STORY_REPORT_3
+    requires:
+      - STR_STORY_REPORT_3
     text: STR_STORY_REPORT_3_UFOPEDIA
     listOrder: 1702
 
   - id: STR_STORY_REPORT_4
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
-    #requires:
-      #- STR_STORY_REPORT_4
+    requires:
+      - STR_STORY_REPORT_4
     text: STR_STORY_REPORT_4_UFOPEDIA
     listOrder: 1703
 
   - id: STR_STORY_REPORT_5
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
-    #requires:
-      #- STR_STORY_REPORT_5
+    requires:
+      - STR_STORY_REPORT_5
     text: STR_STORY_REPORT_5_UFOPEDIA
     listOrder: 1704
 
   - id: STR_STORY_REPORT_6
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
-    #requires:
-      #- STR_STORY_REPORT_6
+    requires:
+      - STR_STORY_REPORT_6
     text: STR_STORY_REPORT_6_UFOPEDIA
     listOrder: 1705
 
   - id: STR_STORY_REPORT_7
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
-    #requires:
-      #- STR_STORY_REPORT_7
+    requires:
+      - STR_STORY_REPORT_7
     text: STR_STORY_REPORT_7_UFOPEDIA
     listOrder: 1706
 
   - id: STR_STORY_REPORT_8
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
-    #requires:
-      #- STR_STORY_REPORT_8
+    requires:
+      - STR_STORY_REPORT_8
     text: STR_STORY_REPORT_8_UFOPEDIA
     listOrder: 1707
 
@@ -610,7 +610,7 @@ ufopaedia:
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
     #requires:
-      #- STR_MARS_ORBITAL_DEFENSE_REPORT
+     # - STR_MARS_ORBITAL_DEFENSE_REPORT
     text: STR_MARS_ORBITAL_DEFENSE_REPORT_UFOPEDIA
     listOrder: 1710
 
@@ -618,71 +618,71 @@ ufopaedia:
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
     #requires:
-      #- STR_UNEXCOM_MARS_DEPLOYMENT_REPORT
+    #  - STR_UNEXCOM_MARS_DEPLOYMENT_REPORT
     text: STR_UNEXCOM_MARS_DEPLOYMENT_REPORT_UFOPEDIA
     listOrder: 1715
 
   - id: STR_FACTIONS_REPORT_USSF
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
-    #requires:
-      #- STR_FACTIONS_REPORT_USSF
+    requires:
+      - STR_FACTIONS_REPORT_USSF
     text: STR_FACTIONS_REPORT_USSF_UFOPEDIA
     listOrder: 1716
 
   - id: STR_FACTIONS_REPORT_NASA
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
-    #requires:
-      #- STR_FACTIONS_REPORT_NASA
+    requires:
+      - STR_FACTIONS_REPORT_NASA
     text: STR_FACTIONS_REPORT_NASA_UFOPEDIA
     listOrder: 1717
 
   - id: STR_FACTIONS_REPORT_UASCNAT_1
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
-    #requires:
-      #- STR_FACTIONS_REPORT_UASCNAT_1
+    requires:
+      - STR_FACTIONS_REPORT_UASCNAT_1
     text: STR_FACTIONS_REPORT_UASCNAT_UFOPEDIA_1
     listOrder: 1718
 
   - id: STR_FACTIONS_REPORT_UASCNAT_2
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
-    #requires:
-      #- STR_FACTIONS_REPORT_UASCNAT_2
+    requires:
+      - STR_FACTIONS_REPORT_UASCNAT_2
     text: STR_FACTIONS_REPORT_UASCNAT_UFOPEDIA_2
     listOrder: 1719
 
   - id: STR_FACTIONS_REPORT_ESA
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
-    #requires:
-      #- STR_FACTIONS_REPORT_ESA
+    requires:
+      - STR_FACTIONS_REPORT_ESA
     text: STR_FACTIONS_REPORT_ESA_UFOPEDIA
     listOrder: 1720
 
   - id: STR_FACTIONS_REPORT_VKS_1
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
-    #requires:
-      #- STR_FACTIONS_REPORT_VKS_1
+    requires:
+      - STR_FACTIONS_REPORT_VKS_1
     text: STR_FACTIONS_REPORT_VKS_UFOPEDIA_1
     listOrder: 1721
 
   - id: STR_FACTIONS_REPORT_VKS_2
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
-    #requires:
-      #- STR_FACTIONS_REPORT_VKS_2
+    requires:
+      - STR_FACTIONS_REPORT_VKS_2
     text: STR_FACTIONS_REPORT_VKS_UFOPEDIA_2
     listOrder: 1722
 
   - id: STR_FACTIONS_REPORT_INTERKOSMOS
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
-    #requires:
-      #- STR_FACTIONS_REPORT_INTERKOSMOS
+    requires:
+      - STR_FACTIONS_REPORT_INTERKOSMOS
     text: STR_FACTIONS_REPORT_INTERKOSMOS_UFOPEDIA
     listOrder: 1723
 
@@ -697,24 +697,24 @@ ufopaedia:
   - id: STR_SOVIET_PSIONIC_CORPS_REPORT_1
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
-    #requires:
-      #- STR_SOVIET_PSIONIC_CORPS_REPORT_1
+    requires:
+      - STR_SOVIET_PSIONIC_CORPS_REPORT_1
     text: STR_SOVIET_PSIONIC_CORPS_REPORT_1_UFOPEDIA
     listOrder: 1730
 
   - id: STR_NATO_CYBORG_OPERATORS_REPORT_1
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
-    #requires:
-      #- STR_NATO_CYBORG_OPERATORS_REPORT_1
+    requires:
+      - STR_NATO_CYBORG_OPERATORS_REPORT_1
     text: STR_NATO_CYBORG_OPERATORS_REPORT_1_UFOPEDIA
     listOrder: 1740
 
   - id: STR_NATO_CYBORG_OPERATORS_REPORT_2
     type_id: 8
     section: STR_UNEXCOM_RESEARCH
-    #requires:
-      #- STR_NATO_CYBORG_OPERATORS_REPORT_2
+    requires:
+      - STR_NATO_CYBORG_OPERATORS_REPORT_2
     text: STR_NATO_CYBORG_OPERATORS_REPORT_2_UFOPEDIA
     listOrder: 1741
 
