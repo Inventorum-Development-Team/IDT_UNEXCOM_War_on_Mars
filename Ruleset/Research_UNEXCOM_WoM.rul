@@ -5,6 +5,15 @@ research:
   - name: STR_ETHEREAL_INSURGENCY_REPORT_1
     cost: 500
     points: 50
+    getOneFree:
+      - STR_CEREBREAL
+      - STR_REPTOID
+      - STR_TUNLUN
+      - STR_SECTOID
+      - STR_SECTOID_COMMANDER
+      - STR_ARMORED_SECTOID
+      - STR_FLOATER
+      
   - name: STR_ETHEREAL_INSURGENCY_REPORT_2
     cost: 500
     points: 50
@@ -58,25 +67,10 @@ research:
       - STR_ARMORED_FLOATER_NAVIGATOR
       - STR_ARMORED_FLOATER_SOLDIER
       - STR_REAPER_TERRORIST
-      - STR_REPTOID_COMMANDER
-      - STR_REPTOID_LEADER
-      - STR_REPTOID_ENGINEER
-      - STR_REPTOID_MEDIC
-      - STR_REPTOID_NAVIGATOR
-      - STR_REPTOID_SOLDIER
-      - STR_SALAMANDRON_TERRORIST
-      - STR_CHTONITE_COMMANDER
-      - STR_CHTONITE_LEADER
-      - STR_CHTONITE_ENGINEER
-      - STR_CHTONITE_MEDIC
-      - STR_CHTONITE_NAVIGATOR
-      - STR_CHTONITE_SOLDIER
-      - STR_TUNLUN_TERRORIST
-      - STR_CEREBREAL_COMMANDER
-      - STR_CEREBREAL_LEADER
-      - STR_CEREBREAL_NAVIGATOR
-      - STR_CEREBREAL_SOLDIER
-      - STR_CEREBREAL_LARVA_TERRORIST
+      - STR_MECHTOID
+      - STR_CYBERSPHERE
+      - STR_PROBE
+
   - name: STR_ETHEREAL_INSURGENCY_REPORT_3
     cost: 500
     points: 50
@@ -94,17 +88,11 @@ research:
       - STR_FLOATER_LEADER
       - STR_ARMORED_FLOATER_COMMANDER
       - STR_ARMORED_FLOATER_LEADER
-      - STR_REPTOID_COMMANDER
-      - STR_REPTOID_LEADER
-      - STR_CHTONITE_COMMANDER
-      - STR_CHTONITE_LEADER
-      - STR_CEREBREAL_COMMANDER
-      - STR_CEREBREAL_LEADER
       - STR_MUTON_LEADER
       - STR_ARMORED_MUTON_LEADER    
 
   - name: STR_SECTOID_COMMANDER
-    cost: 0
+    cost: 1
     points: 50
     needItem: true
     destroyItem: true
@@ -465,3 +453,63 @@ research:
     points: 0
     dependencies:
       - STR_ALIENS_ONLY
+
+####################
+
+  - name: STR_STORY_REPORT_2
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_STORY_REPORT_3
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_STORY_REPORT_4
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_STORY_REPORT_5
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_STORY_REPORT_6
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_STORY_REPORT_7
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_STORY_REPORT_8
+    cost: 0
+    points: 1
+    needItem: true
+
+  - name: STR_FACTIONS_REPORT_USSF
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_STORY_REPORT_3
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_STORY_REPORT_4
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_STORY_REPORT_5
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_STORY_REPORT_6
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_STORY_REPORT_7
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_STORY_REPORT_8
+    cost: 0
+    points: 1
+    needItem: true
