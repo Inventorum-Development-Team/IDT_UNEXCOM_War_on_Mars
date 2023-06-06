@@ -2078,6 +2078,9 @@ en-US:
       STR_USSR_LASER_CARBINES: "VKS Laser Carbines"
       STR_USSR_LASER_CLOSE_RANGE_WEAPONS: "VKS Laser Close-Range Weapons"
       STR_USSR_LASER_HEAVY_WEAPONS: "VKS Laser Heavy Weapons"
+      
+      STR_SECRET_CRISIS_PROTOTYPES: "UN Heavy Ordnance Requisition"
+      STR_SECRET_CRISIS_PROTOTYPES_UFOPEDIA: "The unexpected alien resistance pushed us to request the Security Council for authorization to employ high-end equipment, usually reserved for situations where enemy armored assets are field against the United Nations units. These sets of weaponry were refined after the limited yet highly effective use in the later stages of the 1972-1974 conflict, themselves the successors of the first high-tech prototypes made several decades ago. UNEXCOM is the only military force allowed to use them. {NEWLINE}{NEWLINE} The UNSC sees our request as a sing of escalation in the conflict and has agreed, albeit with certain reluctancy. "
 
 ###########################################
       STR_UNITED_WE_STAND_RESEARCH: "United We Stand"
