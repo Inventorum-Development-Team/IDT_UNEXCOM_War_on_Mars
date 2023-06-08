@@ -1,6 +1,10 @@
 # spellchecker:words Stratofortress Skyhawks Thunderchiefs Leonov
 eventScripts:
-
+  - type: STR_WELCOME_MESSAGES_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_WELCOME_MESSAGE_1_EVENT
+     - STR_WELCOME_MESSAGE_2_EVENT
+    firstMonth: 0
 
   - type: STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_SCRIPT
     oneTimeSequentialEvents:
@@ -23,6 +27,23 @@ eventScripts:
 
 events:
 #    regionList: [STR_ARCTIC, STR_NORTH_AMERICA, STR_EUROPE, STR_SOUTH_AMERICA, STR_NORTH_AFRICA, STR_SOUTHERN_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA, STR_NORTH_PACIFIC, STR_SOUTH_PACIFIC, STR_NORTH_ATLANTIC, STR_SOUTH_ATLANTIC, STR_INDIAN_OCEAN]
+
+  - name: STR_WELCOME_MESSAGE_1_EVENT
+    description: STR_WELCOME_MESSAGE_1_EVENT_DESCRIPTION
+    background: BACK01.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 10
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_WELCOME_MESSAGE_2_EVENT
+    description: STR_WELCOME_MESSAGE_2_EVENT_DESCRIPTION
+    background: BACK05.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 10
+    timer: 180
+    timerRandom: 43500
+
 #############################
 ###### STORY EVENTS ########
 ###########################
