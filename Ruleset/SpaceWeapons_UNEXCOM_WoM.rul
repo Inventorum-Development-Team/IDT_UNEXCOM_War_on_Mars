@@ -1024,7 +1024,7 @@ extraStrings:
       STR_M17_CARBINE: "M17 Light Carbine"
       STR_M17_CARBINE_UFOPEDIA: "A specially adapted XM117 carbine, used by reserve units deployed in outer space. All the polymer surfaces were painted with a reflecting coating to avoid overheating in space. A x4 scope is added to help the astronauts in aiming using their helmet."
       STR_AK79_RIFLE: "AK79 Assault Rifle"
-      STR_AK79_RIFLE_UFOPEDIA: "This Kalashnikov was modified to be used by cosmonauts, first deployed in the initial landings of Operation Sledgehammer. It's basically a regular AKM but with polymer handguard and trigger guard, plus a folding stock. The Kalash is highly reliable in all kind of environments, even space."
+      STR_AK79_RIFLE_UFOPEDIA: "This Kalashnikov was modified to be used by cosmonauts, first deployed in the initial landings of Operation Cleanup. It's basically a regular AKM but with polymer handguard and trigger guard, plus a folding stock. The Kalash is highly reliable in all kind of environments, even space."
       STR_MK119_SPACE_RIFLE: Mk119 SCAR
       STR_MK119_SPACE_RIFLE_AP_CLIP: Mk119 SCAR AP Mag
       STR_MK119_SPACE_RIFLE_FLECHETTE_CLIP: Mk119 SCAR Shredder Mag
@@ -1039,4 +1039,4 @@ extraStrings:
       STR_G11_CASELESS_RIFLE_UFOPEDIA: A West German revolutionary design, equipped by NATO soldiers deployed in outer space. Initially was seen with distrust by NATO partners, it was developed during the War of 1972, but eventually proved its worth on the Moon Campaign between 1975 and 1977. It features a free-floating barrel and a x4 optical sight, which greatly improves its accuracy.
       STR_TKB1980_CASELESS_RIFLE: TKB-80 Special Rifle
       STR_TKB1980_CASELESS_RIFLE_MAG: "5.45mm Caseless Mag (x45)"
-      STR_TKB1980_CASELESS_RIFLE_UFOPEDIA: Nicknamed (incorrectly) 'Space Kalash' by western soldiers who have seen it in action, this novel rifle created by the Tula Arms Factory and designed by the (little known) genius German A. Korobov, is based on a prototype created in the 60s originally called TKB-022PM. This rifle is very effective, approximately twice as accurate as an AKM, and has been adapted to fire caseless projectiles in low-gravity environments.
+      STR_TKB1980_CASELESS_RIFLE_UFOPEDIA: Nicknamed (incorrectly) 'Space Kalash' by western soldiers who have seen it in action, this novel rifle created by the Tula Arms Factory and designed by German A. Korobov, is based on a prototype created in the 60s originally called TKB-022PM. This rifle is very effective, approximately twice as accurate as an AKM, and has been adapted to fire caseless projectiles in low-gravity environments.
