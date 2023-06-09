@@ -62,16 +62,16 @@ missionScripts:
     useTable: false
     startDelay: 21600 # 15 Days
     executionOdds: 100
-    firstMonth: 3
-    lastMonth: 6
+    firstMonth: 8
+    lastMonth: 12
     maxRuns: 6
 
   - type: guerrillaStart
     missionWeights:
       0:
         STR_INVASION_START: 100
-    firstMonth: 2
-    lastMonth: 4
+    firstMonth: 8
+    lastMonth: 10
     executionOdds: 100
     raceWeights:
       0:
@@ -89,22 +89,22 @@ missionScripts:
     randomDelay: 43500
     targetBaseOdds: 100
     minScore: 1000
-    firstMonth: 5
+    firstMonth: 8
     useTable: false
 
   - type: AirSuperiority1
     missionWeights:
       0:
         STR_AIR_SUPERIORITY_1: 100
-    firstMonth: 3
+    firstMonth: 5
     startDelay: 1000
     minScore: 800
     maxScore: 1299
     randomDelay: 20000
 
   - type: counterAttack_AcidaliaPlanitia1
-    firstMonth: 2
-    lastMonth: 3
+    firstMonth: 8
+    lastMonth: 10
     executionOdds: 100
     missionWeights:
       0:
@@ -113,8 +113,8 @@ missionScripts:
       0: 
         STR_ACIDALIA_PLANITIA: 100
   - type: counterAttack_AcidaliaPlanitia2
-    firstMonth: 3
-    lastMonth: 4
+    firstMonth: 10
+    lastMonth: 12
     executionOdds: 75
     missionWeights:
       0:
@@ -123,8 +123,8 @@ missionScripts:
       0: 
         STR_ACIDALIA_PLANITIA: 100
   - type: counterAttack_AcidaliaPlanitia3
-    firstMonth: 4
-    lastMonth: 5
+    firstMonth: 12
+    lastMonth: 14
     executionOdds: 50
     missionWeights:
       0:
@@ -134,8 +134,8 @@ missionScripts:
         STR_ACIDALIA_PLANITIA: 100
 
   - type: counterAttack_VastitasBorealis1
-    firstMonth: 2
-    lastMonth: 3
+    firstMonth: 8
+    lastMonth: 10
     executionOdds: 100
     missionWeights:
       0:
@@ -144,8 +144,8 @@ missionScripts:
       0: 
         STR_VASTITAS_BOREALIS: 100
   - type: counterAttack_VastitasBorealis2
-    firstMonth: 3
-    lastMonth: 4
+    firstMonth: 10
+    lastMonth: 12
     executionOdds: 75
     missionWeights:
       0:
@@ -154,8 +154,8 @@ missionScripts:
       0: 
         STR_VASTITAS_BOREALIS: 100
   - type: counterAttack_VastitasBorealis3
-    firstMonth: 4
-    lastMonth: 5
+    firstMonth: 12
+    lastMonth: 14
     executionOdds: 50
     missionWeights:
       0:
@@ -165,8 +165,8 @@ missionScripts:
         STR_VASTITAS_BOREALIS: 100
 
   - type: counterAttack_TerraMeridani1
-    firstMonth: 2
-    lastMonth: 3
+    firstMonth: 8
+    lastMonth: 10
     executionOdds: 100
     missionWeights:
       0:
@@ -175,8 +175,8 @@ missionScripts:
       0: 
         STR_TERRA_MERIDIANI: 100
   - type: counterAttack_TerraMeridani2
-    firstMonth: 3
-    lastMonth: 4
+    firstMonth: 10
+    lastMonth: 12
     executionOdds: 75
     missionWeights:
       0:
@@ -185,8 +185,8 @@ missionScripts:
       0: 
         STR_TERRA_MERIDIANI: 100
   - type: counterAttack_TerraMeridani3
-    firstMonth: 4
-    lastMonth: 5
+    firstMonth: 12
+    lastMonth: 14
     executionOdds: 50
     missionWeights:
       0:
@@ -196,8 +196,8 @@ missionScripts:
         STR_TERRA_MERIDIANI: 100
 
   - type: counterAttack_ArabiaTerra1
-    firstMonth: 2
-    lastMonth: 3
+    firstMonth: 8
+    lastMonth: 10
     executionOdds: 100
     missionWeights:
       0:
@@ -206,8 +206,8 @@ missionScripts:
       0: 
         STR_ARABIA_TERRA: 100
   - type: counterAttack_ArabiaTerra2
-    firstMonth: 3
-    lastMonth: 4
+    firstMonth: 10
+    lastMonth: 12
     executionOdds: 75
     missionWeights:
       0:
@@ -216,8 +216,8 @@ missionScripts:
       0: 
         STR_ARABIA_TERRA: 100
   - type: counterAttack_ArabiaTerra3
-    firstMonth: 4
-    lastMonth: 5
+    firstMonth: 12
+    lastMonth: 14
     executionOdds: 50
     missionWeights:
       0:
@@ -227,8 +227,8 @@ missionScripts:
         STR_ARABIA_TERRA: 100
 
   - type: counterAttack_ElysiumPlanitia1
-    firstMonth: 2
-    lastMonth: 3
+    firstMonth: 8
+    lastMonth: 10
     executionOdds: 100
     missionWeights:
       0:
@@ -237,8 +237,8 @@ missionScripts:
       0: 
         STR_ELYSIUM_PLANITIA: 100
   - type: counterAttack_ElysiumPlanitia2
-    firstMonth: 3
-    lastMonth: 4
+    firstMonth: 10
+    lastMonth: 12
     executionOdds: 75
     missionWeights:
       0:
@@ -247,8 +247,8 @@ missionScripts:
       0: 
         STR_ELYSIUM_PLANITIA: 100
   - type: counterAttack_ElysiumPlanitia3
-    firstMonth: 4
-    lastMonth: 5
+    firstMonth: 12
+    lastMonth: 14
     executionOdds: 50
     missionWeights:
       0:
@@ -258,8 +258,8 @@ missionScripts:
         STR_ELYSIUM_PLANITIA: 100
 
   - type: counterAttack_AmazonisPlanitia1
-    firstMonth: 2
-    lastMonth: 3
+    firstMonth: 8
+    lastMonth: 10
     executionOdds: 100
     missionWeights:
       0:
@@ -268,8 +268,8 @@ missionScripts:
       0: 
         STR_AMAZONIS_PLANITIA: 100
   - type: counterAttack_AmazonisPlanitia2
-    firstMonth: 3
-    lastMonth: 4
+    firstMonth: 10
+    lastMonth: 12
     executionOdds: 75
     missionWeights:
       0:
@@ -278,8 +278,8 @@ missionScripts:
       0: 
         STR_AMAZONIS_PLANITIA: 100
   - type: counterAttack_AmazonisPlanitia3
-    firstMonth: 4
-    lastMonth: 5
+    firstMonth: 12
+    lastMonth: 14
     executionOdds: 50
     missionWeights:
       0:
@@ -289,8 +289,8 @@ missionScripts:
         STR_AMAZONIS_PLANITIA: 100
 
   - type: counterAttack_TerraSirenum1
-    firstMonth: 2
-    lastMonth: 3
+    firstMonth: 8
+    lastMonth: 10
     executionOdds: 100
     missionWeights:
       0:
@@ -299,8 +299,8 @@ missionScripts:
       0: 
         STR_TERRA_SIRENUM: 100
   - type: counterAttack_TerraSirenum2
-    firstMonth: 3
-    lastMonth: 4
+    firstMonth: 10
+    lastMonth: 12
     executionOdds: 75
     missionWeights:
       0:
@@ -309,8 +309,8 @@ missionScripts:
       0: 
         STR_TERRA_SIRENUM: 100
   - type: counterAttack_TerraSirenum3
-    firstMonth: 4
-    lastMonth: 5
+    firstMonth: 12
+    lastMonth: 14
     executionOdds: 50
     missionWeights:
       0:
@@ -320,8 +320,8 @@ missionScripts:
         STR_TERRA_SIRENUM: 100
 
   - type: counterAttack_ArgyrePlanitia1
-    firstMonth: 2
-    lastMonth: 3
+    firstMonth: 8
+    lastMonth: 10
     executionOdds: 100
     missionWeights:
       0:
@@ -330,8 +330,8 @@ missionScripts:
       0: 
         STR_ARGYRE_PLANITIA: 100
   - type: counterAttack_ArgyrePlanitia2
-    firstMonth: 3
-    lastMonth: 4
+    firstMonth: 10
+    lastMonth: 12
     executionOdds: 75
     missionWeights:
       0:
@@ -340,8 +340,8 @@ missionScripts:
       0: 
         STR_ARGYRE_PLANITIA: 100
   - type: counterAttack_ArgyrePlanitia3
-    firstMonth: 4
-    lastMonth: 5
+    firstMonth: 12
+    lastMonth: 14
     executionOdds: 50
     missionWeights:
       0:
@@ -351,8 +351,8 @@ missionScripts:
         STR_ARGYRE_PLANITIA: 100
 
   - type: counterAttack_NoachisTerra1
-    firstMonth: 2
-    lastMonth: 3
+    firstMonth: 8
+    lastMonth: 10
     executionOdds: 100
     missionWeights:
       0:
@@ -361,8 +361,8 @@ missionScripts:
       0: 
         STR_NOACHIS_TERRA: 100
   - type: counterAttack_NoachisTerra2
-    firstMonth: 3
-    lastMonth: 4
+    firstMonth: 10
+    lastMonth: 12
     executionOdds: 75
     missionWeights:
       0:
@@ -371,8 +371,8 @@ missionScripts:
       0: 
         STR_NOACHIS_TERRA: 100
   - type: counterAttack_NoachisTerra3
-    firstMonth: 4
-    lastMonth: 5
+    firstMonth: 12
+    lastMonth: 14
     executionOdds: 50
     missionWeights:
       0:
@@ -382,8 +382,8 @@ missionScripts:
         STR_NOACHIS_TERRA: 100
 
   - type: counterAttack_HellaPlanitia1
-    firstMonth: 2
-    lastMonth: 3
+    firstMonth: 8
+    lastMonth: 10
     executionOdds: 100
     missionWeights:
       0:
@@ -392,8 +392,8 @@ missionScripts:
       0: 
         STR_HELLAS_PLANITIA: 100
   - type: counterAttack_HellaPlanitia2
-    firstMonth: 3
-    lastMonth: 4
+    firstMonth: 10
+    lastMonth: 12
     executionOdds: 75
     missionWeights:
       0:
@@ -402,8 +402,8 @@ missionScripts:
       0: 
         STR_HELLAS_PLANITIA: 100
   - type: counterAttack_HellaPlanitia3
-    firstMonth: 4
-    lastMonth: 5
+    firstMonth: 12
+    lastMonth: 14
     executionOdds: 50
     missionWeights:
       0:
@@ -413,8 +413,8 @@ missionScripts:
         STR_HELLAS_PLANITIA: 100
 
   - type: counterAttack_TerraCimmeria1
-    firstMonth: 2
-    lastMonth: 3
+    firstMonth: 8
+    lastMonth: 10
     executionOdds: 100
     missionWeights:
       0:
@@ -423,8 +423,8 @@ missionScripts:
       0: 
         STR_TERRA_CIMMERIA: 100
   - type: counterAttack_TerraCimmeria2
-    firstMonth: 3
-    lastMonth: 4
+    firstMonth: 10
+    lastMonth: 12
     executionOdds: 75
     missionWeights:
       0:
@@ -433,8 +433,8 @@ missionScripts:
       0: 
         STR_TERRA_CIMMERIA: 100
   - type: counterAttack_TerraCimmeria3
-    firstMonth: 4
-    lastMonth: 5
+    firstMonth: 12
+    lastMonth: 14
     executionOdds: 50
     missionWeights:
       0:
@@ -461,6 +461,6 @@ missionScripts:
     useTable: false
     startDelay: 21600 # 15 Days
     executionOdds: 100
-    firstMonth: 12
-    lastMonth: 13
-    maxRuns: 1
+    firstMonth: 16
+    lastMonth: 18
+    maxRuns: 3
