@@ -2482,7 +2482,7 @@ en-US:
 #####################
 
       STR_WELCOME_MESSAGE_1_EVENT: "Incoming message from Security Council"
-      STR_WELCOME_MESSAGE_1_EVENT_DEWCRIPTION: "Welcome to Mars, Commander! As you know, we have an ongoing situation related to a growing number of reports of hostiles harassing our facilities and outposts. Allied forces are utterly incapable of a proper response. As a veteran of both Downfall and the Lunar Campaign, plus your expertise in space warfare, you were ordered to lead the Task Force Crimson, UNEXCOM's finest brigade. Your job isn't an easy one, as you have to pacify a whole planet. But we trust you're the right person for the challenge. Good luck and good hunting."
+      STR_WELCOME_MESSAGE_1_EVENT_DESCRIPTION: "Welcome to Mars, Commander! As you know, we have an ongoing situation related to a growing number of reports of hostiles harassing our facilities and outposts. Allied forces are utterly incapable of a proper response. As a veteran of both Downfall and the Lunar Campaign, plus your expertise in space warfare, you were ordered to lead the Task Force Crimson, UNEXCOM's finest brigade. Your job isn't an easy one, as you have to pacify a whole planet. But we trust you're the right person for the challenge. Good luck and good hunting."
       
       STR_WELCOME_MESSAGE_2_EVENT: "UNEXCOM HQ technical report from Science Staff"
       STR_WELCOME_MESSAGE_2_EVENT_DESCRIPTION: "We just unpacked our assets, Commander. The crew ran several tests and evaluations, the outpost seems functional. We found an issue, however. A malfunction in the Comms relay corrupted the data package from Berlin, crippling most of the Unified Field Operations Database (the so-called 'UFOPedia') available to us. Our technicians are working to restore it, each research topic completed should give us access to one Pedia entry, although we're unsure which one. Besides that, the base is ready for combat operations. Orbital Drop base modules are likewise available upon request."
@@ -2525,8 +2525,16 @@ en-US:
 
        STR_BRITISH_SOLDIERS_DIG_IN_MARINER_TRENCH_EVENT: "The British dig in the Mariner Trench"
        STR_BRITISH_SOLDIERS_DIG_IN_MARINER_TRENCH_EVENT_DESCRIPTION: "We have received reports of a battalion of the 51st (Highland) Division holding their ground in the western side of the Valles Marineris, near the Noctis Labyrinthus. The UASCNAT troops have fortified a salient now known as the 'Highlander Ridge' and have endured the worst part of the Insurrectionist counteroffensive. We have sent some supplies and ammo to them, which they thank. A couple of volunteers have joined our ranks as well."
+       
+       
 
 #SOLDIERS
+
+      STR_SUPPLY_ROCKET_IN_ORBIT_EVENT: "Supply rocket arrived to Mars orbit"
+      STR_SUPPLY_ROCKET_IN_ORBIT_EVENT_DESCRIPTION: "A conventional NERVA rocket carrying supplies has just completed its Hohmann transfer orbit. In order to begin decent maneuvers unnoticed to avoid enemy SAM attacks, it will complete a couple of orbits around the planet before heading towards the designated drop point. You will be notified once our troops recover the assets."
+      
+      STR_SUPPLY_ROCKET_SHOT_DOWN_EVENT: "Supply rocket destroyed in orbit"
+      STR_SUPPLY_ROCKET_SHOT_DOWN_EVENT_DESCRIPTION: "Unfortunately, the expected pod was intercepted before completing the decent. The unmanned vehicle and its cargo was completely lost. Our forward recon observers couldn't adquire the location of the Surface-To-Air Missile Battery before the Insurgents managed to discreetly evacuate. This situation was outside our control, Commander. "
 
 ##########################################
 ########## COMMENDATIONS ###############
