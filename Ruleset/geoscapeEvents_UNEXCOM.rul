@@ -11,6 +11,19 @@ eventScripts:
      - STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT
     firstMonth: 2
 
+  - type: STR_SUCCESFUL_SMALL_SUPPLY_RUN_MONTH_3_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_SUPPLY_ROCKET_IN_ORBIT_EVENT
+     - STR_SMALL_SUPPLY_DROP_EVENT
+    firstMonth: 3
+    executionOdds: 50
+
+  - type: STR_FAILURE_SMALL_SUPPLY_RUN_MONTH_3_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_SUPPLY_ROCKET_IN_ORBIT_EVENT
+     - STR_SMALL_SUPPLY_DROP_EVENT
+    firstMonth: 3
+    executionOdds: 50
 
 # - type: STR_TEST_EVENT_SCRIPT
 #    eventWeights:                 # randomly generated repeatable events
@@ -27,6 +40,10 @@ eventScripts:
 
 events:
 #    regionList: [STR_ARCTIC, STR_NORTH_AMERICA, STR_EUROPE, STR_SOUTH_AMERICA, STR_NORTH_AFRICA, STR_SOUTHERN_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA, STR_NORTH_PACIFIC, STR_SOUTH_PACIFIC, STR_NORTH_ATLANTIC, STR_SOUTH_ATLANTIC, STR_INDIAN_OCEAN]
+
+###############################
+###### WELCOME EVENTS ########
+#############################
 
   - name: STR_WELCOME_MESSAGE_1_EVENT
     description: STR_WELCOME_MESSAGE_1_EVENT_DESCRIPTION
@@ -55,7 +72,69 @@ events:
     timer: 180
     timerRandom: 43500
 
+  - name: STR_UN_FLEET_ARRIVING_EVENT
+    description: STR_UN_FLEET_ARRIVING_EVENT_DESCRIPTION
+    background: UN_FLEET_ARRIVING_EVENT_BACKGROUND
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
 
+#############################
+###### SUPPLY EVENTS #######
+###########################
+
+  - name: STR_SUPPLY_ROCKET_IN_ORBIT_EVENT
+    description: STR_SUPPLY_ROCKET_IN_ORBIT_EVENT_DESCRIPTION
+    background: SUPPLY_ROCKET_IN_ORBIT_EVENT_BACKGROUND
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 5
+    timer: 180
+    timerRandom: 180
+
+  - name: STR_SUPPLY_ROCKET_SHOT_DOWN_EVENT
+    description: STR_SUPPLY_ROCKET_SHOT_DOWN_EVENT_DESCRIPTION
+    background: BACK05.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: -10
+    timer: 180
+    timerRandom: 180
+
+  - name: STR_SMALL_SUPPLY_DROP_EVENT
+    description: STR_SMALL_SUPPLY_DROP_EVENT_DESCRIPTION
+    background: SMALL_SUPPLY_DROP_EVENT_BACKGROUND
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+    everyItemList:
+      - STR_M17
+      - STR_5_56MM_NATO_RIFLE_X30
+      - STR_5_56MM_NATO_RIFLE_X30
+      - STR_BATTERY
+      - STR_BATTERY
+      - STR_BIO_FOAM
+      - STR_BIO_FOAM
+      - STR_MEDI_KIT
+      - STR_MEDI_KIT
+
+  - name: STR_LARGE_SUPPLY_DROP_EVENT
+    description: STR_LARGE_SUPPLY_DROP_EVENT_DESCRIPTION
+    background: LARGE_SUPPLY_DROP_EVENT_BACKGROUND
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+    everyItemList:
+      - STR_BATTERY
+      - STR_BATTERY
+      - STR_BATTERY
+      - STR_BIO_FOAM
+      - STR_BIO_FOAM
+      - STR_BIO_FOAM
+      - STR_MEDI_KIT
+      - STR_MEDI_KIT
+      - STR_MEDI_KIT
 
 extraSprites:
 ##########################################
@@ -67,6 +146,18 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/GROUND_BATTLE_EVENT_BACKGROUND.PNG
+  - type: SUPPLY_ROCKET_IN_ORBIT_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/SUPPLY_ROCKET_IN_ORBIT_EVENT_BACKGROUND.PNG
+  - type: SMALL_SUPPLY_DROP_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/SMALL_SUPPLY_DROP_EVENT_BACKGROUND.PNG
   - type: LARGE_SUPPLY_DROP_EVENT_BACKGROUND
     singleImage: true
     width: 320
@@ -79,3 +170,9 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_BACKGROUND.PNG
+- type: UN_FLEET_ARRIVING_EVENT_BACKGROUND
+  singleImage: true
+  width: 320
+  height: 200
+  files:
+    0: Resources/Backgrounds/UN_FLEET_ARRIVING_EVENT_BACKGROUND.PNG
