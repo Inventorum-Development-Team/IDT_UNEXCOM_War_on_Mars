@@ -2505,6 +2505,12 @@ en-US:
   #STR_
       STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT: "Recon probes confirm increase in Insurgent activity"
       STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_DESCRIPTION: "There are aliens everywhere, dude. Be careful, they gonna kick your ass anytime soon."
+      
+      STR_RESCUE_SIGNAL_BROADCASTING_EVENT: "Rescue signal broadcasted"
+      STR_RESCUE_SIGNAL_BROADCASTING_EVENT_DESCRIPTION: "Shortly after the destruction of the Signal Jammer, we were able to emit a pulse towards our homeworld, albeit weak. The message was short and concrete: 'We are still on the fight. And we will not ssurrender' . The UNSC assured us a reinforcement fleet is being ensembled and will be dispatched as soon as possible, meanwhile conventional rockets will be sent with supplies. "
+     
+      STR_UN_FLEET_ARRIVING_EVENT: "UN fleet arriving to orbit"
+      STR_UN_FLEET_ARRIVING_EVENT_DESCRIPTION: "The cavalry is here. Fresh reinforcements from Earth, plus additional equipment by the UN First Fleet. A barrage of lasers cannon fire and Fusion missiles broke the enemy's advance. Most of their outposts and facilities were destroyed. "
 
 # Act 1
       STR_6TH_ANNIVERSARY_SNAKE_REMOVAL_EVENT: "6th Anniversary of Removal of Alien Presence"
