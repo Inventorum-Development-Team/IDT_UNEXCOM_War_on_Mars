@@ -24,6 +24,7 @@ units:
     builtInWeaponSets:
       -
         - STR_M1972_LASER_PISTOL
+        - STR_BATTERY
       -
         - STR_DUCT_TAPE
       -
@@ -140,7 +141,38 @@ units:
         - STR_BATTERY
         - STR_BIOFOAM
 
-  - type: STR_ALLIED_SOVIET_COSMONAUT
+  - type: STR_SOVIET_COSMONAUT
+    race: STR_ALLIED
+    stats:
+      tu: 70
+      stamina: 70
+      health: 50
+      bravery: 80
+      reactions: 64
+      firing: 64
+      throwing: 52
+      strength: 70
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_ASTRONAUT_KRECHET94_SPACESUIT_UC
+    standHeight: 21
+    kneelHeight: 16
+    value: 19
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 5
+    aggression: 2
+    builtInWeaponSets:
+      -
+        - STR_P72_COMPACT_LASER
+        - STR_BATTERY
+      -
+        - STR_DUCT_TAPE
+      -
+        - STR_BIOFOAM
+
+  - type: STR_SOVIET_RIFLEMAN
     race: STR_ALLIED
     stats:
       tu: 70
@@ -165,7 +197,86 @@ units:
     builtInWeaponSets:
       -
         - STR_ALK72_LASER_RIFLE
+        - STR_BATTERY
+        - STR_BATTERY
+      -
+        - STR_TKB1980_CASELESS_RIFLE
+        - STR_TKB1980_CASELESS_RIFLE_MAG
+        - STR_TKB1980_CASELESS_RIFLE_MAG
       -
         - STR_KHARITONOV_LASER_BATTLE_RIFLE
+        - STR_BATTERY
+        - STR_BATTERY
+
+  - type: STR_SOVIET_ASSAULT
+    race: STR_ALLIED
+    stats:
+      tu: 70
+      stamina: 70
+      health: 50
+      bravery: 80
+      reactions: 64
+      firing: 64
+      throwing: 52
+      strength: 70
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_ASTRONAUT_KRECHET94_SPACESUIT_UC
+    standHeight: 21
+    kneelHeight: 16
+    value: 19
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 5
+    aggression: 2
+    builtInWeaponSets:
       -
         - STR_ALP_SUBMACHINE_LASER
+        - STR_BATTERY
+        - STR_BATTERY
+      -
+        - STR_AK79_RIFLE
+        - STR_7_62MM_SOVIET_RIFLE_X40
+        - STR_7_62MM_SOVIET_RIFLE_X40
+      -
+        - STR_P72_COMPACT_LASER
+        - STR_BATTERY
+        - STR_BATTERY
+
+  - type: STR_SOVIET_SUPPORT
+    race: STR_ALLIED
+    stats:
+      tu: 70
+      stamina: 70
+      health: 50
+      bravery: 80
+      reactions: 64
+      firing: 64
+      throwing: 52
+      strength: 70
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_ASTRONAUT_KRECHET94_SPACESUIT_UC
+    standHeight: 21
+    kneelHeight: 16
+    value: 19
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 5
+    aggression: 2
+    builtInWeaponSets:
+      -
+        - STR_MIRINOV_LASER_SNIPER
+        - STR_BATTERY
+        - STR_BATTERY
+      -
+        - STR_AFINA_ANTITANK_LASER
+        - STR_BATTERY
+        - STR_BATTERY
+      -
+        - STR_AN_MACHINE_LASER
+        - STR_BATTERY
+        - STR_BIOFOAM
+
