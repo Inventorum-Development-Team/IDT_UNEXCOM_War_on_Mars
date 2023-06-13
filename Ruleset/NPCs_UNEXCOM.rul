@@ -1,5 +1,35 @@
 units:
-  - type: STR_ALLIED_AMERICAN_ASTRONAUT
+  - type: STR_AMERICAN_ASTRONAUT
+    race: STR_ALLIED
+    stats:
+      tu: 70
+      stamina: 70
+      health: 50
+      bravery: 80
+      reactions: 64
+      firing: 64
+      throwing: 52
+      strength: 70
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_ASTRONAUT_A7L_SPACESUIT_UC
+    standHeight: 21
+    kneelHeight: 16
+    value: 19
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 5
+    aggression: 2
+    builtInWeaponSets:
+      -
+        - STR_M1972_LASER_PISTOL
+      -
+        - STR_DUCT_TAPE
+      -
+        - STR_BIOFOAM
+
+  - type: STR_AMERICAN_RIFLEMAN
     race: STR_ALLIED
     stats:
       tu: 70
@@ -24,10 +54,91 @@ units:
     builtInWeaponSets:
       -
         - STR_CALBR
+        - STR_BATTERY
+        - STR_BATTERY
       -
-        - STR_M5_LASER_SMG
+        - STR_M17_CARBINE
+        - STR_5_56MM_NATO_RIFLE_X30
+        - STR_5_56MM_NATO_RIFLE_X30
+      -
+        - STR_M20_M203_LASER_CARBINE
+        - STR_BATTERY
+        - STR_40MM_FRAG
+        - STR_40MM_FRAG
+
+  - type: STR_AMERICAN_ASSAULT
+    race: STR_ALLIED
+    stats:
+      tu: 70
+      stamina: 70
+      health: 50
+      bravery: 80
+      reactions: 64
+      firing: 64
+      throwing: 52
+      strength: 70
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_ASTRONAUT_A7L_SPACESUIT_UC
+    standHeight: 21
+    kneelHeight: 16
+    value: 19
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 5
+    aggression: 2
+    builtInWeaponSets:
       -
         - STR_X4_LASER_SHOTGUN
+        - STR_BATTERY
+        - STR_GRENADE
+      -
+        - STR_M5_LASER_SMG
+        - STR_BATTERY
+        - STR_BIOFOAM
+      -
+        - STR_38_LASER_MAGNUM
+        - STR_BATTERY
+        - STR_GRENADE
+        - STR_GRENADE
+
+  - type: STR_AMERICAN_SUPPORT
+    race: STR_ALLIED
+    stats:
+      tu: 70
+      stamina: 70
+      health: 50
+      bravery: 80
+      reactions: 64
+      firing: 64
+      throwing: 52
+      strength: 70
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_ASTRONAUT_A7L_SPACESUIT_UC
+    standHeight: 21
+    kneelHeight: 16
+    value: 19
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 5
+    aggression: 2
+    builtInWeaponSets:
+      -
+        - STR_M4_LASER_LMG
+        - STR_BATTERY
+        - STR_BATTERY
+      -
+        - STR_M72_AUTOMATIC_RECOILLESS_RIFLE
+        - STR_M72_ARR_HEAT_MAG
+        - STR_M72_ARR_HE_MAG
+        - STR_M72_ARR_SMOKE_MAG
+      -
+        - STR_ELERIUM_FLAMETHROWER
+        - STR_BATTERY
+        - STR_BIOFOAM
 
   - type: STR_ALLIED_SOVIET_COSMONAUT
     race: STR_ALLIED
