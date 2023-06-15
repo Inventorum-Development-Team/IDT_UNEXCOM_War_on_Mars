@@ -170,9 +170,9 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_BACKGROUND.PNG
-- type: UN_FLEET_ARRIVING_EVENT_BACKGROUND
-  singleImage: true
-  width: 320
-  height: 200
-  files:
-    0: Resources/Backgrounds/UN_FLEET_ARRIVING_EVENT_BACKGROUND.PNG
+  - type: UN_FLEET_ARRIVING_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/UN_FLEET_ARRIVING_EVENT_BACKGROUND.PNG

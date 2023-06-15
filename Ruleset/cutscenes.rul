@@ -1,0 +1,62 @@
+
+cutscenes:
+  - delete: winGame
+  - delete: loseGame  
+  - type: winGame
+    winGame: true
+    slideshow:
+      transitionSeconds: 21
+      musicId: GMNEWMAR 
+      slides:
+        - imagePath: Resources/Cutscenes/GoodEnding_1.png
+          caption: STR_GOOD_ENDING_1
+          captionSize: [195, 56]
+          captionPos: [5, 0]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/GoodEnding_2.png
+          caption: STR_GOOD_ENDING_2
+          captionSize: [232, 64]
+          captionPos: [88, 136]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/GoodEnding_3.png
+          caption: STR_GOOD_ENDING_3
+          captionSize: [254, 48]
+          captionPos: [66, 152]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/GoodEnding_4.png
+          caption: STR_GOOD_ENDING_4
+          captionSize: [300, 200]
+          captionPos: [5, 0]
+          captionColor: 244
+
+  - type: loseGame
+    loseGame: true
+    slideshow:
+      transitionSeconds: 30
+      musicId: GMLOSE
+      slides:
+        - imagePath: Resources/Cutscenes/BadEnding_1.png
+          caption: STR_BAD_ENDING_FINAL_1
+          captionSize: [254, 48]
+          captionPos: [66, 152]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/BadEnding_2.png
+          caption: STR_BAD_ENDING_FINAL_2
+          captionSize: [200, 104]
+          captionPos: [32, 0]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/BadEnding_3.png
+          caption: STR_BAD_ENDING_FINAL_3
+          captionSize: [190, 104]
+          captionPos: [0, 0]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/BadEnding_4.png
+          caption: STR_BAD_ENDING_FINAL_4
+          captionSize: [190, 104]
+          captionPos: [0, 0]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/BadEnding_5.png
+          caption: STR_BAD_ENDING_FINAL_5
+          captionSize: [190, 104]
+          captionPos: [0, 0]
+          captionColor: 244
