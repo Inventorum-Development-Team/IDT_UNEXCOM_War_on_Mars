@@ -1,15 +1,20 @@
 units:
+
+###################
+###### USA #######
+#################
+
   - type: STR_AMERICAN_ASTRONAUT
     race: STR_ALLIED
-    stats:
-      tu: 70
+    stats: &AstronautStats
+      tu: 60
       stamina: 70
       health: 50
       bravery: 80
-      reactions: 64
-      firing: 64
-      throwing: 52
-      strength: 70
+      reactions: 80
+      firing: 40
+      throwing: 30
+      strength: 50
       psiStrength: 50
       psiSkill: 0
       melee: 50
@@ -32,18 +37,18 @@ units:
 
   - type: STR_AMERICAN_RIFLEMAN
     race: STR_ALLIED
-    stats:
-      tu: 70
-      stamina: 70
-      health: 50
-      bravery: 80
-      reactions: 64
-      firing: 64
-      throwing: 52
-      strength: 70
-      psiStrength: 50
+    stats: &RiflemanStats
+      tu: 50
+      stamina: 90
+      health: 40
+      bravery: 100
+      reactions: 40
+      firing: 65
+      throwing: 50
+      strength: 45
+      psiStrength: 35
       psiSkill: 0
-      melee: 50
+      melee: 25
     armor: STR_ASTRONAUT_A7L_SPACESUIT_UC
     standHeight: 21
     kneelHeight: 16
@@ -69,18 +74,18 @@ units:
 
   - type: STR_AMERICAN_ASSAULT
     race: STR_ALLIED
-    stats:
-      tu: 70
-      stamina: 70
-      health: 50
-      bravery: 80
-      reactions: 64
-      firing: 64
-      throwing: 52
-      strength: 70
-      psiStrength: 50
+    stats: &AssaultStats
+      tu: 65
+      stamina: 100
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 45
+      throwing: 80
+      strength: 25
+      psiStrength: 35
       psiSkill: 0
-      melee: 50
+      melee: 25
     armor: STR_ASTRONAUT_A7L_SPACESUIT_UC
     standHeight: 21
     kneelHeight: 16
@@ -106,18 +111,18 @@ units:
 
   - type: STR_AMERICAN_SUPPORT
     race: STR_ALLIED
-    stats:
-      tu: 70
+    stats: &SupportStats
+      tu: 50
       stamina: 70
-      health: 50
-      bravery: 80
-      reactions: 64
-      firing: 64
-      throwing: 52
-      strength: 70
-      psiStrength: 50
+      health: 55
+      bravery: 100
+      reactions: 50
+      firing: 65
+      throwing: 40
+      strength: 55
+      psiStrength: 35
       psiSkill: 0
-      melee: 50
+      melee: 25
     armor: STR_ASTRONAUT_A7L_SPACESUIT_UC
     standHeight: 21
     kneelHeight: 16
@@ -140,6 +145,250 @@ units:
         - STR_ELERIUM_FLAMETHROWER
         - STR_BATTERY
         - STR_BIOFOAM
+
+  - type: STR_AMERICAN_ELITE
+    race: STR_ALLIED_FORCES
+    stats: &EliteStats
+      tu: 65
+      stamina: 70
+      health: 70
+      bravery: 100
+      reactions: 66
+      firing: 75
+      throwing: 40
+      strength: 55
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+      mana: 40
+    armor: AMERICAN_SOLDIER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: 41
+    intelligence: 8
+    aggression: 8
+    builtInWeaponSets:
+      -
+        - STR_US_PLASMA_RIFLE
+        - STR_US_PLASMA_RIFLE_MAG
+        - STR_US_PLASMA_RIFLE_MAG
+        - STR_DUCT_TAPE
+        - STR_BIOFOAM
+        - STR_GRENADE
+      -
+        - STR_US_PLASMA_SHOTGUN
+        - STR_US_PLASMA_SHOTGUN_MAG
+        - STR_US_PLASMA_SHOTGUN_MAG
+        - STR_DUCT_TAPE
+        - STR_BIOFOAM
+        - STR_GRENADE
+      -
+        - STR_US_PLASMA_RL
+        - STR_US_PLASMA_RL_HEAT_ROCKET
+        - STR_US_PLASMA_RL_HEAT_ROCKET
+        - STR_US_PLASMA_RL_ELERIUM_ROCKET
+        - STR_US_PLASMA_RL_ELERIUM_ROCKET
+        - STR_DUCT_TAPE
+
+###################
+###### NATO ######
+#################
+
+  - type: STR_EUROPEAN_EURONAUT
+    race: STR_ALLIED
+    stats:
+      tu: 70
+      stamina: 70
+      health: 50
+      bravery: 80
+      reactions: 64
+      firing: 64
+      throwing: 52
+      strength: 70
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_ASTRONAUT_A7L_SPACESUIT_UC
+    standHeight: 21
+    kneelHeight: 16
+    value: 19
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 5
+    aggression: 2
+    builtInWeaponSets:
+      -
+        - STR_P71_LASER_PISTOL
+        - STR_BATTERY
+      -
+        - STR_DUCT_TAPE
+      -
+        - STR_BIOFOAM
+
+  - type: STR_EUROPEAN_RIFLEMAN
+    race: STR_ALLIED
+    stats:
+      tu: 70
+      stamina: 70
+      health: 50
+      bravery: 80
+      reactions: 64
+      firing: 64
+      throwing: 52
+      strength: 70
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_ASTRONAUT_A7L_SPACESUIT_UC
+    standHeight: 21
+    kneelHeight: 16
+    value: 19
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 5
+    aggression: 2
+    builtInWeaponSets:
+      -
+        - STR_FN_FLA_LASER_BATTLE_RIFLE
+        - STR_BATTERY
+        - STR_BATTERY
+      -
+        - STR_G11_CASELESS_RIFLE
+        - STR_G11_CASELESS_RIFLE_MAG
+        - STR_G11_CASELESS_RIFLE_MAG
+      -
+        - STR_NATO_PLASMA_CARBINE
+        - STR_NATO_PLASMA_CARBINE_MAG
+        - STR_NATO_PLASMA_CARBINE_MAG
+        - STR_GRENADE
+
+  - type: STR_EUROPEAN_ASSAULT
+    race: STR_ALLIED
+    stats:
+      tu: 70
+      stamina: 70
+      health: 50
+      bravery: 80
+      reactions: 64
+      firing: 64
+      throwing: 52
+      strength: 70
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_ASTRONAUT_A7L_SPACESUIT_UC
+    standHeight: 21
+    kneelHeight: 16
+    value: 19
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 5
+    aggression: 2
+    builtInWeaponSets:
+      -
+        - STR_MAT72_SUBMACHINE_LASER
+        - STR_BATTERY
+        - STR_GRENADE
+      -
+        - STR_P71_LASER_PISTOL
+        - STR_BATTERY
+        - STR_BIOFOAM
+      -
+        - STR_FN_FLA_LASER_CARBINE
+        - STR_BATTERY
+        - STR_BATTERY
+        - STR_GRENADE
+
+  - type: STR_EUROPEAN_SUPPORT
+    race: STR_ALLIED
+    stats:
+      tu: 70
+      stamina: 70
+      health: 50
+      bravery: 80
+      reactions: 64
+      firing: 64
+      throwing: 52
+      strength: 70
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_ASTRONAUT_A7L_SPACESUIT_UC
+    standHeight: 21
+    kneelHeight: 16
+    value: 19
+    deathSound: [41, 42, 43]
+    energyRecovery: 30
+    intelligence: 5
+    aggression: 2
+    builtInWeaponSets:
+      -
+        - STR_CHURCHILL_MARKSMAN_LASER_RIFLE
+        - STR_BATTERY
+        - STR_BIOFOAM
+      -
+        - STR_M72_AUTOMATIC_RECOILLESS_RIFLE
+        - STR_M72_ARR_HEAT_MAG
+        - STR_M72_ARR_HE_MAG
+        - STR_M72_ARR_SMOKE_MAG
+      -
+        - STR_ML73_LASER_MACHINE_GUN
+        - STR_BATTERY
+        - STR_BATTERY
+
+  - type: STR_EUROPEAN_ELITE
+    race: STR_ALLIED_FORCES
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 70
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 75
+      firing: 80
+      throwing: 80
+      strength: 50
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+      mana: 40
+    armor: EUROPEAN_SOLDIER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: 41
+    intelligence: 8
+    aggression: 8
+    builtInWeaponSets:
+      -
+        - STR_NATO_PLASMA_PISTOL
+        - STR_NATO_PLASMA_PISTOL
+        - STR_NATO_PLASMA_PISTOL_MAG
+        - STR_NATO_PLASMA_PISTOL_MAG
+        - STR_NATO_PLASMA_PISTOL_MAG
+        - STR_NATO_PLASMA_PISTOL_MAG
+        - STR_DUCT_TAPE
+        - STR_BIOFOAM
+        - STR_GRENADE
+      -
+        - STR_NATO_SNIPER_PLASMA
+        - STR_NATO_SNIPER_PLASMA_MAG
+        - STR_NATO_SNIPER_PLASMA_MAG
+        - STR_DUCT_TAPE
+        - STR_BIOFOAM
+        - STR_GRENADE
+      -
+        - STR_NATO_PLASMA_CARBINE
+        - STR_NATO_PLASMA_CARBINE_MAG
+        - STR_NATO_PLASMA_CARBINE_MAG
+        - STR_DUCT_TAPE
+        - STR_BIOFOAM
+        - STR_GRENADE
+
+###################
+###### USSR ######
+#################
 
   - type: STR_SOVIET_COSMONAUT
     race: STR_ALLIED
@@ -280,3 +529,48 @@ units:
         - STR_BATTERY
         - STR_BIOFOAM
 
+  - type: STR_SOVIET_ELITE
+    race: STR_ALLIED_FORCES
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 100
+      health: 65
+      bravery: 100
+      reactions: 70
+      firing: 75
+      throwing: 90
+      strength: 60
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+      mana: 40
+    armor: SOVIET_SOLDIER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: [41, 42, 43]
+    intelligence: 7
+    aggression: 8
+    builtInWeaponSets:
+      -
+        - STR_ALK72_LASER_RIFLE
+        - STR_BATTERY
+        - STR_BATTERY
+        - STR_DUCT_TAPE
+        - STR_BIOFOAM
+        - STR_GRENADE
+      -
+        - STR_MIRINOV_LASER_SNIPER
+        - STR_BATTERY
+        - STR_BATTERY
+        - STR_DUCT_TAPE
+        - STR_BIOFOAM
+        - STR_GRENADE
+      -
+        - STR_AN_MACHINE_LASER
+        - STR_BATTERY
+        - STR_BATTERY
+        - STR_DUCT_TAPE
+        - STR_BIOFOAM
+        - STR_GRENADE
