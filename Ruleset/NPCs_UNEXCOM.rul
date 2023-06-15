@@ -574,3 +574,87 @@ units:
         - STR_DUCT_TAPE
         - STR_BIOFOAM
         - STR_GRENADE
+
+####################
+##### ALIENS ######
+##################
+
+  - type: STR_MUTON_SOLDIER
+    race: STR_MUTON
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 125
+      bravery: 80
+      reactions: 60
+      firing: 54
+      throwing: 62
+      strength: 70
+      psiStrength: 25
+      psiSkill: 0
+      melee: 76
+    armor: MUTON_SOLDIER_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 15
+    intelligence: 2
+    aggression: 2
+    energyRecovery: 40
+
+
+armors:
+  - type: STR_ALLIED_MUTON_ARMOR
+    allowInv: true
+    spriteInv: ALLIED_MUTON_INVENTORY.SPK
+    spriteSheet: ALLIED_MUTON_SPRITESHEET.PCK
+    corpseBattle:
+      - STR_ALLIED_MUTON_CORPSE
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 10
+    drawingRoutine: 10
+    damageModifier:
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.3
+    loftempsSet: [ 3 ]
+
+items:
+  - type: STR_MUTON_SOLDIER_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 40
+    bigSprite: 3116
+    floorSprite: 3116
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+    
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+      3121: Resources/AlienFactions/Mutons/MUTON_SOLDIER_CORPSE_BIGOB.png
+
+  - type: FLOOROB.PCK
+    files:
+      3116: Resources/AlienFactions/Mutons/MUTON_SOLDIER_CORPSE_FLOOROB.png
+
+
+  - type: MUTON_SOLDIER_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AlienFactions/Mutons/MUTON_SOLDIER_INVENTORY.png
