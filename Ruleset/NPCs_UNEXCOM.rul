@@ -579,8 +579,8 @@ units:
 ##### ALIENS ######
 ##################
 
-  - type: STR_MUTON_SOLDIER
-    race: STR_MUTON
+  - type: STR_ALLIED_MUTON
+    race: STR_ALLIED_FORCES
     rank: STR_LIVE_SOLDIER
     stats:
       tu: 56
@@ -601,6 +601,19 @@ units:
     intelligence: 2
     aggression: 2
     energyRecovery: 40
+    builtInWeaponSets:
+      -
+        - STR_M17_CARBINE
+        - STR_5_56MM_NATO_RIFLE_X30
+        - STR_5_56MM_NATO_RIFLE_X30
+      -
+        - STR_AK79_RIFLE
+        - STR_7_62MM_SOVIET_RIFLE_X40
+        - STR_7_62MM_SOVIET_RIFLE_X40
+      -
+        - STR_P72_COMPACT_LASER
+        - STR_BATTERY
+        - STR_BATTERY
 
 
 armors:
@@ -630,7 +643,7 @@ armors:
     loftempsSet: [ 3 ]
 
 items:
-  - type: STR_MUTON_SOLDIER_CORPSE
+  - type: STR_ALLIED_MUTON_CORPSE
     size: 0.4
     costSell: 20000
     weight: 40
@@ -652,9 +665,17 @@ extraSprites:
       3116: Resources/AlienFactions/Mutons/MUTON_SOLDIER_CORPSE_FLOOROB.png
 
 
-  - type: MUTON_SOLDIER_INVENTORY.SPK
+  - type: ALLIED_MUTON_INVENTORY.SPK
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/AlienFactions/Mutons/MUTON_SOLDIER_INVENTORY.png
+
+  - type: ALLIED_MUTON_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1360
+    files:
+      0: Resources/AlienFactions/Mutons/MUTON_SOLDIER_SPRITESHEET.png
