@@ -1,0 +1,137 @@
+extraSprites:
+  - delete: GlobeMarkers
+  - type: GlobeMarkers
+    width: 63
+    height: 7
+    subX: 7
+    subY: 7
+    files:
+      0: Resources/GlobeMarkers/BaseGlobeMarkers.png
+  - type: GlobeMarkers # ignoreDuplicate
+    width: 610
+    height: 7
+    subX: 7
+    subY: 7
+    files:
+      9: Resources/GlobeMarkers/CraftGlobeMarkers.png
+crafts:
+
+  - type: STR_HARRIER # ignoreDuplicate
+    marker: 10
+
+  - type: STR_FORGER # ignoreDuplicate
+    marker: 15
+
+  - type: STR_COBRA # ignoreDuplicate
+    marker: 23
+  - type: STR_SABRE # ignoreDuplicate
+    marker: 24
+  - type: STR_DYNASOAR # ignoreDuplicate
+    marker: 25
+  - type: STR_MIG_105 # ignoreDuplicate
+    marker: 26
+  - type: STR_HERMES # ignoreDuplicate
+    marker: 37
+
+  #- type: STR_GALAXY # ignoreDuplicate
+  #  marker: 40
+
+  #- type: STR_XC142 # ignoreDuplicate
+  #  marker: 41
+  #- type: STR_TRANSALL # ignoreDuplicate
+  #  marker: 42
+  #- type: STR_DORNIER # ignoreDuplicate
+  #  marker: 43
+  #- type: STR_ILYUSHIN # ignoreDuplicate
+  #  marker: 44
+
+  #- type: STR_ACHILLES # ignoreDuplicate
+  #  marker: 46
+  #- type: STR_ORION # ignoreDuplicate
+  #  marker: 47
+  #- type: STR_HYPERION # ignoreDuplicate
+  #  marker: 49
+  - type: STR_SPACE_SHUTTLE # ignoreDuplicate
+    marker: 50
+
+  - type: STR_BASTION # ignoreDuplicate
+    marker: 54
+  - type: STR_FIRESTORM # ignoreDuplicate
+    marker: 55
+  - type: STR_LIGHTNING # ignoreDuplicate
+    marker: 56
+
+ufos:
+
+
+# Very Small
+  - type: STR_SMALL_SCOUT # ignoreDuplicate
+    marker: 61
+    markerLand: 66
+    markerCrash: 71
+  - type: STR_SMALL_FIGHTER # ignoreDuplicate
+    marker: 61
+    markerLand: 66
+    markerCrash: 71
+# Small
+  - type: STR_MEDIUM_SCOUT  # ignoreDuplicate
+    marker: 62
+    markerLand: 67
+    markerCrash: 72
+  - type: STR_LARGE_SCOUT # ignoreDuplicate
+    marker: 62
+    markerLand: 67
+    markerCrash: 72
+  - type: STR_FIGHTER_SHIP  # ignoreDuplicate
+    marker: 62
+    markerLand: 67
+    markerCrash: 72
+  - type: STR_SENTRY_SHIP  # ignoreDuplicate
+    marker: 62
+    markerLand: 67
+    markerCrash: 72
+  - type: STR_EXCAVATOR  # ignoreDuplicate
+    marker: 62
+    markerLand: 67
+    markerCrash: 72
+  - type: STR_OVERSEER  # ignoreDuplicate
+    marker: 62
+    markerLand: 67
+    markerCrash: 72
+# Medium
+  - type: STR_HARVESTER # ignoreDuplicate
+    marker: 63
+    markerLand: 68
+    markerCrash: 73
+  - type: STR_ABDUCTOR # ignoreDuplicate
+    marker: 63
+    markerLand: 68
+    markerCrash: 73
+# Large
+  - type: STR_TERROR_SHIP # ignoreDuplicate
+    marker: 64
+    markerLand: 69
+    markerCrash: 74
+  - type: STR_LAB_SHIP # ignoreDuplicate
+    marker: 64
+    markerLand: 69
+    markerCrash: 74
+  - type: STR_SUPPLY_SHIP # ignoreDuplicate
+    marker: 64
+    markerLand: 69
+    markerCrash: 74
+# Very Large
+  - type: STR_TROOP_LANDER # ignoreDuplicate
+    marker: 65
+    markerLand: 70
+    markerCrash: 75
+  - type: STR_BATTLESHIP # ignoreDuplicate
+    marker: 65
+    markerLand: 70
+    markerCrash: 75
+  - type: STR_CARRIER # ignoreDuplicate
+    marker: 65
+    markerLand: 70
+    markerCrash: 75
+
+
