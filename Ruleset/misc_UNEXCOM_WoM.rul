@@ -244,7 +244,7 @@ startingBase:
     STR_TKB1980_CASELESS_RIFLE: 2
     STR_TKB1980_CASELESS_RIFLE_MAG: 10
     STR_BATTERY: 20
-    STR_MEDKIT: 4
+    STR_MEDIKIT: 4
     STR_40MM_FRAG: 16
     STR_DUCT_TAPE: 10
     STR_BIO_FOAM: 16
@@ -299,15 +299,7 @@ alienItemLevels:
   - [2, 3, 3, 3, 3, 3, 4, 4, 4, 4]
   - [3, 3, 3, 3, 3, 3, 4, 4, 4, 4]
   - [3, 3, 3, 3, 3, 3, 4, 4, 4, 4]
-#############################
-#### UNDERWATER STUFF ######
-###########################
-transparencyLUTs:
-  - colors:
-      - [  8,  8, 12, 2 ] # "white"
-      - [ 16,  8,  0, 2 ] # orange
-      - [  0, 12, 12, 2 ] # cyan
-      - [  4, 16,  4, 2 ] # green
+
 
 enviroEffects:
   - type: STR_MARS_ENVIRO

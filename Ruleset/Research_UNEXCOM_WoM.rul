@@ -80,7 +80,7 @@ research:
       - STR_MECHTOID
       - STR_CYBERSPHERE
       - STR_PROBE
-      getOneFree:
+    getOneFree:
       - STR_STORY_REPORT_2
       - STR_STORY_REPORT_3
       - STR_STORY_REPORT_4
