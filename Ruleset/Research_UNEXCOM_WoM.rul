@@ -25,7 +25,7 @@ research:
       - STR_NATO_CYBORG_OPERATORS_REPORT_2
       
   - name: STR_ETHEREAL_INSURGENCY_REPORT_2
-    cost: 500
+    #cost: 500
     points: 50
     requires:
       - STR_ETHEREAL_INSURGENCY_REPORT_1
@@ -100,7 +100,7 @@ research:
       - STR_NATO_CYBORG_OPERATORS_REPORT_2
 
   - name: STR_ETHEREAL_INSURGENCY_REPORT_3
-    cost: 500
+    #cost: 500
     points: 50
     requires:
       - STR_ETHEREAL_INSURGENCY_REPORT_2
