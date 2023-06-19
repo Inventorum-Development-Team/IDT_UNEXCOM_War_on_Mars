@@ -83,7 +83,9 @@ items:
   - type: STR_UN_PLASMA_RIFLE
     categories: [STR_PLASMA, STR_FIREARMS, STR_RIFLES, STR_UNEXCOM_TECH]
     size: 0.3
+    requiresBuyCountry: STR_UN_SECTOR_1
     costSell: 60000
+    costBuy: 80000
     weight: 15
     armor: 60
     bigSprite: 3200
@@ -128,7 +130,9 @@ items:
     categories: [STR_PLASMA, STR_RIFLES, STR_ALIEN_TECH, STR_CLIPS]
     #listOrder: 5251
     size: 0.2
-    costSell: 3000
+    requiresBuyCountry: STR_UN_SECTOR_1
+    costSell: 11000
+    costBuy: 12000
     bigSprite: 1364
     floorSprite: 1367
     handSprite: 120 # ALL GOOD
