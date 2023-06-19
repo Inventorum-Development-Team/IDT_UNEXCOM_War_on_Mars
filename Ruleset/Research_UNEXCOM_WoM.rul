@@ -1,4 +1,6 @@
 research:
+
+
 #############################
 ####### ENDGAME PATH #######
 ###########################
@@ -258,6 +260,35 @@ research:
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_2
   - name: STR_SECTOID_SOLDIER
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+
+  - name: STR_ARMORED_SECTOID_ENGINEER
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+  - name: STR_ARMORED_SECTOID_MEDIC
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+  - name: STR_ARMORED_SECTOID_NAVIGATOR
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+  - name: STR_ARMORED_SECTOID_SOLDIER
     cost: 100
     points: 50
     needItem: true
