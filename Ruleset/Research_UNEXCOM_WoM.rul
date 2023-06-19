@@ -141,7 +141,66 @@ research:
     cost: 1
     points: 50
     needItem: true
-    destroyItem: true
+    destroyItem: true 
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_3
+  - name: STR_SECTOID_LEADER
+    cost: 1
+    points: 50
+    needItem: true
+    destroyItem: true 
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_3
+  - name: STR_ARMORED_SECTOID_LEADER
+    cost: 1
+    points: 50
+    needItem: true
+    destroyItem: true 
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_3
+  - name: STR_
+    cost: 1
+    points: 50
+    needItem: true
+    destroyItem: true 
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_3
+  - name: STR_SECTOID_COMMANDER
+    cost: 1
+    points: 50
+    needItem: true
+    destroyItem: true 
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_3
+  - name: STR_SECTOID_COMMANDER
+    cost: 1
+    points: 50
+    needItem: true
+    destroyItem: true 
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_3
+  - name: STR_SECTOID_COMMANDER
+    cost: 1
+    points: 50
+    needItem: true
+    destroyItem: true 
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_3
+  - name: STR_SECTOID_COMMANDER
+    cost: 1
+    points: 50
+    needItem: true
+    destroyItem: true 
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_3
+  - name: STR_SECTOID_COMMANDER
+    cost: 1
+    points: 50
+    needItem: true
+    destroyItem: true 
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_3      
+
 
   - name: STR_ARMORED_SECTOID
     cost: 0
