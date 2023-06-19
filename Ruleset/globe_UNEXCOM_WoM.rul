@@ -1361,43 +1361,53 @@ countries:
   - delete: STR_AUSTRALIA
   - delete: STR_NIGERIA
   - delete: STR_SOUTH_AFRICA
-  - type: STR_NATO_SECTOR_1
+  - type: STR_NATO_SECTOR_A
     areas:
       - - 25.77300217013601
         - 179.52735286458005
         - -88.720476128472
         - -56.052233072916
+    fundingBase: 10
+    fundingCap: 100
+    labelLon: 106.346
+    labelLat: -71.2399
+    labelColor: 84
+
+  - type: STR_NATO_SECTOR_B
+    areas:
       - - 258.66069835069
         - 26.251760850690004
         - -88.72047612847
         - -56.052233072916
+    fundingBase: 10
+    fundingCap: 100
+    labelLon: 321.197
+    labelLat: -71.623
+    labelColor: 84
+  - type: STR_NATO_SECTOR_C
+    areas:
       - - 179.06370664899
         - 259.80974137121
         - -88.759000000003
         - -52.392465277781
+    fundingBase: 10
+    fundingCap: 100
+    labelLon: 217.494
+    labelLat: -66.4961
+    labelColor: 84
+  - type: STR_NATO_SECTOR_D
+    areas:
       - - 259.19335942677003
         - 353.1916059545461
         - -56.090756944448
         - -5.2392465277802
     fundingBase: 10
     fundingCap: 100
-    labelLon: 12.812509114579995
-    labelLat: -70.922447482638
-  - type: STR_NATO_SECTOR_2
-    areas:
-      - - 172.74579171843
-        - 260.272027829548
-        - -52.546560763891
-        - -0.77047743055859
-      - - 120.32038199622002
-        - 179.80123963510005
-        - -56.090756944447
-        - 3.0819097222189
-    fundingBase: 10
-    fundingCap: 100
-    labelLon: 193.0863958851
-    labelLat: -25.117564236114
-  - type: STR_NATO_SECTOR_3
+    labelLon: 299.453
+    labelLat: -25.2676
+    labelColor: 84
+
+  - type: STR_NATO_SECTOR_E
     areas:
       - - 350.1096962323242
         - 128.4874427601
@@ -1407,29 +1417,75 @@ countries:
     fundingCap: 100
     labelLon: 59.298569496212
     labelLat: -25.271659722225
-  - type: STR_WARSAW_PACT_SECTOR_4
+    labelColor: 84
+
+  - type: STR_UN_SECTOR_1
+    areas:
+      - - 172.74579171843
+        - 260.272027829548
+        - -52.546560763891
+        - -0.77047743055859
+
+    fundingBase: 10
+    fundingCap: 100
+    labelLon: 213.686
+    labelLat: -26.8947
+    labelColor: 80
+
+  - type: STR_UN_SECTOR_2
+    areas:
+      - - 120.32038199622002
+        - 179.80123963510005
+        - -56.090756944447
+        - 3.0819097222189
+    fundingBase: 10
+    fundingCap: 100
+    labelLon: 149.453
+    labelLat: -28.7382
+    labelColor: 80
+
+  - type: STR_WARSAW_PACT_SECTOR_1
     areas:
       - - 210.99468277746
         - 150.24811680524
         - 57.747283420136
         - 89.182762586802
-      - - 179.09691715246
-        - 212.68973312468
-        - 57.747283420135
-        - 90.107335503469
+
+    fundingBase: 10
+    fundingCap: 100
+    labelLon: 0.5881892878791746
+    labelLat: 72.887164930553
+    labelColor: 124
+
+  - type: STR_WARSAW_PACT_SECTOR_2
+    areas:
       - - 148.24487548578997
         - 179.68035465247
         - 53.894896267358
         - 88.720476128468
+      - - 179.09691715246
+        - 212.68973312468
+        - 57.747283420135
+        - 90.107335503469
+    fundingBase: 10
+    fundingCap: 100
+    labelLon: 191.778
+    labelLat: 67.7406
+    labelColor: 124
+
+  - type: STR_WARSAW_PACT_SECTOR_3
+    areas:
       - - 174.31995708302
         - 236.5745334719
         - 16.603788628469
         - 58.825951822913
     fundingBase: 10
     fundingCap: 100
-    labelLon: 0.5881892878791746
-    labelLat: 72.887164930553
-  - type: STR_WARSAW_PACT_SECTOR_5
+    labelLon: 206.737
+    labelLat: 37.1063
+    labelColor: 124
+
+  - type: STR_WARSAW_PACT_SECTOR_4
     areas:
       - - 21.116099444129986
         - 179.83445013857
@@ -1439,7 +1495,8 @@ countries:
     fundingCap: 100
     labelLon: 111.87834076357001
     labelLat: 41.104970920135
-  - type: STR_WARSAW_PACT_SECTOR_6
+    labelColor: 124
+  - type: STR_WARSAW_PACT_SECTOR_5
     areas:
       - - 234.57129215246
         - 21.57838590245899
@@ -1449,6 +1506,7 @@ countries:
     fundingCap: 100
     labelLon: 308.074839027459
     labelLat: 37.868965711802
+    labelColor: 124
 
 regions:
   - delete: STR_NORTH_AMERICA
@@ -2292,87 +2350,3 @@ extraSprites:
     files:
       0: Resources/Geoscape/TEXTURES_MARS.PNG
 
-extraStrings:
-  - type: en-US
-    strings:
-      STR_ACIDALIA_PLANITIA_LABEL: Acidalia Planitia
-      STR_VASTITAS_BOREALIS_LABEL: Vastitas Borealis
-      STR_TERRA_MERIDIANI_LABEL: Terra Meridiani
-      STR_ARABIA_TERRA_LABEL: Arabia Terra
-      STR_ELYSIUM_PLANITIA_LABEL: Elysium Planitia
-      STR_AMAZONIS_PLANITIA_LABEL: Amazonis Planitia
-      STR_OLYMPUS_MONS_LABEL: Olympus Mons
-      STR_VALLES_MARINERIS_LABEL: Valles Marineris
-      STR_TERRA_SIRENUM_LABEL: Terra Sirenum
-      STR_ARGYRE_PLANITIA_LABEL: Argyre Planitia
-      STR_NOACHIS_TERRA_LABEL: Noachis Terra
-      STR_HELLAS_PLANITIA_LABEL: Hellas Planitia
-      STR_TERRA_CIMMERIA_LABEL: Terra Cimmeria
-      STR_THARSIS_MONTES_LABEL: Tharsis Montes
-
-      STR_ACIDALIA_PLANITIA: Acidalia Planitia
-      STR_VASTITAS_BOREALIS: Vastitas Borealis
-      STR_TERRA_MERIDIANI: Terra Meridiani
-      STR_ARABIA_TERRA: Arabia Terra
-      STR_ELYSIUM_PLANITIA: Elysium Planitia
-      STR_AMAZONIS_PLANITIA: Amazonis Planitia
-      STR_OLYMPUS_MONS: Olympus Mons
-      STR_VALLES_MARINERIS: Valles Marineris
-      STR_TERRA_SIRENUM: Terra Sirenum
-      STR_ARGYRE_PLANITIA: Argyre Planitia
-      STR_NOACHIS_TERRA: Noachis Terra
-      STR_HELLAS_PLANITIA: Hellas Planitia
-      STR_TERRA_CIMMERIA: Terra Cimmeria
-      STR_NATO_SECTOR_1: NATO SECTOR 1
-      STR_NATO_SECTOR_2: NATO SECTOR 2
-      STR_NATO_SECTOR_3: NATO SECTOR 3
-      STR_WARSAW_PACT_SECTOR_4: WARSAW PACT SECTOR 4
-      STR_WARSAW_PACT_SECTOR_5: WARSAW PACT SECTOR 5
-      STR_WARSAW_PACT_SECTOR_6: WARSAW PACT SECTOR 6
-      STR_NATO_OUTPOST_1: Jamestown Station
-      STR_NATO_MINING_POST: Clarke Mine Complex
-      STR_NATO_OUTPOST_2: Fort Armstrong
-      STR_NATO_ICE_PLANT: Endeavour Ice Plant
-      STR_NATO_OUTPOST_3: Grissom AFB
-      STR_WARSAW_PACT_OUTPOST_1: Gagarin Station 
-      STR_NATO_OUTPOST_4: Trafalgar Station
-      STR_NATO_LABORATORY: NASA/ESA Mars Hub
-      STR_NATO_RESEARCH_STATION_1: "von Braun R&D Site"
-      STR_NATO_OUTPOST_5: Tarawa USMC Station
-      STR_NATO_RESEARCH_STATION_2: Unity Site
-      STR_NATO_OUTPOST_6: La Bastille Army Base
-      STR_NATO_RESEARCH_STATION_3: Curie Scientific Outpost
-      STR_NATO_OUTPOST_7: Bolzano Station
-      STR_WARSAW_PACT_OUTPOST_2: Zvezda Army Base
-      STR_WARSAW_PACT_RESEARCH_STATION_1: Mir Station
-      STR_WARSAW_PACT_RESEARCH_STATION_2: Salyut Science Base
-      STR_WARSAW_PACT_OUTPOST_3: Magnitogorsk Outpost
-      STR_WARSAW_PACT_OUTPOST_4: Leonov Outpost
-      STR_WARSAW_PACT_RESEARCH_STATION_3: Progress Station
-      STR_WARSAW_PACT_MINE_COMPLEX: Lenin Mine Complex
-      STR_WARSAW_PACT_OUTPOST_5: Sevastopolskaya Base
-      STR_WARSAW_PACT_OUTPOST_6: Cherenkov Outpost
-      STR_WARSAW_PACT_ICE_PLANT: Vladivostok Ice Plant
-      STR_WARSAW_PACT_RESEARCH_STATION_4: Vostok Laboratory
-      STR_WARSAW_PACT_OUTPOST_7: Warsaw Army Base
-      STR_WARSAW_PACT_LABORATORY: Korolev Space Center
-      STR_WARSAW_PACT_MINE_COMPLEX_2: Kruschev Refinery Site
-
-      MAP_IDT_MARS: "Southern Rocky Highlands"
-      MAP_IDT_HUMAN_STATION: "Human R&D Station"
-      MAP_IDT_MARS_DEBRIS: "Former Warzone"
-      MAP_IDT_MARS_DRYLAKE: "Dry Seabed"
-      MAP_MARS: "Alien Military Base"
-      MAP_MARSMOUNT: "Southern Highlands"
-      MAP_MARSURBAN: "Alien Civilian Complex"
-      MAP_MARSPLAIN: "Northern Lowlands"
-      MAP_MARSCRATER: "Southern Volcanic Plains"
-      MAP_MSTD: "Northern Volcanic Plains"
-      MAP_MSTDS: "Southern Plains"
-      MAP_MPOLN: "Polar Ice Caps"
-      MAP_MSTRK: "Volcanic Highlands"
-#      STR_
-#      STR_
-#      STR_  STR_
-#      STR_
-#      STR_ STR_

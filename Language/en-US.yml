@@ -2310,6 +2310,96 @@ en-US:
 #### WAR ON MARS #######
 ########################
 
+#GLOBE
+
+      STR_ACIDALIA_PLANITIA_LABEL: Acidalia Planitia
+      STR_VASTITAS_BOREALIS_LABEL: Vastitas Borealis
+      STR_TERRA_MERIDIANI_LABEL: Terra Meridiani
+      STR_ARABIA_TERRA_LABEL: Arabia Terra
+      STR_ELYSIUM_PLANITIA_LABEL: Elysium Planitia
+      STR_AMAZONIS_PLANITIA_LABEL: Amazonis Planitia
+      STR_OLYMPUS_MONS_LABEL: Olympus Mons
+      STR_VALLES_MARINERIS_LABEL: Valles Marineris
+      STR_TERRA_SIRENUM_LABEL: Terra Sirenum
+      STR_ARGYRE_PLANITIA_LABEL: Argyre Planitia
+      STR_NOACHIS_TERRA_LABEL: Noachis Terra
+      STR_HELLAS_PLANITIA_LABEL: Hellas Planitia
+      STR_TERRA_CIMMERIA_LABEL: Terra Cimmeria
+      STR_THARSIS_MONTES_LABEL: Tharsis Montes
+
+      STR_ACIDALIA_PLANITIA: Acidalia Planitia
+      STR_VASTITAS_BOREALIS: Vastitas Borealis
+      STR_TERRA_MERIDIANI: Terra Meridiani
+      STR_ARABIA_TERRA: Arabia Terra
+      STR_ELYSIUM_PLANITIA: Elysium Planitia
+      STR_AMAZONIS_PLANITIA: Amazonis Planitia
+      STR_OLYMPUS_MONS: Olympus Mons
+      STR_VALLES_MARINERIS: Valles Marineris
+      STR_TERRA_SIRENUM: Terra Sirenum
+      STR_ARGYRE_PLANITIA: Argyre Planitia
+      STR_NOACHIS_TERRA: Noachis Terra
+      STR_HELLAS_PLANITIA: Hellas Planitia
+      STR_TERRA_CIMMERIA: Terra Cimmeria
+
+      STR_NATO_SECTOR_A: NATO SECTOR A
+      STR_NATO_SECTOR_B: NATO SECTOR B
+      STR_NATO_SECTOR_C: NATO SECTOR C
+      STR_NATO_SECTOR_D: NATO SECTOR D
+      STR_NATO_SECTOR_E: NATO SECTOR E
+
+      STR_UN_SECTOR_1: UN SECTOR 1A
+      STR_UN_SECTOR_2: UN SECTOR 1B
+
+      STR_WARSAW_PACT_SECTOR_1: WARSAW PACT SECTOR 1
+      STR_WARSAW_PACT_SECTOR_2: WARSAW PACT SECTOR 2
+      STR_WARSAW_PACT_SECTOR_3: WARSAW PACT SECTOR 3
+      STR_WARSAW_PACT_SECTOR_4: WARSAW PACT SECTOR 4
+      STR_WARSAW_PACT_SECTOR_5: WARSAW PACT SECTOR 5
+      STR_WARSAW_PACT_SECTOR_6: WARSAW PACT SECTOR 6
+
+      STR_NATO_OUTPOST_1: Jamestown Station
+      STR_NATO_MINING_POST: Clarke Mine Complex
+      STR_NATO_OUTPOST_2: Fort Armstrong
+      STR_NATO_ICE_PLANT: Endeavour Ice Plant
+      STR_NATO_OUTPOST_3: Grissom AFB
+      STR_WARSAW_PACT_OUTPOST_1: Gagarin Station 
+      STR_NATO_OUTPOST_4: Trafalgar Station
+      STR_NATO_LABORATORY: NASA/ESA Mars Hub
+      STR_NATO_RESEARCH_STATION_1: "von Braun R&D Site"
+      STR_NATO_OUTPOST_5: Tarawa USMC Station
+      STR_NATO_RESEARCH_STATION_2: Unity Site
+      STR_NATO_OUTPOST_6: La Bastille Army Base
+      STR_NATO_RESEARCH_STATION_3: Curie Scientific Outpost
+      STR_NATO_OUTPOST_7: Bolzano Station
+      STR_WARSAW_PACT_OUTPOST_2: Zvezda Army Base
+      STR_WARSAW_PACT_RESEARCH_STATION_1: Mir Station
+      STR_WARSAW_PACT_RESEARCH_STATION_2: Salyut Science Base
+      STR_WARSAW_PACT_OUTPOST_3: Magnitogorsk Outpost
+      STR_WARSAW_PACT_OUTPOST_4: Leonov Outpost
+      STR_WARSAW_PACT_RESEARCH_STATION_3: Progress Station
+      STR_WARSAW_PACT_MINE_COMPLEX: Lenin Mine Complex
+      STR_WARSAW_PACT_OUTPOST_5: Sevastopolskaya Base
+      STR_WARSAW_PACT_OUTPOST_6: Cherenkov Outpost
+      STR_WARSAW_PACT_ICE_PLANT: Vladivostok Ice Plant
+      STR_WARSAW_PACT_RESEARCH_STATION_4: Vostok Laboratory
+      STR_WARSAW_PACT_OUTPOST_7: Warsaw Army Base
+      STR_WARSAW_PACT_LABORATORY: Korolev Space Center
+      STR_WARSAW_PACT_MINE_COMPLEX_2: Kruschev Refinery Site
+
+      MAP_IDT_MARS: "Southern Rocky Highlands"
+      MAP_IDT_HUMAN_STATION: "Human R&D Station"
+      MAP_IDT_MARS_DEBRIS: "Former Warzone"
+      MAP_IDT_MARS_DRYLAKE: "Dry Seabed"
+      MAP_MARS: "Alien Military Base"
+      MAP_MARSMOUNT: "Southern Highlands"
+      MAP_MARSURBAN: "Alien Civilian Complex"
+      MAP_MARSPLAIN: "Northern Lowlands"
+      MAP_MARSCRATER: "Southern Volcanic Plains"
+      MAP_MSTD: "Northern Volcanic Plains"
+      MAP_MSTDS: "Southern Plains"
+      MAP_MPOLN: "Polar Ice Caps"
+      MAP_MSTRK: "Volcanic Highlands"
+
 #LORE REPORTS
 
       STR_STORY_REPORT_1: "Report #1: Operation Downfall"
@@ -2396,11 +2486,11 @@ en-US:
       STR_NATO_CYBORG_OPERATORS_REPORT_2: "Tactical Report - UASCNAT Cyberoperators II"
       STR_NATO_CYBORG_OPERATORS_REPORT_2_UFOPEDIA: "They kept on developing augmentation technology, and in 1977 has received a special request from main command of NATO. They were interested in possible opportunities, created by augmentations, and now wanted to get a new type of forces, composed of heavily augmented soldiers. This research project, codenamed 'Project Reborn', has been succesfully finished in 1980, and this the first human cyborgs has been created. The CyberOperators are stronger and more agile than normal humans, and less vulnerable to damage, but their adaptation skills has suffered after implantation"
 
-      STR_FACTIONS_REPORT_USSF:
-      STR_FACTIONS_REPORT_USSF_1: "Faction Report - USSF"
+      STR_FACTIONS_REPORT_USSF: "Faction Report - USSF"
+      STR_FACTIONS_REPORT_USSF_1: "Faction Report - USSF I"
       STR_FACTIONS_REPORT_USSF_1_UFOPEDIA: "The American interest in the militarization of space begun even before the Space Race. After gaining its independence from the US Army, the US Air Force started developing ballistic missiles in the early 50s. The success of Sputnik 1 and several congressional pressures resulted in three separate Space branches. {NEWLINE}{NEWLINE}Eventually, the Aerospace Defense Command became active in 1968, still dependant on the USAF. Its ultimate purpose was justified in the orbital raids in late 1973 and the subsequent Lunar Campaign. By 1980, it was reformed into the US Space Force, becoming a separate branch. All of the orbital interceptors and most of the existing Shuttle fleet were transferred to the Space Forces."
       
-      STR_FACTIONS_REPORT_USSF_2: "Faction Report - USSF"
+      STR_FACTIONS_REPORT_USSF_2: "Faction Report - USSF II"
       STR_FACTIONS_REPORT_USSF_2_UFOPEDIA: "There was initially a disagreement between which branch of the US Armed Forces would provide the bulk of the new Ranger Combat Brigades. USAF servicemen made their point related to the extended orbital operations carried on by them under the Aerospace Defense Command. Meanwhile, the Marine Corps saw the most ground combat in Moon and Mars of all US military, with a fleet of Shuttles on their own. The issue was settled by the recruitment of volunteers from both, as the USSF is an expeditionary force meant to operate both in and out planet (albeit with a certain preference for USAF personnel, as the USMC still operates on their own attached to Navy spacecraft).    Still, the friendly rivalry between former Air Force's and former Navy/Marine Corps' Rangers is prevalent. Besides MacArthur SFB in Mars, the other major bases for the Space Force are SFB Vanderberg in California, US and Baldwin SFB in Tranquility Sea. "
       
       
@@ -2529,22 +2619,22 @@ en-US:
 ###########################
 
       STR_AMERICAN_ASTRONAUT: "NASA Astronaut"
-      STR_AMERICAN_RIFLEMAN: "USSF Rifleman"
+      STR_AMERICAN_RIFLEMAN: "USSF Ranger"
       STR_AMERICAN_ASSAULT: "USSF Raider"
       STR_AMERICAN_SUPPORT: "USSF Sapper"
       STR_AMERICAN_ELITE: "USSF Force Recon"
 
       STR_EUROPEAN_EURONAUT: "ESA Euronaut"
-      STR_EUROPEAN_RIFLEMAN: "UASCNAT Infantryman"
+      STR_EUROPEAN_RIFLEMAN: "UASCNAT Espatier"
       STR_EUROPEAN_ASSAULT: "UASCNAT Chasseur"
       STR_EUROPEAN_SUPPORT: "UASCNAT Engineer"
       STR_EUROPEAN_ELITE: "UASCNAT Jaeger"
 
       STR_SOVIET_COSMONAUT: "Interkosmos Cosmonaut"
-      STR_SOVIET_RIFLEMAN: "VSK Soldier"
-      STR_SOVIET_ASSAULT: "VSK Assault"
+      STR_SOVIET_RIFLEMAN: "VKS Operator"
+      STR_SOVIET_ASSAULT: "VKS Assault"
       STR_SOVIET_SUPPORT: "VKS Machine Gunner"
-      STR_SOVIET_ELITE: "VSK Guard"
+      STR_SOVIET_ELITE: "VKS Spetsnaz"
 
 ##########################################
 ########## COMMENDATIONS ###############
