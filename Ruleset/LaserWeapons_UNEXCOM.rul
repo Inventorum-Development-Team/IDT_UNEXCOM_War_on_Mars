@@ -496,7 +496,7 @@ items:
   - type: STR_P71_LASER_PISTOL
     categories: [STR_LASER, STR_FIREARMS, STR_PISTOLS, STR_NATO_TECH]
     requiresBuy:
-      - STR_USA_LASER_HANDGUNS
+      - STR_NATO_LASER_HANDGUNS
     size: 0.1
     costBuy: 30000
     costSell: 20000
@@ -540,7 +540,7 @@ items:
   - type: STR_FN_FLA_LASER_BATTLE_RIFLE
     categories: [STR_LASER, STR_FIREARMS, STR_RIFLES, STR_NATO_TECH]
     requiresBuy:
-      - STR_USA_LASER_RIFLES
+      - STR_NATO_LASER_RIFLES
     size: 0.3
     costBuy: 52000
     costSell: 44000
@@ -589,7 +589,7 @@ items:
   - type: STR_FN_FLA_LASER_CARBINE
     categories: [STR_LASER, STR_FIREARMS, STR_CARBINES, STR_NATO_TECH]
     requiresBuy:
-      - STR_USA_LASER_CARBINES
+      - STR_NATO_LASER_CARBINES
     size: 0.3
     costBuy: 50000
     costSell: 44000
@@ -637,7 +637,7 @@ items:
   - type: STR_L4_ASSAULT_LASER
     categories: [STR_LASER, STR_FIREARMS, STR_RIFLES, STR_NATO_TECH]
     requiresBuy:
-      - STR_USA_LASER_RIFLES
+      - STR_NATO_LASER_RIFLES
     size: 0.3
     costBuy: 50000
     costSell: 40000
@@ -685,7 +685,7 @@ items:
   - type: STR_MAT72_SUBMACHINE_LASER
     categories: [STR_LASER, STR_FIREARMS, STR_SMGS, STR_NATO_TECH]
     requiresBuy:
-      - STR_USA_LASER_CLOSE_RANGE_WEAPONS
+      - STR_NATO_LASER_CLOSE_RANGE_WEAPONS
     costBuy: 30000
     costSell: 22000
     weight: 3
@@ -736,7 +736,7 @@ items:
   - type: STR_CHURCHILL_MARKSMAN_LASER_RIFLE
     categories: [STR_LASER, STR_FIREARMS, STR_SNIPER_RIFLES, STR_NATO_TECH]
     requiresBuy:
-      - STR_USA_LASER_RIFLES
+      - STR_NATO_LASER_RIFLES
     size: 0.3
     costBuy: 66000
     costSell: 55000
@@ -783,7 +783,7 @@ items:
   - type: STR_ML73_LASER_MACHINE_GUN
     categories: [STR_LASER, STR_FIREARMS, STR_LMGS, STR_NATO_TECH]
     requiresBuy:
-      - STR_USA_LASER_HEAVY_WEAPONS
+      - STR_NATO_LASER_HEAVY_WEAPONS
     size: 0.3
     costBuy: 65000
     costSell: 54000
@@ -828,7 +828,7 @@ items:
   - type: STR_M72_AUTOMATIC_RECOILLESS_RIFLE
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_NATO_TECH, STR_ARTILLERY, STR_FUSION]
     requiresBuy:
-      - STR_USA_LASER_HEAVY_WEAPONS
+      - STR_NATO_LASER_HEAVY_WEAPONS
     size: 0.4
     costBuy: 36000
     costSell: 30000
@@ -870,7 +870,7 @@ items:
   - type: STR_M72_ARR_HEAT_MAG
     categories: [STR_FIREARMS, STR_ARTILLERY, STR_NATO_TECH, STR_CLIPS]
     requiresBuy:
-      - STR_USA_LASER_HEAVY_WEAPONS
+      - STR_NATO_LASER_HEAVY_WEAPONS
     size: 0.2
     costBuy: 2600
     costSell: 1200
@@ -894,7 +894,7 @@ items:
   - type: STR_M72_ARR_HE_MAG
     categories: [STR_FIREARMS, STR_ARTILLERY, STR_NATO_TECH, STR_CLIPS]
     requiresBuy:
-      - STR_USA_LASER_HEAVY_WEAPONS
+      - STR_NATO_LASER_HEAVY_WEAPONS
     size: 0.2
     costBuy: 2600
     costSell: 1200
@@ -920,7 +920,7 @@ items:
   - type: STR_M72_ARR_SMOKE_MAG
     categories: [STR_FIREARMS, STR_ARTILLERY, STR_NATO_TECH, STR_CLIPS]
     requiresBuy:
-      - STR_USA_LASER_HEAVY_WEAPONS
+      - STR_NATO_LASER_HEAVY_WEAPONS
     size: 0.2
     costBuy: 2200
     costSell: 1000
@@ -945,7 +945,7 @@ items:
   - type: STR_M72_ARR_ELERIUM_MAG
     categories: [STR_FIREARMS, STR_ARTILLERY, STR_NATO_TECH, STR_CLIPS, STR_FUSION]
     requiresBuy:
-      - STR_USA_LASER_HEAVY_WEAPONS
+      - STR_NATO_LASER_HEAVY_WEAPONS
     size: 0.2
     costBuy: 10000
     costSell: 8000
@@ -975,7 +975,7 @@ items:
   - type: STR_P72_COMPACT_LASER
     categories: [STR_LASER, STR_FIREARMS, STR_PISTOLS, STR_SOVIET_TECH]
     requiresBuy:
-      - STR_USA_LASER_HANDGUNS
+      - STR_NATO_LASER_HANDGUNS
     size: 0.1
     costBuy: 25000
     costSell: 20000
@@ -1019,7 +1019,7 @@ items:
   - type: STR_ALK72_LASER_RIFLE
     categories: [STR_LASER, STR_FIREARMS, STR_RIFLES, STR_SOVIET_TECH]
     requiresBuy:
-      - STR_USA_LASER_RIFLES
+      - STR_USSR_LASER_RIFLES
     size: 0.3
     costBuy: 48000
     costSell: 42000
@@ -1070,7 +1070,7 @@ items:
   - type: STR_KHARITONOV_LASER_BATTLE_RIFLE
     categories: [STR_LASER, STR_FIREARMS, STR_RIFLES, STR_SOVIET_TECH]
     requiresBuy:
-      - STR_USA_LASER_RIFLES
+      - STR_USSR_LASER_RIFLES
     size: 0.3
     costBuy: 38000
     costSell: 32000
@@ -1116,7 +1116,7 @@ items:
   - type: STR_ALP_SUBMACHINE_LASER
     categories: [STR_LASER, STR_FIREARMS, STR_SMGS, STR_SOVIET_TECH]
     requiresBuy:
-      - STR_USA_LASER_CLOSE_RANGE_WEAPONS
+      - STR_USSR_LASER_CLOSE_RANGE_WEAPONS
     size: 0.2
     costBuy: 27000
     costSell: 22000
@@ -1167,7 +1167,7 @@ items:
   - type: STR_MIRINOV_LASER_SNIPER
     categories: [STR_LASER, STR_FIREARMS, STR_SNIPER_RIFLES, STR_SOVIET_TECH]
     requiresBuy:
-      - STR_USA_LASER_RIFLES
+      - STR_USSR_LASER_RIFLES
     size: 0.3
     costBuy: 68000
     costSell: 59000
@@ -1214,7 +1214,7 @@ items:
   - type: STR_AN_MACHINE_LASER
     categories: [STR_LASER, STR_FIREARMS, STR_LMGS, STR_SOVIET_TECH]
     requiresBuy:
-      - STR_USA_LASER_HEAVY_WEAPONS
+      - STR_USSR_LASER_HEAVY_WEAPONS
     size: 0.3
     costBuy: 75000
     costSell: 69000
@@ -1272,7 +1272,7 @@ items:
   - type: STR_AFINA_ANTITANK_LASER
     categories: [STR_LASER, STR_FIREARMS, STR_ARTILLERY, STR_SOVIET_TECH]
     requiresBuy:
-      - STR_USA_LASER_HEAVY_WEAPONS
+      - STR_USSR_LASER_HEAVY_WEAPONS
     size: 0.3
     costBuy: 100000
     costSell: 89000
@@ -1380,7 +1380,7 @@ extraSprites:
 ####################
       1999: Resources/LaserWeapons/UN/BigPeacemaker.png
 ####################
-      2000: Resources/LaserWeapons/USA/BigM1972LaserPistol.png
+      2000: Resources/LaserWeapons/USSR/BigM1972LaserPistol.png
       2001: Resources/LaserWeapons/USA/BigLaserMagnum.png
       2002: Resources/LaserWeapons/USA/BigCALBR.png
       2003: Resources/LaserWeapons/USA/BigM20M203LaserCarbine.png
