@@ -258,7 +258,7 @@ items:
     weight: 5
     bigSprite: 1510
     floorSprite: 1510
-    handSprite: 3332
+    handSprite: 2980
     bulletSprite: 2
     fireSound: 169
     reloadSound: [186, 187, 188, 189]
@@ -330,7 +330,7 @@ items:
     weight: 6
     bigSprite: 1511
     floorSprite: 1511
-    handSprite: 3340
+    handSprite: 2988
     bulletSprite: 2
     fireSound: 173
     reloadSound: [186, 187, 188, 189]
@@ -404,7 +404,7 @@ items:
     weight: 6
     bigSprite: 1500
     floorSprite: 1500
-    handSprite: 3300
+    handSprite: 2972
     bulletSprite: 2
     fireSound: 4
 #    reloadSound: [186, 187, 188, 189]
@@ -480,7 +480,7 @@ items:
     weight: 3
     bigSprite: 1512
     floorSprite: 1512
-    handSprite: 3348
+    handSprite: 2996
     bulletSprite: 2
     fireSound: 4
 #    reloadSound: [179, 180, 181, 182]
@@ -512,7 +512,7 @@ items:
     weight: 3
     bigSprite: 1513
     floorSprite: 1513
-    handSprite: 3356
+    handSprite: 3004
     bulletSprite: 2
     fireSound: 4
 #    reloadSound: [179, 180, 181, 182]
@@ -991,11 +991,11 @@ extraSprites:
     files:
       692: Resources/SpaceWeapons/HandAK79.png
       404: Resources/SpaceWeapons/HandM17.png
-      3300: Resources/SpaceWeapons/HandSpaceRifle.png
-      3332: Resources/SpaceWeapons/HandG11.png
-      3340: Resources/SpaceWeapons/HandTKB1980.png
-      3348: Resources/SpaceWeapons/HandSpacePDW.png
-      3356: Resources/SpaceWeapons/HandSpaceCarbine.png
+      2972: Resources/SpaceWeapons/HandSpaceRifle.png
+      2980: Resources/SpaceWeapons/HandG11.png
+      2988: Resources/SpaceWeapons/HandTKB1980.png
+      2996: Resources/SpaceWeapons/HandSpacePDW.png
+      3004: Resources/SpaceWeapons/HandSpaceCarbine.png
 
       820: Resources/BallisticWeapons/Medical&Food/HandCannedFood.png
       828: Resources/BallisticWeapons/Medical&Food/HandCigarettes.png
