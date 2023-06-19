@@ -138,98 +138,309 @@ research:
       - STR_NATO_CYBORG_OPERATORS_REPORT_2
 
   - name: STR_SECTOID_COMMANDER
-    cost: 1
+    cost: 100
     points: 50
     needItem: true
     destroyItem: true 
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
   - name: STR_SECTOID_LEADER
-    cost: 1
+    cost: 100
     points: 50
     needItem: true
     destroyItem: true 
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
   - name: STR_ARMORED_SECTOID_LEADER
-    cost: 1
+    cost: 100
     points: 50
     needItem: true
     destroyItem: true 
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
-  - name: STR_
-    cost: 1
+  - name: STR_SNAKEMAN_COMMANDER
+    cost: 100
     points: 50
     needItem: true
     destroyItem: true 
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
-  - name: STR_SECTOID_COMMANDER
-    cost: 1
+  - name: STR_SNAKEMAN_LEADER
+    cost: 100
     points: 50
     needItem: true
     destroyItem: true 
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
-  - name: STR_SECTOID_COMMANDER
-    cost: 1
+  - name: STR_ETHEREAL_COMMANDER
+    cost: 100
     points: 50
     needItem: true
     destroyItem: true 
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
-  - name: STR_SECTOID_COMMANDER
-    cost: 1
+  - name: STR_ETHEREAL_LEADER
+    cost: 100
     points: 50
     needItem: true
     destroyItem: true 
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
-  - name: STR_SECTOID_COMMANDER
-    cost: 1
+  - name: STR_MUTON_LEADER
+    cost: 100
     points: 50
     needItem: true
     destroyItem: true 
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
-  - name: STR_SECTOID_COMMANDER
-    cost: 1
+  - name: STR_ARMORED_MUTON_LEADER
+    cost: 100
     points: 50
     needItem: true
     destroyItem: true 
     unlocks:
-      - STR_ETHEREAL_INSURGENCY_REPORT_3      
+      - STR_ETHEREAL_INSURGENCY_REPORT_3   
+  - name: STR_ARMORED_MUTON_LEADER
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true 
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_3
+  - name: STR_FLOATER_COMMANDER
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true 
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_3
+  - name: STR_FLOATER_LEADER
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true 
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_3  
+  - name: STR_ARMORED_FLOATER_COMMANDER
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true 
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_3
+  - name: STR_ARMORED_FLOATER_LEADER
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true 
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_3  
 
-
-  - name: STR_ARMORED_SECTOID
-    cost: 0
+  - name: STR_SECTOID_ENGINEER
+    cost: 100
     points: 50
     needItem: true
     destroyItem: true
-  - name: STR_ARMORED_FLOATER
-    cost: 0
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+  - name: STR_SECTOID_MEDIC
+    cost: 100
     points: 50
     needItem: true
     destroyItem: true
-  - name: STR_ARMORED_MUTON
-    cost: 0
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+  - name: STR_SECTOID_NAVIGATOR
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+  - name: STR_SECTOID_SOLDIER
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+
+  - name: STR_SNAKEMAN_ENGINEER
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+  - name: STR_SNAKEMAN_NAVIGATOR
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+  - name: STR_SNAKEMAN_SOLDIER
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+
+  - name: STR_MUTON_MEDIC
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+  - name: STR_MUTON_ENGINEER
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+  - name: STR_MUTON_NAVIGATOR
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+  - name: STR_MUTON_SOLDIER
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+
+  - name: STR_ARMORED_MUTON_MEDIC
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+  - name: STR_ARMORED_MUTON_ENGINEER
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+  - name: STR_ARMORED_MUTON_NAVIGATOR
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+  - name: STR_ARMORED_MUTON_SOLDIER
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+
+  - name: STR_FLOATER_ENGINEER
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+  - name: STR_FLOATER_ENGINEER
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+  - name: STR_FLOATER_NAVIGATOR
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+  - name: STR_FLOATER_SOLDIER
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+
+  - name: STR_ARMORED_FLOATER_MEDIC
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+  - name: STR_ARMORED_FLOATER_ENGINEER
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+  - name: STR_ARMORED_FLOATER_NAVIGATOR
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+  - name: STR_ARMORED_FLOATER_SOLDIER
+    cost: 100
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ETHEREAL_INSURGENCY_REPORT_2
+
+  - name: STR_SILACOID_TERRORIST
+    cost: 10
+    points: 50
+    needItem: true
+    destroyItem: true
+  - name: STR_CELATID_TERRORIST
+    cost: 100
     points: 50
     needItem: true
     destroyItem: true
   - name: STR_MECHTOID
-    cost: 0
+    cost: 30
     points: 50
     needItem: true
     destroyItem: true
   - name: STR_CYBERSPHERE
-    cost: 0
-    points: 50
+    cost: 10
+    points: 30
     needItem: true
     destroyItem: true
   - name: STR_PROBE
-    cost: 0
+    cost: 10
+    points: 20
+    needItem: true
+    destroyItem: true
+  - name: STR_REAPER_TERRORIST
+    cost: 40
     points: 50
+    needItem: true
+    destroyItem: true
+  - name: STR_CYBERDISC_TERRORIST
+    cost: 60
+    points: 120
+    needItem: true
+    destroyItem: true
+  - name: STR_SECTOPOD_TERRORIST
+    cost: 70
+    points: 140
     needItem: true
     destroyItem: true
 
