@@ -317,6 +317,8 @@ ufopaedia:
   - id: STR_DYNASOAR
     section: STR_XCOM_CRAFTS
     text: STR_DYNASOAR_UFOPAEDIA
+    requires:
+      - STR_USA_SUPPORT_RESEARCH
     listOrder: 115
     image_id: DYNASOAR_UFOPEDIA
     type_id: 1
@@ -334,6 +336,8 @@ ufopaedia:
   - id: STR_MIG_105
     section: STR_XCOM_CRAFTS
     text: STR_MIG_105_UFOPAEDIA
+    requires:
+      - STR_USSR_SUPPORT_RESEARCH
     listOrder: 116
     image_id: SPIRAL_UFOPEDIA
     type_id: 1
@@ -358,6 +362,8 @@ ufopaedia:
     section: STR_XCOM_CRAFTS
     listOrder: 210
     text: STR_HERMES_UFOPAEDIA
+    requires:
+      - STR_NATO_SUPPORT_RESEARCH
     image_id: HERMES_UFOPEDIA
     type_id: 1
     rect_stats:
