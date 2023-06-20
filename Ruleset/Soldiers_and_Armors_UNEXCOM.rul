@@ -6,7 +6,7 @@ soldiers:
   - type: STR_UNEXCOM_LEGIONARY
     costBuy: 180000
     costSalary: 60000
-    monthlyBuyLimit: 5
+    monthlyBuyLimit: 3
     minStats:
       tu: 60
       stamina: 65
@@ -58,6 +58,8 @@ soldiers:
   - type: STR_ASTRONAUT
     costBuy: 50000
     costSalary: 30000
+    requires:
+      - STR_USA_SUPPORT_RESEARCH
     costSalarySquaddie: 5000
     costSalarySergeant: 5000
     costSalaryCaptain: 10000
@@ -127,6 +129,8 @@ soldiers:
     costBuy: 80000
     costSalary: 40000
     monthlyBuyLimit: 15
+    requires:
+      - STR_USA_SUPPORT_RESEARCH
     minStats:
       tu: 50
       stamina: 50
@@ -183,6 +187,8 @@ soldiers:
     costSalaryColonel: 15000
     costSalaryCommander: 20000
     monthlyBuyLimit: 20
+    requires:
+      - STR_NATO_SUPPORT_RESEARCH
     minStats:
       tu: 40
       stamina: 40
@@ -246,6 +252,8 @@ soldiers:
     costBuy: 80000
     costSalary: 40000
     monthlyBuyLimit: 15
+    requires:
+      - STR_NATO_SUPPORT_RESEARCH
     minStats:
       tu: 50
       stamina: 50
@@ -303,6 +311,8 @@ soldiers:
     costSalaryColonel: 15000
     costSalaryCommander: 20000
     monthlyBuyLimit: 20
+    requires:
+      - STR_USSR_SUPPORT_RESEARCH
     minStats:
       tu: 40
       stamina: 40
@@ -365,6 +375,8 @@ soldiers:
     costBuy: 80000
     costSalary: 40000
     monthlyBuyLimit: 15
+    requires:
+      - STR_USSR_SUPPORT_RESEARCH
     minStats:
       tu: 50
       stamina: 50
