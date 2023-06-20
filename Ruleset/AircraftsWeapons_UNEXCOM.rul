@@ -131,6 +131,8 @@ crafts:
 
   - type: STR_DYNASOAR # X-21 DynaMOWS
     sprite: 913
+    requires:
+      - STR_USA_SUPPORT_RESEARCH
     fuelMax: 2732
     damageMax: 440
     speedMax: 15200
@@ -163,6 +165,8 @@ crafts:
 
   - type: STR_MIG_105
     sprite: 915
+    requires:
+      - STR_USSR_SUPPORT_RESEARCH
     fuelMax: 2732
     damageMax: 550
     speedMax: 15200
@@ -212,6 +216,8 @@ crafts:
 
   - type: STR_HERMES
     sprite: 914
+    requires:
+      - STR_NATO_SUPPORT_RESEARCH
     fuelMax: 2732
     damageMax: 420
     speedMax: 15200
