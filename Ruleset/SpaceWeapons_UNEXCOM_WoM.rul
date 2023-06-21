@@ -558,6 +558,58 @@ items:
     invWidth: 1
     battleType: 2
 
+# OLD WEAPONS
+
+# China Lake Laser Projector
+  - type: STR_CHINA_LAKE_LASER_PROJECTOR
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_LMGS, STR_PROPRIETARY]
+    size: 0.2
+    costSell: 225000
+    weight: 20
+    bigSprite: 3012
+    floorSprite: 3012
+    handSprite: 3012
+    bulletSpeed: 30
+    bulletSprite: 27
+    hitAnimation: 36
+    fireSound: 2963
+    costSnap:
+      time: 40
+      mana: 3
+    confSnap:
+      shots: 5
+      name: STR_CONTROLLED_AUTO
+      ammoSlot: 0
+      arcing: false
+    snapRange: 30
+    accuracySnap: 70
+    costAuto:
+      time: 70
+      mana: 5
+    confAuto:
+      shots: 10
+      name: STR_SUPPRESSION
+      ammoSlot: 0
+      arcing: false
+    autoRange: 20
+    accuracyAuto: 50
+    accuracyCloseQuarters: 90
+    damageType: 4
+    power: 80
+    clipSize: -1
+    damageAlter:
+      RandomType: 7
+      ToArmor: 0.5
+    maxRange: 60
+    kneelBonus: 200
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    twoHanded: true
+    sprayWaypoints: 2
+    armor: 200
+    listOrder: 236
+
 #######################################
   ########## EXPLOSIVES ################
   #####################################
@@ -924,6 +976,7 @@ extraSprites:
       138: Resources/SpaceWeapons/BigM17.png
       144: Resources/SpaceWeapons/BigLaserMinigun.png
       174: Resources/SpaceWeapons/BigAK79.png
+      3012: Resources/AlliedWeapons/BigChinaLakeLaserGun.png
 
       1500: Resources/SpaceWeapons/BigSpaceRifle.png
       1501: Resources/SpaceWeapons/BigSpaceAmmoRifle.png
@@ -982,6 +1035,8 @@ extraSprites:
 
       888: Resources/BallisticWeapons/Explosives/FloorFlare.png
       896: Resources/BallisticWeapons/Explosives/FloorFlarelit.png
+      
+      3012: Resources/AlliedWeapons/FloorChinaLakeLaserGun.png
 
   - type: HANDOB.PCK
     width: 256
@@ -1011,6 +1066,8 @@ extraSprites:
 
       904: Resources/BallisticWeapons/Explosives/HandSmokeGrenade.png
       912: Resources/BallisticWeapons/Explosives/HandFlashbangGrenade.png
+      
+      3012: Resources/AlliedWeapons/HandChinaLakeLaserGun.png
   - type: MEDIKIT_BACKGROUND
     singleImage: true
     width: 320
