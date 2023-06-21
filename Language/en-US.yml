@@ -1072,15 +1072,7 @@ en-US:
       STR_DISASSEMBLE_ETHEREAL_NOBLE_SWORD: "Disassemble Ethereal Noble Sword"
       STR_DISASSEMBLE_STR_THERMONUCLEAR_PROJECTILE_LAUNCHER: "Disassemble TPL"
 
-      STR_COUNTER_TERRORISM_MARKER: Counter-Terrorism Ops
-      STR_COUNTER_TERRORISM_ALERT: Counter-Terrorism Operation
-      STR_COUNTER_TERRORISM_ALERT_DESCRIPTION: A member of the Security Council has requested our support in a Counter-Terrorism Operation. Heavy resistance is expected. Unknown number of hostages.
-      STR_HOSTAGE_CRISIS: Hostage Crisis
-      STR_HOSTAGE_CRISIS_BRIEFING: A hostage crisis is taking place in an office complex owned by a Security Council member government. A group of Terrorists have barricaded themselves inside the complex and taken prisoner the government personnel. Our mission is to storm the building, neutralize the terrorists and rescue the hostages alive.  A Mi-8 helicopter from an allied country has been loaned to us for this operation, some of our troops will fast-rope from it, while some other will assault the building from the lower floors. After descending from the helicopter our troops cannot return to it and evacuation will become infeasible.
-      STR_HIJACKED_PLANE: Hijacked Plane Assault
-      STR_HIJACKED_PLANE_BRIEFING: A civilian plane has been hijacked by a group of terrorists. The extremists are demanding the release of their comrades held in prisons in the country where we will be deployed, as well as safe passage to escape. We cannot allow that. The aircraft is parked on a runway at the local airport. Our mission will be to storm the plane, neutralize the hostiles and avoid civilian casualties at all costs. Extreme caution, it's a closed environment and a stray bullet could injure someone.
-      STR_HUMAN_TERROR_ATTACK: Terrorist Attack
-      STR_URBAN_TERROR_BRIEFING: A squad of terrorists has started an attack on a city and we have been called upon to support the local authorities. The reason for the assault is not known, but there is speculation that the enemy is trying to make a show of force, perhaps directed at members of other anarchist groups. There are no hostages, but chaos reigns in the streets. It is our mission to support the local forces in restoring order, neutralizing the hostiles and ensuring the safety of civilians, before the attack escalates and gets out of control.
+       
 
 
 
@@ -1559,6 +1551,13 @@ en-US:
       STR_BATTERY_UFOPAEDIA: "This battery holds enough power to recharge the powercell of our soldiers attires fully. It is heavy, but might prove necessary on longer missions. The battery is automatically recharged when returned to the base"
 
       STR_ELERIUM_BATTERY_UFOPAEDIA: "This battery is extremely similar to the power cells of Alien Fusion weaponry, granting it twice the capacity of our regular batteries while being the same weight"
+
+#################################
+
+      STR_CHINA_LAKE_LASER_PROJECTOR: "M1 China Lake Laser Projector"
+      STR_CHINA_LAKE_LASER_PROJECTOR_UFOPEDIA: "1st Generation machine laser, the grandfather of all modern energy weapons. In the early 60s, a batch of those were requested by both the US Navy and Marine Corps, although due the lack of a stable power source, most of them were mothballed and stored. A couple saw use by the Navy SEALs in Vietnam, with mixed results. Motivated by the necessity to equip the alien allies but limited by the overall distrust of their capabilities, all the China Lakes in the USN inventory were refurbished and sent to Mars, assigned to certain friendly units. Some aliens may recognize it as an old weapon, but we haven't got any negative feedback about it yet."
+      STR_M20_LASER_CARBINE: "M20 Laser Carbine"
+      STR_M20_LASER_CARBINE_UFOPEDIA: "The standard infantry energy weapon of the USMC. While the US Army slowly moved towards the CALBR-76 and M54C, the Marine Corps stuck to the proven and reliable 2nd Generation lasers for all their theaters of operations. As part of the American program aimed to provide non-human allies with equipment, several M20s without the M203 grenade launcher add-on were sent to the most loyal alien cells. The aliens seem to appreciate the Carbines, very likely due the casualties inflicted on them in their botched invasion. "
 
 #################################
 ###### ELECTRIC AND GAUSS WEAPONS #####
