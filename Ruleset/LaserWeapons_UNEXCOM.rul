@@ -1380,7 +1380,7 @@ extraSprites:
 ####################
       1999: Resources/LaserWeapons/UN/BigPeacemaker.png
 ####################
-      2000: Resources/LaserWeapons/USSR/BigM1972LaserPistol.png
+      2000: Resources/LaserWeapons/USA/BigM1972LaserPistol.png
       2001: Resources/LaserWeapons/USA/BigLaserMagnum.png
       2002: Resources/LaserWeapons/USA/BigCALBR.png
       2003: Resources/LaserWeapons/USA/BigM20M203LaserCarbine.png
