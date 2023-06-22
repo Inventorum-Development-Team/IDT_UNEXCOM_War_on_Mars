@@ -554,23 +554,26 @@ units:
     aggression: 8
     builtInWeaponSets:
       -
-        - STR_ALK72_LASER_RIFLE
-        - STR_BATTERY
-        - STR_BATTERY
+        - STR_SOVIET_PLASMA_ASSAULT_RIFLE
+        - STR_SOVIET_PLASMA_ASSAULT_RIFLE_MAG
+        - STR_SOVIET_PLASMA_ASSAULT_RIFLE_MAG
         - STR_DUCT_TAPE
         - STR_BIO_FOAM
         - STR_GRENADE
       -
-        - STR_MIRINOV_LASER_SNIPER
-        - STR_BATTERY
-        - STR_BATTERY
+        - STR_SOVIET_PLASMA_LMG
+        - STR_SOVIET_PLASMA_LMG_MAG
+        - STR_SOVIET_PLASMA_LMG_MAG
         - STR_DUCT_TAPE
         - STR_BIO_FOAM
         - STR_GRENADE
       -
-        - STR_AN_MACHINE_LASER
-        - STR_BATTERY
-        - STR_BATTERY
+        - STR_SOVIET_PLASMA_SMG
+        - STR_SOVIET_PLASMA_SMG_MAG
+        - STR_SOVIET_PLASMA_SMG_MAG
+        - STR_GRENADE
+        - STR_GRENADE
+        - STR_GRENADE
         - STR_DUCT_TAPE
         - STR_BIO_FOAM
         - STR_GRENADE
@@ -615,6 +618,40 @@ units:
         - STR_BATTERY
         - STR_BATTERY
 
+  - type: STR_ALLIED_SECTOID
+    race: STR_SECTOID
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 76
+    armor: STR_ALLIED_SECTOID_ARMOR
+    standHeight: 16
+    kneelHeight: 12
+    value: 10
+    intelligence: 3
+    aggression: 2
+    builtInWeaponSets:
+      -
+        - STR_M17_CARBINE
+        - STR_5_56MM_NATO_RIFLE_X30
+        - STR_5_56MM_NATO_RIFLE_X30
+      -
+        - STR_AK79_RIFLE
+        - STR_7_62MM_SOVIET_RIFLE_X40
+        - STR_7_62MM_SOVIET_RIFLE_X40
+      -
+        - STR_P72_COMPACT_LASER
+        - STR_BATTERY
+        - STR_BATTERY
 
 armors:
   - type: STR_ALLIED_MUTON_ARMOR
@@ -642,6 +679,30 @@ armors:
       - 1.3
     loftempsSet: [ 3 ]
 
+  - type: STR_ALLIED_SECTOID_ARMOR
+    allowInv: true
+    spriteInv: SECTOID_SPACESUIT_INVENTORY.SPK
+    spriteSheet: SECTOID_SPACESUIT_SPRITESHEET.PCK
+    corpseBattle:
+      - STR_ALLIED_SECTOID_CORPSE
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 0.0
+      - 1.3
+    loftempsSet: [ 2 ]
+
 items:
   - type: STR_ALLIED_MUTON_CORPSE
     size: 0.4
@@ -649,6 +710,18 @@ items:
     weight: 40
     bigSprite: 3116
     floorSprite: 3116
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+
+  - type: STR_ALLIED_SECTOID_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 30
+    bigSprite: 46
+    floorSprite: 42
     invWidth: 2
     invHeight: 3
     recoveryPoints: 5
