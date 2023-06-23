@@ -1,15 +1,31 @@
 # spellchecker:words Stratofortress Skyhawks Thunderchiefs Leonov
 eventScripts:
-  - type: STR_WELCOME_MESSAGES_EVENT_SCRIPT
+###############################
+###### WELCOME EVENTS ########
+#############################
+
+  - type: STR_WELCOME_MESSAGES_EVENT_SCRIPT_1
     oneTimeSequentialEvents:
      - STR_WELCOME_MESSAGE_1_EVENT
+    firstMonth: 0
+
+  - type: STR_WELCOME_MESSAGES_EVENT_SCRIPT_2
+    oneTimeSequentialEvents:
      - STR_WELCOME_MESSAGE_2_EVENT
     firstMonth: 0
+
+#############################
+###### STORY EVENTS ########
+###########################
 
   - type: STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT
-    firstMonth: 2
+    firstMonth: 8
+
+#############################
+###### SUPPLY EVENTS #######
+###########################
 
   - type: STR_SUCCESFUL_SMALL_SUPPLY_RUN_MONTH_3_EVENT_SCRIPT
     oneTimeSequentialEvents:
@@ -25,6 +41,53 @@ eventScripts:
     firstMonth: 3
     executionOdds: 50
 
+#############################
+####### SIDE EVENTS ########
+###########################
+
+  - type: STR_TNI_STORY_1_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_TNI_STORY_1_EVENT
+    firstMonth: 1
+    executionOdds: 100
+
+  - type: STR_TNI_STORY_2_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_TNI_STORY_2_EVENT
+    firstMonth: 1
+    executionOdds: 100
+
+  - type: STR_TNI_STORY_3_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_TNI_STORY_3_EVENT
+    firstMonth: 1
+    executionOdds: 100
+
+  - type: STR_TNI_STORY_4_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_TNI_STORY_4_EVENT
+    firstMonth: 1
+    executionOdds: 100
+
+  - type: STR_TNI_STORY_1_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_TNI_STORY_1_EVENT
+    firstMonth: 1
+    executionOdds: 100
+
+  - type: STR_TNI_STORY_1_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_TNI_STORY_1_EVENT
+    firstMonth: 1
+    executionOdds: 100
+
+  - type: STR_TNI_STORY_1_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_TNI_STORY_1_EVENT
+    firstMonth: 1
+    executionOdds: 100
+
+#############################
 # - type: STR_TEST_EVENT_SCRIPT
 #    eventWeights:                 # randomly generated repeatable events
 #      0:
@@ -51,19 +114,20 @@ events:
     #regionList: [STR_SOUTH_EAST_ASIA]
     points: 10
     timer: 180
-    timerRandom: 43500
+    timerRandom: 10
 
   - name: STR_WELCOME_MESSAGE_2_EVENT
     description: STR_WELCOME_MESSAGE_2_EVENT_DESCRIPTION
     background: BACK05.SCR
     #regionList: [STR_SOUTH_EAST_ASIA]
     points: 10
-    timer: 180
-    timerRandom: 43500
+    timer: 240
+    timerRandom: 10
 
 #############################
 ###### STORY EVENTS ########
 ###########################
+
   - name: STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT
     description: STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_DESCRIPTION
     background: RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_BACKGROUND
@@ -106,7 +170,7 @@ events:
     #regionList: [STR_SOUTH_EAST_ASIA]
     points: 100
     timer: 180
-    timerRandom: 43500
+    timerRandom: 4350
     everyItemList:
       - STR_M17
       - STR_5_56MM_NATO_RIFLE_X30
@@ -124,7 +188,7 @@ events:
     #regionList: [STR_SOUTH_EAST_ASIA]
     points: 100
     timer: 180
-    timerRandom: 43500
+    timerRandom: 4350
     everyItemList:
       - STR_BATTERY
       - STR_BATTERY
@@ -135,6 +199,68 @@ events:
       - STR_MEDI_KIT
       - STR_MEDI_KIT
       - STR_MEDI_KIT
+
+#############################
+####### SIDE EVENTS ########
+###########################
+
+# TNI Subplot
+
+  - name: STR_TNI_STORY_1_EVENT
+    description: STR_TNI_STORY_1_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_TNI_STORY_2_EVENT
+    description: STR_TNI_STORY_2_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_TNI_STORY_3_EVENT
+    description: STR_TNI_STORY_3_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_TNI_STORY_4_EVENT
+    description: STR_TNI_STORY_4_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_TNI_STORY_5_EVENT
+    description: STR_TNI_STORY_5_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_TNI_STORY_6_EVENT
+    description: STR_TNI_STORY_6_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_TNI_STORY_7_EVENT
+    description: STR_TNI_STORY_7_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
 
 extraSprites:
 ##########################################
