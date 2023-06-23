@@ -956,14 +956,25 @@ ufopaedia:
       text: STR_FLECHETTE_PISTOL_UFOPEDIA
       ammoSlot: 1
     listOrder: 4014
+
+  - id: STR_NATO_PLASMA_PISTOL
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_HUMAN_PLASMA_WEAPONS_NATO_APPLICATIONS
+    text: STR_NATO_PLASMA_PISTOL_UFOPEDIA
+    listOrder: 4015
+
   - id: STR_MK115_SPACE_PISTOL
     type_id: 4
     section: STR_WEAPONS
     text: STR_MK115_SPACE_PISTOL_UFOPEDIA
+    listOrder: 4016
   - id: STR_MK117_SPACE_PDW
     type_id: 4
     section: STR_WEAPONS
     text: STR_MK117_SPACE_PDW_UFOPEDIA
+    listOrder: 4017
   - id: STR_MK115_SPACE_PISTOL_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -1014,6 +1025,14 @@ ufopaedia:
       ammoSlot: 0
     listOrder: 4110
 
+  - id: STR_SOVIET_PLASMA_SMG
+    type_id: 4
+    section: STR_WEAPONS
+    #requires:
+    #  - STR_HUMAN_PLASMA_WEAPONS_USSR_APPLICATIONS
+    text: STR_SOVIET_PLASMA_SMG_UFOPEDIA
+    listOrder: 4111
+
   #Shotguns
   - id: STR_SHOTGUN_REPORT
     type_id: 7
@@ -1039,6 +1058,14 @@ ufopaedia:
       - STR_ALLOY_HEAVY
     text: STR_FLECHETTE_AUTOMATIC_SHOTGUN_UFOPEDIA
     listOrder: 4209
+
+  - id: STR_US_PLASMA_SHOTGUN
+    type_id: 4
+    section: STR_WEAPONS
+    #requires:
+     # - STR_HUMAN_PLASMA_WEAPONS_US_APPLICATIONS
+    text: STR_US_PLASMA_SHOTGUN_UFOPEDIA
+    listOrder: 4210
 
   - id: STR_CARBINE_REPORT
     type_id: 7
@@ -1081,6 +1108,14 @@ ufopaedia:
       text: STR_FLECHETTE_CARBINE_UFOPEDIA
       ammoSlot: 1
     listOrder: 4314
+
+  - id: STR_NATO_PLASMA_CARBINE
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_HUMAN_PLASMA_WEAPONS_NATO_APPLICATIONS
+    text: STR_NATO_PLASMA_CARBINE_UFOPEDIA
+    listOrder: 4315
 
   - id: STR_RIFLE_REPORT
     type_id: 7
@@ -1162,6 +1197,28 @@ ufopaedia:
       ammoSlot: 1
     listOrder: 4416
 
+  - id: STR_UN_PLASMA_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_UN_PLASMA_RIFLE_UFOPEDIA
+    listOrder: 4417
+
+  - id: STR_US_PLASMA_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    #requires:
+    #  - STR_USA_SUPPORT_RESEARCH
+    text: STR_US_PLASMA_RIFLE_UFOPEDIA
+    listOrder: 4418
+
+  - id: STR_SOVIET_PLASMA_ASSAULT_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    #requires:
+     # - STR_HUMAN_PLASMA_WEAPONS_USSR_APPLICATIONS
+    text: STR_SOVIET_PLASMA_ASSAULT_RIFLE_UFOPEDIA
+    listOrder: 4419
+
   - id: STR_HUMAN_FUSION_RIFLE
     type_id: 4
     section: STR_WEAPONS
@@ -1172,19 +1229,19 @@ ufopaedia:
     - title: STR_HUMAN_FUSION_RIFLE
       text: STR_HUMAN_FUSION_RIFLE_UFOPEDIA_2
       ammoSlot: 0
-    listOrder: 4418
+    listOrder: 4420
 
   - id: STR_MK119_SPACE_RIFLE
     type_id: 4
     section: STR_WEAPONS
     text: STR_MK119_SPACE_RIFLE_UFOPEDIA
-    listOrder: 4420
+    listOrder: 4421
 
   - id: STR_G11_CASELESS_RIFLE
     type_id: 4
     section: STR_WEAPONS
     text: STR_G11_CASELESS_RIFLE_UFOPEDIA
-    listOrder: 4421
+    listOrder: 4422
   - id: STR_G11_CASELESS_RIFLE_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -1193,7 +1250,7 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS
     text: STR_TKB1980_CASELESS_RIFLE_UFOPEDIA
-    listOrder: 4422
+    listOrder: 4423
   - id: STR_TKB1980_CASELESS_RIFLE_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -1250,6 +1307,14 @@ ufopaedia:
       ammoSlot: 1
     listOrder: 4508
 
+  - id: STR_SOVIET_PLASMA_LMG
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_HUMAN_PLASMA_WEAPONS_USSR_APPLICATIONS
+    text: STR_SOVIET_PLASMA_LMG_UFOPEDIA
+    listOrder: 4509
+
   - id: STR_SNIPER_RIFLE_REPORT
     type_id: 7
     section: STR_WEAPONS
@@ -1303,10 +1368,18 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS
     text: STR_ALLOY_SMART_RIFLE_UFOPEDIA
-    listOrder: 4611
+    listOrder: 4612
   - id: STR_ALLOY_SMART_RIFLE_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
+
+  - id: STR_NATO_SNIPER_PLASMA
+    type_id: 4
+    section: STR_WEAPONS
+    #requires:
+     # - STR_HUMAN_PLASMA_WEAPONS_NATO_APPLICATIONS
+    text: STR_NATO_SNIPER_PLASMA_UFOPEDIA
+    listOrder: 4613
 
   - id: STR_ARTILLERY_REPORT
     type_id: 7
@@ -1343,6 +1416,14 @@ ufopaedia:
       text: STR_AFINA_ANTITANK_LASER_UFOPEDIA_2
       ammoSlot: 0
     listOrder: 4706
+
+  - id: STR_US_PLASMA_RL
+    type_id: 4
+    section: STR_WEAPONS
+   # requires:
+     # - STR_HUMAN_PLASMA_WEAPONS_US_APPLICATIONS
+    text: STR_US_PLASMA_RL_UFOPEDIA
+    listOrder: 4707
 
   - id: STR_FLECHETTE_GL
     type_id: 4
@@ -1697,9 +1778,15 @@ ufopaedia:
 
   - id: STR_POWER_SUIT_UC
     section: STR_ARMOR
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_POWER_SUIT_UFOPEDIA
     listOrder: 7300
   - id: STR_FLYING_SUIT_UC
     section: STR_ARMOR
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_FLYING_SUIT_UFOPEDIA
     listOrder: 7301
 
   - id: STR_ASTRONAUT_A7L_SPACESUIT_UC
@@ -1776,7 +1863,7 @@ ufopaedia:
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
-      - STR_PLASMA_PISTOL
+      - STR_ALIEN_LASER_PISTOL
     text: STR_ALIEN_LASER_PISTOL_UFOPEDIA
     listOrder: 11991
   - id: STR_ALIEN_LASER_RIFLE
