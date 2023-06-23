@@ -94,8 +94,19 @@ items:
     bulletSpeed: 6
     bulletSprite: 8
     fireSound: 1933
-    compatibleAmmo:
-      - STR_PLASMA_RIFLE_CLIP
+    confAimed:
+      shots: 1
+      name: STR_FIRE_M203
+      ammoSlot: 1
+    ammo:
+      0:
+        tuLoad: 10
+        tuUnload: 20
+        compatibleAmmo: [ STR_PLASMA_RIFLE_CLIP ]
+      1:
+        tuLoad: 20
+        tuUnload: 20
+        compatibleAmmo: [ STR_40MM_FRAG, STR_40MM_INCENDIARY, STR_40MM_SMOKE, STR_40MM_NON_LETHAL ]
     confAimed:
       shots: 3
       name: STR_BURST
@@ -104,15 +115,13 @@ items:
       name: STR_CONTROL_AUTO
     accuracyAuto: 40
     accuracySnap: 85
-    accuracyAimed: 55
+    accuracyAimed: 75
     costSnap:
       time: 30
     costAimed:
       time: 40
     costAuto:
       time: 60
-    tuLoad: 30
-    tuUnload: 15
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 30
