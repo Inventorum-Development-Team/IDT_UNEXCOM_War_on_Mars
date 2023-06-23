@@ -557,6 +557,8 @@ ufopaedia:
   - delete: STR_FUSION_BALL_UC
   - delete: STR_LASER_CANNON_UC
   - delete: STR_PLASMA_BEAM_UC
+  - delete: STR_POWER_SUIT_UC
+  - delete: STR_FLYING_SUIT_UC
 
 invs:
   - id: STR_GROUND
