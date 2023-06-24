@@ -54,37 +54,37 @@ eventScripts:
   - type: STR_TNI_STORY_2_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_TNI_STORY_2_EVENT
-    firstMonth: 1
+    firstMonth: 2
     executionOdds: 100
 
   - type: STR_TNI_STORY_3_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_TNI_STORY_3_EVENT
-    firstMonth: 1
+    firstMonth: 4
     executionOdds: 100
 
   - type: STR_TNI_STORY_4_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_TNI_STORY_4_EVENT
-    firstMonth: 1
+    firstMonth: 5
     executionOdds: 100
 
-  - type: STR_TNI_STORY_1_EVENT_SCRIPT
+  - type: STR_TNI_STORY_5_EVENT_SCRIPT
     oneTimeSequentialEvents:
-     - STR_TNI_STORY_1_EVENT
-    firstMonth: 1
+     - STR_TNI_STORY_5_EVENT
+    firstMonth: 6
     executionOdds: 100
 
-  - type: STR_TNI_STORY_1_EVENT_SCRIPT
+  - type: STR_TNI_STORY_6_EVENT_SCRIPT
     oneTimeSequentialEvents:
-     - STR_TNI_STORY_1_EVENT
-    firstMonth: 1
+     - STR_TNI_STORY_6_EVENT
+    firstMonth: 7
     executionOdds: 100
 
-  - type: STR_TNI_STORY_1_EVENT_SCRIPT
+  - type: STR_TNI_STORY_7_EVENT_SCRIPT
     oneTimeSequentialEvents:
-     - STR_TNI_STORY_1_EVENT
-    firstMonth: 1
+     - STR_TNI_STORY_7_EVENT
+    firstMonth: 9
     executionOdds: 100
 
 #############################
