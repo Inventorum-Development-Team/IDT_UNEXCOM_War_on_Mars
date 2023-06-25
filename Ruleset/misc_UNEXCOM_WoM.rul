@@ -324,6 +324,10 @@ extraSprites:
 ##########################################
 ############ BACKGROUNDS #################
 ##########################################
+  - type: GEOBORD.SCR #Space
+    singleImage: true
+    files:
+      0: Resources/Backgrounds/BACK100.png
   - type: BACK01.SCR #Main
     singleImage: true
     width: 320
