@@ -2594,10 +2594,13 @@ en-US:
       STR_POKER_PLAYER_TRIAL_EVENT_DESCRIPTION: "A new trial has started recently in Los Angeles, USA. A professional poker player, residing in one of the city's hotels, has gone missing a week ago, and only recently his body was found in San Pedro Bay. It appears, that he was a retired UNEXCOM operative, and also has gone through psionic training. Taking note in his stunning victories in casinos all over the United States, it's obvious, that he was using his psi abilities to cheat at poker, and was assasinated because of that"
       
       STR_CANNES_FESTIVAL_EVENT: "35th Cannes Film Festival takes place"
-      STR_CANNES_FESTIVAL_EVENT_DESCRIPTION: "Today, the Palm d'Or was jointly awarded to Gravas' 'Missing', a historical drama and The Director's 'Kitsune: The Fox Brigade', a police noir animated film. The critics praised the script and acting of 'Missing' and the special effects of 'Kitsune', which was heavily supported by the German Federal Army (which proportioned the Delta EOD suits used by the 'special police' in the film). Spielberg's new film, 'E.T. The Extraterrestrial' was openly mocked, rated by critics as 'childish and insensitive to the victims of the War, as it's obvious the real aliens didn't came in peace'."
+      STR_CANNES_FESTIVAL_EVENT_DESCRIPTION: "Today, the Palm d'Or was jointly awarded to Gravas' 'Missing', a historical drama and The Director's 'Kitsune: The Fox Brigade', a police noir film. The critics praised the script and acting of 'Missing' and the special effects of 'Kitsune', which was heavily supported by the German Federal Army (which proportioned the Delta EOD suits used by the 'special police' in the film). Spielberg's new film, 'E.T. The Extraterrestrial' was openly mocked, rated by critics as 'childish and insensitive to the victims of the War, as it's obvious the real aliens didn't came in peace'."
       
       STR_MARSEC_STORY_1_EVENT: "MARSEC deploys new probes to search for ore"
       STR_MARSEC_STORY_1_EVENT_DESCRIPTION: "The Mars Survey and Extraction Corporation (MARSEC) has deployed three new automated probes to Mars orbit, in a effort to locate and pinpoint any possible mining sites in the surface. While the main colonization efforts remain nationalized by the US, European Union and USSR space agencies, the private initiative remains in the race to mine Mars resources."
+
+      STR_SHUTTLE_WINGS_EVENT: "World News: Experts question use of wings in Martian Shuttles"
+      STR_SHUTTLE_WINGS_EVENT_DESCRIPTION: "Independent technical consultants pointed out the futility of the use of wings and flight control surfaces in both civilian and military shuttles. 'I don't see why our science staff and military personnel transports should use them. Their shuttles are VTOL anyways. It's just useless weight.', the consultant said to our reporters."
 
 #Act 2
 
