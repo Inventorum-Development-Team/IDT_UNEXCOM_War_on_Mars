@@ -9,36 +9,39 @@ Using as basis the great work made by liberation on his awesome mod "Battle for 
 
 Credits by name:
 
-*bulletdesigner: original tilesets used on Space Shuttle
-*Buscher: original alien mission alien infiltration ruleset (modified)  
-*cevaralien: MARSMOUNT, MARSURBAN, MARSPLAIN, MARSCRATER map and terrains
-*Dauntless1942: alien Fusion weapons artwork
-*efrenespartano: main ruleset work, Gyrojet weapons,
-*Fegelein: lead dev. All the US, Soviet and NATO Laser sprites and Pedia text, Geoscape events 
-*Hans Woofington: new Mars textures, US, NATO and USSR space suit paperdolls
-*Ikhanad: lead dev. Official OST composer; testing, ideas and feedback
-*Kael Schwabauer: alpha tester, Geoscape events
-*liberation: original globe data (WORLD.DAT), Martian Rocky, Plain and Polar maps and terrains
-*Luke83: Pyramid UFOs
-*Southoftheline: official OST composer, ideas and feedback
-*Ultrakiroxei: alpha tester
-*wolwerin: Human Outpost/Station maps, Alien Laser weapons, human Alloy weapons 
+* bulletdesigner: original tilesets used on Space Shuttle
+* Buscher: original alien mission alien infiltration ruleset (modified)
+* Brain322: Psionic Invoker sprites
+* cevaralien: MARSMOUNT, MARSURBAN, MARSPLAIN, MARSCRATER map and terrains
+* Dauntless1942: alien Fusion weapons artwork
+* efrenespartano: lead dev, main ruleset work, Gyrojet weapons,
+* Fegelein: lead dev. All the US, Soviet and NATO Laser sprites and Pedia text, Geoscape events 
+* Hans Woofington: new Mars textures, US, NATO and USSR space suit paperdolls
+* Ikhanad: lead dev. Official OST composer; testing, ideas and feedback
+* Kael Schwabauer: alpha tester, Geoscape events
+* liberation: original globe data (WORLD.DAT), Martian Rocky, Plain and Polar maps and terrains
+* Luke83: Pyramid UFOs
+* Southoftheline: official OST composer, ideas and feedback
+* Ultrakiroxei: alpha tester
+* wolwerin: Human Outpost/Station maps, Alien Laser weapons, human Alloy weapons 
 
 "UNEXCOM: War on Mars Official Soundtrack" composed by Ikhanad and Southoftheline. All the rights of the tracks belong to them, as their legitimate creators and owners. The content of the OST cannot be used elsewhere without their explicit permission
 
-Ikhanad:
-  GMSTORY: "Red Sand on a Boot"
-  GMTACTIC: "Soil of Ares"
-  GMTACTIC2: "Martian Meeting"
-  GMMARS: "Octet Chorus"
-  GMNEWMAR: "Open Path"
-  GMGEO1: "Red Sand on a Boot"
-  GMGEO2: "Wind Over Dunes"
-  GMGEO3: "The Easy Way or the Hard Way"
-  GMDEFEND: "Routinary Operations"
-  GMENBASE: "Routinary Operations"
-  GMLOSE: "Iskander"
+*Ikhanad*:
+  - GMSTORY: "Red Sand on a Boot"
+  - GMTACTIC: "Soil of Ares"
+  - GMTACTIC2: "Martian Meeting"
+  - GMMARS: "Octet Chorus"
+  - GMNEWMAR: "Open Path"
+  - GMGEO1: "Red Sand on a Boot"
+  - GMGEO2: "Wind Over Dunes"
+  - GMGEO3: "The Easy Way or the Hard Way"
+  - GMGEO4: "Xenophobos"
+  - GMGEO5: "Manus Tenebris Deimos"
+  - GMDEFEND: "Routinary Operations"
+  - GMENBASE: "Routinary Operations"
+  - GMLOSE: "Iskander"
 
-Southoftheline  
-  GMINTER: "Interception"
-  GMENDGAME: "Take That Thing Down"
+*Southoftheline*:  
+  - GMINTER: "Interception"
+  - GMENDGAME: "Take That Thing Down"
