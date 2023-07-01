@@ -8,7 +8,7 @@ alienMissions:
         STR_SECTOID: 25
         STR_SNAKEMAN: 25
         STR_FLOATER: 50
-      2:
+      4:
         STR_SECTOID: 10
         STR_SNAKEMAN: 20
         STR_ETHEREAL: 40
@@ -30,7 +30,7 @@ alienMissions:
         STR_SECTOID: 25
         STR_SNAKEMAN: 25
         STR_FLOATER: 50
-      2:
+      4:
         STR_SECTOID: 10
         STR_SNAKEMAN: 20
         STR_ETHEREAL: 40
@@ -48,11 +48,11 @@ alienMissions:
     siteType: STR_SUPPLY_RECOVERY_OPERATION_DEPLOYMENT
     spawnZone: 0
     raceWeights:
-      0:
+      8:
         STR_SECTOID: 25
         STR_SNAKEMAN: 25
         STR_FLOATER: 50
-      2:
+      10:
         STR_SECTOID: 10
         STR_SNAKEMAN: 20
         STR_ETHEREAL: 40
@@ -132,7 +132,7 @@ alienMissions:
         STR_SECTOID: 30
         STR_SNAKEMAN: 10
         STR_MUTON: 30
-      9:
+      8:
         STR_ARMORED_SECTOID: 30
         STR_ARMORED_SNAKEMAN: 10
         STR_ARMORED_MUTON: 30
@@ -151,7 +151,7 @@ alienMissions:
         STR_SECTOID: 30
         STR_SNAKEMAN: 10
         STR_MUTON: 30
-      9:
+      10:
         STR_SECTOID: 30
         STR_SNAKEMAN: 10
     waves:
@@ -177,7 +177,7 @@ alienMissions:
         STR_SECTOID: 30
         STR_SNAKEMAN: 10
         STR_MUTON: 30
-      9:
+      14:
         STR_ARMORED_SECTOID: 30
         STR_ARMORED_SNAKEMAN: 10
         STR_ARMORED_MUTON: 30
@@ -198,11 +198,11 @@ alienMissions:
       1:
         STR_SECTOID: 10
         STR_SNAKEMAN: 10
-      5:
+      8:
         STR_SECTOID: 30
         STR_SNAKEMAN: 10
         STR_MUTON: 30
-      9:
+      10:
         STR_ARMORED_SECTOID: 30
         STR_ARMORED_SNAKEMAN: 10
         STR_ARMORED_MUTON: 30
@@ -219,11 +219,11 @@ alienMissions:
       1:
         STR_SECTOID: 10
         STR_SNAKEMAN: 10
-      5:
+      9:
         STR_SECTOID: 30
         STR_SNAKEMAN: 10
         STR_MUTON: 30
-      9:
+      12:
         STR_ARMORED_SECTOID: 30
         STR_ARMORED_SNAKEMAN: 10
         STR_ARMORED_MUTON: 30
@@ -242,21 +242,21 @@ alienMissions:
   - type: STR_INVASION_START
     points: 0
     raceWeights:
-      2:
+      4:
         STR_SECTOID: 5
         STR_SNAKEMAN: 5
         STR_FLOATER: 5
-      3:
+      5:
         STR_SECTOID: 10
         STR_SNAKEMAN: 10
         STR_MUTON: 10
         STR_FLOATER: 10
-      5:
+      8:
         STR_SECTOID: 10
         STR_SNAKEMAN: 10
         STR_MUTON: 30
         STR_FLOATER: 20
-      7:
+      9:
         STR_SECTOID: 20
         STR_SNAKEMAN: 10
         STR_MUTON: 20
@@ -318,16 +318,16 @@ alienMissions:
   - type: STR_ALIEN_ABDUCTION
     points: 100
     raceWeights:
-      2:
+      6:
         STR_SECTOID: 5
         STR_FLOATER: 10
-      3:
+      8:
         STR_SECTOID: 10
         STR_FLOATER: 30
-      6:
+      12:
         STR_SECTOID: 30
         STR_FLOATER: 10
-      12:
+      14:
         STR_ARMORED_SECTOID: 30
         STR_ARMORED_FLOATER: 20
     waves:
@@ -347,6 +347,24 @@ alienMissions:
         count: 1
         trajectory: P4
         timer: 5000
+
+  - type: STR_MAJOR_ENGAGEMENT_MISSION
+    objective: 3
+    siteType: STR_MAJOR_ENGAGEMENT_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+        STR_ARMORED_SECTOID: 10
+        STR_ARMORED_SNAKEMAN: 20
+        STR_ARMORED_ETHEREAL: 40
+        STR_ARMORED_MUTON: 20
+        STR_ARMORED_FLOATER: 10
+    waves:
+      - ufo: STR_MAJOR_ENGAGEMENT_DEPLOYMENT
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 0
+        objective: true
 
   - type: STR_OPERATION_SWORDBREAKER_MISSION
     objective: 3

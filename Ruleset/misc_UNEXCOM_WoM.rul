@@ -60,7 +60,7 @@ itemCategories:
     listOrder: 70
   - type: STR_SPECIAL_FORCES_TECH
     listOrder: 72
-  - type: STR_MERCENARY_TECH
+  - type: STR_SPECIALIZED_WEAPONS
     listOrder: 73
   - type: STR_WEAPON_CONVERSION
     listOrder: 74
@@ -218,7 +218,7 @@ startingBase:
     STR_HUMAN_FUSION_RIFLE: 2
     STR_FUSION_POWER_CELL_HEAVY: 20
     STR_BATTERY: 20
-    STR_MEDIKIT: 10
+    STR_MEDI_KIT: 10
     STR_40MM_FRAG: 16
     STR_DUCT_TAPE: 10
     STR_BIO_FOAM: 16
@@ -532,7 +532,7 @@ manufacture:
           STR_MEDI_KIT: 5
       -       
         - 50
-        - STR_M17: 5
+        - STR_M17_CARBINE: 5
           STR_5_56MM_NATO_RIFLE_X30: 5
           STR_AK79_RIFLE: 5
           STR_7_62MM_SOVIET_RIFLE_X40: 5

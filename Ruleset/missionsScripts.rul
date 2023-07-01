@@ -48,6 +48,10 @@ missionScripts:
     lastMonth: 5
     maxRuns: 6
 
+#####################
+###### ACT 2 #######
+###################
+
   - type: supplyRecovery
     varName: supplyRecovery
     missionWeights:
@@ -446,6 +450,24 @@ missionScripts:
 #####################
 ###### ACT 3 #######
 ###################
+
+  - type: majorEngagement
+    varName: majorEngagement
+    missionWeights:
+      0:
+        STR_MAJOR_ENGAGEMENT_MISSION: 100
+    regionWeights:
+      0:
+        REGION_MAJOR_ENGAGEMENT: 100
+    #researchTriggers:
+      #STR_TERRORISTS_OPERATIONS: true
+      #STR_END_OF_TERRORISTS: false
+    useTable: false
+    startDelay: 21600 # 15 Days
+    executionOdds: 100
+    firstMonth: 14
+    lastMonth: 18
+    maxRuns: 6
 
   - type: operationSwordbreaker
     varName: operationSwordbreaker
