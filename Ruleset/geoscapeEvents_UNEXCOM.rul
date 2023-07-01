@@ -275,12 +275,12 @@ events:
 # Act 1 side events
 
   - name: STR_6TH_ANNIVERSARY_SNAKE_REMOVAL_EVENT
-    description: STR_TNI_STORY_7_EVENT_DESCRIPTION
+    description: STR_6TH_ANNIVERSARY_SNAKE_REMOVAL_EVENT_DESCRIPTION
     background: GENERIC_NEWS_EVENT_BACKGROUND
     #regionList: [STR_SOUTH_EAST_ASIA]
-    points: 100
-    timer: 180
-    timerRandom: 43500
+    points: 30
+    timer: 36000
+    #timerRandom: 43500
 
 extraSprites:
 ##########################################
@@ -334,4 +334,4 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/Backgrounds/INSURGENT_OFFENSIVE_EVENT_BACKGROUND.PNG      
+      0: Resources/Backgrounds/INSURGENT_OFFENSIVE_EVENT_BACKGROUND.PNG
