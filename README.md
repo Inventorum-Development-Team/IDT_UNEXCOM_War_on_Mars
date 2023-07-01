@@ -11,7 +11,7 @@ Credits by name:
 
 * bulletdesigner: original tilesets used on Space Shuttle
 * Buscher: original alien mission alien infiltration ruleset (modified)
-* Brain322: Psionic Invoker sprites
+* Brain322: Psionic Invoker, supply crates sprites
 * cevaralien: MARSMOUNT, MARSURBAN, MARSPLAIN, MARSCRATER map and terrains
 * Dauntless1942: alien Fusion weapons artwork
 * efrenespartano: lead dev, main ruleset work, Gyrojet weapons,
