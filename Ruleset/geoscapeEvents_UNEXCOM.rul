@@ -182,15 +182,16 @@ events:
     timer: 180
     timerRandom: 4350
     everyItemList:
-      - STR_M17
+      - STR_M17_CARBINE
       - STR_5_56MM_NATO_RIFLE_X30
       - STR_5_56MM_NATO_RIFLE_X30
-      - STR_BATTERY
-      - STR_BATTERY
-      - STR_BIO_FOAM
       - STR_BIO_FOAM
       - STR_MEDI_KIT
-      - STR_MEDI_KIT
+      - STR_FIELD_DRESSING
+      - STR_MEDICAL_POUCH
+      - STR_MEDICAL_POUCH
+      - STR_BATTERY
+      - STR_BATTERY
 
   - name: STR_LARGE_SUPPLY_DROP_EVENT
     description: STR_LARGE_SUPPLY_DROP_EVENT_DESCRIPTION
@@ -199,16 +200,24 @@ events:
     points: 100
     timer: 180
     timerRandom: 4350
+    spawnedPersons: 3
+    spawnedPersonType: STR_ASTRONAUT
     everyItemList:
       - STR_BATTERY
       - STR_BATTERY
       - STR_BATTERY
+      - STR_BATTERY
+      - STR_BATTERY
       - STR_BIO_FOAM
       - STR_BIO_FOAM
       - STR_BIO_FOAM
       - STR_MEDI_KIT
       - STR_MEDI_KIT
       - STR_MEDI_KIT
+      - STR_FIELD_DRESSING
+      - STR_FIELD_DRESSING
+      - STR_MEDICAL_POUCH
+      - STR_MEDICAL_POUCH
 
 #############################
 ####### SIDE EVENTS ########

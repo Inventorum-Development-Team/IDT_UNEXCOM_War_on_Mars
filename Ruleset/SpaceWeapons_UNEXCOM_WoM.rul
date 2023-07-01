@@ -786,8 +786,8 @@ items:
   - type: STR_FIELD_DRESSING
     categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT ]
     size: 0.1
-    costBuy: 100
-    costSell: 50
+    costBuy: 500
+    costSell: 500
     weight: 1
     bigSprite: 196
     floorSprite: 196
@@ -812,17 +812,17 @@ items:
   - type: STR_MEDICAL_POUCH
     categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT ]
     size: 0.1
-    costBuy: 200
-    costSell: 250
+    costBuy: 700
+    costSell: 650
     weight: 2
     bigSprite: 197
     floorSprite: 197
     handSprite: 880
     battleType: 6
-    invWidth: 1
+    invWidth: 2
     invHeight: 1
     heal: 3
-    healthRecovery: 3
+    healthRecovery: 5
     isConsumable: true
     medikitTargetSelf: true
     medikitType: 1 #change how medikit works, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
@@ -889,7 +889,8 @@ items:
     categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT, STR_SPACE ]
     size: 0.1
     weight: 5
-    costSell: 35000
+    costBuy: 24000
+    costSell: 20000
     bigSprite: 204
     floorSprite: 204
     handSprite: 1004

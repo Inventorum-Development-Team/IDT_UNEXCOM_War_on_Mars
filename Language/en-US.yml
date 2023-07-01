@@ -65,6 +65,7 @@ en-US:
       STR_CUSTOM_WEAPON: Custom Weapons
       STR_AIRCRAFTS: Aircrafts
       STR_TRANSPORTS: Transports
+      STR_SPECIALIZED_WEAPONS: "Specialized Weapons"
   #STR_FIGHTERS: Fighters
   #STR_BOMBERS: Bombers
       STR_VTOL_TRANSPORTS: VTOL Transports
@@ -987,17 +988,17 @@ en-US:
 
       STR_MEDICAL_BAG: "Medical Bag"
 
-      STR_FIELD_DRESSING: "Field Dressing"
+      STR_FIELD_DRESSING: "Compressed Dressing"
 
-      STR_MEDICAL_POUCH: "Medical Pouch"
+      STR_MEDICAL_POUCH: "Bubble MedPac"
 
       STR_DUCT_TAPE: "Duct Tape"
       STR_DUCT_GUN: "Tape Gun Dispenser"
       STR_BIO_FOAM: "Bio-Foam"
       STR_ACTIVATE_MEDIKIT: "Activate Medikit"
       STR_DEPLOY_MEDICAL_BAG: "Deploy Medical Bag"
-      STR_USE_FIELD_DRESSING: "Use Field Dressing"
-      STR_USE_MEDICAL_POUCH: "Use Medical Pouch"
+      STR_USE_FIELD_DRESSING: "Use Compressed Dressing"
+      STR_USE_MEDICAL_POUCH: "Use MedPac"
       STR_TAPE_IT: "Tape it up!"
       STR_APPLY_FOAM: "Fill it with Foam!"
   ########################################
@@ -1077,7 +1078,7 @@ en-US:
 
 
   ##################
-      STR_COUNTER_INSURGENCY_OPERATION: "Counter-Insurgency Operation"
+      STR_COUNTER_INSURGENCY_OPERATION_MISSION: "Counter-Insurgency Operation"
       STR_COUNTER_INSURGENCY_OPERATION_DEPLOYMENT: "COUNTER-INSURGENCY OPERATION"
       STR_COUNTER_INSURGENCY_OPERATION_DESCRIPTION: "Allied forces operating in the area have reported Insurgent activity, most likely aimed to compromise their safety. We have been tasked to engage the alien guerrilla before they manage to damage our assets and retreat. "
       STR_COUNTER_INSURGENCY_OPERATION_MARKER_NAME: "Counter-Insurgency Operation Requested"
@@ -1086,7 +1087,7 @@ en-US:
       STR_COUNTER_INSURGENCY_OPERATION_FAILURE: "The enemy managed to flee the warzone, they'll most likely continue they terror campaign on our civilian and military outposts. We cannot allow it to happen again. "
       STR_DELETE_COUNTER_INSURGENCY_OPERATIONS: "End Counter-Insurgency Operations"
 
-      STR_SEARCH_AND_DESTROY_OPERATION: "Search and Destroy Operation"
+      STR_SEARCH_AND_DESTROY_OPERATION_MISSION: "Search and Destroy Operation"
       STR_SEARCH_AND_DESTROY_OPERATION_DEPLOYMENT: "SEARCH AND DESTROY"
       STR_SEARCH_AND_DESTROY_OPERATION_DESCRIPTION: "We were deployed to what appears to be an Insurgent facility, recently detected by allied recon units. The mission consists in approach the enemy settlement, detect any armed hostile and engage them, then quickly return before the enemy manages to prepare a counterstrike. Be careful, this is urban combat. There may be Insurgents in every house. Evacuate before 10 turns, otherwise the LZ will be compromised and your forces overrun."
       STR_SEARCH_AND_DESTROY_OPERATION_MARKER_NAME: "Search and Destroy Operation requested"
@@ -1095,7 +1096,7 @@ en-US:
       STR_SEARCH_AND_DESTROY_OPERATION_FAILURE: "We failed to accomplish the mission. The guerrillas overran the landing zone and we lost contact with our forces. The enemy has secured yet another alien settlement, increasing their resources and manpower. We must avoid any further insurgent expanse."
       STR_DELETE_SEARCH_AND_DESTROY_OPERATIONS: "End Search and Destroy Operations"
 
-      STR_SUPPLY_RECOVERY_OPERATION: "Supply Recovery Operation"
+      STR_SUPPLY_RECOVERY_OPERATION_MISSION: "Supply Recovery Operation"
       STR_SUPPLY_RECOVERY_OPERATION_DEPLOYMENT: "SUPPLY RECOVERY OPERATION"
       STR_SUPPLY_RECOVERY_OPERATION_DESCRIPTION: "Local recon has identified supplies left behind in a small outpost left untouched after the enemy offensive. Our task is approach the site and retrieve any useful supply or equipment. Be careful, the enemy attackers may be near the area, they will intercept our team if we take too long. Evacuate before 10 turns."
       STR_SUPPLY_RECOVERY_OPERATION_MARKER_NAME: "Supply Recovery Operation planned"
@@ -1104,7 +1105,7 @@ en-US:
       STR_SUPPLY_RECOVERY_OPERATION_FAILURE: "Our scavenger team was overwhelmed and destroyed. Local recon informs the aliens completely burnt the site to the ground, negating us of another possible supply point. We will lose this war if we don't have bullets or batteries to fight it."
       STR_DELETE_SUPPLY_RECOVERY_OPERATIONS: "End Supply Recovery Operations"
 
-      STR_MAJOR_ENGAGEMENT: "Major Engagement"
+      STR_MAJOR_ENGAGEMENT_MISSION: "Major Engagement"
       STR_MAJOR_ENGAGEMENT_DEPLOYMENT: "MAJOR ENGAGEMENT"
       STR_MAJOR_ENGAGEMENT_DESCRIPTION: "UN forces have intercepted a large group of Insurgents and a fierce battle has begun. While the allied forces could win the combat on their own, the UNSC has tasked us to turn the tide. Land and support the friendly units before the enemy manages to flee."
       STR_MAJOR_ENGAGEMENT_MARKER_NAME: "Major Engagement ongoing"
@@ -1112,7 +1113,7 @@ en-US:
       STR_MAJOR_ENGAGEMENT_COMPLETE: "The victory is ours. The Insurgent forces were completely annihilated, this is a severe blow to their war efforts."
       STR_MAJOR_ENGAGEMENT_FAILURE: "Although we tried our best, the enemy managed to hold their ground. Don't let this stop our advance, keep pushing forward."
 
-      STR_OPERATION_SWORDBREAKER: "Operation Swordbreaker"
+      STR_OPERATION_SWORDBREAKER_MISSION: "Operation Swordbreaker"
       STR_OPERATION_SWORDBREAKER_DEPLOYMENT: "OPERATION SWORDBREAKER - LANDING"
       STR_OPERATION_SWORDBREAKER_DESCRIPTION: "Orbital recon has found the main HQ of the Insurgency, located deep inside the Olympus Mons. Our task force has been requested to assault the hideout and destroy the leadership once and for all. Most of the enemy forces have been recalled to defend their main base. UNSC has launched this joint operation, allied forces have landed along with us. This is the final battle for the control of Mars."
       STR_OPERATION_SWORDBREAKER_MARKER_NAME: "Operation Swordbreaker Ongoing"
@@ -1397,19 +1398,8 @@ en-US:
         surgery kit with which bullets or splinters can be removed from
         patients' wounds. It is somewhat heavy and slow to use, but can save a
         patient's life."
-      STR_FIELD_DRESSING_UFOPEDIA: "Pack of sterile gauze and bandages, very useful
-
-        for stopping bleeding from a serious injury or wound. The bandage can be
-        applied by the same user to avoid losing too much blood while waiting
-        for specialized medical attention. "
-      STR_MEDICAL_POUCH_UFOPEDIA: "Small medical case packed in a plastic bag, it is
-
-        similar to those found in civilian life, such as in offices and schools.
-        This small first aid kit is used to quickly apply medication to a
-        serious, life-threatening injury, allowing the user to arrive at
-        appropriate medical facilities. It can be used by the user himself,
-        although it does not contain a large amount of medication and when
-        consumed the pouch is discarded."
+      STR_FIELD_DRESSING_UFOPEDIA: "Military-grade pack of sterile gauze and bandages, very useful for stopping bleeding from a serious injury or wound. Developed using special fabrics that quickly attack to any kind of material, organic or inorganic. The bandage is sealed in a pressurized bag until use. "
+      STR_MEDICAL_POUCH_UFOPEDIA: "Compact first response medical pack, designed to carry as much medicine as possible in the smallest package possible. It can be used by the user himself, and the large 'bubble' like texture (hence the nickname) allows a spacesuit-user to properly open and use the package. It is discarded after use."
       STR_DUCT_TAPE_UFOPEDIA: "There is nothing on Earth that cannot be repaired with duct tape. This tape can be used as an improvised bandage to plug an artery or a ruptured spacesuit. It can be used on the most extreme conditions."
 
       STR_DUCT_GUN_UFOPEDIA: "By employing a reinforced tape and a special automatic dispenser, the already-not-so-improvised ability to plug ruptured arteries and space suits of basic duct tape can be improved. The ergonomic handle allows it to be used with heavy gloves without major problems."
@@ -2615,6 +2605,12 @@ en-US:
       
       STR_SUPPLY_ROCKET_SHOT_DOWN_EVENT: "Supply rocket destroyed in orbit"
       STR_SUPPLY_ROCKET_SHOT_DOWN_EVENT_DESCRIPTION: "Unfortunately, the expected pod was intercepted before completing the decent. The unmanned vehicle and its cargo was completely lost. Our forward recon observers couldn't adquire the location of the Surface-To-Air Missile Battery before the Insurgents managed to discreetly evacuate. This situation was outside our control, Commander. "
+
+      STR_SMALL_SUPPLY_DROP_EVENT: "Small supply drop"
+      STR_SMALL_SUPPLY_DROP_EVENT_DESCRIPTION: "A small, unmmaned pod landed near our base, it carries basic supplies to keep us on the fight."
+
+      STR_LARGE_SUPPLY_DROP_EVENT: "Large supply drop"
+      STR_LARGE_SUPPLY_DROP_EVENT_DESCRIPTION: "A manned, large pod just landed inside the base perimeter. The volunteer crew ferried several supplies and assets to keep us on the fight. The crew will remain with, as they knew there was no possibility to returning to orbit safely. "
 
 #############################
 ########## NPCS ############
