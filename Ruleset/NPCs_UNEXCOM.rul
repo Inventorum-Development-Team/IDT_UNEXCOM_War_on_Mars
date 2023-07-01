@@ -492,6 +492,8 @@ units:
         - STR_P72_COMPACT_LASER
         - STR_BATTERY
         - STR_BATTERY
+        - STR_GRENADE
+        - STR_GRENADE
 
   - type: STR_SOVIET_SUPPORT
     race: STR_ALLIED
