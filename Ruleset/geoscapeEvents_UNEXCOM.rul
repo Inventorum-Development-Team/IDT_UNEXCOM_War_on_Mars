@@ -45,6 +45,8 @@ eventScripts:
 ####### SIDE EVENTS ########
 ###########################
 
+# TNI subplot 
+
   - type: STR_TNI_STORY_1_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_TNI_STORY_1_EVENT
@@ -80,6 +82,14 @@ eventScripts:
      - STR_TNI_STORY_6_EVENT
     firstMonth: 7
     executionOdds: 100
+
+  - type: STR_TNI_STORY_7_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_TNI_STORY_7_EVENT
+    firstMonth: 9
+    executionOdds: 100
+
+# Act 1 Side events
 
   - type: STR_TNI_STORY_7_EVENT_SCRIPT
     oneTimeSequentialEvents:
@@ -262,6 +272,16 @@ events:
     timer: 180
     timerRandom: 43500
 
+# Act 1 side events
+
+  - name: STR_6TH_ANNIVERSARY_SNAKE_REMOVAL_EVENT
+    description: STR_TNI_STORY_7_EVENT_DESCRIPTION
+    background: GENERIC_NEWS_EVENT_BACKGROUND
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
 extraSprites:
 ##########################################
 ############ BACKGROUNDS #################
@@ -302,3 +322,16 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/UN_FLEET_ARRIVING_EVENT_BACKGROUND.PNG
+  - type: GENERIC_NEWS_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/GENERIC_NEWS_EVENT_BACKGROUND.PNG
+
+  - type: INSURGENT_OFFENSIVE_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/INSURGENT_OFFENSIVE_EVENT_BACKGROUND.PNG      
