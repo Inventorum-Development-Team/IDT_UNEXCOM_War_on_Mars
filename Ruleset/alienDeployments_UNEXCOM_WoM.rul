@@ -2323,7 +2323,7 @@ alienDeployments:
       STR_ALIEN_SUPPLY: 100
     briefing:
       #textOffset: -16
-      background: BACK01.SCR
+      background: ALIEN_BASE_ASSAULT_BACKGROUND
       showTarget: true
       desc: STR_ALIEN_BASE_ASSAULT_STAGE_3_BRIEFING
     nextStage: STR_ALIEN_BASE_ASSAULT_STAGE_3_UNDERGROUND
@@ -2337,7 +2337,7 @@ alienDeployments:
     data: *AlienFortRanks
     briefing:
       #textOffset: -16
-      background: BACK01.SCR
+      background: ALIEN_BASE_ASSAULT_BACKGROUND
       showTarget: true
       desc: STR_ALIEN_FORT_ASSAULT_UNDERGROUND_BRIEFING
     width: 60
@@ -2381,7 +2381,7 @@ alienDeployments:
     markerName: STR_COUNTER_INSURGENCY_OPERATION_MARKER_NAME
     alert: STR_COUNTER_INSURGENCY_OPERATION_ALERT
     missionCompleteText: STR_COUNTER_INSURGENCY_OPERATION_COMPLETE
-    missionFailedText: STR_COUNTER_INSURGENCY_OPERATION_FAILED
+    missionFailedText: STR_COUNTER_INSURGENCY_OPERATION_FAILURE
     #markerIcon: 32
     duration: [78, 99]
     despawnPenalty: 100
@@ -2406,7 +2406,7 @@ alienDeployments:
     alert: STR_SEARCH_AND_DESTROY_OPERATION_ALERT
     #markerIcon: 32
     missionCompleteText: STR_SEARCH_AND_DESTROY_OPERATION_COMPLETE
-    missionFailedText: STR_SEARCH_AND_DESTROY_OPERATION_FAILED
+    missionFailedText: STR_SEARCH_AND_DESTROY_OPERATION_FAILURE
     turnLimit: 10
     chronoTrigger: 1
     duration: [78, 99]
@@ -2435,10 +2435,11 @@ alienDeployments:
     markerName: STR_SUPPLY_RECOVERY_OPERATION_MARKER_NAME
     alert: STR_SUPPLY_RECOVERY_OPERATION_ALERT
     missionCompleteText: STR_SUPPLY_RECOVERY_OPERATION_COMPLETE
-    missionFailedText: STR_SUPPLY_RECOVERY_OPERATION_FAILED
+    missionFailedText: STR_SUPPLY_RECOVERY_OPERATION_FAILURE
     turnLimit: 10
     chronoTrigger: 0
-    #missionBountyItem: 
+    missionBountyItem: STR_SUPPLY_CRATE
+    missionBountyItemCount: 5
     #markerIcon: 32 
     duration: [78, 99]
     despawnPenalty: 100 
@@ -2448,17 +2449,61 @@ alienDeployments:
 #### ACT 3 #####
 ###############
 
+  - type: STR_MAJOR_ENGAGEMENT_DEPLOYMENT
+    #baseSelfDestructCode: STR_DELETE_COUNTER_INSURGENCY_OPERATIONS
+    height: 10
+    width: 40
+    length: 40
+    data: *BattleshipData
+    terrains:
+      - IDT_MARS
+      - IDT_MARS_DEBRIS
+      - IDT_MARS_DRYLAKE
+      - MARSMOUNT
+      - MARSPLAIN
+      - MARSCRATER
+      - MSTD
+      - MSTDS
+      - MSTRK
+    briefing:
+      #textOffset: -16
+      background: BACK02.SCR
+      showTarget: true
+      showCraft: true
+      desc: STR_MAJOR_ENGAGEMENT_DESCRIPTION
+      palette: 2
+    markerName: STR_MAJOR_ENGAGEMENT_MARKER_NAME
+    alert: STR_MAJOR_ENGAGEMENT_ALERT
+    missionCompleteText: STR_MAJOR_ENGAGEMENT_COMPLETE
+    missionFailedText: STR_MAJOR_ENGAGEMENT_FAILURE
+    #markerIcon: 32
+    duration: [78, 99]
+    despawnPenalty: 100
+
   - type: STR_OPERATION_SWORDBREAKER_DEPLOYMENT
     #baseSelfDestructCode: STR_DELETE_SUPPLY_RECOVERY_OPERATION_OPERATIONS
     height: 10
     width: 40
     length: 40
     data: *BattleshipData
+    civiliansByType:
+      STR_AMERICAN_RIFLEMAN: 1
+      STR_AMERICAN_ASSAULT: 1
+      STR_AMERICAN_SUPPORT: 1
+      STR_AMERICAN_ELITE: 1
+      STR_EUROPEAN_RIFLEMAN: 1
+      STR_EUROPEAN_ASSAULT: 1
+      STR_EUROPEAN_SUPPORT: 1
+      STR_EUROPEAN_ELITE: 1
+      STR_SOVIET_RIFLEMAN: 1
+      STR_SOVIET_ASSAULT: 1
+      STR_SOVIET_SUPPORT: 1
+      STR_SOVIET_ELITE: 1
     terrains:
       - MARS
     briefing:
       #textOffset: -16
-      background: BACK16.SCR
+      background: OPERATION_SWORDBREAKER_BACKGROUND
       showTarget: true
       showCraft: true
       desc: STR_OPERATION_SWORDBREAKER_DESCRIPTION
@@ -2477,9 +2522,19 @@ alienDeployments:
     data: *AlienBaseRanks
     width: 60
     length: 60
-    #civiliansByType:
-     # STR_ALLIED_SOVIET_COSMONAUT: 5
-      #STR_ALLIED_AMERICAN_ASTRONAUT: 5
+    civiliansByType:
+      STR_AMERICAN_RIFLEMAN: 1
+      STR_AMERICAN_ASSAULT: 1
+      STR_AMERICAN_SUPPORT: 1
+      STR_AMERICAN_ELITE: 1
+      STR_EUROPEAN_RIFLEMAN: 1
+      STR_EUROPEAN_ASSAULT: 1
+      STR_EUROPEAN_SUPPORT: 1
+      STR_EUROPEAN_ELITE: 1
+      STR_SOVIET_RIFLEMAN: 1
+      STR_SOVIET_ASSAULT: 1
+      STR_SOVIET_SUPPORT: 1
+      STR_SOVIET_ELITE: 1
     terrains:
       - UBASE_MARS
     shade: 5
@@ -2489,7 +2544,7 @@ alienDeployments:
     abortCutscene: loseGame
     briefing:
       desc: STR_OPERATION_SWORDBREAKER_STAGE_2_DESCRIPTION
-      background: BACK16.SCR
+      background: ALIEN_BASE_ASSAULT_BACKGROUND
       textOffset: -16
       palette: 6
       music: GMENDGAME

@@ -86,7 +86,7 @@ ufopaedia:
     section: STR_MEDALS_AND_AWARDS_UC
     image_id: MEDAL_COMBAT_MEDIC_IMAGE
     text: STR_MEDAL_COMBAT_MEDIC_UFOPEDIA
-    listOrder: 12l
+    listOrder: 12
     text_width: 180
   - id: STR_MEDAL_PURPLE_HEART
     type_id: 7
@@ -1489,22 +1489,21 @@ ufopaedia:
     text_width: 150
     listOrder: 4800
 
-  #- id: STR_SPACE_KNIFE
-  #  type_id: 4
-  #  section: STR_WEAPONS
-
-  #  text: STR_SPACE_KNIFE_UFOPEDIA
-  #  listOrder: 4806
+  - id: STR_SPACE_KNIFE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_SPACE_KNIFE_UFOPEDIA
+    listOrder: 4806
 
   - id: STR_STUN_ROD
     section: STR_WEAPONS
     listOrder: 4807
 
-  #- id: STR_GENERATOR_STICK
-  #  type_id: 4
-  #  section: STR_WEAPONS
-  #  text: STR_GENERATOR_STICK_UFOPEDIA
-  #  listOrder: 4808
+  - id: STR_GENERATOR_STICK
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_GENERATOR_STICK_UFOPEDIA
+    listOrder: 4808
 
   #Ammunition
   - id: STR_5_56MM_NATO_RIFLE_X30
@@ -1856,13 +1855,11 @@ ufopaedia:
   - id: STR_POWER_SUIT_UC
     section: STR_ARMOR
     type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_POWER_SUIT_UFOPEDIA
     listOrder: 7300
   - id: STR_FLYING_SUIT_UC
     section: STR_ARMOR
     type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_FLYING_SUIT_UFOPEDIA
     listOrder: 7301
 

@@ -562,7 +562,7 @@ items:
 
 # China Lake Laser Projector
   - type: STR_CHINA_LAKE_LASER_PROJECTOR
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_LMGS, STR_PROPRIETARY]
+    categories: [STR_FIREARMS, STR_LASER, STR_LMGS]
     size: 0.2
     costSell: 225000
     weight: 20
@@ -947,6 +947,83 @@ items:
     clipSize: -1
     listOrder: 2121
 
+  - type: STR_SPACE_KNIFE
+    categories: [ STR_MELEE, STR_SPACE, STR_LIGHT_EQUIPMENT ]
+    size: 0.2
+    costBuy: 1200
+    costSell: 2200
+    weight: 3
+    bigSprite: 1144
+    floorSprite: 1144
+    handSprite: 1144
+    meleeHitSound: 165
+    power: 60
+    damageType: 7
+    damageBonus:
+      strength: 0.6
+      melee: 1.4
+    damageAlter:
+      ArmorEffectiveness: 0.8
+      ToArmorPre: 0.5
+    accuracyMelee: 80
+    meleeMultiplier:
+      flatHundred: 0.5
+      melee: 0.9
+    costMelee:
+      time: 12
+      energy: 4
+    costThrow:
+      energy: 10
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    invWidth: 1
+    invHeight: 2
+    armor: 60
+    experienceTrainingMode: 13
+    attraction: 7
+    listOrder: 2119
+
+  - type: STR_GENERATOR_STICK
+    categories: [ STR_MELEE, STR_LIGHT_EQUIPMENT, STR_SPACE ]
+    size: 0.1
+    costBuy: 3260
+    costSell: 4045
+    weight: 5
+    bigSprite: 1152
+    floorSprite: 1152
+    handSprite: 1152
+    meleeSound: 54
+    power: 85
+    damageType: 6
+    accuracyMelee: 100
+    tuMelee: 25
+    battleType: 3
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    skillApplied: false
+    clipSize: -1
+    listOrder: 2122
+
+########################################
+######## AMMO CLIPS & MAGAZINES ########
+########################################
+
+  - type: STR_SUPPLY_CRATE
+    categories: [STR_UNEXCOM_TECH, STR_MISC]
+    size: 0.5
+    costSell: 10000
+    weight: 50
+    bigSprite: 3020
+    floorSprite: 3020
+    costThrow:
+      energy: 20
+    battleType: 10
+    armor: 40
+    invWidth: 2
+    invHeight: 2
+    listOrder: 2130
 
 ufopaedia:
 ########################################
@@ -1003,6 +1080,11 @@ extraSprites:
       204: Resources/BallisticWeapons/Medical&Food/BigBioFoam.png
       888: Resources/BallisticWeapons/Explosives/BigFlare.png
       896: Resources/BallisticWeapons/Explosives/BigFlarelit.png
+      3020: Resources/SpaceWeapons/BigSupplyCrate.png
+      3021: Resources/SpaceWeapons/BigWeaponsCrate.png
+
+      1144: Resources/SpaceWeapons/BigSpaceKnife.png
+      1152: Resources/SpaceWeapons/BigGeneratorStick.png
 
   - type: FLOOROB.PCK
     files:
@@ -1035,8 +1117,13 @@ extraSprites:
 
       888: Resources/BallisticWeapons/Explosives/FloorFlare.png
       896: Resources/BallisticWeapons/Explosives/FloorFlarelit.png
-      
+
+      1144: Resources/SpaceWeapons/FloorSpaceKnife.png
+      1152: Resources/SpaceWeapons/FloorGeneratorStick.png
+
       3012: Resources/AlliedWeapons/FloorChinaLakeLaserGun.png
+      3020: Resources/SpaceWeapons/FloorSupplyCrate.png
+      3021: Resources/SpaceWeapons/FloorWeaponsCrate.png
 
   - type: HANDOB.PCK
     width: 256
@@ -1066,7 +1153,10 @@ extraSprites:
 
       904: Resources/BallisticWeapons/Explosives/HandSmokeGrenade.png
       912: Resources/BallisticWeapons/Explosives/HandFlashbangGrenade.png
-      
+
+      1144: Resources/SpaceWeapons/HandSpaceKnife.png
+      1152: Resources/SpaceWeapons/HandGeneratorStick.png
+
       3012: Resources/AlliedWeapons/HandChinaLakeLaserGun.png
   - type: MEDIKIT_BACKGROUND
     singleImage: true
