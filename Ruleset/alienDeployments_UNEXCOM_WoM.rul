@@ -2464,8 +2464,8 @@ alienDeployments:
   - type: STR_MAJOR_ENGAGEMENT_DEPLOYMENT
     #baseSelfDestructCode: STR_DELETE_COUNTER_INSURGENCY_OPERATIONS
     height: 10
-    width: 40
-    length: 40
+    width: 60
+    length: 60
     data: *BattleshipData
     civiliansByType:
       STR_AMERICAN_RIFLEMAN: 1

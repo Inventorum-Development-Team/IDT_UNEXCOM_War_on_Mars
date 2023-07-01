@@ -177,6 +177,9 @@ globe:
     - id: -12
       deployments:
         STR_SUPPLY_RECOVERY_OPERATION_DEPLOYMENT: 100
+    - id: -13
+      deployments:
+        STR_MAJOR_ENGAGEMENT_DEPLOYMENT: 100
     - id: -20
       deployments:
         STR_OPERATION_SWORDBREAKER_DEPLOYMENT: 100
