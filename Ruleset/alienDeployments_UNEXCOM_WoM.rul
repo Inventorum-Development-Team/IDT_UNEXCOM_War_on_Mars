@@ -1652,7 +1652,16 @@ alienDeployments:
     width: 50
     length: 50
     height: 7
-    civilians: 16
+    civiliansByType:
+      MALE_CIVILIAN: 3
+      FEMALE_CIVILIAN: 3
+      STR_EUROPEAN_EURONAUT: 2
+      STR_EUROPEAN_RIFLEMAN: 1
+      STR_AMERICAN_RIFLEMAN: 1
+      STR_AMERICAN_ASTRONAUT: 2
+      STR_SOVIET_COSMONAUT: 2
+      STR_SOVIET_RIFLEMAN: 1
+
     terrains:
       - IDT_HUMAN_STATION_NO_UFO
     alert: STR_ALIENS_TERRORISE
@@ -2380,6 +2389,7 @@ alienDeployments:
       palette: 2
     markerName: STR_COUNTER_INSURGENCY_OPERATION_MARKER_NAME
     alert: STR_COUNTER_INSURGENCY_OPERATION_ALERT
+    alertBackground: BACK02.SCR
     missionCompleteText: STR_COUNTER_INSURGENCY_OPERATION_COMPLETE
     missionFailedText: STR_COUNTER_INSURGENCY_OPERATION_FAILURE
     #markerIcon: 32
@@ -2403,6 +2413,7 @@ alienDeployments:
       desc: STR_SEARCH_AND_DESTROY_OPERATION_DESCRIPTION
       palette: 2
     markerName: STR_SEARCH_AND_DESTROY_OPERATION_MARKER_NAME
+    alertBackground: BACK02.SCR
     alert: STR_SEARCH_AND_DESTROY_OPERATION_ALERT
     #markerIcon: 32
     missionCompleteText: STR_SEARCH_AND_DESTROY_OPERATION_COMPLETE
@@ -2434,6 +2445,7 @@ alienDeployments:
       palette: 2
     markerName: STR_SUPPLY_RECOVERY_OPERATION_MARKER_NAME
     alert: STR_SUPPLY_RECOVERY_OPERATION_ALERT
+    alertBackground: BACK13.SCR
     missionCompleteText: STR_SUPPLY_RECOVERY_OPERATION_COMPLETE
     missionFailedText: STR_SUPPLY_RECOVERY_OPERATION_FAILURE
     turnLimit: 10
@@ -2455,6 +2467,19 @@ alienDeployments:
     width: 40
     length: 40
     data: *BattleshipData
+    civiliansByType:
+      STR_AMERICAN_RIFLEMAN: 1
+      STR_AMERICAN_ASSAULT: 1
+      STR_AMERICAN_SUPPORT: 1
+      STR_AMERICAN_ELITE: 1
+      STR_EUROPEAN_RIFLEMAN: 1
+      STR_EUROPEAN_ASSAULT: 1
+      STR_EUROPEAN_SUPPORT: 1
+      STR_EUROPEAN_ELITE: 1
+      STR_SOVIET_RIFLEMAN: 1
+      STR_SOVIET_ASSAULT: 1
+      STR_SOVIET_SUPPORT: 1
+      STR_SOVIET_ELITE: 1
     terrains:
       - IDT_MARS
       - IDT_MARS_DEBRIS
@@ -2467,7 +2492,7 @@ alienDeployments:
       - MSTRK
     briefing:
       #textOffset: -16
-      background: BACK02.SCR
+      background: MAJOR_ENGAGEMENT_BACKGROUND
       showTarget: true
       showCraft: true
       desc: STR_MAJOR_ENGAGEMENT_DESCRIPTION
@@ -2511,6 +2536,7 @@ alienDeployments:
       music: GMENDGAME
     markerName: STR_OPERATION_SWORDBREAKER_MARKER_NAME
     alert: STR_OPERATION_SWORDBREAKER_ALERT
+    alertBackground: MAJOR_ENGAGEMENT_BACKGROUND
     nextStage: STR_OPERATION_SWORDBREAKER_STAGE_2_DEPLOYMENT
     #missionBountyItem: 
     #markerIcon: 32 

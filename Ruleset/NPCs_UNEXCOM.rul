@@ -1,5 +1,52 @@
 units:
 
+  - type: MALE_CIVILIAN
+    race: STR_CIVILIAN
+    stats: &CIVILIAN_STATS
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: STR_ASTRONAUT_SPACESUIT_UC
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      -
+        - STR_DUCT_TAPE
+      -
+        - STR_BIO_FOAM
+      -
+        - STR_M1972_LASER_PISTOL
+        - STR_BATTERY
+  - type: FEMALE_CIVILIAN
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: STR_COSMONAUT_SPACESUIT_UC
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    builtInWeaponSets:
+      -
+        - STR_DUCT_TAPE
+      -
+        - STR_BIO_FOAM
+      -
+        - STR_P71_LASER_PISTOL
+        - STR_BATTERY
+
 ###################
 ###### USA #######
 #################
