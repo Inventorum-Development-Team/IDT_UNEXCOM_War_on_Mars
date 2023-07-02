@@ -2547,7 +2547,7 @@ en-US:
       STR_WELCOME_MESSAGE_1_EVENT_DESCRIPTION: "Welcome to Mars, Commander! As you know, we have an ongoing situation related to a growing number of reports of hostiles harassing our facilities and outposts. Allied forces are utterly incapable of a proper response. As a veteran of both Downfall and the Lunar Campaign, plus your expertise in space warfare, you were ordered to lead the Task Force Crimson, UNEXCOM's finest brigade. Your job isn't an easy one, as you have to pacify a whole planet. But we trust you're the right person for the challenge. Good luck and good hunting."
       
       STR_WELCOME_MESSAGE_2_EVENT: "UNEXCOM HQ technical report from Science Staff"
-      STR_WELCOME_MESSAGE_2_EVENT_DESCRIPTION: "We just unpacked our assets, Commander. The crew ran several tests and evaluations, the outpost seems functional. We found an issue, however. A malfunction in the Comms relay corrupted the data package from Berlin, crippling most of the Unified Field Operations Database (the so-called 'UFOPedia') available to us. Our technicians are working to restore it, each research topic completed should give us access to one Pedia entry, although we're unsure which one. Besides that, the base is ready for combat operations. Orbital Drop base modules are likewise available upon request."
+      STR_WELCOME_MESSAGE_2_EVENT_DESCRIPTION: "We just unpacked our assets, Commander. The crew ran several tests, the outpost seems functional. We found an issue, however. A malfunction in the Comms relay corrupted the data package from Berlin, crippling most of the Unified Field Operations Database (the so-called 'UFOPedia') available to us. Our staff is working to restore it, each research completed should give us access to one Pedia entry, although we're unsure which one. Besides that, the base is ready for combat operations. Orbital Drop base modules are likewise available upon request."
 
 # TNI Subplot
       STR_TNI_STORY_1_EVENT: "Foundation of 'Terra Nova Initiative'"
@@ -2567,6 +2567,7 @@ en-US:
   #STR_
       STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT: "Recon probes confirm increase in Insurgent activity"
       STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_DESCRIPTION: "There are aliens everywhere, dude. Be careful, they gonna kick your ass anytime soon."
+      
       
       STR_RESCUE_SIGNAL_BROADCASTING_EVENT: "Rescue signal broadcasted"
       STR_RESCUE_SIGNAL_BROADCASTING_EVENT_DESCRIPTION: "Shortly after the destruction of the Signal Jammer, we were able to emit a pulse towards our homeworld, albeit weak. The message was short and concrete: 'We are still on the fight. And we will not ssurrender' . The UNSC assured us a reinforcement fleet is being ensembled and will be dispatched as soon as possible, meanwhile conventional rockets will be sent with supplies. "
@@ -2588,6 +2589,17 @@ en-US:
 
       STR_SHUTTLE_WINGS_EVENT: "Experts question use of wings in Martian Shuttles"
       STR_SHUTTLE_WINGS_EVENT_DESCRIPTION: "Independent technical consultants pointed out the futility of the use of wings and flight control surfaces in both civilian and military shuttles. 'I don't see why our science staff and military personnel transports should use them. Their shuttles are VTOL anyways. It's just useless weight.', the consultant said to our reporters."
+      
+      STR_CYBERPUNK_NOVEL_RELEASED_EVENT: "'Cyberpunk' by Bruce Bethke is a growing success"
+      STR_CYBERPUNK_NOVEL_RELEASED_EVENT_DESCRIPTION: "A collection of short stories written and self-published by Bethke about a group of young troublemakers, adept to the use of technology. Regarded as a accurate criticism of the current and sudden increase of the use of technology in most aspects of the daily life. The name is a portmanteau of the words 'cybernetic' and the punk subculture. After some issues with the publisher, the writter decided to directly sell his book, one year before the expected. "
+      
+      STR_BLADE_RUNNER_MOVIE_RELEASED_EVENT: "'Blade Runner' becomes #1 movie of the week"
+      STR_BLADE_RUNNER_MOVIE_RELEASED_EVENT_DESCRIPTION: "The newest movie by director Ridley Scott, the adaptation of Philip K. Dick's 'Do Androids Dream of Electric Sheep?' 1968 novel, becomes a success at box office. The story of a hardened police detective hunting down a rouge group of sentient androids attracted lots of moviegoers. Most praise the aesthetic and visuals, specially the soundtrack composed by Vangelis. Some critics mention the slow pace and lack of action, however. "
+      
+      STR_NEUROMANCER_NOVEL_RELEASED_EVENT: "'Neuromancer' by William Gibson, a worldwide hit"
+      STR_NEUROMANCER_NOVEL_RELEASED_EVENT_DESCRIPTION: "The debut of the American-Canadian writer about a disgraced hacker hired for one last job, met an unprecedented and popular reception by the critics and public alike. Along with 'Cyberpunk' and 'Blade Runner', it helped to further solidify the popularity of neo-noir, technology-centered stories... which bear an uncanny resemblance to the predictions about our future since the widespread development of cybernetics."
+
+# MARSEC Subplot
 
       STR_MARSEC_STORY_1_EVENT: "MARSEC deploys new probes to search for ore"
       STR_MARSEC_STORY_1_EVENT_DESCRIPTION: "The Mars Survey and Extraction Corporation (MARSEC) has deployed three new automated probes to Mars orbit, in a effort to locate and pinpoint any possible mining sites in the surface. While the main colonization efforts remain nationalized by the US, European Union and USSR space agencies, the private initiative remains in the race to mine Mars resources."
@@ -2611,6 +2623,7 @@ en-US:
 
       STR_LARGE_SUPPLY_DROP_EVENT: "Large supply drop"
       STR_LARGE_SUPPLY_DROP_EVENT_DESCRIPTION: "A manned, large pod just landed inside the base perimeter. The volunteer crew ferried several supplies and assets to keep us on the fight. The crew will remain with, as they knew there was no possibility to returning to orbit safely. "
+      
 
 #############################
 ########## NPCS ############
