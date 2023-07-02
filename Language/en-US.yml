@@ -2576,21 +2576,21 @@ en-US:
 
 # Act 1
       STR_6TH_ANNIVERSARY_SNAKE_REMOVAL_EVENT: "6th Anniversary of Removal of Alien Presence"
-      STR_6TH_ANNIVERSARY_SNAKE_REMOVAL_EVENT_DESCRIPTION: "Today, April 25th, is a holiday marking the removal of the final alien presences on earth, the Nigerian Snakeman Colonies. It has been six years since the last ones were eradicated and the people of Nigeria could sleep without UNEXCOM craft flying over head delivering heavy ordnance onto the deep colonies. The four year campaign was gruesome tunnel fighting for the infantry, unable to use tanks or especially heavy ordnance in the snakeman colonies. It is unknown why the snakemen focused so heavily on Nigeria and surrounding countries, but is suspected to be that the climate reminded them of whatever region of mars they are from"
+      STR_6TH_ANNIVERSARY_SNAKE_REMOVAL_EVENT_DESCRIPTION: "Today, April 25th, is a holiday marking the removal of the final alien presences on earth, the Nigerian Snakemen Colonies. It has been six years since the last ones were eradicated and the people of Nigeria could sleep without UNEXCOM craft flying over head delivering heavy ordnance onto the deep colonies. The four year campaign was gruesome tunnel fighting for the infantry, unable to use tanks or especially heavy ordnance in the Snakemen colonies. It is unknown why the snakes focused so heavily on Nigeria and surrounding countries, but is suspected to be that the climate reminded them of whatever forgotten planet they are from"
       STR_RISE_OF_NEW_CULTS_EVENT: "Rise of new cults"
       STR_RISE_OF_NEW_CULTS_EVENT_DESCRIPTION: "At the War of 1972, some of the people were mind-controlled by alien psionics, be it soldiers at the battlefield or goverments officials. After Operation Downfall, in the mid 70's, a new cult has emerged among those people. They percieve Ethereals as gods, and believe, that humanity will flourish only under their rule. This cult, known as Aperta Luce, has been banned soon after creation, and they were silent until recent days. But few days ago, a series of violent terrorist attacks has occured over the Earth, with Aperta Luce being responsible in them. It appears, that Ethereals are still using terrorists to wreck havoc on Earth, just like they did in war"
         
-      STR_POKER_PLAYER_TRIAL_EVENT: "Trial of missing poker player"
-      STR_POKER_PLAYER_TRIAL_EVENT_DESCRIPTION: "A new trial has started recently in Los Angeles, USA. A professional poker player, residing in one of the city's hotels, has gone missing a week ago, and only recently his body was found in San Pedro Bay. It appears, that he was a retired UNEXCOM operative, and also has gone through psionic training. Taking note in his stunning victories in casinos all over the United States, it's obvious, that he was using his psi abilities to cheat at poker, and was assasinated because of that"
+      STR_POKER_PLAYER_TRIAL_EVENT: "Missing famous poker player found today"
+      STR_POKER_PLAYER_TRIAL_EVENT_DESCRIPTION: "Grim news has shaken Los Angeles, USA. A professional poker player, residing in one of the city's hotels, has gone missing a week ago, and only recently his body was found in San Pedro Bay. It appears, that he was a retired UNEXCOM operative, and also has gone through psionic training. Taking note in his stunning victories in casinos all over the United States, it's obvious, that he was using his psi abilities to cheat at poker, and was assasinated because of that. LAPD and the California Department of Justice are looking for the suspect. "
       
       STR_CANNES_FESTIVAL_EVENT: "35th Cannes Film Festival takes place"
       STR_CANNES_FESTIVAL_EVENT_DESCRIPTION: "Today, the Palm d'Or was jointly awarded to Gravas' 'Missing', a historical drama and The Director's 'Kitsune: The Fox Brigade', a police noir film. The critics praised the script and acting of 'Missing' and the special effects of 'Kitsune', which was heavily supported by the German Federal Army (which proportioned the Delta EOD suits used by the 'special police' in the film). Spielberg's new film, 'E.T. The Extraterrestrial' was openly mocked, rated by critics as 'childish and insensitive to the victims of the War, as it's obvious the real aliens didn't came in peace'."
-      
+
+      STR_SHUTTLE_WINGS_EVENT: "Experts question use of wings in Martian Shuttles"
+      STR_SHUTTLE_WINGS_EVENT_DESCRIPTION: "Independent technical consultants pointed out the futility of the use of wings and flight control surfaces in both civilian and military shuttles. 'I don't see why our science staff and military personnel transports should use them. Their shuttles are VTOL anyways. It's just useless weight.', the consultant said to our reporters."
+
       STR_MARSEC_STORY_1_EVENT: "MARSEC deploys new probes to search for ore"
       STR_MARSEC_STORY_1_EVENT_DESCRIPTION: "The Mars Survey and Extraction Corporation (MARSEC) has deployed three new automated probes to Mars orbit, in a effort to locate and pinpoint any possible mining sites in the surface. While the main colonization efforts remain nationalized by the US, European Union and USSR space agencies, the private initiative remains in the race to mine Mars resources."
-
-      STR_SHUTTLE_WINGS_EVENT: "World News: Experts question use of wings in Martian Shuttles"
-      STR_SHUTTLE_WINGS_EVENT_DESCRIPTION: "Independent technical consultants pointed out the futility of the use of wings and flight control surfaces in both civilian and military shuttles. 'I don't see why our science staff and military personnel transports should use them. Their shuttles are VTOL anyways. It's just useless weight.', the consultant said to our reporters."
 
 #Act 2
 
