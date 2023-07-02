@@ -203,6 +203,9 @@ events:
     spawnedPersons: 3
     spawnedPersonType: STR_ASTRONAUT
     everyItemList:
+      - STR_M17_CARBINE
+      - STR_5_56MM_NATO_RIFLE_X30
+      - STR_5_56MM_NATO_RIFLE_X30    
       - STR_BATTERY
       - STR_BATTERY
       - STR_BATTERY
@@ -222,6 +225,16 @@ events:
 #############################
 ####### SIDE EVENTS ########
 ###########################
+
+# MARSEC Subplot
+
+  - name: STR_MARSEC_STORY_1_EVENT
+    description: STR_MARSEC_STORY_1_EVENT_DESCRIPTION
+    background: GENERIC_NEWS_EVENT_BACKGROUND
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
 
 # TNI Subplot
 
@@ -290,6 +303,40 @@ events:
     points: 30
     timer: 36000
     #timerRandom: 43500
+
+  - name: STR_RISE_OF_NEW_CULTS_EVENT
+    description: STR_RISE_OF_NEW_CULTS_EVENT_DESCRIPTION
+    background: GENERIC_NEWS_EVENT_BACKGROUND
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 30
+    timer: 360
+    timerRandom: 43500
+
+  - name: STR_POKER_PLAYER_TRIAL_EVENT
+    description: STR_POKER_PLAYER_TRIAL_EVENT_DESCRIPTION
+    background: GENERIC_NEWS_EVENT_BACKGROUND
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 30
+    timer: 360
+    timerRandom: 43500
+
+  - name: STR_CANNES_FESTIVAL_EVENT
+    description: STR_CANNES_FESTIVAL_EVENT_DESCRIPTION
+    background: GENERIC_NEWS_EVENT_BACKGROUND
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 30
+    timer: 360
+    timerRandom: 43500
+
+  - name: STR_SHUTTLE_WINGS_EVENT
+    description: STR_SHUTTLE_WINGS_EVENT_DESCRIPTION
+    background: GENERIC_NEWS_EVENT_BACKGROUND
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 30
+    timer: 360
+    timerRandom: 43500
+
+
 
 extraSprites:
 ##########################################
