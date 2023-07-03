@@ -2603,6 +2603,9 @@ en-US:
 
       STR_MARSEC_STORY_1_EVENT: "MARSEC deploys new probes to search for ore"
       STR_MARSEC_STORY_1_EVENT_DESCRIPTION: "The Mars Survey and Extraction Corporation (MARSEC) has deployed three new automated probes to Mars orbit, in a effort to locate and pinpoint any possible mining sites in the surface. While the main colonization efforts remain nationalized by the US, European Union and USSR space agencies, the private initiative remains in the race to mine Mars resources."
+      
+      STR_MARSEC_STORY_2_EVENT: "MARSEC probes lost in deep space"
+      STR_MARSEC_STORY_2_EVENT_DESCRIPTION: "We just got news of the lost of all the probes sent by the mining corporation three months ago. The reason behind seems a miscalculation of the Hoffmann orbital transfer due the mid-travel corrections being sent in the Imperial system rather than the Metric system. ."
 
 #Act 2
 
