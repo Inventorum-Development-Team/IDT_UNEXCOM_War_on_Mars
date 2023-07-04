@@ -2589,13 +2589,21 @@ en-US:
 
       STR_SHUTTLE_WINGS_EVENT: "Experts question use of wings in Martian Shuttles"
       STR_SHUTTLE_WINGS_EVENT_DESCRIPTION: "Independent technical consultants pointed out the futility of the use of wings and flight control surfaces in both civilian and military shuttles. 'I don't see why our science staff and military personnel transports should use them. Their shuttles are VTOL anyways. It's just useless weight.', the consultant said to our reporters."
-      
-      STR_CYBERPUNK_NOVEL_RELEASED_EVENT: "'Cyberpunk' by Bruce Bethke is a growing success"
-      STR_CYBERPUNK_NOVEL_RELEASED_EVENT_DESCRIPTION: "A collection of short stories written and self-published by Bethke about a group of young troublemakers, adept to the use of technology. Regarded as a accurate criticism of the current and sudden increase of the use of technology in most aspects of the daily life. The name is a portmanteau of the words 'cybernetic' and the punk subculture. After some issues with the publisher, the writter decided to directly sell his book, one year before the expected. "
-      
+
+# June 25th, 1982  
       STR_BLADE_RUNNER_MOVIE_RELEASED_EVENT: "'Blade Runner' becomes #1 movie of the week"
       STR_BLADE_RUNNER_MOVIE_RELEASED_EVENT_DESCRIPTION: "The newest movie by director Ridley Scott, the adaptation of Philip K. Dick's 'Do Androids Dream of Electric Sheep?' 1968 novel, becomes a success at box office. The story of a hardened police detective hunting down a rouge group of sentient androids attracted lots of moviegoers. Most praise the aesthetic and visuals, specially the soundtrack composed by Vangelis. Some critics mention the slow pace and lack of action, however. "
-      
+
+#November 1982
+      STR_CYBERPUNK_NOVEL_RELEASED_EVENT: "'Cyberpunk' by Bruce Bethke is a growing success"
+      STR_CYBERPUNK_NOVEL_RELEASED_EVENT_DESCRIPTION: "A collection of short stories written and self-published by Bethke about a group of young troublemakers, adept to the use of technology. Regarded as a accurate criticism of the current and sudden increase of the use of technology in most aspects of the daily life. The name is a portmanteau of the words 'cybernetic' and the punk subculture. After some issues with the publisher, the writter decided to directly sell his book, one year before the expected date. "
+
+#December 20th, 1982
+      STR_AKIRA_MANGA_RELEASED_EVENT: "'Akira', an instant classic in Japan"
+      STR_AKIRA_MANGA_RELEASED_EVENT_DESCRIPTION: "The manga written by Katsuhiro Ōtomo about a pair of youth, motorcycle rider gangsters (one with psionic powers) in a post apocalyptic 'Neo-Tokyo' and the mysterious, titular being. A million copies were sold on its very first day, bolstering the popularity of the manga genre inside and outside Japan. There are rumors about a movie in production."
+
+# July 1st, 1983
+
       STR_NEUROMANCER_NOVEL_RELEASED_EVENT: "'Neuromancer' by William Gibson, a worldwide hit"
       STR_NEUROMANCER_NOVEL_RELEASED_EVENT_DESCRIPTION: "The debut of the American-Canadian writer about a disgraced hacker hired for one last job, met an unprecedented and popular reception by the critics and public alike. Along with 'Cyberpunk' and 'Blade Runner', it helped to further solidify the popularity of neo-noir, technology-centered stories... which bear an uncanny resemblance to the predictions about our future since the widespread development of cybernetics."
 
@@ -2605,7 +2613,7 @@ en-US:
       STR_MARSEC_STORY_1_EVENT_DESCRIPTION: "The Mars Survey and Extraction Corporation (MARSEC) has deployed three new automated probes to Mars orbit, in a effort to locate and pinpoint any possible mining sites in the surface. While the main colonization efforts remain nationalized by the US, European Union and USSR space agencies, the private initiative remains in the race to mine Mars resources."
       
       STR_MARSEC_STORY_2_EVENT: "MARSEC probes lost in deep space"
-      STR_MARSEC_STORY_2_EVENT_DESCRIPTION: "We just got news of the lost of all the probes sent by the mining corporation three months ago. The reason behind seems a miscalculation of the Hoffmann orbital transfer due the mid-travel corrections being sent in the Imperial system rather than the Metric system. ."
+      STR_MARSEC_STORY_2_EVENT_DESCRIPTION: "We just got news of the lost of all the probes sent by the mining corporation some weeks ago. The reason behind seems a miscalculation of the Hoffmann orbital transfer due the mid-travel corrections being sent in the Imperial system rather than the Metric system. A new group of probes were quickly scrambled to launch shortly after the incident. Spokespersons of the corporation refused to make any comments."
       
       STR_MARSEC_STORY_4_EVENT: "MARSEC experiments with synthetic Elerium"
       STR_MARSEC_STORY_4_EVENT_DESCRIPTION: "Corporate spokespersons have announced their advance on the research for a synthetic and stable E-115 element. 'Somehow, the lower gravity is helping us getting the desired stability we couldn't achieve in Earth. We cannot explain how... yet. Although it's widely known that the alien element often defies our established physics definitions. We believe this may explain the continued Ethereal presence in Mars despite our military advance. Our work will continue', they finished. "
@@ -2629,7 +2637,12 @@ en-US:
 
       STR_LARGE_SUPPLY_DROP_EVENT: "Large supply drop"
       STR_LARGE_SUPPLY_DROP_EVENT_DESCRIPTION: "A manned, large pod just landed inside the base perimeter. The volunteer crew ferried several supplies and assets to keep us on the fight. The crew will remain with, as they knew there was no possibility to returning to orbit safely. "
-      
+
+# Act 3
+
+      STR_REAGAN_ANNOUNCES_SDI_EVENT: "US President Reagan announced S.D.I Project"
+      STR_REAGAN_ANNOUNCES_SDI_EVENT_DESCRIPTION: "Ronald Reagan, the American head of state, just announced the deployment of the Strategic Defense Initiative, a global web of laser-armed satellites. Initially meant to ensure no Soviet nuclear missile will be aimed at American land, it was quickly demised 'as idiotic paranoia' and repurposed to serve as a permanent, world-wide defense system against alien intrusions. Modern laser technology will make it possible. The system is expected to be deployed around next year."
+
 
 #############################
 ########## NPCS ############
