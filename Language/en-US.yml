@@ -2603,10 +2603,12 @@ en-US:
       STR_AKIRA_MANGA_RELEASED_EVENT_DESCRIPTION: "The manga written by Katsuhiro Ōtomo about a pair of youth, motorcycle rider gangsters (one with psionic powers) in a post apocalyptic 'Neo-Tokyo' and the mysterious, titular being. A million copies were sold on its very first day, bolstering the popularity of the manga genre inside and outside Japan. There are rumors about a movie in production."
 
 # July 1st, 1983
-
       STR_NEUROMANCER_NOVEL_RELEASED_EVENT: "'Neuromancer' by William Gibson, a worldwide hit"
       STR_NEUROMANCER_NOVEL_RELEASED_EVENT_DESCRIPTION: "The debut of the American-Canadian writer about a disgraced hacker hired for one last job, met an unprecedented and popular reception by the critics and public alike. Along with 'Cyberpunk' and 'Blade Runner', it helped to further solidify the popularity of neo-noir, technology-centered stories... which bear an uncanny resemblance to the predictions about our future since the widespread development of cybernetics."
 
+# May 25th, 1983
+      STR_STAR_WARS_MOVIE_RELEASED_EVENT: "'Return of the Jedi' in cinemas now"
+      STR_STAR_WARS_MOVIE_RELEASED_EVENT_DRSCRIPTION: "The grand finale of George Lucas' space opera saga just made $23 million dollars in it's opening weekend. The quest of Jedi Knight Luke Skywalker to defeat the evil Emperor and return his father, Darth Vader, to the Light Side of the Force is expected to become the highest-grossing film of 1983. Most of the fans and critics enjoyed the movie, although there were certain dislike for the child-like Ewocs. A true end of an epic tale, we expect no other sequel will ruin this experience in the foreseeable future."
 # MARSEC Subplot
 
       STR_MARSEC_STORY_1_EVENT: "MARSEC deploys new probes to search for ore"
