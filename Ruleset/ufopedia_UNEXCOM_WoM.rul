@@ -960,8 +960,8 @@ ufopaedia:
   - id: STR_NATO_PLASMA_PISTOL
     type_id: 4
     section: STR_WEAPONS
-    requires:
-      - STR_HUMAN_PLASMA_WEAPONS_NATO_APPLICATIONS
+    #requires:
+     # - STR_HUMAN_PLASMA_WEAPONS_NATO_APPLICATIONS
     text: STR_NATO_PLASMA_PISTOL_UFOPEDIA
     listOrder: 4015
 
@@ -1081,7 +1081,7 @@ ufopaedia:
     text: STR_M17_CARBINE_UFOPEDIA
     listOrder: 4306
 
-  - id: STR_M203_LASER_CARBINE
+  - id: STR_M20_M203_LASER_CARBINE
     type_id: 4
     section: STR_WEAPONS
     requires:
@@ -1112,8 +1112,8 @@ ufopaedia:
   - id: STR_NATO_PLASMA_CARBINE
     type_id: 4
     section: STR_WEAPONS
-    requires:
-      - STR_HUMAN_PLASMA_WEAPONS_NATO_APPLICATIONS
+    #requires:
+      #- STR_HUMAN_PLASMA_WEAPONS_NATO_APPLICATIONS
     text: STR_NATO_PLASMA_CARBINE_UFOPEDIA
     listOrder: 4315
 
@@ -1310,8 +1310,8 @@ ufopaedia:
   - id: STR_SOVIET_PLASMA_LMG
     type_id: 4
     section: STR_WEAPONS
-    requires:
-      - STR_HUMAN_PLASMA_WEAPONS_USSR_APPLICATIONS
+   # requires:
+     # - STR_HUMAN_PLASMA_WEAPONS_USSR_APPLICATIONS
     text: STR_SOVIET_PLASMA_LMG_UFOPEDIA
     listOrder: 4509
 
@@ -1986,79 +1986,94 @@ ufopaedia:
       - STR_PLASMA_PISTOL
     text: STR_PLASMA_PISTOL_UFOPEDIA
     listOrder: 12001
+    - id: STR_PLASMA_PISTOL_CLIP
+    type_id: 4
+    section: STR_AMMUNITION
+    text: ...
+    listOrder: 12002
   - id: STR_PLASMA_CASTER
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_PLASMA_CASTER
     text: STR_PLASMA_CASTER_UFOPEDIA
-    listOrder: 12002
+    listOrder: 12003
   - id: STR_PLASMA_CASTER_CLIP
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_PLASMA_CASTER_CLIP
     text: STR_PLASMA_CASTER_CLIP_UFOPEDIA
-    listOrder: 12003
+    listOrder: 12004
   - id: STR_PLASMA_RIFLE
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_PLASMA_RIFLE
     text: STR_PLASMA_RIFLE_UFOPEDIA
-    listOrder: 12004
+    listOrder: 12005
+  - id: STR_PLASMA_RIFLE_CLIP
+    type_id: 4
+    section: STR_AMMUNITION
+    text: ...
+    listOrder: 12006
   - id: STR_PLASMA_SNIPER_RIFLE
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_PLASMA_SNIPER_RIFLE
     text: STR_PLASMA_SNIPER_RIFLE_UFOPEDIA
-    listOrder: 12005
+    listOrder: 12007
   - id: STR_PLASMA_SNIPER_RIFLE_CLIP
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_PLASMA_SNIPER_RIFLE_CLIP
     text: STR_PLASMA_SNIPER_RIFLE_CLIP_UFOPEDIA
-    listOrder: 12006
+    listOrder: 12008
   - id: STR_HEAVY_PLASMA
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_HEAVY_PLASMA
     text: STR_HEAVY_PLASMA_UFOPEDIA
-    listOrder: 12007
+    listOrder: 12009
+  - id: STR_HEAVY_PLASMA_CLIP
+    type_id: 4
+    section: STR_AMMUNITION
+    text: ...
+    listOrder: 12010
   - id: STR_PLASMA_BLASTER
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_PLASMA_BLASTER
     text: STR_PLASMA_BLASTER_UFOPEDIA
-    listOrder: 12008
+    listOrder: 12011
   - id: STR_PLASMA_BLASTER_CLIP
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_PLASMA_BLASTER_CLIP
     text: STR_PLASMA_BLASTER_CLIP_UFOPEDIA
-    listOrder: 12009
+    listOrder: 12012
   - id: STR_TOXIGUN
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_TOXIGUN
     text: STR_TOXIGUN_UFOPEDIA
-    listOrder: 12010
+    listOrder: 12013
   - id: STR_TOXIGUN_FLASK
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_TOXIGUN_FLASK
     text: STR_TOXIGUN_FLASK_UFOPEDIA
-    listOrder: 12011
+    listOrder: 12014
   - id: STR_SMALL_LAUNCHER
     section: STR_ALIEN_EQUIPMENT
-    listOrder: 12012
+    listOrder: 12015
   - id: STR_ELERIUM_BOMB
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
@@ -2066,7 +2081,7 @@ ufopaedia:
       - STR_SMALL_LAUNCHER
       - STR_ALIEN_PLASMA_WEAPONS
     text: STR_ELERIUM_BOMB_UFOPEDIA
-    listOrder: 12013
+    listOrder: 12016
   - id: STR_STUN_BOMB
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
@@ -2078,22 +2093,22 @@ ufopaedia:
   - id: STR_ACID_BOMB
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
-    listOrder: 12014
+    listOrder: 12017
     requires:
       - STR_SMALL_LAUNCHER
       - STR_ALIEN_PLASMA_WEAPONS
     text: STR_ACID_BOMB_UFOPEDIA
   - id: STR_BLASTER_LAUNCHER
     section: STR_ALIEN_EQUIPMENT
-    listOrder: 12014
+    listOrder: 12018
 
   - id: STR_BLASTER_BOMB
     section: STR_ALIEN_EQUIPMENT
-    listOrder: 12015
+    listOrder: 12019
 
   - id: STR_ALIEN_GRENADE
     section: STR_ALIEN_EQUIPMENT
-    listOrder: 12016
+    listOrder: 12020
 
   - id: STR_ALIEN_CEPHALOPOD_TISSUE
     type_id: 4
