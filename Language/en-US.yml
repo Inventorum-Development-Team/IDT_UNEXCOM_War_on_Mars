@@ -2618,9 +2618,17 @@ en-US:
       STR_MARSEC_STORY_2_EVENT: "MARSEC probes lost in deep space"
       STR_MARSEC_STORY_2_EVENT_DESCRIPTION: "We just got news of the lost of all the probes sent by the mining corporation some weeks ago. The reason behind seems a miscalculation of the Hoffmann orbital transfer due the mid-travel corrections being sent in the Imperial system rather than the Metric system. A new group of probes were quickly scrambled to launch shortly after the incident. Spokespersons of the corporation refused to make any comments."
       
-      STR_MARSEC_STORY_3_EVENT_DESCRIPTION: "In a risky all-or-nothing maneuver"
+      STR_MARSEC_STORY_3_EVENT: "MARSEC sends a manned mission"
+      STR_MARSEC_STORY_3_EVENT_DESCRIPTION: "In a risky all-or-nothing maneuver, after a limited survey by a couple of probes, a manned pod just landed in the Northern Lowlands. Corporate astronauts just deployed their habitat. The main mission of the Survey and Extraction Corporation is to find a way to synthesize an artificial Elerium isotope to ease the strains put on Earth's reserves. Since bio-harvesting is no longer viable, new solutions are wanted to keep the interstellar colonization project in motion."
+      
       STR_MARSEC_STORY_4_EVENT: "MARSEC experiments with synthetic Elerium"
       STR_MARSEC_STORY_4_EVENT_DESCRIPTION: "Corporate spokespersons have announced their advance on the research for a synthetic and stable E-115 element. 'Somehow, the lower gravity is helping us getting the desired stability we couldn't achieve in Earth. We cannot explain how... yet. Although it's widely known that the alien element often defies our established physics definitions. We believe this may explain the continued Ethereal presence in Mars despite our military advance. Our work will continue', they finished. "
+      
+      STR_MARSEC_STORY_5_EVENT: "MARSEC announces Selerium creation"
+      STR_MARSEC_STORY_5_EVENT_DESCRIPTION: "The expensive yet effective creation process for the synthetic version (aptly named 'Selerium') of the scarce alien element was successful. Shipments to Moon will begin as soon as a sufficient amount is processed. The corporation value has increased in most stock markets. "  
+
+      STR_MARSEC_STORY_6_EVENT: "All MARSEC shippings stopped until further notice"
+      STR_MARSEC_STORY_5_EVENT_DESCRIPTION: "After a rising Insurrectionist activity, all mining shippings from the Red Planet were stopped due 'security concerns', a corporate spokesman said today. 'UN officials assured us the incident will be contained as soon as possible, hopefully this will keep our operation ongoing.', he mentioned.  "
 
 #Act 2
 
