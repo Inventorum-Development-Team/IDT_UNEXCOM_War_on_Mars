@@ -2598,9 +2598,17 @@ en-US:
  # May 19th, 1982     
       STR_FALKLAND_WAR_STORY_5: "The Brits prepare to land in Falklands"
       STR_FALKLAND_WAR_STORY_5_DESCRIPTION: "British Cabinet has approved the landing of amphibious forces. Still furious due the lost of a third of the task force two weeks ago, Prime Minister Thatcher personally orders the use of Excalibur Fusion missiles in all Harriers, despite international law banning the use of advanced weapons in human conflicts. Rumors say Commando units are equipped with M72 'Teddy' ARRs with Elerium rounds. Conflict escalates as the world watch in shock."
+ 
+ # May 25th, 1982     
+      STR_FALKLAND_WAR_STORY_6: "The darkest day for the Royal Navy"
+      STR_FALKLAND_WAR_STORY_6_DESCRIPTION: "Buenos Aires celebrates today a national holiday. Meanwhile the people celebrates in the streets of Argentine, the beachhead in San Carlos Water is fiercely defended by the South American air forces. Three British frigates, three transports and the most important logistics ship were sunk by rabid low-level attacks carried on by aging A4 Skyhawks and Super Etendards. The Commando brigades had lost a large part of their heavy assets and supplies. Despite this, UK ground forces try to push forward inland."
+ 
+ # May 29th, 1982     
+      STR_FALKLAND_WAR_STORY_7: "Heavy fighting in Goose Green"
+      STR_FALKLAND_WAR_STORY_7_DESCRIPTION: "A very intense battle for Goose Green and Darwin resulted in a major victory for British ground forces. Over 1100 Argentinian soldiers surrender, mostly conscripts. It's clear the Military Junta rulling the Southern nation couldn't care less for their own troops, as most were poorly supplied. Harriers report increase on successful interceptions after switching from Sidewinders to Excalibur Fusion missiles."
       
-      STR_FALKLAND_WAR_STORY_6: "Contested beachhead in the island"
-      STR_FALKLAND_WAR_STORY_6_DESCRIPTION: "The beachhead in San Carlos Water is fiercely defended by the South American air forces. Three British frigates and four transport ships were sunk by rabid low-level attacks carried on by aging A4 Skyhawks. The Commando brigades lost a large part of their heavy assets. Despite this, UK ground forces push forward inland."
+      STR_FALKLAND_WAR_STORY_8: "Reports of restricted ammunitions used in ongoing battle."
+      STR_FALKLAND_WAR_STORY_8_DESCRIPTION: "A large offensive on the Ejército's defensive positions around Port Stanley saw the use of M72 ARR Elerium rounds by British Commandos to soften the opposing fortifications, as 3 days ago two more transports and a landing craft were sunk by the Argentinian aviation. The world condemned this decision, and now Prime Minister Thatcher is nicknamed 'The Elerium Lady' by the press."
 
 
       STR_6TH_ANNIVERSARY_SNAKE_REMOVAL_EVENT: "6th Anniversary of Removal of Alien Presence"
