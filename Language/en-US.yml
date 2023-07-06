@@ -2585,11 +2585,11 @@ en-US:
 
 # April 30th, 1982      
       STR_FALKLAND_WAR_STORY_2: "British Carrier Battle Group approaches the Falklands"
-      STR_FALKLAND_WAR_STORY_2_DESCRIPTION: "After the declaration of a 'Total Exclusion Zone' of 200 miles around the islands, the UK naval forces begin combat operations. Argentine Air Force Mirage interceptors engage in short dogfights against the Harriers of the Royal Navy with light loses in both sides. Landing ships prepare in Ascension Island staging point for heading to the San Carlos Bay."
+      STR_FALKLAND_WAR_STORY_2_DESCRIPTION: "After the declaration of a 'Total Exclusion Zone' of 200 miles around the islands, the UK naval forces begin combat operations, codename OPERATION CORPORATE. Argentine Air Force Mirage interceptors engage in short dogfights against the Harriers of the Royal Navy with light loses in both sides. Landing ships prepare in Ascension Island staging point for heading to the San Carlos Bay."
       
  # May 2nd, 1982     
       STR_FALKLAND_WAR_STORY_3: "Major naval showdown between Argentina and the UK"
-      STR_FALKLAND_WAR_STORY_3_DESCRIPTION: "Argentine Navy aggressively approached the islands, looking to engage the Royal Navy (RN). ARA General Belgrano cruiser was hit by torpedos of the British atrack sub Conqueror escorting the Carrier Battle Group, not before exchanging shots with the opposing forces. In a bold and almost suicidal attack, carrier ARA Veinticinco de Mayo's A4 Skyhawks and Super Etendards attacked the British fleet, sinking the frigate HMS Sheffield and severely damaging the carrier HMS Hermes in retaliation, using French-made Exocet anti-ship missiles. Ship to ship fighting continues..."
+      STR_FALKLAND_WAR_STORY_3_DESCRIPTION: "Argentine Navy aggressively approached the islands, looking to engage the Royal Navy (RN). ARA General Belgrano cruiser was hit by torpedos of the British nuclear sub Conqueror escorting the Carrier Battle Group, not before exchanging shots with the opposing forces. In a bold and almost suicidal attack, carrier ARA Veinticinco de Mayo's A4 Skyhawks and Super Etendards attacked the British fleet, sinking the frigate HMS Sheffield and severely damaging the carrier HMS Hermes in retaliation, using French-made Exocet anti-ship missiles. Ship to ship fighting continues..."
 
  # May 3rd, 1982     
       STR_FALKLAND_WAR_STORY_4: "Naval battle ends with heavy loses"
@@ -2606,9 +2606,16 @@ en-US:
  # May 29th, 1982     
       STR_FALKLAND_WAR_STORY_7: "Heavy fighting in Goose Green"
       STR_FALKLAND_WAR_STORY_7_DESCRIPTION: "A very intense battle for Goose Green and Darwin resulted in a major victory for British ground forces. Over 1100 Argentinian soldiers surrender, mostly conscripts. It's clear the Military Junta rulling the Southern nation couldn't care less for their own troops, as most were poorly supplied. Harriers report increase on successful interceptions after switching from Sidewinders to Excalibur Fusion missiles."
-      
+
+# June 11th, 1982    
       STR_FALKLAND_WAR_STORY_8: "Reports of restricted ammunitions used in ongoing battle."
-      STR_FALKLAND_WAR_STORY_8_DESCRIPTION: "A large offensive on the Ejército's defensive positions around Port Stanley saw the use of M72 ARR Elerium rounds by British Commandos to soften the opposing fortifications, as 3 days ago two more transports and a landing craft were sunk by the Argentinian aviation. The world condemned this decision, and now Prime Minister Thatcher is nicknamed 'The Elerium Lady' by the press."
+      STR_FALKLAND_WAR_STORY_8_DESCRIPTION: "A large assault on the Ejército's defensive positions around Port Stanley saw the use of M72 ARR E-115 rounds by British Commandos to soften the opposing fortifications, as 3 days ago two more transports and a landing craft were sunk by the Argentinian aviation. The world condemned this decision, and now Prime Minister Thatcher is nicknamed 'The Elerium Lady' by the press. The UK is about to fully control the islands."
+      
+      STR_FALKLAND_WAR_STORY_9: "Argentina launches desperate attack on the RN"
+      STR_FALKLAND_WAR_STORY_9_DESCRIPTION: "With the British troops dominating the land and more than half the total Air Force assets destroyed or severely damaged, the remaining Argentinian aviation and Navy launched and all-out attack over the Carrier Battle Group. The main target seems to be the carrier HMS Invincible. All the remaining Harriers were scrambled to defend the fleet. Fighting continues..."
+      
+      STR_FALKLAND_WAR_STORY_9_DESCRIPTION: "The 5-hours-long engagement ended with the sinking of the carrier HMS Invincible and various frigates. Most of the South American aircraft were shot down by AA fire and the defending Harriers. "
+
 
 
       STR_6TH_ANNIVERSARY_SNAKE_REMOVAL_EVENT: "6th Anniversary of Removal of Alien Presence"
