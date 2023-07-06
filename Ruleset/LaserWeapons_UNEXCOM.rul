@@ -975,7 +975,7 @@ items:
   - type: STR_P72_COMPACT_LASER
     categories: [STR_LASER, STR_FIREARMS, STR_PISTOLS, STR_SOVIET_TECH]
     requiresBuy:
-      - STR_NATO_LASER_HANDGUNS
+      - STR_USSR_LASER_HANDGUNS
     size: 0.1
     costBuy: 25000
     costSell: 20000
