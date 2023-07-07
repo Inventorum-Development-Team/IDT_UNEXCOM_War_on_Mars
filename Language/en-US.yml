@@ -2580,42 +2580,48 @@ en-US:
 # Falklands/Malvinas Side plot
 
 # April 2nd, 1982
-      STR_FALKLAND_WAR_STORY_1: "Breaking news: Unprovoked attack on the Falklands"
-      STR_FALKLAND_WAR_STORY_1_DESCRIPTION: "Earlier today, the Argentinian forces engaged and British garrison in the Falklands Islands, forcibly occupying the town hall. An Argentine flag was raised as well. This is the violent outcome of various minor, yet continued, incidents between the UK and the southern country. PM Margaret Thatcher ordered the dispatch of a task force aimed to recapture the islands. A victory parade was held in Buenos Aires, and reinforcements are sent to secure newly occupied territory."
+      STR_FALKLAND_WAR_STORY_1_EVENT: "Breaking news: Unprovoked attack on the Falklands"
+      STR_FALKLAND_WAR_STORY_1_EVENT_DESCRIPTION: "Earlier today, the Argentinian forces engaged the British garrison in the Falklands Islands, forcibly occupying the town hall. An Argentine flag was raised as well. This is the violent outcome of various minor, yet continued, incidents between the UK and the southern country. PM Margaret Thatcher ordered the dispatch of a task force aimed to recapture the islands. A victory parade was held in Buenos Aires, and reinforcements are sent to secure newly occupied territory."
 
 # April 30th, 1982      
-      STR_FALKLAND_WAR_STORY_2: "British Carrier Battle Group approaches the Falklands"
-      STR_FALKLAND_WAR_STORY_2_DESCRIPTION: "After the declaration of a 'Total Exclusion Zone' of 200 miles around the islands, the UK naval forces begin combat operations, codename OPERATION CORPORATE. Argentine Air Force Mirage interceptors engage in short dogfights against the Harriers of the Royal Navy with light loses in both sides. Landing ships prepare in Ascension Island staging point for heading to the San Carlos Bay."
+      STR_FALKLAND_WAR_STORY_2_EVENT: "British Carrier Battle Group approaches the Falklands"
+      STR_FALKLAND_WAR_STORY_2_EVENT_DESCRIPTION: "After the declaration of a 'Total Exclusion Zone' of 200 miles around the islands, the UK naval forces begin combat operations, codename OPERATION CORPORATE. Argentine Air Force Dagger interceptors engage in short dogfights against the Harriers of the Royal Navy with light loses in both sides. Landing ships prepare in Ascension Island staging point for heading to the San Carlos Bay."
       
  # May 2nd, 1982     
-      STR_FALKLAND_WAR_STORY_3: "Major naval showdown between Argentina and the UK"
-      STR_FALKLAND_WAR_STORY_3_DESCRIPTION: "Argentine Navy aggressively approached the islands, looking to engage the Royal Navy (RN). ARA General Belgrano cruiser was hit by torpedos of the British nuclear sub Conqueror escorting the Carrier Battle Group, not before exchanging shots with the opposing forces. In a bold and almost suicidal attack, carrier ARA Veinticinco de Mayo's A4 Skyhawks and Super Etendards attacked the British fleet, sinking the frigate HMS Sheffield and severely damaging the carrier HMS Hermes in retaliation, using French-made Exocet anti-ship missiles. Ship to ship fighting continues..."
+      STR_FALKLAND_WAR_STORY_3_EVENT: "Major naval showdown between Argentina and the UK"
+      STR_FALKLAND_WAR_STORY_3_EVENT_DESCRIPTION: "Argentine Navy aggressively approached the islands, looking to engage the Royal Navy (RN). ARA General Belgrano cruiser was hit by torpedos of the British nuclear sub Conqueror escorting the Carrier Battle Group, not before exchanging shots with the opposing forces. In a bold and almost suicidal attack, carrier ARA Veinticinco de Mayo's A4 Skyhawks and Super Etendards attacked the British fleet, sinking the frigate HMS Sheffield and severely damaging the carrier HMS Hermes in retaliation, using French-made Exocet anti-ship missiles. Ship to ship fighting continues..."
 
  # May 3rd, 1982     
-      STR_FALKLAND_WAR_STORY_4: "Naval battle ends with heavy loses"
-      STR_FALKLAND_WAR_STORY_4_DESCRIPTION: "This morning, the largest naval brawl since WW2 finished with the sole Argentine carrier sunk along with her frigate escorts. The British task force also lost the carrier Hermes and several Type-22 frigates. Belgrano was finally sunk by focused RN attacks. 8 Skyhawks, 3 Daggers and 2 Sea Harriers were shot down as well. The lose of vital assets for the expeditionary fleet will hinder Thatcher's efforts to recover the South Atlantic positions."
+      STR_FALKLAND_WAR_STORY_4_EVENT: "Naval battle ends with heavy loses"
+      STR_FALKLAND_WAR_STORY_4_EVENT_DESCRIPTION: "This morning, the largest naval brawl since WW2 finished with the sole Argentine carrier sunk along with her frigate escorts. The British task force also lost the carrier Hermes and several Type-22 frigates. Belgrano was finally sunk by focused RN attacks. 8 Skyhawks, 3 Daggers and 2 Sea Harriers were shot down as well. The lose of vital assets for the expeditionary fleet will hinder Thatcher's efforts to recover the South Atlantic positions."
  
  # May 19th, 1982     
-      STR_FALKLAND_WAR_STORY_5: "The Brits prepare to land in Falklands"
-      STR_FALKLAND_WAR_STORY_5_DESCRIPTION: "British Cabinet has approved the landing of amphibious forces. Still furious due the lost of a third of the task force two weeks ago, Prime Minister Thatcher personally orders the use of Excalibur Fusion missiles in all Harriers, despite international law banning the use of advanced weapons in human conflicts. Rumors say Commando units are equipped with M72 'Teddy' ARRs with Elerium rounds. Conflict escalates as the world watch in shock."
+      STR_FALKLAND_WAR_STORY_5_EVENT: "The Brits prepare to land in Falklands"
+      STR_FALKLAND_WAR_STORY_5_EVENT_DESCRIPTION: "British Cabinet has approved the landing of amphibious forces. Still furious due the lost of a third of the task force two weeks ago, Prime Minister Thatcher personally orders the use of Excalibur Fusion missiles in all Harriers, despite international law banning the use of advanced weapons in human conflicts. Rumors say Commando units are equipped with M72 'Teddy' ARRs with Elerium rounds. Conflict escalates as the world watch in shock."
  
  # May 25th, 1982     
-      STR_FALKLAND_WAR_STORY_6: "The darkest day for the Royal Navy"
-      STR_FALKLAND_WAR_STORY_6_DESCRIPTION: "Buenos Aires celebrates today a national holiday. Meanwhile the people celebrates in the streets of Argentine, the beachhead in San Carlos Water is fiercely defended by the South American air forces. Three British frigates, three transports and the most important logistics ship were sunk by rabid low-level attacks carried on by aging A4 Skyhawks and Super Etendards. The Commando brigades had lost a large part of their heavy assets and supplies. Despite this, UK ground forces try to push forward inland."
+      STR_FALKLAND_WAR_STORY_6_EVENT: "The darkest day for the Royal Navy"
+      STR_FALKLAND_WAR_STORY_6_EVENT_DESCRIPTION: "Buenos Aires celebrates today a national holiday. Meanwhile the people celebrates in the streets of Argentine, the beachhead in San Carlos Water is fiercely defended by the South American air forces. Three British frigates, three transports and the most important logistics ship were sunk by rabid low-level attacks carried on by aging A4 Skyhawks and Super Etendards. The Commando brigades had lost a large part of their heavy assets and supplies. Despite this, UK ground forces try to push forward inland."
  
  # May 29th, 1982     
-      STR_FALKLAND_WAR_STORY_7: "Heavy fighting in Goose Green"
-      STR_FALKLAND_WAR_STORY_7_DESCRIPTION: "A very intense battle for Goose Green and Darwin resulted in a major victory for British ground forces. Over 1100 Argentinian soldiers surrender, mostly conscripts. It's clear the Military Junta rulling the Southern nation couldn't care less for their own troops, as most were poorly supplied. Harriers report increase on successful interceptions after switching from Sidewinders to Excalibur Fusion missiles."
+      STR_FALKLAND_WAR_STORY_7_EVENT: "Heavy fighting in Goose Green"
+      STR_FALKLAND_WAR_STORY_7_EVENT_DESCRIPTION: "A very intense battle for Goose Green and Darwin resulted in a major victory for British ground forces. Over 1100 Argentinian soldiers surrender, mostly conscripts. It's clear the Military Junta rulling the Southern nation couldn't care less for their own troops, as most were poorly supplied. Harriers report increase on successful interceptions after switching from Sidewinders to Excalibur Fusion missiles."
 
 # June 11th, 1982    
-      STR_FALKLAND_WAR_STORY_8: "Reports of restricted ammunitions used in ongoing battle."
-      STR_FALKLAND_WAR_STORY_8_DESCRIPTION: "A large assault on the Ejército's defensive positions around Port Stanley saw the use of M72 ARR E-115 rounds by British Commandos to soften the opposing fortifications, as 3 days ago two more transports and a landing craft were sunk by the Argentinian aviation. The world condemned this decision, and now Prime Minister Thatcher is nicknamed 'The Elerium Lady' by the press. The UK is about to fully control the islands."
+      STR_FALKLAND_WAR_STORY_8_EVENT: "Reports of restricted ammunitions used in ongoing battle."
+      STR_FALKLAND_WAR_STORY_8_EVENT_DESCRIPTION: "A large assault on the Ejército's defensive positions around Port Stanley saw the use of M72 ARR E-115 rounds by British Commandos to soften the opposing fortifications, as 3 days ago two more transports and a landing craft were sunk by the Argentinian aviation. The world condemned this decision, and now Prime Minister Thatcher is nicknamed 'The Elerium Lady' by the press. The UK is about to fully control the islands."
+ 
+ # June 14th, 1982    
+      STR_FALKLAND_WAR_STORY_9_EVENT: "Argentina launches desperate attack on the RN"
+      STR_FALKLAND_WAR_STORY_9_EVENT_DESCRIPTION: "With the British troops dominating the land and more than half the total Air Force assets destroyed or severely damaged, the remaining Argentinian aviation and Navy launched and all-out attack over the Carrier Battle Group. The main target seems to be the carrier HMS Invincible. All the remaining Sea Harriers were scrambled to defend the fleet. Fighting continues..."
       
-      STR_FALKLAND_WAR_STORY_9: "Argentina launches desperate attack on the RN"
-      STR_FALKLAND_WAR_STORY_9_DESCRIPTION: "With the British troops dominating the land and more than half the total Air Force assets destroyed or severely damaged, the remaining Argentinian aviation and Navy launched and all-out attack over the Carrier Battle Group. The main target seems to be the carrier HMS Invincible. All the remaining Harriers were scrambled to defend the fleet. Fighting continues..."
-      
-      STR_FALKLAND_WAR_STORY_9_DESCRIPTION: "The 5-hours-long engagement ended with the sinking of the carrier HMS Invincible and various frigates. Most of the South American aircraft were shot down by AA fire and the defending Harriers. "
+ # June 15th, 1982
+      STR_FALKLAND_WAR_STORY_10_EVENT: "Heavy loses after suicide attack on RN"
+      STR_FALKLAND_WAR_STORY_10_EVENT_DESCRIPTION: "The 5-hours-long engagement ended with the sinking of the carrier HMS Invincible and various frigates. Most of the South American aircraft were shot down by AA fire and the defending Sea Harriers, but the damage done to the task force was beyond expectations. This will make unsustainable the expedition, thus forcing a stalemate. Insiders close to PM Thatcher mention the 'proposed use of tactical nukes', although the British government haven't mentioned anything yet. "
 
+# June 30th, 1982
+      STR_FALKLAND_WAR_STORY_11_EVENT: "Falklands War comes to an end"
+      STR_FALKLAND_WAR_STORY_11_EVENT_DESCRIPTION: "The UN have forced a ceasefire and immediate retreat of both UK and Argentine armed forces from the islands. Blue Helmets were sent to ensure the end of hostilities and repatriation of POWs. Most military units in opposite sides were exhausted and have already deposed their arms before the UN intervention. This ends a brief and bitter chapter in the South Atlantic. "
 
 
       STR_6TH_ANNIVERSARY_SNAKE_REMOVAL_EVENT: "6th Anniversary of Removal of Alien Presence"
