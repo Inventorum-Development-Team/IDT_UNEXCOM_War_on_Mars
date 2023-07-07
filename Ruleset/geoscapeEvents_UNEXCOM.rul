@@ -45,6 +45,44 @@ eventScripts:
 ####### SIDE EVENTS ########
 ###########################
 
+# MARSEC subplot
+
+  - type: STR_MARSEC_STORY_1_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_MARSEC_STORY_1_EVENT
+    firstMonth: 1
+    executionOdds: 100
+
+  - type: STR_MARSEC_STORY_2_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_MARSEC_STORY_2_EVENT
+    firstMonth: 2
+    executionOdds: 100
+
+  - type: STR_MARSEC_STORY_3_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_MARSEC_STORY_3_EVENT
+    firstMonth: 3
+    executionOdds: 100
+
+  - type: STR_MARSEC_STORY_4_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_MARSEC_STORY_4_EVENT
+    firstMonth: 6
+    executionOdds: 100
+
+  - type: STR_MARSEC_STORY_5_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_MARSEC_STORY_5_EVENT
+    firstMonth: 7
+    executionOdds: 100
+
+  - type: STR_MARSEC_STORY_6_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_MARSEC_STORY_6_EVENT
+    firstMonth: 9
+    executionOdds: 100
+
 # TNI subplot 
 
   - type: STR_TNI_STORY_1_EVENT_SCRIPT
@@ -230,6 +268,46 @@ events:
 
   - name: STR_MARSEC_STORY_1_EVENT
     description: STR_MARSEC_STORY_1_EVENT_DESCRIPTION
+    background: GENERIC_NEWS_EVENT_BACKGROUND
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_MARSEC_STORY_2_EVENT
+    description: STR_MARSEC_STORY_2_EVENT_DESCRIPTION
+    background: GENERIC_NEWS_EVENT_BACKGROUND
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_MARSEC_STORY_3_EVENT
+    description: STR_MARSEC_STORY_3_EVENT_DESCRIPTION
+    background: GENERIC_NEWS_EVENT_BACKGROUND
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_MARSEC_STORY_4_EVENT
+    description: STR_MARSEC_STORY_4_EVENT_DESCRIPTION
+    background: GENERIC_NEWS_EVENT_BACKGROUND
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_MARSEC_STORY_5_EVENT
+    description: STR_MARSEC_STORY_5_EVENT_DESCRIPTION
+    background: GENERIC_NEWS_EVENT_BACKGROUND
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_MARSEC_STORY_6_EVENT
+    description: STR_MARSEC_STORY_6_EVENT_DESCRIPTION
     background: GENERIC_NEWS_EVENT_BACKGROUND
     #regionList: [STR_SOUTH_EAST_ASIA]
     points: 100
