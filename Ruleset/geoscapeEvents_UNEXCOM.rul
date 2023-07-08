@@ -45,6 +45,10 @@ eventScripts:
 ####### SIDE EVENTS ########
 ###########################
 
+# Falklands War subplot
+
+
+
 # MARSEC subplot
 
   - type: STR_MARSEC_STORY_1_EVENT_SCRIPT
@@ -172,6 +176,14 @@ events:
     timer: 240
     timerRandom: 10
 
+  - name: STR_WELCOME_MESSAGE_3_EVENT
+    description: STR_WELCOME_MESSAGE_3_EVENT_DESCRIPTION
+    background: BACK05.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 10
+    timer: 24000
+    timerRandom: 10
+
 #############################
 ###### STORY EVENTS ########
 ###########################
@@ -263,6 +275,155 @@ events:
 #############################
 ####### SIDE EVENTS ########
 ###########################
+
+# Falklands War Subplot
+
+  - name: STR_FALKLAND_WAR_STORY_1_EVENT
+    description: STR_FALKLAND_WAR_STORY_1_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_FALKLAND_WAR_STORY_2_EVENT
+    description: STR_FALKLAND_WAR_STORY_2_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_FALKLAND_WAR_STORY_3_EVENT
+    description: STR_FALKLAND_WAR_STORY_3_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_FALKLAND_WAR_STORY_4_EVENT
+    description: STR_FALKLAND_WAR_STORY_4_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_FALKLAND_WAR_STORY_5_EVENT
+    description: STR_FALKLAND_WAR_STORY_5_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_FALKLAND_WAR_STORY_6_EVENT
+    description: STR_FALKLAND_WAR_STORY_6_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_FALKLAND_WAR_STORY_7_EVENT
+    description: STR_FALKLAND_WAR_STORY_7_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_FALKLAND_WAR_STORY_8_EVENT
+    description: STR_FALKLAND_WAR_STORY_8_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_FALKLAND_WAR_STORY_9_EVENT
+    description: STR_FALKLAND_WAR_STORY_9_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_FALKLAND_WAR_STORY_10_EVENT
+    description: STR_FALKLAND_WAR_STORY_10_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_FALKLAND_WAR_STORY_11_EVENT
+    description: STR_FALKLAND_WAR_STORY_11_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+# TNI Subplot
+
+  - name: STR_TNI_STORY_1_EVENT
+    description: STR_TNI_STORY_1_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_TNI_STORY_2_EVENT
+    description: STR_TNI_STORY_2_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_TNI_STORY_3_EVENT
+    description: STR_TNI_STORY_3_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_TNI_STORY_4_EVENT
+    description: STR_TNI_STORY_4_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_TNI_STORY_5_EVENT
+    description: STR_TNI_STORY_5_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_TNI_STORY_6_EVENT
+    description: STR_TNI_STORY_6_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
+  - name: STR_TNI_STORY_7_EVENT
+    description: STR_TNI_STORY_7_EVENT_DESCRIPTION
+    background: BACK13.SCR
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    points: 100
+    timer: 180
+    timerRandom: 43500
+
 
 # MARSEC Subplot
 
