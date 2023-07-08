@@ -140,16 +140,16 @@ en-US:
       STR_COUNCIL_IS_VERY_PLEASED: "The Security Council is very pleased with your excellent progress. Keep up the good work."
       STR_COUNCIL_IS_DISSATISFIED: "The Security Council is dissatisfied with your performance. You must improve your effectiveness in dealing with the alien local insurgents or risk losing our foothold on Mars."
       STR_YOU_HAVE_NOT_SUCCEEDED: "The Mankind colonization and occupation efforts in the Red Planet have failed and the UNSC is retreating from the surface. Sensitive information from civilian and military outposts have been deleted and all the supplies we cannot retrive are destroyed to prevent the aliens to adquire them."
-      STR_COUNTRY_IS_PARTICULARLY_PLEASED: "{0} is particularly pleased with your ability to deal with the local guerrillas and has agreed to increase its funding."
-      STR_COUNTRIES_ARE_PARTICULARLY_HAPPY: "{0} are particularly happy with your progress in dealing with local alien insurgents and have agreed to increase their funding."
+      STR_COUNTRY_IS_PARTICULARLY_PLEASED: "{0} is particularly pleased with your ability to deal with the local guerrillas and has agreed to increase its supply deliveries."
+      STR_COUNTRIES_ARE_PARTICULARLY_HAPPY: "{0} are particularly happy with your progress in dealing with local alien insurgents and have agreed to increase their supply deliveries."
       STR_COUNTRIES_COMMA: "{0}, {1}"
       STR_COUNTRIES_AND: "{0} and {1}"
-      STR_COUNTRY_IS_UNHAPPY_WITH_YOUR_ABILITY: "{0} is unhappy with your ability to deal with alien activity in its territory and has decided to reduce its financial commitment."
-      STR_COUNTRIES_ARE_UNHAPPY_WITH_YOUR_ABILITY: "{0} are unhappy with your ability to deal with alien activity in their territory and have decided to reduce their funding."
+      STR_COUNTRY_IS_UNHAPPY_WITH_YOUR_ABILITY: "{0} is unhappy with your ability to deal with alien activity in its territory and has decided to reduce its supply aid."
+      STR_COUNTRIES_ARE_UNHAPPY_WITH_YOUR_ABILITY: "{0} are unhappy with your ability to deal with alien activity in their territory and have decided to reduce their supply support."
       STR_KNOTS: "{0} knots"
       STR_MONTHLY_RATING: "Monthly Rating> {ALT}{0}{ALT} {1}"
-      STR_FUNDING_CHANGE: "Funding change> {ALT}{0}"
-      STR_COUNCIL_REDUCE_DEBTS: "The funding council is not happy with your financial position. You must reduce your debts below $1 million or the project will be terminated."
+      STR_FUNDING_CHANGE: "External aid change> {ALT}{0}"
+      STR_COUNCIL_REDUCE_DEBTS: "The Security Council is not happy with your financial position. You must reduce your debts below $1 million or the project will be terminated."
 
       STR_UNITS_IN_CRAFT:
         one: "{N} Unit in UNEXCOM Craft"
@@ -2548,6 +2548,9 @@ en-US:
       
       STR_WELCOME_MESSAGE_2_EVENT: "UNEXCOM HQ technical report from Science Staff"
       STR_WELCOME_MESSAGE_2_EVENT_DESCRIPTION: "We just unpacked our assets, Commander. The crew ran several tests, the outpost seems functional. We found an issue, however. A malfunction in the Comms relay corrupted the data package from Berlin, crippling most of the Unified Field Operations Database (the so-called 'UFOPedia') available to us. Our staff is working to restore it, each research completed should give us access to one Pedia entry, although we're unsure which one. Besides that, the base is ready for combat operations. Orbital Drop base modules are likewise available upon request."
+      
+      STR_WELCOME_MESSAGE_3_EVENT: "Private dmail ; clearance <CONFIDENTIAL>"
+      STR_WELCOME_MESSAGE_3_EVENT_DESCRIPTION: "Commander: as you know, the public perception of the situation in the surface is... different, to put it lightly. The threat of the Insurrection is downplayed to certain extent to avoid losing the population's confidence in the Martian endeavor. Yet the same time, 'the boogyman still lures in the deep space'. People can't know the full extension of this rebellion. We're confident you'll be able to handle the delicate political situation. "
 
 # TNI Subplot
       STR_TNI_STORY_1_EVENT: "Foundation of 'Terra Nova Initiative'"
