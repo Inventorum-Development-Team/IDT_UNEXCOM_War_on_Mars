@@ -14,7 +14,7 @@ units:
       psiStrength: 5
       psiSkill: 0
       melee: 50
-    armor: STR_ASTRONAUT_SPACESUIT_UC
+    armor: STR_ASTRONAUT_A7L_SPACESUIT_UC
     standHeight: 21
     kneelHeight: 14
     value: 30
@@ -32,7 +32,7 @@ units:
   - type: FEMALE_CIVILIAN
     race: STR_CIVILIAN
     stats: *CIVILIAN_STATS
-    armor: STR_COSMONAUT_SPACESUIT_UC
+    armor: STR_ASTRONAUT_KRECHET94_SPACESUIT_UC
     standHeight: 21
     kneelHeight: 14
     value: 30

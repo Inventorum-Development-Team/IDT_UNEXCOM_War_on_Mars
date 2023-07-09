@@ -4,6 +4,11 @@ research:
 #############################
 ####### ENDGAME PATH #######
 ###########################
+  - name: STR_ALIEN_BASE_SELF_DESTRUCTION
+    cost: 0
+    requires:
+      - STR_ALIEN_BASE_SELF_DESTRUCTION
+
   - name: STR_ETHEREAL_INSURGENCY_REPORT_1
     cost: 500
     points: 50

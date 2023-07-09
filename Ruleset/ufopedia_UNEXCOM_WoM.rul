@@ -55,6 +55,7 @@ ufopaedia:
   - delete: STR_AVENGER
   - delete: STR_THE_MARTIAN_SOLUTION
   - delete: STR_CYDONIA_OR_BUST
+  - delete: STR_PLASMA_RIFLE_CLIP
 
 ########################################
 ########### COMMENDATIONS ##############
@@ -1661,11 +1662,10 @@ ufopaedia:
     text: ...
     listOrder: 5114
 
-  - id: STR_PLASMA_RIFLE_CLIP
-    type_id: 4
-    section: STR_AMMUNITION
-    text: ...
-    listOrder: 5203
+ # - id: STR_PLASMA_RIFLE_CLIP
+  #  type_id: 4
+   # section: STR_NOT_AVAILABLE
+    #listOrder: 5203
   - id: STR_NATO_PLASMA_PISTOL_MAG
     type_id: 4
     section: STR_AMMUNITION
@@ -2041,11 +2041,17 @@ ufopaedia:
       - STR_PLASMA_RIFLE
     text: STR_PLASMA_RIFLE_UFOPEDIA
     listOrder: 12005
+  #- id: STR_PLASMA_RIFLE_CLIP
+  #  type_id: 4
+  #  section: STR_AMMUNITION
+  #  text: ...
+  #  listOrder: 12006
   - id: STR_PLASMA_RIFLE_CLIP
     type_id: 4
     section: STR_AMMUNITION
-    text: ...
-    listOrder: 12006
+    requires:
+      - STR_PLASMA_RIFLE_CLIP
+    text: STR_PLASMA_RIFLE_CLIP_UFOPEDIA
   - id: STR_PLASMA_SNIPER_RIFLE
     type_id: 4
     section: STR_ALIEN_EQUIPMENT

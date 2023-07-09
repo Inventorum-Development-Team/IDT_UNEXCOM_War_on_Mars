@@ -62,6 +62,12 @@ items:
     accuracySnap: 55 # 86
     accuracyAimed: 105 # 100
     costSell: 20000
+    bulletSprite: 8
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 4
     compatibleAmmo:
       - STR_PLASMA_RIFLE_CLIP
     tuAuto: 35 # 36
@@ -107,9 +113,6 @@ items:
         tuLoad: 20
         tuUnload: 20
         compatibleAmmo: [ STR_40MM_FRAG, STR_40MM_INCENDIARY, STR_40MM_SMOKE, STR_40MM_NON_LETHAL ]
-    confAimed:
-      shots: 3
-      name: STR_BURST
     confAuto:
       shots: 5
       name: STR_CONTROL_AUTO

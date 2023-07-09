@@ -1653,8 +1653,8 @@ alienDeployments:
     length: 50
     height: 7
     civiliansByType:
-      MALE_CIVILIAN: 3
-      FEMALE_CIVILIAN: 3
+      MALE_CIVILIAN: 2
+      FEMALE_CIVILIAN: 2
       STR_EUROPEAN_EURONAUT: 2
       STR_EUROPEAN_RIFLEMAN: 1
       STR_AMERICAN_RIFLEMAN: 1
