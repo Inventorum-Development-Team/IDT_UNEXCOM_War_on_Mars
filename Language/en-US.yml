@@ -2462,9 +2462,6 @@ en-US:
       STR_HEARTS_AND_MINDS_MUTONS_2: "Hearts and Minds: Mutons Support II"
       STR_HEARTS_AND_MINDS_MUTONS_2_UFOPEDIA: "Even when each pack seems to harbor different motivation and purposes, the Mutons towards archiving one goal: Carve out a state and livelihood for Mutons. The leaders have developed a slight Psionic ability, but still far below what a regular human could accomplish. Most of them appear to venerate a warrior deity, we aren't sure if it's a god or a former individual. Waging war is part of their daily life, for any reason they consider worthy enough. In words of an allied Muton warlord: 'I don't know who I am. I don't know where I am. All I know is I must kill.'. Their loyalty is unmatched and the slightest trace of betrayal is paid in blood. Several Muton warbands are already willing to fight alongside us against their former masters... and against their traitorous brethren."
 
-      STR_PSIONIC_LORE_REPORT_1: "7 years of Psionics Circle"
-      STR_PSIONIC_LORE_REPORT_1_UFOPEDIA: "During the War of 1972, UNEXCOM managed to capture a few Ethereals. Interrogating and studying them have led to one of the most notorious change for humanity since industrialisation - psionics. And today the organisation, known as Psionic Circle, are celebrating seventh anniversary of their creation, which was at December 18, 1975. The Psionic Circle was founded by scientists from classified USA scientific base, who studied psi technology, shared by UNEXCOM. Their goal is to be an official representatives of psionics all across the Earth in order to protect from any ill-treatment. Allied forces have special psi corps too, and we could ask them to help us with it's manpower, if situation escalates"
-
       STR_SOVIET_PSIONIC_CORPS_REPORT_1: "Tactical Report - SA Psionic Corps I"
       STR_SOVIET_PSIONIC_CORPS_REPORT_1_UFOPEDIA: "During the Secret War, Directorate 17 agents managed to capture a few Thin Men. Upon succesful delivery in Soviet Union, in closed town of Novosibirsk-54, scientists from Institute of Alien Technology, located here, started their research. During interrogation, they not only found out the location of some alien hideouts in Europe, but also discovered their psi abilities, and hidden psi potential in some of the humans. After sending their reports to Kremlin, scientists later received a new order: find the way to awaken psi abilities and then organise and train the small team of psionics. This project took a several years to complete, but at the end of 1960s Institute has succeded in that task."
       STR_SOVIET_PSIONIC_CORPS_REPORT_2: "Tactical Report - SA Psionic Corps II"
@@ -2513,6 +2510,7 @@ en-US:
 
       STR_BALLISTIC_WEAPONS_REPORT: "Logistics Report - Ballistic Weapons"
       STR_BALLISTIC_WEAPONS_REPORT_UFOPEDIA: "The great leap forward in most science fields after the War quickly made outdated several items and equipment previously thought 'cutting-edge'. The prevalence of Directed Energy Weapons (DEW) slowly and surely made most ballistic weaponry an obsolete tech. Those are not completely useless, though; as the expansion of 3D printing made them extremely cheap... it became easy to just print ammo and even entire firearms in relatively small factories. Several minor powers still field classic rifles and machine guns, but the World Powers have relegated their arsenals as reserve equipment, no longer meant for frontline combat. Some modernized rifles made their way to Mars, where they are used by patrolling and garrison forces. "
+      
       STR_LASER_WEAPONS_REPORT: "Logistics Report - Laser Weapons"
       STR_LASER_WEAPONS_REPORT_UFOPEDIA: "The most important military development since the creation of the atomic bomb was also one of the 'victory weapons' widely recognized as one of the key tools in the Ethereal defeat in Earth. Result of a decade-long research, the 1st Generation Lasers of the early 60s were bulky and unwieldily, but more effective than a regular rifle. The 2nd Generation began operational service in the middle of the War of 1972, turning the tide of the conflict. The start of the decade saw the introduction of even better laser guns in the form of the 3rd Generation, although 2-GEN lasers are likely to be prominent DEW technology field by most major Powers for several more years. Most 3-GEN weapons are used in the ongoing Martian conflict, while military forces in Earth are equipped with Second Generation assets. It seems our enemies have developed another generation of Lasers on their own too, as they are employing mew models never seen before. "
 
@@ -2549,8 +2547,10 @@ en-US:
       STR_WELCOME_MESSAGE_2_EVENT: "UNEXCOM HQ technical report from Science Staff"
       STR_WELCOME_MESSAGE_2_EVENT_DESCRIPTION: "We just unpacked our assets, Commander. The crew ran several tests, the outpost seems functional. We found an issue, however. A malfunction in the Comms relay corrupted the data package from Berlin, crippling most of the Unified Field Operations Database (the so-called 'UFOPedia') available to us. Our staff is working to restore it, each research completed should give us access to one Pedia entry, although we're unsure which one. Besides that, the base is ready for combat operations. Orbital Drop base modules are likewise available upon request."
       
-      STR_WELCOME_MESSAGE_3_EVENT: "Private dmail ; clearance <CONFIDENTIAL>"
+      STR_WELCOME_MESSAGE_3_EVENT: "Private D-mail ; clearance <CONFIDENTIAL>"
       STR_WELCOME_MESSAGE_3_EVENT_DESCRIPTION: "Commander: as you know, the public perception of the situation in the surface is... different, to put it lightly. The threat of the Insurrection is downplayed to certain extent to avoid losing the population's confidence in the Martian endeavor. Yet the same time, 'the boogyman still lures in the deep space'. People can't know the full extension of this rebellion. We're confident you'll be able to handle the delicate political situation. "
+
+########################
 
 # TNI Subplot
       STR_TNI_STORY_1_EVENT: "Foundation of 'Terra Nova Initiative'"
@@ -2571,13 +2571,19 @@ en-US:
       STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT: "Recon probes confirm increase in Insurgent activity"
       STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_DESCRIPTION: "There are aliens everywhere, dude. Be careful, they gonna kick your ass anytime soon."
       
-      
+      STR_ALLIED_FORCES_LOCATE_SIGNAL_JAMMER_EVENT: "Allied forces locate Signal Jammer"
+      STR_ALLIED_FORCES_LOCATE_SIGNAL_JAMMER_EVENT_DESCRIPTION: "Since the rebel offensive, we had several issues with the communication with Earth. Few transmissions from our homeplanet arrive and we are unsure if our comms are listened by them. Allied recon units at {0} have identified an alien structure that appears to be the reason behind the lack of contact."
+
+      STR_ALLIED_FORCES_ATTACK_SIGNAL_JAMMER_EVENT: "Allied attack on Signal Jammer"
+      STR_ALLIED_FORCES_ATTACK_SIGNAL_JAMMER_EVENT_DESCRIPTION: "Without waiting for reinforcements, our allies mounted a swift raid on the Jammer. Despite a stubborn resistance and heavy casualties, the UN forces managed to destroy the facility."
+
       STR_RESCUE_SIGNAL_BROADCASTING_EVENT: "Rescue signal broadcasted"
       STR_RESCUE_SIGNAL_BROADCASTING_EVENT_DESCRIPTION: "Shortly after the destruction of the Signal Jammer, we were able to emit a pulse towards our homeworld, albeit weak. The message was short and concrete: 'We are still on the fight. And we will not ssurrender' . The UNSC assured us a reinforcement fleet is being ensembled and will be dispatched as soon as possible, meanwhile conventional rockets will be sent with supplies. "
      
       STR_UN_FLEET_ARRIVING_EVENT: "UN fleet arriving to orbit"
       STR_UN_FLEET_ARRIVING_EVENT_DESCRIPTION: "The cavalry is here. Fresh reinforcements from Earth, plus additional equipment by the UN First Fleet. A barrage of lasers cannon fire and Fusion missiles broke the enemy's advance. Most of their outposts and facilities were destroyed. "
 
+      STR_ALIEN_BASE_SELF_DESTRUCTION: "UN Fleet massive barrage"
 # Act 1
 
 # Falklands/Malvinas Side plot
@@ -2626,43 +2632,46 @@ en-US:
       STR_FALKLAND_WAR_STORY_11_EVENT: "Falklands War comes to an end"
       STR_FALKLAND_WAR_STORY_11_EVENT_DESCRIPTION: "The UN have forced a ceasefire and immediate retreat of both UK and Argentine armed forces from the islands. Blue Helmets were sent to ensure the end of hostilities and repatriation of POWs. Most military units on both sides are exhausted, and have already deposed their arms before the UN intervention. This ends a brief and bitter chapter in the South Atlantic. "
 
+##########################
+# Misc news
+
+# April 25th, 1982
       STR_6TH_ANNIVERSARY_SNAKE_REMOVAL_EVENT: "6th Anniversary of Removal of Alien Presence"
       STR_6TH_ANNIVERSARY_SNAKE_REMOVAL_EVENT_DESCRIPTION: "Today, April 25th, is a holiday marking the removal of the final alien presences on earth, the Nigerian Snakemen Colonies. It has been six years since the last ones were eradicated and the people of Nigeria could sleep without UNEXCOM craft flying over head delivering heavy ordnance onto the deep colonies. The four year campaign was gruesome tunnel fighting for the infantry, unable to use tanks or especially heavy ordnance in the Snakemen colonies. It is unknown why the snakes focused so heavily on Nigeria and surrounding countries, but is suspected to be that the climate reminded them of whatever forgotten planet they are from"
       
       STR_RISE_OF_NEW_CULTS_EVENT: "Rise of new cults"
       STR_RISE_OF_NEW_CULTS_EVENT_DESCRIPTION: "At the War of 1972, some of the people were mind-controlled by alien psionics, be it soldiers at the battlefield or goverments officials. After Operation Downfall, in the mid 70's, a new cult has emerged among those people. They percieve Ethereals as gods, and believe, that humanity will flourish only under their rule. This cult, known as Aperta Luce, has been banned soon after creation, and they were silent until recent days. But few days ago, a series of violent terrorist attacks has occured over the Earth, with Aperta Luce being responsible in them. It appears, that Ethereals are still using terrorists to wreck havoc on Earth, just like they did in war"
 
+      STR_SHUTTLE_WINGS_EVENT: "Experts question use of wings in Martian Shuttles"
+      STR_SHUTTLE_WINGS_EVENT_DESCRIPTION: "Independent technical consultants pointed out the futility of the use of wings and flight control surfaces in both civilian and military shuttles. 'I don't see why our science staff and military personnel transports should use them. Their shuttles are VTOL anyways. It's just useless weight.', the consultant said to our reporters."
     
       STR_POKER_PLAYER_TRIAL_EVENT: "Missing famous poker player found today"
       STR_POKER_PLAYER_TRIAL_EVENT_DESCRIPTION: "Grim news has shaken Los Angeles, USA. A professional poker player, residing in one of the city's hotels, has gone missing a week ago, and only recently his body was found in San Pedro Bay. It appears, that he was a retired UNEXCOM operative, and also has gone through psionic training. Taking note in his stunning victories in casinos all over the United States, it's obvious, that he was using his psi abilities to cheat at poker, and was assasinated because of that. LAPD and the California Department of Justice are looking for the suspect. "
- 
+
+# December 18th, 1982
+      STR_PSIONIC_CIRCLE_EVENT: "7 years of Psionics Circle"
+      STR_PSIONIC_CIRCLE_EVENT_DESCRIPTION: "During the War of 1972, the interrogating and studying of Ethereals POW have led to one of the most notorious change for humanity since industrialisation - psionics. And today the organisation, known as Psionic Circle, is celebrating their seventh anniversary of their creation, which was at December 18, 1975. The Psionic Circle was founded by scientists from a classified US scientific base, who studied psi technology, shared by UNEXCOM. Their goal is to be an official representatives of psionics all across the Earth in order to protect from any ill-treatment. "
+
+
+##########################
+# Cultural stuff (movies, comics, etc) 
+
 # 26th May 1982         
       STR_CANNES_FESTIVAL_EVENT: "35th Cannes Film Festival takes place"
       STR_CANNES_FESTIVAL_EVENT_DESCRIPTION: "Today, the Palm d'Or was jointly awarded to Gravas' 'Missing', a historical drama and The Director's 'Kitsune: The Fox Brigade', a police noir film. The critics praised the script and acting of 'Missing' and the special effects of 'Kitsune', which was heavily supported by the German Federal Army (which proportioned the Delta EOD suits used by the 'special police' in the film). Spielberg's new film, 'E.T. The Extraterrestrial' was openly mocked, rated by critics as 'childish and insensitive to the victims of the War, as it's obvious the real aliens didn't came in peace'."
-
-      STR_SHUTTLE_WINGS_EVENT: "Experts question use of wings in Martian Shuttles"
-      STR_SHUTTLE_WINGS_EVENT_DESCRIPTION: "Independent technical consultants pointed out the futility of the use of wings and flight control surfaces in both civilian and military shuttles. 'I don't see why our science staff and military personnel transports should use them. Their shuttles are VTOL anyways. It's just useless weight.', the consultant said to our reporters."
 
 # June 25th, 1982  
       STR_BLADE_RUNNER_MOVIE_RELEASED_EVENT: "'Blade Runner' becomes #1 movie of the week"
       STR_BLADE_RUNNER_MOVIE_RELEASED_EVENT_DESCRIPTION: "The newest movie by director Ridley Scott, the adaptation of Philip K. Dick's 'Do Androids Dream of Electric Sheep?' 1968 novel, becomes a success at box office. The story of a hardened police detective hunting down a rouge group of sentient androids attracted lots of moviegoers. Most praise the aesthetic and visuals, specially the soundtrack composed by Vangelis. Some critics mention the slow pace and lack of action, however. "
 
-#November 1982
+# November 1982
       STR_CYBERPUNK_NOVEL_RELEASED_EVENT: "'Cyberpunk' by Bruce Bethke is a growing success"
       STR_CYBERPUNK_NOVEL_RELEASED_EVENT_DESCRIPTION: "A collection of short stories written and self-published by Bethke about a group of young troublemakers, adept to the use of technology. Regarded as a accurate criticism of the current and sudden increase of the use of technology in most aspects of the daily life. The name is a portmanteau of the words 'cybernetic' and the punk subculture. After some issues with the publisher, the writter decided to directly sell his book, one year before the expected date. "
 
-#December 20th, 1982
+# December 20th, 1982
       STR_AKIRA_MANGA_RELEASED_EVENT: "'Akira', an instant classic in Japan"
       STR_AKIRA_MANGA_RELEASED_EVENT_DESCRIPTION: "The manga written by Katsuhiro Ōtomo about a pair of youth, motorcycle rider gangsters (one with psionic powers) in a post apocalyptic 'Neo-Tokyo' and the mysterious, titular being. A million copies were sold on its very first day, bolstering the popularity of the manga genre inside and outside Japan. There are rumors about a movie in production."
 
-# July 1st, 1983
-      STR_NEUROMANCER_NOVEL_RELEASED_EVENT: "'Neuromancer' by William Gibson, a worldwide hit"
-      STR_NEUROMANCER_NOVEL_RELEASED_EVENT_DESCRIPTION: "The debut of the American-Canadian writer about a disgraced hacker hired for one last job, met an unprecedented and popular reception by the critics and public alike. Along with 'Cyberpunk' and 'Blade Runner', it helped to further solidify the popularity of neo-noir, technology-centered stories... which bear an uncanny resemblance to the predictions about our future since the widespread development of cybernetics."
-
-# May 25th, 1983
-      STR_STAR_WARS_MOVIE_RELEASED_EVENT: "'Return of the Jedi' in cinemas now"
-      STR_STAR_WARS_MOVIE_RELEASED_EVENT_DRSCRIPTION: "The grand finale of George Lucas' space opera saga just made $23 million dollars in it's opening weekend. The quest of Jedi Knight Luke Skywalker to defeat the evil Emperor and return his father, Darth Vader, to the Light Side of the Force is expected to become the highest-grossing film of 1983. Most of the fans and critics enjoyed the movie, although there were certain dislike for the child-like Ewoks. A true end of an epic tale, we expect no other sequel will ruin this experience in the foreseeable future."
-      
 # MARSEC Subplot
 
       STR_MARSEC_STORY_1_EVENT: "MARSEC deploys new probes to search for ore"
@@ -2685,9 +2694,13 @@ en-US:
 
 #Act 2
 
+# Combat reports
+
       STR_BRITISH_SOLDIERS_DIG_IN_MARINER_TRENCH_EVENT: "The British dig in the Mariner Trench"
       STR_BRITISH_SOLDIERS_DIG_IN_MARINER_TRENCH_EVENT_DESCRIPTION: "We have received reports of a battalion of the 51st (Highland) Division holding their ground in the western side of the Valles Marineris, near the Noctis Labyrinthus. The UASCNAT troops have fortified a salient now known as the 'Highlander Ridge' and have endured the worst part of the Insurrectionist counteroffensive. We have sent some supplies and ammo to them, which they thank. A couple of volunteers have joined our ranks as well."
- 
+      
+      STR_ALLIED_HARRIERS_DOGFIGHT_EVENT: "Allied Harriers engage UFOs"
+      STR_ALLIED_HARRIERS_DOGFIGHT_EVENT_DESCRIPTION: "We intercepted a radio transmittion of a pair of Harriers ambushing an alien ship over the skies of {0}. In a hit and run attack, our fellow airmen were able to shot down the enemy ship. We didn't wanted to contact them to avoid drawing unnecesary attention to our base or putting them in risk. Our forces are still on the fight."
 
 #SOLDIERS
 
@@ -2695,7 +2708,7 @@ en-US:
       STR_SUPPLY_ROCKET_IN_ORBIT_EVENT_DESCRIPTION: "A conventional NERVA rocket carrying supplies has just completed its Hohmann transfer orbit. In order to begin decent maneuvers unnoticed to avoid enemy SAM attacks, it will complete a couple of orbits around the planet before heading towards the designated drop point. You will be notified once our troops recover the assets."
       
       STR_SUPPLY_ROCKET_SHOT_DOWN_EVENT: "Supply rocket destroyed in orbit"
-      STR_SUPPLY_ROCKET_SHOT_DOWN_EVENT_DESCRIPTION: "Unfortunately, the expected pod was intercepted before completing the decent. The unmanned vehicle and its cargo was completely lost. Our forward recon observers couldn't adquire the location of the Surface-To-Air Missile Battery before the Insurgents managed to discreetly evacuate. This situation was outside our control, Commander. "
+      STR_SUPPLY_ROCKET_SHOT_DOWN_EVENT_DESCRIPTION: "Unfortunately, the expected pod was intercepted before completing the decent. The unmanned vehicle and its cargo was completely lost. Our forward recon observers couldn't adquire the location of the Surface-To-Air Missile Battery before the Insurrectionists managed to discreetly evacuate. This situation was outside our control, Commander. "
 
       STR_SMALL_SUPPLY_DROP_EVENT: "Small supply drop"
       STR_SMALL_SUPPLY_DROP_EVENT_DESCRIPTION: "A small, unmmaned pod landed near our base, it carries basic supplies to keep us on the fight."
@@ -2703,11 +2716,32 @@ en-US:
       STR_LARGE_SUPPLY_DROP_EVENT: "Large supply drop"
       STR_LARGE_SUPPLY_DROP_EVENT_DESCRIPTION: "A manned, large pod just landed inside the base perimeter. The volunteer crew ferried several supplies and assets to keep us on the fight. The crew will remain with, as they knew there was no possibility to returning to orbit safely. "
 
+##########################
+# Cultural stuff (movies, comics, etc) 
+
+# May 25th, 1983
+      STR_STAR_WARS_MOVIE_RELEASED_EVENT: "'Return of the Jedi' in cinemas now"
+      STR_STAR_WARS_MOVIE_RELEASED_EVENT_DRSCRIPTION: "The grand finale of George Lucas' space opera saga just made $23 million dollars in it's opening weekend. The quest of Jedi Knight Luke Skywalker to defeat the evil Emperor and return his father, Darth Vader, to the Light Side of the Force is expected to become the highest-grossing film of 1983. Most of the fans and critics enjoyed the movie, although there were certain dislike for the child-like Ewoks. A true end of an epic tale, we expect no other sequel will ruin this experience in the foreseeable future."
+
+ # July 1st, 1983
+      STR_NEUROMANCER_NOVEL_RELEASED_EVENT: "'Neuromancer' by William Gibson, a worldwide hit"
+      STR_NEUROMANCER_NOVEL_RELEASED_EVENT_DESCRIPTION: "The debut of the American-Canadian writer about a disgraced hacker hired for one last job, met an unprecedented and popular reception by the critics and public alike. Along with 'Cyberpunk' and 'Blade Runner', it helped to further solidify the popularity of neo-noir, technology-centered stories... which bear an uncanny resemblance to the predictions about our future since the widespread development of cybernetics."
+
+
+########################
 # Act 3
+
+# Combat reports
+
+      STR_ALLIED_TROOPS_OFFENSIVE_EVENT: "Allied attack on {0}"
+      STR_ALLIED_TROOPS_OFFENSIVE_EVENT_BACKGROUND: "UN-led forces in the region have movilized to engage Insurrectionists identified in a hidden outpost. Mechanized units, supported by gunships, are fighting the enemy to drive them away from the area and secure the sector in the name of Earth. "
+
+
+##########################
+# Misc news
 
       STR_REAGAN_ANNOUNCES_SDI_EVENT: "US President Reagan announced S.D.I Project"
       STR_REAGAN_ANNOUNCES_SDI_EVENT_DESCRIPTION: "Ronald Reagan, the American head of state, just announced the deployment of the Strategic Defense Initiative, a global web of laser-armed satellites. Initially meant to ensure no Soviet nuclear missile will be aimed at American land, it was quickly demised 'as idiotic paranoia' and repurposed to serve as a permanent, world-wide defense system against alien intrusions. Modern laser technology will make it possible. The system is expected to be deployed around next year."
-
 
 #############################
 ########## NPCS ############

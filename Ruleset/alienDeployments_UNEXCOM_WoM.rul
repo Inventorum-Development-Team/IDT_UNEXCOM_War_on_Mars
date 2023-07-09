@@ -1676,6 +1676,7 @@ alienDeployments:
   - type: STR_ALIEN_BASE_ASSAULT
     ##missionBountyItem: STR_HYPER_WAVE_ENCODER
     #startingCondition: STR_INDOORS
+    baseSelfDestructCode: STR_ALIEN_BASE_SELF_DESTRUCTION
     alienBaseUpgrades:
       0:
         STR_ALIEN_BASE_ASSAULT: 100
@@ -1886,6 +1887,7 @@ alienDeployments:
   - type: STR_ALIEN_BASE_ASSAULT_STAGE_2
     ##missionBountyItem: STR_HYPER_WAVE_ENCODER
     #startingCondition: STR_INDOORS
+    baseSelfDestructCode: STR_ALIEN_BASE_SELF_DESTRUCTION
     alienBaseUpgrades:
       0:
         STR_ALIEN_BASE_ASSAULT_STAGE_2: 100
@@ -2091,6 +2093,7 @@ alienDeployments:
 
   - type: STR_ALIEN_BASE_ASSAULT_STAGE_2_UNDERGROUND
     data: *AlienBaseRanks
+    baseSelfDestructCode: STR_ALIEN_BASE_SELF_DESTRUCTION
     briefing:
       #textOffset: -16
       background: BACK01.SCR
