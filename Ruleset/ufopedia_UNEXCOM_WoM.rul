@@ -723,21 +723,13 @@ ufopaedia:
     text: STR_FACTIONS_REPORT_INTERKOSMOS_1_UFOPEDIA
     listOrder: 1726
 
-  - id: STR_FACTIONS_REPORT_INTERKOSMOS_2
-    type_id: 8
-    section: STR_UNEXCOM_RESEARCH
-    requires:
-      - STR_FACTIONS_REPORT_INTERKOSMOS
-    text: STR_FACTIONS_REPORT_INTERKOSMOS_2_UFOPEDIA
-    listOrder: 1727
-
-  - id: STR_PSIONIC_LORE_REPORT_1
-    type_id: 8
-    section: STR_UNEXCOM_RESEARCH
-    #requires:
-      #- STR_PSIONIC_LORE_REPORT_1
-    text: STR_PSIONIC_LORE_REPORT_1_UFOPEDIA
-    listOrder: 1728
+  #- id: STR_FACTIONS_REPORT_INTERKOSMOS_2
+   # type_id: 8
+   # section: STR_UNEXCOM_RESEARCH
+   # requires:
+   #   - STR_FACTIONS_REPORT_INTERKOSMOS
+   # text: STR_FACTIONS_REPORT_INTERKOSMOS_2_UFOPEDIA
+   # listOrder: 1727
 
   - id: STR_SOVIET_PSIONIC_CORPS_REPORT_1
     type_id: 8
@@ -883,21 +875,57 @@ ufopaedia:
 ##############################
 
 
-  #Weapons
+#Weapons
 
-  #Pistols
-  - id: STR_UNEXCOM_WEAPONS
+  - id: STR_UNEXCOM_WEAPONS_REPORT
     type_id: 8
     section: STR_WEAPONS
-    text: STR_UNEXCOM_WEAPONS_UFOPEDIA
+    text: STR_UNEXCOM_WEAPONS_REPORT_UFOPEDIA
     listOrder: 4000
+  - id: STR_BALLISTIC_WEAPONS_REPORT
+    requires:
+      - STR_BALLISTIC_WEAPONS_REPORT
+    type_id: 8
+    section: STR_WEAPONS
+    text: STR_BALLISTIC_WEAPONS_REPORT_UFOPEDIA
+    listOrder: 4001
+  - id: STR_LASER_WEAPONS_REPORT
+    requires:
+      - STR_LASER_WEAPONS_REPORT
+    type_id: 8
+    section: STR_WEAPONS
+    text: STR_LASER_WEAPONS_REPORT_UFOPEDIA
+    listOrder: 4002
+  - id: STR_PLASMA_WEAPONS_REPORT
+    requires:
+      - STR_PLASMA_WEAPONS_REPORT
+    type_id: 8
+    section: STR_WEAPONS
+    text: STR_PLASMA_WEAPONS_REPORT_UFOPEDIA
+    listOrder: 4003
+  - id: STR_ALLOY_WEAPONS_REPORT
+    requires:
+      - STR_ALLOY_WEAPONS_REPORT
+    type_id: 8
+    section: STR_WEAPONS
+    text: STR_ALLOY_WEAPONS_REPORT_UFOPEDIA
+    listOrder: 4004
+  - id: STR_FUSION_WEAPONS_REPORT
+    requires:
+      - STR_FUSION_WEAPONS_REPORT
+    type_id: 8
+    section: STR_WEAPONS
+    text: STR_FUSION_WEAPONS_REPORT_UFOPEDIA
+    listOrder: 4005
+
+  #Pistols
   - id: STR_PISTOL_REPORT
     type_id: 7
     section: STR_WEAPONS
     image_id: PISTOL_REPORT_IMAGE
     text: STR_PISTOL_REPORT_UFOPEDIA
     text_width: 150
-    listOrder: 4001
+    listOrder: 4009
 
   - id: STR_M1972_LASER_PISTOL
     type_id: 4
@@ -1333,7 +1361,6 @@ ufopaedia:
       text: STR_ULYSSES_LASER_SNIPER_RIFLE_UFOPEDIA_1
     - title: STR_ULYSSES_LASER_SNIPER_RIFLE
       text: STR_ULYSSES_LASER_SNIPER_RIFLE_UFOPEDIA_2
-    text: STR_ULYSSES_LASER_SNIPER_RIFLE_UFOPEDIA
     listOrder: 4608
 
   - id: STR_CHURCHILL_MARKSMAN_LASER_RIFLE
@@ -1365,6 +1392,8 @@ ufopaedia:
     listOrder: 4611
 
   - id: STR_ALLOY_SMART_RIFLE
+    requires:
+      - STR_ALLOY_HEAVY
     type_id: 4
     section: STR_WEAPONS
     text: STR_ALLOY_SMART_RIFLE_UFOPEDIA
@@ -1563,7 +1592,7 @@ ufopaedia:
     section: STR_AMMUNITION
     text: STR_ALLOY_PISTOL_FL_UFOPEDIA
     listOrder: 5103
-  - id: STR_ALLOY_SMART_RIFLE
+  - id: STR_ALLOY_SMART_RIFLE_MAG
     requires:
       - STR_ALLOY_HEAVY
     type_id: 4
@@ -1986,7 +2015,7 @@ ufopaedia:
       - STR_PLASMA_PISTOL
     text: STR_PLASMA_PISTOL_UFOPEDIA
     listOrder: 12001
-    - id: STR_PLASMA_PISTOL_CLIP
+  - id: STR_PLASMA_PISTOL_CLIP
     type_id: 4
     section: STR_AMMUNITION
     text: ...
