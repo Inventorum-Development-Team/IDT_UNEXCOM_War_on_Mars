@@ -1078,6 +1078,10 @@ en-US:
 
 
   ##################
+      
+      STR_INSTANT_INFILTRATION_UFO: "Insurgent mass wave"
+      STR_ALIEN_INFILTRATION_INITIAL: "Insurgent Offensive"
+      
       STR_COUNTER_INSURGENCY_OPERATION_MISSION: "Counter-Insurgency Operation"
       STR_COUNTER_INSURGENCY_OPERATION_DEPLOYMENT: "COUNTER-INSURGENCY OPERATION"
       STR_COUNTER_INSURGENCY_OPERATION_DESCRIPTION: "Allied forces operating in the area have reported Insurgent activity, most likely aimed to compromise their safety. We have been tasked to engage the alien guerrilla before they manage to damage our assets and retreat. "
@@ -2566,7 +2570,7 @@ en-US:
       STR_TNI_STORY_6_EVENT: "Bitter truth of Ares fraud"
       STR_TNI_STORY_6_EVENT_DESCRIPTION: "Investigation on the Ares outpost has been finished, and the results are harsh: the Comission did revealed some sort of fraud, created by TNI management, which manipulated with scientific data in their reports to make them look optimistic. With right reports published on Earth, things went rough for Terra Nova Initiative, as their shares crashed on a stock market, and some companies has already stopped their fundings of TNI. This event had already been called by journalists as a 'collapse of the terraforming bubble'"
       STR_TNI_STORY_7_EVENT: "Massacre on the Ares Base"
-      STR_TNI_STORY_7_EVENT_DESCRIPTION: "The recent offensive launched by Ethereals really was a surprise for allied forces, but with numerous bases and outposts being overrun, another tragedy attracted attention of public. The infamous Ares science outpost, also has been attacked by alien forces. Despite hardest attempts of allied nations and UNEXCOM to help them, many scientists and technical staff workers has been killed by aliens. This, alongside with reports fraud incident, was a final straw for Terra Nova Initiative, as they oficially announced their dissolution. It is unknown what will happen with Ares, but rumors claims that USSF are planning to turn it into military base"
+      STR_TNI_STORY_7_EVENT_DESCRIPTION: "The recent offensive launched by Ethereals really was a surprise for allied forces, but with numerous bases and outposts being overrun, another tragedy attracted attention of public. The infamous Ares science outpost, also has been attacked by alien forces. Despite hardest attempts of allied nations to help them, many scientists and technical staff workers has been killed by the aliens. This, alongside with reports fraud incident, was a final straw for Terra Nova Initiative, as they oficially announced their dissolution. "
   #STR_
       STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT: "Recon probes confirm increase in Insurgent activity"
       STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_DESCRIPTION: "There are aliens everywhere, dude. Be careful, they gonna kick your ass anytime soon."
@@ -2650,7 +2654,7 @@ en-US:
 
 # December 18th, 1982
       STR_PSIONIC_CIRCLE_EVENT: "7 years of Psionics Circle"
-      STR_PSIONIC_CIRCLE_EVENT_DESCRIPTION: "During the War of 1972, the interrogating and studying of Ethereals POW have led to one of the most notorious change for humanity since industrialisation - psionics. And today the organisation, known as Psionic Circle, is celebrating their seventh anniversary of their creation, which was at December 18, 1975. The Psionic Circle was founded by scientists from a classified US scientific base, who studied psi technology, shared by UNEXCOM. Their goal is to be an official representatives of psionics all across the Earth in order to protect from any ill-treatment. "
+      STR_PSIONIC_CIRCLE_EVENT_DESCRIPTION: "During the War of 1972, the interrogating and studying of Ethereals POW have led to one of the most notorious change for humanity since industrialisation - psionics. And today the organisation, known as Psionic Circle, is celebrating their seventh anniversary of their creation. The Psionic Circle was founded by scientists from a classified US scientific base, who studied psi technology, shared by UNEXCOM. Their goal is to be an official representatives of psionics all across the Earth in order to protect from any ill-treatment. "
 
 
 ##########################
