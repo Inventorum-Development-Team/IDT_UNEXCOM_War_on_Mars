@@ -23,14 +23,16 @@ Credits by name:
 * Luke83: Pyramid UFOs
 * Southoftheline: official OST composer, ideas and feedback
 * Ultrakiroxei: alpha tester
-* wolwerin: Human Outpost/Station maps, Alien Laser weapons, human Alloy weapons 
+* wolwerin: Human Outpost/Station maps, Alien Laser weapons, human Alloy weapons, medical items 
 
-"UNEXCOM: War on Mars Official Soundtrack" composed by Ikhanad and Southoftheline. All the rights of the tracks belong to them, as their legitimate creators and owners. The content of the OST cannot be used elsewhere without their explicit permission
+"UNEXCOM: War on Mars Official Soundtrack" composed by Ikhanad and Southoftheline. All the rights of the tracks belong to them, as they are the legitimate creators and owners. The content of the OST cannot be used elsewhere without their explicit permission
 
 *Ikhanad*:
   - GMSTORY: "Red Sand on a Boot"
   - GMTACTIC: "Soil of Ares"
   - GMTACTIC2: "Martian Meeting"
+  - GMTACTIC3: "Desperate Measures"
+  - GMTACTIC4: "Ionizing"
   - GMMARS: "Octet Chorus"
   - GMNEWMAR: "Open Path"
   - GMGEO1: "Red Sand on a Boot"

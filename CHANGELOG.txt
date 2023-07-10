@@ -36,4 +36,4 @@
     - Southern Plains 
     - Polar Ice Caps 
     - Volcanic Highlands
-    
+* All aliens now have spacesuits
