@@ -26,7 +26,7 @@ eventScripts:
   - type: STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT
-    firstMonth: 8
+    firstMonth: 7
 
 #############################
 ###### SUPPLY EVENTS #######

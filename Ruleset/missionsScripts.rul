@@ -66,8 +66,8 @@ missionScripts:
     useTable: false
     startDelay: 21600 # 15 Days
     executionOdds: 100
-    firstMonth: 8
-    lastMonth: 12
+    firstMonth: 9
+    lastMonth: 14
     maxRuns: 6
 
   - type: guerrillaStart
