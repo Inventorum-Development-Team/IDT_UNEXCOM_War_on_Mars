@@ -2,9 +2,15 @@
 * Added BFM original globe data, made by liberation
 * Added new Mars textures, drawn by Hans Woofington
 * Custom string in main Mars landscapes
-* Brand new synthwave OST: 15 tracks composed by Ikhanad, 2 tracks composed by Southoftheline
+* Brand new synthwave OST: 14 tracks composed by Ikhanad, 2 tracks composed by Southoftheline
 * Lots of new lore entries, written by Fegelein, Kael Schwabauer, efrenespartano, Filip-H
 * 49 Geoscape events, written by efrenespartano, Fegelein & Rclipse
+* Five mission types:
+    - Counter-Insurgency Operation
+    - Search and Destroy Operation
+    - Supply Recovery Operation
+    - Major Engagement
+    - Operation Swordbreaker
 * Added UNEXCOM space planes
 	- USA: Boeing SF-22 Dyna-MOWS, SAV-8M Harrier
 	- NATO: Eurofighter HERMES ECSF-3
