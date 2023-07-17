@@ -1814,7 +1814,28 @@ en-US:
       STR_ALIEN_RANKS_UFOPEDIA: "Aliens have a cohesive, organized and highly specialized military. Similar to human armies, each member of a squad has assigned a role and function. It seems they haven't developed the concept of concealment nor camuflaje, because they often use bright colors to identify each rank. Capturing them could give us a better perspective of our enemy. Red is meant to leaders. Brown is used on technicians and combat engineers. Blue is employed by sanitary and medical personnel. Orange is assigned to pilots and ship crew. Green is the color of the regular soldiers. It's unknown if the colors meant something for them or not. But at least, makes things easier to us."
       STR_ARMORED_ALIENS: "Armored Aliens"
       STR_ARMORED_ALIENS_UFOPEDIA: "Personal armor is widely distributed to alien infantry. However, it's use is restricted according the mission carried by the crew of a ship. If the personnel is conducting 'scientific' missions, lighter weapons and few or no personal armor are used. However, if the enemy expects to engage in heavy combat, said restrictions are lifted and more destructive equipment is used without hesitation. We are the one of the few, if not the first, race who resisted longer than a couple of weeks. We could expect a change in their equipment strategy anytime soon."
-
+  
+  # Space Weapons
+  
+      STR_M17_CARBINE: "M17 Light Carbine"
+      STR_M17_CARBINE_UFOPEDIA: "A specially adapted XM117 carbine, used by reserve units deployed in outer space. All the polymer surfaces were painted with a reflecting coating to avoid overheating in space. A x4 scope is added to help the astronauts in aiming using their helmet."
+      STR_AK79_RIFLE: "AK79 Assault Rifle"
+      STR_AK79_RIFLE_UFOPEDIA: "This Kalashnikov was modified to be used by cosmonauts, first deployed in the initial landings of Operation Cleanup. It's basically a regular AKM but with polymer handguard and trigger guard, plus a folding stock. The Kalash is highly reliable in all kind of environments, even space."
+      STR_MK119_SPACE_RIFLE: "Mk119 SCAR"
+      STR_MK119_SPACE_RIFLE_AP_CLIP: "Mk119 SCAR AP Mag"
+      STR_MK119_SPACE_RIFLE_FLECHETTE_CLIP: "Mk119 SCAR Shredder Mag"
+      STR_MK119_SPACE_RIFLE_UFOPEDIA: "Mk119 Space-Capable Assault Rifle (SCAR). The ammunition used is 4.8x33mm Gyrojet, specially meant to be used in low-gravity environments. The AP rounds used are able to pierce several layers of Kevlar-reinforced space suits and even Alien Alloys."
+      STR_MK115_SPACE_PISTOL: "Mk115 SCHG"
+      STR_MK115_SPACE_PISTOL_CLIP: "Mk115/7 Mag"
+      STR_MK115_SPACE_PISTOL_UFOPEDIA: "Mk115 Space-Capable Handgun (SCHG). Small and compact pistol, meant to be used on the harshness of outer space. The gun's handle is wide for easy use with astronaut gloves. It is very accurate, but has slower rate of fire than other weapons. Fires 9x18 Gyrojet ammunition and shares the magazine with the Mk117 SCPDW."
+      STR_MK117_SPACE_PDW: "Mk117 SCPDW"
+      STR_MK117_SPACE_PDW_UFOPEDIA: "Mk117 Space-Capable Personal Defense Weapon (SCPDW). This automatic, ultra compact machine pistol is made in white polymer ensures that it does not overheat (like the other Space-Capable weapons), although due to the nature of the chemical reaction required to propel projectiles, its rate of fire is limited."
+      STR_G11_CASELESS_RIFLE: "H&K G11-K1 Caseless Rifle"
+      STR_G11_CASELESS_RIFLE_MAG: "4.73mm Caseless Mag (x50)"
+      STR_G11_CASELESS_RIFLE_UFOPEDIA: "A revolutionary design, equipped by NATO soldiers deployed in outer space. Initially was seen with distrust by NATO partners, it was developed by West Germany during the War of 1972, but eventually proved its worth on the Moon Campaign between 1975 and 1977. It features a free-floating barrel and a x4 optical sight, which greatly improves its accuracy."
+      STR_TKB1980_CASELESS_RIFLE: "TKB-80 Special Rifle"
+      STR_TKB1980_CASELESS_RIFLE_MAG: "5.45mm Caseless Mag (x45)"
+      STR_TKB1980_CASELESS_RIFLE_UFOPEDIA: "Nicknamed (incorrectly) 'Space Kalash' by western soldiers who have seen it in action, this novel rifle created by the Tula Arms Factory and designed by German A. Korobov, is based on a prototype created in the 60s originally called TKB-022PM. This rifle is very effective, approximately twice as accurate as an AKM, and has been adapted to fire caseless projectiles in low-gravity environments."
 
   #STR_LASER_WEAPONS: Laser Weapons
 ######################################################################################
@@ -2618,7 +2639,7 @@ en-US:
  
  # May 29th, 1982     
       STR_FALKLAND_WAR_STORY_7_EVENT: "Heavy fighting in Goose Green"
-      STR_FALKLAND_WAR_STORY_7_EVENT_DESCRIPTION: "An intense battle for Goose Green and Darwin resulted in a major victory for British ground forces. Over 1100 Argentinian soldiers surrendered, mostly conscripts. It seems the Military Junta ruling the Southern nation has a disregard for their own troops, as most were poorly supplied. There is a reported increase in successful U.K interceptions after switching from Sidewinders to Excalibur Fusion missiles."
+      STR_FALKLAND_WAR_STORY_7_EVENT_DESCRIPTION: "An intense battle for Goose Green and Darwin resulted in a major victory for British ground forces. Over 1100 Argentinian soldiers surrendered, mostly conscripts. It seems the military junta ruling the Southern nation has a disregard for their own troops, as most were poorly supplied. There is a reported increase in successful U.K interceptions after switching from Sidewinders to Excalibur Fusion missiles."
 
 # June 11th, 1982    
       STR_FALKLAND_WAR_STORY_8_EVENT: "Reports of restricted ammunitions used in ongoing battle."
