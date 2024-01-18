@@ -1219,9 +1219,10 @@ en-US:
 
       STR_HYDRA_ALLOY_ROCKETS_UFOPEDIA: "MK 9 Hydra 72 Rocket - Prototype variant inspired by the classic Mk 4 unguided rocket, they have a tungsten penetrator that at the moment of impact perforates the outer surface before detonating the explosive charge inside. ROCKET"
 
-      STR_APOLLO_LASER_GATLING_UFOPEDIA: GAU-50 Apollo - The most recent advances in laser weaponry have allowed us to develop a mechanism to allow a fast and intermittent light pulse, but significantly reducing its power. This general electric designed cannon is focused on short range.
+      STR_APOLLO_LASER_GATLING_UFOPEDIA: "GAU-50A Apollo - Since the War of 1972 the Apollo has become the default canon used by NATO-aligned aircraft, with the Soviets fielding an equivalent. Alien Alloy-using airframes have proven durable enough that they often survive multiple Longsword light missiles equivalents, resulting in the need for a supporting weapon to finish the job, and the Apollo’s high rate of fire makes it less affected by the speeds that modern engagements take place in."
 
-      STR_KODIAK_LASER_CANNON_UFOPEDIA: LC-10 Kodiak Laser Cannon - prototype of experimental laser cannon designed exclusively by UNEXCOM engineers. Its refracting lenses and modern self-recharging power cell allow it to have an undisputed power, effectiveness and acceptable range.
+      STR_KODIAK_LASER_CANNON_UFOPEDIA: "LC-10 Kodiak Laser Cannon - Originally developed by UNEXCOM engineers to handle smaller UFOs, the Kodiak has become popular among CAS platforms, with its greater punch being able to disable heavier targets and its greater accuracy making it less of a friendly fire risk."
+
 
       STR_FUEL_TANK_UFOPEDIA: "Extra fuel tank, carried under wing. Add 150 extra fuel units, which means additional 400 nautical miles or 740 km, with the disadvantage that it makes the aircraft slower (accel -1) and less agile (avoid bonus -5)."
 
@@ -1239,29 +1240,29 @@ en-US:
 
       STR_TUNNAN_MK2_UFOPEDIA: "The Saab J29 MK 2 is a retrofitted version of the Saab J29. Designed with the assistance of Saab engineers, The MK 2 incorporates a new engine and an alien alloy fuselage to make it more competitive against the UFOs we are facing. Swedish test-pilots nicknamed the craft 'Tornsvalan', comparing the plane to a Swift in the air."
 
-      STR_LONGSWORD_FUSION_MISSILE_UFOPAEDIA: "The Longsword Fusion Missile incorporates the technology of Alien Fusion weaponry into our aircrafts’ armaments. It is more powerful than conventional warheads, but also more efficient at taking down UFO shields."
+      STR_LONGSWORD_FUSION_MISSILE_UFOPAEDIA: "The Longswords used by Martian forces have only seen minor changes to be better suited in the local environment, and are otherwise identical to the ones fielded during the War of 1972.  Their use on Earth has been superseded by an equally effective non-Elerium warhead, but the older design can be manufactured using the production equipment available on the Martian surface."
 
-      STR_KATANA_UFOPAEDIA: "The Katana Fusion Missile benefits from the lightness of a fusion warhead, granting the weapon an increased range. The Katana is the first missile in our arsenal that is capable of outranging an alien battleship."
+      STR_KATANA_UFOPAEDIA: "Similar to the Longsword, the local Katanas have seen only minor changes since the war, and can be produced using local resources."
 
-      STR_ADLER_UFOPAEDIA: "The Adler Super-Heavy Missile utilizes Alien Fusion technology to create a large blast almost thirty meters in diameter, making dodging the missile a difficult task for any target fired upon."
+      STR_ADLER_UFOPAEDIA: "Interestingly, the Allied Forces on Mars disfavor the Adler, favoring the Casaba Spike projector thanks to its greater range.  The Adler replacements back on Earth remain nuclear, although overwhelmingly concentrated among exo-atmospheric forces."
 
-      STR_GORGON_ROCKETS_UFOPAEDIA: "THE GORGON ROCKET SYSTEM IS A LIGHT UNGUIDED FUSION MISSILE THAT EXCHANGES RANGE AND ACCURACY FOR DESTRUCTIVE POWER AND CARRYING CAPACITY."
+      STR_GORGON_ROCKETS_UFOPAEDIA: "Gorgon-equivalent rockets have become prolific across Earth’s militaries, being more accurate than most pre-war guided munitions and easily capable of destroying any ground unit not constructed from Alien Alloys."
 
-      STR_CASABA_SPIKE_UFOPAEDIA: "The Casaba Nuclear Spike is a highly experimental weapon. Using a nuclear reaction contained within a heavily modified UFO power source to power itself, the weapon system concentrates all the power generated into a single destructive beam."
+      STR_CASABA_SPIKE_UFOPAEDIA: "Much to nobody’s surprise, the Casaba Spike has fallen out of favor among the Great Powers due to the shortage of Elerium, meaning that there was little protest against Operation Cleanup appropriating the majority of the still functional examples.  The single chamber design is still overkill against small and most mid sized UFOs, and its nature as a beam weapon removes the need to fabricate replacement munitions."
 
-      STR_EXCALIBUR_LIGHT_MISSILE_UFOPAEDIA: "The Excalibur Smart Missile is a such an advanced weapon that a year ago creating a weapon of its capabilities would have seemed like a pipedream. It rivals and even surpasses most heavy missiles in range, power, and accuracy."
+      STR_EXCALIBUR_LIGHT_MISSILE_UFOPAEDIA: "While very effective, many argue that the Excalibur is the least practical of the Tier IV missiles given the current circumstances, competing for Navigation AIs against larger and more powerful missiles."
 
-      STR_MJOLNIR_UFOPAEDIA: "The Mjolnir Smart Missile Is the pinnacle of human-alien hybrid missile technology. It utilizes an alien alloy frame and a fusion warhead, while also using a conventional propulsion system."
+      STR_MJOLNIR_UFOPAEDIA: "So long as we don’t run into any of the larger UFOs, the Mjolnir is the apex of the missile designs we see ourselves regularly using in the near future."
 
-      STR_KONDOR_UFOPAEDIA: "The Kondor Super-Heavy Missile Is the most powerful weapon our aircrafts can field. It is almost incapable of missing its target and has a fusion warhead with enough power to take down any unshielded UFO with the exception of the battleship."
+      STR_KONDOR_UFOPAEDIA: "While having overwhelming power, the Kondor has the drawback of vaporizing smaller UFOs, and the recovery and salvage of such is one of our primary means of acquiring Ethereal technologies and intelligence."
 
-      STR_VOSTOK_PLASMA_CANNON_UFOPAEDIA: "The Vostok Plasma Cannon represents the incorporation of plasma weaponry into our arsenal of aircraft weaponry. Bearing many similarities to UFO point defence cannons, the Vostok also shares their capability to shred Alien Alloys apart."
+      STR_VOSTOK_PLASMA_CANNON_UFOPAEDIA: "While we have been making due with Apollos and Kodiaks, as far as our pilots are concerned the sooner we can switch over to the superior Vostok the better."
 
-      STR_ZEUS_UFOPAEDIA: "The Zeus Plasma Cannon Incorporates multiple barrels to greatly increase rate of fire in exchange for lower power and range. Due to an efficient power cell, the weapon has a higher capacity of rounds than conventional weapons."
+      STR_ZEUS_UFOPAEDIA: "The rapid fire Zeus was something of a disappointment during the war, with its primary target (Fighter UFOs) being better handled by fusion missiles, and lacking the range and punch to be useful against larger targets."
 
-      STR_KRAKEN_ROCKETS_UFOPAEDIA: "Despite firing unguided rockets, the Kraken Rocket systems accuracy exceeds the accuracy of most conventional missiles. This is thanks to an advanced targeting computer constructed from alien navigation systems."
+      STR_KRAKEN_ROCKETS_UFOPAEDIA: "Thankfully, Kraken’s computers are solely housed in the launcher, making the rockets themselves as easy to produce as ever.  Our counterinsurgency efforts are certain to place it high in demand."
 
-      STR_CASABA_LANCE_UFOPAEDIA: "The Casaba Nuclear Lance is an improvement developed from data gained from the Casaba Nuclear Spike. Instead of having a single chamber where the nuclear reaction occurs, the reaction is triggered in two parallel chambers."
+      STR_CASABA_LANCE_UFOPAEDIA: "Similar to the Kondor, the Casaba Lance suffers from overkill, but not to the same extent.  Its use on anything smaller than a Labship is unlikely to produce salvage however, and it remains expensive due to its dual chamber design."
 
       STR_SABRE_UFOPAEDIA: "Sabre Endo/Exo-atmospheric Fighter - Revolutionary aircraft design developed by UNEXCOM. The aircraft is capable of high-atmospheric flight and even short exo-atmospheric flight if required. Due to being able to operate in these high altitudes the Sabre encounters minimal air resistance, making its extreme speed possible. In addition, the Sabre can carry a versatile set of weaponry."
 
