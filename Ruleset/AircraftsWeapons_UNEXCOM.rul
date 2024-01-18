@@ -134,18 +134,18 @@ crafts:
     requires:
       - STR_USA_SUPPORT_RESEARCH
     fuelMax: 2732
-    damageMax: 440
+    damageMax: 550
     speedMax: 15200
     avoidBonus: 25
-    accel: 4
+    accel: 5
     weapons: 3
     weaponTypes:
       - [0, 1]
-      - 2
+      - [2, 3]
       - [2, 5]
     weaponStrings:
       - STR_CRAFT_ALL_CANNONS_ONE
-      - STR_CRAFT_LIGHT_MISSILE_TWO
+      - STR_CRAFT_LIGHT_HEAVY_MISSILE_TWO
       - STR_CRAFT_LIGHT_AUX_THREE
     soldiers: 1
     vehicles: 0
@@ -170,8 +170,8 @@ crafts:
     fuelMax: 2732
     damageMax: 550
     speedMax: 15200
-    avoidBonus: 25
-    accel: 4
+    avoidBonus: 35
+    accel: 5
     weapons: 3
     weaponTypes:
       - [0, 1]
@@ -192,8 +192,8 @@ crafts:
     transferTime: 72
     autoPatrol: true
     sightRange: 0
-    radarRange: 100
-    radarChance: 25
+    radarRange: 200
+    radarChance: 50
     score: 400
     listOrder: 117
 
@@ -219,10 +219,10 @@ crafts:
     requires:
       - STR_NATO_SUPPORT_RESEARCH
     fuelMax: 2732
-    damageMax: 420
+    damageMax: 570
     speedMax: 15200
-    avoidBonus: -15
-    accel: 4
+    avoidBonus: 5
+    accel: 5
     weapons: 3
     weaponTypes:
       - [3, 4]
