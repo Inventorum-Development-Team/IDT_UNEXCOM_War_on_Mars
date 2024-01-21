@@ -9,7 +9,8 @@ items:
 # Groza Electromagnetic Heavy Rifle
   - type: STR_GAUSS_HEAVY_RIFLE
     categories: [STR_SPECIALIZED_WEAPONS, STR_UNEXCOM_TECH, STR_RIFLES, STR_SNIPER_RIFLES]
-
+    requiresBuy:
+      - STR_SECRET_CRISIS_PROTOTYPES
     size: 0.2
     costSell: 240000
     weight: 38
@@ -57,7 +58,8 @@ items:
 # Grad Electromagnetic Carbine
   - type: STR_GAUSS_CARBINE
     categories: [STR_SPECIALIZED_WEAPONS, STR_UNEXCOM_TECH, STR_CARBINES, STR_SNIPER_RIFLES]
-
+    requiresBuy:
+      - STR_SECRET_CRISIS_PROTOTYPES
     size: 0.2
     costSell: 240000
     weight: 20
@@ -104,7 +106,8 @@ items:
 
   - type: STR_GAUSS_RIFLE_MAG
     categories: [STR_SPECIALIZED_WEAPONS, STR_UNEXCOM_TECH, STR_RIFLES, STR_SNIPER_RIFLES, STR_CARBINES, STR_CLIPS]
-
+    requiresBuy:
+      - STR_SECRET_CRISIS_PROTOTYPES
     size: 0.1
     costSell: 42000
     weight: 4
@@ -133,7 +136,8 @@ items:
 # Taifun Heavy Electric Rifle
   - type: STR_ELECTRIC_HEAVY_RIFLE
     categories: [STR_SPECIALIZED_WEAPONS, STR_UNEXCOM_TECH, STR_RIFLES, STR_SHOTGUNS]
-
+    requiresBuy:
+      - STR_SECRET_CRISIS_PROTOTYPES
     size: 0.25
     costBuy: 90000
     costSell: 30000
@@ -152,7 +156,6 @@ items:
     accuracyCloseQuarters: 100
     accuracyMultiplier:
       firing: 0.5
-
     tuSnap: 35
     tuAimed: 55
     costThrow:
@@ -175,6 +178,8 @@ items:
 
   - type: STR_ELECTRIC_HEAVY_RIFLE_MAG
     categories: [STR_SPECIALIZED_WEAPONS, STR_UNEXCOM_TECH, STR_RIFLES, STR_SHOTGUNS, STR_CLIPS]
+    requiresBuy:
+      - STR_SECRET_CRISIS_PROTOTYPES    
     size: 0.05
     costBuy: 3000
     costSell: 1200
@@ -216,6 +221,8 @@ items:
 # Zyklon Electric Handgun
   - type: STR_ELECTRIC_PISTOL
     categories: [STR_SPECIALIZED_WEAPONS, STR_UNEXCOM_TECH, STR_PISTOLS, STR_SHOTGUNS]
+    requiresBuy:
+      - STR_SECRET_CRISIS_PROTOTYPES    
     size: 0.2
     costSell: 180000
     weight: 22
@@ -252,6 +259,8 @@ items:
     #listOrder: 237
   - type: STR_ELECTRIC_PISTOL_MAG
     categories: [STR_SPECIALIZED_WEAPONS, STR_UNEXCOM_TECH, STR_PISTOLS, STR_SHOTGUNS]
+    requiresBuy:
+      - STR_SECRET_CRISIS_PROTOTYPES    
     size: 0.1
     costSell: 35000
     weight: 3

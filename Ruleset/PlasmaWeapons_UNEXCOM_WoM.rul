@@ -564,6 +564,8 @@ items:
   - type: STR_US_PLASMA_RIFLE
     categories: [STR_PLASMA, STR_FIREARMS, STR_RIFLES, STR_US_TECH]
     requiresBuyCountry: STR_NATO_SECTOR_A
+    requiresBuy:
+      - STR_USA_PLASMA_WEAPONS
     size: 0.3
     costBuy: 50000
     costSell: 40000
@@ -610,6 +612,8 @@ items:
   - type: STR_US_PLASMA_RIFLE_MAG
     categories: [STR_PLASMA, STR_RIFLES, STR_US_TECH, STR_CLIPS]
     requiresBuyCountry: STR_NATO_SECTOR_A
+    requiresBuy:
+      - STR_USA_PLASMA_WEAPONS
     ##listOrder: 5251
     size: 0.2
     costBuy: 9000
@@ -637,6 +641,8 @@ items:
   - type: STR_US_PLASMA_RL
     categories: [STR_PLASMA, STR_FIREARMS, STR_US_TECH, STR_ARTILLERY, STR_FUSION]
     requiresBuyCountry: STR_NATO_SECTOR_C
+    requiresBuy:
+      - STR_USA_PLASMA_WEAPONS
     size: 0.5
     costBuy: 36000
     costSell: 30000
@@ -678,6 +684,8 @@ items:
   - type: STR_US_PLASMA_RL_HEAT_ROCKET
     categories: [STR_PLASMA, STR_ARTILLERY, STR_US_TECH, STR_CLIPS]
     requiresBuyCountry: STR_NATO_SECTOR_C
+    requiresBuy:
+      - STR_USA_PLASMA_WEAPONS
     size: 0.2
     costBuy: 2600
     costSell: 1200
@@ -692,8 +700,8 @@ items:
       RandomType: 6
       IgnoreOverKill: false
       IgnoreSelfDestruct: true
-      ToArmor: 0.5
-      ToArmorPre: 0.5
+      ToArmor: 1.5
+      ToArmorPre: 1.5
     damageType: 5
     clipSize: 1
     blastRadius: 4
@@ -705,6 +713,8 @@ items:
   - type: STR_US_PLASMA_RL_ELERIUM_ROCKET
     categories: [STR_PLASMA, STR_ARTILLERY, STR_US_TECH, STR_CLIPS]
     requiresBuyCountry: STR_NATO_SECTOR_D
+    requiresBuy:
+      - STR_USA_PLASMA_WEAPONS
     size: 0.2
     costBuy: 2600
     costSell: 1200
@@ -734,6 +744,8 @@ items:
   - type: STR_US_PLASMA_SHOTGUN
     categories: [STR_PLASMA, STR_FIREARMS, STR_US_TECH, STR_SHOTGUNS]
     requiresBuyCountry: STR_NATO_SECTOR_B
+    requiresBuy:
+      - STR_USA_PLASMA_WEAPONS
     size: 0.2
     armor: 50
     costBuy: 38000
@@ -779,6 +791,8 @@ items:
   - type: STR_US_PLASMA_SHOTGUN_MAG
     categories: [STR_PLASMA, STR_SHOTGUNS, STR_US_TECH, STR_CLIPS]
     requiresBuyCountry: STR_NATO_SECTOR_B
+    requiresBuy:
+      - STR_USA_PLASMA_WEAPONS
     ##listOrder: 5451
     costBuy: 14000
     costSell: 12000
@@ -813,6 +827,8 @@ items:
   - type: STR_NATO_PLASMA_CARBINE
     categories: [STR_PLASMA, STR_FIREARMS, STR_CARBINES, STR_NATO_TECH]
     requiresBuyCountry: STR_NATO_SECTOR_D
+    requiresBuy:
+      - STR_NATO_PLASMA_WEAPONS
     size: 0.3
     costBuy: 50000
     costSell: 44000
@@ -860,6 +876,8 @@ items:
   - type: STR_NATO_PLASMA_CARBINE_MAG
     categories: [STR_PLASMA, STR_CARBINES, STR_NATO_TECH, STR_CLIPS]
     ##listOrder: 5251
+    requiresBuy:
+      - STR_NATO_PLASMA_WEAPONS
     requiresBuyCountry: STR_NATO_SECTOR_D
     size: 0.2
     costSell: 3000
@@ -886,7 +904,9 @@ items:
 
   - type: STR_NATO_PLASMA_PISTOL
     categories: [STR_PLASMA, STR_FIREARMS, STR_PISTOLS, STR_NATO_TECH]
-    requiresBuyCountry: STR_NATO_SECTOR_C
+    requiresBuy:
+      - STR_NATO_PLASMA_WEAPONS
+    requiresBuyCountry: STR_NATO_SECTOR_A
     size: 0.1
     costBuy: 30000
     costSell: 20000
@@ -924,7 +944,9 @@ items:
   - type: STR_NATO_PLASMA_PISTOL_MAG
     categories: [STR_PLASMA, STR_PISTOLS, STR_NATO_TECH, STR_CLIPS]
     ##listOrder: 5451
-    requiresBuyCountry: STR_NATO_SECTOR_C
+    requiresBuy:
+      - STR_NATO_PLASMA_WEAPONS
+    requiresBuyCountry: STR_NATO_SECTOR_A
     costBuy: 6000
     costSell: 5500
     hitAnimation: 110
@@ -947,6 +969,8 @@ items:
 
   - type: STR_NATO_SNIPER_PLASMA
     categories: [STR_PLASMA, STR_FIREARMS, STR_SNIPER_RIFLES, STR_NATO_TECH]
+    requiresBuy:
+      - STR_NATO_PLASMA_WEAPONS
     requiresBuyCountry: STR_NATO_SECTOR_E
     size: 0.4
     costBuy: 66000
@@ -995,6 +1019,8 @@ items:
   - type: STR_NATO_SNIPER_PLASMA_MAG
     categories: [STR_PLASMA, STR_SNIPER_RIFLES, STR_NATO_TECH, STR_CLIPS]
     ##listOrder: 5177
+    requiresBuy:
+      - STR_NATO_PLASMA_WEAPONS
     requiresBuyCountry: STR_NATO_SECTOR_E
     costBuy: 13000
     costSell: 11000
@@ -1022,6 +1048,8 @@ items:
 
   - type: STR_SOVIET_PLASMA_ASSAULT_RIFLE
     categories: [STR_PLASMA, STR_FIREARMS, STR_RIFLES, STR_SOVIET_TECH]
+    requiresBuy:
+      - STR_USSR_PLASMA_WEAPONS
     requiresBuyCountry: STR_WARSAW_PACT_SECTOR_1
     size: 0.3
     costBuy: 48000
@@ -1090,6 +1118,8 @@ items:
   - type: STR_SOVIET_PLASMA_ASSAULT_RIFLE_MAG
     categories: [STR_PLASMA, STR_RIFLES, STR_SOVIET_TECH, STR_CLIPS]
     ##listOrder: 5251
+    requiresBuy:
+      - STR_USSR_PLASMA_WEAPONS
     requiresBuyCountry: STR_WARSAW_PACT_SECTOR_2
     size: 0.2
     costSell: 8000
@@ -1116,6 +1146,8 @@ items:
 
   - type: STR_SOVIET_PLASMA_LMG
     categories: [STR_PLASMA, STR_FIREARMS, STR_LMGS, STR_SOVIET_TECH]
+    requiresBuy:
+      - STR_USSR_PLASMA_WEAPONS
     requiresBuyCountry: STR_WARSAW_PACT_SECTOR_3
     size: 0.4
     costBuy: 75000
@@ -1168,6 +1200,8 @@ items:
   - type: STR_SOVIET_PLASMA_LMG_MAG
     categories: [STR_PLASMA, STR_LMGS, STR_SOVIET_TECH, STR_CLIPS]
     ##listOrder: 5177
+    requiresBuy:
+      - STR_USSR_PLASMA_WEAPONS
     requiresBuyCountry: STR_WARSAW_PACT_SECTOR_4
     costBuy: 170000
     costSell: 15000
@@ -1192,6 +1226,8 @@ items:
 
   - type: STR_SOVIET_PLASMA_SMG
     categories: [STR_PLASMA, STR_FIREARMS, STR_SMGS, STR_SOVIET_TECH]
+    requiresBuy:
+      - STR_USSR_PLASMA_WEAPONS
     requiresBuyCountry: STR_WARSAW_PACT_SECTOR_5
     size: 0.2
     costBuy: 27000
@@ -1241,6 +1277,8 @@ items:
   - type: STR_SOVIET_PLASMA_SMG_MAG
     categories: [STR_PLASMA, STR_SMGS, STR_SOVIET_TECH, STR_CLIPS]
     ##listOrder: 5451
+    requiresBuy:
+      - STR_USSR_PLASMA_WEAPONS
     requiresBuyCountry: STR_WARSAW_PACT_SECTOR_5
     costBuy: 12000
     costSell: 11000
