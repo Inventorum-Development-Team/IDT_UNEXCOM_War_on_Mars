@@ -1,3 +1,8 @@
+X-January-2024: v1.0 Soil of Ares
+* Major rework of tech tree, by omegas7339
+* Plasma Weapons locked behind research
+* New flags for player units
+
 9-July-2023: v0.1 Martian Greeting
 * Added BFM original globe data, made by liberation
 * Added new Mars textures, drawn by Hans Woofington

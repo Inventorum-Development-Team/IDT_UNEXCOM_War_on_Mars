@@ -1,0 +1,29 @@
+extraSprites:
+  - type: Flag0
+    singleImage: true
+    files:
+      0: Resources/Flags/00-Legionary.png
+  - type: Flag1
+    singleImage: true
+    files:
+      0: Resources/Flags/01-Ranger.png
+  - type: Flag2
+    singleImage: true
+    files:
+      0: Resources/Flags/02-Astronaut.png
+  - type: Flag3
+    singleImage: true
+    files:
+      0: Resources/Flags/03-Euronaut.png
+  - type: Flag4
+    singleImage: true
+    files:
+      0: Resources/Flags/04-Espatier.png
+  - type: Flag5
+    singleImage: true
+    files:
+      0: Resources/Flags/05-Cosmonaut.png
+  - type: Flag6
+    singleImage: true
+    files:
+      0: Resources/Flags/06-Operator.png
