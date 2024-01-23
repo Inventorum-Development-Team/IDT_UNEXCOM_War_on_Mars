@@ -65,6 +65,7 @@ soldiers:
     costSalaryCaptain: 10000
     costSalaryColonel: 15000
     costSalaryCommander: 20000
+    flagOffset: 2
     monthlyBuyLimit: 20
     minStats:
       tu: 40
@@ -129,6 +130,7 @@ soldiers:
     costBuy: 80000
     costSalary: 40000
     monthlyBuyLimit: 15
+    flagOffset: 1
     requires:
       - STR_USA_SUPPORT_RESEARCH
     minStats:
@@ -187,6 +189,7 @@ soldiers:
     costSalaryColonel: 15000
     costSalaryCommander: 20000
     monthlyBuyLimit: 20
+    flagOffset: 3
     requires:
       - STR_NATO_SUPPORT_RESEARCH
     minStats:
@@ -252,6 +255,7 @@ soldiers:
     costBuy: 80000
     costSalary: 40000
     monthlyBuyLimit: 15
+    flagOffset: 4
     requires:
       - STR_NATO_SUPPORT_RESEARCH
     minStats:
@@ -311,6 +315,7 @@ soldiers:
     costSalaryColonel: 15000
     costSalaryCommander: 20000
     monthlyBuyLimit: 20
+    flagOffset: 5
     requires:
       - STR_USSR_SUPPORT_RESEARCH
     minStats:
@@ -375,6 +380,7 @@ soldiers:
     costBuy: 80000
     costSalary: 40000
     monthlyBuyLimit: 15
+    flagOffset: 6
     requires:
       - STR_USSR_SUPPORT_RESEARCH
     minStats:
