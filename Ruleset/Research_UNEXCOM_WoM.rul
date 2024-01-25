@@ -6,7 +6,7 @@ research:
   - delete: STR_LASER_CANNON
   - delete: STR_LASER_DEFENSE
 
-#############################
+############################
 ####### ENDGAME PATH #######
 ###########################
   - name: STR_ALIEN_BASE_SELF_DESTRUCTION
@@ -1422,12 +1422,55 @@ research:
     cost: 0
     points: 1
     needItem: true
-
+  - name: STR_DATABASE_REPAIR
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_CRAFT_PROPULSION_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true    
+  - name: STR_CRAFT_WEAPONS_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_SURFACE_WARSHIPS
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_1
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_1
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_MARTIAN_ATMOSPHERIC_CRAFT_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_TRANSPORT_CRAFT_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_1
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_EXOATMOSPHERIC_CRAFT_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_CRYSALID_LEGACY
+    cost: 0
+    points: 1
+    needItem: true
 
 #########################################
 ######## WIP ZONE #########
 #######################################
-  #- name: STR_DATABASE_REPAIR
+  - name: STR_DATABASE_REPAIR
     cost: 1
     points: 1
     needItem: true
@@ -1465,7 +1508,7 @@ research:
       - STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_1
       - STR_MARTIAN_ATMOSPHERIC_CRAFT_OVERVIEW
       - STR_TRANSPORT_CRAFT_OVERVIEW
-      - STR_ENDO/EXO_ATMOSPHERIC_CRAFT_OVERVIEW_1
+      - STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_1
       - STR_EXOATMOSPHERIC_CRAFT_OVERVIEW
       - STR_CRYSALID_LEGACY
     getOneFreeProtected:
@@ -1504,8 +1547,8 @@ research:
         - STR_VKS_SHUTTLE_OVERVIEW
         - STR_VKS_ARMOR_SHUTTLE_OVERVIEW
         - STR_MARS_HEAVY_LIFTER_OVERVIEW
-      STR_ENDO/EXO_ATMOSPHERIC_CRAFT_OVERVIEW_1:
-        - STR_ENDO/EXO_ATMOSPHERIC_CRAFT_OVERVIEW_2
+      STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_1:
+        - STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_2
         - STR_SABRE_1_OVERVIEW
         - STR_SABRE_2_OVERVIEW
       STR_EXOATMOSPHERIC_CRAFT_OVERVIEW:
@@ -1513,7 +1556,7 @@ research:
         - STR_HERMES_OVERVIEW
         - STR_MIG_105_OVERVIEW
 
-  #- name: STR_DEVELOP_UNDERSTANDING
+  - name: STR_DEVELOP_UNDERSTANDING
     cost: 10
     points: 2
     dependencies:
@@ -1566,13 +1609,13 @@ research:
       STR_ACT_3_TRIGGER:
         - STR_HEARTS_AND_MINDS_CHTONITE_3
 
-  #- name: STR_HEARS_AND_MINDS_OLD_SCHOOL_BALSITICS
+  - name: STR_HEARS_AND_MINDS_OLD_SCHOOL_BALSITICS
     cost: 1000
     points: 200
     dependencies:
       - STR_HEARTS_AND_MINDS_PROJECT_3
 
-  #- name: STR_DEVELOP_TIES
+  - name: STR_DEVELOP_TIES
     cost: 200
     points: 100
     dependencies:
@@ -1584,49 +1627,49 @@ research:
       - STR_HEARTS_AND_MINDS_MUTONS_3
       - STR_HEARTS_AND_MINDS_SNAKEMEN_3
 
-  #- name: STR_HEARTS_AND_MINDS_ATTRACT_THE_FLOATERS
+  - name: STR_HEARTS_AND_MINDS_ATTRACT_THE_FLOATERS
     cost: 100
     points: 50
     dependencies:
       - STR_HEARTS_AND_MINDS_FLOATERS_3
 
-  #- name: STR_HEARTS_AND_MINDS_OCCUPY_THE_FLOATERS
+  - name: STR_HEARTS_AND_MINDS_OCCUPY_THE_FLOATERS
     cost: 100
     points: 50
     dependencies:
       - STR_HEARTS_AND_MINDS_ATTRACT_THE_FLOATERS
 
-  #- name: STR_HEARS_AND_MINDS_FUEL_THE_SECTOIDS
+  - name: STR_HEARS_AND_MINDS_FUEL_THE_SECTOIDS
     cost: 100
     points: 50
     dependencies:
       - STR_HEARTS_AND_MINDS_SECTOIDS_3
 
-  #- name: STR_HEARTS_AND_MINDS_SUPPORT_THE_SECTOIDS
+  - name: STR_HEARTS_AND_MINDS_SUPPORT_THE_SECTOIDS
     cost: 100
     points: 50
     dependencies:
       - STR_HEARS_AND_MINDS_FUEL_THE_SECTOIDS
 
-  #- name: STR_HEARTS_AND_MINDS_ARM_THE_MUTONS
+  - name: STR_HEARTS_AND_MINDS_ARM_THE_MUTONS
     cost: 300
     points: 50
     dependencies:
       - STR_HEARTS_AND_MINDS_MUTONS_3
 
-  #- name: STR_HEARST_AND_MINDS_CLAD_THE_MUTONS
+  - name: STR_HEARST_AND_MINDS_CLAD_THE_MUTONS
     cost: 300
     points: 50
     dependencies:
       - STR_HEARTS_AND_MINDS_ARM_THE_MUTONS
 
-  #- name: STR_HEARST_AND_MINDS_FEED_THE_SNAKEMEN
+  - name: STR_HEARST_AND_MINDS_FEED_THE_SNAKEMEN
     cost: 200
     points: 50
     dependencies:
       - STR_HEARTS_AND_MINDS_SNAKEMEN_3
 
-  #- name: STR_HEARST_AND_MINDS_WATCH_THE_SNAKEMEN
+  - name: STR_HEARST_AND_MINDS_WATCH_THE_SNAKEMEN
     cost: 200
     points: 50
     dependencies:
