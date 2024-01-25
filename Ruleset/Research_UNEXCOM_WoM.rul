@@ -1466,13 +1466,157 @@ research:
     cost: 0
     points: 1
     needItem: true
+  - name: STR_CLONING_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_LUNAR_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_LUNAR_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_CRAFT_FUEL_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true    
+  - name: STR_ANTI_GRAVITY_TECHNOLOGY_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_APOLLO_LASER_GATLING_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_KODIAK_LASER_CANNON_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_LONGSWORD_FUSION_MISSILE_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_KATANA_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_ADLER_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_CASABA_SPIKE_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_GORGON_ROCKETS_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_ZEUS_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_VOSTOK_PLASMA_CANNON_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_EXCALIBUR_LIGHT_MISSILE_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_MJOLNIR_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_KONDOR_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_CASABA_LANCE_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_KRAKEN_ROCKETS_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_2
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_3
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_2
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_3
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HARRIER_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_FORGER_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_WARTHOG_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_FROGFOOT_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_VKS_SHUTTLE_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_VKS_ARMOR_SHUTTLE_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_MARS_HEAVY_LIFTER_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_2
+    cost: 0
+    points: 1
+    needItem: true  
+  - name: STR_SABRE_1_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_SABRE_2_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_DYNASOAR_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HERMES_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_MIG_105_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
 
 #########################################
 ######## WIP ZONE #########
 #######################################
   - name: STR_DATABASE_REPAIR
-    cost: 1
-    points: 1
+    cost: 12
+    points: 20
     needItem: true
     destroyItem: true 
     getOneFree:
@@ -1543,6 +1687,8 @@ research:
       STR_MARTIAN_ATMOSPHERIC_CRAFT_OVERVIEW:
         - STR_HARRIER_OVERVIEW
         - STR_FORGER_OVERVIEW
+        - STR_WARTHOG_OVERVIEW
+        - STR_FROGFOOT_OVERVIEW
       STR_TRANSPORT_CRAFT_OVERVIEW:
         - STR_VKS_SHUTTLE_OVERVIEW
         - STR_VKS_ARMOR_SHUTTLE_OVERVIEW
