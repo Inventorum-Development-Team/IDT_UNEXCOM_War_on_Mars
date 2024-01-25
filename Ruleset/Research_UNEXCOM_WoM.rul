@@ -1639,66 +1639,131 @@ research:
     cost: 0
     points: 1
     needItem: true
-  - name: STR_
+  - name: STR_HEARTS_AND_MINDS_CHTONITE_1
     cost: 0
     points: 1
     needItem: true
-  - name: STR_
+  - name: STR_SECESSIONIST_WEAPON_PREFERENCES
     cost: 0
     points: 1
     needItem: true
-  - name: STR_
+  - name: STR_SECESSIONIST_SECTOID_NICHE
     cost: 0
     points: 1
     needItem: true
-  - name: STR_
+  - name: STR_SECESSIONIST_FLOATER_NICHE
     cost: 0
     points: 1
     needItem: true
-  - name: STR_
+  - name: STR_SECESSIONIST_SECTOID_TECHNOLOGY
     cost: 0
     points: 1
     needItem: true
-  - name: STR_
+  - name: STR_SECESSIONIST_CYBERDISCS
     cost: 0
     points: 1
     needItem: true
-  - name: STR_
+  - name: STR_SECESSIONIST_FLOATER_TECHNOLOGY
     cost: 0
     points: 1
     needItem: true
-  - name: STR_
+  - name: STR_SECESSIONIST_BALLANCE_OF_TERROR
     cost: 0
     points: 1
     needItem: true
-  - name: STR_
+  - name: STR_HEARTS_AND_MINDS_CEREBREAL_CULTURE
     cost: 0
     points: 1
     needItem: true
-  - name: STR_
+  - name: STR_HEARTS_AND_MINDS_CEREBREAL_PSYCHOLOGY
     cost: 0
     points: 1
     needItem: true
-  - name: STR_
+  - name: STR_HEARTS_AND_MINDS_FLOATERS_CULTURE
     cost: 0
     points: 1
     needItem: true
-  - name: STR_
+  - name: STR_HEARTS_AND_MINDS_FLOATERS_PSYCHOLOGY
     cost: 0
     points: 1
     needItem: true
-  - name: STR_
+  - name: STR_HEARTS_AND_MINDS_SECTOIDS_CULTURE
     cost: 0
     points: 1
     needItem: true
-  - name: STR_
+  - name: STR_HEARTS_AND_MINDS_SECTOIDS_PSYCHOLOGY
     cost: 0
     points: 1
     needItem: true
-  - name: STR_
+  - name: STR_HEARTS_AND_MINDS_MUTONS_CULTURE
     cost: 0
     points: 1
     needItem: true
+  - name: STR_HEARTS_AND_MINDS_MUTONS_PSYCHOLOGY
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HEARTS_AND_MINDS_SNAKEMEN_CULTURE
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HEARTS_AND_MINDS_SNAKEMEN_PSYCHOLOGY
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HEARTS_AND_MINDS_CHTONITE_PSYCHOLOGY
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HEARTS_AND_MINDS_CHTONITE_2
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_ETHEREAL_INSURGENCY_PSYCHOLOGY
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_ETHEREAL_ORIGINS
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_ETHEREAL_INSURGENCY_CHRYSALID_PROBLEM
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_ETHEREAL_INSURGENCY_LOYALIST_CLONES
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_ETHEREAL_INSURGENCY_POST_BRAIN
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HEARTS_AND_MINDS_CHTONITE_3
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HEARTS_AND_MINDS_CEREBREAL_2
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HEARTS_AND_MINDS_FLOATERS_3
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HEARTS_AND_MINDS_SECTOIDS_3
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HEARTS_AND_MINDS_MUTONS_3
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HEARTS_AND_MINDS_SNAKEMEN_3
+    cost: 0
+    points: 1
+    needItem: true
+
 
 #########################################
 ######## WIP ZONE #########
