@@ -1611,6 +1611,95 @@ research:
     points: 1
     needItem: true
 
+  - name: STR_SECESSIONIST_HIDEOUTS
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_SECESSIONIST_RESOURCES
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_SECESSIONIST_POPULATION
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_SECESSIONIST_PROTECTION
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_SECESSIONIST_ALIEN_WEAPONRY
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_SECESSIONIST_MUTONS_VS_SNAKEMEN
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_SECESSIONIST_SNAKEMAN_TERROR
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_
+    cost: 0
+    points: 1
+    needItem: true
+
 #########################################
 ######## WIP ZONE #########
 #######################################
