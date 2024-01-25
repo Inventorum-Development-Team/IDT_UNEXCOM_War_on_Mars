@@ -1763,6 +1763,42 @@ research:
     cost: 0
     points: 1
     needItem: true
+  - name: STR_HEARTS_AND_MINDS_OLD_SCHOOL_BALSITICS
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HEARTS_AND_MINDS_ATTRACT_THE_FLOATERS
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HEARTS_AND_MINDS_OCCUPY_THE_FLOATERS
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HEARTS_AND_MINDS_FUEL_THE_SECTOIDS
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HEARTS_AND_MINDS_SUPPORT_THE_SECTOIDS
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HEARTS_AND_MINDS_ARM_THE_MUTONS
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HEARTS_AND_MINDS_CLAD_THE_MUTONS
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HEARTS_AND_MINDS_FEED_THE_SNAKEMEN
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HEARTS_AND_MINDS_WATCH_THE_SNAKEMEN
+    cost: 0
+    points: 1
+    needItem: true
 
 
 #########################################
@@ -1909,7 +1945,7 @@ research:
       STR_ACT_3_TRIGGER:
         - STR_HEARTS_AND_MINDS_CHTONITE_3
 
-  - name: STR_HEARS_AND_MINDS_OLD_SCHOOL_BALSITICS
+  - name: STR_HEARTS_AND_MINDS_OLD_SCHOOL_BALSITICS
     cost: 1000
     points: 200
     dependencies:
@@ -1919,7 +1955,7 @@ research:
     cost: 200
     points: 100
     dependencies:
-      - STR_HEARS_AND_MINDS_OLD_SCHOOL_BALSITICS
+      - STR_HEARTS_AND_MINDS_OLD_SCHOOL_BALSITICS
     getOneFree:
       - STR_HEARTS_AND_MINDS_CEREBREAL_2
       - STR_HEARTS_AND_MINDS_FLOATERS_3
@@ -1939,7 +1975,7 @@ research:
     dependencies:
       - STR_HEARTS_AND_MINDS_ATTRACT_THE_FLOATERS
 
-  - name: STR_HEARS_AND_MINDS_FUEL_THE_SECTOIDS
+  - name: STR_HEARTS_AND_MINDS_FUEL_THE_SECTOIDS
     cost: 100
     points: 50
     dependencies:
@@ -1949,7 +1985,7 @@ research:
     cost: 100
     points: 50
     dependencies:
-      - STR_HEARS_AND_MINDS_FUEL_THE_SECTOIDS
+      - STR_HEARTS_AND_MINDS_FUEL_THE_SECTOIDS
 
   - name: STR_HEARTS_AND_MINDS_ARM_THE_MUTONS
     cost: 300
@@ -1957,20 +1993,20 @@ research:
     dependencies:
       - STR_HEARTS_AND_MINDS_MUTONS_3
 
-  - name: STR_HEARST_AND_MINDS_CLAD_THE_MUTONS
+  - name: STR_HEARTS_AND_MINDS_CLAD_THE_MUTONS
     cost: 300
     points: 50
     dependencies:
       - STR_HEARTS_AND_MINDS_ARM_THE_MUTONS
 
-  - name: STR_HEARST_AND_MINDS_FEED_THE_SNAKEMEN
+  - name: STR_HEARTS_AND_MINDS_FEED_THE_SNAKEMEN
     cost: 200
     points: 50
     dependencies:
       - STR_HEARTS_AND_MINDS_SNAKEMEN_3
 
-  - name: STR_HEARST_AND_MINDS_WATCH_THE_SNAKEMEN
+  - name: STR_HEARTS_AND_MINDS_WATCH_THE_SNAKEMEN
     cost: 200
     points: 50
     dependencies:
-      - STR_HEARST_AND_MINDS_FEED_THE_SNAKEMEN
+      - STR_HEARTS_AND_MINDS_FEED_THE_SNAKEMEN
