@@ -1,0 +1,898 @@
+crafts:
+##### Space Craft and Astrospace Nautics
+  - type: STR_BREACHER_SHUTTLE
+   # requires:
+    sprite: 978
+    fuelMax: 3000
+    damageMax: 800
+    speedMax: 13000
+    accel: 2
+    soldiers: 14
+    vehicles: 0
+    pilots: 2
+    refuelRate: 40
+    transferTime: 72
+    score: 40
+    undetectable: false
+    spacecraft: false
+    allowLanding: true
+    autoPatrol: false
+   # radarRange: 
+   # radarChance: 
+   # sightRange: 
+   # hitBonus: 
+   # avoidBonus: 
+    #powerBonus: 
+   # armor:
+    battlescapeTerrainData:
+      name: UNSCBREACHERLAND
+      mapDataSets:
+        - BLANKS
+        - SHUTTLE
+      mapBlocks:
+        - name: UNSCBREACHERLAND
+          width: 20
+          length: 20
+    craftInventoryTile: [9, 5, 1]
+    deployment:
+      ### Pilots
+      - [9, 14, 1, 4]
+      - [10, 14, 1, 4]
+      ### Infantry
+      - [9, 5, 1, 4]
+      - [9, 6, 1, 4]
+      - [9, 7, 1, 4]
+      - [9, 8, 1, 4]
+      - [9, 9, 1, 4]
+      - [9, 10, 1, 4]
+      - [10, 5, 1, 4]
+      - [10, 6, 1, 4]
+      - [10, 7, 1, 4]
+      - [10, 8, 1, 4]
+      - [10, 9, 1, 4]
+      - [10, 10, 1, 4]
+
+
+  - type: STR_F15EAGLEACTRAISER
+   # requires:
+    sprite: 978
+    fuelMax: 1850
+    damageMax: 500
+    speedMax: 15500
+    accel: 4
+    weapons: 4
+    weaponTypes:
+      - 0
+      - 2
+      - 3
+      - 4
+    soldiers: 26
+    vehicles: 4
+    pilots: 2
+    refuelRate: 50
+    transferTime: 72
+    score: 125
+    undetectable: false
+    spacecraft: false
+    allowLanding: true
+    autoPatrol: true
+   # radarRange: 
+   # radarChance: 
+   # sightRange: 
+   # hitBonus: 
+   # avoidBonus: 
+    #powerBonus: 
+   # armor:
+    battlescapeTerrainData:
+      name: UNSCACTRAISER
+      mapDataSets:
+        - BLANKS
+        - SHUTTLE
+        - LIGHTNIA
+      mapBlocks: 
+        - name: UNSCACTRAISER
+          width: 20
+          length: 20
+    craftInventoryTile: [9, 13, 1]
+    deployment:
+    ##### Tanks First
+      - [9, 5, 1, 0]
+      - [10, 5, 1, 0]
+      - [9, 6, 1, 0]
+      - [10, 6, 1, 0]
+      - [9, 7, 1, 0]
+      - [10, 7, 1, 0]
+      - [9, 8, 1, 0]
+      - [10, 8, 1, 0]
+      - [9, 9, 1, 0]
+      - [10, 9, 1, 0]
+      - [9, 10, 1, 0]
+      - [10, 10, 1, 0]
+      - [9, 11, 1, 0]
+      - [10, 11, 1, 0]
+      - [9, 12, 1, 0]
+      - [10, 12, 1, 0]
+      ### Infantry
+      - [8, 5, 1, 0]
+      - [8, 6, 1, 0]
+      - [8, 7, 1, 0]
+      - [8, 8, 1, 0]
+      - [8, 9, 1, 0]
+      - [8, 10, 1, 0]
+      - [8, 11, 1, 0]
+      - [8, 12, 1, 0]
+      - [9, 13, 1, 0]
+      - [10, 13, 1, 0]
+################
+
+  - type: STR_PHEONIXHELLRAISER
+   # requires:
+    sprite: 978
+    fuelMax: 2000
+    damageMax: 650
+    speedMax: 14250
+    accel: 3
+    weapons: 4
+    weaponTypes:
+      - 1
+      - 2
+      - 3
+      - 4
+    soldiers: 28
+    vehicles: 4
+    pilots: 2
+    refuelRate: 25
+    transferTime: 72
+    score: 125
+    undetectable: false
+    spacecraft: false
+    allowLanding: true
+    autoPatrol: true
+   # radarRange: 
+   # radarChance: 
+   # sightRange: 
+   # hitBonus: 
+   # avoidBonus: 
+    #powerBonus: 
+   # armor:
+    battlescapeTerrainData:
+      name: UNSCHELLRAISER
+      mapDataSets: 
+        - BLANKS
+        - SHUTTLE
+        - LIGHTNIA
+      mapBlocks:
+        - name: UNSCHELLRAISER
+          width: 20
+          length: 20
+    craftInventoryTile: [9, 12, 1]
+    deployment: 
+    ##### Tanks First
+      - [9, 4, 1, 0]
+      - [10, 4, 1, 0]
+      - [9, 5, 1, 0]
+      - [10, 5, 1, 0]
+      - [9, 6, 1, 0]
+      - [10, 6, 1, 0]
+      - [9, 7, 1, 0]
+      - [10, 7, 1, 0]
+      - [9, 8, 1, 0]
+      - [10, 8, 1, 0]
+      - [9, 9, 1, 0]
+      - [10, 9, 1, 0]
+      - [9, 10, 1, 0]
+      - [10, 10, 1, 0]
+      - [9, 11, 1, 0]
+      - [10, 11, 1, 0]
+      ### Infantry
+      - [8, 4, 1, 0]
+      - [8, 5, 1, 0]
+      - [8, 6, 1, 0]
+      - [8, 7, 1, 0]
+      - [8, 8, 1, 0]
+      - [8, 9, 1, 0]
+      - [8, 10, 1, 0]
+      - [8, 11, 1, 0]
+      - [9, 12, 1, 0]
+      - [10, 12, 1, 0]
+      - [9, 13, 1, 0]
+      - [10, 13, 1, 0]
+
+  - type: STR_VENTURESTAR
+   # requires:
+    sprite: 978
+    fuelMax: 2200
+    damageMax: 700
+    speedMax: 1250
+    accel: 3
+    weapons: 4
+    weaponTypes:
+      - 0
+      - 2
+      - 2
+      - 4
+    soldiers: 52
+    vehicles: 8
+    pilots: 6
+    refuelRate: 25
+    transferTime: 72
+    score: 300
+    undetectable: false
+    spacecraft: false
+    allowLanding: true
+    autoPatrol: true
+   # radarRange: 
+   # radarChance: 
+   # sightRange: 
+   # hitBonus: 
+   # avoidBonus: 
+    #powerBonus: 
+   # armor:
+    battlescapeTerrainData:
+      name: UNSCVENTURESTAR
+      mapDataSets:
+        - BLANKS
+        - SHUTTLE
+        - LIGHTNIA
+      mapBlocks:
+        - name: UNSCVENTURESTAR
+          width: 20
+          length: 20
+    craftInventoryTile: [10, 10, 1]
+    deployment:
+    ##### Tanks First
+      - [8, 5, 1, 0]
+      - [9, 5, 1, 0]
+      - [8, 6, 1, 0]
+      - [9, 6, 1, 0]
+      - [10, 5, 1, 0]
+      - [10, 5, 1, 0]
+      - [11, 6, 1, 0]
+      - [11, 6, 1, 0]
+      - [4, 7, 1, 0]
+      - [5, 7, 1, 0]
+      - [4, 8, 1, 0]
+      - [5, 8, 1, 0]
+      - [6, 7, 1, 0]
+      - [7, 7, 1, 0]
+      - [6, 8, 1, 0]
+      - [7, 8, 1, 0]
+      - [8, 7, 1, 0]
+      - [9, 7, 1, 0]
+      - [8, 8, 1, 0]
+      - [9, 8, 1, 0]
+      - [10, 7, 1, 0]
+      - [11, 7, 1, 0]
+      - [10, 8, 1, 0]
+      - [11, 8, 1, 0]
+      - [12, 7, 1, 0]
+      - [13, 7, 1, 0]
+      - [12, 8, 1, 0]
+      - [13, 8, 1, 0]
+      - [14, 7, 1, 0]
+      - [15, 7, 1, 0]
+      - [14, 8, 1, 0]
+      - [15, 8, 1, 0]
+      ### Infantry
+      - [4, 6, 1, 0]
+      - [5, 6, 1, 0]
+      - [6, 6, 1, 0]
+      - [7, 6, 1, 0]
+      - [12, 6, 1, 0]
+      - [13, 6, 1, 0]
+      - [14, 6, 1, 0]
+      - [15, 6, 1, 0]
+      - [4, 9, 1, 0]
+      - [5, 9, 1, 0]
+      - [6, 9, 1, 0]
+      - [7, 9, 1, 0]
+      - [12, 9, 1, 0]
+      - [13, 9, 1, 0]
+      - [14, 9, 1, 0]
+      - [15, 9, 1, 0]
+      - [6, 10, 1, 0]
+      - [7, 10, 1, 0]
+      - [12, 10, 1, 0]
+      - [13, 10, 1, 0]
+
+
+  - type: STR_COLUMBUSMARK4
+   # requires:
+   # Gravity Module System
+   # Nextgeneration Zero Alloy
+   # Hyperwave Navigation
+   # Special Fuel Hydrogen
+   # Ion Thrusters 
+   # Nuclear Energy Drive
+   # Electronic Countermeasure
+   # Radar Corruption Scanners
+    sprite: 978
+    fuelMax: 5000
+    damageMax: 600
+    speedMax: 16000
+    accel: 4
+    weapons: 4
+    weaponTypes:
+      - 1
+      - 1
+      - 3
+      - 3
+    soldiers: 32
+    vehicles: 8
+    pilots: 4
+    refuelRate: 25
+    transferTime: 72
+    score: 500
+    undetectable: true
+    spacecraft: true
+    allowLanding: true
+    autoPatrol: true
+    radarRange: 700
+    radarChance: 25
+    sightRange: 1700
+    hitBonus: 10
+    avoidBonus: 10
+    #powerBonus: 
+    armor: 20
+    battlescapeTerrainData:
+      name: UNSCCOLUMBUS
+      mapDataSets:
+        - BLANKS
+        - SHUTTLE
+        - LIGHTNIA
+      mapBlocks:
+        - name: UNSCCOLUMBUS
+          width: 10
+          length: 20
+    craftInventoryTile: [4, 10, 2]
+    deployment:
+    ##### Tanks First
+      - [4, 5, 1, 0]
+      - [5, 5, 1, 0]
+      - [4, 6, 1, 0]
+      - [5, 6, 1, 0]
+      - [2, 7, 1, 0]
+      - [3, 7, 1, 0]
+      - [2, 8, 1, 0]
+      - [3, 8, 1, 0]
+      - [4, 7, 1, 0]
+      - [5, 7, 1, 0]
+      - [4, 8, 1, 0]
+      - [5, 8, 1, 0]
+      - [6, 7, 1, 0]
+      - [7, 7, 1, 0]
+      - [6, 8, 1, 0]
+      - [7, 8, 1, 0]
+      - [2, 9, 1, 0]
+      - [3, 9, 1, 0]
+      - [2, 10, 1, 0]
+      - [3, 10, 1, 0]
+      - [4, 9, 1, 0]
+      - [5, 9, 1, 0]
+      - [4, 10, 1, 0]
+      - [5, 10, 1, 0]
+      - [6, 9, 1, 0]
+      - [7, 9, 1, 0]
+      - [6, 10, 1, 0]
+      - [7, 10, 1, 0]
+      - [4, 11, 1, 0]
+      - [5, 11, 1, 0]
+      - [4, 12, 1, 0]
+      - [5, 12, 1, 0]
+      ### Infantry
+      - [3, 5, 2, 0]
+      - [4, 5, 2, 0]
+      - [5, 5, 2, 0]
+      - [6, 5, 2, 0]
+      - [3, 6, 2, 0]
+      - [4, 6, 2, 0]
+      - [5, 6, 2, 0]
+      - [6, 6, 2, 0]
+      - [3, 7, 2, 0]
+      - [4, 7, 2, 0]
+      - [5, 7, 2, 0]
+      - [6, 7, 2, 0]
+      - [3, 8, 2, 0]
+      - [4, 8, 2, 0]
+      - [5, 8, 2, 0]
+      - [6, 8, 2, 0]
+##################
+  - type: STR_IXIERPROTOYPE
+   # requires:
+   # Gravity Module System
+   # Nextgeneration Zero Alloy
+   # Hyperwave Navigation
+   # Special Fuel Hydrogen
+   # Ion Thrusters 
+   # Nuclear Energy Drive
+   # Electronic Countermeasure
+   # Radar Corruption Scanners
+   # Graivty Eleveator
+   # Gravity Door Shielding
+   # Supspace Engine Prototype
+   # Energy Shields
+    sprite: 978
+    fuelMax: 5000
+    damageMax: 1000
+    speedMax: 17000
+    accel: 5
+    weapons: 4
+    weaponTypes:
+      - 1
+      - 1
+      - 4
+      - 4
+    soldiers: 90
+    vehicles: 20
+    pilots: 6
+    refuelRate: 25
+    transferTime: 72
+    score: 1000
+    undetectable: true
+    spacecraft: true
+    allowLanding: true
+    autoPatrol: true
+    radarRange: 1500
+    radarChance: 100
+    sightRange: 2500
+    hitBonus: 1000
+    avoidBonus: 25
+    powerBonus: 150
+    armor: 50
+    shieldCapacity: 500
+    shieldRecharge: 25
+    shieldRechargeInGeoscape: 5
+    shieldBleedThrough: 30
+    battlescapeTerrainData:
+      name: UNSCIXIERPROTOS
+      mapDataSets:
+        - BLANKS
+        - SHUTTLE
+        - LIGHTNIA
+      mapBlocks:
+        - name: UNSCIXIERPROTOS
+          width: 20
+          length: 20
+    craftInventoryTile: [9, 11, 1]
+    deployment:
+    ##### Tanks First
+      - [6, 5, 1, 0]
+      - [7, 5, 1, 0]
+      - [6, 6, 1, 0]
+      - [7, 6, 1, 0]
+      - [8, 5, 1, 0]
+      - [9, 5, 1, 0]
+      - [8, 6, 1, 0]
+      - [9, 6, 1, 0]
+      - [10, 5, 1, 0]
+      - [11, 5, 1, 0]
+      - [10, 6, 1, 0]
+      - [11, 6, 1, 0]
+      - [12, 5, 1, 0]
+      - [13, 5, 1, 0]
+      - [12, 6, 1, 0]
+      - [13, 6, 1, 0]
+      - [8, 7, 1, 0]
+      - [9, 7, 1, 0]
+      - [8, 8, 1, 0]
+      - [9, 8, 1, 0]
+      - [10, 7, 1, 0]
+      - [11, 7, 1, 0]
+      - [10, 8, 1, 0]
+      - [11, 8, 1, 0]
+      - [6, 9, 1, 0]
+      - [7, 9, 1, 0]
+      - [6, 10, 1, 0]
+      - [7, 10, 1, 0]
+      - [8, 9, 1, 0]
+      - [9, 9, 1, 0]
+      - [8, 10, 1, 0]
+      - [9, 10, 1, 0]
+      - [10, 9, 1, 0]
+      - [11, 9, 1, 0]
+      - [10, 10, 1, 0]
+      - [11, 10, 1, 0]
+      - [12, 9, 1, 0]
+      - [13, 9, 1, 0]
+      - [12, 10, 1, 0]
+      - [13, 10, 1, 0]
+      #### Tanks Second
+      - [6, 5, 2, 0]
+      - [7, 5, 2, 0]
+      - [6, 6, 2, 0]
+      - [7, 6, 2, 0]
+      - [8, 5, 2, 0]
+      - [9, 5, 2, 0]
+      - [8, 6, 2, 0]
+      - [9, 6, 2, 0]
+      - [10, 5, 2, 0]
+      - [11, 5, 2, 0]
+      - [10, 6, 2, 0]
+      - [11, 6, 2, 0]
+      - [12, 5, 2, 0]
+      - [13, 5, 2, 0]
+      - [12, 6, 2, 0]
+      - [13, 6, 2, 0]
+      - [8, 7, 2, 0]
+      - [9, 7, 2, 0]
+      - [8, 8, 2, 0]
+      - [9, 8, 2, 0]
+      - [10, 7, 2, 0]
+      - [11, 7, 2, 0]
+      - [10, 8, 2, 0]
+      - [11, 8, 2, 0]
+      - [6, 9, 2, 0]
+      - [7, 9, 2, 0]
+      - [6, 10, 2, 0]
+      - [7, 10, 2, 0]
+      - [8, 9, 2, 0]
+      - [9, 9, 2, 0]
+      - [8, 10, 2, 0]
+      - [9, 10, 2, 0]
+      - [10, 9, 2, 0]
+      - [11, 9, 2, 0]
+      - [10, 10, 2, 0]
+      - [11, 10, 2, 0]
+      - [12, 9, 2, 0]
+      - [13, 9, 2, 0]
+      - [12, 10, 2, 0]
+      - [13, 10, 2, 0]
+      ### Infantry
+      - [9, 11, 1, 0]
+      - [10, 11, 1, 0]
+      - [9, 12, 1, 0]
+      - [10, 12, 1, 0]
+      - [9, 13, 1, 0]
+      - [10, 13, 1, 0]
+      - [9, 14, 1, 0]
+      - [10, 14, 1, 0]
+      - [9, 11, 2, 0]
+      - [10, 11, 2, 0]
+
+  - type: STR_XLAYGUNLOCK
+   # requires:
+   # Gravity Module System
+   # Nextgeneration Zero Alloy
+   # Hyperwave Navigation
+   # Special Fuel Hydrogen
+   # Ion Thrusters 
+   # Nuclear Energy Drive
+   # Electronic Countermeasure
+   # Radar Corruption Scanners
+   # Supspace Engine Prototype
+   # Alien On Laser Systems
+   # Cyberlink System
+   # Advanced Neural Radar Systems
+   # Reports of a Hidden Hangar Bunker
+   # Energy Shields
+    sprite: 978
+    fuelMax: 3000
+    damageMax: 500
+    speedMax: 16000
+    accel: 4
+    weapons: 4
+    weaponTypes:
+      - [0, 1]
+      - [0, 1]
+      - [2, 3, 4]
+      - [2, 3, 4]
+    soldiers: 2
+    vehicles: 0
+    pilots: 2
+    refuelRate: 25
+    transferTime: 72
+    score: 500
+    undetectable: true
+    spacecraft: true
+    allowLanding: true
+    autoPatrol: true
+    radarRange: 1000
+    radarChance: 100
+    sightRange: 2000
+    hitBonus: 100
+    avoidBonus: 50
+    powerBonus: 200
+    armor: 50
+    shieldCapacity: 600
+    shieldRecharge: 50
+    shieldRechargeInGeoscape: 6
+    shieldBleedThrough: 25
+    battlescapeTerrainData:
+      name: UNSCXLAYGUNLOCK
+      mapDataSets:
+        - BLANKS
+        - SHUTTLE
+        - LIGHTNIA
+      mapBlocks:
+        - name: UNSCXLAYGUNLOCK
+          width: 20
+          length: 20
+    craftInventoryTile: [10, 9, 1]
+    deployment:
+      - [10, 9, 1, 5]
+      - [10, 10, 1, 5]
+############################
+  - type: STR_ARMSTRONGDROPSHIP
+   # requires:
+   # Gravity Module System
+   # Nextgeneration Zero Alloy
+   # Hyperwave Navigation
+   # Special Fuel Hydrogen
+   # Ion Thrusters 
+   # Nuclear Energy Drive
+   # Electronic Countermeasure
+   # Radar Corruption Scanners
+   # Supspace Engine Prototype
+   # Alien On Laser Systems
+   # Cyberlink System
+   # Advanced Neural Radar Systems
+   # Reports of a Hidden Hangar Bunker
+   # Energy Shields
+   # Outsource Technology
+   # Armstrong Battleship Reinforcements
+   # Faster Than Light Theory
+   # Advance Space Battleship Engineering
+    sprite: 978
+    fuelMax: 5000
+    damageMax: 5000
+    speedMax: 50000
+    accel: 10
+    weapons: 4
+    weaponTypes:
+      - 0
+      - 2
+      - 2
+      - 4
+    soldiers: 96
+    vehicles: 14
+    pilots: 8
+    refuelRate: 25
+    transferTime: 72
+    score: 5000
+    undetectable: true
+    spacecraft: true
+    allowLanding: true
+    autoPatrol: true
+    keepCraftAfterFailedMission: true
+    radarRange: 2500
+    radarChance: 100
+    sightRange: 2500
+    hitBonus: 100
+    avoidBonus: 25
+    powerBonus: 1000
+    armor: 100
+    shieldCapacity: 1000
+    shieldRecharge: 110
+    shieldRechargeInGeoscape: 10
+    shieldBleedThrough: 20
+    battlescapeTerrainData:
+      name: UNSCARMSTRONGN1DS
+      mapDataSets:
+        - BLANKS
+        - SHUTTLE
+        - LIGHTNIA
+      mapBlocks:
+        - name: UNSCARMSTRONGN1DS
+          width: 20
+          length: 20
+    craftInventoryTile: [4, 11, 2]
+    deployment:
+    ##### First Dropship: Tanks
+      - [4, 5, 1, 0]
+      - [5, 5, 1, 0]
+      - [4, 6, 1, 0]
+      - [5, 6, 1, 0]
+      - [2, 7, 1, 0]
+      - [3, 7, 1, 0]
+      - [2, 8, 1, 0]
+      - [3, 8, 1, 0]
+      - [4, 7, 1, 0]
+      - [5, 7, 1, 0]
+      - [4, 8, 1, 0]
+      - [5, 8, 1, 0]
+      - [6, 7, 1, 0]
+      - [7, 7, 1, 0]
+      - [6, 8, 1, 0]
+      - [7, 8, 1, 0]
+      - [3, 9, 1, 0]
+      - [4, 9, 1, 0]
+      - [3, 10, 1, 0]
+      - [4, 10, 1, 0]
+      - [5, 9, 1, 0]
+      - [6, 9, 1, 0]
+      - [5, 10, 1, 0]
+      - [6, 10, 1, 0]
+      - [4, 11, 1, 0]
+      - [5, 11, 1, 0]
+      - [4, 12, 1, 0]
+      - [5, 12, 1, 0]
+      ##### Second Dropship: Tanks
+      - [14, 5, 1, 0]
+      - [15, 5, 1, 0]
+      - [14, 6, 1, 0]
+      - [15, 6, 1, 0]
+      - [12, 7, 1, 0]
+      - [13, 7, 1, 0]
+      - [12, 8, 1, 0]
+      - [13, 8, 1, 0]
+      - [14, 7, 1, 0]
+      - [15, 7, 1, 0]
+      - [14, 8, 1, 0]
+      - [15, 8, 1, 0]
+      - [16, 7, 1, 0]
+      - [17, 7, 1, 0]
+      - [16, 8, 1, 0]
+      - [17, 8, 1, 0]
+      - [13, 9, 1, 0]
+      - [14, 9, 1, 0]
+      - [13, 10, 1, 0]
+      - [14, 10, 1, 0]
+      - [15, 9, 1, 0]
+      - [16, 9, 1, 0]
+      - [15, 10, 1, 0]
+      - [16, 10, 1, 0]
+      - [14, 11, 1, 0]
+      - [15, 11, 1, 0]
+      - [14, 12, 1, 0]
+      - [15, 12, 1, 0]
+
+      ##### First Dropship: Infantry
+      - [2, 5, 2, 0]
+      - [3, 5, 2, 0]
+      - [4, 5, 2, 0]
+      - [5, 5, 2, 0]
+      - [6, 5, 2, 0]
+      - [7, 5, 2, 0]
+      - [2, 6, 2, 0]
+      - [3, 6, 2, 0]
+      - [4, 6, 2, 0]
+      - [5, 6, 2, 0]
+      - [6, 6, 2, 0]
+      - [7, 6, 2, 0]
+      - [2, 7, 2, 0]
+      - [3, 7, 2, 0]
+      - [4, 7, 2, 0]
+      - [5, 7, 2, 0]
+      - [6, 7, 2, 0]
+      - [7, 7, 2, 0]
+      - [2, 8, 2, 0]
+      - [3, 8, 2, 0]
+      - [4, 8, 2, 0]
+      - [5, 8, 2, 0]
+      - [6, 8, 2, 0]
+      - [7, 8, 2, 0]
+      ##### Second Dropship: Infantry
+      - [12, 5, 2, 0]
+      - [13, 5, 2, 0]
+      - [14, 5, 2, 0]
+      - [15, 5, 2, 0]
+      - [16, 5, 2, 0]
+      - [17, 5, 2, 0]
+      - [12, 6, 2, 0]
+      - [13, 6, 2, 0]
+      - [14, 6, 2, 0]
+      - [15, 6, 2, 0]
+      - [16, 6, 2, 0]
+      - [17, 6, 2, 0]
+      - [12, 7, 2, 0]
+      - [13, 7, 2, 0]
+      - [14, 7, 2, 0]
+      - [15, 7, 2, 0]
+      - [16, 7, 2, 0]
+      - [17, 7, 2, 0]
+      - [12, 8, 2, 0]
+      - [13, 8, 2, 0]
+      - [14, 8, 2, 0]
+      - [15, 8, 2, 0]
+      - [16, 8, 2, 0]
+      - [17, 8, 2, 0]
+#####################
+  - type: STR_FURY120UAV
+   # requires:
+   # Alien Battlship Singularity Core
+   # Unmanned Aerial Vehicle
+   # Hyperwave Radio / Remote System
+   # Energy Weapon Amplifier System
+   # Cyberlink Neural System
+    sprite: 978
+    fuelMax: 5000
+    damageMax: 5000
+    speedMax: 50000
+    accel: 10
+    weapons: 4
+    weaponTypes:
+      - 4
+      - 4
+      - 4
+      - 4
+    fixedWeapons: [STR_LASER_LANCE, STR_LASER_LANCE, STR_LASER_LANCE, STR_LASER_LANCE]
+    refuelRate: 25
+    transferTime: 72
+    score: 3000
+    undetectable: true
+    autoPatrol: true
+    radarRange: 2500
+    radarChance: 100
+    sightRange: 2500
+    hitBonus: 100
+    avoidBonus: 25
+    powerBonus: 500
+    armor: 100
+    shieldCapacity: 700
+    shieldRecharge: 105
+    shieldRechargeInGeoscape: 8
+    shieldBleedThrough: 25
+
+########################
+# manufacture:
+ # - name: 
+  #  category: STR_CRAFT
+  #  requires:
+  #  listOrder: 17003
+  #  space: 30
+  #  time: 1200
+  #  cost: 2000000
+  #  requiredItems:
+###########
+#research:
+ # - name: 
+  #  cost: 720
+  #  points: 200
+  #  listOrder: 17002
+ #   dependencies:
+
+
+####
+#ufopaedia:
+#  - id: 
+ #   requires:
+ #   type_id: 1
+   # section: STR_XCOM_CRAFTS
+ #   text: 
+  #  listOrder: 17002
+  #  rect_stats:
+ #     x: 5
+ #     y: 125
+ #     width: 130
+ #     height: 80
+ #   rect_text:
+ #     x: 110
+ #     y: 18
+ #     width: 205
+ #     height: 80
+ #   image_id: SPACE_SHUTTLE_UFOPEDIA
+
+####
+#### Start at 1000 Kiro Xei Marks the Spot
+#### Mimimized + 0
+#### Dogfight + 11
+#### Basebit + 33
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_NXTGENFGHTRTRANS: Next-Gen Fighter-Transporter
+      STR_NXTGENFGHTRTRANSWIKI: Our atmospheric and space orbit craft have difficult engaging Ethereal Mars insurgents ufo fleet. We have a proposal to improve the fighter-transporter for combat effectiveness. Our new fighter-transporter design will protect our supplies and assets from enemy intercept fleets.
+      STR_F15EAGLEACTRAISER: F15-ST EAGLE
+      STR_F15EAGLEACTRAISERWIKI: This craft is designed to as high mobility with rapid fire power. Its interior is built for infantry and vehicle cargo storage.
+      STR_PHEONIXHELLRAISER: PHEONIX T-2K
+      STR_PHEONIXHELLRAISERWIKI: This craft is designed to as bulk armor with additional troop storage. Its interior is built for infantry and vehicle cargo storage.
+      STR_VENTURESTAR: VENTURESTAR
+      STR_VENTURESTARWIKI: We creating a large cargo scale to carry more assets for better replenishment. It will be carryout logistic task to aid our forces. A additional weapon slot will protect the craft from danger.
+      STR_NXTGNENGINESYSTEM: Next Spacefaring Engine Systems
+      STR_NXTGNENGINESYSTEMWIKI: Our progress against Ethereals spacebattleship fleets are having difficult against their technological advancements. To face them on conventional battles, we introduce the next generation space craft based on sub-space technology. It increases more speed to travel less time than space primitive engines.
+      STR_COLUMBUSMARK4: COLUMBUS MK4
+      STR_COLUMBUSMARK4WIKI: The first Antigravity landpad and Ion Thrusters Drive System. It has 2nd floor walldoors to conduct infantry flanks and sniper point. Weapons slot are also included for extra protection against enemy fireline.
+      STR_IXIERPROTOYPE: IXIER PROTOTYPE
+      STR_IXIERPROTOYPEWIKI: The first protoype for Interplanet to star-system exploration. Also known as the Experimental Inter-Star System Expedition Research class battlecraft. It is powered by the first 2 Sub-space Engine and 2 new space hydrogen fuel design. Life support component are installed to allows the  crew to utilize self-sufficient. The spacecraft survivability will guide future generation pilots for better use.
+      STR_ARMSTRONGREINFORCEMENT: Flagship Armstrong N-1 Class
+      STR_ARMSTRONGREINFORCEMENTWIKI: The Armstrong N-1 space battleship class has been constructed by UNSC with the help of the Earths Private Military contractors. This class is built with energy-field and hyperwave decoder communication systems. Radar corruption signals helps them to ward off against alien ufo scanners.
+      STR_XLAYGUNLOCK: X-LAYGL 8LGS
+      STR_XLAYGUNLOCKWIKI: This craft was mysteriously constructed by a Alien advance space force. Unknown to them, the frame and the power components are under construction. However, the adaptation of the human version grants special systems for combat effectiveness. Turbo lock on guidance are more effective to take down alien battleships with score multiple shots.
+      STR_ARMSTRONGDROPSHIP: ARMSTRONG N1 DS
+      STR_ARMSTRONGDROPSHIPWIKI: The Construction of the dropship known as the Gemeni Class transport
+      STR_FURY120UAV: X-300 BERSERKER
+      STR_FURY120UAVWIKI: The first Space UAV to operate warfare on Mars. Installed with Hyperwave Remote Control Operating System without pilots. It's singularity core allows to powerup energy weapons to destroy any kind of alien ufo and battleships alike.
+
+#eventScripts:
+
