@@ -328,7 +328,7 @@ ufopaedia:
     section: STR_STRATEGIC
     requires:
       - STR_ACT_2_PEDIA
-    text: STR_SECTOR_POLITICAL_REPORT_1_UFOPEDIA
+    text: STR_SECTOR_POLITICAL_REPORT_2_UFOPEDIA
     #listOrder: 1701
   - id: STR_SECTOR_POLITICAL_REPORT_3
     type_id: 8
@@ -336,6 +336,270 @@ ufopaedia:
     requires:
       - STR_ACT_3_PEDIA
     text: STR_SECTOR_POLITICAL_REPORT_3_UFOPEDIA
+    #listOrder: 1701
+
+  - id: STR_MANUFACTURING_REPORT_1
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_1_PEDIA
+    text: STR_MANUFACTURING_REPORT_1_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_MANUFACTURING_REPORT_2
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_2_PEDIA
+    text: STR_MANUFACTURING_REPORT_2_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_MANUFACTURING_REPORT_3
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_3_PEDIA
+    text: STR_MANUFACTURING_REPORT_3_UFOPEDIA
+    #listOrder: 1701
+    
+  - id: STR_MINING_REPORT_1
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_1_PEDIA
+    text: STR_MINING_REPORT_1_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_MINING_REPORT_2
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_2_PEDIA
+    text: STR_MINING_REPORT_2_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_MINING_REPORT_3
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_3_PEDIA
+    text: STR_MINING_REPORT_3_UFOPEDIA
+    #listOrder: 1701
+
+  - id: STR_UNEXCOM_PERSONNEL_REPORT_1
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_1_PEDIA
+    text: STR_UNEXCOM_PERSONNEL_REPORT_1_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_UNEXCOM_PERSONNEL_REPORT_2
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_2_PEDIA
+    text: STR_UNEXCOM_PERSONNEL_REPORT_2_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_UNEXCOM_PERSONNEL_REPORT_3
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_3_PEDIA
+    text: STR_UNEXCOM_PERSONNEL_REPORT_3_UFOPEDIA
+    #listOrder: 1701
+
+  - id: STR_TROOP_HIRING_PROPOSAL_1
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_1_PEDIA
+    text: STR_TROOP_HIRING_PROPOSAL_1_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_TROOP_HIRING_PROPOSAL_2
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_2_PEDIA
+    text: STR_TROOP_HIRING_PROPOSAL_2_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_TROOP_HIRING_PROPOSAL_3
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_3_PEDIA
+    text: STR_TROOP_HIRING_PROPOSAL_3_UFOPEDIA
+    #listOrder: 1701
+
+  - id: STR_PERSONAL_EQUIPMENT_PROCUREMENT_1
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_1_PEDIA
+    text: STR_PERSONAL_EQUIPMENT_PROCUREMENT_1_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_PERSONAL_EQUIPMENT_PROCUREMENT_2
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_2_PEDIA
+    text: STR_PERSONAL_EQUIPMENT_PROCUREMENT_2_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_PERSONAL_EQUIPMENT_PROCUREMENT_3
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_3_PEDIA
+    text: STR_PERSONAL_EQUIPMENT_PROCUREMENT_3_UFOPEDIA
+    #listOrder: 1701
+
+  - id: STR_MARS_ORBITAL_REPORT_1
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_1_PEDIA
+    text: STR_MARS_ORBITAL_REPORT_1_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_MARS_ORBITAL_REPORT_2
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_2_PEDIA
+    text: STR_MARS_ORBITAL_REPORT_2_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_MARS_ORBITAL_REPORT_3
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_3_PEDIA
+    text: STR_MARS_ORBITAL_REPORT_3_UFOPEDIA
+    #listOrder: 1701
+
+  - id: STR_BATTLEGROUP_LENINGRAD_REPORT_1
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_1_PEDIA
+    text: STR_BATTLEGROUP_LENINGRAD_REPORT_1_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_BATTLEGROUP_LENINGRAD_REPORT_2
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_2_PEDIA
+    text: STR_BATTLEGROUP_LENINGRAD_REPORT_2_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_BATTLEGROUP_LENINGRAD_REPORT_3
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_3_PEDIA
+    text: STR_BATTLEGROUP_LENINGRAD_REPORT_3_UFOPEDIA
+    #listOrder: 1701
+
+  - id: STR_CRAFT_WEAPONS_REPORT_1
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_1_PEDIA
+    text: STR_CRAFT_WEAPONS_REPORT_1_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_CRAFT_WEAPONS_REPORT_2
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_2_PEDIA
+    text: STR_CRAFT_WEAPONS_REPORT_2_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_CRAFT_WEAPONS_REPORT_3
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_3_PEDIA
+    text: STR_CRAFT_WEAPONS_REPORT_3_UFOPEDIA
+    #listOrder: 1701
+
+  - id: STR_MARTIAN_ATMOSPHERIC_CRAFT_REPORT_1
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_1_PEDIA
+    text: STR_MARTIAN_ATMOSPHERIC_CRAFT_REPORT_1_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_MARTIAN_ATMOSPHERIC_CRAFT_REPORT_2
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_2_PEDIA
+    text: STR_MARTIAN_ATMOSPHERIC_CRAFT_REPORT_2_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_MARTIAN_ATMOSPHERIC_CRAFT_REPORT_3
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_3_PEDIA
+    text: STR_MARTIAN_ATMOSPHERIC_CRAFT_REPORT_3_UFOPEDIA
+    #listOrder: 1701
+
+  - id: STR_TRANSPORT_CRAFT_REPORT_1
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_1_PEDIA
+    text: STR_TRANSPORT_CRAFT_REPORT_1_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_TRANSPORT_CRAFT_REPORT_2
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_2_PEDIA
+    text: STR_TRANSPORT_CRAFT_REPORT_2_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_TRANSPORT_CRAFT_REPORT_3
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_3_PEDIA
+    text: STR_TRANSPORT_CRAFT_REPORT_3_UFOPEDIA
+    #listOrder: 1701
+
+  - id: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_REPORT_1
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_1_PEDIA
+    text: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_REPORT_1_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_REPORT_2
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_2_PEDIA
+    text: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_REPORT_2_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_REPORT_3
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_3_PEDIA
+    text: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_REPORT_3_UFOPEDIA
+    #listOrder: 1701
+
+  - id: STR_EXOATMOSPHERIC_CRAFT_REPORT_1
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_1_PEDIA
+    text: STR_EXOATMOSPHERIC_CRAFT_REPORT_1_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_EXOATMOSPHERIC_CRAFT_REPORT_2
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_2_PEDIA
+    text: STR_EXOATMOSPHERIC_CRAFT_REPORT_2_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_EXOATMOSPHERIC_CRAFT_REPORT_3
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_3_PEDIA
+    text: STR_EXOATMOSPHERIC_CRAFT_REPORT_3_UFOPEDIA
     #listOrder: 1701
 
 ###############################
