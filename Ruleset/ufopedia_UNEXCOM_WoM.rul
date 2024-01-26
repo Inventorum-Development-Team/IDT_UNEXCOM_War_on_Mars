@@ -310,296 +310,25 @@ ufopaedia:
     listOrder: 43
     text_width: 180
 
-  - id: STR_FIGHTERS
+####################################
+###### TIME LOCKED ENTRIES ########
+##################################
+# Dynamic briefings based on the Act
+
+
+  - id: STR_SECTOR_POLITICAL_REPORT_1
     type_id: 8
-    listOrder: 50
-    text: STR_FIGHTERS_UFOPEDIA
-    section: STR_XCOM_CRAFTS
-
-  - id: STR_HARRIER
-    section: STR_XCOM_CRAFTS
-    text: STR_HARRIER_UFOPEDIA
-    type_id: 1
-    listOrder: 99
-    rect_stats:
-      x: 5
-      y: 125
-      width: 130
-      height: 80
-    rect_text:
-      x: 110
-      y: 18
-      width: 205
-      height: 80
-    image_id: HARRIER_UFOPEDIA
-
-  - id: STR_FORGER
-    section: STR_XCOM_CRAFTS
-    text: STR_FORGER_UFOPEDIA
-    type_id: 1
-    listOrder: 99
-    rect_stats:
-      x: 5
-      y: 125
-      width: 130
-      height: 80
-    rect_text:
-      x: 110
-      y: 18
-      width: 205
-      height: 80
-    image_id: FORGER_UFOPEDIA
-
-  - id: STR_SABRE
-    section: STR_XCOM_CRAFTS
-    text: STR_SABRE_UFOPAEDIA
-    listOrder: 114
-    image_id: SABRE_UFOPEDIA
-    type_id: 1
-    rect_stats:
-      x: 5
-      y: 125
-      width: 130
-      height: 80
-    rect_text:
-      x: 110
-      y: 18
-      width: 205
-      height: 80
-
-  - id: STR_DYNASOAR
-    section: STR_XCOM_CRAFTS
-    text: STR_DYNASOAR_UFOPAEDIA
+    section: STR_OPERATIONAL
     requires:
-      - STR_USA_SUPPORT_RESEARCH
-    listOrder: 115
-    image_id: DYNASOAR_UFOPEDIA
-    type_id: 1
-    rect_stats:
-      x: 5
-      y: 125
-      width: 130
-      height: 80
-    rect_text:
-      x: 110
-      y: 18
-      width: 205
-      height: 80
-
-  - id: STR_MIG_105
-    section: STR_XCOM_CRAFTS
-    text: STR_MIG_105_UFOPAEDIA
-    requires:
-      - STR_USSR_SUPPORT_RESEARCH
-    listOrder: 116
-    image_id: SPIRAL_UFOPEDIA
-    type_id: 1
-    rect_stats:
-      x: 5
-      y: 125
-      width: 130
-      height: 80
-    rect_text:
-      x: 110
-      y: 18
-      width: 205
-      height: 80
-
-  - id: STR_BOMBERS
-    type_id: 8
-    listOrder: 150
-    text: STR_BOMBERS_UFOPEDIA
-    section: STR_XCOM_CRAFTS
-
-  - id: STR_HERMES
-    section: STR_XCOM_CRAFTS
-    listOrder: 210
-    text: STR_HERMES_UFOPAEDIA
-    requires:
-      - STR_NATO_SUPPORT_RESEARCH
-    image_id: HERMES_UFOPEDIA
-    type_id: 1
-    rect_stats:
-      x: 5
-      y: 125
-      width: 130
-      height: 80
-    rect_text:
-      x: 110
-      y: 18
-      width: 205
-      height: 80
-
-  #satellites
-
-  - id: STR_RECONS
-    type_id: 8
-    listOrder: 250
-    text: STR_RECONS_UFOPEDIA
-    section: STR_XCOM_CRAFTS
-
-  - id: STR_BASTION
-    section: STR_XCOM_CRAFTS
-    text: STR_BASTION_UFOPAEDIA
-    listOrder: 302
-    image_id: BASTION_UFOPEDIA
-    type_id: 1
-    rect_stats:
-      x: 5
-      y: 125
-      width: 130
-      height: 80
-    rect_text:
-      x: 110
-      y: 18
-      width: 205
-      height: 80
-
-  #Transports
-
-  - id: STR_LIGHTNING
-    listOrder: 501
-    image_id: NEWLIGHTNING_UFOPEDIA
-    section: STR_XCOM_CRAFTS
-
-  - id: STR_SPACE_SHUTTLE
-    type_id: 1
-    section: STR_XCOM_CRAFTS
-    text: STR_SPACE_SHUTTLE_UFOPEDIA
-    listOrder: 503
-    rect_stats:
-      x: 5
-      y: 125
-      width: 130
-      height: 80
-    rect_text:
-      x: 110
-      y: 18
-      width: 205
-      height: 80
-    image_id: SPACE_SHUTTLE_UFOPEDIA
-
-  - id: STR_LASER_ARRAY_UC
-    type_id: 2
-    listOrder: 1004
-    section: STR_CRAFT_ARMAMENT
-    image_id: APOLLO
-    text: STR_APOLLO_LASER_GATLING_UFOPEDIA
-
-  - id: STR_ZEUS
-    section: STR_CRAFT_ARMAMENT
-    listOrder: 1005
-    image_id: ZEUS_PLASMA_GATLING
-    type_id: 2
-    text: STR_ZEUS_UFOPAEDIA
-
-  - id: STR_LASER_CANNON_UC
-    type_id: 2
-    section: STR_CRAFT_ARMAMENT
-    image_id: KODIAK
-    text: STR_KODIAK_LASER_CANNON_UFOPEDIA
-    listOrder: 1104
-
-  - id: STR_VOSTOK_PLASMA_CANNON
-    section: STR_CRAFT_ARMAMENT
-    image_id: VOSTOK_PLASMA_CANNON
-    type_id: 2
-    text: STR_VOSTOK_PLASMA_CANNON_UFOPAEDIA
-    listOrder: 1105
-
-  - id: STR_GORGON_ROCKETS
-    section: STR_CRAFT_ARMAMENT
-    image_id: GORGON_FUSSION_ROCKET_POD
-    type_id: 2
-    text: STR_GORGON_ROCKETS_UFOPAEDIA
-    listOrder: 1203
-
-  - id: STR_KRAKEN_ROCKETS
-    section: STR_CRAFT_ARMAMENT
-    image_id: HYDRA
-    type_id: 2
-    text: STR_KRAKEN_ROCKETS_UFOPAEDIA
-    listOrder: 1204
-
-  - id: STR_LONGSWORD_FUSION_MISSILE
-    section: STR_CRAFT_ARMAMENT
-    image_id: LONGSWORD_FUSION_LIGHT_MISSILE
-    type_id: 2
-    text: STR_LONGSWORD_FUSION_MISSILE_UFOPAEDIA
-    listOrder: 1305
-
-  - id: STR_EXCALIBUR_LIGHT_MISSILE
-    section: STR_CRAFT_ARMAMENT
-    image_id: SHORTSWORD
-    type_id: 2
-    text: STR_EXCALIBUR_LIGHT_MISSILE_UFOPAEDIA
-    listOrder: 1306
-
-  - id: STR_KATANA
-    section: STR_CRAFT_ARMAMENT
-    image_id: KATANA_FUSION_HEAVY_MISSILE
-    type_id: 2
-    text: STR_KATANA_UFOPAEDIA
-    listOrder: 1405
-
-  - id: STR_MJOLNIR
-    section: STR_CRAFT_ARMAMENT
-    image_id: HAMMER
-    type_id: 2
-    text: STR_MJOLNIR_UFOPAEDIA
-    listOrder: 1406
-
-  - id: STR_KONDOR
-    section: STR_CRAFT_ARMAMENT
-    image_id: KONDOR_FUSION_SUPER_HEAVY_MISSILE
-    type_id: 2
-    text: STR_KONDOR_UFOPAEDIA
-    listOrder: 1504
-
-  - id: STR_CASABA_SPIKE
-    section: STR_CRAFT_ARMAMENT
-    image_id: CASABA_HOWITZER
-    type_id: 2
-    text: STR_CASABA_SPIKE_UFOPAEDIA
-    listOrder: 1505
-
-  - id: STR_CASABA_LANCE
-    section: STR_CRAFT_ARMAMENT
-    image_id: CASABA_HOWITZER_IMPROVED
-    type_id: 2
-    text: STR_CASABA_LANCE_UFOPAEDIA
-    listOrder: 1506
-
-  - id: STR_FUEL_TANK_UC
-    type_id: 2
-    section: STR_CRAFT_ARMAMENT
-    image_id: FUEL_TANK
-    text: STR_FUEL_TANK_UFOPEDIA
-    listOrder: 1601
-
-  - id: STR_AFTERBURNER_UC
-    type_id: 2
-    section: STR_CRAFT_ARMAMENT
-    image_id: AFTERBURNER
-    text: STR_AFTERBURNER_UFOPEDIA
-    listOrder: 1602
-
-  - id: STR_TARGETING_POD_UC
-    type_id: 2
-    section: STR_CRAFT_ARMAMENT
-    image_id: TARGETING_POD
-    text: STR_TARGETING_POD_UFOPEDIA
-    listOrder: 1603
-
-  - id: STR_ALLOY_CRAFT_ARMOR_UC
-    type_id: 2
-    section: STR_CRAFT_ARMAMENT
-    image_id: ALLOY_CRAFT_ARMOR
-    text: STR_ALLOY_CRAFT_ARMOR_UFOPEDIA
-    listOrder: 1604
+      - STR_STORY_REPORT_2
+    text: STR_SECTOR_POLITICAL_REPORT_1_UFOPEDIA
+    #listOrder: 1701
 
 ###############################
 
+  - id: STR_ELERIUM_115
+    section: STR_OPERATIONAL
+    listOrder: 1699
 
   - id: STR_STORY_REPORT_1
     type_id: 8
@@ -2006,6 +1735,297 @@ ufopaedia:
     listOrder: 7413
     text: STR_VKS_OPERATOR_SPACESUIT_UC_UFOPEDIA
 
+############
+# Crafts
+
+  - id: STR_FIGHTERS
+    type_id: 8
+    listOrder: 50
+    text: STR_FIGHTERS_UFOPEDIA
+    section: STR_XCOM_CRAFTS
+
+  - id: STR_HARRIER
+    section: STR_XCOM_CRAFTS
+    text: STR_HARRIER_UFOPEDIA
+    type_id: 1
+    listOrder: 99
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: HARRIER_UFOPEDIA
+
+  - id: STR_FORGER
+    section: STR_XCOM_CRAFTS
+    text: STR_FORGER_UFOPEDIA
+    type_id: 1
+    listOrder: 99
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: FORGER_UFOPEDIA
+
+  - id: STR_SABRE
+    section: STR_XCOM_CRAFTS
+    text: STR_SABRE_UFOPAEDIA
+    listOrder: 114
+    image_id: SABRE_UFOPEDIA
+    type_id: 1
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+
+  - id: STR_DYNASOAR
+    section: STR_XCOM_CRAFTS
+    text: STR_DYNASOAR_UFOPAEDIA
+    requires:
+      - STR_USA_SUPPORT_RESEARCH
+    listOrder: 115
+    image_id: DYNASOAR_UFOPEDIA
+    type_id: 1
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+
+  - id: STR_MIG_105
+    section: STR_XCOM_CRAFTS
+    text: STR_MIG_105_UFOPAEDIA
+    requires:
+      - STR_USSR_SUPPORT_RESEARCH
+    listOrder: 116
+    image_id: SPIRAL_UFOPEDIA
+    type_id: 1
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+
+  - id: STR_BOMBERS
+    type_id: 8
+    listOrder: 150
+    text: STR_BOMBERS_UFOPEDIA
+    section: STR_XCOM_CRAFTS
+
+  - id: STR_HERMES
+    section: STR_XCOM_CRAFTS
+    listOrder: 210
+    text: STR_HERMES_UFOPAEDIA
+    requires:
+      - STR_NATO_SUPPORT_RESEARCH
+    image_id: HERMES_UFOPEDIA
+    type_id: 1
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+
+  #satellites
+
+  - id: STR_RECONS
+    type_id: 8
+    listOrder: 250
+    text: STR_RECONS_UFOPEDIA
+    section: STR_XCOM_CRAFTS
+
+  - id: STR_BASTION
+    section: STR_XCOM_CRAFTS
+    text: STR_BASTION_UFOPAEDIA
+    listOrder: 302
+    image_id: BASTION_UFOPEDIA
+    type_id: 1
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+
+  #Transports
+
+  - id: STR_LIGHTNING
+    listOrder: 501
+    image_id: NEWLIGHTNING_UFOPEDIA
+    section: STR_XCOM_CRAFTS
+
+  - id: STR_SPACE_SHUTTLE
+    type_id: 1
+    section: STR_XCOM_CRAFTS
+    text: STR_SPACE_SHUTTLE_UFOPEDIA
+    listOrder: 503
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: SPACE_SHUTTLE_UFOPEDIA
+
+  - id: STR_LASER_ARRAY_UC
+    type_id: 2
+    listOrder: 1004
+    section: STR_CRAFT_ARMAMENT
+    image_id: APOLLO
+    text: STR_APOLLO_LASER_GATLING_UFOPEDIA
+
+  - id: STR_ZEUS
+    section: STR_CRAFT_ARMAMENT
+    listOrder: 1005
+    image_id: ZEUS_PLASMA_GATLING
+    type_id: 2
+    text: STR_ZEUS_UFOPAEDIA
+
+  - id: STR_LASER_CANNON_UC
+    type_id: 2
+    section: STR_CRAFT_ARMAMENT
+    image_id: KODIAK
+    text: STR_KODIAK_LASER_CANNON_UFOPEDIA
+    listOrder: 1104
+
+  - id: STR_VOSTOK_PLASMA_CANNON
+    section: STR_CRAFT_ARMAMENT
+    image_id: VOSTOK_PLASMA_CANNON
+    type_id: 2
+    text: STR_VOSTOK_PLASMA_CANNON_UFOPAEDIA
+    listOrder: 1105
+
+  - id: STR_GORGON_ROCKETS
+    section: STR_CRAFT_ARMAMENT
+    image_id: GORGON_FUSSION_ROCKET_POD
+    type_id: 2
+    text: STR_GORGON_ROCKETS_UFOPAEDIA
+    listOrder: 1203
+
+  - id: STR_KRAKEN_ROCKETS
+    section: STR_CRAFT_ARMAMENT
+    image_id: HYDRA
+    type_id: 2
+    text: STR_KRAKEN_ROCKETS_UFOPAEDIA
+    listOrder: 1204
+
+  - id: STR_LONGSWORD_FUSION_MISSILE
+    section: STR_CRAFT_ARMAMENT
+    image_id: LONGSWORD_FUSION_LIGHT_MISSILE
+    type_id: 2
+    text: STR_LONGSWORD_FUSION_MISSILE_UFOPAEDIA
+    listOrder: 1305
+
+  - id: STR_EXCALIBUR_LIGHT_MISSILE
+    section: STR_CRAFT_ARMAMENT
+    image_id: SHORTSWORD
+    type_id: 2
+    text: STR_EXCALIBUR_LIGHT_MISSILE_UFOPAEDIA
+    listOrder: 1306
+
+  - id: STR_KATANA
+    section: STR_CRAFT_ARMAMENT
+    image_id: KATANA_FUSION_HEAVY_MISSILE
+    type_id: 2
+    text: STR_KATANA_UFOPAEDIA
+    listOrder: 1405
+
+  - id: STR_MJOLNIR
+    section: STR_CRAFT_ARMAMENT
+    image_id: HAMMER
+    type_id: 2
+    text: STR_MJOLNIR_UFOPAEDIA
+    listOrder: 1406
+
+  - id: STR_KONDOR
+    section: STR_CRAFT_ARMAMENT
+    image_id: KONDOR_FUSION_SUPER_HEAVY_MISSILE
+    type_id: 2
+    text: STR_KONDOR_UFOPAEDIA
+    listOrder: 1504
+
+  - id: STR_CASABA_SPIKE
+    section: STR_CRAFT_ARMAMENT
+    image_id: CASABA_HOWITZER
+    type_id: 2
+    text: STR_CASABA_SPIKE_UFOPAEDIA
+    listOrder: 1505
+
+  - id: STR_CASABA_LANCE
+    section: STR_CRAFT_ARMAMENT
+    image_id: CASABA_HOWITZER_IMPROVED
+    type_id: 2
+    text: STR_CASABA_LANCE_UFOPAEDIA
+    listOrder: 1506
+
+  - id: STR_FUEL_TANK_UC
+    type_id: 2
+    section: STR_CRAFT_ARMAMENT
+    image_id: FUEL_TANK
+    text: STR_FUEL_TANK_UFOPEDIA
+    listOrder: 1601
+
+  - id: STR_AFTERBURNER_UC
+    type_id: 2
+    section: STR_CRAFT_ARMAMENT
+    image_id: AFTERBURNER
+    text: STR_AFTERBURNER_UFOPEDIA
+    listOrder: 1602
+
+  - id: STR_TARGETING_POD_UC
+    type_id: 2
+    section: STR_CRAFT_ARMAMENT
+    image_id: TARGETING_POD
+    text: STR_TARGETING_POD_UFOPEDIA
+    listOrder: 1603
+
+  - id: STR_ALLOY_CRAFT_ARMOR_UC
+    type_id: 2
+    section: STR_CRAFT_ARMAMENT
+    image_id: ALLOY_CRAFT_ARMOR
+    text: STR_ALLOY_CRAFT_ARMOR_UFOPEDIA
+    listOrder: 1604
+
 
   #Alien Equipment
 
@@ -2279,11 +2299,6 @@ ufopaedia:
     section: STR_ALIEN_EQUIPMENT
     listOrder: 12200
 
-
-
-  - id: STR_ELERIUM_115
-    section: STR_ALIEN_EQUIPMENT
-    listOrder: 13009
 
 extraSprites:
 #########################################
