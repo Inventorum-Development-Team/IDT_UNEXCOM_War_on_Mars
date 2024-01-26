@@ -603,7 +603,7 @@ ufopaedia:
 
   - id: STR_STORY_REPORT_1
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     #requires:
       #- STR_STORY_REPORT_1
     text: STR_STORY_REPORT_1_UFOPEDIA
@@ -611,7 +611,7 @@ ufopaedia:
 
   - id: STR_STORY_REPORT_2
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_STORY_REPORT_2
     text: STR_STORY_REPORT_2_UFOPEDIA
@@ -619,7 +619,7 @@ ufopaedia:
 
   - id: STR_STORY_REPORT_3
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_STORY_REPORT_3
     text: STR_STORY_REPORT_3_UFOPEDIA
@@ -627,7 +627,7 @@ ufopaedia:
 
   - id: STR_STORY_REPORT_4
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_STORY_REPORT_4
     text: STR_STORY_REPORT_4_UFOPEDIA
@@ -635,7 +635,7 @@ ufopaedia:
 
   - id: STR_STORY_REPORT_5
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_STORY_REPORT_5
     text: STR_STORY_REPORT_5_UFOPEDIA
@@ -643,7 +643,7 @@ ufopaedia:
 
   - id: STR_STORY_REPORT_6
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_STORY_REPORT_6
     text: STR_STORY_REPORT_6_UFOPEDIA
@@ -651,7 +651,7 @@ ufopaedia:
 
   - id: STR_STORY_REPORT_7
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_STORY_REPORT_7
     text: STR_STORY_REPORT_7_UFOPEDIA
@@ -659,7 +659,7 @@ ufopaedia:
 
   - id: STR_STORY_REPORT_8
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_STORY_REPORT_8
     text: STR_STORY_REPORT_8_UFOPEDIA
@@ -667,7 +667,7 @@ ufopaedia:
 
   - id: STR_STORY_REPORT_9
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_STORY_REPORT_9
     text: STR_STORY_REPORT_9_UFOPEDIA
@@ -675,7 +675,7 @@ ufopaedia:
 
   - id: STR_MARS_ORBITAL_DEFENSE_REPORT
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     #requires:
      # - STR_MARS_ORBITAL_DEFENSE_REPORT
     text: STR_MARS_ORBITAL_DEFENSE_REPORT_UFOPEDIA
@@ -683,7 +683,7 @@ ufopaedia:
 
   - id: STR_UNEXCOM_MARS_DEPLOYMENT_REPORT
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     #requires:
     #  - STR_UNEXCOM_MARS_DEPLOYMENT_REPORT
     text: STR_UNEXCOM_MARS_DEPLOYMENT_REPORT_UFOPEDIA
@@ -691,14 +691,14 @@ ufopaedia:
 
   - id: STR_FACTIONS_REPORT_USSF_1
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_FACTIONS_REPORT_USSF
     text: STR_FACTIONS_REPORT_USSF_1_UFOPEDIA
     listOrder: 1716
   - id: STR_FACTIONS_REPORT_USSF_2
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_FACTIONS_REPORT_USSF
     text: STR_FACTIONS_REPORT_USSF_2_UFOPEDIA
@@ -706,7 +706,7 @@ ufopaedia:
 
   - id: STR_FACTIONS_REPORT_NASA_1
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_FACTIONS_REPORT_NASA
     text: STR_FACTIONS_REPORT_NASA_1_UFOPEDIA
@@ -714,7 +714,7 @@ ufopaedia:
 
   - id: STR_FACTIONS_REPORT_NASA_2
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_FACTIONS_REPORT_NASA
     text: STR_FACTIONS_REPORT_NASA_2_UFOPEDIA
@@ -722,7 +722,7 @@ ufopaedia:
 
   - id: STR_FACTIONS_REPORT_UASCNAT_1
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_FACTIONS_REPORT_UASCNAT
     text: STR_FACTIONS_REPORT_UASCNAT_UFOPEDIA_1
@@ -730,7 +730,7 @@ ufopaedia:
 
   - id: STR_FACTIONS_REPORT_UASCNAT_2
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_FACTIONS_REPORT_UASCNAT
     text: STR_FACTIONS_REPORT_UASCNAT_UFOPEDIA_2
@@ -738,7 +738,7 @@ ufopaedia:
 
   - id: STR_FACTIONS_REPORT_ESA_1
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_FACTIONS_REPORT_ESA
     text: STR_FACTIONS_REPORT_ESA_1_UFOPEDIA
@@ -746,7 +746,7 @@ ufopaedia:
 
   - id: STR_FACTIONS_REPORT_ESA_2
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_FACTIONS_REPORT_ESA
     text: STR_FACTIONS_REPORT_ESA_2_UFOPEDIA
@@ -754,7 +754,7 @@ ufopaedia:
 
   - id: STR_FACTIONS_REPORT_VKS_1
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_FACTIONS_REPORT_VKS
     text: STR_FACTIONS_REPORT_VKS_UFOPEDIA_1
@@ -762,7 +762,7 @@ ufopaedia:
 
   - id: STR_FACTIONS_REPORT_VKS_2
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_FACTIONS_REPORT_VKS
     text: STR_FACTIONS_REPORT_VKS_UFOPEDIA_2
@@ -770,7 +770,7 @@ ufopaedia:
 
   - id: STR_FACTIONS_REPORT_INTERKOSMOS_1
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_FACTIONS_REPORT_INTERKOSMOS
     text: STR_FACTIONS_REPORT_INTERKOSMOS_1_UFOPEDIA
@@ -778,7 +778,7 @@ ufopaedia:
 
   #- id: STR_FACTIONS_REPORT_INTERKOSMOS_2
    # type_id: 8
-   # section: STR_UNEXCOM_RESEARCH
+   # section: STR_OPERATIONAL
    # requires:
    #   - STR_FACTIONS_REPORT_INTERKOSMOS
    # text: STR_FACTIONS_REPORT_INTERKOSMOS_2_UFOPEDIA
@@ -786,7 +786,7 @@ ufopaedia:
 
   - id: STR_SOVIET_PSIONIC_CORPS_REPORT_1
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_SOVIET_PSIONIC_CORPS_REPORT_1
     text: STR_SOVIET_PSIONIC_CORPS_REPORT_1_UFOPEDIA
@@ -794,7 +794,7 @@ ufopaedia:
 
   - id: STR_NATO_CYBORG_OPERATORS_REPORT_1
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_NATO_CYBORG_OPERATORS_REPORT_1
     text: STR_NATO_CYBORG_OPERATORS_REPORT_1_UFOPEDIA
@@ -802,15 +802,17 @@ ufopaedia:
 
   - id: STR_NATO_CYBORG_OPERATORS_REPORT_2
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_OPERATIONAL
     requires:
       - STR_NATO_CYBORG_OPERATORS_REPORT_2
     text: STR_NATO_CYBORG_OPERATORS_REPORT_2_UFOPEDIA
     listOrder: 1741
 
+###################
+
   - id: STR_ETHEREAL_INSURGENCY_REPORT_1
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_DIPLOMATIC
     requires:
       - STR_ETHEREAL_INSURGENCY_REPORT_1
     text: STR_ETHEREAL_INSURGENCY_REPORT_1_UFOPEDIA
@@ -818,7 +820,7 @@ ufopaedia:
 
   - id: STR_ETHEREAL_INSURGENCY_REPORT_2
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_DIPLOMATIC
     requires:
       - STR_ETHEREAL_INSURGENCY_REPORT_2
     text: STR_ETHEREAL_INSURGENCY_REPORT_2_UFOPEDIA
@@ -826,7 +828,7 @@ ufopaedia:
 
   - id: STR_ETHEREAL_INSURGENCY_REPORT_3
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_DIPLOMATIC
     requires:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
     text: STR_ETHEREAL_INSURGENCY_REPORT_3_UFOPEDIA
@@ -834,7 +836,7 @@ ufopaedia:
 
   - id: STR_HEARTS_AND_MINDS_PROJECT_1
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_PROJECT_1
     text: STR_HEARTS_AND_MINDS_PROJECT_1_UFOPEDIA
@@ -842,7 +844,7 @@ ufopaedia:
 
   - id: STR_HEARTS_AND_MINDS_PROJECT_2
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_PROJECT_2
     text: STR_HEARTS_AND_MINDS_PROJECT_2_UFOPEDIA
@@ -850,7 +852,7 @@ ufopaedia:
 
   - id: STR_HEARTS_AND_MINDS_PROJECT_3
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_PROJECT_3
     text: STR_HEARTS_AND_MINDS_PROJECT_3_UFOPEDIA
@@ -858,14 +860,14 @@ ufopaedia:
 
   - id: STR_HEARTS_AND_MINDS_SECTOIDS_1
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_SECTOIDS
     text: STR_HEARTS_AND_MINDS_SECTOIDS_1_UFOPEDIA
     listOrder: 1781
   - id: STR_HEARTS_AND_MINDS_SECTOIDS_2
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_SECTOIDS
     text: STR_HEARTS_AND_MINDS_SECTOIDS_2_UFOPEDIA
@@ -873,14 +875,14 @@ ufopaedia:
     
   - id: STR_HEARTS_AND_MINDS_FLOATERS_1
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_FLOATERS
     text: STR_HEARTS_AND_MINDS_FLOATERS_1_UFOPEDIA
     listOrder: 1790
   - id: STR_HEARTS_AND_MINDS_FLOATERS_2
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_FLOATERS
     text: STR_HEARTS_AND_MINDS_FLOATERS_2_UFOPEDIA
@@ -888,14 +890,14 @@ ufopaedia:
     
   - id: STR_HEARTS_AND_MINDS_MUTONS_1
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_MUTONS
     text: STR_HEARTS_AND_MINDS_MUTONS_1_UFOPEDIA
     listOrder: 1800
   - id: STR_HEARTS_AND_MINDS_MUTONS_2
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_MUTONS
     text: STR_HEARTS_AND_MINDS_MUTONS_2_UFOPEDIA
@@ -903,14 +905,14 @@ ufopaedia:
 
   - id: STR_HEARTS_AND_MINDS_SNAKEMEN_1
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_SNAKEMEN
     text: STR_HEARTS_AND_MINDS_SNAKEMEN_1_UFOPEDIA
     listOrder: 1810
   - id: STR_HEARTS_AND_MINDS_SNAKEMEN_2
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_SNAKEMEN
     text: STR_HEARTS_AND_MINDS_SNAKEMEN_2_UFOPEDIA
@@ -918,7 +920,7 @@ ufopaedia:
     
   - id: STR_HEARTS_AND_MINDS_CEREBREAL_1
     type_id: 8
-    section: STR_UNEXCOM_RESEARCH
+    section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_CEREBREAL
     text: STR_HEARTS_AND_MINDS_CEREBREAL_1_UFOPEDIA
@@ -2277,91 +2279,10 @@ ufopaedia:
     section: STR_ALIEN_EQUIPMENT
     listOrder: 12200
 
-  #UFO Components
-  - id: STR_UFO_POWER_SOURCE
-    type_id: 7
-    section: STR_UFO_COMPONENTS
-    requires:
-      - STR_UFO_POWER_SOURCE
-    image_id: UP032.SPK
-    text: STR_UFO_POWER_SOURCE_UFOPEDIA
-    text_width: 163
-    listOrder: 13000
-  - id: STR_UFO_NAVIGATION
-    type_id: 7
-    section: STR_UFO_COMPONENTS
-    requires:
-      - STR_UFO_NAVIGATION
-    image_id: UP033.SPK
-    text: STR_UFO_NAVIGATION_UFOPEDIA
-    text_width: 147
-    listOrder: 13001
-  - id: STR_UFO_CONSTRUCTION
-    type_id: 7
-    section: STR_UFO_COMPONENTS
-    requires:
-      - STR_UFO_CONSTRUCTION
-    image_id: UP034.SPK
-    text: STR_UFO_CONSTRUCTION_UFOPEDIA
-    text_width: 148
-    listOrder: 13002
-  - id: STR_ALIEN_FOOD
-    type_id: 7
-    section: STR_UFO_COMPONENTS
-    requires:
-      - STR_ALIEN_FOOD
-    image_id: UP035.SPK
-    text: STR_ALIEN_FOOD_UFOPEDIA
-    text_width: 173
-    listOrder: 13003
-  - id: STR_ALIEN_REPRODUCTION
-    type_id: 7
-    section: STR_UFO_COMPONENTS
-    requires:
-      - STR_ALIEN_REPRODUCTION
-    image_id: UP036.SPK
-    text: STR_ALIEN_REPRODUCTION_UFOPEDIA
-    text_width: 167
-    listOrder: 13004
-  - id: STR_ALIEN_ENTERTAINMENT
-    type_id: 7
-    section: STR_UFO_COMPONENTS
-    requires:
-      - STR_ALIEN_ENTERTAINMENT
-    image_id: UP037.SPK
-    text: STR_ALIEN_ENTERTAINMENT_UFOPEDIA
-    text_width: 146
-    listOrder: 13005
-  - id: STR_ALIEN_SURGERY
-    type_id: 7
-    section: STR_UFO_COMPONENTS
-    requires:
-      - STR_ALIEN_SURGERY
-    image_id: UP038.SPK
-    text: STR_ALIEN_SURGERY_UFOPEDIA
-    text_width: 108
-    listOrder: 13006
-  - id: STR_EXAMINATION_ROOM
-    type_id: 7
-    section: STR_UFO_COMPONENTS
-    requires:
-      - STR_EXAMINATION_ROOM
-    image_id: UP039.SPK
-    text: STR_EXAMINATION_ROOM_UFOPEDIA
-    text_width: 150
-    listOrder: 13007
-  - id: STR_ALIEN_ALLOYS
-    type_id: 7
-    section: STR_UFO_COMPONENTS
-    requires:
-      - STR_ALIEN_ALLOYS
-    image_id: UP040.SPK
-    text: STR_ALIEN_ALLOYS_UFOPEDIA
-    text_width: 145
-    listOrder: 13008
+
 
   - id: STR_ELERIUM_115
-    section: STR_UFO_COMPONENTS
+    section: STR_ALIEN_EQUIPMENT
     listOrder: 13009
 
 extraSprites:
