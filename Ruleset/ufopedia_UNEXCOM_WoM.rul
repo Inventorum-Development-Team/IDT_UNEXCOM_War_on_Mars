@@ -318,10 +318,24 @@ ufopaedia:
 
   - id: STR_SECTOR_POLITICAL_REPORT_1
     type_id: 8
-    section: STR_OPERATIONAL
+    section: STR_STRATEGIC
     requires:
-      - STR_STORY_REPORT_2
+      - STR_ACT_1_PEDIA
     text: STR_SECTOR_POLITICAL_REPORT_1_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_SECTOR_POLITICAL_REPORT_2
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_2_PEDIA
+    text: STR_SECTOR_POLITICAL_REPORT_1_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_SECTOR_POLITICAL_REPORT_3
+    type_id: 8
+    section: STR_STRATEGIC
+    requires:
+      - STR_ACT_3_PEDIA
+    text: STR_SECTOR_POLITICAL_REPORT_3_UFOPEDIA
     #listOrder: 1701
 
 ###############################
