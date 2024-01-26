@@ -817,6 +817,8 @@ ufopaedia:
 
 ###################
 
+# Ethereal Insurgency 
+
   - id: STR_ETHEREAL_INSURGENCY_REPORT_1
     type_id: 8
     section: STR_DIPLOMATIC
@@ -831,7 +833,7 @@ ufopaedia:
     requires:
       - STR_ETHEREAL_INSURGENCY_REPORT_2
     text: STR_ETHEREAL_INSURGENCY_REPORT_2_UFOPEDIA
-    listOrder: 1755
+    listOrder: 1751
 
   - id: STR_ETHEREAL_INSURGENCY_REPORT_3
     type_id: 8
@@ -839,7 +841,45 @@ ufopaedia:
     requires:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
     text: STR_ETHEREAL_INSURGENCY_REPORT_3_UFOPEDIA
+    listOrder: 1752
+  - id: STR_ETHEREAL_INSURGENCY_LOYALIST_CLONES
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_ETHEREAL_INSURGENCY_LOYALIST_CLONES
+    text: STR_ETHEREAL_INSURGENCY_LOYALIST_CLONES_UFOPEDIA
+    listOrder: 1753
+  - id: STR_ETHEREAL_INSURGENCY_CHRYSALID_PROBLEM
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_ETHEREAL_INSURGENCY_CHRYSALID_PROBLEM
+    text: STR_ETHEREAL_INSURGENCY_CHRYSALID_PROBLEM_UFOPEDIA
+    listOrder: 1754
+  - id: STR_ETHEREAL_INSURGENCY_PSYCHOLOGY
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_ETHEREAL_INSURGENCY_PSYCHOLOGY
+    text: STR_ETHEREAL_INSURGENCY_PSYCHOLOGY_UFOPEDIA
+    listOrder: 1755
+  - id: STR_ETHEREAL_INSURGENCY_POST_BRAIN
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_ETHEREAL_INSURGENCY_POST_BRAIN
+    text: STR_ETHEREAL_INSURGENCY_POST_BRAIN_UFOPEDIA
     listOrder: 1756
+  - id: STR_ETHEREAL_ORIGINS
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_ETHEREAL_ORIGINS
+    text: STR_ETHEREAL_ORIGINS_UFOPEDIA
+    listOrder: 1757
+
+############
+### Hearts and Minds 
 
   - id: STR_HEARTS_AND_MINDS_PROJECT_1
     type_id: 8
@@ -879,6 +919,13 @@ ufopaedia:
       - STR_HEARTS_AND_MINDS_SECTOIDS
     text: STR_HEARTS_AND_MINDS_SECTOIDS_2_UFOPEDIA
     listOrder: 1782
+  - id: STR_HEARTS_AND_MINDS_SECTOIDS_3
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_HEARTS_AND_MINDS_SECTOIDS_3
+    text: STR_HEARTS_AND_MINDS_SECTOIDS_3_UFOPEDIA
+    listOrder: 1783
     
   - id: STR_HEARTS_AND_MINDS_FLOATERS_1
     type_id: 8
@@ -894,7 +941,14 @@ ufopaedia:
       - STR_HEARTS_AND_MINDS_FLOATERS
     text: STR_HEARTS_AND_MINDS_FLOATERS_2_UFOPEDIA
     listOrder: 1791
-    
+  - id: STR_HEARTS_AND_MINDS_FLOATERS_3
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_HEARTS_AND_MINDS_FLOATER_3
+    text: STR_HEARTS_AND_MINDS_FLOATERS_3_UFOPEDIA
+    listOrder: 1792
+  
   - id: STR_HEARTS_AND_MINDS_MUTONS_1
     type_id: 8
     section: STR_DIPLOMATIC
@@ -909,6 +963,13 @@ ufopaedia:
       - STR_HEARTS_AND_MINDS_MUTONS
     text: STR_HEARTS_AND_MINDS_MUTONS_2_UFOPEDIA
     listOrder: 1801
+  - id: STR_HEARTS_AND_MINDS_MUTONS_3
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_HEARTS_AND_MINDS_MUTONS_3
+    text: STR_HEARTS_AND_MINDS_MUTONS_3_UFOPEDIA
+    listOrder: 1802
 
   - id: STR_HEARTS_AND_MINDS_SNAKEMEN_1
     type_id: 8
@@ -924,6 +985,13 @@ ufopaedia:
       - STR_HEARTS_AND_MINDS_SNAKEMEN
     text: STR_HEARTS_AND_MINDS_SNAKEMEN_2_UFOPEDIA
     listOrder: 1811
+  - id: STR_HEARTS_AND_MINDS_SNAKEMEN_3
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_HEARTS_AND_MINDS_SNAKEMEN_3
+    text: STR_HEARTS_AND_MINDS_SNAKEMEN_3_UFOPEDIA
+    listOrder: 1812
     
   - id: STR_HEARTS_AND_MINDS_CEREBREAL_1
     type_id: 8
@@ -932,6 +1000,107 @@ ufopaedia:
       - STR_HEARTS_AND_MINDS_CEREBREAL
     text: STR_HEARTS_AND_MINDS_CEREBREAL_1_UFOPEDIA
     listOrder: 1820
+  - id: STR_HEARTS_AND_MINDS_CEREBREAL_2
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_HEARTS_AND_MINDS_CEREBREAL_2
+    text: STR_HEARTS_AND_MINDS_CEREBREAL_2_UFOPEDIA
+    listOrder: 1821
+  - id: STR_HEARTS_AND_MINDS_CEREBREAL_3
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_HEARTS_AND_MINDS_CEREBREAL
+    text: STR_HEARTS_AND_MINDS_CEREBREAL_3_UFOPEDIA
+    listOrder: 1822
+
+  - id: STR_HEARTS_AND_MINDS_CHTONITE_1
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_HEARTS_AND_MINDS_CHTONITE_1
+    text: STR_HEARTS_AND_MINDS_CHTONITE_1_UFOPEDIA
+    listOrder: 1830
+  - id: STR_HEARTS_AND_MINDS_CHTONITE_2
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_HEARTS_AND_MINDS_CHTONITE_2
+    text: STR_HEARTS_AND_MINDS_CHTONITE_2_UFOPEDIA
+    listOrder: 1831
+  - id: STR_HEARTS_AND_MINDS_CHTONITE_3
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_HEARTS_AND_MINDS_CHTONITE_3
+    text: STR_HEARTS_AND_MINDS_CHTONITE_3_UFOPEDIA
+    listOrder: 1832
+
+#Racial Engagement Projects
+  - id: STR_HEARTS_AND_MINDS_OLD_SCHOOL_BALSITICS
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_HEARTS_AND_MINDS_OLD_SCHOOL_BALSITICS
+    text: STR_HEARTS_AND_MINDS_OLD_SCHOOL_BALSITICS_UFOPEDIA
+    listOrder: 2000
+  - id: STR_HEARTS_AND_MINDS_ATTRACT_THE_FLOATERS
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_HEARTS_AND_MINDS_ATTRACT_THE_FLOATERS
+    text: STR_HEARTS_AND_MINDS_ATTRACT_THE_FLOATERS_UFOPEDIA
+    listOrder: 2001
+  - id: STR_HEARTS_AND_MINDS_OCCUPY_THE_FLOATERS
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_HEARTS_AND_MINDS_OCCUPY_THE_FLOATERS
+    text: STR_HEARTS_AND_MINDS_OCCUPY_THE_FLOATERS_UFOPEDIA
+    listOrder: 2002
+  - id: STR_HEARTS_AND_MINDS_FUEL_THE_SECTOIDS
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_HEARTS_AND_MINDS_FUEL_THE_SECTOIDS
+    text: STR_HEARTS_AND_MINDS_FUEL_THE_SECTOIDS_UFOPEDIA
+    listOrder: 2003
+  - id: STR_HEARTS_AND_MINDS_SUPPORT_THE_SECTOIDS
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_HEARTS_AND_MINDS_SUPPORT_THE_SECTOIDS
+    text: STR_HEARTS_AND_MINDS_SUPPORT_THE_SECTOIDS_UFOPEDIA
+    listOrder: 2004
+  - id: STR_HEARTS_AND_MINDS_ARM_THE_MUTONS
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_HEARTS_AND_MINDS_ARM_THE_MUTONS
+    text: STR_HEARTS_AND_MINDS_ARM_THE_MUTONS_UFOPEDIA
+    listOrder: 2005
+  - id: STR_HEARTS_AND_MINDS_CLAD_THE_MUTONS
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_HEARTS_AND_MINDS_CLAD_THE_MUTONS
+    text: STR_HEARTS_AND_MINDS_CLAD_THE_MUTONS_UFOPEDIA
+    listOrder: 2006
+  - id: STR_HEARTS_AND_MINDS_FEED_THE_SNAKEMEN
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_HEARTS_AND_MINDS_FEED_THE_SNAKEMEN
+    text: STR_HEARTS_AND_MINDS_FEED_THE_SNAKEMEN_UFOPEDIA
+    listOrder: 2007
+  - id: STR_HEARTS_AND_MINDS_WATCH_THE_SNAKEMEN
+    type_id: 8
+    section: STR_DIPLOMATIC
+    requires:
+      - STR_HEARTS_AND_MINDS_WATCH_THE_SNAKEMEN
+    text: STR_HEARTS_AND_MINDS_WATCH_THE_SNAKEMEN_UFOPEDIA
+    listOrder: 2008
 
 
 ##############################
