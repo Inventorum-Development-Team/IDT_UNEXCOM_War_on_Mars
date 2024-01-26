@@ -12,19 +12,23 @@ research:
 
   - name: STR_ACT_1_TRIGGER
     cost: 1
-    requires:
-      - STR_ACT_1_TRIGGER
+    needItem: true
+    unlocks:
+      - STR_ACT_1_PEDIA  
   - name: STR_ACT_1_PEDIA
     cost: 1
+    needItem: true
     requires:
       - STR_ACT_1_TRIGGER
 
   - name: STR_ACT_2_TRIGGER
     cost: 1
-    requires:
-      - STR_ACT_2_TRIGGER
+    needItem: true
+    unlocks:
+      - STR_ACT_2_PEDIA
   - name: STR_ACT_2_PEDIA
     cost: 1
+    needItem: true
     requires:
       - STR_ACT_2_TRIGGER
     disables:
@@ -32,10 +36,12 @@ research:
 
   - name: STR_ACT_3_TRIGGER
     cost: 1
-    requires:
-      - STR_ACT_3_TRIGGER
+    needItem: true
+    unlocks:
+      - STR_ACT_3_PEDIA  
   - name: STR_ACT_3_PEDIA
     cost: 1
+    needItem: true
     requires:
       - STR_ACT_3_TRIGGER
     disables:
@@ -43,8 +49,8 @@ research:
 
   - name: STR_ALIEN_BASE_SELF_DESTRUCTION
     cost: 0
-    requires:
-      - STR_ALIEN_BASE_SELF_DESTRUCTION
+    needItem: true
+    
 
   - name: STR_ETHEREAL_INSURGENCY_REPORT_1
     cost: 500
