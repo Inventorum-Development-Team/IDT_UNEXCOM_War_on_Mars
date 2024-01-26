@@ -163,6 +163,13 @@ en-US:
         one: "{N} Unit in UNEXCOM Craft"
         other: "{N} Units in UNEXCOM Craft"
       MAP_XBASE: "UNEXCOM Base"
+      
+      STR_ACT_1_TRIGGER: "Act 1 Trigger"
+      STR_ACT_1_PEDIA: "Act 1 UFOPedia"
+      STR_ACT_2_TRIGGER: "Act 2 Trigger"
+      STR_ACT_2_PEDIA: "Act 2 UFOPedia"
+      STR_ACT_3_TRIGGER: "Act 3 Trigger"
+      STR_ACT_3_PEDIA: "Act 3 UFOPedia"
 
 ###CRAFT
       STR_CRAFT_GATLING_ONE: "GATLING-1>{ALT}{0}"
