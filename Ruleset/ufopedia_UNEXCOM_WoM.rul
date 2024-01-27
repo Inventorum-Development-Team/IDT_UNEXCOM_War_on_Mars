@@ -1114,67 +1114,119 @@ ufopaedia:
 ###### SECESSIONIST ENTRIES ########
 ###################################
 # SECESSIONIST LORE
+
+
+  - id: STR_SECESSIONIST_HIDEOUTS
+    type_id: 8
+    section: STR_SECESSIONIST_LORE
+    requires:
+      - STR_SECESSIONIST_HIDEOUTS
+    text: STR_SECESSIONIST_HIDEOUTS_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_SECESSIONIST_RESOURCES
+    type_id: 8
+    section: STR_SECESSIONIST_LORE
+    requires:
+      - STR_SECESSIONIST_RESOURCES
+    text: STR_SECESSIONIST_RESOURCES_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_SECESSIONIST_POPULATION
+    type_id: 8
+    section: STR_SECESSIONIST_LORE
+    requires:
+      - STR_SECESSIONIST_POPULATION
+    text: STR_SECESSIONIST_POPULATION_UFOPEDIA
+    #listOrder: 1701    
+  - id: STR_SECESSIONIST_PROTECTION
+    type_id: 8
+    section: STR_SECESSIONIST_LORE
+    requires:
+      - STR_SECESSIONIST_PROTECTION
+    text: STR_SECESSIONIST_PROTECTION_UFOPEDIA
+    #listOrder: 1701 
+  - id: STR_SECESSIONIST_ALIEN_WEAPONRY
+    type_id: 8
+    section: STR_SECESSIONIST_LORE
+    requires:
+      - STR_SECESSIONIST_ALIEN_WEAPONRY
+    text: STR_SECESSIONIST_ALIEN_WEAPONRY_UFOPEDIA
+    #listOrder: 1701
+
+  - id: STR_SECESSIONIST_WEAPON_PREFERENCES
+    type_id: 8
+    section: STR_SECESSIONIST_LORE
+    requires:
+      - STR_SECESSIONIST_WEAPON_PREFERENCES
+    text: STR_SECESSIONIST_WEAPON_PREFERENCES_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_SECESSIONIST_SECTOID_NICHE
+    type_id: 8
+    section: STR_SECESSIONIST_LORE
+    requires:
+      - STR_SECESSIONIST_SECTOID_NICHE
+    text: STR_SECESSIONIST_SECTOID_NICHE_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_SECESSIONIST_SECTOID_TECHNOLOGY
+    type_id: 8
+    section: STR_SECESSIONIST_LORE
+    requires:
+      - STR_SECESSIONIST_SECTOID_TECHNOLOGY
+    text: STR_SECESSIONIST_SECTOID_TECHNOLOGY_UFOPEDIA
+    #listOrder: 1701 
+  - id: STR_SECESSIONIST_CYBERDISCS
+    type_id: 8
+    section: STR_SECESSIONIST_LORE
+    requires:
+      - STR_SECESSIONIST_CYBERDISCS
+    text: STR_SECESSIONIST_FLOATER_TECHNOLOGY_UFOPEDIA
+    #listOrder: 1701
+
+  - id: STR_SECESSIONIST_FLOATER_NICHE
+    type_id: 8
+    section: STR_SECESSIONIST_LORE
+    requires:
+      - STR_SECESSIONIST_FLOATER_NICHE
+    text: STR_SECESSIONIST_FLOATER_NICHE_UFOPEDIA
+    #listOrder: 1701
+    
+  - id: STR_SECESSIONIST_FLOATER_TECHNOLOGY
+    type_id: 8
+    section: STR_SECESSIONIST_LORE
+    requires:
+      - STR_SECESSIONIST_FLOATER_TECHNOLOGY
+    text: STR_SECESSIONIST_FLOATER_TECHNOLOGY_UFOPEDIA
+    #listOrder: 1701
+
+  - id: STR_SECESSIONIST_BALLANCE_OF_TERROR
+    type_id: 8
+    section: STR_SECESSIONIST_LORE
+    requires:
+      - STR_SECESSIONIST_BALLANCE_OF_TERROR
+    text: STR_SECESSIONIST_BALLANCE_OF_TERROR_UFOPEDIA
+    #listOrder: 1701    
+
+  - id: STR_SECESSIONIST_MUTONS_VS_SNAKEMEN
+    type_id: 8
+    section: STR_SECESSIONIST_LORE
+    requires:
+      - STR_SECESSIONIST_MUTONS_VS_SNAKEMEN
+    text: STR_SECESSIONIST_MUTONS_VS_SNAKEMEN_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_SECESSIONIST_SNAKEMAN_TERROR
+    type_id: 8
+    section: STR_SECESSIONIST_LORE
+    requires:
+      - STR_SECESSIONIST_SNAKEMAN_TERROR
+    text: STR_SECESSIONIST_SNAKEMAN_TERROR_UFOPEDIA
+    #listOrder: 1701
   - id: STR_CRYSALID_LEGACY
     type_id: 8
     section: STR_SECESSIONIST_LORE
     requires:
       - STR_CRYSALID_LEGACY
     text: STR_CRYSALID_LEGACY_UFOPEDIA
-    #listOrder: 1701
-
-  - id: STR_
-    type_id: 8
-    section: STR_SECESSIONIST_LORE
-    requires:
-      - STR_
-    text: STR_ _UFOPEDIA
-    #listOrder: 1701
-  - id: STR_
-    type_id: 8
-    section: STR_TACTICAL
-    requires:
-      - STR_
-    text: STR_ _UFOPEDIA
-    #listOrder: 1701
-  - id: STR_
-    type_id: 8
-    section: STR_TACTICAL
-    requires:
-      - STR_
-    text: STR_ _UFOPEDIA
     #listOrder: 1701    
-  - id: STR_
-    type_id: 8
-    section: STR_TACTICAL
-    requires:
-      - STR_
-    text: STR_ _UFOPEDIA
-    #listOrder: 1701 
-  - id: STR_
-    type_id: 8
-    section: STR_TACTICAL
-    requires:
-      - STR_
-    text: STR_ _UFOPEDIA
-    #listOrder: 1701
-  - id: STR_
-    type_id: 8
-    section: STR_TACTICAL
-    requires:
-      - STR_
-    text: STR_ _UFOPEDIA
-    #listOrder: 1701
-  - id: STR_
-    type_id: 8
-    section: STR_TACTICAL
-    requires:
-      - STR_
-    text: STR_ _UFOPEDIA
-    #listOrder: 1701    
-
 ##############################
-
-
 #Weapons
 
   - id: STR_UNEXCOM_WEAPONS_REPORT
