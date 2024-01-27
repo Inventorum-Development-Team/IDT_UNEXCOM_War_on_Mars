@@ -1454,22 +1454,12 @@ research:
     cost: 0
     points: 1
     needItem: true    
-  - name: STR_CRAFT_WEAPONS_OVERVIEW
-    cost: 0
-    points: 1
-    needItem: true
+
   - name: STR_SURFACE_WARSHIPS
     cost: 0
     points: 1
     needItem: true
-  - name: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_1
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_1
-    cost: 0
-    points: 1
-    needItem: true
+
   - name: STR_MARTIAN_ATMOSPHERIC_CRAFT_OVERVIEW
     cost: 0
     points: 1
@@ -1482,10 +1472,87 @@ research:
     cost: 0
     points: 1
     needItem: true
+  - name: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_2
+    cost: 0
+    points: 1
+    needItem: true      
   - name: STR_EXOATMOSPHERIC_CRAFT_OVERVIEW
     cost: 0
     points: 1
     needItem: true
+  - name: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_1
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_2
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_3
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_1
+    cost: 0
+    points: 1
+    needItem: true        
+  - name: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_2
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_3
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HARRIER_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_FORGER_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_WARTHOG_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_FROGFOOT_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_VKS_SHUTTLE_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_VKS_ARMOR_SHUTTLE_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_MARS_HEAVY_LIFTER_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_SABRE_1_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_SABRE_2_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_DYNASOAR_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_HERMES_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+  - name: STR_MIG_105_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
+    
   - name: STR_CRYSALID_LEGACY
     cost: 0
     points: 1
@@ -1494,10 +1561,10 @@ research:
     cost: 0
     points: 1
     needItem: true
-  - name: STR_LUNAR_OVERVIEW
+  - name: STR_ANTI_GRAVITY_TECHNOLOGY_OVERVIEW
     cost: 0
     points: 1
-    needItem: true
+    needItem: true    
   - name: STR_LUNAR_OVERVIEW
     cost: 0
     points: 1
@@ -1509,11 +1576,12 @@ research:
   - name: STR_CRAFT_FUEL_OVERVIEW
     cost: 0
     points: 1
-    needItem: true    
-  - name: STR_ANTI_GRAVITY_TECHNOLOGY_OVERVIEW
+    needItem: true
+  - name: STR_CRAFT_WEAPONS_OVERVIEW
     cost: 0
     points: 1
-    needItem: true
+    needItem: true    
+
   - name: STR_APOLLO_LASER_GATLING_OVERVIEW
     cost: 0
     points: 1
@@ -1567,74 +1635,6 @@ research:
     points: 1
     needItem: true
   - name: STR_KRAKEN_ROCKETS_OVERVIEW
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_2
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_3
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_2
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_3
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_HARRIER_OVERVIEW
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_FORGER_OVERVIEW
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_WARTHOG_OVERVIEW
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_FROGFOOT_OVERVIEW
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_VKS_SHUTTLE_OVERVIEW
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_VKS_ARMOR_SHUTTLE_OVERVIEW
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_MARS_HEAVY_LIFTER_OVERVIEW
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_2
-    cost: 0
-    points: 1
-    needItem: true  
-  - name: STR_SABRE_1_OVERVIEW
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_SABRE_2_OVERVIEW
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_DYNASOAR_OVERVIEW
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_HERMES_OVERVIEW
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_MIG_105_OVERVIEW
     cost: 0
     points: 1
     needItem: true
