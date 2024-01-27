@@ -11,23 +11,23 @@ research:
 ###########################
 
   - name: STR_ACT_1_TRIGGER
-    cost: 1
+    cost: 0
     needItem: true
     unlocks:
       - STR_ACT_1_PEDIA  
   - name: STR_ACT_1_PEDIA
-    cost: 1
+    cost: 0
     needItem: true
     requires:
       - STR_ACT_1_TRIGGER
 
   - name: STR_ACT_2_TRIGGER
-    cost: 1
+    cost: 0
     needItem: true
     unlocks:
       - STR_ACT_2_PEDIA
   - name: STR_ACT_2_PEDIA
-    cost: 1
+    cost: 0
     needItem: true
     requires:
       - STR_ACT_2_TRIGGER
@@ -35,12 +35,12 @@ research:
       - STR_ACT_1_PEDIA
 
   - name: STR_ACT_3_TRIGGER
-    cost: 1
+    cost: 0
     needItem: true
     unlocks:
       - STR_ACT_3_PEDIA  
   - name: STR_ACT_3_PEDIA
-    cost: 1
+    cost: 0
     needItem: true
     requires:
       - STR_ACT_3_TRIGGER
@@ -531,7 +531,7 @@ research:
 ####### ALIEN ALLIES RESEARCH #########
 ######################################
   - name: STR_HEARTS_AND_MINDS_PROJECT_1
-    cost: 500
+    cost: 200
     points: 50
     getOneFree:
       - STR_STORY_REPORT_2
@@ -558,7 +558,7 @@ research:
       - STR_FUSION_WEAPONS_REPORT
 
   - name: STR_HEARTS_AND_MINDS_PROJECT_2
-    cost: 1000
+    cost: 300
     points: 100
     dependencies:
       - STR_HEARTS_AND_MINDS_PROJECT_1
@@ -587,7 +587,7 @@ research:
       - STR_FUSION_WEAPONS_REPORT
 
   - name: STR_HEARTS_AND_MINDS_PROJECT_3
-    cost: 2000
+    cost: 400
     points: 200
     dependencies:
       - STR_HEARTS_AND_MINDS_PROJECT_2
@@ -616,7 +616,7 @@ research:
       - STR_FUSION_WEAPONS_REPORT
 
   - name: STR_HEARTS_AND_MINDS_SECTOIDS
-    cost: 1000
+    cost: 400
     points: 200
     dependencies:
       - STR_HEARTS_AND_MINDS_PROJECT_3
@@ -645,7 +645,7 @@ research:
       - STR_FUSION_WEAPONS_REPORT
 
   - name: STR_HEARTS_AND_MINDS_SNAKEMEN
-    cost: 2000
+    cost: 200
     points: 200
     dependencies:
       - STR_HEARTS_AND_MINDS_PROJECT_3
@@ -674,7 +674,7 @@ research:
       - STR_FUSION_WEAPONS_REPORT
 
   - name: STR_HEARTS_AND_MINDS_FLOATERS
-    cost: 1000
+    cost: 300
     points: 200
     dependencies:
       - STR_HEARTS_AND_MINDS_PROJECT_3
@@ -703,7 +703,7 @@ research:
       - STR_FUSION_WEAPONS_REPORT
 
   - name: STR_HEARTS_AND_MINDS_MUTONS
-    cost: 2000
+    cost: 500
     points: 200
     dependencies:
       - STR_HEARTS_AND_MINDS_PROJECT_3
@@ -732,7 +732,7 @@ research:
       - STR_FUSION_WEAPONS_REPORT
 
   - name: STR_HEARTS_AND_MINDS_CEREBREAL_1
-    cost: 1500
+    cost: 150
     points: 200
     dependencies:
       - STR_HEARTS_AND_MINDS_PROJECT_3
@@ -761,7 +761,7 @@ research:
       - STR_FUSION_WEAPONS_REPORT
 
   - name: STR_HEARTS_AND_MINDS_CEREBREAL_2
-    cost: 1500
+    cost: 150
     points: 200
     dependencies:
       - STR_HEARTS_AND_MINDS_CEREBREAL_1
@@ -790,7 +790,7 @@ research:
       - STR_FUSION_WEAPONS_REPORT
 
   - name: STR_HEARTS_AND_MINDS_CEREBREAL_3
-    cost: 1500
+    cost: 200
     points: 200
     dependencies:
       - STR_HEARTS_AND_MINDS_CEREBREAL_2
