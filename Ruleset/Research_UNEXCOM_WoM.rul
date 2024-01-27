@@ -267,13 +267,6 @@ research:
     needItem: true
     destroyItem: true 
     unlocks:
-      - STR_ETHEREAL_INSURGENCY_REPORT_3   
-  - name: STR_ARMORED_MUTON_LEADER
-    cost: 100
-    points: 50
-    needItem: true
-    destroyItem: true 
-    unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
   - name: STR_FLOATER_COMMANDER
     cost: 100
@@ -442,13 +435,6 @@ research:
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_2
 
-  - name: STR_FLOATER_ENGINEER
-    cost: 100
-    points: 50
-    needItem: true
-    destroyItem: true
-    unlocks:
-      - STR_ETHEREAL_INSURGENCY_REPORT_2
   - name: STR_FLOATER_ENGINEER
     cost: 100
     points: 50
@@ -1516,6 +1502,10 @@ research:
     cost: 0
     points: 1
     needItem: true
+  - name: STR_SPACE_LAUNCH_OVERVIEW
+    cost: 0
+    points: 1
+    needItem: true
   - name: STR_CRAFT_FUEL_OVERVIEW
     cost: 0
     points: 1
@@ -1798,42 +1788,6 @@ research:
     points: 1
     needItem: true
   - name: STR_HEARTS_AND_MINDS_SNAKEMEN_3
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_HEARTS_AND_MINDS_OLD_SCHOOL_BALSITICS
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_HEARTS_AND_MINDS_ATTRACT_THE_FLOATERS
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_HEARTS_AND_MINDS_OCCUPY_THE_FLOATERS
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_HEARTS_AND_MINDS_FUEL_THE_SECTOIDS
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_HEARTS_AND_MINDS_SUPPORT_THE_SECTOIDS
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_HEARTS_AND_MINDS_ARM_THE_MUTONS
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_HEARTS_AND_MINDS_CLAD_THE_MUTONS
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_HEARTS_AND_MINDS_FEED_THE_SNAKEMEN
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_HEARTS_AND_MINDS_WATCH_THE_SNAKEMEN
     cost: 0
     points: 1
     needItem: true

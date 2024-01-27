@@ -2802,7 +2802,7 @@ en-US:
       STR_UNEXCOM_PERSONNEL_REPORT_3: "UNEXCOM Personnel Report" 
       STR_UNEXCOM_PERSONEL_REPORT_3_UFOPEDIA: "The reinforcements included nearly all of the currently ready Legionnaires, but they're mostly tied up with rooting out the various Ethereal forces that have gone to ground. If we want to get them assigned to us in a reasonable timeframe we'll need to go through most of the normal hoops. Additionally, the various surviving outposts are going to be focused on their own recovery efforts before reclamation, so there's going to be enough loose support personnel for our staffing needs."
       STR_TROOP_HIRING_PROPOSAL_3: "Troop Hiring Proposal"
-      STR_UNEXCOM_PERSONEL_REPORT_3_UFOPEDIA: "A notable number of the stood down Allied Forces are willing to sign up with us to finish the fight, so we shouldn't have to keep hiring civilians to fill the ranks."
+      STR_TROOP_HIRING_PROPOSAL_UFOPEDIA: "A notable number of the stood down Allied Forces are willing to sign up with us to finish the fight, so we shouldn't have to keep hiring civilians to fill the ranks."
       STR_PERSONAL_EQUIPMENT_PROCUREMENT_3: "Personal Equipment Procurement"
       STR_PERSONAL_EQUIPMENT_PROCUREMENT_3_UFOPEDIA: "The reinforcements have brought just about every functional plasma weapon that was in cis-lunar space and more Gen-3 lasers than anybody knows what to do with, so as long as we're willing to spend the resources we can get our hands on them.  They've also brought more than enough non-combat staples to refill our stockpiles, so don't worry about having to ration duct tape or bio-foam."
       STR_MARS_ORBITAL_REPORT_3: "Mars Orbital Report"
@@ -2867,7 +2867,7 @@ en-US:
       STR_SECESSIONIST_BALLANCE_OF_TERROR_UFOPEDIA: "The Mutons and Snakemen are more or less at a strategic stalemate, with the battlelines staying within the same geographic regions. The Snakemen have considered going after Cloning Bunkers to reduce the Mutons' replenishment rate, but the Mutons are known to have a number of 'macro-plasma bombardment devices', which would be able to inflict enough devastation that either the Mutons or (as of the past few years) the UN forces would be able to finish them off. This possibility is kept in check by the Snakemen's having access to a distressingly high number of concealed Chrysalid cryo-hives spread across the planet, and thanks to their racial relationship would be able to point them at specific targets.  However, without the Ethereal's influence the Chrysalids would eventually turn on the Snakemen, so this would be an action of retaliatory spite... this is, Mutually Assured Destruction"
 
 # Hearts and Minds
-      STR_HEARTS_AND_MINDS_SNAKEMEN_2: "Hearts and Minds: Snakemen Support II"
+      STR_HEARTS_AND_MINDS_SNAKEMEN_3: "Hearts and Minds: Snakemen Support II"
       STR_HEARTS_AND_MINDS_SNAKEMEN_3_UFOPEDIA: "The largest headache of the breakaways, the Snakemen are the definition of 'fair weather allies'. The various veteran Intel agents of the Allied Forces find their mentality all too familiar, likening them to the most mercurial sort of underworld gangsters that they have come across. With a large enough bribe we can get them to put pressure on the Ethereals in ways that we cannot, but that will make the Snakemen more of a problem in the long run. Combined with their Chryssalid trump card, we have a rogue state in the making."
 
       STR_HEARTS_AND_MINDS_SECTOIDS_3: "Hearts and Minds: Sectoid Support III"
