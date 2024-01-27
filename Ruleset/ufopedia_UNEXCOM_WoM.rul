@@ -1110,6 +1110,67 @@ ufopaedia:
     text: STR_HEARTS_AND_MINDS_WATCH_THE_SNAKEMEN_UFOPEDIA
     listOrder: 2008
 
+#####################################
+###### SECESSIONIST ENTRIES ########
+###################################
+# SECESSIONIST LORE
+  - id: STR_CRYSALID_LEGACY
+    type_id: 8
+    section: STR_SECESSIONIST_LORE
+    requires:
+      - STR_CRYSALID_LEGACY
+    text: STR_CRYSALID_LEGACY_UFOPEDIA
+    #listOrder: 1701
+
+  - id: STR_
+    type_id: 8
+    section: STR_SECESSIONIST_LORE
+    requires:
+      - STR_
+    text: STR_ _UFOPEDIA
+    #listOrder: 1701
+  - id: STR_
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_
+    text: STR_ _UFOPEDIA
+    #listOrder: 1701
+  - id: STR_
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_
+    text: STR_ _UFOPEDIA
+    #listOrder: 1701    
+  - id: STR_
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_
+    text: STR_ _UFOPEDIA
+    #listOrder: 1701 
+  - id: STR_
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_
+    text: STR_ _UFOPEDIA
+    #listOrder: 1701
+  - id: STR_
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_
+    text: STR_ _UFOPEDIA
+    #listOrder: 1701
+  - id: STR_
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_
+    text: STR_ _UFOPEDIA
+    #listOrder: 1701    
 
 ##############################
 
@@ -2490,6 +2551,36 @@ ufopaedia:
       - STR_MEDICAL_OVERVIEW
     text: STR_MEDICAL_OVERVIEW_REPORT_UFOPEDIA
     #listOrder: 1701
+  - id: STR_CLONING_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_CLONING_OVERVIEW
+    text: STR_CLONING_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+
+  - id: STR_LUNAR_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_LUNAR_OVERVIEW
+    text: STR_LUNAR_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_SPACE_LAUNCH_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_SPACE_LAUNCH_OVERVIEW
+    text: STR_SPACE_LAUNCH_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_CRAFT_FUEL_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_CRAFT_FUEL_OVERVIEW
+    text: STR_CRAFT_FUEL_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+    
   - id: STR_CRAFT_PROPULSION_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
@@ -2557,6 +2648,36 @@ ufopaedia:
       - STR_MARTIAN_ATMOSPHERIC_CRAFT_OVERVIEW
     text: STR_MARTIAN_ATMOSPHERIC_CRAFT_OVERVIEW_UFOPEDIA
     #listOrder: 1701
+
+  - id: STR_HARRIER_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_HARRIER_OVERVIEW
+    text: STR_HARRIER_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_FORGER_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_FORGER_OVERVIEW
+    text: STR_FORGER_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_WARTHOG_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_WARTHOG_OVERVIEW
+    text: STR_WARTHOG_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_FROGFOOT_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_FROGFOOT_OVERVIEW
+    text: STR_FROGFOOT_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+    
   - id: STR_TRANSPORT_CRAFT_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
@@ -2564,6 +2685,28 @@ ufopaedia:
       - STR_TRANSPORT_CRAFT_OVERVIEW
     text: STR_TRANSPORT_CRAFT_OVERVIEW_UFOPEDIA
     #listOrder: 1701
+  - id: STR_VKS_SHUTTLE_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_VKS_SHUTTLE_OVERVIEW
+    text: STR_VKS_SHUTTLE_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_VKS_ARMOR_SHUTTLE_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_VKS_ARMOR_SHUTTLE_OVERVIEW
+    text: STR_VKS_ARMOR_SHUTTLE_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_MARS_HEAVY_LIFTER_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_MARS_HEAVY_LIFTER_OVERVIEW
+    text: STR_MARS_HEAVY_LIFTER_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+    
   - id: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_1
     type_id: 8
     section: STR_TACTICAL
@@ -2577,7 +2720,22 @@ ufopaedia:
     requires:
       - STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_2
     text: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_2_UFOPEDIA
-    #listOrder: 1701    
+    #listOrder: 1701 
+  - id: STR_SABRE_1_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_SABRE_1_OVERVIEW
+    text: STR_SABRE_1_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_SABRE_2_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_SABRE_2_OVERVIEW
+    text: STR_SABRE_2_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+    
   - id: STR_EXOATMOSPHERIC_CRAFT_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
@@ -2585,42 +2743,28 @@ ufopaedia:
       - STR_EXOATMOSPHERIC_CRAFT_OVERVIEW
     text: STR_EXOATMOSPHERIC_CRAFT_OVERVIEW_UFOPEDIA
     #listOrder: 1701
-    
-  - id: STR_CRYSALID_LEGACY
+  - id: STR_DYNASOAR_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
-      - STR_CRYSALID_LEGACY
-    text: STR_CRYSALID_LEGACY_UFOPEDIA
-    #listOrder: 1701
-  - id: STR_CLONING_OVERVIEW
+      - STR_DYNASOAR_OVERVIEW
+    text: STR_DYNASOAR_OVERVIEW_UFOPEDIA
+    #listOrder: 1701    
+  - id: STR_HERMES_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
-      - STR_CLONING_OVERVIEW
-    text: STR_CLONING_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
-  - id: STR_LUNAR_OVERVIEW
+      - STR_HERMES_OVERVIEW
+    text: STR_HERMES_OVERVIEW_UFOPEDIA
+    #listOrder: 1701 
+  - id: STR_MIG_105_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
-      - STR_LUNAR_OVERVIEW
-    text: STR_LUNAR_OVERVIEW_UFOPEDIA
+      - STR_MIG_105_OVERVIEW
+    text: STR_MIG_105_OVERVIEW_UFOPEDIA
     #listOrder: 1701
-  - id: STR_SPACE_LAUNCH_OVERVIEW
-    type_id: 8
-    section: STR_TACTICAL
-    requires:
-      - STR_SPACE_LAUNCH_OVERVIEW
-    text: STR_SPACE_LAUNCH_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
-  - id: STR_CRAFT_FUEL_OVERVIEW
-    type_id: 8
-    section: STR_TACTICAL
-    requires:
-      - STR_CRAFT_FUEL_OVERVIEW
-    text: STR_CRAFT_FUEL_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+
   - id: STR_CRAFT_WEAPONS_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
@@ -2727,77 +2871,6 @@ ufopaedia:
     text: STR_KRAKEN_ROCKETS_OVERVIEW_UFOPEDIA
     #listOrder: 1701
 
-    #listOrder: 1701
-  - id: STR_
-    type_id: 8
-    section: STR_TACTICAL
-    requires:
-      - STR_
-    text: STR_ _UFOPEDIA
-    #listOrder: 1701
-  - id: STR_
-    type_id: 8
-    section: STR_TACTICAL
-    requires:
-      - STR_
-    text: STR_ _UFOPEDIA
-    #listOrder: 1701
-  - id: STR_
-    type_id: 8
-    section: STR_TACTICAL
-    requires:
-      - STR_
-    text: STR_ _UFOPEDIA
-    #listOrder: 1701
-  - id: STR_
-    type_id: 8
-    section: STR_TACTICAL
-    requires:
-      - STR_
-    text: STR_ _UFOPEDIA
-    #listOrder: 1701
-  - id: STR_
-    type_id: 8
-    section: STR_TACTICAL
-    requires:
-      - STR_
-    text: STR_ _UFOPEDIA
-    #listOrder: 1701
-  - id: STR_
-    type_id: 8
-    section: STR_TACTICAL
-    requires:
-      - STR_
-    text: STR_ _UFOPEDIA
-    #listOrder: 1701
-  - id: STR_
-    type_id: 8
-    section: STR_TACTICAL
-    requires:
-      - STR_
-    text: STR_ _UFOPEDIA
-    #listOrder: 1701
-  - id: STR_
-    type_id: 8
-    section: STR_TACTICAL
-    requires:
-      - STR_
-    text: STR_ _UFOPEDIA
-    #listOrder: 1701
-  - id: STR_
-    type_id: 8
-    section: STR_TACTICAL
-    requires:
-      - STR_
-    text: STR_ _UFOPEDIA
-    #listOrder: 1701
-  - id: STR_
-    type_id: 8
-    section: STR_TACTICAL
-    requires:
-      - STR_
-    text: STR_ _UFOPEDIA
-    #listOrder: 1701    
 #############
 
   #Alien Equipment
