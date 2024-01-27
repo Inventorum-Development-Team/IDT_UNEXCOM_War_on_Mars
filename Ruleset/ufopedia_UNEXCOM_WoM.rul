@@ -604,6 +604,14 @@ ufopaedia:
 
 ###############################
 
+  - id: STR_DATABASE_REPAIR
+    type_id: 8
+    section: STR_OPERATIONAL
+    requires:
+      - STR_DATABASE_REPAIR
+    text: STR_DATABASE_REPAIR_REPORT_UFOPEDIA
+    #listOrder: 1701
+
   - id: STR_ELERIUM_115
     section: STR_OPERATIONAL
     listOrder: 1699
@@ -2473,6 +2481,324 @@ ufopaedia:
     text: STR_ALLOY_CRAFT_ARMOR_UFOPEDIA
     listOrder: 1604
 
+###########
+    
+  - id: STR_MEDICAL_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_MEDICAL_OVERVIEW
+    text: STR_MEDICAL_OVERVIEW_REPORT_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_CRAFT_PROPULSION_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_CRAFT_PROPULSION_OVERVIEW
+    text: STR_STR_CRAFT_PROPULSION_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+
+  - id: STR_SURFACE_WARSHIPS
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_SURFACE_WARSHIPS
+    text: STR_SURFACE_WARSHIPS_UFOPEDIA
+    #listOrder: 1701
+    
+  - id: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_1
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_1
+    text: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_1_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_2
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_2
+    text: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_2_UFOPEDIA
+    #listOrder: 1701    
+  - id: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_3
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_3
+    text: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_3_UFOPEDIA
+    #listOrder: 1701    
+    
+  - id: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_1
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_1
+    text: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_1_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_2
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_2
+    text: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_2_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_3
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_3
+    text: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_3_UFOPEDIA
+    #listOrder: 1701
+    
+  - id: STR_MARTIAN_ATMOSPHERIC_CRAFT_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_MARTIAN_ATMOSPHERIC_CRAFT_OVERVIEW
+    text: STR_MARTIAN_ATMOSPHERIC_CRAFT_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_TRANSPORT_CRAFT_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_TRANSPORT_CRAFT_OVERVIEW
+    text: STR_TRANSPORT_CRAFT_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_1
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_1
+    text: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_1_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_2
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_2
+    text: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_2_UFOPEDIA
+    #listOrder: 1701    
+  - id: STR_EXOATMOSPHERIC_CRAFT_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_EXOATMOSPHERIC_CRAFT_OVERVIEW
+    text: STR_EXOATMOSPHERIC_CRAFT_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+    
+  - id: STR_CRYSALID_LEGACY
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_CRYSALID_LEGACY
+    text: STR_CRYSALID_LEGACY_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_CLONING_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_CLONING_OVERVIEW
+    text: STR_CLONING_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_LUNAR_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_LUNAR_OVERVIEW
+    text: STR_LUNAR_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_SPACE_LAUNCH_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_SPACE_LAUNCH_OVERVIEW
+    text: STR_SPACE_LAUNCH_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_CRAFT_FUEL_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_CRAFT_FUEL_OVERVIEW
+    text: STR_CRAFT_FUEL_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_CRAFT_WEAPONS_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_CRAFT_WEAPONS_OVERVIEW
+    text: STR_STR_CRAFT_WEAPONS_OVERVIEW_UFOPEDIA
+    #listOrder: 1701    
+  - id: STR_APOLLO_LASER_GATLING_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_APOLLO_LASER_GATLING_OVERVIEW
+    text: STR_APOLLO_LASER_GATLING_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_KODIAK_LASER_CANNON_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_KODIAK_LASER_CANNON_OVERVIEW
+    text: STR_KODIAK_LASER_CANNON_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_LONGSWORD_FUSION_MISSILE_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_LONGSWORD_FUSION_MISSILE_OVERVIEW
+    text: STR_LONGSWORD_FUSION_MISSILE_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_KATANA_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_KATANA_OVERVIEW
+    text: STR_KATANA_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_ADLER_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_ADLER_OVERVIEW
+    text: STR_ADLER_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_CASABA_SPIKE_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_CASABA_SPIKE_OVERVIEW
+    text: STR_CASABA_SPIKE_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_GORGON_ROCKETS_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_GORGON_ROCKETS_OVERVIEW
+    text: STR_GORGON_ROCKETS_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_ZEUS_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_ZEUS_OVERVIEW
+    text: STR_ZEUS_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_VOSTOK_PLASMA_CANNON_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_VOSTOK_PLASMA_CANNON_OVERVIEW
+    text: STR_VOSTOK_PLASMA_CANNON_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_EXCALIBUR_LIGHT_MISSILE_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_EXCALIBUR_LIGHT_MISSILE_OVERVIEW
+    text: STR_EXCALIBUR_LIGHT_MISSILE_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_MJOLNIR_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_MJOLNIR_OVERVIEW
+    text: STR_MJOLNIR_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_KONDOR_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_KONDOR_OVERVIEW
+    text: STR_KONDOR_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_CASABA_LANCE_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_CASABA_LANCE_OVERVIEW
+    text: STR_CASABA_LANCE_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+  - id: STR_KRAKEN_ROCKETS_OVERVIEW
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_KRAKEN_ROCKETS_OVERVIEW
+    text: STR_KRAKEN_ROCKETS_OVERVIEW_UFOPEDIA
+    #listOrder: 1701
+
+    #listOrder: 1701
+  - id: STR_
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_
+    text: STR_ _UFOPEDIA
+    #listOrder: 1701
+  - id: STR_
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_
+    text: STR_ _UFOPEDIA
+    #listOrder: 1701
+  - id: STR_
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_
+    text: STR_ _UFOPEDIA
+    #listOrder: 1701
+  - id: STR_
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_
+    text: STR_ _UFOPEDIA
+    #listOrder: 1701
+  - id: STR_
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_
+    text: STR_ _UFOPEDIA
+    #listOrder: 1701
+  - id: STR_
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_
+    text: STR_ _UFOPEDIA
+    #listOrder: 1701
+  - id: STR_
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_
+    text: STR_ _UFOPEDIA
+    #listOrder: 1701
+  - id: STR_
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_
+    text: STR_ _UFOPEDIA
+    #listOrder: 1701
+  - id: STR_
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_
+    text: STR_ _UFOPEDIA
+    #listOrder: 1701
+  - id: STR_
+    type_id: 8
+    section: STR_TACTICAL
+    requires:
+      - STR_
+    text: STR_ _UFOPEDIA
+    #listOrder: 1701    
+#############
 
   #Alien Equipment
 
