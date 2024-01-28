@@ -3051,7 +3051,7 @@ en-US:
       STR_ABRAMS_TANK: "M1 Abrams"
       STR_ABRAMS_TANK_UFOPEDIA: "Entering production in 1980, the M1 Abrams is the most powerful known MBT.  Built from the group up using Alien Alloys and powered by electric hybrid-turbine, it is fast and extremely durable.  Its primary armament is a 120mm Mass Driver, chosen over an energy weapon for munition flexibility and maximum effective range.  Supporting this is a co-axial M250 Gatling Laser and a choice of pintle mount, with smoke dischargers scattered across the vehicle.  Unlike other MBTs, its alien-derived life support systems did not need any modification to handle the Martian atmosphere, making them easy to convert"
       
-      STR_BRADLEY_TANK: "M2 Bradley"
+      STR_BRADLEY_TANK: "M3 Bradley"
       STR_BRADLEY_TANK_UFOPEDIA: "America’s take on the BMP, the Bradley is a substantially larger vehicle.  Clad in a moderate layer of HDAP, it is also far more durable, and can often protect its passengers from being obliterated by a Blaster Bomb at the cost of itself.  The interior is also far more versatile, making it much easier to convert to other uses.  Armaments consist of a rapid fire laser cannon similar to that of other IFVs, which is supported by a TSW (Tube launch, Self tracking, Waypoint guided) missile launcher on the side of the turret.  While its life support systems can engage in full pressurization cycles on Mars, this is a time consuming process, and as a result it usually releases its dismounts before battle is joined."
       
       STR_LEOPARD_II_TANK: "Leopard 2"
@@ -3069,9 +3069,19 @@ en-US:
       STR_LEGIONNAIRE_TANK_ARMOR: "M22 Legionnaire Light Tank"
       STR_LEGIONNAIRE_TANK_ARMOR_UFOPEDIA: "The main UNEXCOM armored vehicle in the Martian Theater, now equipped with a modernized HDAP armor package and better optical sights"
       STR_LEGIONNAIRE_LASER_CANNON: "LGM34-3H Laser Cannon"
-      STR_LEGIONNAIRE_LASER_CANNON_UFOPEDIA: "The 'Laser Gun, Model 34-3 Heavy Anti Tank Laser Cannon' has remained the main AT energy weapon since the '73 with minimal changes"
+      STR_LEGIONNAIRE_LASER_CANNON_UFOPEDIA: "The 'Laser Gun, Model 34-3 Heavy Anti Tank Laser Cannon' has remained the main AT energy weapon since the '73 with minimal changes. Only the back heat radiators and the refraction lenses were adapted to fit the harsh cold desertic climate of Mars."
       STR_LASER_CANNON_STANDARD_BATTERY: "Laser Cannon Standard Battery"
-      STR_LASER_CANNON_STANDARD_BATTERY_UFOPEDIA:
+      STR_LASER_CANNON_STANDARD_BATTERY_UFOPEDIA: "Regular Heavy-Duty battery used to power large laser guns. Balanced between energy consumption and damage output"
+      
+      STR_BRADLEY_TANK_ARMOR: "M3 Bradley CFV"
+      STR_BRADLEY_TANK_ARMOR_UFOPEDIA: "Born due the need of highly maneuverable yet considerably armored support vehicle to keep up the pace of the MBT's advance. The M3 is a combat-focused variant of the Bradley family, with more ammo for the TSW missile launcher anf spare batteries for the Bushmaster LM298 Laser Autocannon."
+      STR_BUSHMASTER_LASER_AUTOCANNON: "LM298 Laser Autocannon"
+      STR_BUSHMASTER_LASER_AUTOCANNON_UFOPEDIA: "Designed to be a middle ground between the infantry-based M4 Laser LMG and the larger Kodiak-derived cannons, the Bushmaster features a decent power output and enhanced refraction lenses for continued laser discharges. There was certain reticence of keeping the M242 25mm standard gun of the M2 Bradley, but eventually an energy weapon was selected to booster the M3's fighting capabilities."
+      
+      STR_BMP_2_TANK_ARMOR: "BMP-2 IFV"
+      STR_BMP_2_TANK_ARMOR_UFOPEDIA: "Fast, lightly armored vehicle designed to provide fire support to thr infantry. Similar to its predecessor, the improvements to armor and weaponry (a laser autocannon and guided anti-tank missiles) makes it a versatile asset."
+      STR_KONKURS_AT_MISSILE_LAUNCHER: "9M113 Konkurs Missile Launcher"
+      STR_KONKURS_AT_MISSILE_LAUNCHER_UFOPEDIA: "Learning from the experience of the BMP in the '74 and the struggles penetrating the thick frontal armor of the enemy mechanized units, the Konkurs is specially designed to defeat alien ground vehicles."
 
 
 
