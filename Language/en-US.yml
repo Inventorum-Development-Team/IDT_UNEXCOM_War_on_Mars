@@ -1852,7 +1852,7 @@ en-US:
       STR_HEARTS_AND_MINDS_PROJECT_1: "Hearts and Minds Project I"
       STR_HEARTS_AND_MINDS_PROJECT_1_UFOPEDIA: "Based on the more 'civilized' interactions we had with the several alien races part of the Ethereal-led collective after the War, our xenopsychology specialists came with the proposal of approaching each race separately. Treating them as individuals, looking for their specific goals and trying to link said goals with ours.{NEWLINE}{NEWLINE}If we continue with this project, science staff will be deployed to the less aggressive alien settlements in order to arrange some form of diplomatic channels. This strategy was successfully used by the British Empire in the Malayan Emergency and we think we can use it as well."
       STR_HEARTS_AND_MINDS_PROJECT_2: "Hearts and Minds Project II"
-      STR_HEARTS_AND_MINDS_PROJECT_2_UFOPEDIA: "The xenobiologists at the Nosmpoht Center for Xenoscience proposed us a way we can counter the insurgency's local support: via missions to try to convince the aliens to forsake a war that already failed years ago and that we will leave them alone or find means to help them come out on top contrary to another side (like the insurgents') or otherwise help them with whatever they wish; the Sectoids will want dignified treatment contrary to the mistreatment they get under alien hands; the Floaters want to be able to roam space freely; the Mutons wish to be the new overlords of other martian territories once the Human Intervention conflict dies down. The Snakemen rebels seem indifferent. Cerebreals just seems to avoid the conflict. Reptoids appear to became extinct, as the last confirmed sight was several years ago. There are no reports of Chtonites in Mars. With this information in mind, our diplomatic staff can continue with the attempts at gaining the alien respectand eventually their collaboration."
+      STR_HEARTS_AND_MINDS_PROJECT_2_UFOPEDIA: "The xenobiologists at the Nosmpoht Center for Xenoscience proposed us a way we can counter the insurgency's local support: via missions to try to convince the aliens to forsake a war that already failed years ago and that we will leave them alone or find means to help them come out on top contrary to another side (like the insurgents') or otherwise help them with whatever they wish; the Sectoids will want dignified treatment contrary to the mistreatment they get under alien hands; the Floaters want to be able to roam space freely; the Mutons wish to be the new overlords of other martian territories once the 'Human Intervention' conflict dies down. The Snakemen rebels seem indifferent. Cerebreals just seems to avoid the conflict. Reptoids appear to became extinct, as the last confirmed sight was several years ago. There are no reports so far of Chtonites in Mars. With this information in mind, our diplomatic staff can continue with the attempts at gaining the alien respectand eventually their collaboration."
       STR_HEARTS_AND_MINDS_PROJECT_3: "Hearts and Minds Project III"
       STR_HEARTS_AND_MINDS_PROJECT_3_UFOPEDIA: "After several months of work, we have managed to adquiere the loyalty of some splinter factions. Most of them are opposed to the insurrection and many have lost territories, resources and manpower. We'll arm them with surplus equipment. However, this is a particularly controversial topic, as we don't entirely trust them to give them cutting-edge energy weaponry... but we need to give them a fighting chance. The allied factions may be summomed to the battlefield if we need them by using a 'Psionic Invoker', using a chip calibrated in the specific frequency of each alien group. They'll fight with us for the duration of the combat, then retire back."
       
@@ -2952,12 +2952,43 @@ en-US:
       STR_HEARTS_AND_MINDS_ARM_THE_MUTONS: "Hearts and Minds: Arm the Mutons"
       STR_HEARTS_AND_MINDS_ARM_THE_MUTONS_UFOPEDIA: "With our forces stretched thin and the Free Mutons proving themselves to be as reliable as we're going to get, the decision has been made to provide them with fabrication templates for an updated version of the venerable China Lake Laser Projector. Most of the components can be crafted by the small 3D printers ubiquitous in Secessionist Bunkers, it needs half the Laser Crystals of a comparable Alien Laser, and final assembly can be done with only some technical supervision. While it will make the Mutons much more threatening than if they were limited to classical Alien Lasers, the Governing Council believes that they will not turn on us without ample warning, which makes them far better than the Snakemen."
       STR_HEARTS_AND_MINDS_CLAD_THE_MUTONS: "Hearts and Minds: Clad the Mutons"
-      STR_HEARTS_AND_MINDS_CLAD_THE_MUTONS_UFOPEDIA: "Our contacts among the Free Mutons have glowing reviews of the Agrye Basin, but have shifted to pushing for protective measures. The Governing Council isn't about to give them armor, but was willing to instead offer schematics for an industrial stamping machine that can churn out over-armor plates like those on 'Armored Muton' outfit. They'll need some fitting afterwards, but overall effectiveness is close enough to the original, and our diplomats have wrangled out some long term territorial agreements. Considering the priority they were placing on it, they would have created an equivalent sooner than later, so at least this way we get something from it."
+      STR_HEARTS_AND_MINDS_CLAD_THE_MUTONS_UFOPEDIA: "Our contacts among the Free Mutons have glowing reviews of the Argyre Basin, but have shifted to pushing for protective measures. The Governing Council isn't about to give them armor, but was willing to instead offer schematics for an industrial stamping machine that can churn out over-armor plates like those on 'Armored Muton' outfit. They'll need some fitting afterwards, but overall effectiveness is close enough to the original, and our diplomats have wrangled out some long term territorial agreements. Considering the priority they were placing on it, they would have created an equivalent sooner than later, so at least this way we get something from it."
 
       STR_HEARTS_AND_MINDS_FEED_THE_SNAKEMEN: "Hearts and Minds: Feed the Snakemen"
       STR_HEARTS_AND_MINDS_FEED_THE_SNAKEMEN_UFOPEDIA: "The single largest factor holding the Snakemen back is logistics.  Simply put, they do not have enough food to freely mobilize their population, which is one of the reasons for their constant raids. Our forces are in possession of several 'nutri-gruel' factories, and while almost impalpable for human consumption the Snakemen eat it readily enough. It has taken several weeks to bring them back into operation, but there is enough 'base stock' present to keep them running for at least half a year, and in all likelihood the outcome of this war will be firmly decided by then. As these are the definition of consumable goods, the Governing Council does not believe that this will directly impact the long term state of affairs, but there is a high likelihood of it enabling them to make a nuisance of themselves in another manner."
       STR_HEARTS_AND_MINDS_WATCH_THE_SNAKEMEN: "Hearts and Minds: Watch the Snakemen"
       STR_HEARTS_AND_MINDS_WATCH_THE_SNAKEMEN_UFOPEDIA: "Much to nobody's particular surprise, the Free Snakemen have been going after the Ethereal's own nutri-gruel facilities, and it seems likely that they will capture a number of them. Observers we have attached to their raiding parties have gained several valuable insights into the Ethereals' logistics however, which has allowed us to start making more targeted strikes against their more critical depots. Next month Intel will assemble target lists for our assault teams to neutralize, which should throw Ethereal advances into chaos."
+      
+      STR_PSI_INVOKER: "Psi-Invoker"
+      STR_PSI_INVOKER_UFOPEDIA: "This device work by loading special chips and emitting psionic signals in the specific psi frequency used by each Free Alien race. The Invoker allows you to spawn one unit of the summoned alien in the next tile."
+      
+      STR_PSI_INVOKER_SECTOID_CHIP_MK1: "Psi-Inv Sectoid Chip Mk.1"
+      STR_PSI_INVOKER_SECTOID_CHIP_MK1_UFOPEDIA: "Up to 3 allied Free Sectoids armed with M17 Light Carbines will appear to support you in battle. Once the firefight is over, they'll retreat back to their base."
+      STR_PSI_INVOKER_SECTOID_CHIP_MK2: "Psi-Inv Sectoid Chip Mk.2"
+      STR_PSI_INVOKER_SECTOID_CHIP_MK2_UFOPEDIA: "Up to 4 allied Free Sectoids armed with M42A3 Alloy Carbines will appear to support you in battle. Once the firefight is over, they'll retreat back to their base."
+      STR_PSI_INVOKER_SECTOID_CHIP_MK3: "Psi-Inv Sectoid Chip Mk.1"
+      STR_PSI_INVOKER_SECTOID_CHIP_MK3_UFOPEDIA: "Up to 5 allied Free Sectoids armed with M52 Alloy Rifles will appear to support you in battle. Once the firefight is over, they'll retreat back to their base."
+      
+      STR_PSI_INVOKER_FLOATER_CHIP_MK1: "Psi-Inv Floater Chip Mk.1"
+      STR_PSI_INVOKER_FLOATER_CHIP_MK1_UFOPEDIA: "Up to 3 allied Free Floaters armed with G11-K1 Assault Rifles will appear to support you in battle. Once the firefight is over, they'll continue their pilgrimage."
+      STR_PSI_INVOKER_FLOATER_CHIP_MK2: "Psi-Inv Floater Chip Mk.2"
+      STR_PSI_INVOKER_FLOATER_CHIP_MK2_UFOPEDIA: "Up to 4 allied Free Floaters armed with G11-K1 Assault Rifles will appear to support you in battle. Once the firefight is over, they'll continue their pilgrimage."
+      STR_PSI_INVOKER_FLOATER_CHIP_MK3: "Psi-Inv Floater Chip Mk.3"
+      STR_PSI_INVOKER_FLOATER_CHIP_MK3_UFOPEDIA: "Up to 5 allied Free Floaters armed with will appear custom-made 'Magnetic Slugthrowers' to support you in battle. Once the firefight is over, they'll continue their pilgrimage."
+      
+      STR_PSI_INVOKER_MUTON_CHIP_MK1: "Psi-Inv Muton Chip Mk.1"
+      STR_PSI_INVOKER_MUTON_CHIP_MK1_UFOPEDIA: "Up to 2 allied Free Mutons armed with AK-79 Assault Rifles will appear to support you in battle. Once the firefight is over, they'll return to their territory."
+      STR_PSI_INVOKER_MUTON_CHIP_MK2: "Psi-Inv Muton Chip Mk.2"
+      STR_PSI_INVOKER_MUTON_CHIP_MK2_UFOPEDIA: "Up to 3 allied Free Mutons armed with Argyre Basin Laser Projectors will appear to support you in battle. Once the firefight is over, they'll return to their territory."
+      STR_PSI_INVOKER_MUTON_CHIP_MK3: "Psi-Inv Muton Chip Mk.3"
+      STR_PSI_INVOKER_MUTON_CHIP_MK3_UFOPEDIA: "Up to 4 allied Free Mutons armed with Argyre Basin Laser Projectors and Shock Armor will appear to support you in battle. Once the firefight is over, they'll return to their territory."
+      
+      STR_PSI_INVOKER_SNAKEMAN_CHIP_MK1: "Psi-Inv Snakeman Chip Mk.1"
+      STR_PSI_INVOKER_SNAKEMAN_CHIP_MK1_UFOPEDIA: "Up to 4 allied Free Snakemen armed with TKB-80 Special Rifles will appear to support you in battle. Once the firefight is over, they'll run straight to their hideouts."
+      STR_PSI_INVOKER_SNAKEMAN_CHIP_MK2: "Psi-Inv Snakeman Chip Mk.2"
+      STR_PSI_INVOKER_SNAKEMAN_CHIP_MK2_UFOPEDIA: "Up to 6 allied Free Snakemen armed with TKB-80 Special Rifles will appear to support you in battle. Once the firefight is over, they'll run straight to their hideouts."
+      STR_PSI_INVOKER_SNAKEMAN_CHIP_MK3: "Psi-Inv Snakeman Chip Mk.1"
+      STR_PSI_INVOKER_SNAKEMAN_CHIP_MK3_UFOPEDIA: "Up to 8 allied Free Snakemen armed with M120A2 Alloy Shotguns will appear to support you in battle. Once the firefight is over, they'll run straight to their hideouts."
 
 ###################
 ##### TANKS ######
@@ -3037,6 +3068,10 @@ en-US:
       
       STR_LEGIONNAIRE_TANK_ARMOR: "M22 Legionnaire Light Tank"
       STR_LEGIONNAIRE_TANK_ARMOR_UFOPEDIA: "The main UNEXCOM armored vehicle in the Martian Theater, now equipped with a modernized HDAP armor package and better optical sights"
+      STR_LEGIONNAIRE_LASER_CANNON: "LGM34-3H Laser Cannon"
+      STR_LEGIONNAIRE_LASER_CANNON_UFOPEDIA: "The 'Laser Gun, Model 34-3 Heavy Anti Tank Laser Cannon' has remained the main AT energy weapon since the '73 with minimal changes"
+      STR_LASER_CANNON_STANDARD_BATTERY: "Laser Cannon Standard Battery"
+      STR_LASER_CANNON_STANDARD_BATTERY_UFOPEDIA:
 
 
 
