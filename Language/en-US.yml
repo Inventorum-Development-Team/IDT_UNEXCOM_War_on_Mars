@@ -3064,24 +3064,26 @@ en-US:
       STR_T80_TANK_UFOPEDIA: "Debuting in 1979, the T-80 is the most advanced armored combat vehicle of the Soviet Union.  Broadly similar to the preceding T-64, its low hull is forged from Alien Alloys and is propelled by an electric hybrid turbine.  The switch of the primary weapon to a 125mm Gauss Cannon was widely celebrated by its crews, with the autoloader of the D-91TM proving to be horrifically vulnerable to plasma weapons and Blaster-guided missiles.  Additional features include coaxial and pintle mounted LUAO-81 Machine Lasers and smoke launchers.  The vehicles that have been sent to Mars have been fitted for use while wearing a spacesuit, with Soviet doctrine holding that it is unlikely that it would remain functional long enough for long term operability to be a serious issue."
       
       STR_BMP_2_TANK: "BMP-2"
-      STR_BMP_2_TANK_UFOPEDIA: "While revolutionary for its time, the BMP-1 would prove to have numerous failings during the war of 72 and the subsequent clean up operations, primarily due to its thin armor and inaccurate or difficult to use weapons.  The BMP-2 was developed to solve these issues, replacing the hull with one made of Alien Alloys and upgrading the weapons to modern lasers and semi-automatic missiles.  However, the design remains distinctly problematic for long term occupation, and the Mars-use conversion lacks atmospheric sealing, forcing its dismounts to remain suited at all times.  Most of those on the red planet are fitted as flatbed haulers, removing the infantry bay and turret assembly, but it would not take long to restore them."
+      STR_BMP_2_TANK_UFOPEDIA: "While revolutionary for its time, the BMP-1 would prove to have numerous failings during the War of '72 and the subsequent clean up operations, primarily due to its thin armor and inaccurate or difficult to use weapons.  The BMP-2 was developed to solve these issues, replacing the hull with one made of Alien Alloys and upgrading the weapons to modern lasers and semi-automatic missiles.  However, the design remains distinctly problematic for long term occupation, and the Mars-use conversion lacks atmospheric sealing, forcing its dismounts to remain suited at all times.  Most of those on the red planet are fitted as flatbed haulers, removing the infantry bay and turret assembly, but it would not take long to restore them."
       
       STR_LEGIONNAIRE_TANK_ARMOR: "M22 Legionnaire Light Tank"
-      STR_LEGIONNAIRE_TANK_ARMOR_UFOPEDIA: "The main UNEXCOM armored vehicle in the Martian Theater, now equipped with a modernized HDAP armor package and better optical sights"
+      STR_LEGIONNAIRE_TANK_ARMOR_UFOPEDIA: "The main UNEXCOM armored vehicle in the Martian Theater, now equipped with a modernized HDAP armor package and better optical sights."
       STR_LEGIONNAIRE_LASER_CANNON: "LGM34-3H Laser Cannon"
       STR_LEGIONNAIRE_LASER_CANNON_UFOPEDIA: "The 'Laser Gun, Model 34-3 Heavy Anti Tank Laser Cannon' has remained the main AT energy weapon since the '73 with minimal changes. Only the back heat radiators and the refraction lenses were adapted to fit the harsh cold desertic climate of Mars."
       STR_LASER_CANNON_STANDARD_BATTERY: "Laser Cannon Standard Battery"
       STR_LASER_CANNON_STANDARD_BATTERY_UFOPEDIA: "Regular Heavy-Duty battery used to power large laser guns. Balanced between energy consumption and damage output"
       
+      STR_ABRAMS_TANK_ARMOR: "M1 Abrams MBT"
+      STR_ABRAMS_TANK_ARMOR_UFOPEDIA: "The tip of the spear of US armored divisions in Earth, Moon and Mars"
       STR_BRADLEY_TANK_ARMOR: "M3 Bradley CFV"
-      STR_BRADLEY_TANK_ARMOR_UFOPEDIA: "Born due the need of highly maneuverable yet considerably armored support vehicle to keep up the pace of the MBT's advance. The M3 is a combat-focused variant of the Bradley family, with more ammo for the TSW missile launcher anf spare batteries for the Bushmaster LM298 Laser Autocannon."
+      STR_BRADLEY_TANK_ARMOR_UFOPEDIA: "Born due the need of highly maneuverable yet considerably armored support vehicle to keep up the pace of the MBT's advance. The M3 Cavalry Fighting Vehicle is the combat-focused variant of the Bradley family, with more ammo for the TSW missile launcher and spare batteries for the Bushmaster LM298 Laser Autocannon."
       STR_BUSHMASTER_LASER_AUTOCANNON: "LM298 Laser Autocannon"
       STR_BUSHMASTER_LASER_AUTOCANNON_UFOPEDIA: "Designed to be a middle ground between the infantry-based M4 Laser LMG and the larger Kodiak-derived cannons, the Bushmaster features a decent power output and enhanced refraction lenses for continued laser discharges. There was certain reticence of keeping the M242 25mm standard gun of the M2 Bradley, but eventually an energy weapon was selected to booster the M3's fighting capabilities."
       
       STR_BMP_2_TANK_ARMOR: "BMP-2 IFV"
       STR_BMP_2_TANK_ARMOR_UFOPEDIA: "Fast, lightly armored vehicle designed to provide fire support to thr infantry. Similar to its predecessor, the improvements to armor and weaponry (a laser autocannon and guided anti-tank missiles) makes it a versatile asset."
       STR_KONKURS_AT_MISSILE_LAUNCHER: "9M113 Konkurs Missile Launcher"
-      STR_KONKURS_AT_MISSILE_LAUNCHER_UFOPEDIA: "Learning from the experience of the BMP in the '74 and the struggles penetrating the thick frontal armor of the enemy mechanized units, the Konkurs is specially designed to defeat alien ground vehicles."
+      STR_KONKURS_AT_MISSILE_LAUNCHER_UFOPEDIA: "Learning from the experience of the BMP in the '74 and the struggles penetrating the thick frontal armor of the enemy mechanized units, the Konkurs is specially designed to defeat Alien-alloyed alien ground vehicles."
 
 
 
