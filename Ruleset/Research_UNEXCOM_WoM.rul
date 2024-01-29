@@ -731,7 +731,7 @@ research:
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
 
-  - name: STR_HEARTS_AND_MINDS_CEREBREAL_1
+  - name: STR_HEARTS_AND_MINDS_CEREBREALS
     cost: 150
     points: 200
     dependencies:
@@ -764,7 +764,7 @@ research:
     cost: 150
     points: 200
     dependencies:
-      - STR_HEARTS_AND_MINDS_CEREBREAL_1
+      - STR_HEARTS_AND_MINDS_CEREBREALS
     getOneFree:
       - STR_STORY_REPORT_2
       - STR_STORY_REPORT_3
@@ -1446,10 +1446,7 @@ research:
     cost: 0
     points: 1
     needItem: true
-  - name: STR_DATABASE_REPAIR
-    cost: 0
-    points: 1
-    needItem: true
+
   - name: STR_CRAFT_PROPULSION_OVERVIEW
     cost: 0
     points: 1
@@ -1768,10 +1765,6 @@ research:
     points: 1
     needItem: true
   - name: STR_HEARTS_AND_MINDS_CHTONITE_3
-    cost: 0
-    points: 1
-    needItem: true
-  - name: STR_HEARTS_AND_MINDS_CEREBREAL_2
     cost: 0
     points: 1
     needItem: true
