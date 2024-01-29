@@ -3048,7 +3048,7 @@ en-US:
       STR_ARTILLERY_MARS: "Artillery on Mars"
       STR_ARTILLERY_MARS_UFOPEDIA: "As sad as it is, Mars is not a theater suitable for massed artillery.  They are one of the most logistically intense military branches, and we simply don’t have the shipping or local production capacity to keep them fed.  If we need that level of firepower, Mars’ thin atmosphere makes orbital bombardment easily doable via lasers, and if we need something REALLY dead they can drop a fusion head or two on it.  That being said, a lot of the various detachments have self propelled mortar carriers for immediate support, so there’s still the chance of seeing some nice sized booms."
 
-# Allied Tanke      
+# Allied Tank      
       STR_ABRAMS_TANK: "M1 Abrams"
       STR_ABRAMS_TANK_UFOPEDIA: "Entering production in 1980, the M1 Abrams is the most powerful known MBT.  Built from the group up using Alien Alloys and powered by electric hybrid-turbine, it is fast and extremely durable.  Its primary armament is a 120mm Mass Driver, chosen over an energy weapon for munition flexibility and maximum effective range.  Supporting this is a co-axial M250 Gatling Laser and a choice of pintle mount, with smoke dischargers scattered across the vehicle.  Unlike other MBTs, its alien-derived life support systems did not need any modification to handle the Martian atmosphere, making them easy to convert"
       
@@ -3086,6 +3086,16 @@ en-US:
       STR_KONKURS_AT_MISSILE_LAUNCHER: "9M113 Konkurs Missile Launcher"
       STR_KONKURS_AT_MISSILE_LAUNCHER_UFOPEDIA: "Learning from the experience of the BMP in the '74 and the struggles penetrating the thick frontal armor of the enemy mechanized units, the Konkurs is specially designed to defeat Alien-alloyed alien ground vehicles."
 
-
+####### Missing Stuff
+      STR_OPERATIONAL: "INFORMATION REPORT"
+      STR_DIPLOMATIC: "DIPLOMACY STATUS"
+      STR_STRATEGIC: "STRATEGY INFO"
+      STR_SECESSIONIST_LORE: "MARS SECESSIONIST LORE"
+      STR_TACTICAL: "TACTICAL OVERVIEW"
+      STR_DATABASE_REPAIR: "Database Repair"
+      STR_DATABASE_REPAIR_REPORT_UFOPEDIA: "This info requires special information."
+      STR_AIRSTRIKES: "Aerospace Strikes"
+      STR_AIRSTRIKES_UFOPEDIA: Calling aerosapce strikes can prove more area damage in a limited ammo.
+      STR_BREACHER_SHUTTLE: "ST84 BREACHER"
 
       
