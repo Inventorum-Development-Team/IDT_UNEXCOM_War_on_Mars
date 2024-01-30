@@ -136,6 +136,12 @@ startingBase:
       x: 2
       y: 3
 
+  transfers:
+    - hours: 12
+      scientists: 8
+    - hours: 12
+      engineers: 8
+
   randomSoldiers:
     STR_UNEXCOM_LEGIONARY: 8
     STR_ASTRONAUT: 2

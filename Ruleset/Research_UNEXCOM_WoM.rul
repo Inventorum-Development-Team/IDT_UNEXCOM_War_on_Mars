@@ -12,23 +12,23 @@ research:
 
   - name: STR_ACT_1_TRIGGER
     cost: 0
-    needItem: true
+    needItem: false
     unlocks:
       - STR_ACT_1_PEDIA  
   - name: STR_ACT_1_PEDIA
     cost: 0
-    needItem: true
+    needItem: false
     requires:
       - STR_ACT_1_TRIGGER
 
   - name: STR_ACT_2_TRIGGER
     cost: 0
-    needItem: true
+    needItem: false
     unlocks:
       - STR_ACT_2_PEDIA
   - name: STR_ACT_2_PEDIA
     cost: 0
-    needItem: true
+    needItem: false
     requires:
       - STR_ACT_2_TRIGGER
     disables:
@@ -36,12 +36,12 @@ research:
 
   - name: STR_ACT_3_TRIGGER
     cost: 0
-    needItem: true
+    needItem: false
     unlocks:
       - STR_ACT_3_PEDIA  
   - name: STR_ACT_3_PEDIA
     cost: 0
-    needItem: true
+    needItem: false
     requires:
       - STR_ACT_3_TRIGGER
     disables:
