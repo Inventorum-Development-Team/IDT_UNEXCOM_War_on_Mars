@@ -18,32 +18,28 @@ research:
   - name: STR_ACT_1_PEDIA
     cost: 0
     needItem: false
-    requires:
+    dependencies:
       - STR_ACT_1_TRIGGER
 
   - name: STR_ACT_2_TRIGGER
     cost: 0
-    needItem: false
+    needItem: true
     unlocks:
       - STR_ACT_2_PEDIA
   - name: STR_ACT_2_PEDIA
     cost: 0
-    needItem: false
-    requires:
-      - STR_ACT_2_TRIGGER
+    needItem: true
     disables:
       - STR_ACT_1_PEDIA
 
   - name: STR_ACT_3_TRIGGER
     cost: 0
-    needItem: false
+    needItem: true
     unlocks:
       - STR_ACT_3_PEDIA  
   - name: STR_ACT_3_PEDIA
     cost: 0
-    needItem: false
-    requires:
-      - STR_ACT_3_TRIGGER
+    needItem: true
     disables:
       - STR_ACT_2_PEDIA
 

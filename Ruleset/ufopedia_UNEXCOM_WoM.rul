@@ -107,7 +107,131 @@ ufopaedia:
   - delete: STR_AVENGER
   - delete: STR_THE_MARTIAN_SOLUTION
   - delete: STR_CYDONIA_OR_BUST
+  - delete: STR_SKYRANGER
+  - delete: STR_LIGHTNING
+  - delete: STR_AVENGER
+  - delete: STR_INTERCEPTOR
+  - delete: STR_FIRESTORM
+  - delete: STR_STINGRAY
+  - delete: STR_AVALANCHE
+  - delete: STR_CANNON_UC
+  - delete: STR_FUSION_BALL_UC
+  - delete: STR_LASER_CANNON_UC
+  - delete: STR_PLASMA_BEAM_UC
+  - delete: STR_TANK_CANNON
+  - delete: STR_TANK_ROCKET_LAUNCHER
+  - delete: STR_TANK_LASER_CANNON
+  - delete: STR_HOVERTANK_PLASMA
+  - delete: STR_HOVERTANK_LAUNCHER
+  - delete: STR_PERSONAL_ARMOR_UC
+  - delete: STR_PISTOL
+  - delete: STR_PISTOL_CLIP
+  - delete: STR_RIFLE
+  - delete: STR_RIFLE_CLIP
+  - delete: STR_HEAVY_CANNON
+  - delete: STR_HC_AP_AMMO
+  - delete: STR_HC_HE_AMMO
+  - delete: STR_HC_I_AMMO
+  - delete: STR_AUTO_CANNON
+  - delete: STR_AC_AP_AMMO
+  - delete: STR_AC_HE_AMMO
+  - delete: STR_AC_I_AMMO
+  - delete: STR_ROCKET_LAUNCHER
+  - delete: STR_SMALL_ROCKETE
+  - delete: STR_LARGE_ROCKET
+  - delete: STR_INCENDIARY_ROCKET
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - delete: STR_GRENADE
+  - delete: STR_SMOKE_GRENADE
+  - delete: STR_PROXIMITY_GRENADE
+  - delete: STR_HIGH_EXPLOSIVE
+  - delete: STR_MOTION_SCANNER
+  - delete: STR_MEDI_KIT
+  - delete: STR_PSI_AMP
+  - delete: STR_STUN_ROD
+  - delete: STR_ELECTRO_FLARE
+  - delete: STR_HEAVY_PLASMA
+  - delete: STR_HEAVY_PLASMA_CLIP
+  - delete: STR_PLASMA_RIFLE
   - delete: STR_PLASMA_RIFLE_CLIP
+  - delete: STR_PLASMA_PISTOL
+  - delete: STR_PLASMA_PISTOL_CLIP
+  - delete: STR_BLASTER_LAUNCHER
+  - delete: STR_BLASTER_BOMB
+  - delete: STR_SMALL_LAUNCHER
+  - delete: STR_STUN_BOMB
+  - delete: STR_ALIEN_GRENADE
+  - delete: STR_ELERIUM_115
+  - delete: STR_MIND_PROBE
+  - delete: STR_ACCESS_LIFT
+  - delete: STR_LIVING_QUARTERS
+  - delete: STR_LABORATORY
+  - delete: STR_WORKSHOP
+  - delete: STR_SMALL_RADAR_SYSTEM
+  - delete: STR_LARGE_RADAR_SYSTEM
+  - delete: STR_MISSILE_DEFENSES
+  - delete: STR_GENERAL_STORES
+  - delete: STR_ALIEN_CONTAINMENT
+  - delete: STR_LASER_DEFENSES
+  - delete: STR_PLASMA_DEFENSES
+  - delete: STR_FUSION_BALL_DEFENSES
+  - delete: STR_GRAV_SHIELD
+  - delete: STR_MIND_SHIELD
+  - delete: STR_PSIONIC_LABORATORY
+  - delete: STR_HYPER_WAVE_DECODER
+  - delete: STR_HANGAR
+  - delete: STR_SECTOID
+  - delete: STR_SECTOID_AUTOPSY
+  - delete: STR_SNAKEMAN
+  - delete: STR_SNAKEMAN_AUTOPSY
+  - delete: STR_ETHEREAL
+  - delete: STR_ETHEREAL_AUTOPSY
+  - delete: STR_MUTON
+  - delete: STR_MUTON_AUTOPSY
+  - delete: STR_FLOATER
+  - delete: STR_FLOATER_AUTOPSY
+  - delete: STR_CELATID
+  - delete: STR_CELATID_AUTOPSY
+  - delete: STR_SILACOID
+  - delete: STR_SILACOID_AUTOPSY
+  - delete: STR_CHRYSSALID
+  - delete: STR_CHRYSSALID_AUTOPSY
+  - delete: STR_REAPER
+  - delete: STR_REAPER_AUTOPSY
+  - delete: STR_SECTOPOD
+  - delete: STR_SECTOPOD_AUTOPSY
+  - delete: STR_CYBERDISC
+  - delete: STR_CYBERDISC_AUTOPSY
+  - delete: STR_ALIEN_ORIGINS
+  - delete: STR_THE_MARTIAN_SOLUTION
+  - delete: STR_CYDONIA_OR_BUST
+  - delete: STR_ALIEN_RESEARCH
+  - delete: STR_ALIEN_HARVEST
+  - delete: STR_ALIEN_ABDUCTION
+  - delete: STR_ALIEN_INFILTRATION
+  - delete: STR_ALIEN_BASE
+  - delete: STR_ALIEN_TERROR
+  - delete: STR_ALIEN_RETALIATION
+  - delete: STR_ALIEN_SUPPLY
+  - delete: STR_UFO_POWER_SOURCE
+  - delete: STR_UFO_NAVIGATION
+  - delete: STR_UFO_CONSTRUCTION
+  - delete: STR_ALIEN_FOOD
+  - delete: STR_ALIEN_REPRODUCTION
+  - delete: STR_ALIEN_ENTERTAINMENT
+  - delete: STR_ALIEN_SURGERY
+  - delete: STR_EXAMINATION_ROOM
+  - delete: STR_ALIEN_ALLOYS
+  - delete: STR_SMALL_SCOUT
+  - delete: STR_MEDIUM_SCOUT
+  - delete: STR_LARGE_SCOUT
+  - delete: STR_HARVESTER
+  - delete: STR_ABDUCTOR
+  - delete: STR_TERROR_SHIP
+  - delete: STR_BATTLESHIP
+  - delete: STR_SUPPLY_SHIP
 
 ########################################
 ########### COMMENDATIONS ##############
@@ -115,7 +239,7 @@ ufopaedia:
 
   - id: STR_MEDALS_AND_AWARDS
     type_id: 8
-    listOrder: 1
+    #listOrder: 1
     text: STR_MEDALS_AND_AWARDS_UFOPEDIA
     section: STR_MEDALS_AND_AWARDS_UC
 
@@ -125,70 +249,70 @@ ufopaedia:
     section: STR_MEDALS_AND_AWARDS_UC
     image_id: MEDAL_SERVICE_IMAGE
     text: STR_MEDAL_SERVICE_UFOPEDIA
-    listOrder: 10
+    #listOrder: 10
     text_width: 180
   - id: STR_MEDAL_NATION_GRATITUDE
     type_id: 7
     section: STR_MEDALS_AND_AWARDS_UC
     image_id: MEDAL_NATION_GRATITUDE_IMAGE
     text: STR_MEDAL_NATION_GRATITUDE_UFOPEDIA
-    listOrder: 11
+    #listOrder: 11
     text_width: 180
   - id: STR_MEDAL_COMBAT_MEDIC
     type_id: 7
     section: STR_MEDALS_AND_AWARDS_UC
     image_id: MEDAL_COMBAT_MEDIC_IMAGE
     text: STR_MEDAL_COMBAT_MEDIC_UFOPEDIA
-    listOrder: 12
+    #listOrder: 12
     text_width: 180
   - id: STR_MEDAL_PURPLE_HEART
     type_id: 7
     section: STR_MEDALS_AND_AWARDS_UC
     image_id: MEDAL_PURPLE_HEART_IMAGE
     text: STR_MEDAL_PURPLE_HEART_UFOPEDIA
-    listOrder: 13
+    #listOrder: 13
     text_width: 180
   - id: STR_MEDAL_VALIANT_CRUX
     type_id: 7
     section: STR_MEDALS_AND_AWARDS_UC
     image_id: MEDAL_VALIANT_CRUX_IMAGE
     text: STR_MEDAL_VALIANT_CRUX_UFOPEDIA
-    listOrder: 14
+    #listOrder: 14
     text_width: 180
   - id: STR_MEDAL_FIELD_SUPPORT
     type_id: 7
     section: STR_MEDALS_AND_AWARDS_UC
     image_id: MEDAL_FIELD_SUPPORT_IMAGE
     text: STR_MEDAL_FIELD_SUPPORT_UFOPEDIA
-    listOrder: 15
+    #listOrder: 15
     text_width: 180
   - id: STR_MEDAL_DISTINGUISHED_SERVICE
     type_id: 7
     section: STR_MEDALS_AND_AWARDS_UC
     image_id: MEDAL_DISTINGUISHED_SERVICE_IMAGE
     text: STR_MEDAL_DISTINGUISHED_SERVICE_UFOPEDIA
-    listOrder: 16
+    #listOrder: 16
     text_width: 180
   - id: STR_MEDAL_EXEMPLARY_SERVICE
     type_id: 7
     section: STR_MEDALS_AND_AWARDS_UC
     image_id: MEDAL_EXEMPLARY_SERVICE_IMAGE
     text: STR_MEDAL_EXEMPLARY_SERVICE_UFOPEDIA
-    listOrder: 17
+    #listOrder: 17
     text_width: 180
   - id: STR_MEDAL_FALLEN_HERO
     type_id: 7
     section: STR_MEDALS_AND_AWARDS_UC
     image_id: MEDAL_FALLEN_HERO_IMAGE
     text: STR_MEDAL_FALLEN_HERO_UFOPEDIA
-    listOrder: 18
+    #listOrder: 18
     text_width: 180
   - id: STR_MEDAL_ENEMY_CRAFT_SPECIALIST
     type_id: 7
     section: STR_MEDALS_AND_AWARDS_UC
     image_id: MEDAL_ENEMY_CRAFT_SPECIALIST_IMAGE
     text: STR_MEDAL_ENEMY_CRAFT_SPECIALIST_UFOPEDIA
-    listOrder: 19
+    #listOrder: 19
     text_width: 180
   - id: STR_MEDAL_NIGHT_STALKER
     type_id: 7
@@ -322,21 +446,21 @@ ufopaedia:
     requires:
       - STR_ACT_1_PEDIA
     text: STR_SECTOR_POLITICAL_REPORT_1_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_SECTOR_POLITICAL_REPORT_2
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_2_PEDIA
     text: STR_SECTOR_POLITICAL_REPORT_2_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_SECTOR_POLITICAL_REPORT_3
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_3_PEDIA
     text: STR_SECTOR_POLITICAL_REPORT_3_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
 
   - id: STR_MANUFACTURING_REPORT_1
     type_id: 8
@@ -344,21 +468,21 @@ ufopaedia:
     requires:
       - STR_ACT_1_PEDIA
     text: STR_MANUFACTURING_REPORT_1_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_MANUFACTURING_REPORT_2
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_2_PEDIA
     text: STR_MANUFACTURING_REPORT_2_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_MANUFACTURING_REPORT_3
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_3_PEDIA
     text: STR_MANUFACTURING_REPORT_3_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
     
   - id: STR_MINING_REPORT_1
     type_id: 8
@@ -366,21 +490,21 @@ ufopaedia:
     requires:
       - STR_ACT_1_PEDIA
     text: STR_MINING_REPORT_1_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_MINING_REPORT_2
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_2_PEDIA
     text: STR_MINING_REPORT_2_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_MINING_REPORT_3
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_3_PEDIA
     text: STR_MINING_REPORT_3_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
 
   - id: STR_UNEXCOM_PERSONNEL_REPORT_1
     type_id: 8
@@ -388,21 +512,21 @@ ufopaedia:
     requires:
       - STR_ACT_1_PEDIA
     text: STR_UNEXCOM_PERSONNEL_REPORT_1_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_UNEXCOM_PERSONNEL_REPORT_2
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_2_PEDIA
-    text: STR_UNEXCOM_PERSONNEL_REPORT_2_UFOPEDIA
-    #listOrder: 1701
+    text: STR_UNEXCOM_PERSONEL_REPORT_2_UFOPEDIA
+    ##listOrder: 1701
   - id: STR_UNEXCOM_PERSONNEL_REPORT_3
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_3_PEDIA
-    text: STR_UNEXCOM_PERSONNEL_REPORT_3_UFOPEDIA
-    #listOrder: 1701
+    text: STR_UNEXCOM_PERSONEL_REPORT_3_UFOPEDIA
+    ##listOrder: 1701
 
   - id: STR_TROOP_HIRING_PROPOSAL_1
     type_id: 8
@@ -410,21 +534,21 @@ ufopaedia:
     requires:
       - STR_ACT_1_PEDIA
     text: STR_TROOP_HIRING_PROPOSAL_1_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_TROOP_HIRING_PROPOSAL_2
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_2_PEDIA
     text: STR_TROOP_HIRING_PROPOSAL_2_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_TROOP_HIRING_PROPOSAL_3
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_3_PEDIA
     text: STR_TROOP_HIRING_PROPOSAL_3_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
 
   - id: STR_PERSONAL_EQUIPMENT_PROCUREMENT_1
     type_id: 8
@@ -432,21 +556,21 @@ ufopaedia:
     requires:
       - STR_ACT_1_PEDIA
     text: STR_PERSONAL_EQUIPMENT_PROCUREMENT_1_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_PERSONAL_EQUIPMENT_PROCUREMENT_2
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_2_PEDIA
     text: STR_PERSONAL_EQUIPMENT_PROCUREMENT_2_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_PERSONAL_EQUIPMENT_PROCUREMENT_3
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_3_PEDIA
     text: STR_PERSONAL_EQUIPMENT_PROCUREMENT_3_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
 
   - id: STR_MARS_ORBITAL_REPORT_1
     type_id: 8
@@ -454,21 +578,21 @@ ufopaedia:
     requires:
       - STR_ACT_1_PEDIA
     text: STR_MARS_ORBITAL_REPORT_1_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_MARS_ORBITAL_REPORT_2
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_2_PEDIA
     text: STR_MARS_ORBITAL_REPORT_2_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_MARS_ORBITAL_REPORT_3
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_3_PEDIA
     text: STR_MARS_ORBITAL_REPORT_3_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
 
   - id: STR_BATTLEGROUP_LENINGRAD_REPORT_1
     type_id: 8
@@ -476,21 +600,21 @@ ufopaedia:
     requires:
       - STR_ACT_1_PEDIA
     text: STR_BATTLEGROUP_LENINGRAD_REPORT_1_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_BATTLEGROUP_LENINGRAD_REPORT_2
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_2_PEDIA
     text: STR_BATTLEGROUP_LENINGRAD_REPORT_2_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_BATTLEGROUP_LENINGRAD_REPORT_3
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_3_PEDIA
     text: STR_BATTLEGROUP_LENINGRAD_REPORT_3_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
 
   - id: STR_CRAFT_WEAPONS_REPORT_1
     type_id: 8
@@ -498,21 +622,21 @@ ufopaedia:
     requires:
       - STR_ACT_1_PEDIA
     text: STR_CRAFT_WEAPONS_REPORT_1_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_CRAFT_WEAPONS_REPORT_2
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_2_PEDIA
     text: STR_CRAFT_WEAPONS_REPORT_2_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_CRAFT_WEAPONS_REPORT_3
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_3_PEDIA
     text: STR_CRAFT_WEAPONS_REPORT_3_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
 
   - id: STR_MARTIAN_ATMOSPHERIC_CRAFT_REPORT_1
     type_id: 8
@@ -520,21 +644,21 @@ ufopaedia:
     requires:
       - STR_ACT_1_PEDIA
     text: STR_MARTIAN_ATMOSPHERIC_CRAFT_REPORT_1_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_MARTIAN_ATMOSPHERIC_CRAFT_REPORT_2
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_2_PEDIA
     text: STR_MARTIAN_ATMOSPHERIC_CRAFT_REPORT_2_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_MARTIAN_ATMOSPHERIC_CRAFT_REPORT_3
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_3_PEDIA
     text: STR_MARTIAN_ATMOSPHERIC_CRAFT_REPORT_3_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
 
   - id: STR_TRANSPORT_CRAFT_REPORT_1
     type_id: 8
@@ -542,21 +666,21 @@ ufopaedia:
     requires:
       - STR_ACT_1_PEDIA
     text: STR_TRANSPORT_CRAFT_REPORT_1_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_TRANSPORT_CRAFT_REPORT_2
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_2_PEDIA
     text: STR_TRANSPORT_CRAFT_REPORT_2_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_TRANSPORT_CRAFT_REPORT_3
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_3_PEDIA
     text: STR_TRANSPORT_CRAFT_REPORT_3_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
 
   - id: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_REPORT_1
     type_id: 8
@@ -564,21 +688,21 @@ ufopaedia:
     requires:
       - STR_ACT_1_PEDIA
     text: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_REPORT_1_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_REPORT_2
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_2_PEDIA
     text: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_REPORT_2_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_REPORT_3
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_3_PEDIA
     text: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_REPORT_3_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
 
   - id: STR_EXOATMOSPHERIC_CRAFT_REPORT_1
     type_id: 8
@@ -586,21 +710,21 @@ ufopaedia:
     requires:
       - STR_ACT_1_PEDIA
     text: STR_EXOATMOSPHERIC_CRAFT_REPORT_1_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_EXOATMOSPHERIC_CRAFT_REPORT_2
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_2_PEDIA
     text: STR_EXOATMOSPHERIC_CRAFT_REPORT_2_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_EXOATMOSPHERIC_CRAFT_REPORT_3
     type_id: 8
     section: STR_STRATEGIC
     requires:
       - STR_ACT_3_PEDIA
     text: STR_EXOATMOSPHERIC_CRAFT_REPORT_3_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
 
 ###############################
 
@@ -610,11 +734,11 @@ ufopaedia:
     requires:
       - STR_DATABASE_REPAIR
     text: STR_DATABASE_REPAIR_REPORT_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
 
   - id: STR_ELERIUM_115
     section: STR_OPERATIONAL
-    listOrder: 1699
+    #listOrder: 1699
 
   - id: STR_STORY_REPORT_1
     type_id: 8
@@ -622,7 +746,7 @@ ufopaedia:
     #requires:
       #- STR_STORY_REPORT_1
     text: STR_STORY_REPORT_1_UFOPEDIA
-    listOrder: 1700
+    #listOrder: 1700
 
   - id: STR_STORY_REPORT_2
     type_id: 8
@@ -630,7 +754,7 @@ ufopaedia:
     requires:
       - STR_STORY_REPORT_2
     text: STR_STORY_REPORT_2_UFOPEDIA
-    listOrder: 1701
+    #listOrder: 1701
 
   - id: STR_STORY_REPORT_3
     type_id: 8
@@ -638,7 +762,7 @@ ufopaedia:
     requires:
       - STR_STORY_REPORT_3
     text: STR_STORY_REPORT_3_UFOPEDIA
-    listOrder: 1702
+    #listOrder: 1702
 
   - id: STR_STORY_REPORT_4
     type_id: 8
@@ -646,7 +770,7 @@ ufopaedia:
     requires:
       - STR_STORY_REPORT_4
     text: STR_STORY_REPORT_4_UFOPEDIA
-    listOrder: 1703
+    #listOrder: 1703
 
   - id: STR_STORY_REPORT_5
     type_id: 8
@@ -654,7 +778,7 @@ ufopaedia:
     requires:
       - STR_STORY_REPORT_5
     text: STR_STORY_REPORT_5_UFOPEDIA
-    listOrder: 1704
+    #listOrder: 1704
 
   - id: STR_STORY_REPORT_6
     type_id: 8
@@ -662,7 +786,7 @@ ufopaedia:
     requires:
       - STR_STORY_REPORT_6
     text: STR_STORY_REPORT_6_UFOPEDIA
-    listOrder: 1705
+    #listOrder: 1705
 
   - id: STR_STORY_REPORT_7
     type_id: 8
@@ -670,7 +794,7 @@ ufopaedia:
     requires:
       - STR_STORY_REPORT_7
     text: STR_STORY_REPORT_7_UFOPEDIA
-    listOrder: 1706
+    #listOrder: 1706
 
   - id: STR_STORY_REPORT_8
     type_id: 8
@@ -678,7 +802,7 @@ ufopaedia:
     requires:
       - STR_STORY_REPORT_8
     text: STR_STORY_REPORT_8_UFOPEDIA
-    listOrder: 1707
+    #listOrder: 1707
 
   - id: STR_STORY_REPORT_9
     type_id: 8
@@ -686,7 +810,7 @@ ufopaedia:
     requires:
       - STR_STORY_REPORT_9
     text: STR_STORY_REPORT_9_UFOPEDIA
-    listOrder: 1708
+    #listOrder: 1708
 
   - id: STR_MARS_ORBITAL_DEFENSE_REPORT
     type_id: 8
@@ -694,7 +818,7 @@ ufopaedia:
     #requires:
      # - STR_MARS_ORBITAL_DEFENSE_REPORT
     text: STR_MARS_ORBITAL_DEFENSE_REPORT_UFOPEDIA
-    listOrder: 1710
+    #listOrder: 1710
 
   - id: STR_UNEXCOM_MARS_DEPLOYMENT_REPORT
     type_id: 8
@@ -702,7 +826,7 @@ ufopaedia:
     #requires:
     #  - STR_UNEXCOM_MARS_DEPLOYMENT_REPORT
     text: STR_UNEXCOM_MARS_DEPLOYMENT_REPORT_UFOPEDIA
-    listOrder: 1715
+    #listOrder: 1715
 
   - id: STR_FACTIONS_REPORT_USSF_1
     type_id: 8
@@ -710,14 +834,14 @@ ufopaedia:
     requires:
       - STR_FACTIONS_REPORT_USSF
     text: STR_FACTIONS_REPORT_USSF_1_UFOPEDIA
-    listOrder: 1716
+    #listOrder: 1716
   - id: STR_FACTIONS_REPORT_USSF_2
     type_id: 8
     section: STR_OPERATIONAL
     requires:
       - STR_FACTIONS_REPORT_USSF
     text: STR_FACTIONS_REPORT_USSF_2_UFOPEDIA
-    listOrder: 1717
+    #listOrder: 1717
 
   - id: STR_FACTIONS_REPORT_NASA_1
     type_id: 8
@@ -725,7 +849,7 @@ ufopaedia:
     requires:
       - STR_FACTIONS_REPORT_NASA
     text: STR_FACTIONS_REPORT_NASA_1_UFOPEDIA
-    listOrder: 1718
+    #listOrder: 1718
 
   - id: STR_FACTIONS_REPORT_NASA_2
     type_id: 8
@@ -733,7 +857,7 @@ ufopaedia:
     requires:
       - STR_FACTIONS_REPORT_NASA
     text: STR_FACTIONS_REPORT_NASA_2_UFOPEDIA
-    listOrder: 1719
+    #listOrder: 1719
 
   - id: STR_FACTIONS_REPORT_UASCNAT_1
     type_id: 8
@@ -741,7 +865,7 @@ ufopaedia:
     requires:
       - STR_FACTIONS_REPORT_UASCNAT
     text: STR_FACTIONS_REPORT_UASCNAT_UFOPEDIA_1
-    listOrder: 1720
+    #listOrder: 1720
 
   - id: STR_FACTIONS_REPORT_UASCNAT_2
     type_id: 8
@@ -749,7 +873,7 @@ ufopaedia:
     requires:
       - STR_FACTIONS_REPORT_UASCNAT
     text: STR_FACTIONS_REPORT_UASCNAT_UFOPEDIA_2
-    listOrder: 1721
+    #listOrder: 1721
 
   - id: STR_FACTIONS_REPORT_ESA_1
     type_id: 8
@@ -757,7 +881,7 @@ ufopaedia:
     requires:
       - STR_FACTIONS_REPORT_ESA
     text: STR_FACTIONS_REPORT_ESA_1_UFOPEDIA
-    listOrder: 1722
+    #listOrder: 1722
 
   - id: STR_FACTIONS_REPORT_ESA_2
     type_id: 8
@@ -765,7 +889,7 @@ ufopaedia:
     requires:
       - STR_FACTIONS_REPORT_ESA
     text: STR_FACTIONS_REPORT_ESA_2_UFOPEDIA
-    listOrder: 1723
+    #listOrder: 1723
 
   - id: STR_FACTIONS_REPORT_VKS_1
     type_id: 8
@@ -773,7 +897,7 @@ ufopaedia:
     requires:
       - STR_FACTIONS_REPORT_VKS
     text: STR_FACTIONS_REPORT_VKS_UFOPEDIA_1
-    listOrder: 1724
+    #listOrder: 1724
 
   - id: STR_FACTIONS_REPORT_VKS_2
     type_id: 8
@@ -781,7 +905,7 @@ ufopaedia:
     requires:
       - STR_FACTIONS_REPORT_VKS
     text: STR_FACTIONS_REPORT_VKS_UFOPEDIA_2
-    listOrder: 1725
+    #listOrder: 1725
 
   - id: STR_FACTIONS_REPORT_INTERKOSMOS_1
     type_id: 8
@@ -789,7 +913,7 @@ ufopaedia:
     requires:
       - STR_FACTIONS_REPORT_INTERKOSMOS
     text: STR_FACTIONS_REPORT_INTERKOSMOS_1_UFOPEDIA
-    listOrder: 1726
+    #listOrder: 1726
 
   #- id: STR_FACTIONS_REPORT_INTERKOSMOS_2
    # type_id: 8
@@ -797,7 +921,7 @@ ufopaedia:
    # requires:
    #   - STR_FACTIONS_REPORT_INTERKOSMOS
    # text: STR_FACTIONS_REPORT_INTERKOSMOS_2_UFOPEDIA
-   # listOrder: 1727
+   # #listOrder: 1727
 
   - id: STR_SOVIET_PSIONIC_CORPS_REPORT_1
     type_id: 8
@@ -805,7 +929,7 @@ ufopaedia:
     requires:
       - STR_SOVIET_PSIONIC_CORPS_REPORT_1
     text: STR_SOVIET_PSIONIC_CORPS_REPORT_1_UFOPEDIA
-    listOrder: 1730
+    #listOrder: 1730
 
   - id: STR_NATO_CYBORG_OPERATORS_REPORT_1
     type_id: 8
@@ -813,7 +937,7 @@ ufopaedia:
     requires:
       - STR_NATO_CYBORG_OPERATORS_REPORT_1
     text: STR_NATO_CYBORG_OPERATORS_REPORT_1_UFOPEDIA
-    listOrder: 1740
+    #listOrder: 1740
 
   - id: STR_NATO_CYBORG_OPERATORS_REPORT_2
     type_id: 8
@@ -821,7 +945,7 @@ ufopaedia:
     requires:
       - STR_NATO_CYBORG_OPERATORS_REPORT_2
     text: STR_NATO_CYBORG_OPERATORS_REPORT_2_UFOPEDIA
-    listOrder: 1741
+    #listOrder: 1741
 
 ###################
 
@@ -833,7 +957,7 @@ ufopaedia:
     requires:
       - STR_ETHEREAL_INSURGENCY_REPORT_1
     text: STR_ETHEREAL_INSURGENCY_REPORT_1_UFOPEDIA
-    listOrder: 1750
+    #listOrder: 1750
 
   - id: STR_ETHEREAL_INSURGENCY_REPORT_2
     type_id: 8
@@ -841,7 +965,7 @@ ufopaedia:
     requires:
       - STR_ETHEREAL_INSURGENCY_REPORT_2
     text: STR_ETHEREAL_INSURGENCY_REPORT_2_UFOPEDIA
-    listOrder: 1751
+    #listOrder: 1751
 
   - id: STR_ETHEREAL_INSURGENCY_REPORT_3
     type_id: 8
@@ -849,42 +973,42 @@ ufopaedia:
     requires:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
     text: STR_ETHEREAL_INSURGENCY_REPORT_3_UFOPEDIA
-    listOrder: 1752
+    #listOrder: 1752
   - id: STR_ETHEREAL_INSURGENCY_LOYALIST_CLONES
     type_id: 8
     section: STR_DIPLOMATIC
     requires:
       - STR_ETHEREAL_INSURGENCY_LOYALIST_CLONES
     text: STR_ETHEREAL_INSURGENCY_LOYALIST_CLONES_UFOPEDIA
-    listOrder: 1753
+    #listOrder: 1753
   - id: STR_ETHEREAL_INSURGENCY_CHRYSALID_PROBLEM
     type_id: 8
     section: STR_DIPLOMATIC
     requires:
       - STR_ETHEREAL_INSURGENCY_CHRYSALID_PROBLEM
     text: STR_ETHEREAL_INSURGENCY_CHRYSALID_PROBLEM_UFOPEDIA
-    listOrder: 1754
+    #listOrder: 1754
   - id: STR_ETHEREAL_INSURGENCY_PSYCHOLOGY
     type_id: 8
     section: STR_DIPLOMATIC
     requires:
       - STR_ETHEREAL_INSURGENCY_PSYCHOLOGY
     text: STR_ETHEREAL_INSURGENCY_PSYCHOLOGY_UFOPEDIA
-    listOrder: 1755
+    #listOrder: 1755
   - id: STR_ETHEREAL_INSURGENCY_POST_BRAIN
     type_id: 8
     section: STR_DIPLOMATIC
     requires:
       - STR_ETHEREAL_INSURGENCY_POST_BRAIN
     text: STR_ETHEREAL_INSURGENCY_POST_BRAIN_UFOPEDIA
-    listOrder: 1756
+    #listOrder: 1756
   - id: STR_ETHEREAL_ORIGINS
     type_id: 8
     section: STR_DIPLOMATIC
     requires:
       - STR_ETHEREAL_ORIGINS
     text: STR_ETHEREAL_ORIGINS_UFOPEDIA
-    listOrder: 1757
+    #listOrder: 1757
 
 ############
 ### Hearts and Minds 
@@ -895,7 +1019,7 @@ ufopaedia:
     requires:
       - STR_HEARTS_AND_MINDS_PROJECT_1
     text: STR_HEARTS_AND_MINDS_PROJECT_1_UFOPEDIA
-    listOrder: 1760
+    #listOrder: 1760
 
   - id: STR_HEARTS_AND_MINDS_PROJECT_2
     type_id: 8
@@ -903,7 +1027,7 @@ ufopaedia:
     requires:
       - STR_HEARTS_AND_MINDS_PROJECT_2
     text: STR_HEARTS_AND_MINDS_PROJECT_2_UFOPEDIA
-    listOrder: 1770
+    #listOrder: 1770
 
   - id: STR_HEARTS_AND_MINDS_PROJECT_3
     type_id: 8
@@ -911,7 +1035,7 @@ ufopaedia:
     requires:
       - STR_HEARTS_AND_MINDS_PROJECT_3
     text: STR_HEARTS_AND_MINDS_PROJECT_3_UFOPEDIA
-    listOrder: 1780
+    #listOrder: 1780
 
   - id: STR_HEARTS_AND_MINDS_SECTOIDS_1
     type_id: 8
@@ -919,21 +1043,21 @@ ufopaedia:
     requires:
       - STR_HEARTS_AND_MINDS_SECTOIDS
     text: STR_HEARTS_AND_MINDS_SECTOIDS_1_UFOPEDIA
-    listOrder: 1781
+    #listOrder: 1781
   - id: STR_HEARTS_AND_MINDS_SECTOIDS_2
     type_id: 8
     section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_SECTOIDS
     text: STR_HEARTS_AND_MINDS_SECTOIDS_2_UFOPEDIA
-    listOrder: 1782
+    #listOrder: 1782
   - id: STR_HEARTS_AND_MINDS_SECTOIDS_3
     type_id: 8
     section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_SECTOIDS_3
     text: STR_HEARTS_AND_MINDS_SECTOIDS_3_UFOPEDIA
-    listOrder: 1783
+    #listOrder: 1783
     
   - id: STR_HEARTS_AND_MINDS_FLOATERS_1
     type_id: 8
@@ -941,21 +1065,21 @@ ufopaedia:
     requires:
       - STR_HEARTS_AND_MINDS_FLOATERS
     text: STR_HEARTS_AND_MINDS_FLOATERS_1_UFOPEDIA
-    listOrder: 1790
+    #listOrder: 1790
   - id: STR_HEARTS_AND_MINDS_FLOATERS_2
     type_id: 8
     section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_FLOATERS
     text: STR_HEARTS_AND_MINDS_FLOATERS_2_UFOPEDIA
-    listOrder: 1791
+    #listOrder: 1791
   - id: STR_HEARTS_AND_MINDS_FLOATERS_3
     type_id: 8
     section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_FLOATER_3
     text: STR_HEARTS_AND_MINDS_FLOATERS_3_UFOPEDIA
-    listOrder: 1792
+    #listOrder: 1792
   
   - id: STR_HEARTS_AND_MINDS_MUTONS_1
     type_id: 8
@@ -963,21 +1087,21 @@ ufopaedia:
     requires:
       - STR_HEARTS_AND_MINDS_MUTONS
     text: STR_HEARTS_AND_MINDS_MUTONS_1_UFOPEDIA
-    listOrder: 1800
+    #listOrder: 1800
   - id: STR_HEARTS_AND_MINDS_MUTONS_2
     type_id: 8
     section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_MUTONS
     text: STR_HEARTS_AND_MINDS_MUTONS_2_UFOPEDIA
-    listOrder: 1801
+    #listOrder: 1801
   - id: STR_HEARTS_AND_MINDS_MUTONS_3
     type_id: 8
     section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_MUTONS_3
     text: STR_HEARTS_AND_MINDS_MUTONS_3_UFOPEDIA
-    listOrder: 1802
+    #listOrder: 1802
 
   - id: STR_HEARTS_AND_MINDS_SNAKEMEN_1
     type_id: 8
@@ -985,21 +1109,21 @@ ufopaedia:
     requires:
       - STR_HEARTS_AND_MINDS_SNAKEMEN
     text: STR_HEARTS_AND_MINDS_SNAKEMEN_1_UFOPEDIA
-    listOrder: 1810
+    #listOrder: 1810
   - id: STR_HEARTS_AND_MINDS_SNAKEMEN_2
     type_id: 8
     section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_SNAKEMEN
     text: STR_HEARTS_AND_MINDS_SNAKEMEN_2_UFOPEDIA
-    listOrder: 1811
+    #listOrder: 1811
   - id: STR_HEARTS_AND_MINDS_SNAKEMEN_3
     type_id: 8
     section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_SNAKEMEN_3
     text: STR_HEARTS_AND_MINDS_SNAKEMEN_3_UFOPEDIA
-    listOrder: 1812
+    #listOrder: 1812
     
   - id: STR_HEARTS_AND_MINDS_CEREBREAL_1
     type_id: 8
@@ -1007,21 +1131,21 @@ ufopaedia:
     requires:
       - STR_HEARTS_AND_MINDS_CEREBREAL
     text: STR_HEARTS_AND_MINDS_CEREBREAL_1_UFOPEDIA
-    listOrder: 1820
+    #listOrder: 1820
   - id: STR_HEARTS_AND_MINDS_CEREBREAL_2
     type_id: 8
     section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_CEREBREAL_2
     text: STR_HEARTS_AND_MINDS_CEREBREAL_2_UFOPEDIA
-    listOrder: 1821
+    #listOrder: 1821
   - id: STR_HEARTS_AND_MINDS_CEREBREAL_3
     type_id: 8
     section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_CEREBREAL
     text: STR_HEARTS_AND_MINDS_CEREBREAL_3_UFOPEDIA
-    listOrder: 1822
+    #listOrder: 1822
 
   - id: STR_HEARTS_AND_MINDS_CHTONITE_1
     type_id: 8
@@ -1029,21 +1153,21 @@ ufopaedia:
     requires:
       - STR_HEARTS_AND_MINDS_CHTONITE_1
     text: STR_HEARTS_AND_MINDS_CHTONITE_1_UFOPEDIA
-    listOrder: 1830
+    #listOrder: 1830
   - id: STR_HEARTS_AND_MINDS_CHTONITE_2
     type_id: 8
     section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_CHTONITE_2
     text: STR_HEARTS_AND_MINDS_CHTONITE_2_UFOPEDIA
-    listOrder: 1831
+    #listOrder: 1831
   - id: STR_HEARTS_AND_MINDS_CHTONITE_3
     type_id: 8
     section: STR_DIPLOMATIC
     requires:
       - STR_HEARTS_AND_MINDS_CHTONITE_3
     text: STR_HEARTS_AND_MINDS_CHTONITE_3_UFOPEDIA
-    listOrder: 1832
+    #listOrder: 1832
 
 #Racial Engagement Projects
   - id: STR_HEARTS_AND_MINDS_OLD_SCHOOL_BALSITICS
@@ -1122,35 +1246,35 @@ ufopaedia:
     requires:
       - STR_SECESSIONIST_HIDEOUTS
     text: STR_SECESSIONIST_HIDEOUTS_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_SECESSIONIST_RESOURCES
     type_id: 8
     section: STR_SECESSIONIST_LORE
     requires:
       - STR_SECESSIONIST_RESOURCES
     text: STR_SECESSIONIST_RESOURCES_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_SECESSIONIST_POPULATION
     type_id: 8
     section: STR_SECESSIONIST_LORE
     requires:
       - STR_SECESSIONIST_POPULATION
     text: STR_SECESSIONIST_POPULATION_UFOPEDIA
-    #listOrder: 1701    
+    ##listOrder: 1701    
   - id: STR_SECESSIONIST_PROTECTION
     type_id: 8
     section: STR_SECESSIONIST_LORE
     requires:
       - STR_SECESSIONIST_PROTECTION
     text: STR_SECESSIONIST_PROTECTION_UFOPEDIA
-    #listOrder: 1701 
+    ##listOrder: 1701 
   - id: STR_SECESSIONIST_ALIEN_WEAPONRY
     type_id: 8
     section: STR_SECESSIONIST_LORE
     requires:
       - STR_SECESSIONIST_ALIEN_WEAPONRY
     text: STR_SECESSIONIST_ALIEN_WEAPONRY_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
 
   - id: STR_SECESSIONIST_WEAPON_PREFERENCES
     type_id: 8
@@ -1158,28 +1282,28 @@ ufopaedia:
     requires:
       - STR_SECESSIONIST_WEAPON_PREFERENCES
     text: STR_SECESSIONIST_WEAPON_PREFERENCES_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_SECESSIONIST_SECTOID_NICHE
     type_id: 8
     section: STR_SECESSIONIST_LORE
     requires:
       - STR_SECESSIONIST_SECTOID_NICHE
     text: STR_SECESSIONIST_SECTOID_NICHE_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_SECESSIONIST_SECTOID_TECHNOLOGY
     type_id: 8
     section: STR_SECESSIONIST_LORE
     requires:
       - STR_SECESSIONIST_SECTOID_TECHNOLOGY
     text: STR_SECESSIONIST_SECTOID_TECHNOLOGY_UFOPEDIA
-    #listOrder: 1701 
+    ##listOrder: 1701 
   - id: STR_SECESSIONIST_CYBERDISCS
     type_id: 8
     section: STR_SECESSIONIST_LORE
     requires:
       - STR_SECESSIONIST_CYBERDISCS
     text: STR_SECESSIONIST_FLOATER_TECHNOLOGY_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
 
   - id: STR_SECESSIONIST_FLOATER_NICHE
     type_id: 8
@@ -1187,7 +1311,7 @@ ufopaedia:
     requires:
       - STR_SECESSIONIST_FLOATER_NICHE
     text: STR_SECESSIONIST_FLOATER_NICHE_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
     
   - id: STR_SECESSIONIST_FLOATER_TECHNOLOGY
     type_id: 8
@@ -1195,7 +1319,7 @@ ufopaedia:
     requires:
       - STR_SECESSIONIST_FLOATER_TECHNOLOGY
     text: STR_SECESSIONIST_FLOATER_TECHNOLOGY_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
 
   - id: STR_SECESSIONIST_BALLANCE_OF_TERROR
     type_id: 8
@@ -1203,7 +1327,7 @@ ufopaedia:
     requires:
       - STR_SECESSIONIST_BALLANCE_OF_TERROR
     text: STR_SECESSIONIST_BALLANCE_OF_TERROR_UFOPEDIA
-    #listOrder: 1701    
+    ##listOrder: 1701    
 
   - id: STR_SECESSIONIST_MUTONS_VS_SNAKEMEN
     type_id: 8
@@ -1211,21 +1335,21 @@ ufopaedia:
     requires:
       - STR_SECESSIONIST_MUTONS_VS_SNAKEMEN
     text: STR_SECESSIONIST_MUTONS_VS_SNAKEMEN_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_SECESSIONIST_SNAKEMAN_TERROR
     type_id: 8
     section: STR_SECESSIONIST_LORE
     requires:
       - STR_SECESSIONIST_SNAKEMAN_TERROR
     text: STR_SECESSIONIST_SNAKEMAN_TERROR_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_CRYSALID_LEGACY
     type_id: 8
     section: STR_SECESSIONIST_LORE
     requires:
       - STR_CRYSALID_LEGACY
     text: STR_CRYSALID_LEGACY_UFOPEDIA
-    #listOrder: 1701    
+    ##listOrder: 1701    
 ##############################
 #Weapons
 
@@ -2349,7 +2473,7 @@ ufopaedia:
   - id: STR_SABRE
     section: STR_XCOM_CRAFTS
     text: STR_SABRE_UFOPAEDIA
-    listOrder: 114
+    #listOrder: 114
     image_id: SABRE_UFOPEDIA
     type_id: 1
     rect_stats:
@@ -2368,7 +2492,7 @@ ufopaedia:
     text: STR_DYNASOAR_UFOPAEDIA
     requires:
       - STR_USA_SUPPORT_RESEARCH
-    listOrder: 115
+    #listOrder: 115
     image_id: DYNASOAR_UFOPEDIA
     type_id: 1
     rect_stats:
@@ -2387,7 +2511,7 @@ ufopaedia:
     text: STR_MIG_105_UFOPAEDIA
     requires:
       - STR_USSR_SUPPORT_RESEARCH
-    listOrder: 116
+    #listOrder: 116
     image_id: SPIRAL_UFOPEDIA
     type_id: 1
     rect_stats:
@@ -2403,7 +2527,7 @@ ufopaedia:
 
   - id: STR_BOMBERS
     type_id: 8
-    listOrder: 150
+    #listOrder: 150
     text: STR_BOMBERS_UFOPEDIA
     section: STR_XCOM_CRAFTS
 
@@ -2477,14 +2601,14 @@ ufopaedia:
 
   - id: STR_LASER_ARRAY_UC
     type_id: 2
-    listOrder: 1004
+    #listOrder: 1004
     section: STR_CRAFT_ARMAMENT
     image_id: APOLLO
     text: STR_APOLLO_LASER_GATLING_UFOPEDIA
 
   - id: STR_ZEUS
     section: STR_CRAFT_ARMAMENT
-    listOrder: 1005
+    #listOrder: 1005
     image_id: ZEUS_PLASMA_GATLING
     type_id: 2
     text: STR_ZEUS_UFOPAEDIA
@@ -2494,105 +2618,105 @@ ufopaedia:
     section: STR_CRAFT_ARMAMENT
     image_id: KODIAK
     text: STR_KODIAK_LASER_CANNON_UFOPEDIA
-    listOrder: 1104
+    #listOrder: 1104
 
   - id: STR_VOSTOK_PLASMA_CANNON
     section: STR_CRAFT_ARMAMENT
     image_id: VOSTOK_PLASMA_CANNON
     type_id: 2
     text: STR_VOSTOK_PLASMA_CANNON_UFOPAEDIA
-    listOrder: 1105
+    #listOrder: 1105
 
   - id: STR_GORGON_ROCKETS
     section: STR_CRAFT_ARMAMENT
     image_id: GORGON_FUSSION_ROCKET_POD
     type_id: 2
     text: STR_GORGON_ROCKETS_UFOPAEDIA
-    listOrder: 1203
+    #listOrder: 1203
 
   - id: STR_KRAKEN_ROCKETS
     section: STR_CRAFT_ARMAMENT
     image_id: HYDRA
     type_id: 2
     text: STR_KRAKEN_ROCKETS_UFOPAEDIA
-    listOrder: 1204
+    #listOrder: 1204
 
   - id: STR_LONGSWORD_FUSION_MISSILE
     section: STR_CRAFT_ARMAMENT
     image_id: LONGSWORD_FUSION_LIGHT_MISSILE
     type_id: 2
     text: STR_LONGSWORD_FUSION_MISSILE_UFOPAEDIA
-    listOrder: 1305
+    #listOrder: 1305
 
   - id: STR_EXCALIBUR_LIGHT_MISSILE
     section: STR_CRAFT_ARMAMENT
     image_id: SHORTSWORD
     type_id: 2
     text: STR_EXCALIBUR_LIGHT_MISSILE_UFOPAEDIA
-    listOrder: 1306
+    #listOrder: 1306
 
   - id: STR_KATANA
     section: STR_CRAFT_ARMAMENT
     image_id: KATANA_FUSION_HEAVY_MISSILE
     type_id: 2
     text: STR_KATANA_UFOPAEDIA
-    listOrder: 1405
+    #listOrder: 1405
 
   - id: STR_MJOLNIR
     section: STR_CRAFT_ARMAMENT
     image_id: HAMMER
     type_id: 2
     text: STR_MJOLNIR_UFOPAEDIA
-    listOrder: 1406
+    #listOrder: 1406
 
   - id: STR_KONDOR
     section: STR_CRAFT_ARMAMENT
     image_id: KONDOR_FUSION_SUPER_HEAVY_MISSILE
     type_id: 2
     text: STR_KONDOR_UFOPAEDIA
-    listOrder: 1504
+    #listOrder: 1504
 
   - id: STR_CASABA_SPIKE
     section: STR_CRAFT_ARMAMENT
     image_id: CASABA_HOWITZER
     type_id: 2
     text: STR_CASABA_SPIKE_UFOPAEDIA
-    listOrder: 1505
+    #listOrder: 1505
 
   - id: STR_CASABA_LANCE
     section: STR_CRAFT_ARMAMENT
     image_id: CASABA_HOWITZER_IMPROVED
     type_id: 2
     text: STR_CASABA_LANCE_UFOPAEDIA
-    listOrder: 1506
+    #listOrder: 1506
 
   - id: STR_FUEL_TANK_UC
     type_id: 2
     section: STR_CRAFT_ARMAMENT
     image_id: FUEL_TANK
     text: STR_FUEL_TANK_UFOPEDIA
-    listOrder: 1601
+    #listOrder: 1601
 
   - id: STR_AFTERBURNER_UC
     type_id: 2
     section: STR_CRAFT_ARMAMENT
     image_id: AFTERBURNER
     text: STR_AFTERBURNER_UFOPEDIA
-    listOrder: 1602
+    #listOrder: 1602
 
   - id: STR_TARGETING_POD_UC
     type_id: 2
     section: STR_CRAFT_ARMAMENT
     image_id: TARGETING_POD
     text: STR_TARGETING_POD_UFOPEDIA
-    listOrder: 1603
+    #listOrder: 1603
 
   - id: STR_ALLOY_CRAFT_ARMOR_UC
     type_id: 2
     section: STR_CRAFT_ARMAMENT
     image_id: ALLOY_CRAFT_ARMOR
     text: STR_ALLOY_CRAFT_ARMOR_UFOPEDIA
-    listOrder: 1604
+    #listOrder: 1604
 
 ###########
     
@@ -2602,14 +2726,14 @@ ufopaedia:
     requires:
       - STR_MEDICAL_OVERVIEW
     text: STR_MEDICAL_OVERVIEW_REPORT_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_CLONING_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_CLONING_OVERVIEW
     text: STR_CLONING_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
 
   - id: STR_LUNAR_OVERVIEW
     type_id: 8
@@ -2617,21 +2741,21 @@ ufopaedia:
     requires:
       - STR_LUNAR_OVERVIEW
     text: STR_LUNAR_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_SPACE_LAUNCH_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_SPACE_LAUNCH_OVERVIEW
     text: STR_SPACE_LAUNCH_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_CRAFT_FUEL_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_CRAFT_FUEL_OVERVIEW
     text: STR_CRAFT_FUEL_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
     
   - id: STR_CRAFT_PROPULSION_OVERVIEW
     type_id: 8
@@ -2639,7 +2763,7 @@ ufopaedia:
     requires:
       - STR_CRAFT_PROPULSION_OVERVIEW
     text: STR_STR_CRAFT_PROPULSION_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
 
   - id: STR_SURFACE_WARSHIPS
     type_id: 8
@@ -2647,7 +2771,7 @@ ufopaedia:
     requires:
       - STR_SURFACE_WARSHIPS
     text: STR_SURFACE_WARSHIPS_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
     
   - id: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_1
     type_id: 8
@@ -2655,21 +2779,21 @@ ufopaedia:
     requires:
       - STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_1
     text: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_1_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_2
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_2
     text: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_2_UFOPEDIA
-    #listOrder: 1701    
+    ##listOrder: 1701    
   - id: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_3
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_3
     text: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_3_UFOPEDIA
-    #listOrder: 1701    
+    ##listOrder: 1701    
     
   - id: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_1
     type_id: 8
@@ -2677,21 +2801,21 @@ ufopaedia:
     requires:
       - STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_1
     text: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_1_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_2
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_2
     text: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_2_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_3
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_3
     text: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_3_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
     
   - id: STR_MARTIAN_ATMOSPHERIC_CRAFT_OVERVIEW
     type_id: 8
@@ -2699,7 +2823,7 @@ ufopaedia:
     requires:
       - STR_MARTIAN_ATMOSPHERIC_CRAFT_OVERVIEW
     text: STR_MARTIAN_ATMOSPHERIC_CRAFT_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
 
   - id: STR_HARRIER_OVERVIEW
     type_id: 8
@@ -2707,28 +2831,28 @@ ufopaedia:
     requires:
       - STR_HARRIER_OVERVIEW
     text: STR_HARRIER_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_FORGER_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_FORGER_OVERVIEW
     text: STR_FORGER_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_WARTHOG_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_WARTHOG_OVERVIEW
     text: STR_WARTHOG_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_FROGFOOT_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_FROGFOOT_OVERVIEW
     text: STR_FROGFOOT_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
     
   - id: STR_TRANSPORT_CRAFT_OVERVIEW
     type_id: 8
@@ -2736,28 +2860,28 @@ ufopaedia:
     requires:
       - STR_TRANSPORT_CRAFT_OVERVIEW
     text: STR_TRANSPORT_CRAFT_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_VKS_SHUTTLE_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_VKS_SHUTTLE_OVERVIEW
     text: STR_VKS_SHUTTLE_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_VKS_ARMOR_SHUTTLE_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_VKS_ARMOR_SHUTTLE_OVERVIEW
     text: STR_VKS_ARMOR_SHUTTLE_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_MARS_HEAVY_LIFTER_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_MARS_HEAVY_LIFTER_OVERVIEW
     text: STR_MARS_HEAVY_LIFTER_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
     
   - id: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_1
     type_id: 8
@@ -2765,28 +2889,28 @@ ufopaedia:
     requires:
       - STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_1
     text: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_1_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_2
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_2
     text: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_2_UFOPEDIA
-    #listOrder: 1701 
+    ##listOrder: 1701 
   - id: STR_SABRE_1_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_SABRE_1_OVERVIEW
     text: STR_SABRE_1_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_SABRE_2_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_SABRE_2_OVERVIEW
     text: STR_SABRE_2_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
     
   - id: STR_EXOATMOSPHERIC_CRAFT_OVERVIEW
     type_id: 8
@@ -2794,28 +2918,28 @@ ufopaedia:
     requires:
       - STR_EXOATMOSPHERIC_CRAFT_OVERVIEW
     text: STR_EXOATMOSPHERIC_CRAFT_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_DYNASOAR_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_DYNASOAR_OVERVIEW
     text: STR_DYNASOAR_OVERVIEW_UFOPEDIA
-    #listOrder: 1701    
+    ##listOrder: 1701    
   - id: STR_HERMES_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_HERMES_OVERVIEW
     text: STR_HERMES_OVERVIEW_UFOPEDIA
-    #listOrder: 1701 
+    ##listOrder: 1701 
   - id: STR_MIG_105_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_MIG_105_OVERVIEW
     text: STR_MIG_105_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
 
   - id: STR_CRAFT_WEAPONS_OVERVIEW
     type_id: 8
@@ -2823,105 +2947,105 @@ ufopaedia:
     requires:
       - STR_CRAFT_WEAPONS_OVERVIEW
     text: STR_STR_CRAFT_WEAPONS_OVERVIEW_UFOPEDIA
-    #listOrder: 1701    
+    ##listOrder: 1701    
   - id: STR_APOLLO_LASER_GATLING_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_APOLLO_LASER_GATLING_OVERVIEW
     text: STR_APOLLO_LASER_GATLING_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_KODIAK_LASER_CANNON_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_KODIAK_LASER_CANNON_OVERVIEW
     text: STR_KODIAK_LASER_CANNON_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_LONGSWORD_FUSION_MISSILE_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_LONGSWORD_FUSION_MISSILE_OVERVIEW
     text: STR_LONGSWORD_FUSION_MISSILE_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_KATANA_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_KATANA_OVERVIEW
     text: STR_KATANA_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_ADLER_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_ADLER_OVERVIEW
     text: STR_ADLER_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_CASABA_SPIKE_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_CASABA_SPIKE_OVERVIEW
     text: STR_CASABA_SPIKE_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_GORGON_ROCKETS_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_GORGON_ROCKETS_OVERVIEW
     text: STR_GORGON_ROCKETS_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_ZEUS_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_ZEUS_OVERVIEW
     text: STR_ZEUS_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_VOSTOK_PLASMA_CANNON_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_VOSTOK_PLASMA_CANNON_OVERVIEW
     text: STR_VOSTOK_PLASMA_CANNON_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_EXCALIBUR_LIGHT_MISSILE_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_EXCALIBUR_LIGHT_MISSILE_OVERVIEW
     text: STR_EXCALIBUR_LIGHT_MISSILE_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_MJOLNIR_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_MJOLNIR_OVERVIEW
     text: STR_MJOLNIR_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_KONDOR_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_KONDOR_OVERVIEW
     text: STR_KONDOR_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_CASABA_LANCE_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_CASABA_LANCE_OVERVIEW
     text: STR_CASABA_LANCE_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
   - id: STR_KRAKEN_ROCKETS_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_KRAKEN_ROCKETS_OVERVIEW
     text: STR_KRAKEN_ROCKETS_OVERVIEW_UFOPEDIA
-    #listOrder: 1701
+    ##listOrder: 1701
 
 #############
 
@@ -2933,35 +3057,35 @@ ufopaedia:
     requires:
       - STR_ALIEN_LASERS
     text: STR_ALIEN_LASERS_UFOPEDIA
-    listOrder: 11990
+    #listOrder: 11990
   - id: STR_ALIEN_LASER_PISTOL
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_ALIEN_LASER_PISTOL
     text: STR_ALIEN_LASER_PISTOL_UFOPEDIA
-    listOrder: 11991
+    #listOrder: 11991
   - id: STR_ALIEN_LASER_RIFLE
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     text: STR_ALIEN_LASER_RIFLE_UFOPEDIA
     requires:
       - STR_ALIEN_LASER_RIFLE
-    listOrder: 11992
+    #listOrder: 11992
   - id: STR_ALIEN_HEAVY_LASER
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     text: STR_ALIEN_HEAVY_LASER_UFOPEDIA
     requires:
       - STR_ALIEN_HEAVY_LASER
-    listOrder: 11993
+    #listOrder: 11993
   - id: STR_ALIEN_CRYSTAL
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     text: STR_ALIEN_CRYSTAL_UFOPEDIA
     requires:
       - STR_ALIEN_LASERS
-    listOrder: 11993
+    #listOrder: 11993
 
   - id: STR_ALIEN_LASER_PISTOL_BATTERY
     type_id: 4
@@ -2979,109 +3103,109 @@ ufopaedia:
     requires:
       - STR_ALIEN_PLASMA_WEAPONS
     text: STR_ALIEN_PLASMA_WEAPONS_UFOPEDIA
-    listOrder: 12000
+    #listOrder: 12000
   - id: STR_PLASMA_PISTOL
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_PLASMA_PISTOL
     text: STR_PLASMA_PISTOL_UFOPEDIA
-    listOrder: 12001
+    #listOrder: 12001
   - id: STR_PLASMA_PISTOL_CLIP
     type_id: 4
     section: STR_AMMUNITION
     text: ...
-    listOrder: 12002
+    #listOrder: 12002
   - id: STR_PLASMA_CASTER
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_PLASMA_CASTER
     text: STR_PLASMA_CASTER_UFOPEDIA
-    listOrder: 12003
+    #listOrder: 12003
   - id: STR_PLASMA_CASTER_CLIP
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_PLASMA_CASTER_CLIP
     text: STR_PLASMA_CASTER_CLIP_UFOPEDIA
-    listOrder: 12004
+    #listOrder: 12004
   - id: STR_PLASMA_RIFLE
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_PLASMA_RIFLE
     text: STR_PLASMA_RIFLE_UFOPEDIA
-    listOrder: 12005
+    #listOrder: 12005
   #- id: STR_PLASMA_RIFLE_CLIP
   #  type_id: 4
   #  section: STR_AMMUNITION
   #  text: ...
-  #  listOrder: 12006
+  #  #listOrder: 12006
   - id: STR_PLASMA_RIFLE_CLIP
     type_id: 4
     section: STR_AMMUNITION
     requires:
       - STR_PLASMA_RIFLE_CLIP
     text: STR_PLASMA_RIFLE_CLIP_UFOPEDIA
-    listOrder: 12006
+    #listOrder: 12006
   - id: STR_PLASMA_SNIPER_RIFLE
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_PLASMA_SNIPER_RIFLE
     text: STR_PLASMA_SNIPER_RIFLE_UFOPEDIA
-    listOrder: 12007
+    #listOrder: 12007
   - id: STR_PLASMA_SNIPER_RIFLE_CLIP
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_PLASMA_SNIPER_RIFLE_CLIP
     text: STR_PLASMA_SNIPER_RIFLE_CLIP_UFOPEDIA
-    listOrder: 12008
+    #listOrder: 12008
   - id: STR_HEAVY_PLASMA
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_HEAVY_PLASMA
     text: STR_HEAVY_PLASMA_UFOPEDIA
-    listOrder: 12009
+    #listOrder: 12009
   - id: STR_HEAVY_PLASMA_CLIP
     type_id: 4
     section: STR_AMMUNITION
     text: ...
-    listOrder: 12010
+    #listOrder: 12010
   - id: STR_PLASMA_BLASTER
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_PLASMA_BLASTER
     text: STR_PLASMA_BLASTER_UFOPEDIA
-    listOrder: 12011
+    #listOrder: 12011
   - id: STR_PLASMA_BLASTER_CLIP
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_PLASMA_BLASTER_CLIP
     text: STR_PLASMA_BLASTER_CLIP_UFOPEDIA
-    listOrder: 12012
+    #listOrder: 12012
   - id: STR_TOXIGUN
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_TOXIGUN
     text: STR_TOXIGUN_UFOPEDIA
-    listOrder: 12013
+    #listOrder: 12013
   - id: STR_TOXIGUN_FLASK
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     requires:
       - STR_TOXIGUN_FLASK
     text: STR_TOXIGUN_FLASK_UFOPEDIA
-    listOrder: 12014
+    #listOrder: 12014
   - id: STR_SMALL_LAUNCHER
     section: STR_ALIEN_EQUIPMENT
-    listOrder: 12015
+    #listOrder: 12015
   - id: STR_ELERIUM_BOMB
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
@@ -3089,7 +3213,7 @@ ufopaedia:
       - STR_SMALL_LAUNCHER
       - STR_ALIEN_PLASMA_WEAPONS
     text: STR_ELERIUM_BOMB_UFOPEDIA
-    listOrder: 12016
+    #listOrder: 12016
   - id: STR_STUN_BOMB
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
@@ -3101,22 +3225,22 @@ ufopaedia:
   - id: STR_ACID_BOMB
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
-    listOrder: 12017
+    #listOrder: 12017
     requires:
       - STR_SMALL_LAUNCHER
       - STR_ALIEN_PLASMA_WEAPONS
     text: STR_ACID_BOMB_UFOPEDIA
   - id: STR_BLASTER_LAUNCHER
     section: STR_ALIEN_EQUIPMENT
-    listOrder: 12018
+    #listOrder: 12018
 
   - id: STR_BLASTER_BOMB
     section: STR_ALIEN_EQUIPMENT
-    listOrder: 12019
+    #listOrder: 12019
 
   - id: STR_ALIEN_GRENADE
     section: STR_ALIEN_EQUIPMENT
-    listOrder: 12020
+    #listOrder: 12020
 
   - id: STR_ALIEN_CEPHALOPOD_TISSUE
     type_id: 4
@@ -3124,21 +3248,21 @@ ufopaedia:
     text: STR_ALIEN_CEPHALOPOD_TISSUE_UFOPEDIA
     requires:
       - STR_FUSION_WEAPONS_RESEARCH
-    listOrder: 12100
+    #listOrder: 12100
   - id: STR_FUSION_HANDGUN
     requires:
       - STR_FUSION_HANDGUN
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     text: STR_FUSION_HANDGUN_UFOPEDIA
-    listOrder: 12101
+    #listOrder: 12101
   - id: STR_FUSION_SMG
     requires:
       - STR_FUSION_SMG
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     text: STR_FUSION_SMG_UFOPEDIA
-    listOrder: 12102
+    #listOrder: 12102
   - id: STR_FUSION_POWER_CELL_LIGHT
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -3148,14 +3272,14 @@ ufopaedia:
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     text: STR_FUSION_RIFLE_UFOPEDIA
-    listOrder: 12103
+    #listOrder: 12103
   - id: STR_FUSION_SNIPER
     requires:
       - STR_FUSION_SNIPER
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     text: STR_FUSION_SNIPER_UFOPEDIA
-    listOrder: 12104
+    #listOrder: 12104
   - id: STR_FUSION_POWER_CELL_HEAVY
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -3165,7 +3289,7 @@ ufopaedia:
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     text: STR_FUSION_SPLITTER_UFOPEDIA
-    listOrder: 12105
+    #listOrder: 12105
   - id: STR_FUSION_POWER_CELL_HUGE
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -3175,27 +3299,27 @@ ufopaedia:
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     text: STR_FUSION_LANCE_UFOPEDIA
-    listOrder: 12106
+    #listOrder: 12106
   - id: STR_ETHEREAL_NOBLE_SWORD
     requires:
       - STR_ETHEREAL_NOBLE_SWORD
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     text: STR_ETHEREAL_NOBLE_SWORD_UFOPEDIA
-    listOrder: 12107
+    #listOrder: 12107
   - id: STR_THERMONUCLEAR_PROJECTILE_LAUNCHER
     requires:
       - STR_THERMONUCLEAR_PROJECTILE_LAUNCHER
     type_id: 4
     section: STR_ALIEN_EQUIPMENT
     text: STR_THERMONUCLEAR_PROJECTILE_LAUNCHER_UFOPEDIA
-    listOrder: 12108
+    #listOrder: 12108
   - id: STR_THERMONUCLEAR_PROJECTILE_LAUNCHER_MAGAZINE
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_MIND_PROBE
     section: STR_ALIEN_EQUIPMENT
-    listOrder: 12200
+    #listOrder: 12200
 
 
 extraSprites:

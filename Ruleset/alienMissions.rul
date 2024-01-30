@@ -84,7 +84,7 @@ alienMissions:
         STR_ARMORED_MUTON: 10
 
     waves:
-      - ufo: STR_INSTANT_INFILTRATION_UFO
+      - ufo: STR_TERROR_SHIP
         count: 1
         trajectory: P7
         timer: 10 # 9000
@@ -93,7 +93,7 @@ alienMissions:
   - type: STR_ALIEN_RETALIATION
     points: 0
     objective: 4
-    spawnUfo: STR_TROOP_LANDER # Spawned for the final retaliation run
+    spawnUfo: STR_TERROR_SHIP # Spawned for the final retaliation run
     raceWeights: # In the case of a shoot-down, race comes from the UFO that triggered the mission.
       0:
         STR_ARMORED_SECTOID: 20

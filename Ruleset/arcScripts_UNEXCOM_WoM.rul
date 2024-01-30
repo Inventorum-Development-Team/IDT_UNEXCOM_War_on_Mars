@@ -4,6 +4,7 @@ arcScripts:
   - type: Act1Trigger
     sequentialArcs:                     # the type of research topics to be "discovered", each month 0 or 1, processed sequentially
       - STR_ACT_1_TRIGGER
+      - STR_ACT_1_PEDIA
     firstMonth: 0                       # months this command runs on, 0 runs on startup of a new game (default 0)
     lastMonth: 0                       # don't run after this month. -1 denotes no limit (default -1)
     executionOdds: 100                  # % chances of this command executing (default 100)
@@ -11,6 +12,14 @@ arcScripts:
   - type: Act2Trigger
     sequentialArcs:                     # the type of research topics to be "discovered", each month 0 or 1, processed sequentially
       - STR_ACT_2_TRIGGER
+      - STR_ACT_2_PEDIA
+    firstMonth: 8                      # months this command runs on, 0 runs on startup of a new game (default 0)
+    lastMonth: 8                       # don't run after this month. -1 denotes no limit (default -1)
+    executionOdds: 100                  # % chances of this command executing (default 100)
+    maxArcs: 1
+  - type: Act2TriggerPedia
+    sequentialArcs:                     # the type of research topics to be "discovered", each month 0 or 1, processed sequentially
+      - STR_ACT_2_PEDIA
     firstMonth: 8                      # months this command runs on, 0 runs on startup of a new game (default 0)
     lastMonth: 8                       # don't run after this month. -1 denotes no limit (default -1)
     executionOdds: 100                  # % chances of this command executing (default 100)
@@ -18,8 +27,9 @@ arcScripts:
   - type: Act3Trigger
     sequentialArcs:                     # the type of research topics to be "discovered", each month 0 or 1, processed sequentially
       - STR_ACT_3_TRIGGER
+      - STR_ACT_3_PEDIA
     firstMonth: 14                      # months this command runs on, 0 runs on startup of a new game (default 0)
     lastMonth: 14                       # don't run after this month. -1 denotes no limit (default -1)
     executionOdds: 100                  # % chances of this command executing (default 100)
-    maxArcs: 1    
+    maxArcs: 2    
 
