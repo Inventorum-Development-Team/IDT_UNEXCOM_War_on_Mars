@@ -65,6 +65,7 @@ items:
     categories: [STR_LASER, STR_FIREARMS, STR_PISTOLS, STR_US_TECH]
     requiresBuy:
       - STR_USA_LASER_HANDGUNS
+    requiresBuyCountry: STR_NATO_SECTOR_A
     size: 0.1
     costBuy: 30000
     costSell: 20000
