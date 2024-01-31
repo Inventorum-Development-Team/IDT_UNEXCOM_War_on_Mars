@@ -1,157 +1,6 @@
 # spellchecker:words GROM MACHINEGUN ALVIS MINIGUN RPGs SMOKELAUNCHER ENERGYSHELL LASERMINIGUN FERRETM SHERIDANM SALADINM LEGIONNAIREM HESH ATLC
 # spellchecker:words Boyevaya Mashina Desanta
-units:
-#####################################
-####### DAIMLER FERRET SC ###########
-#####################################
-  - type: STR_FERRET_CAR
-    race: STR_FERRET_CAR
-    stats:
-      tu: 150
-      stamina: 100
-      health: 60
-      bravery: 110
-      reactions: 20
-      firing: 100
-      throwing: 0
-      strength: 60
-      psiStrength: 100
-      psiSkill: 0
-      melee: 70
-    armor: FERRET_CAR_ARMOR
-    standHeight: 16
-    kneelHeight: 16
-    value: 20
-    deathSound: 23
-    moveSound: 14
-    energyRecovery: 50
-    builtInWeaponSets:
-      -
-#      - STR_FERRET_CAR - this seems to be linked via unit title now
-#      - STR_DOUBLE_50CAL
-        - STR_DOUBLE_50CAL_BOX
-        - STR_FERRET_SMOKE_LAUNCHER
-        - STR_FERRET_SMOKE_GRENADE
-#####################################
-####### M551 SHERIDAN ###############
-#####################################
-  - type: STR_SHERIDAN_TANK
-    race: STR_SHERIDAN_TANK
-    stats:
-      tu: 130
-      stamina: 100
-      health: 90
-      bravery: 110
-      reactions: 20
-      firing: 100
-      throwing: 0
-      strength: 60
-      psiStrength: 100
-      psiSkill: 0
-      melee: 70
-    armor: SHERIDAN_TANK_ARMOR
-    standHeight: 16
-    kneelHeight: 16
-    value: 20
-    deathSound: 23
-    moveSound: 14
-    energyRecovery: 50
-    builtInWeaponSets:
-      -
-#      - STR_SHERIDAN_TANK - this seems to be linked via unit title now
-#      - STR_M81E1
-        - STR_152MM_CANNON_SHELLS
-        - STR_SHILLELAGH
-        - STR_MGM51_MISSILE
-#####################################
-####### BMD-1 AIRBORNE IFV ##########
-#####################################
-  - type: STR_BMD1_TANK
-    race: STR_BMD1_TANK
-    stats:
-      tu: 90
-      stamina: 100
-      health: 90
-      bravery: 110
-      reactions: 40
-      firing: 100
-      throwing: 0
-      strength: 60
-      psiStrength: 100
-      psiSkill: 0
-      melee: 70
-    armor: BMD1_TANK_ARMOR
-    standHeight: 16
-    kneelHeight: 16
-    value: 20
-    deathSound: 23
-    moveSound: 14
-    energyRecovery: 50
-    builtInWeaponSets:
-      -
-#      - STR_BMD1_TANK - this seems to be linked via unit title now
-#      - STR_2A28_GROM
-        - STR_73MM_CANNON_SHELLS
-        - STR_PKT_MACHINEGUN
-        - STR_PKT_AMMO_BOX
-#####################################
-######### ALVIS SALADIN AC ##############
-#####################################
-  - type: STR_SALADIN_CAR
-    race: STR_SALADIN_CAR
-    stats:
-      tu: 110
-      stamina: 100
-      health: 70
-      bravery: 110
-      reactions: 20
-      firing: 100
-      throwing: 0
-      strength: 60
-      psiStrength: 100
-      psiSkill: 0
-      melee: 70
-    armor: SALADIN_CAR_ARMOR
-    standHeight: 16
-    kneelHeight: 16
-    value: 20
-    deathSound: 23
-    moveSound: 14
-    energyRecovery: 50
-    builtInWeaponSets:
-      -
-#      - STR_SALADIN_CAR - this seems to be linked via unit title now
-#      - STR_L5A1_GUN
-        - STR_76MM_CANNON_SHELLS
-        - STR_M1919A4_MACHINEGUN
-        - STR_M1919A4_AMMO_BOX
-#####################################
-##### LEGIONNAIRE LASER TANK ########
-#####################################
-  - type: STR_TANK_LASER_CANNON
-    race: STR_TANK_LASER_CANNON
-    stats:
-      tu: 110
-      stamina: 100
-      health: 125
-      bravery: 110
-      reactions: 45
-      firing: 100
-      throwing: 0
-      strength: 90
-      psiStrength: 100
-      psiSkill: 0
-      melee: 70
-    armor: LEGIONNAIRE_TANK_ARMOR
-    standHeight: 16
-    kneelHeight: 16
-    value: 20
-    deathSound: 23
-    moveSound: 14
-    energyRecovery: 50
-    builtInWeaponSets:
-      -
-        - STR_TANK_LASER_MINIGUN
+
 
 items:
 #####################################
@@ -584,9 +433,9 @@ items:
     invHeight: 3
     listOrder: 1412
 #####################################
-##### LEGIONNAIRE LASER TANK ########
-#####################################
-  - type: STR_TANK_LASER_CANNON
+######## LASER TANK CANNON #########
+###################################
+  - type: STR_LEGIONNAIRE_LASER_CANNON
     categories: [STR_TANKS, STR_UNEXCOM_TECH, STR_LIGHT_TANKS]
     size: 6
     costSell: 575000
@@ -595,18 +444,12 @@ items:
     bigSprite: 2508
     floorSprite: 0
     handSprite: 0
-    bulletSprite: 7
     fireSound: 4337
-    hitSound: 19
-    hitAnimation: 36
-    power: 150
-    damageType: 4
-    damageAlter:
-      RandomType: 6
-      ToArmor: 0.8
-      ToArmorPre: 0.7
-      IgnoreOverKill: false
-    clipSize: 30
+    compatibleAmmo:
+      - STR_LASER_CANNON_STANDARD_CELL
+      - STR_LASER_CANNON_ENHANCED_CELL
+      - STR_LASER_CANNON_TURBOCHARGED_CELL
+      - STR_LASER_CANNON_IMPACT_FORCE_CELL
     accuracySnap: 60
     tuSnap: 40
     accuracyAimed: 110
@@ -616,13 +459,120 @@ items:
     snapRange: 25
     minRange: 10
     dropoff: 1
-    battleType: 1
     fixedWeapon: true
     invWidth: 2
     invHeight: 3
-    turretType: -1
-    bulletSpeed: 8
     listOrder: 1414
+    
+  - type: STR_LASER_CANNON_STANDARD_CELL
+    categories: [STR_TANKS, STR_UNEXCOM_TECH, STR_LIGHT_TANKS, STR_CLIPS]
+    size: 0.1
+    costBuy: 1000
+    costSell: 750
+    weight: 9
+    bigSprite: 5156
+    floorSprite: 2
+    bulletSprite: 7
+    hitSound: 19
+    hitAnimation: 36
+    explosionSpeed: 15
+    power: 150
+    damageType: 4
+    damageAlter:
+      RandomType: 6
+      ToArmor: 0.8
+      ToArmorPre: 0.7
+      IgnoreOverKill: false
+    clipSize: 20
+    battleType: 2
+    armor: 30
+    invWidth: 2
+    invHeight: 1
+    attraction: 9
+    listOrder: 2023
+    bulletSpeed: 8
+  - type: STR_LASER_CANNON_ENHANCED_CELL
+    categories: [STR_TANKS, STR_UNEXCOM_TECH, STR_LIGHT_TANKS, STR_CLIPS]
+    size: 0.1
+    costBuy: 1000
+    costSell: 750
+    weight: 9
+    bigSprite: 5156
+    floorSprite: 2
+    bulletSprite: 7
+    hitSound: 19
+    hitAnimation: 36
+    explosionSpeed: 15
+    power: 150
+    damageType: 4
+    damageAlter:
+      RandomType: 6
+      ToArmor: 0.8
+      ToArmorPre: 0.7
+      IgnoreOverKill: false
+    clipSize: 20
+    battleType: 2
+    armor: 30
+    invWidth: 2
+    invHeight: 1
+    attraction: 9
+    listOrder: 2023
+    bulletSpeed: 8
+  - type: STR_LASER_CANNON_TURBOCHARGED_CELL
+    categories: [STR_TANKS, STR_UNEXCOM_TECH, STR_LIGHT_TANKS, STR_CLIPS]
+    size: 0.1
+    costBuy: 1000
+    costSell: 750
+    weight: 9
+    bigSprite: 5156
+    floorSprite: 2
+    bulletSprite: 7
+    hitSound: 19
+    hitAnimation: 36
+    explosionSpeed: 15
+    power: 150
+    damageType: 4
+    damageAlter:
+      RandomType: 6
+      ToArmor: 0.8
+      ToArmorPre: 0.7
+      IgnoreOverKill: false
+    clipSize: 20
+    battleType: 2
+    armor: 30
+    invWidth: 2
+    invHeight: 1
+    attraction: 9
+    listOrder: 2023
+    bulletSpeed: 8
+  - type: STR_LASER_CANNON_IMPACT_FORCE_CELL
+    categories: [STR_TANKS, STR_UNEXCOM_TECH, STR_LIGHT_TANKS, STR_CLIPS]
+    size: 0.1
+    costBuy: 1000
+    costSell: 750
+    weight: 9
+    bigSprite: 5156
+    floorSprite: 2
+    bulletSprite: 7
+    hitSound: 19
+    hitAnimation: 36
+    explosionSpeed: 15
+    power: 150
+    damageType: 4
+    damageAlter:
+      RandomType: 6
+      ToArmor: 0.8
+      ToArmorPre: 0.7
+      IgnoreOverKill: false
+    clipSize: 20
+    battleType: 2
+    armor: 30
+    invWidth: 2
+    invHeight: 1
+    attraction: 9
+    listOrder: 2023
+    bulletSpeed: 8 
+    
   - type: STR_TANK_LASER_MINIGUN
     weight: 1
     bigSprite: 2509
@@ -655,6 +605,214 @@ items:
     invWidth: 2
     invHeight: 3
     listOrder: 1415
+
+#################################
+###### LASER AUTOCANNONS #######
+###############################
+
+  - type: STR_BUSHMASTER_LASER_AUTOCANNON
+    categories: [STR_TANKS, STR_UNEXCOM_TECH, STR_LIGHT_TANKS]
+    size: 6
+    #costSell: 575000
+    transferTime: 96
+    weight: 1
+    bigSprite: 2508
+    floorSprite: 0
+    handSprite: 0
+    fireSound: 4337
+    compatibleAmmo:
+      - STR_LASER_AUTOCANNON_STANDARD_CELL
+      - STR_LASER_AUTOCANNON_ENHANCED_CELL
+      - STR_LASER_AUTOCANNON_TURBOCHARGED_CELL
+      - STR_LASER_AUTOCANNON_IMPACT_FORCE_CELL
+    accuracySnap: 60
+    tuSnap: 40
+    accuracyAimed: 110
+    tuAimed: 60
+    accuracyAuto: 40
+    tuAuto: 30
+    autoShots: 4
+    maxRange: 200
+    aimRange: 125
+    snapRange: 25
+    minRange: 10
+    dropoff: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    listOrder: 1414
+  - type: STR_RARDEN_LASER_AUTOCANNON
+    categories: [STR_TANKS, STR_UNEXCOM_TECH, STR_LIGHT_TANKS]
+    size: 6
+    #costSell: 575000
+    transferTime: 96
+    weight: 1
+    bigSprite: 2508
+    floorSprite: 0
+    handSprite: 0
+    fireSound: 4337
+    compatibleAmmo:
+      - STR_LASER_AUTOCANNON_STANDARD_CELL
+      - STR_LASER_AUTOCANNON_ENHANCED_CELL
+      - STR_LASER_AUTOCANNON_TURBOCHARGED_CELL
+      - STR_LASER_AUTOCANNON_IMPACT_FORCE_CELL
+    accuracySnap: 60
+    tuSnap: 40
+    accuracyAimed: 110
+    tuAimed: 60
+    accuracyAuto: 40
+    tuAuto: 30
+    autoShots: 6
+    maxRange: 200
+    aimRange: 125
+    snapRange: 25
+    minRange: 10
+    dropoff: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    listOrder: 1414
+  - type: STR_2A42_LASER_AUTOCANNON
+    categories: [STR_TANKS, STR_UNEXCOM_TECH, STR_LIGHT_TANKS]
+    size: 6
+    #costSell: 575000
+    transferTime: 96
+    weight: 1
+    bigSprite: 2508
+    floorSprite: 0
+    handSprite: 0
+    fireSound: 4337
+    compatibleAmmo:
+      - STR_LASER_AUTOCANNON_STANDARD_CELL
+      - STR_LASER_AUTOCANNON_ENHANCED_CELL
+      - STR_LASER_AUTOCANNON_TURBOCHARGED_CELL
+      - STR_LASER_AUTOCANNON_IMPACT_FORCE_CELL
+    accuracySnap: 60
+    tuSnap: 40
+    accuracyAimed: 110
+    tuAimed: 60
+    accuracyAuto: 40
+    tuAuto: 30
+    autoShots: 5
+    maxRange: 200
+    aimRange: 125
+    snapRange: 25
+    minRange: 10
+    dropoff: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    listOrder: 1414
+
+  - type: STR_LASER_AUTOCANNON_STANDARD_CELL
+    categories: [STR_TANKS, STR_UNEXCOM_TECH, STR_LIGHT_TANKS, STR_CLIPS]
+    size: 0.1
+    costBuy: 1000
+    costSell: 750
+    weight: 9
+    bigSprite: 5156
+    floorSprite: 2
+    bulletSprite: 7
+    hitSound: 19
+    hitAnimation: 36
+    explosionSpeed: 15
+    power: 150
+    damageType: 4
+    damageAlter:
+      RandomType: 6
+      ToArmor: 0.8
+      ToArmorPre: 0.7
+      IgnoreOverKill: false
+    clipSize: 20
+    battleType: 2
+    armor: 30
+    invWidth: 2
+    invHeight: 1
+    attraction: 9
+    listOrder: 2023
+    bulletSpeed: 8
+  - type: STR_LASER_AUTOCANNON_ENHANCED_CELL
+    categories: [STR_TANKS, STR_UNEXCOM_TECH, STR_LIGHT_TANKS, STR_CLIPS]
+    size: 0.1
+    costBuy: 1000
+    costSell: 750
+    weight: 9
+    bigSprite: 5156
+    floorSprite: 2
+    bulletSprite: 7
+    hitSound: 19
+    hitAnimation: 36
+    explosionSpeed: 15
+    power: 150
+    damageType: 4
+    damageAlter:
+      RandomType: 6
+      ToArmor: 0.8
+      ToArmorPre: 0.7
+      IgnoreOverKill: false
+    clipSize: 20
+    battleType: 2
+    armor: 30
+    invWidth: 2
+    invHeight: 1
+    attraction: 9
+    listOrder: 2023
+    bulletSpeed: 8
+  - type: STR_LASER_AUTOCANNON_TURBOCHARGED_CELL
+    categories: [STR_TANKS, STR_UNEXCOM_TECH, STR_LIGHT_TANKS, STR_CLIPS]
+    size: 0.1
+    costBuy: 1000
+    costSell: 750
+    weight: 9
+    bigSprite: 5156
+    floorSprite: 2
+    bulletSprite: 7
+    hitSound: 19
+    hitAnimation: 36
+    explosionSpeed: 15
+    power: 150
+    damageType: 4
+    damageAlter:
+      RandomType: 6
+      ToArmor: 0.8
+      ToArmorPre: 0.7
+      IgnoreOverKill: false
+    clipSize: 20
+    battleType: 2
+    armor: 30
+    invWidth: 2
+    invHeight: 1
+    attraction: 9
+    listOrder: 2023
+    bulletSpeed: 8
+  - type: STR_LASER_AUTOCANNON_IMPACT_FORCE_CELL
+    categories: [STR_TANKS, STR_UNEXCOM_TECH, STR_LIGHT_TANKS, STR_CLIPS]
+    size: 0.1
+    costBuy: 1000
+    costSell: 750
+    weight: 9
+    bigSprite: 5156
+    floorSprite: 2
+    bulletSprite: 7
+    hitSound: 19
+    hitAnimation: 36
+    explosionSpeed: 15
+    power: 150
+    damageType: 4
+    damageAlter:
+      RandomType: 6
+      ToArmor: 0.8
+      ToArmorPre: 0.7
+      IgnoreOverKill: false
+    clipSize: 20
+    battleType: 2
+    armor: 30
+    invWidth: 2
+    invHeight: 1
+    attraction: 9
+    listOrder: 2023
+    bulletSpeed: 8 
+
 
 armors:
 #####################################
