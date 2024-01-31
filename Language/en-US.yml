@@ -3058,8 +3058,8 @@ en-US:
       STR_LEOPARD_II_TANK: "Leopard 2"
       STR_LEOPARD_II_TANK_UFOPEDIA: "The Leopard I was by far the most effective western tank during the war thanks to its maneuverability, and the succeeding Leopard II combines it with a strong Alien Alloy hull.  Power is provided by an electric hybrid-diesel, and it is equipped with the same 120mm Mass Driver as on the Abrams.  The coaxial and pintle mounts are FN Minimi Machine Lasers, and smoke discharges are festooned across the hull.  Those sent to Mars have substantial alterations to be usable in the non-breathable atmosphere, allowing the crew to operate without wearing a full spacesuit."
       
-      STR_MARDER_II_TANK: "Marder II"
-      STR_MARDER_II_TANK_UFOPEDIA: "Compared to the American Bradley, the Marder 2 is less well armed and armored, but this also causes it to be notably faster and more agile.  Additionally, it is notably cheaper, resulting in it being adopted by numerous NATO members.  Testing against some of the last remaining functional Fusion Lances showed that it could reliably protect its passengers, although it would certainly be disabled or worse on the second shot.  A substantial number of Marders were brought to Mars for use as protected utility vehicles, with the turret assembly being removed for more cargo space.  The rising insurgency has seen many of them rearmed however."
+      STR_SCIMITAR_TANK: "FV107 Scimitar"
+      STR_SCIMITAR_TANK_UFOPEDIA: "Similar to the Scorpion light tank used in the 1972-1974 conflict, but armed with an automatic cannon. Compared to the American Bradley, the Scimitar is less armed and armored, but this makes it to be notably faster and more agile, as is focused on a recon role. Additionally, it is notably cheaper, resulting in it being adopted by numerous NATO members.  Testing against some of the last remaining functional Fusion Lances showed that it could reliably protect its crew, although it would certainly be disabled or worse on the second shot.  A substantial number of Scimitars were brought to Mars for use as protected utility vehicles, with the turret assembly being removed for more cargo space.  The rising insurgency has seen many of them rearmed however."
       
       STR_T80_TANK: "T-80"
       STR_T80_TANK_UFOPEDIA: "Debuting in 1979, the T-80 is the most advanced armored combat vehicle of the Soviet Union.  Broadly similar to the preceding T-64, its low hull is forged from Alien Alloys and is propelled by an electric hybrid turbine.  The switch of the primary weapon to a 125mm Gauss Cannon was widely celebrated by its crews, with the autoloader of the D-91TM proving to be horrifically vulnerable to plasma weapons and Blaster-guided missiles.  Additional features include coaxial and pintle mounted LUAO-81 Machine Lasers and smoke launchers.  The vehicles that have been sent to Mars have been fitted for use while wearing a spacesuit, with Soviet doctrine holding that it is unlikely that it would remain functional long enough for long term operability to be a serious issue."
@@ -3074,22 +3074,40 @@ en-US:
       STR_LASER_CANNON_STANDARD_BATTERY: "Laser Cannon Standard Battery"
       STR_LASER_CANNON_STANDARD_BATTERY_UFOPEDIA: "Regular Heavy-Duty battery used to power large laser guns. Balanced between energy consumption and damage output"
       
+      STR_LASER_AUTOCANNON_STANDARD_CELL: "Laser AC Standard Cell"
+      STR_LASER_AUTOCANNON_ENHANCED_CELL: "Laser AC Enhanced Cell"
+      STR_LASER_AUTOCANNON_ENHANCED_CELL: "Laser AC Turbocharged Cell"
+      STR_LASER_AUTOCANNON_ENHANCED_CELL: "Laser AC Impact Force Cell"
+      
       STR_ABRAMS_TANK_ARMOR: "M1 Abrams MBT"
       STR_ABRAMS_TANK_ARMOR_UFOPEDIA: "The tip of the spear of US armored divisions in Earth, Moon and Mars"
+      STR_120MM_NATO_TANK_RAILGUN: ""
+      
       STR_BRADLEY_TANK_ARMOR: "M3 Bradley CFV"
       STR_BRADLEY_TANK_ARMOR_UFOPEDIA: "Born due the need of highly maneuverable yet considerably armored support vehicle to keep up the pace of the MBT's advance. The M3 Cavalry Fighting Vehicle is the combat-focused variant of the Bradley family, with more ammo for the TSW missile launcher and spare batteries for the Bushmaster LM298 Laser Autocannon."
       STR_BUSHMASTER_LASER_AUTOCANNON: "LM298 Laser Autocannon"
-      STR_BUSHMASTER_LASER_AUTOCANNON_UFOPEDIA: "Designed to be a middle ground between the infantry-based M4 Laser LMG and the larger Kodiak-derived cannons, the Bushmaster features a decent power output and enhanced refraction lenses for continued laser discharges. There was certain reticence of keeping the M242 25mm standard gun of the M2 Bradley, but eventually an energy weapon was selected to booster the M3's fighting capabilities."
+      STR_BUSHMASTER_LASER_AUTOCANNON_UFOPEDIA_1: "Designed to be a middle ground between the infantry-based M4 Laser LMG and the larger Kodiak-derived cannons, the Bushmaster features a decent power output and enhanced refraction lenses for continued laser discharges."
+      STR_BUSHMASTER_LASER_AUTOCANNON_UFOPEDIA_2: "There was certain reticence of keeping the M242 25mm standard gun of the M2 Bradley (mostly due the fact 25mm guns have more ammo variety like smoke and HE shells), but eventually an energy weapon was selected to booster the M3's fighting capabilities."
+      
+      STR_LEOPARD_II_TANK_ARMOR: "Leopard 2 MBT"
+      STR_LEOPARD_II_TANK_ARMOR_UFOPEDIA: "A widely popular tank in the Western block, "
+      STR_120MM_NATO_TANK_RAILGUN: "EMag-Kwk 120mm Tank Mass Driver"
+      STR_120MM_NATO_TANK_RAILGUN_UFOPEDIA: "Powerful Elektromagnetische Kampfwagenkanone 120 railgun produced by Rheinmetall. High muzzle velocity is achieved thanks to a potent magnetic induction rail."
+      STR_COAXIAL_FN_MINIMI: "Coaxial FM-Minimi"
+      STR_COAXIAL_FN_MINIMI_UFOPEDIA: "Adapted version for fixed emplacements of the new Minimi Machine Laser. Drawing energy directly from the vehicle power reserve, it lacks the need of a separate battery."
       
       STR_BMP_2_TANK_ARMOR: "BMP-2 IFV"
       STR_BMP_2_TANK_ARMOR_UFOPEDIA: "Fast, lightly armored vehicle designed to provide fire support to thr infantry. Similar to its predecessor, the improvements to armor and weaponry (a laser autocannon and guided anti-tank missiles) makes it a versatile asset."
+      STR_2A42_LASER_AUTOCANNON: "2A42 Laser Autocannon"
+      STR_2A42_LASER_AUTOCANNON_UFOPEDIA_1: "Designed as replacement for the 2A76 Grom 76mm guns equipped on the BMP-1 and BMD-1 vehicles. The laser chamber is particularly reinforced to avoid chemical leaks in case of a direct hit on the projector."
+      STR_2A42_LASER_AUTOCANNON_UFOPEDIA_2: "Features a variable rate of fire mechanism, allowing the gunner to use a low-powered, faster discharge or a regular discharge at normal rate."
       STR_KONKURS_AT_MISSILE_LAUNCHER: "9M113 Konkurs Missile Launcher"
       STR_KONKURS_AT_MISSILE_LAUNCHER_UFOPEDIA: "Learning from the experience of the BMP in the '74 and the struggles penetrating the thick frontal armor of the enemy mechanized units, the Konkurs is specially designed to defeat Alien-alloyed alien ground vehicles."
 
 ####### Missing Stuff
-      STR_OPERATIONAL: "INFORMATION REPORT"
+      STR_OPERATIONAL: "OPERATIONAL REPORTS"
       STR_DIPLOMATIC: "DIPLOMACY STATUS"
-      STR_STRATEGIC: "STRATEGY INFO"
+      STR_STRATEGIC: "STRATEGIC REPORTS"
       STR_SECESSIONIST_LORE: "MARS SECESSIONIST LORE"
       STR_TACTICAL: "TACTICAL OVERVIEW"
       STR_DATABASE_REPAIR: "Database Repair"
