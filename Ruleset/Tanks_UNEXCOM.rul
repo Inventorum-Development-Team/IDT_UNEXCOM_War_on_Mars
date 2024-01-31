@@ -1,6 +1,9 @@
 # spellchecker:words GROM MACHINEGUN ALVIS MINIGUN RPGs SMOKELAUNCHER ENERGYSHELL LASERMINIGUN FERRETM SHERIDANM SALADINM LEGIONNAIREM HESH ATLC
 # spellchecker:words Boyevaya Mashina Desanta
 
+#M1 - best armour, worst firepower, quite mobile
+#Leopard 2 - worst armor, average firepower, cheap, acceptably mobile
+#T-80 - mediocre armor, best firepower as far as explosive shit is concerned, goes fast in a line, fares worse when having to make a turn or reverse
 
 items:
 #####################################
