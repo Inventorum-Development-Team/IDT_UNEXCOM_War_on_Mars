@@ -1,7 +1,7 @@
 # spellchecker:words GROM MACHINEGUN ALVIS MINIGUN RPGs SMOKELAUNCHER ENERGYSHELL LASERMINIGUN FERRETM SHERIDANM SALADINM LEGIONNAIREM HESH ATLC
 # spellchecker:words Boyevaya Mashina Desanta
 
-#M1 - best armour, worst firepower, quite mobile
+#M1 Abrams - best armour, worst firepower, quite mobile
 #Leopard 2 - worst armor, average firepower, cheap, acceptably mobile
 #T-80 - mediocre armor, best firepower as far as explosive shit is concerned, goes fast in a line, fares worse when having to make a turn or reverse
 
@@ -208,7 +208,7 @@ items:
 #####################################
 ########## ALVIS SALADIN AC ############
 #####################################
-  - type: STR_SALADIN_CAR
+  - type: STR_
     categories: [STR_TANKS, STR_NATO_TECH, STR_ARMORED_CARS]
     requires:
       - STR_NATO_SUPPORT_RESEARCH
@@ -265,176 +265,8 @@ items:
     invWidth: 2
     invHeight: 1
     listOrder: 1406
-  - type: STR_M1919A4_MACHINEGUN
-    requires:
-      - STR_NATO_SUPPORT_RESEARCH
-    size: 6
-    requiresBuyCountry: STR_UK
-    costBuy: 100
-    costSell: 50
-    transferTime: 96
-    weight: 1
-    bigSprite: 2505
-    floorSprite: 0
-    handSprite: 0
-    bulletSprite: 2
-    fireSound: 4334
-    compatibleAmmo:
-      - STR_M1919A4_AMMO_BOX
-    accuracySnap: 80
-    accuracyAuto: 40
-    clipSize: 50
-    tuAuto: 35
-    tuSnap: 30
-    battleType: 1
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    autoShots: 5
-    sprayWaypoints: 2
-    bulletSpeed: 25
-    recover: false
-    turretType: -1
-    listOrder: 1407
-  - type: STR_M1919A4_AMMO_BOX
-    categories: [STR_TANKS, STR_TANK_AMMO, STR_LIGHT_TANKS]
-    requires:
-      - STR_NATO_SUPPORT_RESEARCH
-    size: 0.06
-    requiresBuyCountry: STR_UK
-    costBuy: 80
-    costSell: 80
-    transferTime: 48
-    weight: 1
-    bigSprite: -1
-    floorSprite: 16
-    hitSound: 13
-    hitAnimation: 26
-    power: 50
-    damageAlter:
-      RandomType: 6
-      IgnoreOverKill: true
-      ToArmor: 0.5
-      ToArmorPre: 0.5
-      ToHealth: 0.6
-    damageType: 1
-    clipSize: 50
-    battleType: 2
-    invWidth: 1
-    invHeight: 3
-    listOrder: 1408
-#####################################
-####### BMD-1 AIRBORNE IFV ##########
-#####################################
-  - type: STR_BMD1_TANK
-    categories: [STR_TANKS, STR_SOVIET_TECH, STR_LIGHT_TANKS]
-    requires:
-      - STR_USSR_SUPPORT_RESEARCH
-    size: 6
-    requiresBuyCountry: STR_RUSSIA
-    costBuy: 520000
-    costSell: 440000
-    transferTime: 96
-    weight: 1
-    bigSprite: 2506
-    floorSprite: 0
-    handSprite: 0
-    bulletSprite: 0
-    fireSound: 4333
-    compatibleAmmo:
-      - STR_73MM_CANNON_SHELLS
-    accuracySnap: 60
-    accuracyAimed: 80
-    clipSize: 40
-    tuSnap: 33
-    tuAimed: 60
-    bulletSpeed: 15
-    battleType: 1
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    turretType: -1
-    listOrder: 1409
-  - type: STR_PKT_MACHINEGUN
-    requires:
-      - STR_USSR_SUPPORT_RESEARCH
-    size: 6
-    transferTime: 96
-    weight: 1
-    bigSprite: 2507
-    floorSprite: 0
-    handSprite: 0
-    bulletSprite: 2
-    fireSound: 4334
-    compatibleAmmo:
-      - STR_PKT_AMMO_BOX
-    accuracySnap: 40
-    accuracyAuto: 45
-    tuAuto: 30
-    tuSnap: 35
-    battleType: 1
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    autoShots: 5
-    sprayWaypoints: 2
-    bulletSpeed: 25
-    recover: false
-    turretType: -1
-    listOrder: 1410
-  - type: STR_73MM_CANNON_SHELLS
-    categories: [STR_TANKS, STR_SOVIET_TECH, STR_TANK_AMMO, STR_LIGHT_TANKS]
-    requires:
-      - STR_USSR_SUPPORT_RESEARCH
-    size: 0.1
-    requiresBuyCountry: STR_RUSSIA
-    costBuy: 1500
-    costSell: 750
-    transferTime: 48
-    weight: 1
-    bigSprite: -1
-    floorSprite: 12
-    hitSound: 4335
-    hitAnimation: 0
-    power: 63
-    damageType: 3
-    bulletSpeed: 10
-    damageAlter:
-      RandomType: 6
-      ToArmor: 0.7
-      IgnoreSelfDestruct: true
-      ArmorEffectiveness: 0.75
-    clipSize: 40
-    battleType: 2
-    invWidth: 2
-    invHeight: 1
-    listOrder: 1411
-  - type: STR_PKT_AMMO_BOX
-    categories: [STR_TANKS, STR_SOVIET_TECH, STR_TANK_AMMO, STR_LIGHT_TANKS]
-    requires:
-      - STR_USSR_SUPPORT_RESEARCH
-    size: 0.6
-    requiresBuyCountry: STR_RUSSIA
-    costBuy: 50
-    costSell: 50
-    transferTime: 48
-    weight: 1
-    bigSprite: -1
-    floorSprite: 16
-    hitSound: 13
-    hitAnimation: 26
-    power: 50
-    damageType: 1
-    damageAlter:
-      RandomType: 6
-      ToArmor: 0.6
-      ToArmorPre: 0.4
-      IgnoreOverKill: true
-    clipSize: 50
-    battleType: 2
-    invWidth: 1
-    invHeight: 3
-    listOrder: 1412
+
+
 #####################################
 ######## LASER TANK CANNON #########
 ###################################
