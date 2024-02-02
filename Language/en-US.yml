@@ -3074,14 +3074,21 @@ en-US:
       STR_LASER_CANNON_STANDARD_BATTERY: "Laser Cannon Standard Battery"
       STR_LASER_CANNON_STANDARD_BATTERY_UFOPEDIA: "Regular Heavy-Duty battery used to power large laser guns. Balanced between energy consumption and damage output"
       
+      STR_EQUITIE_TANK_ARMOR: "XM23 Equitie Hovertank"
+      STR_EQUITIE_TANK_LASER_ARMOR: "XM23A Equitie Laser Hovertank"
+      STR_EQUITIE_TANK_LASER_ARMOR_UFOPEDIA: "Popular variant of the Equitie, it features the exact same laser cannon and minigun found on the M22 Legionnaire, with a larger Power Reserve."
+      STR_EQUITIE_TANK_PLASMA_ARMOR: "XM23B Equitie Plasma Hovertank"
+      STR_EQUITIE_TANK_PLASMA_ARMOR_UFOPEDIA: "High production and maintenance costs limited the 'Plasma Equitie' to select elite units within the World Powers, in the role of vanguard tank."
+      
       STR_LASER_AUTOCANNON_STANDARD_CELL: "Laser AC Standard Cell"
       STR_LASER_AUTOCANNON_ENHANCED_CELL: "Laser AC Enhanced Cell"
       STR_LASER_AUTOCANNON_ENHANCED_CELL: "Laser AC Turbocharged Cell"
       STR_LASER_AUTOCANNON_ENHANCED_CELL: "Laser AC Impact Force Cell"
       
       STR_ABRAMS_TANK_ARMOR: "M1 Abrams MBT"
-      STR_ABRAMS_TANK_ARMOR_UFOPEDIA: "The tip of the spear of US armored divisions in Earth, Moon and Mars"
-      STR_120MM_NATO_TANK_RAILGUN: ""
+      STR_ABRAMS_TANK_ARMOR_UFOPEDIA: "The tip of the spear of US armored divisions in Earth, Moon and Mars. Features the strongest armor in a combat vehicle so far, with deep research in the reduction of damage above all."
+      STR_120MM_US_TANK_RAILGUN: "M265-MDG 120mm Tank Mass Driver"
+      STR_120MM_US_TANK_RAILGUN_UFOPEDIA: "Licence-built electromagnetic gun based on the German tank weapon used by the Leopard 2. Shares the exact same shells, but uses a different conductor rail system and lacks the autoloader, resulting in some concerns about its combat efficiency."
       
       STR_BRADLEY_TANK_ARMOR: "M3 Bradley CFV"
       STR_BRADLEY_TANK_ARMOR_UFOPEDIA: "Born due the need of highly maneuverable yet considerably armored support vehicle to keep up the pace of the MBT's advance. The M3 Cavalry Fighting Vehicle is the combat-focused variant of the Bradley family, with more ammo for the TSW missile launcher and spare batteries for the Bushmaster LM298 Laser Autocannon."
@@ -3090,7 +3097,7 @@ en-US:
       STR_BUSHMASTER_LASER_AUTOCANNON_UFOPEDIA_2: "There was certain reticence of keeping the M242 25mm standard gun of the M2 Bradley (mostly due the fact 25mm guns have more ammo variety like smoke and HE shells), but eventually an energy weapon was selected to booster the M3's fighting capabilities."
       
       STR_LEOPARD_II_TANK_ARMOR: "Leopard 2 MBT"
-      STR_LEOPARD_II_TANK_ARMOR_UFOPEDIA: "A widely popular tank in the Western block, "
+      STR_LEOPARD_II_TANK_ARMOR_UFOPEDIA: "A widely popular tank in the Western block, completely replaced its predecessor. The frontal armor is specially designed to withstand heavy punishment and the back has additional defensive layers, but the rest of the vehicle isn't as protected."
       STR_120MM_NATO_TANK_RAILGUN: "EMag-Kwk 120mm Tank Mass Driver"
       STR_120MM_NATO_TANK_RAILGUN_UFOPEDIA: "Powerful Elektromagnetische Kampfwagenkanone 120 railgun produced by Rheinmetall. High muzzle velocity is achieved thanks to a potent magnetic induction rail."
       STR_COAXIAL_FN_MINIMI: "Coaxial FM-Minimi"
