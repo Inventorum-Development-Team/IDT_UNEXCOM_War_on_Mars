@@ -1,7 +1,9 @@
-X-January-2024: v1.0 Soil of Ares
+27-August-2024: v1.0 Soil of Ares
 * Major rework of tech tree, by omegas7339
 * Plasma Weapons locked behind research
 * New flags for player units
+* Fixed fatal crash related to MARS_DEBRIS terrain tiles; reported by BiggusDickus, TheCatProgram & jamesbrand97 by Lowtek
+* Fixed several wrongly defined tiles on several Mars terrains, by wethan2
 
 9-July-2023: v0.1 Martian Greeting
 * Added BFM original globe data, made by liberation
