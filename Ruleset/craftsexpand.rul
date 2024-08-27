@@ -881,32 +881,6 @@ crafts:
 #### Dogfight + 11
 #### Basebit + 33
 
-extraStrings:
-  - type: en-US
-    strings:
-      STR_NXTGENFGHTRTRANS: Next-Gen Fighter-Transporter
-      STR_NXTGENFGHTRTRANSWIKI: Our atmospheric and space orbit craft have difficult engaging Ethereal Mars insurgents ufo fleet. We have a proposal to improve the fighter-transporter for combat effectiveness. Our new fighter-transporter design will protect our supplies and assets from enemy intercept fleets.
-      STR_F15EAGLEACTRAISER: F15-ST EAGLE
-      STR_F15EAGLEACTRAISERWIKI: This craft is designed to as high mobility with rapid fire power. Its interior is built for infantry and vehicle cargo storage.
-      STR_PHEONIXHELLRAISER: PHEONIX T-2K
-      STR_PHEONIXHELLRAISERWIKI: This craft is designed to as bulk armor with additional troop storage. Its interior is built for infantry and vehicle cargo storage.
-      STR_VENTURESTAR: VENTURESTAR
-      STR_VENTURESTARWIKI: We creating a large cargo scale to carry more assets for better replenishment. It will be carryout logistic task to aid our forces. A additional weapon slot will protect the craft from danger.
-      STR_NXTGNENGINESYSTEM: Next Spacefaring Engine Systems
-      STR_NXTGNENGINESYSTEMWIKI: Our progress against Ethereals spacebattleship fleets are having difficult against their technological advancements. To face them on conventional battles, we introduce the next generation space craft based on sub-space technology. It increases more speed to travel less time than space primitive engines.
-      STR_COLUMBUSMARK4: COLUMBUS MK4
-      STR_COLUMBUSMARK4WIKI: The first Antigravity landpad and Ion Thrusters Drive System. It has 2nd floor walldoors to conduct infantry flanks and sniper point. Weapons slot are also included for extra protection against enemy fireline.
-      STR_IXIERPROTOYPE: IXIER PROTOTYPE
-      STR_IXIERPROTOYPEWIKI: The first protoype for Interplanet to star-system exploration. Also known as the Experimental Inter-Star System Expedition Research class battlecraft. It is powered by the first 2 Sub-space Engine and 2 new space hydrogen fuel design. Life support component are installed to allows the  crew to utilize self-sufficient. The spacecraft survivability will guide future generation pilots for better use.
-      STR_ARMSTRONGREINFORCEMENT: Flagship Armstrong N-1 Class
-      STR_ARMSTRONGREINFORCEMENTWIKI: The Armstrong N-1 space battleship class has been constructed by UNSC with the help of the Earths Private Military contractors. This class is built with energy-field and hyperwave decoder communication systems. Radar corruption signals helps them to ward off against alien ufo scanners.
-      STR_XLAYGUNLOCK: X-LAYGL 8LGS
-      STR_XLAYGUNLOCKWIKI: This craft was mysteriously constructed by a Alien advance space force. Unknown to them, the frame and the power components are under construction. However, the adaptation of the human version grants special systems for combat effectiveness. Turbo lock on guidance are more effective to take down alien battleships with score multiple shots.
-      STR_ARMSTRONGDROPSHIP: ARMSTRONG N1 DS
-      STR_ARMSTRONGDROPSHIPWIKI: The Construction of the dropship known as the Gemeni Class transport. It can carry many cargo and units in a rapid pace.
-      STR_FURY120UAV: X-300 BERSERKER
-      STR_FURY120UAVWIKI: The first Space UAV to operate warfare on Mars. Installed with Hyperwave Remote Control Operating System without pilots. It's singularity core allows to powerup energy weapons to destroy any kind of alien ufo and battleships alike.
-
 #eventScripts:
 
 research:
