@@ -3095,7 +3095,31 @@ en-US:
       STR_DATABASE_REPAIR: "Database Repair"
       STR_DATABASE_REPAIR_REPORT_UFOPEDIA: "This info requires special information."
       STR_AIRSTRIKES: "Aerospace Strikes"
-      STR_AIRSTRIKES_UFOPEDIA: Calling aerosapce strikes can prove more area damage in a limited ammo.
+      STR_AIRSTRIKES_UFOPEDIA: "Calling aerosapce strikes can prove more area damage in a limited ammo."
       STR_BREACHER_SHUTTLE: "ST84 BREACHER"
+  
+  #Kiro Xei crafts    
+      STR_NXTGENFGHTRTRANS: "Next-Gen Fighter-Transporter"
+      STR_NXTGENFGHTRTRANSWIKI: "Our atmospheric and space orbit craft have difficult engaging Ethereal Mars insurgents UFO fleet. We have a proposal to improve the fighter-transporter for combat effectiveness. Our new fighter-transporter design will protect our supplies and assets from enemy intercept fleets."
+      STR_F15EAGLEACTRAISER: "F15-ST EAGLE"
+      STR_F15EAGLEACTRAISERWIKI: "This craft is designed with high mobility and rapid fire power. Its interior is built for infantry and vehicle cargo storage."
+      STR_PHEONIXHELLRAISER: "PHOENIX T-2K"
+      STR_PHEONIXHELLRAISERWIKI: "This craft is designed with bulk armor and additional troop storage. Its interior is built for infantry and vehicle cargo storage."
+      STR_VENTURESTAR: "VENTURESTAR"
+      STR_VENTURESTARWIKI: "We have created a large scale cargo ship to carry more assets for better replenishment. It will carryout logistic task in aiding to our forces. A additional weapon slot will protect the craft from danger."
+      STR_NXTGNENGINESYSTEM: "Next Spacefaring Engine Systems"
+      STR_NXTGNENGINESYSTEMWIKI: "Our progress against Ethereals space battleship fleets are having difficult against their technological advancements. To face them on conventional battles, we bav have introduced the next generation of space craft based on sub-space technology. It greatly increases the limit speed to travel in less time than space primitive engines."
+      STR_COLUMBUSMARK4: "COLUMBUS MK4"
+      STR_COLUMBUSMARK4WIKI: "The first Antigravity landpad and Ion Thrusters Drive System. It has 2nd floor walldoors to provide infantry flanks and sniper points. Weapons slot are also included for extra protection against enemy fireline."
+      STR_IXIERPROTOYPE: "IXIER PROTOTYPE"
+      STR_IXIERPROTOYPEWIKI: "The first protoype for interplanetary exploration. Also known as the 'Experimental Inter-Star System Expedition Research-class' battlecraft. It is powered by the first 2 Sub-space Engine and 2 new space hydrogen fuel design. Life support component are installed to allows the crew to utilize self-sufficient. The spacecraft structure considerably increases the pilot survivability."
+      STR_ARMSTRONGREINFORCEMENT: "Flagship Armstrong N-1 Class"
+      STR_ARMSTRONGREINFORCEMENTWIKI: "The Armstrong N-1 space battleship class has been constructed by UNSC with the help of the Earths Private Military contractors. This class is built with energy-field and hyperwave decoder communication systems. Radar jamming equipment allows it to ward off alien UFO scanners."
+      STR_XLAYGUNLOCK: "X-LAYGL 8LGS"
+      STR_XLAYGUNLOCKWIKI: "This craft was mysteriously constructed by a Alien advanced space force. Unknown to us, the frame and the power components are under construction. However, the adaptation of the human version allows for special systems for combat effectiveness. Turbo lock on guidance are more effective to take down alien battleships with improved accuracy."
+      STR_ARMSTRONGDROPSHIP: "ARMSTRONG N1 DS"
+      STR_ARMSTRONGDROPSHIPWIKI: "Gemeni-class transport. It can carry many cargo and units in a rapid pace."
+      STR_FURY120UAV: "X-300 BERSERKER"
+      STR_FURY120UAVWIKI: "The first Space UAV to operate on Mars. Installed with Hyperwave Remote Control Operating System without pilots. Its singularity core allows to powerup energy weapons to destroy any kind of alien UFO and battleships alike."
 
       
