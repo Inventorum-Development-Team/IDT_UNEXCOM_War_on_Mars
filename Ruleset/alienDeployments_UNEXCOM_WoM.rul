@@ -1860,7 +1860,6 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
-    #shade: 10
     script: ALIEN_OUTPOST
     objectiveType: 3
     markerName: STR_ALIEN_BASE
@@ -2102,7 +2101,7 @@ alienDeployments:
     width: 40
     length: 40
     height: 2
-    shade: 10
+    shade: 5
     script: ALIENBASE
     terrains:
       - UBASE_MARS
@@ -2324,7 +2323,6 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
-    #shade: 10
     script: ALIEN_FORT_SURFACE
     #customUfo: ALIEN_FORT_ENTRY
     terrains:
@@ -2355,7 +2353,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 2
-    shade: 10
+    shade: 5
     script: ALIENBASE
     terrains:
       - UBASE_MARS
