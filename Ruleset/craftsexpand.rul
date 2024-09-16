@@ -963,7 +963,7 @@ ufopaedia:
       y: 18
       width: 205
       height: 80
-    image_id: SPACE_SHUTTLE_UFOPEDIA
+    image_id: STR_BREACHER_SHUTTLE
   - id: STR_F15EAGLEACTRAISER
     type_id: 1
     section: STR_XCOM_CRAFTS
@@ -981,7 +981,7 @@ ufopaedia:
       y: 18
       width: 205
       height: 80
-    image_id: SPACE_SHUTTLE_UFOPEDIA
+    image_id: STR_F15EAGLEACTRAISER
   - id: STR_PHEONIXHELLRAISER
     type_id: 1
     section: STR_XCOM_CRAFTS
@@ -999,7 +999,7 @@ ufopaedia:
       y: 18
       width: 205
       height: 80
-    image_id: SPACE_SHUTTLE_UFOPEDIA
+    image_id: STR_PHEONIXHELLRAISER
   - id: STR_VENTURESTAR
     type_id: 1
     section: STR_XCOM_CRAFTS
@@ -1017,7 +1017,7 @@ ufopaedia:
       y: 18
       width: 205
       height: 80
-    image_id: SPACE_SHUTTLE_UFOPEDIA
+    image_id: STR_VENTURESTAR
   - id: STR_COLUMBUSMARK4
     type_id: 1
     section: STR_XCOM_CRAFTS
@@ -1036,7 +1036,7 @@ ufopaedia:
       y: 18
       width: 205
       height: 80
-    image_id: SPACE_SHUTTLE_UFOPEDIA
+    image_id: STR_COLUMBUSMARK4
   - id: STR_IXIERPROTOYPE
     type_id: 1
     section: STR_XCOM_CRAFTS
@@ -1055,7 +1055,7 @@ ufopaedia:
       y: 18
       width: 205
       height: 80
-    image_id: SPACE_SHUTTLE_UFOPEDIA
+    image_id: STR_IXIERPROTOYPE
   - id: STR_XLAYGUNLOCK
     type_id: 1
     section: STR_XCOM_CRAFTS
@@ -1075,7 +1075,7 @@ ufopaedia:
       y: 18
       width: 205
       height: 80
-    image_id: SPACE_SHUTTLE_UFOPEDIA
+    image_id: STR_XLAYGUNLOCK
   - id: STR_ARMSTRONGDROPSHIP
     type_id: 1
     section: STR_XCOM_CRAFTS
@@ -1096,7 +1096,7 @@ ufopaedia:
       y: 18
       width: 205
       height: 80
-    image_id: SPACE_SHUTTLE_UFOPEDIA
+    image_id: STR_ARMSTRONGDROPSHIP
   - id: STR_FURY120UAV
     type_id: 1
     section: STR_XCOM_CRAFTS
@@ -1116,7 +1116,7 @@ ufopaedia:
       y: 18
       width: 205
       height: 80
-    image_id: SPACE_SHUTTLE_UFOPEDIA
+    image_id: STR_FURY120UAV
   - id: STR_NXTGENFGHTRTRANS
     type_id: 8
     section: STR_STRATEGIC
@@ -1138,3 +1138,60 @@ ufopaedia:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
     text: STR_ARMSTRONGREINFORCEMENTWIKI
     #listOrder: 5010
+
+extraSprites:
+  - type: STR_BREACHER_SHUTTLE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Aircraft/unscbreacherlandwiki.png
+  - type: STR_F15EAGLEACTRAISER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Aircraft/unscactraiserwiki.png
+  - type: STR_PHEONIXHELLRAISER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Aircraft/unschellraiserwiki.png
+  - type: STR_VENTURESTAR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Aircraft/unscventurestarwiki.png
+  - type: STR_COLUMBUSMARK4
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Aircraft/unsccolumbuswiki.png
+  - type: STR_IXIERPROTOYPE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Aircraft/unscixierprotoswiki.png
+  - type: STR_XLAYGUNLOCK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Aircraft/unscxlaygunlockwiki.png
+  - type: STR_ARMSTRONGDROPSHIP
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Aircraft/unscarmstrongn1dswiki.png
+  - type: STR_FURY120UAV
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Aircraft/unsc300berserkerwiki.png
+  
