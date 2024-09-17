@@ -62,7 +62,7 @@ crafts:
       - STR_NXTGENFGHTRTRANS
     costBuy: 1600000
     costSell: 600000
-    sprite: 978
+    sprite: 1001
     fuelMax: 1850
     damageMax: 500
     speedMax: 15500
@@ -137,7 +137,7 @@ crafts:
       - STR_NXTGENFGHTRTRANS
     costBuy: 1700000
     costSell: 650000
-    sprite: 978
+    sprite: 1002
     fuelMax: 2000
     damageMax: 650
     speedMax: 14250
@@ -213,7 +213,7 @@ crafts:
       - STR_NXTGENFGHTRTRANS
     costBuy: 2100000
     costSell: 700000
-    sprite: 978
+    sprite: 1003
     fuelMax: 2200
     damageMax: 700
     speedMax: 1250
@@ -319,7 +319,7 @@ crafts:
    # Nuclear Energy Drive
    # Electronic Countermeasure
    # Radar Corruption Scanners
-    sprite: 978
+    sprite: 1004
     fuelMax: 5000
     damageMax: 600
     speedMax: 16000
@@ -424,7 +424,7 @@ crafts:
    # Gravity Door Shielding
    # Supspace Engine Prototype
    # Energy Shields
-    sprite: 978
+    sprite: 1005
     fuelMax: 5000
     damageMax: 1000
     speedMax: 17000
@@ -578,7 +578,7 @@ crafts:
    # Advanced Neural Radar Systems
    # Reports of a Hidden Hangar Bunker
    # Energy Shields
-    sprite: 978
+    sprite: 1006
     fuelMax: 3000
     damageMax: 500
     speedMax: 16000
@@ -645,7 +645,7 @@ crafts:
    # Armstrong Battleship Reinforcements
    # Faster Than Light Theory
    # Advance Space Battleship Engineering
-    sprite: 978
+    sprite: 1007
     fuelMax: 5000
     damageMax: 5000
     speedMax: 50000
@@ -807,7 +807,7 @@ crafts:
    # Hyperwave Radio / Remote System
    # Energy Weapon Amplifier System
    # Cyberlink Neural System
-    sprite: 978
+    sprite: 1008
     fuelMax: 5000
     damageMax: 5000
     speedMax: 50000
@@ -1197,35 +1197,35 @@ extraSprites:
 
   - type: BASEBITS.PCK
     files:
-      431: Resources/Aircraft/Breacher_base.png
-      432: Resources/Aircraft/Harrier_base2.png
-      837: Resources/Aircraft/Harrier_base1.png
-      855: Resources/Aircraft/Harrier_base1.png
-      856: Resources/Aircraft/Forger_base1.png
-      857: Resources/Aircraft/Forger_base2.png
-      858: Resources/Aircraft/Forger_base1.png
-      859: Resources/Aircraft/Forger_base1.png
-      #860: Resources/Aircraft/Draken_base.png
+      1033: Resources/Aircraft/Breacher_base.png
+      1034: Resources/Aircraft/Actraiser_base.png
+      1035: Resources/Aircraft/Hellraiser_base.png
+      1036: Resources/Aircraft/Venturestar_base.png
+      1037: Resources/Aircraft/Columbus_base.png
+      1038: Resources/Aircraft/IXIERPrototype_base.png
+      1039: Resources/Aircraft/XLAYGunlock_base.png
+      1040: Resources/Aircraft/ArmstrongN1DS_base.png
+      1041: Resources/Aircraft/300Berserker_base.png
 
   - type: INTICON.PCK
     files:
-      409: Resources/Aircraft/Breacher_dogfight.png
-      410: Resources/Aircraft/Harrier_dogfight.png
-      815: Resources/Aircraft/Harrier_dogfight.png
-      833: Resources/Aircraft/Harrier_dogfight.png
-      834: Resources/Aircraft/Forger_dogfight.png
-      835: Resources/Aircraft/Forger_dogfight.png
-      836: Resources/Aircraft/Forger_dogfight.png
-      837: Resources/Aircraft/Forger_dogfight.png
-      #838: Resources/Aircraft/Draken_dogfight.png
+      1011: Resources/Aircraft/Breacher_dogfight.png
+      1012: Resources/Aircraft/Actraiser_dogfight.png
+      1013: Resources/Aircraft/Hellraiser_dogfight.png
+      1014: Resources/Aircraft/Venturestar_dogfight.png
+      1015: Resources/Aircraft/Columbus_dogfight.png
+      1016: Resources/Aircraft/IXIERPrototype_dogfight.png
+      1017: Resources/Aircraft/XLAYGunlock_dogfight.png
+      1018: Resources/Aircraft/ArmstrongN1DS_dogfight.png
+      1019: Resources/Aircraft/300Berserker_dogfight.png
 
 ###################################################
-      398: Resources/Aircraft/Breacher_minimised.png
-      399: Resources/Aircraft/Harrier_minimised.png
-      804: Resources/Aircraft/Harrier_minimised.png
-      822: Resources/Aircraft/Harrier_minimised.png
-      823: Resources/Aircraft/Forger_minimised.png
-      824: Resources/Aircraft/Forger_minimised.png
-      825: Resources/Aircraft/Forger_minimised.png
-      826: Resources/Aircraft/Forger_minimised.png
-      #827: Resources/Aircraft/Draken_minimised.png
+      1000: Resources/Aircraft/Breacher_minimised.png
+      1001: Resources/Aircraft/Actraiser_minimised.png
+      1002: Resources/Aircraft/Hellraiser_minimised.png
+      1003: Resources/Aircraft/Venturestar_minimised.png
+      1004: Resources/Aircraft/Columbus_minimised.png
+      1005: Resources/Aircraft/IXIERPrototype_minimised.png
+      1006: Resources/Aircraft/XLAYGunlock_minimised.png
+      1007: Resources/Aircraft/ArmstrongN1DS_minimised.png
+      1008: Resources/Aircraft/300Berserker_minimised.png
