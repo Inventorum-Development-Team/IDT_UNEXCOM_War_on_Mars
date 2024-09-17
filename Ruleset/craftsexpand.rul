@@ -3,7 +3,7 @@ crafts:
   - type: STR_BREACHER_SHUTTLE
     costBuy: 1300000
     costSell: 550000
-    sprite: 978
+    sprite: 1000
     fuelMax: 3000
     damageMax: 800
     speedMax: 13000
@@ -1194,4 +1194,38 @@ extraSprites:
     height: 200
     files:
       0: Resources/Aircraft/unsc300berserkerwiki.png
-  
+
+  - type: BASEBITS.PCK
+    files:
+      431: Resources/Aircraft/Breacher_base.png
+      432: Resources/Aircraft/Harrier_base2.png
+      837: Resources/Aircraft/Harrier_base1.png
+      855: Resources/Aircraft/Harrier_base1.png
+      856: Resources/Aircraft/Forger_base1.png
+      857: Resources/Aircraft/Forger_base2.png
+      858: Resources/Aircraft/Forger_base1.png
+      859: Resources/Aircraft/Forger_base1.png
+      #860: Resources/Aircraft/Draken_base.png
+
+  - type: INTICON.PCK
+    files:
+      409: Resources/Aircraft/Breacher_dogfight.png
+      410: Resources/Aircraft/Harrier_dogfight.png
+      815: Resources/Aircraft/Harrier_dogfight.png
+      833: Resources/Aircraft/Harrier_dogfight.png
+      834: Resources/Aircraft/Forger_dogfight.png
+      835: Resources/Aircraft/Forger_dogfight.png
+      836: Resources/Aircraft/Forger_dogfight.png
+      837: Resources/Aircraft/Forger_dogfight.png
+      #838: Resources/Aircraft/Draken_dogfight.png
+
+###################################################
+      398: Resources/Aircraft/Breacher_minimised.png
+      399: Resources/Aircraft/Harrier_minimised.png
+      804: Resources/Aircraft/Harrier_minimised.png
+      822: Resources/Aircraft/Harrier_minimised.png
+      823: Resources/Aircraft/Forger_minimised.png
+      824: Resources/Aircraft/Forger_minimised.png
+      825: Resources/Aircraft/Forger_minimised.png
+      826: Resources/Aircraft/Forger_minimised.png
+      #827: Resources/Aircraft/Draken_minimised.png
