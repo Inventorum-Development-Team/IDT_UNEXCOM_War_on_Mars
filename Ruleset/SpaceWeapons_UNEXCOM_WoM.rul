@@ -23,6 +23,7 @@ items:
         STR_CARBINES
       ]
     size: 0.2
+    requiresBuy: [ STR_M17_CARBINE ]
     costBuy: 2500
     costSell: 1750
     weight: 9
@@ -66,6 +67,7 @@ items:
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
     categories: [ STR_FIREARMS, STR_RIFLES, STR_CARBINES, STR_CLIPS ]
     size: 0.1
+    requiresBuy: [ STR_M17_CARBINE ]
     costBuy: 500
     costSell: 525
     weight: 3
@@ -96,6 +98,7 @@ items:
         STR_RIFLES
       ]
     size: 0.2
+    requiresBuy: [ STR_AK79_RIFLE ]
     costBuy: 2000
     costSell: 1500
     weight: 8
@@ -144,6 +147,7 @@ items:
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
     categories: [ STR_FIREARMS, STR_RIFLES, STR_SOVIET_TECH, STR_CLIPS ]
     size: 0.1
+    requiresBuy: [ STR_AK79_RIFLE ]
     costBuy: 475
     costSell: 425
     weight: 4
@@ -260,6 +264,7 @@ items:
     floorSprite: 1510
     handSprite: 2980
     bulletSprite: 2
+    requiresBuy: [ STR_G11_CASELESS_RIFLE ]
     fireSound: 169
     reloadSound: [186, 187, 188, 189]
     ammo:
@@ -306,6 +311,7 @@ items:
   - type: STR_G11_CASELESS_RIFLE_MAG
     categories: [STR_SPACE, STR_FIREARMS, STR_NATO_TECH, STR_PISTOLS]
     size: 0.1
+    requiresBuy: [ STR_G11_CASELESS_RIFLE ]
     costBuy: 800
     costSell: 750
     weight: 2
@@ -325,6 +331,7 @@ items:
 #    requires:
 #      - STR_USSR_IMPROVED_AQUATIC_WEAPONS
     size: 0.2
+    requiresBuy: [ STR_TKB1980_CASELESS_RIFLE ]
     costBuy: 4200
     costSell: 4000
     weight: 6
@@ -377,6 +384,7 @@ items:
   - type: STR_TKB1980_CASELESS_RIFLE_MAG
     categories: [STR_SPACE, STR_FIREARMS, STR_SOVIET_TECH, STR_PISTOLS]
     size: 0.1
+    requiresBuy: [ STR_TKB1980_CASELESS_RIFLE ]
     costBuy: 700
     costSell: 650
     weight: 2
@@ -561,7 +569,7 @@ items:
 # OLD WEAPONS
 
 # China Lake Laser Projector
-  - type: STR_CHINA_LAKE_LASER_PROJECTOR
+  - type: STR_ARGYRE_BASIN_LASER_PROJECTOR
     categories: [STR_FIREARMS, STR_LASER, STR_LMGS]
     size: 0.2
     costSell: 225000
@@ -1025,6 +1033,21 @@ items:
     invWidth: 2
     invHeight: 2
     listOrder: 2130
+
+manufacture:
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+
+  - name: STR_ARGYRE_BASIN_LASER_PROJECTOR
+    space: 1
+    requires:
+      - STR_HEARTS_AND_MINDS_ARM_THE_MUTONS
+    time: 50
+    cost: 10000
+    requiredItems:
+      STR_ELERIUM_115: 5
+      STR_ALIEN_ALLOYS: 5
 
 ufopaedia:
 ########################################

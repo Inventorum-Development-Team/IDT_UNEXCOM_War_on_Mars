@@ -1018,6 +1018,35 @@ research:
     getOneFree:
       - STR_ALIEN_LASERS
 
+##################################################
+######## GENERIC FACTION BALLISTIC FIREARMS #####
+################################################
+
+  - name: STR_M17_CARBINE
+    cost: 12
+    points: 20
+    needItem: true
+  - name: STR_AK79_RIFLE
+    cost: 12
+    points: 20
+    needItem: true
+  - name: STR_G11_CASELESS_RIFLE
+    cost: 12
+    points: 20
+    needItem: true
+  - name: STR_AK79_RIFLE
+    cost: 12
+    points: 20
+    needItem: true
+  - name: STR_TKB1980_CASELESS_RIFLE
+    cost: 12
+    points: 20
+    needItem: true
+  - name: STR_AK79_RIFLE
+    cost: 12
+    points: 20
+    needItem: true
+
 ###########################################
 ####### FACTION SELECTION RESEARCH #######
 #########################################
