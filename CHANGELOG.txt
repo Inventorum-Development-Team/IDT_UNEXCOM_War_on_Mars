@@ -7,6 +7,7 @@
 	- UNEXCOM: IXIER, VENTURESTAR, F-15 EAGLE, ACTRAISER, HELLRAISER, BREACHER, BERSERKER, ARMSTRONG and Secret Craft
 * Fixed fatal crash related to MARS_DEBRIS terrain tiles; reported by BiggusDickus, TheCatProgram & jamesbrand97 by Lowtek
 * Fixed several wrongly defined tiles on several Mars terrains, by wethan2
+* Reduced executionOdds of Insurgent Offensive and moved the missions to month 8, 10 and 12 only, feedback by Brother^2
 
 9-July-2023: v0.1 Martian Greeting
 * Added BFM original globe data, made by liberation
