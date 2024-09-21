@@ -2320,13 +2320,13 @@ alienDeployments:
           -
             - STR_FUSION_LANCE
             - STR_FUSION_LANCE
-    width: 50
-    length: 50
+    width: 60
+    length: 60
     height: 10
     script: ALIEN_FORT_SURFACE
     #customUfo: ALIEN_FORT_ENTRY
     terrains:
-      - MARS
+      - UBASE_FORT_SURFACE
     markerName: STR_ALIEN_BASE
     markerIcon: 7
     genMission:

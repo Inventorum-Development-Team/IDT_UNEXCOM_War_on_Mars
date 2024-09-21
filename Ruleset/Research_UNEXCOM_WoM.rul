@@ -36,7 +36,8 @@ research:
     cost: 0
     needItem: true
     unlocks:
-      - STR_ACT_3_PEDIA  
+      - STR_ACT_3_PEDIA
+      - STR_ALIEN_BASE_SELF_DESTRUCTION
   - name: STR_ACT_3_PEDIA
     cost: 0
     needItem: true
