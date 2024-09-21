@@ -1,4 +1,4 @@
-27-August-2024: v1.0 Soil of Ares
+21-September-2024: v1.0 Soil of Ares
 * Major rework of tech tree, by omegas7339
 * Dozens of new lore entries on the UN Campaign on Mars, the Ethereal Insurgency and the Free Aliens movement, by omegas7339
 * Plasma and Specialized Weapons locked behind research
@@ -11,6 +11,7 @@
 * Act 2 begins two months earlier
 * Fixed issue with broken Vastitas Borealis region crashing after alien base was established, by efrenespartano
 * Solved issue with broken Alien Fort alienDeployment, by efrenespartano
+* Minor bugfixing
 
 9-July-2023: v0.1 Martian Greeting
 * Added BFM original globe data, made by liberation
