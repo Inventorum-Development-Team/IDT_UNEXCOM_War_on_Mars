@@ -1575,10 +1575,11 @@ regions:
 
   - type: STR_VASTITAS_BOREALIS
     areas:
-      - - 180.24761545139
-        - 179.75238454861005
-        - -89.809506076389
-        - -70.190493923611
+    #  - - 180.24761545139
+    #    - 179.75238454861005
+    #    - -89.809506076389
+    #    - -70.190493923611
+      - [0, 360, -90, -70] # straight from vanilla
     regionWeight: 18
     missionWeights:
       STR_ALIEN_RESEARCH: 14
