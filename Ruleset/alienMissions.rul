@@ -48,7 +48,7 @@ alienMissions:
     siteType: STR_SUPPLY_RECOVERY_OPERATION_DEPLOYMENT
     spawnZone: 0
     raceWeights:
-      8:
+      6:
         STR_SECTOID: 25
         STR_SNAKEMAN: 25
         STR_FLOATER: 50

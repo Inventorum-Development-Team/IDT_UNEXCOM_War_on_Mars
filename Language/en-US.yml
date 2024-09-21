@@ -806,6 +806,7 @@ en-US:
   #Missions
       STR_INSTANT_INFILTRATION_UFO: "Insurgent mass wave"
       STR_ALIEN_INFILTRATION_INITIAL: "Insurgent Offensive"
+      STR_ALIEN_TERROR: "Alien Settlement Raid"
       
       STR_COUNTER_INSURGENCY_OPERATION_MISSION: "Counter-Insurgency Operation"
       STR_COUNTER_INSURGENCY_OPERATION_DEPLOYMENT: "COUNTER-INSURGENCY OPERATION"
@@ -2000,7 +2001,7 @@ en-US:
       STR_ALLIED_FORCES_ATTACK_SIGNAL_JAMMER_EVENT_DESCRIPTION: "Without waiting for reinforcements, our allies mounted a swift raid on the Jammer. Despite a stubborn resistance and heavy casualties, the UN forces managed to destroy the facility."
 
       STR_RESCUE_SIGNAL_BROADCASTING_EVENT: "Rescue signal broadcasted"
-      STR_RESCUE_SIGNAL_BROADCASTING_EVENT_DESCRIPTION: "Shortly after the destruction of the Signal Jammer, we were able to emit a pulse towards our homeworld, albeit weak. The message was short and concrete: 'We are still on the fight. And we will not ssurrender' . The UNSC assured us a reinforcement fleet is being ensembled and will be dispatched as soon as possible, meanwhile conventional rockets will be sent with supplies. "
+      STR_RESCUE_SIGNAL_BROADCASTING_EVENT_DESCRIPTION: "Shortly after the destruction of the Signal Jammer, we were able to emit a pulse towards our homeworld, albeit weak. The message was short and concrete: 'We are still on the fight. And we will not surrender' . The UNSC assured us a reinforcement fleet is being ensembled and will be dispatched as soon as possible, meanwhile conventional rockets will be sent with supplies. "
      
       STR_UN_FLEET_ARRIVING_EVENT: "UN fleet arriving to orbit"
       STR_UN_FLEET_ARRIVING_EVENT_DESCRIPTION: "The cavalry is here. Fresh reinforcements from Earth, plus additional equipment by the UN First Fleet. A barrage of lasers cannon fire and Fusion missiles broke the enemy's advance. Most of their outposts and facilities were destroyed. "

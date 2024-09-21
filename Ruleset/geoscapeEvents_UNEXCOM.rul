@@ -26,7 +26,7 @@ eventScripts:
   - type: STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT
-    firstMonth: 7
+    firstMonth: 5
 
 #############################
 ###### SUPPLY EVENTS #######
@@ -157,19 +157,19 @@ eventScripts:
   - type: STR_MARSEC_STORY_4_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_MARSEC_STORY_4_EVENT
-    firstMonth: 6
+    firstMonth: 4
     executionOdds: 100
 
   - type: STR_MARSEC_STORY_5_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_MARSEC_STORY_5_EVENT
-    firstMonth: 7
+    firstMonth: 5
     executionOdds: 100
 
   - type: STR_MARSEC_STORY_6_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_MARSEC_STORY_6_EVENT
-    firstMonth: 9
+    firstMonth: 6
     executionOdds: 100
 
 # TNI subplot 
@@ -177,43 +177,43 @@ eventScripts:
   - type: STR_TNI_STORY_1_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_TNI_STORY_1_EVENT
-    firstMonth: 1
+    firstMonth: 0
     executionOdds: 100
 
   - type: STR_TNI_STORY_2_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_TNI_STORY_2_EVENT
-    firstMonth: 2
+    firstMonth: 1
     executionOdds: 100
 
   - type: STR_TNI_STORY_3_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_TNI_STORY_3_EVENT
-    firstMonth: 4
+    firstMonth: 3
     executionOdds: 100
 
   - type: STR_TNI_STORY_4_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_TNI_STORY_4_EVENT
-    firstMonth: 5
+    firstMonth: 4
     executionOdds: 100
 
   - type: STR_TNI_STORY_5_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_TNI_STORY_5_EVENT
-    firstMonth: 6
+    firstMonth: 5
     executionOdds: 100
 
   - type: STR_TNI_STORY_6_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_TNI_STORY_6_EVENT
-    firstMonth: 7
+    firstMonth: 5
     executionOdds: 100
 
   - type: STR_TNI_STORY_7_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_TNI_STORY_7_EVENT
-    firstMonth: 9
+    firstMonth: 7
     executionOdds: 100
 
 ##############################
@@ -244,13 +244,13 @@ eventScripts:
   - type: STR_POKER_PLAYER_TRIAL_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_POKER_PLAYER_TRIAL_EVENT
-    firstMonth: 6
+    firstMonth: 5
     executionOdds: 100
 
   - type: STR_PSIONIC_CIRCLE_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_PSIONIC_CIRCLE_EVENT
-    firstMonth: 8
+    firstMonth: 5
     executionOdds: 100
 
 ##########################
@@ -297,7 +297,7 @@ eventScripts:
   - type: STR_ALLIED_FORCES_LOCATE_SIGNAL_JAMMER_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_ALLIED_FORCES_LOCATE_SIGNAL_JAMMER_EVENT
-    firstMonth: 10
+    firstMonth: 8
     executionOdds: 100
   - type: STR_ALLIED_FORCES_ATTACK_SIGNAL_JAMMER_EVENT_SCRIPT
     oneTimeSequentialEvents:
@@ -325,14 +325,14 @@ eventScripts:
   - type: STR_BRITISH_SOLDIERS_DIG_IN_MARINER_TRENCH_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_BRITISH_SOLDIERS_DIG_IN_MARINER_TRENCH_EVENT
-    firstMonth: 10
+    firstMonth: 9
     lastMonth: 11
     executionOdds: 50
 
   - type: STR_ALLIED_HARRIERS_DOGFIGHT_EVENT_SCRIPT_1
     oneTimeSequentialEvents:
      - STR_ALLIED_HARRIERS_DOGFIGHT_EVENT
-    firstMonth: 9
+    firstMonth: 8
     lastMonth: 10
     executionOdds: 50
 

@@ -26,7 +26,8 @@ missionScripts:
       #STR_TERRORISTS_OPERATIONS: true
       #STR_END_OF_TERRORISTS: false
     useTable: false
-    startDelay: 21600 # 15 Days
+    randomDelay: 21600 # 15 Days
+    startDelay: 216
     executionOdds: 100
     lastMonth: 5
     maxRuns: 6
@@ -43,7 +44,8 @@ missionScripts:
       #STR_TERRORISTS_OPERATIONS: true
       #STR_END_OF_TERRORISTS: false
     useTable: false
-    startDelay: 21600 # 15 Days
+    randomDelay: 21600 # 15 Days
+    startDelay: 10080 # 7 Days
     executionOdds: 100
     lastMonth: 5
     maxRuns: 6
@@ -65,8 +67,9 @@ missionScripts:
       #STR_END_OF_TERRORISTS: false
     useTable: false
     startDelay: 21600 # 15 Days
+    randomDelay: 10080 # 7 Days
     executionOdds: 100
-    firstMonth: 9
+    firstMonth: 7
     lastMonth: 14
     maxRuns: 6
 
@@ -74,8 +77,8 @@ missionScripts:
     missionWeights:
       0:
         STR_INVASION_START: 100
-    firstMonth: 8
-    lastMonth: 10
+    firstMonth: 6
+    lastMonth: 8
     executionOdds: 100
     raceWeights:
       0:
@@ -93,7 +96,7 @@ missionScripts:
     randomDelay: 43500
     targetBaseOdds: 100
     minScore: 1000
-    firstMonth: 8
+    firstMonth: 9
     useTable: false
 
   - type: AirSuperiority1

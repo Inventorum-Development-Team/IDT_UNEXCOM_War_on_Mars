@@ -9,6 +9,7 @@
 * Fixed several wrongly defined tiles on several Mars terrains, by wethan2
 * Reduced executionOdds of Insurgent Offensive and moved the missions to month 8, 10 and 12 only, feedback by Brother^2
 * Act 2 begins two months earlier
+* Fixed issue with broken Vastitas Borealis region crashing after alien base was established, by efrenespartano
 
 9-July-2023: v0.1 Martian Greeting
 * Added BFM original globe data, made by liberation

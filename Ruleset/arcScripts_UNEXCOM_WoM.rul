@@ -13,15 +13,15 @@ arcScripts:
     sequentialArcs:                     # the type of research topics to be "discovered", each month 0 or 1, processed sequentially
       - STR_ACT_2_TRIGGER
       - STR_ACT_2_PEDIA
-    firstMonth: 8                      # months this command runs on, 0 runs on startup of a new game (default 0)
-    lastMonth: 8                       # don't run after this month. -1 denotes no limit (default -1)
+    firstMonth: 6                      # months this command runs on, 0 runs on startup of a new game (default 0)
+    lastMonth: 6                       # don't run after this month. -1 denotes no limit (default -1)
     executionOdds: 100                  # % chances of this command executing (default 100)
     maxArcs: 1
   - type: Act2TriggerPedia
     sequentialArcs:                     # the type of research topics to be "discovered", each month 0 or 1, processed sequentially
       - STR_ACT_2_PEDIA
-    firstMonth: 8                      # months this command runs on, 0 runs on startup of a new game (default 0)
-    lastMonth: 8                       # don't run after this month. -1 denotes no limit (default -1)
+    firstMonth: 6                     # months this command runs on, 0 runs on startup of a new game (default 0)
+    lastMonth: 6                      # don't run after this month. -1 denotes no limit (default -1)
     executionOdds: 100                  # % chances of this command executing (default 100)
     maxArcs: 1
   - type: Act3Trigger
