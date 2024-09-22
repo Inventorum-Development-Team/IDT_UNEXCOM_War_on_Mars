@@ -453,7 +453,6 @@ items:
     autoRange: 16
     maxRange: 20
     attraction: 8
-    listOrder: 2052
 #
   - type: STR_MK119_SPACE_RIFLE_AP_CLIP
     categories: [STR_SPACE, STR_FIREARMS, STR_UNEXCOM_TECH, STR_PISTOLS]
