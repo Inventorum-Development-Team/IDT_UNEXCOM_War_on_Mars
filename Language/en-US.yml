@@ -2194,7 +2194,7 @@ en-US:
       STR_SOVIET_ELITE: "VKS Spetsnaz"
 
       STR_FREE_SECTOID_NPC_1: "Free Sectoid"
-      STR_FREE_SECTOID_NPC_2: "Free Sectoid" 
+      STR_FREE_SECTOID_NPC_2: "Free Sectoid Cyborg" 
       STR_FREE_SECTOID_NPC_3: "Free Sectoid" 
       STR_FREE_FLOATER_NPC_1: "Free Floater" 
       STR_FREE_FLOATER_NPC_2: "Free Floater" 
@@ -2203,8 +2203,21 @@ en-US:
       STR_FREE_MUTON_NPC_2: "Free Muton" 
       STR_FREE_MUTON_NPC_3: "Free Muton" 
       STR_FREE_SNAKEMAN_NPC_1: "Free Snakeman"
-      STR_FREE_SNAKEMAN_NPC_2<: "Free Snakeman" 
+      STR_FREE_SNAKEMAN_NPC_2: "Free Snakeman" 
       STR_FREE_SNAKEMAN_NPC_3: "Free Snakeman" 
+
+      STR_FREE_SECTOID_ARMOR: "Free Sectoid Spacesuit"
+      STR_FREE_SECTOID_ARMOR_UFOPEDIA: "Secessionist Sectoids use virtually identical life support units as those used by the Insurgents. The only difference is the color of the reflective coating, in gold like many human helmets."
+      STR_FREE_SECTOID_ARMOR_CORPSE: "Sectoid Spacesuit Corpse"
+      STR_FREE_SECTOID_CYBORG_ARMOR: "Free Sectoid Cyborg"
+      STR_FREE_SECTOID_CYBORG_ARMOR_UFOPEDIA: "Many of the powered exoskeletons used by the Sectoid forces were manufactured only on certain workshops, now under Insurrectionist control. In order to overcome this disadvantage, many Sectoids have recurred to ask the Floaters for cyber implants and external armor plating. This greatly increases their survival rate."
+      STR_FREE_SECTOID_CYBORG_CORPSE: "Sectoid Cyborg Wreck"
+
+      STR_FREE_FLOATER_ARMOR: "Free Floater Spacesuit"
+      STR_FREE_FLOATER_ARMOR_UFOPEDIA: "Standarized life support unit for all the Free Floaters on Mars. Motivated by their technical ambition and curiosity, tehy "
+      STR_FREE_FLOATER_ARMOR:
+      STR_FREE_FLOATER_ARMOR:
+      STR_FREE_FLOATER_ARMOR:
 
 ##########################################
 ########## COMMENDATIONS ###############
@@ -2855,7 +2868,7 @@ en-US:
       STR_SECESSIONIST_WEAPON_PREFERENCES: "Field Report - Seccessionist Weapon Preferences"
       STR_SECESSIONIST_WEAPON_PREFERENCES_UFOPEDIA: "While we have only supplied them with obsolete ballistic and laser weapons, the Free Aliens are still highly appreciative, leading to a number of racial preferences. Sectoids are naturally inclined towards the lower recoil M17 despite its relatively high weight, and commonly add bipods to make precision shots at long range.  Floaters are drawn to the mechanically complex G11, and have impressive accuracy when moving at full speed. And while stereotypical, Mutons favor the largest weapons available, most commonly anything Soviet they can get their hands on. The Snakemen prefer anything that makes grisly wounds, but will take anything they can use."
 
-      STR_SECESSIONIST_SECTOID_NICHE: "Field Report - Seccessionist Sectiod Niche"
+      STR_SECESSIONIST_SECTOID_NICHE: "Field Report - Seccessionist Sectoid Niche"
       STR_SECESSIONIST_SECTOID_NICHE_UFOPEDIA: "The Free Sectoids are most notable for having a near monopoly on Engineers trained in industrial operation, making them vital to getting abandoned production facilities back on line.  This makes them too valuable to alienate, resulting in the Mutons and Snakemen having a relatively 'hands off' approach to vassalizing them.  There is an unspoken agreement that Sectoid settlements will operate nearby infrastructure if it falls within their nominal overlord's territory, and simply shut it down when the tides have changed.  All parties agree that destroying the factories is far too likely to escalate out of control, and the restart sequence is generally long enough that they often trade hands again before production is resumed anyway."
 
       STR_SECESSIONIST_SECTOID_TECHNOLOGY: "Field Report - Seccessionist Sectoid Technology"
