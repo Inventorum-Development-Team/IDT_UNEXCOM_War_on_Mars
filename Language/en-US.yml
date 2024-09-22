@@ -977,12 +977,6 @@ en-US:
 
       STR_BIO_FOAM_UFOPEDIA: "Alien-alloyed based nano-foam, better known as 'Bio-Foam' is a chemical compound using alien materials as a base. Its main function is to quickly pack wounds, which contains as a side effect the mitigation of pain (although at the moment of applying the foam it is extremely painful), as well as a slight increase of the patient's health. One of the few medical instruments that can be used in outer space. "
 
-      STR_GENERATOR_STICK: "Generator Stick"
-      STR_SPACE_KNIFE: "SCTK-1 Space Knife"
-      STR_GYROJET_PISTOL: "M5 Gyrojet Pistol"
-      STR_GYROJET_RIFLE: "M10 Gyrojet Rifle"
-      STR_GYROJET_AMMO_MAGAZINE: "Gyrojet Ammo Magazine (x15)"
-
       STR_GENERATOR_STICK_UFOPEDIA: "A new type of Generator Stick has been developed specifically for use on space missions. Thanks to the new alien technology, the control unit of the shock generator with super reduced recoil and the creation of the alien alloy body itself has been redesigned, which allows the use of this device by UNEXCOM soldiers with great ease without losing the power of the weapon itself."
       STR_SPACE_KNIFE_UFOPEDIA: "Space-Capable Tactical Knife, special melee weapon meant to be used with astronaut gloves. It features a hardened Alien Alloy blade with a custom retractile handle that folds itself to cover the metal and avoid puncturing a space suit while stored. It can cut through several layers of armor."
       STR_GYROJET_PISTOL_UFOPEDIA: "Compact and ultra-precise gun, it is famous for being very quiet. It is basically the original model of Gyrojet gun created by the company MBA in the 60s, but adapted to use removable magazines. Soldiers call it 'the space spy gun' because of its stealthy qualities and ability to be used in the total vacuum of space."
@@ -2216,14 +2210,30 @@ en-US:
       STR_FREE_SECTOID_ARMOR_UFOPEDIA: "Secessionist Sectoids use virtually identical life support units as those used by the Insurgents. The only difference is the color of the reflective coating, in gold like many human helmets."
       STR_FREE_SECTOID_ARMOR_CORPSE: "Sectoid Spacesuit Corpse"
       STR_FREE_SECTOID_CYBORG_ARMOR: "Free Sectoid Cyborg"
-      STR_FREE_SECTOID_CYBORG_ARMOR_UFOPEDIA: "Many of the powered exoskeletons used by the Sectoid forces were manufactured only on certain workshops, now under Insurrectionist control. In order to overcome this disadvantage, many Sectoids have recurred to ask the Floaters for cyber implants and external armor plating. This greatly increases their survival rate."
+      STR_FREE_SECTOID_CYBORG_ARMOR_UFOPEDIA: "Many of the powered exoskeletons previously used by the Sectoid forces were manufactured only on certain workshops, now under Insurrectionist control. In order to overcome this disadvantage, many Sectoids have recurred to ask the Floaters for cyber implants and external armor plating. This greatly increases their survival rate."
       STR_FREE_SECTOID_CYBORG_CORPSE: "Sectoid Cyborg Wreck"
 
       STR_FREE_FLOATER_ARMOR: "Free Floater Spacesuit"
-      STR_FREE_FLOATER_ARMOR_UFOPEDIA: "Standarized life support unit for all the Free Floaters on Mars. Motivated by their technical ambition and curiosity, tehy "
-      STR_FREE_FLOATER_ARMOR:
-      STR_FREE_FLOATER_ARMOR:
-      STR_FREE_FLOATER_ARMOR:
+      STR_FREE_FLOATER_ARMOR_UFOPEDIA: "Standarized life support unit for all the Free Floaters on Mars. Motivated by their technical ambition and curiosity, they have added extra sensors and tech attachments, giving them extended understanding of their surroundings."
+      STR_FREE_FLOATER_ARMOR_CORPSE: "Free Floater Spacesuit"
+      STR_FREE_FLOATER_CYBORG_ARMOR: "Free Floater Emissary Armor"
+      STR_FREE_FLOATER_CYBORG_ARMOR_UFOPEDIA: "The ultimate commitment towards their goal, the Emissaries further enchance their cybernetic modifications to become the ultimate pilgrim. Faster, more agile and resilient than their brethren, without losing any of their innate ingenuity but becoming extremely unpleasant to look at."
+      STR_FREE_FLOATER_CYBORG_ARMOR_CORPSE: "Free Floater Spacesuit"
+      
+      STR_FREE_MUTON_ARMOR: "Free Muton Spacesuit"
+      STR_FREE_MUTON_ARMOR_UFOPEDIA: "The outfit of the Free Mutons could be described as 'guerrilla-style'. They display their unarmored upper torso as a display of sort of an 'alien macho' complex, even if this actually increases the odds of getting injured in combat."
+      STR_FREE_MUTON_ARMOR_CORPSE: "Free Muton Spacesuit Corpse"
+      STR_FREE_MUTON_SHOCK_ARMOR: "Free Muton Shock Armor"
+      STR_FREE_MUTON_SHOCK_ARMOR_UFOPEDIA: "Easily ensambled from stapled Alloys in any workshop, this personal armor provides similar protection to the ones field by the enemy over a decade ago. Additional webbing and pouches are used by the Secessionists after their experience fighting human forces."
+      STR_FREE_MUTON_SHOCK_ARMOR_CORPSE:
+      
+      STR_FREE_SNAKEMAN_ARMOR: "Free Snake Spacesuits"
+      STR_FREE_SNAKEMAN_ARMOR_CORPSE: "Free Snake Spacesuit Corpse"
+      STR_FREE_SNAKEMAN_ARMOR_UFOPEDIA: "Xenobiologists believe the Free Snakemen paint their armor in green tones to mimic the color of their blood... although it could be actual body fluids, we are not entirely sure."
+      STR_FREE_SNAKEMAN_PREDATOR_ARMOR: "Free Snake Predator Armor"
+      STR_FREE_SNAKEMAN_PREDATOR_ARMOR_UFOPEDIA: "The nickname 'predator' comes after the fact their best hunters decorate their armors with the bones and skulls of their 'prey', alien or human alike. The purpose is both pride in their 'trophies' and inflict terror in their enemies."
+      
+      
 
 ##########################################
 ########## COMMENDATIONS ###############
