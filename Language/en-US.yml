@@ -2194,7 +2194,7 @@ en-US:
       STR_SOVIET_ELITE: "VKS Spetsnaz"
 
       STR_FREE_SECTOID_NPC_1: "Free Sectoid"
-      STR_FREE_SECTOID_NPC_2: "Free Sectoid Cyborg" 
+      STR_FREE_SECTOID_NPC_2: "Free Sectoid" 
       STR_FREE_SECTOID_NPC_3: "Free Sectoid" 
       STR_FREE_FLOATER_NPC_1: "Free Floater" 
       STR_FREE_FLOATER_NPC_2: "Free Floater" 
@@ -2225,13 +2225,18 @@ en-US:
       STR_FREE_MUTON_ARMOR_CORPSE: "Free Muton Spacesuit Corpse"
       STR_FREE_MUTON_SHOCK_ARMOR: "Free Muton Shock Armor"
       STR_FREE_MUTON_SHOCK_ARMOR_UFOPEDIA: "Easily ensambled from stapled Alloys in any workshop, this personal armor provides similar protection to the ones field by the enemy over a decade ago. Additional webbing and pouches are used by the Secessionists after their experience fighting human forces."
-      STR_FREE_MUTON_SHOCK_ARMOR_CORPSE:
+      STR_FREE_MUTON_SHOCK_ARMOR_CORPSE: "Free Muton Shock Armor Corpse"
       
       STR_FREE_SNAKEMAN_ARMOR: "Free Snake Spacesuits"
       STR_FREE_SNAKEMAN_ARMOR_CORPSE: "Free Snake Spacesuit Corpse"
       STR_FREE_SNAKEMAN_ARMOR_UFOPEDIA: "Xenobiologists believe the Free Snakemen paint their armor in green tones to mimic the color of their blood... although it could be actual body fluids, we are not entirely sure."
       STR_FREE_SNAKEMAN_PREDATOR_ARMOR: "Free Snake Predator Armor"
       STR_FREE_SNAKEMAN_PREDATOR_ARMOR_UFOPEDIA: "The nickname 'predator' comes after the fact their best hunters decorate their armors with the bones and skulls of their 'prey', alien or human alike. The purpose is both pride in their 'trophies' and inflict terror in their enemies."
+      STR_FREE_SNAKEMAN_PREDATOR_ARMOR_CORPSE: "Free Snake Predator Corpse"
+      
+      STR_FREE_SECTOPOD_ARMOR: "Free Sectopod Modified Armor"
+      STR_FREE_SECTOPOD_ARMOR_UFOPEDIA: "Based on the original bipedal chassis but modified with additional armor plating and more weapons."
+      STR_FREE_SECTOPOD_ARMOR_CORPSE: "Free Sectopod Wreck"
       
       
 
