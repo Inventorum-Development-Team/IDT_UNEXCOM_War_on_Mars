@@ -2392,23 +2392,7 @@ extraGlobeLabels:
 customPalettes:
   - type: PALETTE_MARS_GEOSCAPE
     target: PAL_GEOSCAPE
-    palette: &newGlobeColors
-      144: [240, 196, 72] # Yellow/orange shades from Battlescape palette
-      145: [224, 176, 64]
-      146: [212, 156, 52]
-      147: [200, 136, 48]
-      148: [188, 120, 40]
-      149: [176, 104, 32] # 
-      150: [160, 84, 24]
-      151: [148, 72, 20]
-      152: [136, 56, 16]
-      153: [124, 44, 12]
-      154: [112, 32, 8] # 
-      155: [96, 20, 4]
-      156: [84, 12, 4] # 
-      157: [72, 4, 0]
-      158: [60, 0, 0]
-      159: [48, 0, 0]
+    file: Resources/Geoscape/PAL_ARESCAPE.pal
 
 extraSprites:
   - type: TEXTURE.DAT
