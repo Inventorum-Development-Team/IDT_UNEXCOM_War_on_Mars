@@ -2193,15 +2193,19 @@ en-US:
       STR_SOVIET_SUPPORT: "VKS Machine Gunner"
       STR_SOVIET_ELITE: "VKS Spetsnaz"
 
+      STR_FREE_SECTOID: "Free Sectoid"
       STR_FREE_SECTOID_NPC_1: "Free Sectoid"
       STR_FREE_SECTOID_NPC_2: "Free Sectoid" 
-      STR_FREE_SECTOID_NPC_3: "Free Sectoid" 
+      STR_FREE_SECTOID_NPC_3: "Free Sectoid"
+      STR_FREE_FLOATER: "Free Floater"  
       STR_FREE_FLOATER_NPC_1: "Free Floater" 
       STR_FREE_FLOATER_NPC_2: "Free Floater" 
       STR_FREE_FLOATER_NPC_3: "Free Floater" 
+      STR_FREE_MUTON: "Free Muton" 
       STR_FREE_MUTON_NPC_1: "Free Muton" 
       STR_FREE_MUTON_NPC_2: "Free Muton" 
-      STR_FREE_MUTON_NPC_3: "Free Muton" 
+      STR_FREE_MUTON_NPC_3: "Free Muton"
+      STR_FREE_SNAKEMAN: "Free Snakeman"
       STR_FREE_SNAKEMAN_NPC_1: "Free Snakeman"
       STR_FREE_SNAKEMAN_NPC_2: "Free Snakeman" 
       STR_FREE_SNAKEMAN_NPC_3: "Free Snakeman" 
@@ -2235,8 +2239,12 @@ en-US:
       STR_FREE_SNAKEMAN_PREDATOR_ARMOR_CORPSE: "Free Snake Predator Corpse"
       
       STR_FREE_SECTOPOD_ARMOR: "Free Sectopod Modified Armor"
-      STR_FREE_SECTOPOD_ARMOR_UFOPEDIA: "Based on the original bipedal chassis but modified with additional armor plating and more weapons."
+      STR_FREE_SECTOPOD_ARMOR_UFOPEDIA: "Based on the original bipedal chassis but modified with additional armor plating. The main weaponry was changed from the terrifying Laser Gatlings into a pair of heavy-duty Plasma AT Cannons, most likely influenced due to the large amount of enemy walkers still active. "
       STR_FREE_SECTOPOD_ARMOR_CORPSE: "Free Sectopod Wreck"
+
+      STR_FREE_CYBERDISC_ARMOR: "Free Cyberdisc Modified Armor"
+      STR_FREE_CYBERDISC_ARMOR_UFOPEDIA: "The addition of a turret on the standard alien armored fighting vehicle was a surprising sight, most likely a result of the heavy loses against human tanks. Considering the large pool of Loyalist armor still active, the Free Sectoids have added a powerful Laser Pulse Cannon, able to penetrate most vehicles (we believe they reverse-engineered captured AFINA laser cannons, as the performance is very similar)."
+      STR_FREE_CYBERDISC_CORPSE: "Cyberdisc Wreckage"
       
       
 
