@@ -753,7 +753,7 @@ armors:
       - 1.3
     personalLight: 6
 
-# MILITARY 
+# MILITARY
 
   - type: STR_ASTRONAUT_SPACESUIT_UC
     spriteSheet: A14_SPACESUIT_SPRITESHEET.PCK

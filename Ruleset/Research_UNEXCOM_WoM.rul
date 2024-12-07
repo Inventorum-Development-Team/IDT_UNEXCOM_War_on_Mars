@@ -14,7 +14,7 @@ research:
     cost: 0
     needItem: false
     unlocks:
-      - STR_ACT_1_PEDIA  
+      - STR_ACT_1_PEDIA
   - name: STR_ACT_1_PEDIA
     cost: 0
     needItem: false
@@ -47,7 +47,7 @@ research:
   - name: STR_ALIEN_BASE_SELF_DESTRUCTION
     cost: 0
     needItem: true
-    
+
 
   - name: STR_ETHEREAL_INSURGENCY_REPORT_1
     cost: 500
@@ -75,7 +75,7 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-      
+
   - name: STR_ETHEREAL_INSURGENCY_REPORT_2
     #cost: 500
     points: 50
@@ -206,93 +206,93 @@ research:
     cost: 100
     points: 50
     needItem: true
-    destroyItem: true 
+    destroyItem: true
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
   - name: STR_SECTOID_LEADER
     cost: 100
     points: 50
     needItem: true
-    destroyItem: true 
+    destroyItem: true
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
   - name: STR_ARMORED_SECTOID_LEADER
     cost: 100
     points: 50
     needItem: true
-    destroyItem: true 
+    destroyItem: true
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
   - name: STR_SNAKEMAN_COMMANDER
     cost: 100
     points: 50
     needItem: true
-    destroyItem: true 
+    destroyItem: true
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
   - name: STR_SNAKEMAN_LEADER
     cost: 100
     points: 50
     needItem: true
-    destroyItem: true 
+    destroyItem: true
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
   - name: STR_ETHEREAL_COMMANDER
     cost: 100
     points: 50
     needItem: true
-    destroyItem: true 
+    destroyItem: true
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
   - name: STR_ETHEREAL_LEADER
     cost: 100
     points: 50
     needItem: true
-    destroyItem: true 
+    destroyItem: true
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
   - name: STR_MUTON_LEADER
     cost: 100
     points: 50
     needItem: true
-    destroyItem: true 
+    destroyItem: true
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
   - name: STR_ARMORED_MUTON_LEADER
     cost: 100
     points: 50
     needItem: true
-    destroyItem: true 
+    destroyItem: true
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
   - name: STR_FLOATER_COMMANDER
     cost: 100
     points: 50
     needItem: true
-    destroyItem: true 
+    destroyItem: true
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
   - name: STR_FLOATER_LEADER
     cost: 100
     points: 50
     needItem: true
-    destroyItem: true 
+    destroyItem: true
     unlocks:
-      - STR_ETHEREAL_INSURGENCY_REPORT_3  
+      - STR_ETHEREAL_INSURGENCY_REPORT_3
   - name: STR_ARMORED_FLOATER_COMMANDER
     cost: 100
     points: 50
     needItem: true
-    destroyItem: true 
+    destroyItem: true
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
   - name: STR_ARMORED_FLOATER_LEADER
     cost: 100
     points: 50
     needItem: true
-    destroyItem: true 
+    destroyItem: true
     unlocks:
-      - STR_ETHEREAL_INSURGENCY_REPORT_3  
+      - STR_ETHEREAL_INSURGENCY_REPORT_3
 
   - name: STR_SECTOID_ENGINEER
     cost: 100
@@ -1195,7 +1195,7 @@ research:
     dependencies:
       - STR_USA_SUPPORT_RESEARCH
       - STR_NATO_SUPPORT_RESEARCH
-      - STR_USSR_SUPPORT_RESEARCH  
+      - STR_USSR_SUPPORT_RESEARCH
 
   - name: STR_LASER_CARBINE_SELECTION
     cost: 30
@@ -1203,7 +1203,7 @@ research:
     dependencies:
       - STR_USA_SUPPORT_RESEARCH
       - STR_NATO_SUPPORT_RESEARCH
-      - STR_USSR_SUPPORT_RESEARCH  
+      - STR_USSR_SUPPORT_RESEARCH
 
   - name: STR_LASER_CLOSE_RANGE_WEAPONS_SELECTION
     cost: 30
@@ -1249,7 +1249,7 @@ research:
       - STR_LASER_CARBINE_SELECTION
     disables:
       - STR_NATO_LASER_CARBINES
-      - STR_USSR_LASER_CARBINES    
+      - STR_USSR_LASER_CARBINES
 
   - name: STR_USA_LASER_CLOSE_RANGE_WEAPONS
     cost: 50
@@ -1297,7 +1297,7 @@ research:
       - STR_LASER_CARBINE_SELECTION
     disables:
       - STR_USA_LASER_CARBINES
-      - STR_USSR_LASER_CARBINES  
+      - STR_USSR_LASER_CARBINES
 
   - name: STR_NATO_LASER_CLOSE_RANGE_WEAPONS
     cost: 50
@@ -1345,7 +1345,7 @@ research:
       - STR_LASER_CARBINE_SELECTION
     disables:
       - STR_USA_LASER_CARBINES
-      - STR_NATO_LASER_CARBINES      
+      - STR_NATO_LASER_CARBINES
 
   - name: STR_USSR_LASER_CLOSE_RANGE_WEAPONS
     cost: 50
@@ -1476,7 +1476,7 @@ research:
   - name: STR_CRAFT_PROPULSION_OVERVIEW
     cost: 0
     points: 1
-    needItem: true    
+    needItem: true
 
   - name: STR_SURFACE_WARSHIPS
     cost: 0
@@ -1498,7 +1498,7 @@ research:
   - name: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_2
     cost: 0
     points: 1
-    needItem: true      
+    needItem: true
   - name: STR_EXOATMOSPHERIC_CRAFT_OVERVIEW
     cost: 0
     points: 1
@@ -1518,7 +1518,7 @@ research:
   - name: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_1
     cost: 0
     points: 1
-    needItem: true        
+    needItem: true
   - name: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_2
     cost: 0
     points: 1
@@ -1575,7 +1575,7 @@ research:
     cost: 0
     points: 1
     needItem: true
-    
+
   - name: STR_CRYSALID_LEGACY
     cost: 0
     points: 1
@@ -1587,7 +1587,7 @@ research:
   - name: STR_ANTI_GRAVITY_TECHNOLOGY_OVERVIEW
     cost: 0
     points: 1
-    needItem: true    
+    needItem: true
   - name: STR_LUNAR_OVERVIEW
     cost: 0
     points: 1
@@ -1603,7 +1603,7 @@ research:
   - name: STR_CRAFT_WEAPONS_OVERVIEW
     cost: 0
     points: 1
-    needItem: true    
+    needItem: true
 
   - name: STR_APOLLO_LASER_GATLING_OVERVIEW
     cost: 0
@@ -1819,7 +1819,7 @@ research:
     cost: 12
     points: 20
     needItem: true
-    destroyItem: true 
+    destroyItem: true
     getOneFree:
       - STR_STORY_REPORT_2
       - STR_STORY_REPORT_3
@@ -1874,7 +1874,7 @@ research:
         - STR_GORGON_ROCKETS_OVERVIEW
         - STR_ZEUS_OVERVIEW
         - STR_VOSTOK_PLASMA_CANNON_OVERVIEW
-        - STR_EXCALIBUR_LIGHT_MISSILE_OVERVIEW 
+        - STR_EXCALIBUR_LIGHT_MISSILE_OVERVIEW
         - STR_MJOLNIR_OVERVIEW
         - STR_KONDOR_OVERVIEW
         - STR_CASABA_LANCE_OVERVIEW

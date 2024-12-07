@@ -17,7 +17,7 @@ Credits by name:
 * cevaralien: MARSMOUNT, MARSURBAN, MARSPLAIN, MARSCRATER map and terrains
 * Dauntless1942: alien Fusion weapons artwork
 * efrenespartano: IDT lead dev, main ruleset work, main sprite work, IDT_MARS, IDT_HUMAN_STATION, IDT_MARS_DEBRIS, IDT_MARS_DRYLAKE terrains
-* Fegelein: IDT lead dev. All the US, Soviet and NATO Laser sprites and Pedia text, Geoscape events 
+* Fegelein: IDT lead dev. All the US, Soviet and NATO Laser sprites and Pedia text, Geoscape events
 * Hans Woofington: IDT dev, new Mars textures, US, NATO and USSR space suit paperdolls
 * Ikhanad: IDT lead dev. Official OST composer; testing, ideas and feedback
 * jamesbrand97: feedback
@@ -31,7 +31,7 @@ Credits by name:
 * TheCatProgram: feedback
 * Ultrakiroxei: alpha tester, IXIER, VENTURESTAR, F-15 EAGLE, ACTRAISER, HELLRAISER, BREACHER, BERSERKER, ARMSTRONG and Secret Crafts
 * wethan2: IDT dev and bugfixer
-* wolwerin: IDT dev, Human Outpost/Station maps, Alien Laser weapons, human Alloy weapons, medical items 
+* wolwerin: IDT dev, Human Outpost/Station maps, Alien Laser weapons, human Alloy weapons, medical items
 
 "UNEXCOM: War on Mars Official Soundtrack" composed by Ikhanad and Southoftheline. All the rights of the tracks belong to them, as they are the legitimate creators and owners. The content of the OST cannot be used elsewhere without their explicit permission
 
@@ -52,6 +52,6 @@ Credits by name:
   - GMENBASE: "Routinary Operations"
   - GMLOSE: "Iskander"
 
-*Southoftheline*:  
+*Southoftheline*:
   - GMINTER: "Interception"
   - GMENDGAME: "Take That Thing Down"

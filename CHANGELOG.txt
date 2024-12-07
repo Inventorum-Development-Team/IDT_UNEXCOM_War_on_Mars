@@ -38,17 +38,17 @@
 * Added Mars terrains, by efrenespartano
     - Southern Rocky Highlands
     - Alien Military Base
-    - Human R&D Station 
+    - Human R&D Station
     - Former Warzone
     - Dry Seabed
 * Added Mars terrains made by cevaralien
     - Southern Highlands
     - Alien Civilian Complex
     - Nothern Lowlands
-    - Southern Plains 
+    - Southern Plains
 * Added Mars terrains made by liberation
-    - Northern Volcanic Plains 
-    - Southern Plains 
-    - Polar Ice Caps 
+    - Northern Volcanic Plains
+    - Southern Plains
+    - Polar Ice Caps
     - Volcanic Highlands
 * All aliens now have spacesuits

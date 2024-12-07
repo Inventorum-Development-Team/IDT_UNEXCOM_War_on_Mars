@@ -117,7 +117,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_ACIDALIA_PLANITIA: 100
   - type: counterAttack_AcidaliaPlanitia2
     firstMonth: 10
@@ -127,7 +127,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_ACIDALIA_PLANITIA: 100
   - type: counterAttack_AcidaliaPlanitia3
     firstMonth: 12
@@ -137,7 +137,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_ACIDALIA_PLANITIA: 100
 
   - type: counterAttack_VastitasBorealis1
@@ -148,7 +148,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_VASTITAS_BOREALIS: 100
   - type: counterAttack_VastitasBorealis2
     firstMonth: 10
@@ -158,7 +158,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_VASTITAS_BOREALIS: 100
   - type: counterAttack_VastitasBorealis3
     firstMonth: 12
@@ -168,7 +168,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_VASTITAS_BOREALIS: 100
 
   - type: counterAttack_TerraMeridani1
@@ -179,7 +179,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_TERRA_MERIDIANI: 100
   - type: counterAttack_TerraMeridani2
     firstMonth: 10
@@ -189,7 +189,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_TERRA_MERIDIANI: 100
   - type: counterAttack_TerraMeridani3
     firstMonth: 12
@@ -199,7 +199,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_TERRA_MERIDIANI: 100
 
   - type: counterAttack_ArabiaTerra1
@@ -210,7 +210,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_ARABIA_TERRA: 100
   - type: counterAttack_ArabiaTerra2
     firstMonth: 10
@@ -220,7 +220,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_ARABIA_TERRA: 100
   - type: counterAttack_ArabiaTerra3
     firstMonth: 12
@@ -230,7 +230,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_ARABIA_TERRA: 100
 
   - type: counterAttack_ElysiumPlanitia1
@@ -241,7 +241,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_ELYSIUM_PLANITIA: 100
   - type: counterAttack_ElysiumPlanitia2
     firstMonth: 10
@@ -251,7 +251,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_ELYSIUM_PLANITIA: 100
   - type: counterAttack_ElysiumPlanitia3
     firstMonth: 12
@@ -261,7 +261,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_ELYSIUM_PLANITIA: 100
 
   - type: counterAttack_AmazonisPlanitia1
@@ -272,7 +272,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_AMAZONIS_PLANITIA: 100
   - type: counterAttack_AmazonisPlanitia2
     firstMonth: 10
@@ -282,7 +282,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_AMAZONIS_PLANITIA: 100
   - type: counterAttack_AmazonisPlanitia3
     firstMonth: 12
@@ -292,7 +292,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_AMAZONIS_PLANITIA: 100
 
   - type: counterAttack_TerraSirenum1
@@ -303,7 +303,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_TERRA_SIRENUM: 100
   - type: counterAttack_TerraSirenum2
     firstMonth: 10
@@ -313,7 +313,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_TERRA_SIRENUM: 100
   - type: counterAttack_TerraSirenum3
     firstMonth: 12
@@ -323,7 +323,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_TERRA_SIRENUM: 100
 
   - type: counterAttack_ArgyrePlanitia1
@@ -334,7 +334,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_ARGYRE_PLANITIA: 100
   - type: counterAttack_ArgyrePlanitia2
     firstMonth: 10
@@ -344,7 +344,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_ARGYRE_PLANITIA: 100
   - type: counterAttack_ArgyrePlanitia3
     firstMonth: 12
@@ -354,7 +354,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_ARGYRE_PLANITIA: 100
 
   - type: counterAttack_NoachisTerra1
@@ -365,7 +365,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_NOACHIS_TERRA: 100
   - type: counterAttack_NoachisTerra2
     firstMonth: 10
@@ -375,7 +375,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_NOACHIS_TERRA: 100
   - type: counterAttack_NoachisTerra3
     firstMonth: 12
@@ -385,7 +385,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_NOACHIS_TERRA: 100
 
   - type: counterAttack_HellaPlanitia1
@@ -396,7 +396,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_HELLAS_PLANITIA: 100
   - type: counterAttack_HellaPlanitia2
     firstMonth: 10
@@ -406,7 +406,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_HELLAS_PLANITIA: 100
   - type: counterAttack_HellaPlanitia3
     firstMonth: 12
@@ -416,7 +416,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_HELLAS_PLANITIA: 100
 
   - type: counterAttack_TerraCimmeria1
@@ -427,7 +427,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_TERRA_CIMMERIA: 100
   - type: counterAttack_TerraCimmeria2
     firstMonth: 10
@@ -437,7 +437,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_TERRA_CIMMERIA: 100
   - type: counterAttack_TerraCimmeria3
     firstMonth: 12
@@ -447,7 +447,7 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION_INITIAL: 100
     regionWeights:
-      0: 
+      0:
         STR_TERRA_CIMMERIA: 100
 
 #####################

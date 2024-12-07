@@ -776,7 +776,7 @@ items:
     recoveryPoints: 5
     battleType: 11
     armor: 26
-    
+
 extraSprites:
   - type: BIGOBS.PCK
     files:

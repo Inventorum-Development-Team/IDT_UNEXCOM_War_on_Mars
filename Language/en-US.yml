@@ -5,9 +5,9 @@
 # Several lore report types:
 # Operational: about the greater scope of the Mars Campaign
 # Tactical: about specific weapons and equipment
-# Logistical 
+# Logistical
 # Strategical: updated situation of the overall situation in Mars
-# Diplomatic: about Hearts and Minds 
+# Diplomatic: about Hearts and Minds
 
 en-US:
 
@@ -165,14 +165,12 @@ en-US:
         one: "{N} Unit in UNEXCOM Craft"
         other: "{N} Units in UNEXCOM Craft"
       MAP_XBASE: "UNEXCOM Base"
-      
       STR_ACT_1_TRIGGER: "Act 1 Trigger"
       STR_ACT_1_PEDIA: "Act 1 UFOPedia"
       STR_ACT_2_TRIGGER: "Act 2 Trigger"
       STR_ACT_2_PEDIA: "Act 2 UFOPedia"
       STR_ACT_3_TRIGGER: "Act 3 Trigger"
       STR_ACT_3_PEDIA: "Act 3 UFOPedia"
-
 ###CRAFT
       STR_CRAFT_GATLING_ONE: "GATLING-1>{ALT}{0}"
       STR_CRAFT_GATLING_TWO: "GATLING-2>{ALT}{0}"
@@ -278,7 +276,7 @@ en-US:
       STR_GORGON_LAUNCHER: "GORGON LAUNCHER"
       STR_CASABA_SPIKE: "CASABA HOWITZER NUCLEAR SPIKE"
       STR_LASER_SPIKE: "CASABA NUCLEAR SPIKE"
-      
+
       STR_EXCALIBUR_LIGHT_MISSILE: "EXCALIBUR SMART LIGHT MISSILE"
       STR_EXCALIBUR_LAUNCHER: "EXCALIBUR LAUNCHER"
       STR_EXCALIBUR_MISSILES: "EXCALIBUR MISSILE"
@@ -298,7 +296,7 @@ en-US:
       STR_KRAKEN_LAUNCHER: "KRAKEN LAUNCHER"
       STR_CASABA_LANCE: "CASABA HOWITZER NUCLEAR LANCE"
       STR_LASER_LANCE: "CASABA NUCLEAR LANCE"
-      
+
       STR_SABRE: "SABRE"
       STR_DYNASOAR: "DYNA-MOWS"
       STR_HERMES: "HERMES"
@@ -602,7 +600,7 @@ en-US:
       STR_7_62MM_NATO_RIFLE_X5: "7.62mm NATO Rifle Rounds (x5)"
       STR_7_62MM_NATO_RIFLE_X20: "7.62mm NATO Rifle Rounds (x20)"
       STR_7_62MM_NATO_RIFLE_X30: "7.62mm NATO Rifle Rounds (x30)"
-      
+
       STR_7_62MM_NATO_LMG_X50: "7.62mm NATO LMG Rounds (x50)"
       STR_7_62MM_NATO_LMG_X100: "7.62mm NATO LMG Rounds (x100)"
 
@@ -622,21 +620,21 @@ en-US:
 
       STR_GRENADE: "M45 Frag Grenade"
       STR_GRENADE_UFOPEDIA: "M45 is a frag grenade, developed specifically for martian conditions. It has received a new detonator, capable of working in non-breathable conditions. M45 was nicknamed in allied forces as 'Flask' due to it's shape looking similar to flask of liquor"
-      
+
       STR_40MM_FRAG: "40mm Frag Grenade (x1)"
       STR_40MM_INCENDIARY: "40mm INC Grenade (x1)"
       STR_40MM_SMOKE: "40mm Smoke Grenade (x1)"
       STR_40MM_NON_LETHAL: "40mm Non-Lethal Grenade (x1)"
-      
+
       STR_CARL_GUSTAF_M2_HE_ROUND: "CG M2 HE Round"
       STR_CARL_GUSTAF_M2_HEAT_ROUND: "CG M2 HEAT Round"
       STR_CARL_GUSTAF_M2_ELERIUM_ROUND: "CG M2 E113 Round"
       STR_RPG_HE_ROCKET: "RPG-7 HE Rocket"
       STR_RPG_INC_ROCKET: "RPG-7 INC Rocket"
       STR_RPG_EWH_ROCKET: "RPG-7 Elerium WH Rocket"
-      
+
       STR_FAL_SHOTGUN_SHELLS: "12-Gauge FAL Shotgun Shells (x5)"
-      
+
       STR_KS23_SHRAPNEL-25_X4: "23mm KS23 Shrapnel-25 Shells (x4)"
       STR_KS23_BARRIKADE_X4: "23mm KS23 Barrikade Slug (x4)"
       STR_KS23_SATANA_X4: "23mm KS23 Satana Shells (x4)"
@@ -673,7 +671,7 @@ en-US:
   #
       STR_UNPRIME_GRENADE: "Unprime Grenade"
       STR_AIMED: "Aimed"
-      
+
   ###########################
   ####### US WEAPONS ########
   ###########################
@@ -709,7 +707,7 @@ en-US:
       STR_M16A1: "M16A1"
 
       STR_FN_FAL: "FN FAL"
-      
+
       STR_AKM: "AKM"
 
   ########################################
@@ -738,7 +736,7 @@ en-US:
       STR_USE_MEDICAL_POUCH: "Use MedPac"
       STR_TAPE_IT: "Tape it up!"
       STR_APPLY_FOAM: "Fill it with Foam!"
-      
+
   ########################################
   ############ EXPLOSIVES ################
   ########################################
@@ -809,7 +807,7 @@ en-US:
       STR_INSTANT_INFILTRATION_UFO: "Insurgent mass wave"
       STR_ALIEN_INFILTRATION_INITIAL: "Insurgent Offensive"
       STR_ALIEN_TERROR: "Alien Settlement Raid"
-      
+
       STR_COUNTER_INSURGENCY_OPERATION_MISSION: "Counter-Insurgency Operation"
       STR_COUNTER_INSURGENCY_OPERATION_DEPLOYMENT: "COUNTER-INSURGENCY OPERATION"
       STR_COUNTER_INSURGENCY_OPERATION_DESCRIPTION: "Allied forces operating in the area have reported Insurgent activity, most likely aimed to compromise their safety. We have been tasked to engage the alien guerrilla before they manage to damage our assets and retreat. "
@@ -919,7 +917,7 @@ en-US:
       STR_BASTION_UFOPAEDIA: "The Bastion was designed with the sole purpose of spotting UFOs in mind, Capable of spotting and tracking UFOs in an unprecedented 2300-mile radius. Due to improvements in efficiency, the Bastion is capable of relocating with twice the speed of its predecessor. It houses a replicated alien IFF system, masking itself as friendly to alien sensors"
       STR_SPACE_SHUTTLE_UFOPEDIA: "The UN's current standard VTOL Dropship, in the Martian Theater the Intruder can do away with booster and fuel tanks and instead mount weapon pods for CAS operations."
       STR_BREACHER_SHUTTLE_UFOPEDIA:  "What will be NATO's new Exo-Transport going forward, the Breacher can carry several light vehicles, but lacks the CAS capabilities of the Intruder."
-      
+
       STR_DYNASOAR_UFOPAEDIA: "Boeing SF-22 Dyna-MOWS - America's current orbital interceptor.  Its improvements are focused on durability and payload capacity."
 
       STR_HERMES_UFOPAEDIA: "Eurofighter HERMES ECSF-3 - The Bomber of Exocraft, UASCNAT uses it to ward off VKS Ortillery platforms."
@@ -999,15 +997,15 @@ en-US:
         the ground. It reduces TUs, Accuracy, Reactions and Stamina, as well as
         stuns the affected target."
       STR_ELECTRO_FLARE_UFOPEDIA: "This compact device produces a bright flare light when it is lit. This will highlight enemy units in the vicinity of the flare during night time missions."
-      
+
       STR_BREAD: "Bread"
 
       STR_BREAD_UFOPEDIA: "A pretty regular piece of bread, it's enough to calm the hungry, the morale and even a bit of health."
-      
+
 #################################
 ###### FLECHETTE WEAPONS #####
 ###############################
-      
+
       STR_FLECHETTE_RIFLE_UFOPEDIA: "A new design made by UNEXCOM Armory features a heavier barrel with an integral suppressor to help dissipate the recoil. The standard model lacks a stock to allow easier handle inside closed environments like spaceships and pressurized habitats."
 
       STR_FLECHETTE_MACHINE_PISTOL_UFOPEDIA: UNDER REVIEW
@@ -1023,7 +1021,7 @@ en-US:
       STR_FLECHETTE_GRENADE_UFOPEDIA: UNDER REVIEW
 
       STR_FLECHETTE_CANNON_UFOPEDIA: UNDER REVIEW
-      
+
       STR_FLECHETTE_GRENADE_LAUNCHER_UFOPEDIA: UNDER REVIEW
 
       STR_FLECHETTE_AUTOMATIC_SHOTGUN_UFOPEDIA: UNDER REVIEW
@@ -1047,7 +1045,7 @@ en-US:
       STR_ALLOY_SNIPER_AP_UFOPEDIA: UNDER REVIEW
 
       STR_ALLOY_SNIPER_FL_UFOPEDIA: UNDER REVIEW
-      
+
       STR_30MM_AAG_UFOPEDIA: "Small yet powerful 30mm explosive grenades. Originally designed for a Soviet grenade launcher, we have adopted it.  It's very versatile and light enough to carry it on large quantities." #UNDER REVIEW
 
 
@@ -1060,9 +1058,9 @@ en-US:
       STR_ELERIUM_BATTERY_UFOPAEDIA: "This battery is extremely similar to the power cells of Alien Fusion weaponry, granting it twice the capacity of our regular batteries while being the same weight"
 
       STR_PEACEMAKER_UFOPEDIA: "The Peacemaker is the standard energy weapon used by UNEXCOM since the '73. Hard-hitting, with decent accuracy and rate of fire. Substantially better than the alien laser rifles it was based on. The major downside is the manufacturing costs, making it unviable for mass production. Each rifle is handcrafted by UNEXCOM gunsmiths."
-      
+
       STR_ARGYRE_BASIN_LASER_PROJECTOR_UFOPEDIA: "Essentially a reproduction of the China Lake created to arm Free Mutons during the Mars Uprising, the Argyre Basin has some functional improvements to make it better suited for its intended operators.  Compared to 3rd Gen Lasers, the Argyre Basin is much easier to manufacture, extremely durable, and is comically easy to maintain, making it ideal for extremely strong soldiers with limited technical skills.  The frame has been specifically reinforced to be used as a club, and it has been used as such frequently.  Testing shows that it will be particularly effective against the Muton’s primary rivals, the fast breeding Snakemen."
-      
+
 
       STR_M1972_LASER_PISTOL_UFOPEDIA: "After acquiring of license for laser technology, Savage Arms developed a new handgun, which was adopted by US Army and even some security companies. Savage Arms managed to create miniature charging system, which perfomance was similar to perfomance of M1972 handgun, while being smaller and lighter, thanks to the use of new alloy. M77 Rasputin use design of Savage Model 1907, well-known handgun from the beginning of 20th Century."
       STR_38_LASER_MAGNUM_UFOPEDIA_1: "Magnum Research acquired license for laser technology in 1976 and started development of a new powerful handgun. Constructors managed to create strong-looking handgun with powerful charging system and accurate lenses. New alloys, used in this weapon, allows to make it relatively light."
@@ -1209,7 +1207,7 @@ en-US:
       STR_SUPPLY_SHIP_UFOPEDIA: "The supply vessel is used during the construction of alien bases or for supplying existing bases. It carries alien food containers and reproduction chambers."
       STR_SMALL_FIGHTER_UFOPEDIA: "Though this UFO may not look like much, it is a fearsome combatant. Despite its lack of an aerodynamic design, it is faster than any aircraft found on Earth."
       STR_TROOP_LANDER_UFOPEDIA: "This massive vessel seems to serve as the aliens main method of transporting troops. Though being a transport, it is equipped with an extensive point-defence system, making it a severe threat to any assailant."
-      
+
       STR_SMALL_LAUNCHER_UFOPEDIA: "Compact but powerful alien launcher, useful in a variety of combat scenarios. Versatile and deadly weapon."
       STR_ELERIUM_BOMB_UFOPEDIA: "Elerium Bomb, used mainly by alien terrorists, is a powerful and deadly ammunition for Small Launcher."
       STR_ACID_BOMB_UFOPEDIA: "Acid Bomb rack, filled with a highly toxic chemical compound of unknown origin. Known to corrode organic tissue within minutes, even titanium armored plates offer little protection against it."
@@ -1230,7 +1228,7 @@ en-US:
 
       STR_PLASMA_BLASTER_UFOPEDIA: "This is a devastating anti-armor weapon based on plasma technology, vaporizing everything around the impact point."
       STR_PLASMA_BLASTER_CLIP_UFOPEDIA: "This compact device is used as ammunition for a Plasma Blaster.  It contains a small quantity of Elerium."
-      
+
       STR_ALIEN_REACTIVE_GRENADE_UFOPEDIA: "This explosive device is an overcharged battery of a modified laser weapon with an activation fuze and a streamlined design, to be used as a throwing weapon. The spikes in the frame of the grenade allow it to embed itself in the ground (even in organic tissue) and remain stationary. The radiation it emitts makes it a dangerous artifact if not properly contained. Reacts to nearby movement and explodes."
       STR_ALIEN_SIEGE_LAUNCHER_UFOPEDIA: "Unlike the other weapons we have found so far, this one seems to employ some kind of ballistic principle to propel its projectiles at an angle, similar to the way our mortars work. We have not found the way in which this weapon is held. The projectile is one of our greatest concerns, because it is fundamentally a miniature atomic bomb. Any alien using this weapon should have priority to be eliminated."
       STR_DEVIL_AXE_UFOPEDIA: "This ceremonial melee weapon is used by distinguished members of the alien ranks. It drains upon the mental energy and psi skill of the user to increase its power. It's a feared tool in the right hands and brains."
@@ -1282,7 +1280,7 @@ en-US:
       STR_ARMORED_MUTON_UFOPEDIA: "The Shock Mutons are specially trained to engage against highly organized enemy forces. Their armor protects them from all kind of damage and their enclosed helmet allows them to operate on toxic environments. The foot are unprotected, being a vulnerable side."
       STR_ARMORED_MUTON_LEADER_UFOPEDIA: "An extremely skilled Muton warrior, employed as both commanders of large alien contingents and personal guard for the Ethereal leaders. Their armors and helmets are decorated with large ornaments, shown with pride as a sign of status. They are the peak of the Muton hierarchy."
       STR_MUTON_LEADER_UFOPEDIA: "While regular Mutons are highly dependant on a psionic link with a superior being like Ethereals and Sectoids, this kind of alien serves as a NCOs for alien squads. They have developed a stronger individualism and will power. This is enough to command other aliens and support higher castes."
- 
+
       STR_ARMORED_FLOATER_UFOPEDIA: "Serving as the usual frontline and recon unit is costly due the poor protection of the standard harness. This is why the Floater soldiers have been improved with armor whose protection rate is similar to other frontline units. This effectively doubles the survival rate within their ranks."
       STR_STRIDER_UFOPEDIA: "This is a subspecies of the Floaters, stronger and more resilient than their cybernetic-enhanced cousins. We think on them like the Homo Neanderthals and Homo Sapiens: two similar species with different specializations. They often wear heavy armor and provide close combat support to Floaters."
       STR_STRIDER_AUTOPSY_UFOPEDIA: "This alien is very similar to the Floater, perhaps a variation of them or a genetic relative. The cranium looks more sturdy but with more primitive facial features. The legs and arms are muscular in appearance, probably indicating this alien is used on heavy work."
@@ -1294,7 +1292,7 @@ en-US:
       STR_CYBERSPHERE_AUTOPSY_UFOPEDIA: "The wreck reveals few things about the purpose of the flying object. It doesn't have any weapon and the chassis is really thin and light, it barely resists a couple of rifle rounds. The antigravity propulsion unit is very compact too, looks like it's meant mostly as recon and survey tasks."
       STR_THIN_MAN_UFOPEDIA: "The Thin Man is an alien creature fused with human DNA to create what seems to be an infiltration agent. It has been shown to showcase some kind of psionic abilities, something that no doubt assists it when establishing networks of operatives."
       STR_THIN_MAN_AUTOPSY_UFOPEDIA: "While on the surface the subject, which we've christened as 'Thin Man', seems human, its internal organs show significant deviation. The Thin Mans DNA is similar to a regular humans, but it contains portions unlike anything found on earth. The subject is most likely a result of genetic manipulation."
-      
+
 ###########################################
 #EQUIPMENT REPORTS
       STR_RIFLE_REPORT_UFOPEDIA: "This type of weapon is widely used by armies all around the world. Two types of rifles are used: Battle Rifles, heavier and more powerful, but difficult to fire and Assault Rifles, lighter and more accurate. {NEWLINE}{NEWLINE}Special attack: {NEWLINE}Burst, three shots (Aimed slot). {NEWLINE}Control Auto, five shots (Auto slot)"
@@ -1365,9 +1363,9 @@ en-US:
       STR_CORPSE_VKS_OPERATOR_SPACESUIT: "Fallen Operator"
 
       STR_UNEXCOM_LEGIONARY: "UNEXCOM Legionary"
-      
-      
-  
+
+
+
   # Space Weapons
       STR_M17_CARBINE: "M17 Light Carbine"
       STR_M17_CARBINE_UFOPEDIA: "A specially adapted XM117 carbine, used by reserve units deployed in outer space. All the polymer surfaces were painted with a reflecting coating to avoid overheating in space. A x4 scope is added to help the astronauts in aiming using their helmet."
@@ -1544,7 +1542,7 @@ en-US:
       STR_UNEXCOM_BLUE_HELMETS: "Our Blue Helmets"
       STR_UNEXCOM_PILOTS: "Our Pilots"
       STR_AIR_COMBAT: "Air Combat"
-      
+
 #########################################
       STR_UNEXCOM_WEAPONS: "UNEXCOM Weaponry"
       STR_RIFLE_REPORT: "Rifles Report"
@@ -1569,10 +1567,10 @@ en-US:
 
       STR_USA_SUPPORT_RESEARCH: "United States Logistics Support"
       STR_USA_SUPPORT_RESEARCH_UFOPEDIA: "We have requested the U.S. Space Force Command for supplies and technology assets. The American energy beam developments are characterized by their balanced features and high-quality construction. Jack-of-all-trades and adaptability to all and any situations has been the American laser doctrine for two decades. More requisition options are available for specific blueprints.  "
-      
+
       STR_USSR_SUPPORT_RESEARCH: "Soviet Logistics Support"
       STR_USSR_SUPPORT_RESEARCH_UFOPEDIA: "The Warsaw Pact doctrine is focused on raw firepower, dominating the battlefield with overwhelming numbers. This is reflected in the Soviet weaponry, powerful and hard-hitting. The relative lack of accuracy is a noticeable drawback, however. Specific blueprints are available for further requisitions."
-      
+
       STR_NATO_SUPPORT_RESEARCH: "European Logistics Support"
       STR_NATO_SUPPORT_RESEARCH_UFOPEDIA: "Europe's manpower was severely reduced after the devastating conflict ten years ago. A professionalized army was created with fewer elements than the other World Powers but better training. To complement this, light and highly accurate weapons are field by the European Task Forces. By abiding to a 'strike fast, strike first' doctrine, the weapons have reduced power outputs, thus requiring more volleys to put down and enemy. More blueprints are available for request."
 
@@ -1593,13 +1591,13 @@ en-US:
 ##########################################
       STR_LASER_WEAPONS: "Directed Energy Weapons Theory"
       STR_HYBRID_LASER_PROJECT: "Hybrid Laser Weapon Project"
-      
+
       STR_LASER_HANDGUN_SELECTION: "Laser Handguns Selection"
       STR_LASER_RIFLE_SELECTION: "Laser Rifles Selection"
       STR_LASER_CARBINE_SELECTION: "Laser Carbines Selection"
       STR_LASER_CLOSE_RANGE_WEAPONS_SELECTION: "Laser Close-Range Weapons Selection"
       STR_LASER_HEAVY_WEAPONS_SELECTION: "Laser Heavy Ordnance Selection"
-      
+
       STR_USA_LASER_RESEARCH: "US Laser Requisition"
       STR_USA_LASER_HANDGUNS: "USSF Laser Handguns"
       STR_USA_LASER_RIFLES: "USSF Laser Rifles"
@@ -1620,7 +1618,7 @@ en-US:
       STR_USSR_LASER_CARBINES: "VKS Laser Carbines"
       STR_USSR_LASER_CLOSE_RANGE_WEAPONS: "VKS Laser Close-Range Weapons"
       STR_USSR_LASER_HEAVY_WEAPONS: "VKS Laser Heavy Weapons"
-      
+
       STR_SECRET_CRISIS_PROTOTYPES: "UN Heavy Ordnance Requisition"
       STR_SECRET_CRISIS_PROTOTYPES_UFOPEDIA: "The unexpected alien resistance pushed us to request the Security Council for authorization to employ high-end equipment, usually reserved for situations where enemy armored assets are field against the United Nations units. These sets of weaponry were refined after the limited yet highly effective use in the later stages of the 1972-1974 conflict, themselves the successors of the first high-tech prototypes made several decades ago. UNEXCOM is the only military force allowed to use them. {NEWLINE}{NEWLINE} The UNSC sees our request as a sing of escalation in the conflict and has agreed, albeit with certain reluctancy. "
 
@@ -1705,7 +1703,7 @@ en-US:
       STR_SMALL_PLASMA_TURRET_UC: "Small Plasma Turret Hover Mounting"
       STR_ARTILLERY_TURRET_UC: "Plasma Artillery Structure"
       STR_PLASMA_TURRET_UC: "Heavy Plasma Turret Structure"
-      
+
 ########################################################
       STR_IMP_TANK_CHASSIS: "Laser/Alloy Tank Project"
       STR_TANK_LASER_CANNON: "M22 Legionnaire"
@@ -1790,7 +1788,7 @@ en-US:
       STR_NATO_OUTPOST_2: Fort Armstrong
       STR_NATO_ICE_PLANT: Endeavour Ice Plant
       STR_NATO_OUTPOST_3: Grissom AFB
-      STR_WARSAW_PACT_OUTPOST_1: Gagarin Station 
+      STR_WARSAW_PACT_OUTPOST_1: Gagarin Station
       STR_NATO_OUTPOST_4: Trafalgar Station
       STR_NATO_LABORATORY: NASA/ESA Mars Hub
       STR_NATO_RESEARCH_STATION_1: "von Braun R&D Site"
@@ -1847,7 +1845,7 @@ en-US:
       STR_STORY_REPORT_8_UFOPEDIA: "After Operation Cleanup and creation of the first military bases on Mars, allied nations started to slowly expand their spheres of influence. First, international scientific base, known as New Horizon, were founded in 1979, who started exploring the Red Planet. With generous fundings from both goverments and private companies, new bases and settlements are started appearing rapidly, be it for scientific or military purposes. Th humanity slowly, yet surely were securing it's position on Mars, turning planet into their backyard"
       STR_STORY_REPORT_9: "Report #9: UNEXCOM in Interwar period"
       STR_STORY_REPORT_9_UFOPEDIA: "After War of 1972 and succesful Operation Downfall, UNEXCOM became heroes in the eyes of international society. Memorial with the list of UNEXCOM operatives, died in battles with alien threat, was installed near UN HQ in New York, and many streets and small towns were named after those heroes. And yet there was a lot of work ahead for UNEXCOM: remnants of the alien squads, terrorising rural areas, hordes of Chryssalids in the vast forests of Syberia and Amazonia, and even small rogue communities of Snakemen in Africa. And after all this work, in 1976, UNEXCOM was greatly reduced to a single base and a small group of operatives to guard the most dangerous captured alien technologies. And yet, in 1980, with a start of alien insurgency activity on Mars, UNEXCOM was expanded again, and brought to Mars, with a job to work against alien activity, thanks to the it's strategists, with a considerable level of expertise about alien tactics and capabilities"
-      
+
       STR_MARS_ORBITAL_DEFENSE_REPORT: "Operational Report - Mars Orbital Defense"
       STR_MARS_ORBITAL_DEFENSE_REPORT_UFOPEDIA: "The main Mars planetary defense is carried by an international squadron of Orion ships - usually a couple of battleships and several frigates or destroyers. In order to boost said fleet, a large number of spaceplane wings are prepared for deployment from launch pads near the UN military bases, with a couple dozen already in orbit. This projection of power is deemed essential to maintain the human position in Mars and considered strong enough to keep the Ethereal insurgency at bay. There have been some incidents with vehicles damaged or shot down by hidden Elerium Fusion-equipped SAM batteries, but the UNSC considers them isolated actions."
 
@@ -1867,11 +1865,11 @@ en-US:
       STR_HEARTS_AND_MINDS_PROJECT_2_UFOPEDIA: "The xenobiologists at the Nosmpoht Center for Xenoscience proposed us a way we can counter the insurgency's local support: via missions to try to convince the aliens to forsake a war that already failed years ago and that we will leave them alone or find means to help them come out on top contrary to another side (like the insurgents') or otherwise help them with whatever they wish; the Sectoids will want dignified treatment contrary to the mistreatment they get under alien hands; the Floaters want to be able to roam space freely; the Mutons wish to be the new overlords of other martian territories once the 'Human Intervention' conflict dies down. The Snakemen rebels seem indifferent. Cerebreals just seems to avoid the conflict. Reptoids appear to became extinct, as the last confirmed sight was several years ago. There are no reports so far of Chtonites in Mars. With this information in mind, our diplomatic staff can continue with the attempts at gaining the alien respectand eventually their collaboration."
       STR_HEARTS_AND_MINDS_PROJECT_3: "Hearts and Minds Project III"
       STR_HEARTS_AND_MINDS_PROJECT_3_UFOPEDIA: "After several months of work, we have managed to adquiere the loyalty of some splinter factions. Most of them are opposed to the insurrection and many have lost territories, resources and manpower. We'll arm them with surplus equipment. However, this is a particularly controversial topic, as we don't entirely trust them to give them cutting-edge energy weaponry... but we need to give them a fighting chance. The allied factions may be summomed to the battlefield if we need them by using a 'Psionic Invoker', using a chip calibrated in the specific frequency of each alien group. They'll fight with us for the duration of the combat, then retire back."
-      
+
       STR_HEARTS_AND_MINDS_SNAKEMEN: "Hearts and Minds Project - Snakemen Support"
       STR_HEARTS_AND_MINDS_SNAKEMEN_1: "Hearts and Minds: Snakemen Support I"
       STR_HEARTS_AND_MINDS_SNAKEMEN_1_UFOPEDIA: "It is possible the Snakemen are an outsider or partisan group, given their extreme toughness in all fronts and lack of any mention of Ethereal intervention, plus our research back in the early 70s seems to imply that the Ethereals just gave them orders to try to steer their violent militaristic actions to Earth in some cooperative form. Cruel, cunning with evident shades of psychopathic behavior... without forgetting their fondness of using biological nightmares unimpeded. Despite this, they are considered good frontline fighters due their innate resistance to damage."
-      
+
       STR_HEARTS_AND_MINDS_SNAKEMEN_2: "Hearts and Minds: Snakemen Support II"
       STR_HEARTS_AND_MINDS_SNAKEMEN_2_UFOPEDIA: "We consider them an 'anything goes' faction, either seeking aid to flee a decaying situation or just looking to enrich themselves even further in the Martian conflict by being allowed to continue their excursion efforts. {NEWLINE}{NEWLINE}Most Snakes demand tribute for their 'services', either protection (often of themselves) or mercenary operations. They're prone to abandon their posts if they want, but their large numbers could be still useful for us. They only care for their own profits, their loyalty belongs to the highest bidder. Better be careful when asking for the Snake support."
 
@@ -1880,22 +1878,22 @@ en-US:
       STR_HEARTS_AND_MINDS_SECTOIDS_1_UFOPEDIA: "We've identified the Sectoids' purpose: Freedom. Since the 70s, we were aware of the fact they often engaged in 'scientific' missions, collecting Earth live specimens, tissues, samples and abducting people and cattle. Originally a high-ranked yet second-class species within the former alien hierarchy, they where both slaves of the Ethereal lords and puppet masters of the lesser races. Now, with their chains broken, have developed a strong desire for discovery and adventue. Their extreme curiosity sometimes even becomes obsessive, as they try to investigate everything they can, no matter if that endangers them... Or their research subjects. This sometimes makes them highly aggressive, as they're constantly looking for new data. "
       STR_HEARTS_AND_MINDS_SECTOIDS_2: "Hearts and Minds: Sectoid Support II"
       STR_HEARTS_AND_MINDS_SECTOIDS_2_UFOPEDIA: "Despite our initial beliefs about Sectoids being just cloned, mindless drones, they actually have a culture, established centuries before their contact with the Ethereals. They go on long pilgrimages across Mars as a rite of passage, collecting precious resources, technology or even interesting rocks. Each Sectoid group has their own motivation. Our xenobiologists agree on how to win the Gray aliens' support: they want the ability for free travel between UN Sectors. Collect their samples unmolested. Enjoy their liberty. As long as they avoid our supply routes, science stations and military bases, we'll guarantee their freedom of movement and they'll be willing to work with us in order to maintain it."
-      
+
       STR_HEARTS_AND_MINDS_FLOATERS: "Hearts and Minds Project - Floater Support"
       STR_HEARTS_AND_MINDS_FLOATERS_1: "Hearts and Minds: Floater Support I"
       STR_HEARTS_AND_MINDS_FLOATERS_1_UFOPEDIA: "What draws Floaters out of many other races is their nomadic nature. Ever since the 70s they were mostly tasked with research and recon tasks, collecting information about humanity and Earth. Another interesting thing about them, is their heavy reliance on a cybernetic augmentations. We don't know if the whole race are augmented or not, but Floaters seems to be proud of their implants. They rarely attack other races, except usual raiding for resources, but they seems to be attacking human settlements a bit more frequently. Strange thing is that they doesn't seem to care much about resources, but rather, any other technologies new to them. Once, they had attacked one of the US mining station just to steal all music players and gaming consoles that miners brought with them. "
-      
+
       STR_HEARTS_AND_MINDS_FLOATERS_2: "Hearts and Minds: Floater Support II"
       STR_HEARTS_AND_MINDS_FLOATERS_2_UFOPEDIA: "Ever since destroying of Brain Floaters splintered up too, forming their own nomadic communities, without any single settlement. It seems the aliens share their compounds with other packs of their species. They inhabit it for an unspecified amount of time, after which said compound is abandoned and left for other Floater groups to settle. The cycle repeats again and again. Another thing is that Floaters seems to be non-hostile (as long, as they're not attacked) towards CyberOperators for unclear reason, and even tried to communicate with them, often ignoring pretty much everything else on a battlefield. Perhaps they are fascinated by them? And the last thing with these aliens - is their need of speed. They're often seen flying around Mars for no clear purpose. Perhaps, it's part of their religion, or maybe just a sport? We still don't know. But perhaps this feature, along with others, can help us?"
 
       STR_HEARTS_AND_MINDS_CEREBREALS: "Hearts and Minds Project - Cerebreal Support"
       STR_HEARTS_AND_MINDS_CEREBREAL_1: "Hearts and Minds: Cerebreal Support"
       STR_HEARTS_AND_MINDS_CEREBREAL_1_UFOPEDIA: "Cerebreals are one of the numerous races brought by Ethereals to Solar System. What stands out, however, is that they're not part of the Ethereals empire, but rather allied auxilary forces from another civilization. Ever since War of 1972 they were showing themselves as least motivated to fight, and after Operation Downfall it played a big role. Cerebreals were the first race to splinter from Ethereals, forming their own groups. They rarely engage in any active combat, excluding attacks at the UFO bases, presumably aiming to steal ships. Our experts assume that they just want to leave our system and return back home. Also, they rarely attack human settlements, and those raids are mostly aimed to acquire sustenance, water, oxygen regenerating equipment and building materials. Perhaps, with some help they'll stop harassing us?"
-      
+
       STR_HEARTS_AND_MINDS_MUTONS: "Hearts and Minds Project - Mutons Support I"
       STR_HEARTS_AND_MINDS_MUTONS_1: "Hearts and Minds: Mutons Support I"
       STR_HEARTS_AND_MINDS_MUTONS_1_UFOPEDIA: "The stereotypical bloodthirsty alien mooks live up to their reputation. We recommend you to NOT understimate them, though. The Mutons are capable of ripping the limbs of a regular humans with their bare hands, and they're extremely cunning and creative, tactically-speaking. The brutish aliens don't seem to have developed a deep culture on their own (nor seem fond of literate and artistic creations), and seem to band together for vastly different reasons. Some groups enjoy the thrill of the battle, some others prefer collecting loot out of warzones, while another groups have established dedicated trade routes. The majority have the tendency to annexation nearby weaker species's territories, with the creation of quadi-feudal states. Losing their Psionic bond with the Ethereals left them splintered and barely organized. "
-      
+
       STR_HEARTS_AND_MINDS_MUTONS_2: "Hearts and Minds: Mutons Support II"
       STR_HEARTS_AND_MINDS_MUTONS_2_UFOPEDIA: "Even when each pack seems to harbor different motivation and purposes, the Mutons towards archiving one goal: Carve out a state and livelihood for Mutons. The leaders have developed a slight Psionic ability, but still far below what a regular human could accomplish. Most of them appear to venerate a warrior deity, we aren't sure if it's a god or a former individual. Waging war is part of their daily life, for any reason they consider worthy enough. In words of an allied Muton warlord: 'I don't know who I am. I don't know where I am. All I know is I must kill.'. Their loyalty is unmatched and the slightest trace of betrayal is paid in blood. Several Muton warbands are already willing to fight alongside us against their former masters... and against their traitorous brethren."
 
@@ -1912,18 +1910,18 @@ en-US:
       STR_FACTIONS_REPORT_USSF: "Faction Report - USSF"
       STR_FACTIONS_REPORT_USSF_1: "Faction Report - USSF I"
       STR_FACTIONS_REPORT_USSF_1_UFOPEDIA: "The American interest in the militarization of space begun even before the Space Race. After gaining its independence from the US Army, the US Air Force started developing ballistic missiles in the early 50s. The success of Sputnik 1 and several congressional pressures resulted in three separate Space branches. {NEWLINE}{NEWLINE}Eventually, the Aerospace Defense Command became active in 1968, still dependant on the USAF. Its ultimate purpose was justified in the orbital raids in late 1973 and the subsequent Lunar Campaign. By 1980, it was reformed into the US Space Force, becoming a separate branch. All of the orbital interceptors and most of the existing Shuttle fleet were transferred to the Space Forces."
-      
+
       STR_FACTIONS_REPORT_USSF_2: "Faction Report - USSF II"
       STR_FACTIONS_REPORT_USSF_2_UFOPEDIA: "There was initially a disagreement between which branch of the US Armed Forces would provide the bulk of the new Ranger Combat Brigades. USAF servicemen made their point related to the extended orbital operations carried on by them under the Aerospace Defense Command. Meanwhile, the Marine Corps saw the most ground combat in Moon and Mars of all US military, with a fleet of Shuttles on their own. The issue was settled by the recruitment of volunteers from both, as the USSF is an expeditionary force meant to operate both in and out planet (albeit with a certain preference for USAF personnel, as the USMC still operates on their own attached to Navy spacecraft).    Still, the friendly rivalry between former Air Force's and former Navy/Marine Corps' Rangers is prevalent. Besides MacArthur SFB in Mars, the other major bases for the Space Force are SFB Vanderberg in California, US and Baldwin SFB in Tranquility Sea. "
-      
+
       STR_FACTIONS_REPORT_NASA: "Faction Report - NASA"
       STR_FACTIONS_REPORT_NASA_1: "Faction Report - NASA I"
       STR_FACTIONS_REPORT_NASA_1_UFOPEDIA: "The main space exploration civilian agency of the United States is directly responsible for the development of American space tech and materials. While initially it struggled to compete with the Soviet space program, the first crewed landing on the Moon gave it the necessary public and financial support to further expand the human presence in space. One of the most important achievements by the National Aeronautics Space Administration is the development of the novel Space Shuttle and the Orion Nuclear Pulse Battleships, two of the groundbreaking technological innovations which gave Earth an edge over the Ethereals in the 1972-1974 conflict. Besides the cooperation with the US Military, several science probes where deployed all over the Solar System, in an effort to lear more about it in hopes of a future human colonization."
-      
+
       STR_FACTIONS_REPORT_NASA_2: "Faction Report - NASA II"
       STR_FACTIONS_REPORT_NASA_2_UFOPEDIA: "The American space agency pioneered the colonization of Moon and prioritized the establishment of permanent settlements, despite the considerable danger posed by the alien remnants in the surface... and below. And even then, the civilian leadership initially rejected a heavy military presence in their facilities, until Admiral Baldwin's order of the deployment of the 'Moonrines', as the public nicknamed the detachment of the USMC posted alongside NASA personnel. Once the Lunar Campaign formally began with the start of Operation Silver Rupture and the Moorines alongside international forces went on the offensive, the Agency provided recon and orbital support for the boots on the ground. "
 
-      STR_FACTIONS_REPORT_UASCNAT: "Faction Report - UASCNAT" 
+      STR_FACTIONS_REPORT_UASCNAT: "Faction Report - UASCNAT"
       STR_FACTIONS_REPORT_UASCNAT_1: "Faction Report - UASCNAT I"
       STR_FACTIONS_REPORT_UASCNAT_UFOPEDIA_1: "Ever since the start of Space Race, Europe was a backmarker of it, falling behind 2 superpowers. Secret War with Ethereals showed European countries, that they need to unite their efforts in order to, at least, reach the level of space technologies, that USA and USSR have managed to achieve. And so, in 1964, they're created an European Space Research Organisation. During following 8 years, they're managed to succesfully complete numerous projects, launching several scientific satellites. During the War of 1972, European countries joined the Orion Project, creating their first space battleship, UNS Marathon. With it's construction, were formed the first space forces of united Europe. To effectively control them, NATO command has created a Space Command."
       STR_FACTIONS_REPORT_UASCNAT_2: "Faction Report - UASCNAT II"
@@ -1946,7 +1944,7 @@ en-US:
 
       STR_BALLISTIC_WEAPONS_REPORT: "Logistics Report - Ballistic Weapons"
       STR_BALLISTIC_WEAPONS_REPORT_UFOPEDIA: "The great leap forward in most science fields after the War quickly made outdated several items and equipment previously thought 'cutting-edge'. The prevalence of Directed Energy Weapons (DEW) slowly and surely made most ballistic weaponry an obsolete tech. Those are not completely useless, though; as the expansion of 3D printing made them extremely cheap... it became easy to just print ammo and even entire firearms in relatively small factories. Several minor powers still field classic rifles and machine guns, but the World Powers have relegated their arsenals as reserve equipment, no longer meant for frontline combat. Some modernized rifles made their way to Mars, where they are used by patrolling and garrison forces. "
-      
+
       STR_LASER_WEAPONS_REPORT: "Logistics Report - Laser Weapons"
       STR_LASER_WEAPONS_REPORT_UFOPEDIA: "The most important military development since the creation of the atomic bomb was also one of the 'victory weapons' widely recognized as one of the key tools in the Ethereal defeat in Earth. Result of a decade-long research, the 1st Generation Lasers of the early 60s were bulky and unwieldily, but more effective than a regular rifle. The 2nd Generation began operational service in the middle of the War of 1972, turning the tide of the conflict. The start of the decade saw the introduction of even better laser guns in the form of the 3rd Generation, although 2-GEN lasers are likely to be prominent DEW technology field by most major Powers for several more years. Most 3-GEN weapons are used in the ongoing Martian conflict, while military forces in Earth are equipped with Second Generation assets. It seems our enemies have developed another generation of Lasers on their own too, as they are employing mew models never seen before. "
 
@@ -1961,15 +1959,15 @@ en-US:
 
       STR_FUSION_WEAPONS_REPORT: "Logistics Report - Bio-Fusion Weapons"
       STR_FUSION_WEAPONS_REPORT_UFOPEDIA: "The most fearsome alien equipment field in the conflict for Earth wasn't even created, but grown. Organic technology born in a distant planet and adapted for war, the Ethereal forces used them only after the end of the war... after the human defenders began to defeat the invaders in every front. The assets were the hardest to be reverse-engineered, the only R&D team able to do so was the UN science lab based in Yokohama, Japan. With their research, they could adapt a Fusion Rifle to be used by humans. Dangerous to both the operator and the target, the Peacemakers were used to wreak havoc among the enemy forces. Some are assigned to the Martian occupation forces to augment UN units."
-      
+
       STR_ENERGY_BATTERY_REPORT_1: "Technical Report - Energy Clip I"
       STR_ENERGY_BATTERY_REPORT_1_UFOPEDIA: "Operations Devastation and Downfall, being the first battles waged in space in history of humanity, had brought some issues to solve with it. One of them being a problem with using a standard backpack-sized energy reserves for laser weapons. Together with a spacesuit, oxygen tanks, weapons and accessories, the weight of all equipment can weigh over 50 kg. To deal with this problem, high military command of all allied nations with a request of making lighter batteries for soldiers."
       STR_ENERGY_BATTERY_REPORT_2: "Technical Report - Energy Clip II"
       STR_ENERGY_BATTERY_REPORT_2_UFOPEDIA: "In 1981 a scientists came up with an idea to use a magnesium-graphene batteries. With a high capacity, enough to charge lasers, and relatively compact size, they've been accepted for use for Martian forces at the start of 1982. The only issue here is that graphene, a new material, discovered in 1979, is still very expensive to produce, and thus making those batteries expensive too"
-      
+
       STR_SMALL_GRAPHENE_BATTERY: "Small Graphene Battery"
       STR_SMALL_GRAPHENE_BATTERY_UFOPESIA: "The smallest practical application of the new material. Used to energize lightweight energy weapons, most of those require relatively low power demand. It contains 50 units."
-      
+
       STR_SUPPLY_CRATE: "Supply Crate"
 
 
@@ -1978,10 +1976,10 @@ en-US:
 #####################
       STR_WELCOME_MESSAGE_1_EVENT: "Incoming message from Security Council"
       STR_WELCOME_MESSAGE_1_EVENT_DESCRIPTION: "Welcome to Mars, Commander! As you know, we have an ongoing situation related to a growing number of reports of hostiles harassing our facilities and outposts. Allied forces are utterly incapable of a proper response. As a veteran of both Downfall and the Lunar Campaign, plus your expertise in space warfare, you were ordered to lead the Task Force Crimson, UNEXCOM's finest brigade. Your job isn't an easy one, as you have to pacify a whole planet. But we trust you're the right person for the challenge. Good luck and good hunting."
-      
+
       STR_WELCOME_MESSAGE_2_EVENT: "UNEXCOM HQ technical report from Science Staff"
       STR_WELCOME_MESSAGE_2_EVENT_DESCRIPTION: "We just unpacked our assets, Commander. The crew ran several tests, the outpost seems functional. We found an issue, however. A malfunction in the Comms relay corrupted the data package from Berlin, crippling most of the Unified Field Operations Database (the so-called 'UFOPedia') available to us. Our staff is working to restore it, each research completed should give us access to one Pedia entry, although we're unsure which one. Besides that, the base is ready for combat operations. Orbital Drop base modules are likewise available upon request."
-      
+
       STR_WELCOME_MESSAGE_3_EVENT: "Private D-mail ; clearance <CONFIDENTIAL>"
       STR_WELCOME_MESSAGE_3_EVENT_DESCRIPTION: "Commander: as you know, the public perception of the situation in the surface is... different, to put it lightly. The threat of the Insurrection is downplayed to certain extent to avoid losing the population's confidence in the Martian endeavor. Yet the same time, 'the boogyman still lures in the deep space'. People can't know the full extension of this rebellion. We're confident you'll be able to handle the delicate political situation. "
 
@@ -2004,7 +2002,7 @@ en-US:
   #STR_
       STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT: "Recon probes confirm increase in Insurgent activity"
       STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_DESCRIPTION: "Orbital recon sats have detected a suspicious amount of alien activity all over the planet. It isn't the first time they make such maneuvers trying to distract us... but it's the first time they look so organized. Be careful, Commander. It's very likely they'll try to seize our Sectors by force and establish their outposts. If it happens, we need to assault them ASAP to recover the Sector."
-      
+
       STR_ALLIED_FORCES_LOCATE_SIGNAL_JAMMER_EVENT: "Allied forces locate Signal Jammer"
       STR_ALLIED_FORCES_LOCATE_SIGNAL_JAMMER_EVENT_DESCRIPTION: "Since the rebel offensive, we had several issues with the communication with Earth. Few transmissions from our homeplanet arrive and we are unsure if our comms are listened by them. Allied recon units at {0} have identified an alien structure that appears to be the reason behind the lack of contact."
 
@@ -2013,7 +2011,7 @@ en-US:
 
       STR_RESCUE_SIGNAL_BROADCASTING_EVENT: "Rescue signal broadcasted"
       STR_RESCUE_SIGNAL_BROADCASTING_EVENT_DESCRIPTION: "Shortly after the destruction of the Signal Jammer, we were able to emit a pulse towards our homeworld, albeit weak. The message was short and concrete: 'We are still on the fight. And we will not surrender' . The UNSC assured us a reinforcement fleet is being ensembled and will be dispatched as soon as possible, meanwhile conventional rockets will be sent with supplies. "
-     
+
       STR_UN_FLEET_ARRIVING_EVENT: "UN fleet arriving to orbit"
       STR_UN_FLEET_ARRIVING_EVENT_DESCRIPTION: "The cavalry is here. Fresh reinforcements from Earth, plus additional equipment by the UN First Fleet. A barrage of lasers cannon fire and Fusion missiles broke the enemy's advance. Most of their outposts and facilities were destroyed. "
 
@@ -2025,38 +2023,38 @@ en-US:
       STR_FALKLAND_WAR_STORY_1_EVENT: "Breaking news: Unprovoked attack on the Falklands"
       STR_FALKLAND_WAR_STORY_1_EVENT_DESCRIPTION: "Earlier today, the Argentinian armed forces attacked the British garrison on the Falklands Islands, forcibly occupying the town hall. This is the violent outcome of various minor, yet continued, incidents between the UK and the southern country. Prime Minister Margaret Thatcher has ordered the dispatch of a task force aimed to recapture the islands. A victory parade was held in Buenos Aires, and reinforcements are sent to secure newly occupied territory."
 
-# April 30th, 1982      
+# April 30th, 1982
       STR_FALKLAND_WAR_STORY_2_EVENT: "British Carrier Battle Group approaches the Falklands"
       STR_FALKLAND_WAR_STORY_2_EVENT_DESCRIPTION: "After the declaration of a 'Total Exclusion Zone' of 200 miles around the islands, the UK naval forces begin combat operations, codenamed 'OPERATION CORPORATE'. Argentine Dagger interceptors engage in short dogfights against the Harriers of the Royal Navy with light losses on both sides. Landing ships prepare at the Ascension Island staging point, bound for the San Carlos Bay."
-      
- # May 2nd, 1982     
+
+ # May 2nd, 1982
       STR_FALKLAND_WAR_STORY_3_EVENT: "Major naval showdown between Argentina and the UK"
       STR_FALKLAND_WAR_STORY_3_EVENT_DESCRIPTION: "The Argentine Navy aggressively approached the islands, looking to engage the Royal Navy (RN). ARA General Belgrano cruiser was hit by torpedos of the British nuclear sub Conqueror escorting the Carrier Battle Group, not before exchanging shots with the opposing forces. In a bold and almost suicidal attack, carrier ARA Veinticinco de Mayo's A4 Skyhawks and Super Etendards attacked the British fleet, sinking the frigate HMS Sheffield and severely damaging the carrier HMS Hermes in retaliation, using Exocet anti-ship missiles. Ship to ship fighting continues..."
 
- # May 3rd, 1982     
+ # May 3rd, 1982
       STR_FALKLAND_WAR_STORY_4_EVENT: "Naval battle ends with heavy losses"
       STR_FALKLAND_WAR_STORY_4_EVENT_DESCRIPTION: "This morning, the largest naval brawl since World War 2 finished with the sole Argentine carrier sunk along with her frigate escorts. The British task force also lost the carrier Hermes and several Type-22 frigates. Belgrano was finally sunk by focused RN attacks. 8 Skyhawks, 3 Daggers and 2 Sea Harriers were shot down as well. The loss of vital assets for the expeditionary fleet will hinder Thatcher's efforts to recover the South Atlantic positions."
- 
- # May 19th, 1982     
+
+ # May 19th, 1982
       STR_FALKLAND_WAR_STORY_5_EVENT: "The British prepare to land in Falklands"
       STR_FALKLAND_WAR_STORY_5_EVENT_DESCRIPTION: "The British Cabinet has approved the landing of amphibious forces. Furious due to the lost of a third of the task force two weeks ago, Prime Minister Thatcher has personally ordered the use of Excalibur Fusion missiles in all Harriers, despite international law banning the use of advanced alien-derived weapons in human conflicts. Rumors say commando units are equipped with M72 'Teddy' ARRs with Elerium rounds. Conflict escalates as the world watch in shock."
- 
- # May 25th, 1982     
+
+ # May 25th, 1982
       STR_FALKLAND_WAR_STORY_6_EVENT: "The darkest day for the Royal Navy"
       STR_FALKLAND_WAR_STORY_6_EVENT_DESCRIPTION: "Buenos Aires celebrates today a national holiday. Meanwhile the people celebrate in the streets of Argentina, as the beachhead in San Carlos Water is fiercely defended by the South American air forces. Three British frigates, three transports and the most important logistics ship were sunk by rabid low-level attacks carried on by aging A4 Skyhawks and Super Etendards. The commando brigades have lost a large part of their heavy assets and supplies. Despite this, UK ground forces are still trying to push inland."
- 
- # May 29th, 1982     
+
+ # May 29th, 1982
       STR_FALKLAND_WAR_STORY_7_EVENT: "Heavy fighting in Goose Green"
       STR_FALKLAND_WAR_STORY_7_EVENT_DESCRIPTION: "An intense battle for Goose Green and Darwin resulted in a major victory for British ground forces. Over 1100 Argentinian soldiers surrendered, mostly conscripts. It seems the military junta ruling the Southern nation has a disregard for their own troops, as most were poorly supplied. There is a reported increase in successful U.K interceptions after switching from Sidewinders to Excalibur Fusion missiles."
 
-# June 11th, 1982    
+# June 11th, 1982
       STR_FALKLAND_WAR_STORY_8_EVENT: "Reports of restricted ammunitions used in ongoing battle."
       STR_FALKLAND_WAR_STORY_8_EVENT_DESCRIPTION: "A large assault on the Ejército's defensive positions around Port Stanley saw the alleged use of M72 ARR E-115 rounds by British Commandos to soften the opposing fortifications, as 3 days ago two more transports and a landing craft were sunk by the Argentinian aviation. The world condemned this decision, and now Prime Minister Thatcher is nicknamed 'The Elerium Lady' by the press. The UK is about to take full control of the islands."
- 
- # June 14th, 1982    
+
+ # June 14th, 1982
       STR_FALKLAND_WAR_STORY_9_EVENT: "Argentina launches desperate attack on the RN"
       STR_FALKLAND_WAR_STORY_9_EVENT_DESCRIPTION: "With the British troops dominating the land and more than half the total Argentinian Air Force assets out of action, the remaining Argentinian aviation and Navy launched and all-out attack over the Carrier Battle Group. The main target seems to be the carrier HMS Invincible. All remaining Sea Harriers have been scrambled to defend the fleet. Fighting continues..."
-      
+
  # June 15th, 1982
       STR_FALKLAND_WAR_STORY_10_EVENT: "Heavy losses after suicide attack on RN"
       STR_FALKLAND_WAR_STORY_10_EVENT_DESCRIPTION: "The 5-hour-long engagement ended with the sinking of the carrier HMS Invincible and various frigates. Most of the Argentinian aircraft were shot down by AA fire and interceptors, but the damage done to the task force was beyond expectations. This will make the expedition unsustainable, forcing a stalemate. Insiders close to PM Thatcher mention proposed use of tactical ICBMs, although the British government have not made any public statements yet. "
@@ -2071,13 +2069,13 @@ en-US:
 # April 25th, 1982
       STR_6TH_ANNIVERSARY_SNAKE_REMOVAL_EVENT: "6th Anniversary of Removal of Alien Presence"
       STR_6TH_ANNIVERSARY_SNAKE_REMOVAL_EVENT_DESCRIPTION: "Today, is a holiday marking the removal of the final alien presences on Earth, the Nigerian Snakemen Colonies. It has been 6 years since the last ones were eradicated and the people of Nigeria could sleep without UN craft flying over head delivering heavy ordnance. The 4-year campaign was gruesome tunnel infantry fighting , unable to use tanks or especially heavy weapons inside the deep colonies. It's unknown why they focused so heavily on Nigeria and surrounding countries, but is suspected to be that the climate reminded them of whatever forgotten planet they are from."
-      
+
       STR_RISE_OF_NEW_CULTS_EVENT: "Rise of new cults"
       STR_RISE_OF_NEW_CULTS_EVENT_DESCRIPTION: "For decades, several people were mind-controlled by psionics, both soldiers at the battlefield or goverments officials. After Operation Downfall, a new cult known as Aperta Luce, has emerged among them, percieving Ethereals as gods, and believe humanity will flourish only under their rule. Banned soon after its creation, remained silent until now. Recently, a series of violent terrorist attacks has occured over the Earth, with Aperta Luce being responsible in them. It appears, that Ethereals are still using terrorists to wreck havoc on Earth, just like they did in the war."
 
       STR_SHUTTLE_WINGS_EVENT: "Experts question use of wings in Martian Shuttles"
       STR_SHUTTLE_WINGS_EVENT_DESCRIPTION: "Independent technical consultants pointed out the futility of the use of wings and flight control surfaces in both civilian and military shuttles. 'I don't see why our science staff and military personnel transports should use them. Their shuttles are VTOL anyways. It's just useless weight.', the consultant said to our reporters."
-    
+
       STR_POKER_PLAYER_TRIAL_EVENT: "Missing famous poker player found today"
       STR_POKER_PLAYER_TRIAL_EVENT_DESCRIPTION: "Grim news has shaken Los Angeles, USA. A professional poker player, residing in one of the city's hotels, has gone missing a week ago, and only recently his body was found in San Pedro Bay. It appears, that he was a retired UNEXCOM operative, and also has gone through psionic training. Taking note in his stunning victories in casinos all over the United States, it's obvious, that he was using his psi abilities to cheat at poker, and was assasinated because of that. LAPD and the California Department of Justice are looking for the suspect. "
 
@@ -2087,13 +2085,13 @@ en-US:
 
 
 ##########################
-# Cultural stuff (movies, comics, etc) 
+# Cultural stuff (movies, comics, etc)
 
-# 26th May 1982         
+# 26th May 1982
       STR_CANNES_FESTIVAL_EVENT: "35th Cannes Film Festival takes place"
       STR_CANNES_FESTIVAL_EVENT_DESCRIPTION: "Today, the Palm d'Or was jointly awarded to Gravas' 'Missing', a historical drama and The Director's 'Kitsune: The Fox Brigade', a police noir film. The critics praised the script and acting of 'Missing' and the special effects of 'Kitsune', which was heavily supported by the German Federal Army (which proportioned the Delta EOD suits used in the film). Spielberg's new film, 'E.T. The Extraterrestrial' was openly mocked, rated by critics as 'childish and insensitive to the victims of the War, as it's obvious the real aliens didn't came in peace'."
 
-# June 25th, 1982  
+# June 25th, 1982
       STR_BLADE_RUNNER_MOVIE_RELEASED_EVENT: "'Blade Runner' becomes #1 movie of the week"
       STR_BLADE_RUNNER_MOVIE_RELEASED_EVENT_DESCRIPTION: "The newest movie by director Ridley Scott, the adaptation of Philip K. Dick's 'Do Androids Dream of Electric Sheep?' 1968 novel, becomes a success at box office. The story of a hardened police detective hunting down a rouge group of sentient androids attracted lots of moviegoers. Most praise the aesthetic and visuals, specially the soundtrack composed by Vangelis. Some critics mention the slow pace and lack of action, however. "
 
@@ -2109,18 +2107,18 @@ en-US:
 
       STR_MARSEC_STORY_1_EVENT: "MARSEC deploys new probes to search for ore"
       STR_MARSEC_STORY_1_EVENT_DESCRIPTION: "The Mars Survey and Extraction Corporation (MARSEC) has deployed three new automated probes to Mars orbit, in a effort to locate and pinpoint any possible mining sites in the surface. While the main colonization efforts remain nationalized by the US, European Union and USSR space agencies, the private initiative remains in the race to mine Mars resources."
-      
+
       STR_MARSEC_STORY_2_EVENT: "MARSEC probes lost in deep space"
       STR_MARSEC_STORY_2_EVENT_DESCRIPTION: "We just got news of the lost of all the probes sent by the mining corporation some weeks ago. The reason behind seems a miscalculation of the Hoffmann orbital transfer due the mid-travel corrections being sent in the Imperial system rather than the Metric system. A new group of probes were quickly scrambled to launch shortly after the incident. Spokespersons of the corporation refused to make any comments."
-      
+
       STR_MARSEC_STORY_3_EVENT: "MARSEC sends a manned mission"
       STR_MARSEC_STORY_3_EVENT_DESCRIPTION: "In a risky all-or-nothing maneuver, after a limited survey by a couple of probes, a manned pod just landed in the Northern Lowlands. Corporate astronauts just deployed their habitat. The main mission of the Survey and Extraction Corporation is to find a way to synthesize an artificial Elerium isotope to ease the strains put on Earth's reserves. Since bio-harvesting is no longer viable, new solutions are wanted to keep the interstellar colonization project in motion."
-      
+
       STR_MARSEC_STORY_4_EVENT: "MARSEC experiments with synthetic Elerium"
       STR_MARSEC_STORY_4_EVENT_DESCRIPTION: "Corporate spokespersons have announced their advance on the research for a synthetic and stable E-115 element. 'Somehow, the lower gravity is helping us getting the desired stability we couldn't achieve in Earth. We cannot explain how... yet. Although it's widely known that the alien element often defies our established physics definitions. We believe this may explain the continued Ethereal presence in Mars despite our military advance. Our work will continue', they finished. "
-      
+
       STR_MARSEC_STORY_5_EVENT: "MARSEC announces Selerium creation"
-      STR_MARSEC_STORY_5_EVENT_DESCRIPTION: "The expensive yet effective creation process for the synthetic version (aptly named 'Selerium') of the scarce alien element was successful. Shipments to Moon will begin as soon as a sufficient amount is processed. The corporation value has increased in most stock markets. "  
+      STR_MARSEC_STORY_5_EVENT_DESCRIPTION: "The expensive yet effective creation process for the synthetic version (aptly named 'Selerium') of the scarce alien element was successful. Shipments to Moon will begin as soon as a sufficient amount is processed. The corporation value has increased in most stock markets. "
 
       STR_MARSEC_STORY_6_EVENT: "All MARSEC shippings stopped until further notice"
       STR_MARSEC_STORY_6_EVENT_DESCRIPTION: "After a rising Insurrectionist activity, all mining shippings from the Red Planet were stopped due 'security concerns', a corporate spokesman said today. 'UN officials assured us the incident will be contained as soon as possible, hopefully this will keep our operation ongoing.', he mentioned.  "
@@ -2130,14 +2128,14 @@ en-US:
 # Combat reports
       STR_BRITISH_SOLDIERS_DIG_IN_MARINER_TRENCH_EVENT: "The British dig in the Mariner Trench"
       STR_BRITISH_SOLDIERS_DIG_IN_MARINER_TRENCH_EVENT_DESCRIPTION: "We have received reports of a battalion of the 51st (Highland) Division holding their ground in the western side of the Valles Marineris, near the Noctis Labyrinthus. The UASCNAT troops have fortified a salient now known as the 'Highlander Ridge' and have endured the worst part of the Insurrectionist counteroffensive. We have sent some supplies and ammo to them, which they thank. A couple of volunteers have joined our ranks as well."
-      
+
       STR_ALLIED_HARRIERS_DOGFIGHT_EVENT: "Allied Harriers engage UFOs"
       STR_ALLIED_HARRIERS_DOGFIGHT_EVENT_DESCRIPTION: "We intercepted a radio transmittion of a pair of Harriers ambushing an alien ship over the skies of {0}. In a hit and run attack, our fellow airmen were able to shot down the enemy ship. We didn't wanted to contact them to avoid drawing unnecesary attention to our base or putting them in risk. Our forces are still on the fight."
 
 #SOLDIERS
       STR_SUPPLY_ROCKET_IN_ORBIT_EVENT: "Supply rocket arrived to Mars orbit"
       STR_SUPPLY_ROCKET_IN_ORBIT_EVENT_DESCRIPTION: "A conventional NERVA rocket carrying supplies has just completed its Hohmann transfer orbit. In order to begin decent maneuvers unnoticed to avoid enemy SAM attacks, it will complete a couple of orbits around the planet before heading towards the designated drop point. You will be notified once our troops recover the assets."
-      
+
       STR_SUPPLY_ROCKET_SHOT_DOWN_EVENT: "Supply rocket destroyed in orbit"
       STR_SUPPLY_ROCKET_SHOT_DOWN_EVENT_DESCRIPTION: "Unfortunately, the expected pod was intercepted before completing the decent. The unmanned vehicle and its cargo was completely lost. Our forward recon observers couldn't adquire the location of the Surface-To-Air Missile Battery before the Insurrectionists managed to discreetly evacuate. This situation was outside our control, Commander. "
 
@@ -2148,7 +2146,7 @@ en-US:
       STR_LARGE_SUPPLY_DROP_EVENT_DESCRIPTION: "A manned, large pod just landed inside the base perimeter. The volunteer crew ferried several supplies and assets to keep us on the fight. The crew will remain with, as they knew there was no possibility to returning to orbit safely. "
 
 ##########################
-# Cultural stuff (movies, comics, etc) 
+# Cultural stuff (movies, comics, etc)
 
 # May 25th, 1983
       STR_STAR_WARS_MOVIE_RELEASED_EVENT: "'Return of the Jedi' in cinemas now"
@@ -2194,17 +2192,17 @@ en-US:
       STR_SOVIET_ELITE: "VKS Spetsnaz"
 
       STR_FREE_SECTOID_NPC_1: "Free Sectoid"
-      STR_FREE_SECTOID_NPC_2: "Free Sectoid" 
-      STR_FREE_SECTOID_NPC_3: "Free Sectoid" 
-      STR_FREE_FLOATER_NPC_1: "Free Floater" 
-      STR_FREE_FLOATER_NPC_2: "Free Floater" 
-      STR_FREE_FLOATER_NPC_3: "Free Floater" 
-      STR_FREE_MUTON_NPC_1: "Free Muton" 
-      STR_FREE_MUTON_NPC_2: "Free Muton" 
-      STR_FREE_MUTON_NPC_3: "Free Muton" 
+      STR_FREE_SECTOID_NPC_2: "Free Sectoid"
+      STR_FREE_SECTOID_NPC_3: "Free Sectoid"
+      STR_FREE_FLOATER_NPC_1: "Free Floater"
+      STR_FREE_FLOATER_NPC_2: "Free Floater"
+      STR_FREE_FLOATER_NPC_3: "Free Floater"
+      STR_FREE_MUTON_NPC_1: "Free Muton"
+      STR_FREE_MUTON_NPC_2: "Free Muton"
+      STR_FREE_MUTON_NPC_3: "Free Muton"
       STR_FREE_SNAKEMAN_NPC_1: "Free Snakeman"
-      STR_FREE_SNAKEMAN_NPC_2: "Free Snakeman" 
-      STR_FREE_SNAKEMAN_NPC_3: "Free Snakeman" 
+      STR_FREE_SNAKEMAN_NPC_2: "Free Snakeman"
+      STR_FREE_SNAKEMAN_NPC_3: "Free Snakeman"
 
       STR_FREE_SECTOID_ARMOR: "Free Sectoid Spacesuit"
       STR_FREE_SECTOID_ARMOR_UFOPEDIA: "Secessionist Sectoids use virtually identical life support units as those used by the Insurgents. The only difference is the color of the reflective coating, in gold like many human helmets."
@@ -2219,26 +2217,26 @@ en-US:
       STR_FREE_FLOATER_CYBORG_ARMOR: "Free Floater Emissary Armor"
       STR_FREE_FLOATER_CYBORG_ARMOR_UFOPEDIA: "The ultimate commitment towards their goal, the Emissaries further enchance their cybernetic modifications to become the ultimate pilgrim. Faster, more agile and resilient than their brethren, without losing any of their innate ingenuity but becoming extremely unpleasant to look at."
       STR_FREE_FLOATER_CYBORG_ARMOR_CORPSE: "Free Floater Spacesuit"
-      
+
       STR_FREE_MUTON_ARMOR: "Free Muton Spacesuit"
       STR_FREE_MUTON_ARMOR_UFOPEDIA: "The outfit of the Free Mutons could be described as 'guerrilla-style'. They display their unarmored upper torso as a display of sort of an 'alien macho' complex, even if this actually increases the odds of getting injured in combat."
       STR_FREE_MUTON_ARMOR_CORPSE: "Free Muton Spacesuit Corpse"
       STR_FREE_MUTON_SHOCK_ARMOR: "Free Muton Shock Armor"
       STR_FREE_MUTON_SHOCK_ARMOR_UFOPEDIA: "Easily ensambled from stapled Alloys in any workshop, this personal armor provides similar protection to the ones field by the enemy over a decade ago. Additional webbing and pouches are used by the Secessionists after their experience fighting human forces."
       STR_FREE_MUTON_SHOCK_ARMOR_CORPSE: "Free Muton Shock Armor Corpse"
-      
+
       STR_FREE_SNAKEMAN_ARMOR: "Free Snake Spacesuits"
       STR_FREE_SNAKEMAN_ARMOR_CORPSE: "Free Snake Spacesuit Corpse"
       STR_FREE_SNAKEMAN_ARMOR_UFOPEDIA: "Xenobiologists believe the Free Snakemen paint their armor in green tones to mimic the color of their blood... although it could be actual body fluids, we are not entirely sure."
       STR_FREE_SNAKEMAN_PREDATOR_ARMOR: "Free Snake Predator Armor"
       STR_FREE_SNAKEMAN_PREDATOR_ARMOR_UFOPEDIA: "The nickname 'predator' comes after the fact their best hunters decorate their armors with the bones and skulls of their 'prey', alien or human alike. The purpose is both pride in their 'trophies' and inflict terror in their enemies."
       STR_FREE_SNAKEMAN_PREDATOR_ARMOR_CORPSE: "Free Snake Predator Corpse"
-      
+
       STR_FREE_SECTOPOD_ARMOR: "Free Sectopod Modified Armor"
       STR_FREE_SECTOPOD_ARMOR_UFOPEDIA: "Based on the original bipedal chassis but modified with additional armor plating and more weapons."
       STR_FREE_SECTOPOD_ARMOR_CORPSE: "Free Sectopod Wreck"
-      
-      
+
+
 
 ##########################################
 ########## COMMENDATIONS ###############
@@ -2638,7 +2636,7 @@ en-US:
       STR_GOOD_ENDING_2: "The successful assault on the last Insurgent stronghold proved crucial to dismantle the main opposition in the Red Planet. All the known Ethereal Insurgent leaders were killed and the rebels were destroyed once and for all. Those who didn't deposed their arms were eradicated."
       STR_GOOD_ENDING_3: "The complete pacification of the Red Planet allowed us to increase the  development on the surface. Over the years, Mars grew to become a major science and military hub. There are projects to terraform it, eventually turning it into a lush, green planet in a no-so-distant future. Alien remnants learned to coexist alongside us."
       STR_GOOD_ENDING_4: "With the shadows of the conflict behind, Mankind's eyes are set on their new destiny: the conquest of the Solar System. Prospector probes are dispatched all over the planets, moons and planetoids, looking for resources and new potential human settlements. If the Ethereals decide to return, Earth and her colonies will be ready. There is still an enemy lurking in the stars..."
-      
+
       STR_BAD_ENDING_1: "Despite our best efforts, we couldn't hold our positions. One by one fell and our forces weren't enough to stop the insurgency. Our alien allies were either eradicated or disbanded to avoid falling under the Ethereal tyranny. Some made their last stand alongside our forces, fighting against the common enemy."
       STR_BAD_ENDING_2: "Earth's contingency plan was quick and swift: total nuclear annihilation. Thousands of strategic interplanetary nuclear missiles were launched at once, aimed to our neighbour. If Mars doesn't belong to us, will belong to no one. Nuclear hate and fire rained, erasing all traces of human and alien presence alike."
       STR_BAD_ENDING_3: "Even when the apparent 'victory' was achieved with the obliteration of everything in the red surface, the Earth's morale was broken. Years setting aside all other social and economic issues with just one purpose... which no longer exists."
@@ -2697,9 +2695,9 @@ en-US:
       STR_CRYSALID_LEGACY: "Chryssalid Legacy"
       STR_CRYSALID_LEGACY_UFOPEDIA: "Of all the horrors of the war of 1972, the Chryssalids stand head and shoulders above all others, casting a shadow across every region they were regularly employed in. Their initially observed gestation rates were mostly due to the availability of Elerium in their bloodstream, successive generations are still capable of fully growing within 3 months. The most common response to a confirmed infestation was immediate nuclear bombardment, and while the literal fallout of these was thankfully minimal due to the common use of Elerium-started fusion warheads, the scars will remain for centuries. Many religions have taken to labeling them as demons, and few that have fought them would disagree."
 
-      STR_APOLLO_LASER_GATLING_OVERVIEW: "Apollo Laser Gatling Overview" 
+      STR_APOLLO_LASER_GATLING_OVERVIEW: "Apollo Laser Gatling Overview"
       STR_APOLLO_LASER_GATLING_OVERVIEW_UFOPEDIA: "GAU-50A Apollo - Since the War of 1972 the Apollo has become the default canon used by NATO-aligned aircraft, with the Soviets fielding an equivalent.  Alien Alloy using airframes have proven durable enough that they often survive multiple Longsword equivalents, resulting in the need for a supporting weapon to finish off crippled targets."
-      STR_KODIAK_LASER_CANNON_OVERVIEW: "Kodiak Laser Cannon Overview" 
+      STR_KODIAK_LASER_CANNON_OVERVIEW: "Kodiak Laser Cannon Overview"
       STR_KODIAK_LASER_CANNON_OVERVIEW_UFOPEDIA: "LC-10 Kodiak Laser Cannon - Originally developed by UNEXCOM engineers to handle smaller UFOs, the Kodiak has become popular among CAS platforms, with its greater punch being able to disable heavier targets and its greater accuracy making it less of a friendly fire risk."
       STR_LONGSWORD_FUSION_MISSILE_OVERVIEW: "Longsword Fusion Missile Overview"
       STR_LONGSWORD_FUSION_MISSILE_OVERVIEW_UFOPAEDIA: "The Longswords used by Martian forces have only seen minor changes to be better suited in the local environment, and are otherwise identical to the ones fielded during the War of 1972.  Their use on Earth has been superseded by an equally effective non-Elerium warhead, but the older design can be manufactured using the production equipment available on the Martian surface."
@@ -2714,7 +2712,7 @@ en-US:
 
       STR_ZEUS_OVERVIEW: "Zeus Plasma Gatling Overview"
       STR_ZEUS_OVERVIEW_UFOPAEDIA: "While there were high hopes for the Zeus, the high firing rate would result in the weapon interfering with its own targeting, drastically reducing the effective range.  This made it unworkable in the eyes of UNEXCOM pilots, being a waste of Elerium against smaller targets and suicidal to use against larger ones.  Use by USAF and NATO forces would pan this out, leading to its discontinuation in early 1974."
-      STR_VOSTOK_PLASMA_CANNON_OVERVIEW: "Vostok Plasma Cannon Overview" 
+      STR_VOSTOK_PLASMA_CANNON_OVERVIEW: "Vostok Plasma Cannon Overview"
       STR_VOSTOK_PLASMA_CANNON_OVERVIEW_UFOPAEDIA: "Something"
       STR_EXCALIBUR_LIGHT_MISSILE_OVERVIEW: "Excalibur Smart Light Misisle Overview"
       STR_EXCALIBUR_LIGHT_MISSILE_OVERVIEW_UFOPAEDIA: "While needing optronics to manufacture, the Excalibur is widely recognised as the last nail in the coffin for the 'Fighter Mafia'.  Modern aircraft may be far more durable than previously due to the widespread use of Alien Alloys, but the Excalibur has enough range, accuracy, and knockout power to decide engagements well before effective gun range."
@@ -2746,7 +2744,7 @@ en-US:
       STR_HARRIER_OVERVIEW_UFOPEDIA: "SAV-9 Space-Harrier - Loosely derived from the Harrier Jump Jet used by several NATO countries, the Star-Harrier was made to serve as a local patrol craft capable of CAS operations.  Thus, it features an extended range and greater weapons diversity compared to the Star-Forger."
       STR_FORGER_OVERVIEW: "Forger Overview"
       STR_FORGER_OVERVIEW_UFOPEDIA: "Yak-39S 'Star-Forger' - Loosely derived from the Soviet's Forger, the Star-Forger is intended as a local interceptor for Martian outposts, and has a fraction of the infrastructure needs of the MiG-135 Super Fiery.  Compared to the Space-Harrier it is more durable and faster, but has a shorter range and limited CAS capability."
-      
+
       STR_WARTHOG_OVERVIEW: "Warthog Overview"
       STR_WARTHOG_OVERVIEW_UFOPEDIA: "SA-10 Space-Thunderbolt II - Nicknamed 'Warthog', it was nitially designed as a heavy attack craft to counter alien armor in Central Europe. A major engine rework made it a SVTOL craft, able to operate in the Martian atmosphere. The amount of punishment it can resist is equivalent to the large amount of ordnance it can deliver, fully protecting the single pilot inside an Alien Alloys cabin."
       STR_FROGFOOT_OVERVIEW: "Frogfoot Overview"
@@ -2756,7 +2754,7 @@ en-US:
       STR_TRANSPORT_CRAFT_OVERVIEW_UFOPEDIA: "Operation Cleanup demanded a much more capable replacement to the old X-73 Raider, resulting in the SDS-80 Intruder. Designed to fully take advantage of recovered alien technologies, the Intruder is a fully combat capable VTOL Dropship. Its Alien Alloy hull allows for repeated re-entry maneuvers in Earth's atmosphere without heat tile degradation, and the cutting edge thrusters have greater acceleration and fuel efficiency. In Mars' thin atmosphere and reduced gravity, it can make orbital hops and return back to its home base without an external fuel tank or booster rockets, allowing it to be equipped with weapon pods for CAS operations."
       STR_VKS_SHUTTLE_OVERVIEW: "Buran Overview"
       STR_VKS_SHUTTLE_OVERVIEW_UFOPEDIA:  "Buran Shuttle - The Soviet's derivative of the X-73 Raider, the Burya had a troubled development history, with the delays leading to UNEXCOM instead opting to make use of the NATO Intruder. In testing, the Buran has proven to be similar enough to the Intruder in capability to be near interchangeable, although both have their own operating quirks.  As the only Soviet produced Martian Craft capable of CAS operations, the VKS keeps a substantially larger operation fleet than their USSF Ranger and UASCNAT Espatier counterparts, which also compensates for the Soviet's perpetual maintenance woes."
-      STR_VKS_ARMOR_SHUTTLE_OVERVIEW: "Burya Oberview" 
+      STR_VKS_ARMOR_SHUTTLE_OVERVIEW: "Burya Oberview"
       STR_VKS_ARMOR_SHUTTLE_OVERVIEW_UFOPEDIA:  "Burya Shuttle - The Eastblock's equivalent to the Breacher, the Burya is several months behind schedule and is being worked on at the Soviet Mare Crisium colony.  As such, it is not available to either UNEXCOM or the local VKS, much to the latter's dismay."
       STR_MARS_HEAVY_LIFTER_OVERVIEW: "Mars Heavy Lifters Overview"
       STR_MARS_HEAVY_LIFTER_OVERVIEW_UFOPEDIA: "Just coming out of development, 'Heavy Lifters' are large long range VTOL cargo craft designed for use in the Martian environment.  Using a combination of Elerium Anti-Gravity and CO2/Mg jet thrusters, they can carry full prefabricated structures at substantial speeds. Currently, NATO and the Warsaw Pact each have a single working example, while the USSF operates two, leasing the second out to the UN.  More than a dozen are currently under construction, although work is slow due to other more critical demands for manufacturing capability."
@@ -2770,7 +2768,7 @@ en-US:
       STR_SABRE_2_OVERVIEW: "Sabre II Overview"
       STR_SABRE_2_OVERVIEW_UFOPEDIA: "Sabre II Endo/Exo-atmospheric Fighter - The final major product of UNEXCOM's research department before the last drawdown in 1979, the Sabre II benefited from 5 years of peace-time design work.  The biggest change is the inclusion of stealth technology, resulting in a profile closer to that of the Crusader than that of its predecessor.  Refined engineering has resulted in a range of improvements, most notably in regards to maintenance and sustainment, granting higher operational tempos and longer service lives.  Orbital performance remains relatively lackluster, but this is a secondary concern given its role."
 
-      STR_EXOATMOSPHERIC_CRAFT_OVERVIEW: "Exo-atmospheric Craft Review" 
+      STR_EXOATMOSPHERIC_CRAFT_OVERVIEW: "Exo-atmospheric Craft Review"
       STR_EXOATMOSPHERIC_CRAFT_OVERVIEW_UFOPEDIA: "Thanks to wide scale production of AA materials, the exo-planes of the Great Powers have seen substantial improvements, most notably in production cost.  This has resulted in it being much more practical to field them in larger numbers, filling out the parasite bays of the growing Orion Fleet and Lunar garrisons.  Interestingly, NATO and the Warsaw Pact have seemingly switched stances compared to planetside, with the USSF and UASCNAT focusing on keeping the attack focused VKS at bay while the war is won in the atmosphere.  UNEXCOM has little need for these platforms given our current mandate however."
       STR_DYNASOAR_OVERVIEW: "Dyna-MOWS Overview"
       STR_DYNASOAR_OVERVIEW_UFOPAEDIA: "The jurisdiction dispute between the USAF and the USSF means that the latter has so far been unable to acquire a fleet of Sabre IIs sufficient for its needs, leading to the fielding of the less advanced Dyna-MOWS to provide coverage.  The one thing it has over the Sabre is its full exoatmospheric capability, leading to it being fielded primarily from USSF's facilities around the Shackleton colony."
@@ -2798,7 +2796,7 @@ en-US:
       STR_PERSONAL_EQUIPMENT_PROCUREMENT_1_UFOPEDIA: "Most of UNEXCOM's distinctive equipment is more or less hand crafted by our in-house engineers, and we have yet to establish the facilities to do so locally.  To make our headache worse, while a good chunk of our war-era stockpiles have ended up in the UN Sectors, the inventory index has been scrambled and the guns will need some refurbishment work regardless. The one plus is that we have some contacts that can handle it, so we just need to grease some wheels to get them back. Finally, as these weapons are predominantly rifle and carbine designs, we'll need to requisition alternative weapons from the Allied Forces to fill other mission roles. The process for that is going to be a time consuming political circus, so the choice is yours if it's a worthwhile endeavor."
       STR_MARS_ORBITAL_REPORT_1: "Mars Orbital Report"
       STR_MARS_ORBITAL_REPORT_1_UFOPEDIA: "Currently, the orbitals are secured by Battlegroup Leningrad, but plans are well underway to establish a more permanent presence.  The Phobos Anchorage is currently under construction, and will serve as the home base for both exploration efforts into the outer system and cargo transport back to Earth.  Logistics and political wrangling have delayed its establishment, resulting in it currently being little more than a skeleton, but enough has been completed to serve as the long term home of the work crews involved, and the handful of 3D printers on site are sufficient to keep them running indefinitely.  Its expansion will require a constant stream of imported machinery from Earth and resources from the planet surface however."
-      STR_BATTLEGROUP_LENINGRAD_REPORT_1: "Battlegroup Leningrad Report" 
+      STR_BATTLEGROUP_LENINGRAD_REPORT_1: "Battlegroup Leningrad Report"
       STR_BATTLEGROUP_LENINGRAD_REPORT_1_UFOPEDIA: "The orbital flotilla is currently headed by the Battleship UNS Leningrad, which is supported by a pair of USSF Destroyers and UASCNAT Frigates, and have taken orbit around Phobos.  There's a pair of Exo-Plane Carriers (UNS Coral Sea and UNS Ark Royal) due to arrive in late November, and between them there's enough deck space to host effectively to all of the non-Sabre exo-fighter assets in the Martian theater.  This will be a welcome relief to local pilots and ground crews, with the launching rigs they've had to work with on the surface being prone to all sorts of malfunctions and landing being far more exciting than desired due to a range of design drawbacks in the current generation of birds."
       STR_CRAFT_WEAPONS_REPORT_1: "Craft Weapons Report"
       STR_CRAFT_WEAPONS_REPORT_1_UFOPEDIA: "For better or worse, the UNEXCOM forces in the Martian theater are the only ones that have (so far) been equipped with 'Tier IV' weaponry, consisting of plasma weapons and second generation fusion missiles. The United States has fielded Tier III equivalents that feature the same level of accuracy thanks to their lead in electronics manufacturing, but Mars lacks the infrastructure to construct them. As such, replacements will have to be made from salvaged components, although this will likely not be too much of a problem given our relative standing versus the insurgents."
@@ -2824,7 +2822,7 @@ en-US:
       STR_TROOP_HIRING_PROPOSAL_2_UFOPEDIA: "We're going to be needing more bodies fast, and given the current circumstances the Allied Forces will be reluctant to allow us to requisition their best. However, as we're the ones playing fire brigade there will be a moderate stream of soldiers that wish to take the fight to the enemy, and if need be we can enlist civilian volunteers to fill out the ranks. Additionally, beyond the old hands that we've called back, there are a large number of scientists and engineers that have been forced to evacuate the lesser outposts, but we'll need to establish facilities to make use of them."
       STR_PERSONAL_EQUIPMENT_PROCUREMENT_2: "Personal Equipment Procurement"
       STR_PERSONAL_EQUIPMENT_PROCUREMENT_2_UFOPEDIA: "We're the ones playing fire brigade, so we still have priority access, but keep in mind that every piece we requisition is one not in the hands of the defenders.  Additionally, you should keep in mind that the best available equipment is generally what comes out of our own engineering bays, so if the resources can be spared that's where they should be invested."
-      STR_MARS_ORBITAL_REPORT_2: "Mars Orbital Report" 
+      STR_MARS_ORBITAL_REPORT_2: "Mars Orbital Report"
       STR_MARS_ORBITAL_REPORT_2_UFOPEDIA: "The orbitals are being held by a large rotating flock of Ethereal Fighter craft, which is too much for our limited number Sabre Is and IIs to handle, but they'd get shredded if they wander into range of the Leningrad's remaining weapons. The only large scale UFOs that our surviving sensors have picked up so far consist of Labships and Supply Ships, so nothing truly insurmountable for the Allied aerospace roster. This can easily change if the war goes on long enough for the Ethereals to reconstitute their production infrastructure, but Intel thinks the probable reinforcement fleet will arrive before enough warships are finished."
       STR_BATTLEGROUP_LENINGRAD_REPORT_2: "Battlegroup Leningrad Report"
       STR_BATTLEGROUP_LENINGRAD_REPORT_2_UFOPEDIA: "It's going to be a while before we can piece together what exactly happened to the Battlegroup Leningrad, but it looks like a near mutual wipe with every alien Warship that has so far been spotted.  Visuals of Phobos Anchorage show most of the Leningrad laying at a mild angle directly next to the base, and the damage honestly looks terrible.  The lower sections are more or less gone, and that includes the pusher-plate and pony storage, so she's only a few steps away from the scrapyard.  However, most of the forward weapon emplacements look intact and the base has enough spare power to run them, so she's still functional as a defensive battery, explaining why the Anchorage hasn't been turned into a crater yet."
@@ -2832,11 +2830,11 @@ en-US:
       STR_CRAFT_WEAPONS_REPORT_2_UFOPEDIA: "While Allied Forces have been taking a hammering, the outposts have been able to produce enough munitions to supply what airframes are still operational.  This has come at the cost of providing the ground forces with more advanced weapons, but if we lose the air then we will be rolled up in short order.  If we buy them enough breathing room, they can divert effort into producing plasma weapons and go on the offensive."
       STR_MARTIAN_ATMOSPHERIC_CRAFT_REPORT_2: "Martian Atmospheric Craft Report"
       STR_MARTIAN_ATMOSPHERIC_CRAFT_REPORT_2_UFOPEDIA: "Airframe losses have been dire, but it looks like we at least came out on par with the Ethereals in terms of proportional fleet loss.  Airpower is the most vital resource in play at the moment, so they're getting more than their fair share of the resources and fabrication budget.  While it's going to be a headache to get our hands on more birds, we have the status to push through if need be, and results will handle the rest.  Naturally, more than a few corners are being cut on build quality, but odds are things will be over before it becomes a problem."
-      STR_TRANSPORT_CRAFT_REPORT_2: "Transport Craft Report" 
+      STR_TRANSPORT_CRAFT_REPORT_2: "Transport Craft Report"
       STR_TRANSPORT_CRAFT_REPORT_2_UFOPEDIA: "One of the few bits of good news as of late, there are a number of mostly complete Intruder hulls across Mars waiting to be finished, and if we can offer enough resources the outposts will finish them for our use. It's more likely we're going to run short of manpower to fully use them however, so try not to stress our hiring department with replacements any more than you have too. R&D is reasonably close to finishing a few alternative designs that are more theater appropriate, so you should investigate to see if they fit your tactics."
       STR_ENDO_EXO_ATMOSPHERIC_CRAFT_REPORT_2: "Endo/Exo-atmospheric Craft Report"
-      STR_ENDO_EXO_ATMOSPHERIC_CRAFT_REPORT_2_UFOPEDIA: "The aerospace situation is grim, but we still had a massive stroke of luck.  The Governing Council decided to conduct a mass snap exercise a few hours before the uprising started, resulting in the majority of the Sabres being in the air when the first attacks happened.  Reports are still being compiled, but the next few hours were an absolute bloodbath, with our side managing to eke out a marginal victory via taking out a larger proportion than they lost.  The survivors are being held back for point defense of the major Outposts, so don't expect to see them flying alongside us unless things get even worse." 
-      STR_EXOATMOSPHERIC_CRAFT_REPORT_2: "Exo-atmospheric Craft Report" 
+      STR_ENDO_EXO_ATMOSPHERIC_CRAFT_REPORT_2_UFOPEDIA: "The aerospace situation is grim, but we still had a massive stroke of luck.  The Governing Council decided to conduct a mass snap exercise a few hours before the uprising started, resulting in the majority of the Sabres being in the air when the first attacks happened.  Reports are still being compiled, but the next few hours were an absolute bloodbath, with our side managing to eke out a marginal victory via taking out a larger proportion than they lost.  The survivors are being held back for point defense of the major Outposts, so don't expect to see them flying alongside us unless things get even worse."
+      STR_EXOATMOSPHERIC_CRAFT_REPORT_2: "Exo-atmospheric Craft Report"
       STR_EXOATMOSPHERIC_CRAFT_REPORT_2_UFOPEDIA: "In what can only be a major intelligence failure, it appears that the Ethereals missed the transfer of the exo-wings to the UNS Coral Sea and UNS Ark Royal, which caused the forces groundside to attack empty fields and the ones in orbit to run into a much stronger force than expected.  While the carriers are now scrap metal, they had enough warning to dump their crew, ordinance, and stores towards the Anchorage, so they holdouts up there should have enough meat and metal to put up a fight.  Considering the current situation, our resources would better be invested in Sabres rather than full exo-craft, so we're not going to see any more of them until reinforcements arrive."
 
 # ACT 3 - AUTOGET MONTH AFTER FLEET ARRIVES
@@ -2846,7 +2844,7 @@ en-US:
       STR_MANUFACTURING_REPORT_3_UFOPEDIA: "The cargo ships accompanying the fleet have pulled Allied Forces out of the woods regarding the various staples, although actual manufacturing has taken a major nose dive to accommodate badly overdue maintenance. Our production remains unaffected however, with our in-house designs being mostly hand-fitted by our engineering staff. We should fully outfit our assault teams with Marauder armor and plasma weapons before we attack the Ethereal Headquarters, as it seems that they have pulled back their most capable forces in order to protect it."
       STR_MINING_REPORT_3: "Mining Report"
       STR_MINING_REPORT_3_UFOPEDIA: "Marsec's Selerium process seems to only be viable on Mars, so the need to suppress the uprising remains unchanged. The fleet brought enough supplies to last them for the foreseeable future, but the surface outposts will continue to need fresh resources to conduct repairs and build replacements."
-      STR_UNEXCOM_PERSONNEL_REPORT_3: "UNEXCOM Personnel Report" 
+      STR_UNEXCOM_PERSONNEL_REPORT_3: "UNEXCOM Personnel Report"
       STR_UNEXCOM_PERSONEL_REPORT_3_UFOPEDIA: "The reinforcements included nearly all of the currently ready Legionnaires, but they're mostly tied up with rooting out the various Ethereal forces that have gone to ground. If we want to get them assigned to us in a reasonable timeframe we'll need to go through most of the normal hoops. Additionally, the various surviving outposts are going to be focused on their own recovery efforts before reclamation, so there's going to be enough loose support personnel for our staffing needs."
       STR_TROOP_HIRING_PROPOSAL_3: "Troop Hiring Proposal"
       STR_TROOP_HIRING_PROPOSAL_UFOPEDIA: "A notable number of the stood down Allied Forces are willing to sign up with us to finish the fight, so we shouldn't have to keep hiring civilians to fill the ranks."
@@ -2919,7 +2917,7 @@ en-US:
 
       STR_HEARTS_AND_MINDS_SECTOIDS_3: "Hearts and Minds: Sectoid Support III"
       STR_HEARTS_AND_MINDS_SECTOIDS_3_UFOPEDIA: "The greatest problem with the Free Sectoids is making them understand that 'no means no', but they understand that they should avoid anything we want to protect.  Their wanderings have made them extremely knowledgeable of Mars' geology, and MARSEC has begun teasing information about mineral deposits out of them.  Similarly, a significant number of the current Sectoid Leaders have their origins in the Ethereals' most important industrial plants, which makes them sources of information that was generally not present among those we fought back in the last war. Assuming they don't get wiped out, our xenosociologists will be busy talking when them for years to come."
-      
+
       STR_HEARTS_AND_MINDS_FLOATERS_3: "Hearts and Minds: Floater Support III"
       STR_HEARTS_AND_MINDS_FLOATERS_3_UFOPEDIA: "Getting into the minds of Floaters has been an exercise in frustration, but they seem to be driven by an urge to acquire new knowledge and new experiences, making long term relations complicated without the sort of psionic coercion that the Ethereals specialize in. They are understandably resentful of their former masters, and are happy to harass them if we give them the tools to do so. The xenosociologists think we can keep them reasonably pacified by feeding them a constant stream of human cultural content, and modern media produces more than enough chum to keep them distracted."
 
@@ -2927,14 +2925,14 @@ en-US:
       STR_HEARTS_AND_MINDS_CEREBREAL_2_UFOPEDIA: "Of the breakaway factions, the Cerebreals are the easiest to deal with; wanting nothing more than to return to their homeworlds and raiding our facilities for survival necessities. They respond well to simple bribery, and while they avoid combat they are happy to provide us with intelligence on Ethereal mental broadcasts. As of this moment, their short term plan is to acquire and build up a number of secondary Ethereal bases to provide long term residence, and in the long run wish to acquire the means to leave the system. So long as we pay them off and stay away from their holdings, they can be trusted to keep to their own devices."
       STR_HEARTS_AND_MINDS_CEREBREAL_3: "Hearts and Minds: Cerebreal Support III"
       STR_HEARTS_AND_MINDS_CEREBREAL_3_UFOPEDIA: "With the arrival of the UN Fleet, the Cerebreals have made their move, taking over a network of minor facilities in the Tharsis Montes region. According to the Free Sectoids, the local mineral deposits are considered to be middling to mediocre, but are unusual in that they compose the full range of natural elements used in Ethereal technology. The area was colonized centuries ago to produce non-engineering interior fittings for UFOs, which makes it desirable for anybody that desires residential capacity but wishes to be independent of outside powers. The Governing Council is establishing monitoring networks to keep an eye on them, but in all likelihood this will be the last notable action we see from the Cerebreals for quite some time."
-      
+
       STR_HEARTS_AND_MINDS_MUTONS_3: "Hearts and Minds: Mutons Support III"
       STR_HEARTS_AND_MINDS_MUTONS_3_UFOPEDIA: "For all of their belligerence, the Free Mutons make their interests firmly known and stick to agreements if at all possible, which makes them consistently reliable. Their developing warlord culture has far too many parallels to the mess that is modern Central Africa to be comfortable with, but for the time being that makes them relatively straightforward to influence. Things will be more complicated in the long term however, as some of the more forward thinking warlords have started to stake claims on the larger and more general purpose production centers, and started using them to build up their other holdings. It is unlikely they will successfully unite without an existential external threat or an equivalent to Genghis Khan, but the latter possibility is something that's keeping people up at night."
 
       STR_HEARTS_AND_MINDS_CHTONITE: "Hearts and Minds Project - Chtonite"
       STR_HEARTS_AND_MINDS_CHTONITE_1: "Hearts and Minds: Chtonite Support I"
       STR_HEARTS_AND_MINDS_CHTONITE_1_UFOPEDIA: "Our dialog with the Free Aliens has revealed that there is a substantial Chtonite population on Mars, despite our investigations showing the contrary. Our mistake is understandable however, as the Free Chtonites have proven themselves to be fierce isolationists and have retreated to deep bunkers well below Mars' surface, leading to there being next to no known sightings since Operation Downfall. Given the current circumstances, the Governing Council does not think it a worthwhile investment of time and resources to try to make contact, with the more pressing matter of the uprising being the overriding priority."
-      
+
       STR_HEARTS_AND_MINDS_CHTONITE_2: "Hearts and Minds: Chtonite Support II"
       STR_HEARTS_AND_MINDS_CHTONITE_2_UFOPEDIA: "A patrol out of Bolzano Station has stumbled across a small Chtonite recon expedition and managed to capture several of them. Interrogation reveals that the Chtonites are firmly against getting involved in this conflict, but they need to gain information about how it has progressed, and have dispatched several parties to that effect. The scouts we captured have reached the conclusion that the UN Forces surviving this long means that the Ethereals are certain to lose once reinforcements from Earth arrive, so they are in favor of digging further down and continuing to ignore the surface. The Governing Council is content to let the Chtonites do just that given the current priorities."
       STR_HEARTS_AND_MINDS_CHTONITE_3: "Hearts and Minds: Chtonite Support III"
@@ -3006,31 +3004,31 @@ en-US:
       STR_HEARTS_AND_MINDS_FEED_THE_SNAKEMEN_UFOPEDIA: "The single largest factor holding the Snakemen back is logistics.  Simply put, they do not have enough food to freely mobilize their population, which is one of the reasons for their constant raids. Our forces are in possession of several 'nutri-gruel' factories, and while almost impalpable for human consumption the Snakemen eat it readily enough. It has taken several weeks to bring them back into operation, but there is enough 'base stock' present to keep them running for at least half a year, and in all likelihood the outcome of this war will be firmly decided by then. As these are the definition of consumable goods, the Governing Council does not believe that this will directly impact the long term state of affairs, but there is a high likelihood of it enabling them to make a nuisance of themselves in another manner."
       STR_HEARTS_AND_MINDS_WATCH_THE_SNAKEMEN: "Hearts and Minds: Watch the Snakemen"
       STR_HEARTS_AND_MINDS_WATCH_THE_SNAKEMEN_UFOPEDIA: "Much to nobody's particular surprise, the Free Snakemen have been going after the Ethereal's own nutri-gruel facilities, and it seems likely that they will capture a number of them. Observers we have attached to their raiding parties have gained several valuable insights into the Ethereals' logistics however, which has allowed us to start making more targeted strikes against their more critical depots. Next month Intel will assemble target lists for our assault teams to neutralize, which should throw Ethereal advances into chaos."
-      
+
       STR_PSI_INVOKER: "Psi-Invoker"
       STR_PSI_INVOKER_UFOPEDIA: "This device work by loading special chips and emitting psionic signals in the specific psi frequency used by each Free Alien race. The Invoker allows you to spawn one unit of the summoned alien in the next tile."
-      
+
       STR_PSI_INVOKER_SECTOID_CHIP_MK1: "Psi-Inv Sectoid Chip Mk.1"
       STR_PSI_INVOKER_SECTOID_CHIP_MK1_UFOPEDIA: "Up to 3 allied Free Sectoids armed with M17 Light Carbines will appear to support you in battle. Once the firefight is over, they'll retreat back to their base."
       STR_PSI_INVOKER_SECTOID_CHIP_MK2: "Psi-Inv Sectoid Chip Mk.2"
       STR_PSI_INVOKER_SECTOID_CHIP_MK2_UFOPEDIA: "Up to 4 allied Free Sectoids armed with M42A3 Alloy Carbines will appear to support you in battle. Once the firefight is over, they'll retreat back to their base."
       STR_PSI_INVOKER_SECTOID_CHIP_MK3: "Psi-Inv Sectoid Chip Mk.1"
       STR_PSI_INVOKER_SECTOID_CHIP_MK3_UFOPEDIA: "Up to 5 allied Free Sectoids armed with M52 Alloy Rifles will appear to support you in battle. Once the firefight is over, they'll retreat back to their base."
-      
+
       STR_PSI_INVOKER_FLOATER_CHIP_MK1: "Psi-Inv Floater Chip Mk.1"
       STR_PSI_INVOKER_FLOATER_CHIP_MK1_UFOPEDIA: "Up to 3 allied Free Floaters armed with G11-K1 Assault Rifles will appear to support you in battle. Once the firefight is over, they'll continue their pilgrimage."
       STR_PSI_INVOKER_FLOATER_CHIP_MK2: "Psi-Inv Floater Chip Mk.2"
       STR_PSI_INVOKER_FLOATER_CHIP_MK2_UFOPEDIA: "Up to 4 allied Free Floaters armed with G11-K1 Assault Rifles will appear to support you in battle. Once the firefight is over, they'll continue their pilgrimage."
       STR_PSI_INVOKER_FLOATER_CHIP_MK3: "Psi-Inv Floater Chip Mk.3"
       STR_PSI_INVOKER_FLOATER_CHIP_MK3_UFOPEDIA: "Up to 5 allied Free Floaters armed with will appear custom-made 'Magnetic Slugthrowers' to support you in battle. Once the firefight is over, they'll continue their pilgrimage."
-      
+
       STR_PSI_INVOKER_MUTON_CHIP_MK1: "Psi-Inv Muton Chip Mk.1"
       STR_PSI_INVOKER_MUTON_CHIP_MK1_UFOPEDIA: "Up to 2 allied Free Mutons armed with AK-79 Assault Rifles will appear to support you in battle. Once the firefight is over, they'll return to their territory."
       STR_PSI_INVOKER_MUTON_CHIP_MK2: "Psi-Inv Muton Chip Mk.2"
       STR_PSI_INVOKER_MUTON_CHIP_MK2_UFOPEDIA: "Up to 3 allied Free Mutons armed with Argyre Basin Laser Projectors will appear to support you in battle. Once the firefight is over, they'll return to their territory."
       STR_PSI_INVOKER_MUTON_CHIP_MK3: "Psi-Inv Muton Chip Mk.3"
       STR_PSI_INVOKER_MUTON_CHIP_MK3_UFOPEDIA: "Up to 4 allied Free Mutons armed with Argyre Basin Laser Projectors and Shock Armor will appear to support you in battle. Once the firefight is over, they'll return to their territory."
-      
+
       STR_PSI_INVOKER_SNAKEMAN_CHIP_MK1: "Psi-Inv Snakeman Chip Mk.1"
       STR_PSI_INVOKER_SNAKEMAN_CHIP_MK1_UFOPEDIA: "Up to 4 allied Free Snakemen armed with TKB-80 Special Rifles will appear to support you in battle. Once the firefight is over, they'll run straight to their hideouts."
       STR_PSI_INVOKER_SNAKEMAN_CHIP_MK2: "Psi-Inv Snakeman Chip Mk.2"
@@ -3041,93 +3039,93 @@ en-US:
 ###################
 ##### TANKS ######
 #################
-     
+
       STR_LEGIONNAIRE_TANK: "Legionnaire Tank"
       STR_LEGIONNAIRE_TANK_UFOPEDIA: "The M22 Legionnaire has become the standard air-portable light armored vehicle for western forces. Advancing technology has resulted in most of its internal systems being improved in various ways, most notably in cost and reliability, but the most tactically significant are its improved armor scheme (120/90/75/60) and a more powerful battery for the laser minigun (200 shots).  Additional configurations include mortar and missile carriers, and a variant for use on Mars is ready for use as soon as there is a suitable transport for it.  Naturally, the Soviets have an equivalent in the BMD-2."
-      
+
       STR_EQUITIE_TANK: "Equitie Hovertank"
       STR_EQUITIE_TANK_UFOPEDIA: "A late war successor to the Legionnaire, the XM23 Equitie is an antigravity based hover vehicle derived from recovered Cyberdisc hulks.  The lack of exposed tracks and rollers resulted in it being substantially more effectively protected (130/110/90/90), and gave it much greater speed and agility.  However, its need to consume Elerium as fuel made it impractical to field in any significant numbers, resulting in their retirement shortly after the war.  Interest has returned with the colonization of Mars, but they will have to be constructed locally."
-      
+
       STR_EQUITIE_TANK_LASER: "Equitie Laser Hovertank"
       STR_EQUITIE_TANK_LASER_UFOPEDIA: "The XM23A Equitie is armed with a laser cannon and machine gun similar to the Legionnaire, but the far higher power output of the vehicle’s Elerium reactor removed the need for disposable batteries."
       STR_EQUITIE_TANK_PLASMA: "Equitie Plasma Hovertank"
       STR_EQUITIE_TANK_PLASMA_UFOPEDIA: "The XM23B’s Elerium reactor allowed it to utilize a more efficient Plasma Beam for its primary weapon, consuming far less Elerium per shot than hand held weapons.  However, the perennial bane of ground-use plasma weapons, surface EM interference, reared its ugly head and caused predictably atrocious dispersion once the beam left its optimum range.  Combined with its notably higher Elerium consumption during general operation, it is understandable that the 23Bs were the first to be retired after Operation Downfall."
-      
+
       STR_EQUITIE_TANK_BLASTER: "Equitie Blaster Hovertank"
       STR_EQUITIE_TANK_BLASTER_UFOPEDIA: "An extremely late addition to UNEXCOM’s arsenal, only a single XM23C was built before Operation Downfall.  Its primary armament was a successfully reverse engineered Blaster Launcher, featuring an automatic loader with an 8 round magazine.  Limitations of human manufacturing technology resulted in a much larger design compared to the Ethereal original, but they did manage to make novel use of the vehicle’s own Elerium reactor to reduce the amount of Elerium needed in each individual missile.  The unit was lost at Cydonia, but was said to be quite effective."
-      
+
       STR_TANKS_OVERVIEW: "Tanks Overview"
       STR_TANKS_OVERVIEW_UFOPEDIA: "The Invasions of 1972 resulted in seismic changes in the field of mechanized warfare, with Heavy Plasma weapons and Blaster Bombs able to make short work out of any steel clad vehicle that wandered into range.  As a response, a new generation of armored combat platforms would be developed in the Interbellum, embodying what each power took away from the conflict.  The Western Powers would be heavily influenced by the great success of the Leopard I, while the Soviet Union would continue down the road of minimizing the target profile of their T-64 iterations.  While gravity-hover platforms were possible, the shortage of Elerium to fuel them ensured that it would not see serious consideration for adoption, but speculative development programs are underway in the hopes that this would be solved."
-      
+
       STR_TANKS_PROTECTION: "Tanks Protection"
       STR_TANKS_PROTECTION_UFOPEDIA: "While good for aircraft, the reverse engineered Alien Alloy formulas were thought to be less ideal for relatively slow ground based platforms, resulting in the desire for heavier and denser compositions that were more resistant to damage.  The British would be the first ones to make the breakthrough based on their previous Chobham composite armor, resulting in what is known as ‘High Density Alloy Plating’.  In testing, this material would be substantially more durable than its equivalent weight in normal Alien Alloys, and most critically more resistant to alien plasma and fusion weapons.  That being said, HDAP has a number of drawbacks, most notably its poor compatibility with high performance Elerium-Annihilation Gravity Drives and structural failures when worked into complex shapes, resulting in it being less practical for aircraft usage."
-      
+
       STR_TANKS_PROPULSION: "Tanks Propulsion"
       STR_TANKS_PROPULSION_UFOPEDIA: "Modern MBTs still use continuous tracks held by torsion-bar suspensions, but the engines are a notably different beast than previously.  The rise of high-efficiency electric motors and batteries has made electric-hybrid systems practical, and the advantages of it are substantial.  Among other things, modern tanks can now manage full speeds in reverse without difficulty, although this naturally requires a working external camera system to be done safely.  Additionally, the power-generation focused engine is better able to provide the needed energy for the magnetic based main weapons, which are necessary to counter other modern tanks."
-      
+
       STR_TANKS_ARMAMENT_1: "Tanks Armament I"
       STR_TANKS_ARMAMENT_1_UFOPEDIA: "High Density Alloy Plating makes a mockery of traditional Armor Piercing warheads and projectiles, but it is also highly effective against all forms of energy weapons.  The most practical option was found to use faster Depleted Uranium projectiles fired from a capacitor charged Mass Driver, with the East and West developing their own preferred models.  In practice, these weapons have a truly impressive effective range, with the curvature of the planet being one of the more significant limitations.  Mass drivers have the additional advantage of being able to fire other types of munitions, with lower charges still giving more than adequate range and being far less demanding on internal components.  Universally, the primary gun is supported by a coaxial laser machine gun for anti-infantry purposes, and many vehicles also feature a remote mini-turret as their ‘cupola mount’."
-      
+
       STR_TANKS_ARMAMENT_2: "Tanks Armament II"
       STR_TANKS_ARMAMENT_2_UFOPEDIA: "Lighter vehicles such as the Legionnaire and its descendants use energy weapons as their primary armament, but have greatly reduced effective ranges compared to Mass Drivers.  This is counterbalanced by the weapon mount and ‘ammo’ batteries taking up far less volume in the hull, which is at a premium on light tanks and IFVs.  UNEXCOM did field a number of vehicles armed with plasma cannons, but found that the results were lackluster without also using an Elerium reactor.  Experiments into Blaster Bomb derived guided missiles proved to be far more effective, although comparative Elerium consumption remains an issue."
-      
+
       STR_TANKS_CREW: "Tanks Crew"
       STR_TANKS_CREW_UFOPEDIA: "While all powers have adopted an autoloader based system, Western tanks retain 4 man crews  The former loader (now located next to the driver) becomes the drone/EWAR operator, commanding a number of unmanned reconnaissance devices derived from the alien Probe and Cybersphere.  The information acquired by them is combined with an extensive network of external cameras scattered across the vehicle’s body and fed to holographic helmets worn by each crewman, resulting in vast improvement in situational awareness.  Soviet vehicles only have the latter part, giving individual Western tanks the advantage in local armor clashes."
-      
+
       STR_TANKS_ARTILLERY: "Tanks Artillery"
       STR_TANKS_ARTILLERY_UFOPEDIA: "Despite all of the advances of the post-invasion world, there remains a place for a ballistic artillery platform.  Blaster-guided missiles remain incredibly expensive, and the development of guided shells has ensured that howitzers continue to have a future.  Beyond the use of Alien Alloys in their construction, the most significant change to modern artillery is the introduction of electro-thermal propelents, starting the shift away from purely chemical energy to something that can be more precisely controlled and even enhanced.  Mass drivers are also being experimented with, but it has so far proven to be impractical to shield seeker heads from the electromagnetic forces of being fired."
-      
+
       STR_TANKS_MARS_1: "Tanks on Mars I"
-      STR_TANKS_MARS_1_UFOPEDIA: "A significant number of modern MBTs (roughly a battalion for each Great Power) were shipped to Mars as part of Operation Cleansweep, but not as combat vehicles.  Instead they were fitted to serve as engineering platforms, with their turret rings hosting hydraulic arms and the powerful engines allowing them to serve as tractors or bulldozers.  The actual turrets (heavily modified) were also shipped to Mars as a contingency, but only to be used in the event of an Alien Uprising.  The most significant internal change was replacing their normal fuel burning engines with Elerium reactors, eliminating the need to use complicated workarounds to deal with the thin martian atmosphere." 
-      
+      STR_TANKS_MARS_1_UFOPEDIA: "A significant number of modern MBTs (roughly a battalion for each Great Power) were shipped to Mars as part of Operation Cleansweep, but not as combat vehicles.  Instead they were fitted to serve as engineering platforms, with their turret rings hosting hydraulic arms and the powerful engines allowing them to serve as tractors or bulldozers.  The actual turrets (heavily modified) were also shipped to Mars as a contingency, but only to be used in the event of an Alien Uprising.  The most significant internal change was replacing their normal fuel burning engines with Elerium reactors, eliminating the need to use complicated workarounds to deal with the thin martian atmosphere."
+
       STR_TANKS_MARS_2: "Tanks on Mars II"
       STR_TANKS_MARS_2_UFOPEDIA: "On a similar note, many of the utility vehicles shipped from Earth were repurposed Infantry Fighting Vehicles, although this was more due to their ready availability rather than their combat capabilities.  While locally produced Rovers are quickly dominating the local motor pools, the converted IFVs are still used as local transports, and as the insurgency rises their turrets are being brought out of storage in case of an emergency."
-      
+
       STR_TANKS_MARS_3: "Tanks on Mars III"
       STR_TANKS_MARS_3_UFOPEDIA: "It took several days to refit our armored forces and work out the kinks, but they have stopped the initial Ethereal advance in its tracks.  The front is too large for our scratch companies to cover however, so they’re not going to be war winners in and of themselves.  Attrition has also started kicking in as the Ethereals have broken out their stock of Blaster Launchers, but it doesn’t look like they have many of them either.  Short of a catastrophic kill, our hulls have proven to generally be restorable if we can get them back to the shop, so recovery is a major priority among the Allied Forces.  The only ground vehicle that we can reliably make given resource priorities is the BMP-2 due to it being a shitbox, but every little bit helps."
-      
+
       STR_TANKS_ANTI_GRAVITY_1: "Tank Anti-Gravity Tech I"
       STR_TANKS_ANTI_GRAVITY_1_UFOPEDIA: "Pioneered by UNEXCOM’s XM23 Equitie during the war, the colonization of Mars has raised considerable interest in further development of anti-gravity based hovertanks.  HDAP has poor compatibility with Elerium anti-gravity fields, but this only becomes truly pronounced at supersonic speeds.  While relatively expensive in terms of Elerium consumption, it is still practical to make a HDAP clad vehicle fly, which has resulted in the Great Powers instructing their Martian colonies to begin building prototypes.  Current estimates place them as being ready for testing in early December of 82."
-      
+
       STR_TANKS_ANTI_GRAVITY_2: "Tank Anti-Gravity Tech II"
       STR_TANKS_ANTI_GRAVITY_2_UFOPEDIA: "We currently have about a company’s worth of functional hovertanks, and they’re being fielded as an armored fire brigade.  They’re a lot slower than us, but they have the firepower to solve just about any set-piece problem that is plausible to crop up.  However, they can only be in one place at a time and the Martian AO consists of most of the planet, so there’s a lot that they’re just not going to be able to cover.  We don’t have the local infrastructure to make meaningful amounts of HDAP, so the hulls we have are all we’re going to get."
-      
+
       STR_ARTILLERY_MARS: "Artillery on Mars"
       STR_ARTILLERY_MARS_UFOPEDIA: "As sad as it is, Mars is not a theater suitable for massed artillery.  They are one of the most logistically intense military branches, and we simply don’t have the shipping or local production capacity to keep them fed.  If we need that level of firepower, Mars’ thin atmosphere makes orbital bombardment easily doable via lasers, and if we need something REALLY dead they can drop a fusion head or two on it.  That being said, a lot of the various detachments have self propelled mortar carriers for immediate support, so there’s still the chance of seeing some nice sized booms."
 
-# Allied Tank      
+# Allied Tank
       STR_ABRAMS_TANK: "M1 Abrams"
       STR_ABRAMS_TANK_UFOPEDIA: "Entering production in 1980, the M1 Abrams is the most powerful known MBT.  Built from the group up using Alien Alloys and powered by electric hybrid-turbine, it is fast and extremely durable.  Its primary armament is a 120mm Mass Driver, chosen over an energy weapon for munition flexibility and maximum effective range.  Supporting this is a co-axial M250 Gatling Laser and a choice of pintle mount, with smoke dischargers scattered across the vehicle.  Unlike other MBTs, its alien-derived life support systems did not need any modification to handle the Martian atmosphere, making them easy to convert"
-      
+
       STR_BRADLEY_TANK: "M3 Bradley"
       STR_BRADLEY_TANK_UFOPEDIA: "America’s take on the BMP, the Bradley is a substantially larger vehicle.  Clad in a moderate layer of HDAP, it is also far more durable, and can often protect its passengers from being obliterated by a Blaster Bomb at the cost of itself.  The interior is also far more versatile, making it much easier to convert to other uses.  Armaments consist of a rapid fire laser cannon similar to that of other IFVs, which is supported by a TSW (Tube launch, Self tracking, Waypoint guided) missile launcher on the side of the turret.  While its life support systems can engage in full pressurization cycles on Mars, this is a time consuming process, and as a result it usually releases its dismounts before battle is joined."
-      
+
       STR_LEOPARD_II_TANK: "Leopard 2"
       STR_LEOPARD_II_TANK_UFOPEDIA: "The Leopard I was by far the most effective western tank during the war thanks to its maneuverability, and the succeeding Leopard II combines it with a strong Alien Alloy hull.  Power is provided by an electric hybrid-diesel, and it is equipped with the same 120mm Mass Driver as on the Abrams.  The coaxial and pintle mounts are FN Minimi Machine Lasers, and smoke discharges are festooned across the hull.  Those sent to Mars have substantial alterations to be usable in the non-breathable atmosphere, allowing the crew to operate without wearing a full spacesuit."
-      
+
       STR_MARDER_II_TANK: "Marder II"
       STR_MARDER_II_TANK_UFOPEDIA: "Compared to the American Bradley, the Marder 2 is less well armed and armored, but this also causes it to be notably faster and more agile.  Additionally, it is notably cheaper, resulting in it being adopted by numerous NATO members.  Testing against some of the last remaining functional Fusion Lances showed that it could reliably protect its passengers, although it would certainly be disabled or worse on the second shot.  A substantial number of Marders were brought to Mars for use as protected utility vehicles, with the turret assembly being removed for more cargo space.  The rising insurgency has seen many of them rearmed however."
-      
+
       STR_T80_TANK: "T-80"
       STR_T80_TANK_UFOPEDIA: "Debuting in 1979, the T-80 is the most advanced armored combat vehicle of the Soviet Union.  Broadly similar to the preceding T-64, its low hull is forged from Alien Alloys and is propelled by an electric hybrid turbine.  The switch of the primary weapon to a 125mm Gauss Cannon was widely celebrated by its crews, with the autoloader of the D-91TM proving to be horrifically vulnerable to plasma weapons and Blaster-guided missiles.  Additional features include coaxial and pintle mounted LUAO-81 Machine Lasers and smoke launchers.  The vehicles that have been sent to Mars have been fitted for use while wearing a spacesuit, with Soviet doctrine holding that it is unlikely that it would remain functional long enough for long term operability to be a serious issue."
-      
+
       STR_BMP_2_TANK: "BMP-2"
       STR_BMP_2_TANK_UFOPEDIA: "While revolutionary for its time, the BMP-1 would prove to have numerous failings during the War of '72 and the subsequent clean up operations, primarily due to its thin armor and inaccurate or difficult to use weapons.  The BMP-2 was developed to solve these issues, replacing the hull with one made of Alien Alloys and upgrading the weapons to modern lasers and semi-automatic missiles.  However, the design remains distinctly problematic for long term occupation, and the Mars-use conversion lacks atmospheric sealing, forcing its dismounts to remain suited at all times.  Most of those on the red planet are fitted as flatbed haulers, removing the infantry bay and turret assembly, but it would not take long to restore them."
-      
+
       STR_LEGIONNAIRE_TANK_ARMOR: "M22 Legionnaire Light Tank"
       STR_LEGIONNAIRE_TANK_ARMOR_UFOPEDIA: "The main UNEXCOM armored vehicle in the Martian Theater, now equipped with a modernized HDAP armor package and better optical sights."
       STR_LEGIONNAIRE_LASER_CANNON: "LGM34-3H Laser Cannon"
       STR_LEGIONNAIRE_LASER_CANNON_UFOPEDIA: "The 'Laser Gun, Model 34-3 Heavy Anti Tank Laser Cannon' has remained the main AT energy weapon since the '73 with minimal changes. Only the back heat radiators and the refraction lenses were adapted to fit the harsh cold desertic climate of Mars."
       STR_LASER_CANNON_STANDARD_BATTERY: "Laser Cannon Standard Battery"
       STR_LASER_CANNON_STANDARD_BATTERY_UFOPEDIA: "Regular Heavy-Duty battery used to power large laser guns. Balanced between energy consumption and damage output"
-      
+
       STR_ABRAMS_TANK_ARMOR: "M1 Abrams MBT"
       STR_ABRAMS_TANK_ARMOR_UFOPEDIA: "The tip of the spear of US armored divisions in Earth, Moon and Mars"
       STR_BRADLEY_TANK_ARMOR: "M3 Bradley CFV"
       STR_BRADLEY_TANK_ARMOR_UFOPEDIA: "Born due the need of highly maneuverable yet considerably armored support vehicle to keep up the pace of the MBT's advance. The M3 Cavalry Fighting Vehicle is the combat-focused variant of the Bradley family, with more ammo for the TSW missile launcher and spare batteries for the Bushmaster LM298 Laser Autocannon."
       STR_BUSHMASTER_LASER_AUTOCANNON: "LM298 Laser Autocannon"
       STR_BUSHMASTER_LASER_AUTOCANNON_UFOPEDIA: "Designed to be a middle ground between the infantry-based M4 Laser LMG and the larger Kodiak-derived cannons, the Bushmaster features a decent power output and enhanced refraction lenses for continued laser discharges. There was certain reticence of keeping the M242 25mm standard gun of the M2 Bradley, but eventually an energy weapon was selected to booster the M3's fighting capabilities."
-      
+
       STR_BMP_2_TANK_ARMOR: "BMP-2 IFV"
       STR_BMP_2_TANK_ARMOR_UFOPEDIA: "Fast, lightly armored vehicle designed to provide fire support to thr infantry. Similar to its predecessor, the improvements to armor and weaponry (a laser autocannon and guided anti-tank missiles) makes it a versatile asset."
       STR_KONKURS_AT_MISSILE_LAUNCHER: "9M113 Konkurs Missile Launcher"
@@ -3144,8 +3142,8 @@ en-US:
       STR_AIRSTRIKES: "Aerospace Strikes"
       STR_AIRSTRIKES_UFOPEDIA: "Calling aerosapce strikes can prove more area damage in a limited ammo."
       STR_BREACHER_SHUTTLE: "ST84 BREACHER"
-  
-  #Kiro Xei crafts    
+
+  #Kiro Xei crafts
       STR_NXTGENFGHTRTRANS: "Next-Gen Fighter-Transporter"
       STR_NXTGENFGHTRTRANSWIKI: "Our atmospheric and space orbit craft have difficult engaging Ethereal Mars insurgents UFO fleet. We have a proposal to improve the fighter-transporter for combat effectiveness. Our new fighter-transporter design will protect our supplies and assets from enemy intercept fleets."
       STR_F15EAGLEACTRAISER: "F15-ST EAGLE"
@@ -3169,4 +3167,4 @@ en-US:
       STR_FURY120UAV: "X-300 BERSERKER"
       STR_FURY120UAVWIKI: "The first Space UAV to operate on Mars. Installed with Hyperwave Remote Control Operating System without pilots. Its singularity core allows to powerup energy weapons to destroy any kind of alien UFO and battleships alike."
 
-      
+

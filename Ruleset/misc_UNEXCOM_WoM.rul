@@ -147,7 +147,7 @@ startingBase:
     STR_ASTRONAUT: 2
     STR_EURONAUT: 2
     STR_COSMONAUT: 2
-    
+
   crafts:
     - type: STR_HARRIER
       id: 1
@@ -413,21 +413,21 @@ extraSprites:
     files:
       0: Resources/Backgrounds/RnD_TERROR_SITE_ALERT_BACKGROUND.PNG
 
-  - type: OPERATION_SWORDBREAKER_BACKGROUND 
+  - type: OPERATION_SWORDBREAKER_BACKGROUND
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Backgrounds/OPERATION_SWORDBREAKER_BACKGROUND.PNG
 
-  - type: ALIEN_BASE_ASSAULT_BACKGROUND 
+  - type: ALIEN_BASE_ASSAULT_BACKGROUND
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Backgrounds/ALIEN_BASE_ASSAULT_BACKGROUND.PNG
 
-  - type: MAJOR_ENGAGEMENT_BACKGROUND 
+  - type: MAJOR_ENGAGEMENT_BACKGROUND
     singleImage: true
     width: 320
     height: 200
@@ -530,7 +530,7 @@ manufacture:
   - delete: STR_LASER_DEFENSE
 
   - name: STR_SUPPLY_CRATE
-    category: STR_MISC  
+    category: STR_MISC
     space: 1
     time: 72
     cost: 0
@@ -543,7 +543,7 @@ manufacture:
         - STR_BATTERY: 5
           STR_BIO_FOAM: 5
           STR_MEDI_KIT: 5
-      -       
+      -
         - 50
         - STR_M17_CARBINE: 5
           STR_5_56MM_NATO_RIFLE_X30: 5

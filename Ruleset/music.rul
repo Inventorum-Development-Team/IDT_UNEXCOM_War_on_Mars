@@ -12,7 +12,7 @@ musics:
   - type: GMGEO4
     normalization: 1.0
   - type: GMGEO5
-    normalization: 1.0    
+    normalization: 1.0
   - type: GMINTER
     normalization: 0.74
   - type: GMINTRO1
@@ -39,7 +39,7 @@ musics:
   - type: GMTACTIC3
     normalization: 1.4
   - type: GMTACTIC4
-    normalization: 1.4    
+    normalization: 1.4
   - type: GMWIN
     catPos: 11
     normalization: 0.84

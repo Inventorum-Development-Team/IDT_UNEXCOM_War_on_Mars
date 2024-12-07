@@ -18,12 +18,12 @@ crafts:
     spacecraft: false
     allowLanding: true
     autoPatrol: false
-   # radarRange: 
-   # radarChance: 
-   # sightRange: 
-   # hitBonus: 
-   # avoidBonus: 
-    #powerBonus: 
+   # radarRange:
+   # radarChance:
+   # sightRange:
+   # hitBonus:
+   # avoidBonus:
+    #powerBonus:
    # armor:
     battlescapeTerrainData:
       name: UNSCBREACHERLAND
@@ -56,7 +56,7 @@ crafts:
       - [10, 13, 1, 4]
       - [9, 13, 1, 4]
       - [10, 13, 1, 4]
-      
+
   - type: STR_F15EAGLEACTRAISER
     requires:
       - STR_NXTGENFGHTRTRANS
@@ -83,12 +83,12 @@ crafts:
     spacecraft: false
     allowLanding: true
     autoPatrol: true
-   # radarRange: 
-   # radarChance: 
-   # sightRange: 
-   # hitBonus: 
-   # avoidBonus: 
-    #powerBonus: 
+   # radarRange:
+   # radarChance:
+   # sightRange:
+   # hitBonus:
+   # avoidBonus:
+    #powerBonus:
    # armor:
     battlescapeTerrainData:
       name: UNSCACTRAISER
@@ -96,7 +96,7 @@ crafts:
         - BLANKS
         - SHUTTLE
         - LIGHTNIA
-      mapBlocks: 
+      mapBlocks:
         - name: UNSCACTRAISER
           width: 20
           length: 20
@@ -158,16 +158,16 @@ crafts:
     spacecraft: false
     allowLanding: true
     autoPatrol: true
-   # radarRange: 
-   # radarChance: 
-   # sightRange: 
-   # hitBonus: 
-   # avoidBonus: 
-    #powerBonus: 
+   # radarRange:
+   # radarChance:
+   # sightRange:
+   # hitBonus:
+   # avoidBonus:
+    #powerBonus:
    # armor:
     battlescapeTerrainData:
       name: UNSCHELLRAISER
-      mapDataSets: 
+      mapDataSets:
         - BLANKS
         - SHUTTLE
         - LIGHTNIA
@@ -176,7 +176,7 @@ crafts:
           width: 20
           length: 20
     craftInventoryTile: [9, 12, 1]
-    deployment: 
+    deployment:
     ##### Tanks First
       - [9, 4, 1, 0]
       - [10, 4, 1, 0]
@@ -234,12 +234,12 @@ crafts:
     spacecraft: false
     allowLanding: true
     autoPatrol: true
-   # radarRange: 
-   # radarChance: 
-   # sightRange: 
-   # hitBonus: 
-   # avoidBonus: 
-    #powerBonus: 
+   # radarRange:
+   # radarChance:
+   # sightRange:
+   # hitBonus:
+   # avoidBonus:
+    #powerBonus:
    # armor:
     battlescapeTerrainData:
       name: UNSCVENTURESTAR
@@ -315,7 +315,7 @@ crafts:
    # Nextgeneration Zero Alloy
    # Hyperwave Navigation
    # Special Fuel Hydrogen
-   # Ion Thrusters 
+   # Ion Thrusters
    # Nuclear Energy Drive
    # Electronic Countermeasure
    # Radar Corruption Scanners
@@ -345,7 +345,7 @@ crafts:
     sightRange: 1700
     hitBonus: 10
     avoidBonus: 10
-    #powerBonus: 
+    #powerBonus:
     armor: 20
     battlescapeTerrainData:
       name: UNSCCOLUMBUS
@@ -416,7 +416,7 @@ crafts:
    # Nextgeneration Zero Alloy
    # Hyperwave Navigation
    # Special Fuel Hydrogen
-   # Ion Thrusters 
+   # Ion Thrusters
    # Nuclear Energy Drive
    # Electronic Countermeasure
    # Radar Corruption Scanners
@@ -568,7 +568,7 @@ crafts:
    # Nextgeneration Zero Alloy
    # Hyperwave Navigation
    # Special Fuel Hydrogen
-   # Ion Thrusters 
+   # Ion Thrusters
    # Nuclear Energy Drive
    # Electronic Countermeasure
    # Radar Corruption Scanners
@@ -631,7 +631,7 @@ crafts:
    # Nextgeneration Zero Alloy
    # Hyperwave Navigation
    # Special Fuel Hydrogen
-   # Ion Thrusters 
+   # Ion Thrusters
    # Nuclear Energy Drive
    # Electronic Countermeasure
    # Radar Corruption Scanners
@@ -838,7 +838,7 @@ crafts:
 
 ########################
 # manufacture:
- # - name: 
+ # - name:
   #  category: STR_CRAFT
   #  requires:
   #  listOrder: 17003
@@ -848,7 +848,7 @@ crafts:
   #  requiredItems:
 ###########
 #research:
- # - name: 
+ # - name:
   #  cost: 720
   #  points: 200
   #  listOrder: 17002
@@ -857,11 +857,11 @@ crafts:
 
 ####
 #ufopaedia:
-#  - id: 
+#  - id:
  #   requires:
  #   type_id: 1
    # section: STR_XCOM_CRAFTS
- #   text: 
+ #   text:
   #  listOrder: 17002
   #  rect_stats:
  #     x: 5

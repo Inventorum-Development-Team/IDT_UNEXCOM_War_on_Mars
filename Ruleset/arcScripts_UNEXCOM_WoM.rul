@@ -31,5 +31,5 @@ arcScripts:
     firstMonth: 14                      # months this command runs on, 0 runs on startup of a new game (default 0)
     lastMonth: 14                       # don't run after this month. -1 denotes no limit (default -1)
     executionOdds: 100                  # % chances of this command executing (default 100)
-    maxArcs: 2    
+    maxArcs: 2
 

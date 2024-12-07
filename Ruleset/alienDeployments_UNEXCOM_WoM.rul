@@ -2370,7 +2370,7 @@ alienDeployments:
     height: 10
     width: 40
     length: 40
-    data: *LargeScoutData 
+    data: *LargeScoutData
     terrains:
       - IDT_MARS
       - IDT_MARS_DEBRIS
@@ -2402,7 +2402,7 @@ alienDeployments:
     height: 10
     width: 40
     length: 40
-    data: *LargeScoutData 
+    data: *LargeScoutData
     terrains:
       - MARSURBAN
       - MARS
@@ -2434,7 +2434,7 @@ alienDeployments:
     height: 10
     width: 40
     length: 40
-    data: *LargeScoutData 
+    data: *LargeScoutData
     terrains:
       - IDT_HUMAN_STATION_NO_UFO
     briefing:
@@ -2453,9 +2453,9 @@ alienDeployments:
     chronoTrigger: 0
     missionBountyItem: STR_SUPPLY_CRATE
     missionBountyItemCount: 5
-    #markerIcon: 32 
+    #markerIcon: 32
     duration: [78, 99]
-    despawnPenalty: 100 
+    despawnPenalty: 100
 
 
 #################
@@ -2539,10 +2539,10 @@ alienDeployments:
     alert: STR_OPERATION_SWORDBREAKER_ALERT
     alertBackground: MAJOR_ENGAGEMENT_BACKGROUND
     nextStage: STR_OPERATION_SWORDBREAKER_STAGE_2_DEPLOYMENT
-    #missionBountyItem: 
-    #markerIcon: 32 
+    #missionBountyItem:
+    #markerIcon: 32
     duration: [78, 99]
-    despawnPenalty: 10000 
+    despawnPenalty: 10000
 
   - type: STR_OPERATION_SWORDBREAKER_STAGE_2_DEPLOYMENT
     height: 2

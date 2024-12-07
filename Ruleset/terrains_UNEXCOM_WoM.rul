@@ -1339,7 +1339,7 @@ terrains:
         length: 10
 
 mapScripts:
-  - type: DEFAULT 
+  - type: DEFAULT
     commands:
     - type: addUFO
     - type: addCraft
@@ -1377,7 +1377,7 @@ mapScripts:
       executions: 3
     - type: fillArea
 
-  - type: MARS_STANDARD_SCRIPT 
+  - type: MARS_STANDARD_SCRIPT
     commands:
     - type: addUFO
     - type: addCraft

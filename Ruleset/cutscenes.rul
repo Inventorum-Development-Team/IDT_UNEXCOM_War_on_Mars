@@ -1,12 +1,12 @@
 
 cutscenes:
   - delete: winGame
-  - delete: loseGame  
+  - delete: loseGame
   - type: winGame
     winGame: true
     slideshow:
       transitionSeconds: 21
-      musicId: GMNEWMAR 
+      musicId: GMNEWMAR
       slides:
         - imagePath: Resources/Cutscenes/GoodEnding_1.png
           caption: STR_GOOD_ENDING_1

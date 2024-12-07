@@ -172,7 +172,7 @@ eventScripts:
     firstMonth: 6
     executionOdds: 100
 
-# TNI subplot 
+# TNI subplot
 
   - type: STR_TNI_STORY_1_EVENT_SCRIPT
     oneTimeSequentialEvents:
@@ -254,7 +254,7 @@ eventScripts:
     executionOdds: 100
 
 ##########################
-# Cultural stuff (movies, comics, etc) 
+# Cultural stuff (movies, comics, etc)
 
   - type: STR_CANNES_FESTIVAL_EVENT_SCRIPT
     oneTimeSequentialEvents:
@@ -348,7 +348,7 @@ eventScripts:
 ############################
 
 ##########################
-# Cultural stuff (movies, comics, etc) 
+# Cultural stuff (movies, comics, etc)
 
   - type: STR_STAR_WARS_MOVIE_RELEASED_EVENT_SCRIPT
     oneTimeSequentialEvents:
@@ -361,7 +361,7 @@ eventScripts:
 ############################
 
 ##########################
-# Cultural stuff (movies, comics, etc) 
+# Cultural stuff (movies, comics, etc)
   - type: STR_NEUROMANCER_NOVEL_RELEASED_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_NEUROMANCER_NOVEL_RELEASED_EVENT
@@ -903,7 +903,7 @@ events:
     everyItemList:
       - STR_M17_CARBINE
       - STR_5_56MM_NATO_RIFLE_X30
-      - STR_5_56MM_NATO_RIFLE_X30    
+      - STR_5_56MM_NATO_RIFLE_X30
       - STR_BATTERY
       - STR_BATTERY
       - STR_BATTERY

@@ -530,7 +530,7 @@ items:
       name: STR_DOUBLE_TAP
     confAuto:
       shots: 10
-      name: STR_FULL_AUTO      
+      name: STR_FULL_AUTO
     accuracySnap: 45
     accuracyAimed: 50
     accuracyAuto: 45
@@ -1188,4 +1188,3 @@ extraSprites:
     files:
       0: Resources/BallisticWeapons/Medical&Food/MEDIKIT_BACKGROUND.png
 
-      

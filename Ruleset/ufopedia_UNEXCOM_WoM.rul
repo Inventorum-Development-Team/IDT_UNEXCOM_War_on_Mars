@@ -483,7 +483,7 @@ ufopaedia:
       - STR_ACT_3_PEDIA
     text: STR_MANUFACTURING_REPORT_3_UFOPEDIA
     ##listOrder: 1701
-    
+
   - id: STR_MINING_REPORT_1
     type_id: 8
     section: STR_STRATEGIC
@@ -949,7 +949,7 @@ ufopaedia:
 
 ###################
 
-# Ethereal Insurgency 
+# Ethereal Insurgency
 
   - id: STR_ETHEREAL_INSURGENCY_REPORT_1
     type_id: 8
@@ -1011,7 +1011,7 @@ ufopaedia:
     #listOrder: 1757
 
 ############
-### Hearts and Minds 
+### Hearts and Minds
 
   - id: STR_HEARTS_AND_MINDS_PROJECT_1
     type_id: 8
@@ -1058,7 +1058,7 @@ ufopaedia:
       - STR_HEARTS_AND_MINDS_SECTOIDS_3
     text: STR_HEARTS_AND_MINDS_SECTOIDS_3_UFOPEDIA
     #listOrder: 1783
-    
+
   - id: STR_HEARTS_AND_MINDS_FLOATERS_1
     type_id: 8
     section: STR_DIPLOMATIC
@@ -1080,7 +1080,7 @@ ufopaedia:
       - STR_HEARTS_AND_MINDS_FLOATER_3
     text: STR_HEARTS_AND_MINDS_FLOATERS_3_UFOPEDIA
     #listOrder: 1792
-  
+
   - id: STR_HEARTS_AND_MINDS_MUTONS_1
     type_id: 8
     section: STR_DIPLOMATIC
@@ -1124,7 +1124,7 @@ ufopaedia:
       - STR_HEARTS_AND_MINDS_SNAKEMEN_3
     text: STR_HEARTS_AND_MINDS_SNAKEMEN_3_UFOPEDIA
     #listOrder: 1812
-    
+
   - id: STR_HEARTS_AND_MINDS_CEREBREAL_1
     type_id: 8
     section: STR_DIPLOMATIC
@@ -1260,14 +1260,14 @@ ufopaedia:
     requires:
       - STR_SECESSIONIST_POPULATION
     text: STR_SECESSIONIST_POPULATION_UFOPEDIA
-    ##listOrder: 1701    
+    ##listOrder: 1701
   - id: STR_SECESSIONIST_PROTECTION
     type_id: 8
     section: STR_SECESSIONIST_LORE
     requires:
       - STR_SECESSIONIST_PROTECTION
     text: STR_SECESSIONIST_PROTECTION_UFOPEDIA
-    ##listOrder: 1701 
+    ##listOrder: 1701
   - id: STR_SECESSIONIST_ALIEN_WEAPONRY
     type_id: 8
     section: STR_SECESSIONIST_LORE
@@ -1296,7 +1296,7 @@ ufopaedia:
     requires:
       - STR_SECESSIONIST_SECTOID_TECHNOLOGY
     text: STR_SECESSIONIST_SECTOID_TECHNOLOGY_UFOPEDIA
-    ##listOrder: 1701 
+    ##listOrder: 1701
   - id: STR_SECESSIONIST_CYBERDISCS
     type_id: 8
     section: STR_SECESSIONIST_LORE
@@ -1312,7 +1312,7 @@ ufopaedia:
       - STR_SECESSIONIST_FLOATER_NICHE
     text: STR_SECESSIONIST_FLOATER_NICHE_UFOPEDIA
     ##listOrder: 1701
-    
+
   - id: STR_SECESSIONIST_FLOATER_TECHNOLOGY
     type_id: 8
     section: STR_SECESSIONIST_LORE
@@ -1327,7 +1327,7 @@ ufopaedia:
     requires:
       - STR_SECESSIONIST_BALLANCE_OF_TERROR
     text: STR_SECESSIONIST_BALLANCE_OF_TERROR_UFOPEDIA
-    ##listOrder: 1701    
+    ##listOrder: 1701
 
   - id: STR_SECESSIONIST_MUTONS_VS_SNAKEMEN
     type_id: 8
@@ -1349,7 +1349,7 @@ ufopaedia:
     requires:
       - STR_CRYSALID_LEGACY
     text: STR_CRYSALID_LEGACY_UFOPEDIA
-    ##listOrder: 1701    
+    ##listOrder: 1701
 ##############################
 #Weapons
 
@@ -2719,7 +2719,7 @@ ufopaedia:
     #listOrder: 1604
 
 ###########
-    
+
   - id: STR_MEDICAL_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
@@ -2756,7 +2756,7 @@ ufopaedia:
       - STR_CRAFT_FUEL_OVERVIEW
     text: STR_CRAFT_FUEL_OVERVIEW_UFOPEDIA
     ##listOrder: 1701
-    
+
   - id: STR_CRAFT_PROPULSION_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
@@ -2772,7 +2772,7 @@ ufopaedia:
       - STR_SURFACE_WARSHIPS
     text: STR_SURFACE_WARSHIPS_UFOPEDIA
     ##listOrder: 1701
-    
+
   - id: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_1
     type_id: 8
     section: STR_TACTICAL
@@ -2786,15 +2786,15 @@ ufopaedia:
     requires:
       - STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_2
     text: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_2_UFOPEDIA
-    ##listOrder: 1701    
+    ##listOrder: 1701
   - id: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_3
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_3
     text: STR_EARTH_ATMOSPHERIC_FIGHTER_CRAFT_OVERVIEW_3_UFOPEDIA
-    ##listOrder: 1701    
-    
+    ##listOrder: 1701
+
   - id: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_1
     type_id: 8
     section: STR_TACTICAL
@@ -2816,7 +2816,7 @@ ufopaedia:
       - STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_3
     text: STR_EARTH_ATMOSPHERIC_BOMBER_CRAFT_REPORT_3_UFOPEDIA
     ##listOrder: 1701
-    
+
   - id: STR_MARTIAN_ATMOSPHERIC_CRAFT_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
@@ -2853,7 +2853,7 @@ ufopaedia:
       - STR_FROGFOOT_OVERVIEW
     text: STR_FROGFOOT_OVERVIEW_UFOPEDIA
     ##listOrder: 1701
-    
+
   - id: STR_TRANSPORT_CRAFT_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
@@ -2882,7 +2882,7 @@ ufopaedia:
       - STR_MARS_HEAVY_LIFTER_OVERVIEW
     text: STR_MARS_HEAVY_LIFTER_OVERVIEW_UFOPEDIA
     ##listOrder: 1701
-    
+
   - id: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_1
     type_id: 8
     section: STR_TACTICAL
@@ -2896,7 +2896,7 @@ ufopaedia:
     requires:
       - STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_2
     text: STR_ENDO_EXO_ATMOSPHERIC_CRAFT_OVERVIEW_2_UFOPEDIA
-    ##listOrder: 1701 
+    ##listOrder: 1701
   - id: STR_SABRE_1_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
@@ -2911,7 +2911,7 @@ ufopaedia:
       - STR_SABRE_2_OVERVIEW
     text: STR_SABRE_2_OVERVIEW_UFOPEDIA
     ##listOrder: 1701
-    
+
   - id: STR_EXOATMOSPHERIC_CRAFT_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
@@ -2925,14 +2925,14 @@ ufopaedia:
     requires:
       - STR_DYNASOAR_OVERVIEW
     text: STR_DYNASOAR_OVERVIEW_UFOPEDIA
-    ##listOrder: 1701    
+    ##listOrder: 1701
   - id: STR_HERMES_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
     requires:
       - STR_HERMES_OVERVIEW
     text: STR_HERMES_OVERVIEW_UFOPEDIA
-    ##listOrder: 1701 
+    ##listOrder: 1701
   - id: STR_MIG_105_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
@@ -2947,7 +2947,7 @@ ufopaedia:
     requires:
       - STR_CRAFT_WEAPONS_OVERVIEW
     text: STR_STR_CRAFT_WEAPONS_OVERVIEW_UFOPEDIA
-    ##listOrder: 1701    
+    ##listOrder: 1701
   - id: STR_APOLLO_LASER_GATLING_OVERVIEW
     type_id: 8
     section: STR_TACTICAL
