@@ -1865,9 +1865,9 @@ maleLast:
   - McGrath
   - Moore
   - Murphy
-  - O'Brien
-  - O'Donnell
-  - O'Neill
+  - "O'Brien"
+  - "O'Donnell"
+  - "O'Neill"
   - Quinn
   - Reilly
   - Ryan
@@ -2025,7 +2025,7 @@ maleLast:
   - Hu
   - Hui
   - Hui-chao
-  - Huik'o
+  - "Huik'o"
   - Jian
   - Jiang
   - Jie
@@ -3092,7 +3092,7 @@ maleLast:
   - Morris
   - Nash
   - North
-  - O'Connell
+  - "O'Connell"
   - Ortiz
   - Palacios
   - Partridge
@@ -3997,7 +3997,7 @@ femaleLast:
   - Morris
   - Nash
   - North
-  - O'Connell
+  - "O'Connell"
   - Ortiz
   - Palacios
   - Partridge
