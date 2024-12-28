@@ -928,45 +928,12 @@ en-US:
 ###### INVENTORY ITEMS #####
 ###############################
 
-      STR_CANNED_FOOD_UFOPEDIA: "Nicknamed by some as 'dog food', this small can
+      STR_CANNED_FOOD_UFOPEDIA: "Nicknamed by some as 'dog food', this small can contains a wide variety of processed foods, from canned ham, vegetable soup, stew, beef or pork. It takes a little time to open the can and its contents can help the consumer to calm their nerves and regain some energy and health."
 
-        contains a wide variety of processed foods, from canned ham, vegetable
-        soup, stew, beef or pork. It takes a little time to open the can and its
-        contents can help the consumer to calm their nerves and regain some
-        energy and health.  "
-
-      STR_CIGARETTES_UFOPEDIA: "Popular 'Unlucky Stripes' brand cigarettes, quite
-
-        common among civilians and military personnel around the world. Smoking
-        a cigarette helps relieve the pressure and stress of everyday (or
-        battlefield) life. You recover considerably morale, at the cost of
-        stamina and health, due to the toxic components with which they are
-        made."
-      STR_FLASK_UFOPEDIA: "Canteen filled with a warm and comforting alcoholic liquid.
-
-        Probably whiskey or bourbon. Its use helps considerably to relax the
-        consumer, lessening the impact of strong emotions, both in everyday life
-        and on the battlefield. But beware, because its abuse can cause daze and
-        can end up intoxicating the person who drinks it."
-      STR_MEDI_KIT_UFOPEDIA: "Very advanced medical device, designed to be used by
-
-        both civilian and military paramedics to immediately treat trauma and
-        wounds of various types in the patient. It has a modern scanner that
-        makes it easier for medical personnel to analyze the area where an
-        injury has occurred that can put the patient's life in danger. It also
-        contains various types of syringes with various doses of analgesics,
-        painkillers, stimulants and antibiotics. Its construction with Alien
-        Alloys makes this equipment very light, which would otherwise require an
-        ambulance to transport it."
-      STR_MEDICAL_BAG_UFOPEDIA: "First aid bag with various medical and healing items
-
-        inside. It is used by paramedics on the battlefield to stabilize
-        seriously injured patients. The bag contains various medicines such as
-        antibiotics, anti-inflammatory drugs, morphine and stimulants. One of
-        the most appreciated tools by the users of this kit is a practical field
-        surgery kit with which bullets or splinters can be removed from
-        patients' wounds. It is somewhat heavy and slow to use, but can save a
-        patient's life."
+      STR_CIGARETTES_UFOPEDIA: "Popular 'Unlucky Stripes' brand cigarettes, quite common among civilians and military personnel around the world. Smoking a cigarette helps relieve the pressure and stress of everyday (or battlefield) life. You recover considerably morale, at the cost of stamina and health, due to the toxic components with which they are made."
+      STR_FLASK_UFOPEDIA: "Canteen filled with a warm and comforting alcoholic liquid. Probably whiskey or bourbon. Its use helps considerably to relax the consumer, lessening the impact of strong emotions, both in everyday life and on the battlefield. But beware, because its abuse can cause daze and can end up intoxicating the person who drinks it."
+      STR_MEDI_KIT_UFOPEDIA: "Very advanced medical device, designed to be used by both civilian and military paramedics to immediately treat trauma and wounds of various types in the patient. It has a modern scanner that makes it easier for medical personnel to analyze the area where an injury has occurred that can put the patient's life in danger. It also contains various types of syringes with various doses of analgesics, painkillers, stimulants and antibiotics. Its construction with Alien Alloys makes this equipment very light, which would otherwise require an ambulance to transport it."
+      STR_MEDICAL_BAG_UFOPEDIA: "First aid bag with various medical and healing items inside. It is used by paramedics on the battlefield to stabilize seriously injured patients. The bag contains various medicines such as antibiotics, anti-inflammatory drugs, morphine and stimulants. One of the most appreciated tools by the users of this kit is a practical field surgery kit with which bullets or splinters can be removed from patients' wounds. It is somewhat heavy and slow to use, but can save a patient's life."
       STR_FIELD_DRESSING_UFOPEDIA: "Military-grade pack of sterile gauze and bandages, very useful for stopping bleeding from a serious injury or wound. Developed using special fabrics that quickly attack to any kind of material, organic or inorganic. The bandage is sealed in a pressurized bag until use. "
       STR_MEDICAL_POUCH_UFOPEDIA: "Compact first response medical pack, designed to carry as much medicine as possible in the smallest package possible. It can be used by the user himself, and the large 'bubble' like texture (hence the nickname) allows a spacesuit-user to properly open and use the package. It is discarded after use."
       STR_DUCT_TAPE_UFOPEDIA: "There is nothing on Earth that cannot be repaired with duct tape. This tape can be used as an improvised bandage to plug an artery or a ruptured spacesuit. It can be used on the most extreme conditions."
@@ -981,21 +948,8 @@ en-US:
       STR_GYROJET_RIFLE_UFOPEDIA: "Co-designed with the original creators of the Gyrojet concept, MBA and the American company Colt, this combat rifle is similar to the Gyrojet rifle presented by MBA to the U.S. Army a few years ago, with several internal differences: the firing mechanism was adapted so that it can be fed with removable mags, instead of the internal fixed magazine of the original model, and the wood was replaced with polymers qualified for use in space."
       STR_GYROJET_AMMO_MAGAZINE_UFOPEDIA: "The rocket ammunition used by our guns is visually similar to a .45 caliber ACP bullet, but over-dimensioned. Inside carries a special propellant charge within a self-contained casing, basically making it a micro missile. It can operate in the vacuum of space. Its penetration capacity is considerable for a bullet of its size, but it suffers a small disadvantage: having little initial kinetic energy when the projectile leaves the barrel of the gun. This makes it inaccurate at short distances. However, it is compact enough to be transported in large quantities."
 
-      STR_SMOKE_GRENADE_UFOPEDIA: "This American manufactured grenade dates from the
-
-        end of the WW2, is used as a signaling device, a target or landing zone
-        marking device. This particular model deploys a white smoke curtain and
-        can be used to cover the movement of allied units, disperse civilians or
-        block the enemy's line of fire. "
-      STR_FLASHBANG_GRENADE_UFOPEDIA: "Non-lethal grenade of British origin, it is
-
-        produced almost exclusively for the Special Air Service.  It is used to
-        confuse, disorient, or distract a potential threat. The mixture of
-        substances created when activated causes a chemical reaction that
-        manifests itself in a very intense light and a very loud sound that can
-        even stun the enemy. It explodes as soon as it comes into contact with
-        the ground. It reduces TUs, Accuracy, Reactions and Stamina, as well as
-        stuns the affected target."
+      STR_SMOKE_GRENADE_UFOPEDIA: "This American manufactured grenade dates from the end of the WW2, is used as a signaling device, a target or landing zone marking device. This particular model deploys a white smoke curtain and can be used to cover the movement of allied units, disperse civilians or block the enemy's line of fire."
+      STR_FLASHBANG_GRENADE_UFOPEDIA: "Non-lethal grenade of British origin, it is produced almost exclusively for the Special Air Service.  It is used to confuse, disorient, or distract a potential threat. The mixture of substances created when activated causes a chemical reaction that manifests itself in a very intense light and a very loud sound that can even stun the enemy. It explodes as soon as it comes into contact with the ground. It reduces TUs, Accuracy, Reactions and Stamina, as well as stuns the affected target."
       STR_ELECTRO_FLARE_UFOPEDIA: "This compact device produces a bright flare light when it is lit. This will highlight enemy units in the vicinity of the flare during night time missions."
 
       STR_BREAD: "Bread"
