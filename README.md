@@ -4,9 +4,6 @@
 This project is meant as an expansion pack for UNEXCOM, located on the United Nation campaign on Mars after the end of the main game.
 
 Using as basis the great work made by liberation on his awesome mod "Battle for Mars", but updated to the newest OXCE standards, this is meant to be rather quick game. It doesn't have a large tech tree and most (if not all) weapons and equipment are the late game stuff from the main campaign. Actually, is like a resource dump for those sprites. It does include a small story.
-
-
-
 Credits by name:
 
 * BiggusDickus: feedback
@@ -29,7 +26,7 @@ Credits by name:
 * smejnantha: tester
 * Southoftheline: official OST composer, ideas and feedback
 * TheCatProgram: feedback
-* Ultrakiroxei: alpha tester, IXIER, VENTURESTAR, F-15 EAGLE, ACTRAISER, HELLRAISER, BREACHER, BERSERKER, ARMSTRONG and Secret Crafts
+* Kiro Xei Nextgen: Beta tester, IXIER, VENTURESTAR, F-15 EAGLE, ACTRAISER, HELLRAISER, BREACHER, BERSERKER, ARMSTRONG and Secret Crafts
 * wethan2: IDT dev and bugfixer
 * wolwerin: IDT dev, Human Outpost/Station maps, Alien Laser weapons, human Alloy weapons, medical items
 

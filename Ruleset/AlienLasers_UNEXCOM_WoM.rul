@@ -1,5 +1,4 @@
 items:
-
   - type: STR_ALIEN_HEAVY_LASER
     size: 0.2
     costSell: 171600
@@ -209,12 +208,10 @@ items:
     experienceTrainingMode: 13
     attraction: 7
     armor: 999
-
   - type: STR_ALIEN_CRYSTAL
     size: 0.3
     costSell: 12000
     bigSprite: 3406
-
 manufacture:
   - name: STR_DISASSEMBLE_LASER_PISTOL
     requires:
@@ -227,7 +224,6 @@ manufacture:
     producedItems:
       STR_ALIEN_CRYSTAL: 1
       STR_ALIEN_ALLOYS: 2
-
   - name: STR_DISASSEMBLE_LASER_RIFLE
     requires:
      - STR_ALIEN_LASER_RIFLE
@@ -239,7 +235,6 @@ manufacture:
     producedItems:
       STR_ALIEN_CRYSTAL: 2
       STR_ALIEN_ALLOYS: 3
-
   - name: STR_DISASSEMBLE_HEAVY_LASER
     requires:
      - STR_ALIEN_HEAVY_LASER
@@ -251,7 +246,6 @@ manufacture:
     producedItems:
       STR_ALIEN_CRYSTAL: 3
       STR_ALIEN_ALLOYS: 4
-
 extraSprites:
   - type: BIGOBS.PCK
     files:
@@ -291,8 +285,6 @@ extraSprites:
       324: Resources/AlienLasers/Alien Reactive Grenade/HandReactiveGrenade.png
       332: Resources/AlienLasers/Alien Siege Launcher/HandSiegeLauncher.png
       340: Resources/AlienLasers/Alien Energy Axe/Energy_Axe_Hand.png
-
-
 extraStrings:
   - type: en-US
     strings:

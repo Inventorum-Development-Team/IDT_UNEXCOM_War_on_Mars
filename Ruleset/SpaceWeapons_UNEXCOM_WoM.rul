@@ -4,24 +4,15 @@ items:
     type: STR_5_56MM_NATO_RIFLE_AMMO
     power: 32
     battleType: 2
-
   - &STR_7_62MM_SOVIET_RIFLE_AMMO
     type: STR_7_62MM_SOVIET_RIFLE_AMMO
     power: 38
     battleType: 2
-
 ######################################
 ###### FACTION OLD WEAPONS ##########
 ####################################
-
   - type: STR_M17_CARBINE
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_US_TECH,
-        STR_CARBINES
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_US_TECH, STR_CARBINES ]
     size: 0.2
     requiresBuy: [ STR_M17_CARBINE ]
     costBuy: 2500
@@ -62,7 +53,6 @@ items:
     autoRange: 11
     attraction: 8
     listOrder: 200820
-
   - type: STR_5_56MM_NATO_RIFLE_X30
     refNode: *STR_5_56MM_NATO_RIFLE_AMMO
     categories: [ STR_FIREARMS, STR_RIFLES, STR_CARBINES, STR_CLIPS ]
@@ -88,15 +78,8 @@ items:
     battleType: 2
     attraction: 8
     listOrder: 200960
-
   - type: STR_AK79_RIFLE
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_SOVIET_TECH,
-        STR_RIFLES
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_SOVIET_TECH, STR_RIFLES ]
     size: 0.2
     requiresBuy: [ STR_AK79_RIFLE ]
     costBuy: 2000
@@ -142,7 +125,6 @@ items:
     invHeight: 3
     attraction: 8
     listOrder: 201320
-
   - type: STR_7_62MM_SOVIET_RIFLE_X40
     refNode: *STR_7_62MM_SOVIET_RIFLE_AMMO
     categories: [ STR_FIREARMS, STR_RIFLES, STR_SOVIET_TECH, STR_CLIPS ]
@@ -167,7 +149,6 @@ items:
     battleType: 2
     attraction: 8
     listOrder: 201340
-
   - type: STR_40MM_FRAG
     categories: [ STR_FIREARMS, STR_ARTILLERY, STR_CLIPS ]
     size: 0.1
@@ -253,7 +234,6 @@ items:
     blastRadius: 5
     bulletSprite: 4
     listOrder: 200650
-
   - type: STR_G11_CASELESS_RIFLE
     categories: [STR_SPACE, STR_FIREARMS, STR_NATO_TECH, STR_RIFLES]
     size: 0.2
@@ -307,7 +287,6 @@ items:
     dropoff: 10
     attraction: 8
 #    listOrder: 2052
-
   - type: STR_G11_CASELESS_RIFLE_MAG
     categories: [STR_SPACE, STR_FIREARMS, STR_NATO_TECH, STR_PISTOLS]
     size: 0.1
@@ -325,7 +304,6 @@ items:
     invWidth: 1
     clipSize: 50
     battleType: 2
-
   - type: STR_TKB1980_CASELESS_RIFLE
     categories: [STR_SPACE, STR_FIREARMS, STR_SOVIET_TECH, STR_CARBINES]
 #    requires:
@@ -380,7 +358,6 @@ items:
     dropoff: 10
     attraction: 8
 #    listOrder: 2052
-
   - type: STR_TKB1980_CASELESS_RIFLE_MAG
     categories: [STR_SPACE, STR_FIREARMS, STR_SOVIET_TECH, STR_PISTOLS]
     size: 0.1
@@ -398,7 +375,6 @@ items:
     invWidth: 1
     clipSize: 45
     battleType: 2
-
 ######################################
 ###### SPACE CAPABLE WEAPONS ########
 ####################################
@@ -476,7 +452,6 @@ items:
     invWidth: 1
     clipSize: 36
     battleType: 2
-
   - type: STR_MK115_SPACE_PISTOL
     categories: [STR_SPACE, STR_FIREARMS, STR_UNEXCOM_TECH, STR_PISTOLS]
 #    requires:
@@ -508,7 +483,6 @@ items:
     battleType: 1
     armor: 250
 #    listOrder: 2028
-
   - type: STR_MK117_SPACE_PDW
     categories: [STR_SPACE, STR_FIREARMS, STR_UNEXCOM_TECH, STR_SMGS]
 #    requires:
@@ -546,7 +520,6 @@ items:
     battleType: 1
     armor: 250
 #    listOrder: 2028
-
   - type: STR_MK115_SPACE_PISTOL_CLIP
     categories: [STR_SPACE, STR_FIREARMS, STR_UNEXCOM_TECH, STR_PISTOLS, STR_CLIPS]
 #    requires:
@@ -564,9 +537,7 @@ items:
     invHeight: 1
     invWidth: 1
     battleType: 2
-
 # OLD WEAPONS
-
 # China Lake Laser Projector
   - type: STR_ARGYRE_BASIN_LASER_PROJECTOR
     categories: [STR_FIREARMS, STR_LASER, STR_LMGS]
@@ -616,7 +587,6 @@ items:
     sprayWaypoints: 2
     armor: 200
     listOrder: 236
-
 #######################################
   ########## EXPLOSIVES ################
   #####################################
@@ -642,7 +612,6 @@ items:
     damageType: 3
     battleType: 4
     blastRadius: 5
-
   - type: STR_PROXIMITY_GRENADE
     categories: [ STR_EXPLOSIVES, STR_LIGHT_EQUIPMENT ]
     size: 0.1
@@ -666,7 +635,6 @@ items:
     damageType: 3
     battleType: 5
     blastRadius: 5
-
   - type: STR_HIGH_EXPLOSIVE
     categories: [ STR_EXPLOSIVES, STR_LIGHT_EQUIPMENT ]
     size: 0.2
@@ -687,7 +655,6 @@ items:
     invWidth: 2
     invHeight: 1
     blastRadius: 5
-
   - type: STR_SMOKE_GRENADE
     categories: [ STR_EXPLOSIVES, STR_LIGHT_EQUIPMENT ]
     size: 0.1
@@ -709,7 +676,6 @@ items:
     battleType: 4
     blastRadius: 5
     listOrder: 2135
-
   - type: STR_FLASHBANG_GRENADE
     categories: [ STR_EXPLOSIVES, STR_LIGHT_EQUIPMENT ]
     size: 0.1
@@ -738,7 +704,6 @@ items:
     blastRadius: 3
     armor: 20
     attraction: 6
-
   - type: STR_MEDI_KIT
     categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT ]
     size: 0.1
@@ -760,7 +725,6 @@ items:
     flatRate: true
     medikitActionName: STR_ACTIVATE_MEDIKIT
     listOrder: 2137
-
   - type: STR_MEDICAL_BAG
     medikitBackground: MEDIKIT_BACKGROUND
     categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT ]
@@ -789,7 +753,6 @@ items:
     experienceTrainingMode: 19
     medikitActionName: STR_DEPLOY_MEDICAL_BAG
     listOrder: 2138
-
   - type: STR_FIELD_DRESSING
     categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT ]
     size: 0.1
@@ -815,7 +778,6 @@ items:
     experienceTrainingMode: 19
     medikitActionName: STR_USE_FIELD_DRESSING
     listOrder: 2139
-
   - type: STR_MEDICAL_POUCH
     categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT ]
     size: 0.1
@@ -840,7 +802,6 @@ items:
     experienceTrainingMode: 19
     medikitActionName: STR_USE_MEDICAL_POUCH
     listOrder: 2140
-
   - type: STR_DUCT_TAPE
     categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT, STR_SPACE ]
     size: 0.1
@@ -865,7 +826,6 @@ items:
     experienceTrainingMode: 19
     medikitActionName: STR_TAPE_IT
     listOrder: 2141
-
   - type: STR_DUCT_GUN
     categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT, STR_SPACE ]
     size: 0.1
@@ -891,7 +851,6 @@ items:
     experienceTrainingMode: 19
     medikitActionName: STR_TAPE_IT
     listOrder: 2142
-
   - type: STR_BIO_FOAM
     categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT, STR_SPACE ]
     size: 0.1
@@ -919,7 +878,6 @@ items:
     experienceTrainingMode: 19
     medikitActionName: STR_APPLY_FOAM
     listOrder: 2143
-
   - type: STR_ELECTRO_FLARE
     categories: [ STR_MEDICAL, STR_LIGHT_EQUIPMENT, STR_SPACE ]
     bigSprite: 888
@@ -929,10 +887,8 @@ items:
     battleType: 10
     primeActionName: STR_PRIME_FLARE
     fuseType: -2
-
   - type: STR_PSI_AMP
     categories: [ STR_MELEE, STR_LIGHT_EQUIPMENT, STR_SPACE ]
-
   - type: STR_STUN_ROD
     categories: [ STR_MELEE, STR_LIGHT_EQUIPMENT, STR_SPACE ]
     size: 0.1
@@ -954,7 +910,6 @@ items:
     skillApplied: false
     clipSize: -1
     listOrder: 2121
-
   - type: STR_SPACE_KNIFE
     categories: [ STR_MELEE, STR_SPACE, STR_LIGHT_EQUIPMENT ]
     size: 0.2
@@ -991,7 +946,6 @@ items:
     experienceTrainingMode: 13
     attraction: 7
     listOrder: 2119
-
   - type: STR_GENERATOR_STICK
     categories: [ STR_MELEE, STR_LIGHT_EQUIPMENT, STR_SPACE ]
     size: 0.1
@@ -1013,11 +967,9 @@ items:
     skillApplied: false
     clipSize: -1
     listOrder: 2122
-
 ########################################
 ######## AMMO CLIPS & MAGAZINES ########
 ########################################
-
   - type: STR_SUPPLY_CRATE
     categories: [STR_UNEXCOM_TECH, STR_MISC]
     size: 0.5
@@ -1032,12 +984,10 @@ items:
     invWidth: 2
     invHeight: 2
     listOrder: 2130
-
 manufacture:
   - delete: STR_LASER_PISTOL
   - delete: STR_LASER_RIFLE
   - delete: STR_HEAVY_LASER
-
   - name: STR_ARGYRE_BASIN_LASER_PROJECTOR
     space: 1
     requires:
@@ -1047,20 +997,16 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 5
       STR_ALIEN_ALLOYS: 5
-
 ufopaedia:
 ########################################
 ######## AMMO CLIPS & MAGAZINES ########
 ########################################
-
   - id: STR_MK119_SPACE_RIFLE_AP_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_MK119_SPACE_RIFLE_FLECHETTE_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-
-
 extraSprites:
 #########################################
 ######### TIER I WEAPONS USA ############
@@ -1077,7 +1023,6 @@ extraSprites:
       144: Resources/SpaceWeapons/BigLaserMinigun.png
       174: Resources/SpaceWeapons/BigAK79.png
       3012: Resources/AlliedWeapons/BigChinaLakeLaserGun.png
-
       1500: Resources/SpaceWeapons/BigSpaceRifle.png
       1501: Resources/SpaceWeapons/BigSpaceAmmoRifle.png
       1502: Resources/SpaceWeapons/BigSpaceAmmoRifle.png
@@ -1088,14 +1033,12 @@ extraSprites:
       1514: Resources/SpaceWeapons/BigSpaceAmmoPistol.png
       1515: Resources/SpaceWeapons/BigG11Clip.png
       1516: Resources/SpaceWeapons/BigTKB1980Ammo.png
-
       192: Resources/BallisticWeapons/Medical&Food/BigCannedFood.png
       193: Resources/BallisticWeapons/Medical&Food/BigCigarettes.png
       194: Resources/BallisticWeapons/Medical&Food/BigFlask.png
       195: Resources/BallisticWeapons/Medical&Food/BigMedicalBag.png
       196: Resources/BallisticWeapons/Medical&Food/BigFieldDressing.png
       197: Resources/BallisticWeapons/Medical&Food/BigMedicalPouch.png
-
       200: Resources/BallisticWeapons/Explosives/BigSmokeGrenade.png
       201: Resources/BallisticWeapons/Explosives/BigFlashbangGrenade.png
       202: Resources/BallisticWeapons/Medical&Food/BigDuctTape.png
@@ -1105,10 +1048,8 @@ extraSprites:
       896: Resources/BallisticWeapons/Explosives/BigFlarelit.png
       3020: Resources/SpaceWeapons/BigSupplyCrate.png
       3021: Resources/SpaceWeapons/BigWeaponsCrate.png
-
       1144: Resources/SpaceWeapons/BigSpaceKnife.png
       1152: Resources/SpaceWeapons/BigGeneratorStick.png
-
   - type: FLOOROB.PCK
     files:
       106: Resources/BallisticWeapons/Ammo/Floor556NATORifleAmmo_x30.png
@@ -1124,30 +1065,24 @@ extraSprites:
       1511: Resources/SpaceWeapons/FloorTKB1980.png
       1512: Resources/SpaceWeapons/FloorSpacePDW.png
       1513: Resources/SpaceWeapons/FloorSpaceCarbine.png
-
       192: Resources/BallisticWeapons/Medical&Food/FloorCannedFood.png
       193: Resources/BallisticWeapons/Medical&Food/FloorCigarettes.png
       194: Resources/BallisticWeapons/Medical&Food/FloorFlask.png
       195: Resources/BallisticWeapons/Medical&Food/FloorMedicalBag.png
       196: Resources/BallisticWeapons/Medical&Food/FloorFieldDressing.png
       197: Resources/BallisticWeapons/Medical&Food/FloorMedicalPouch.png
-
       200: Resources/BallisticWeapons/Explosives/FloorSmokeGrenade.png
       201: Resources/BallisticWeapons/Explosives/FloorFlashbangGrenade.png
       202: Resources/BallisticWeapons/Medical&Food/FloorDuctTape.png
       203: Resources/BallisticWeapons/Medical&Food/FloorDuctGun.png
       204: Resources/BallisticWeapons/Medical&Food/FloorBioFoam.png
-
       888: Resources/BallisticWeapons/Explosives/FloorFlare.png
       896: Resources/BallisticWeapons/Explosives/FloorFlarelit.png
-
       1144: Resources/SpaceWeapons/FloorSpaceKnife.png
       1152: Resources/SpaceWeapons/FloorGeneratorStick.png
-
       3012: Resources/AlliedWeapons/FloorChinaLakeLaserGun.png
       3020: Resources/SpaceWeapons/FloorSupplyCrate.png
       3021: Resources/SpaceWeapons/FloorWeaponsCrate.png
-
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -1161,7 +1096,6 @@ extraSprites:
       2988: Resources/SpaceWeapons/HandTKB1980.png
       2996: Resources/SpaceWeapons/HandSpacePDW.png
       3004: Resources/SpaceWeapons/HandSpaceCarbine.png
-
       820: Resources/BallisticWeapons/Medical&Food/HandCannedFood.png
       828: Resources/BallisticWeapons/Medical&Food/HandCigarettes.png
       836: Resources/BallisticWeapons/Medical&Food/HandFlask.png
@@ -1173,13 +1107,10 @@ extraSprites:
       988: Resources/BallisticWeapons/Medical&Food/BigDuctTape.png
       996: Resources/BallisticWeapons/Medical&Food/BigDuctGun.png
       1004: Resources/BallisticWeapons/Medical&Food/BigBioFoam.png
-
       904: Resources/BallisticWeapons/Explosives/HandSmokeGrenade.png
       912: Resources/BallisticWeapons/Explosives/HandFlashbangGrenade.png
-
       1144: Resources/SpaceWeapons/HandSpaceKnife.png
       1152: Resources/SpaceWeapons/HandGeneratorStick.png
-
       3012: Resources/AlliedWeapons/HandChinaLakeLaserGun.png
   - type: MEDIKIT_BACKGROUND
     singleImage: true
@@ -1187,4 +1118,3 @@ extraSprites:
     height: 200
     files:
       0: Resources/BallisticWeapons/Medical&Food/MEDIKIT_BACKGROUND.png
-

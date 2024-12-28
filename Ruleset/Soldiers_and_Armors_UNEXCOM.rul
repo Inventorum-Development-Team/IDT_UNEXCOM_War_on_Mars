@@ -2,7 +2,6 @@
 # spellchecker:words jetpack
 soldiers:
   - delete: STR_SOLDIER
-
   - type: STR_UNEXCOM_LEGIONARY
     costBuy: 180000
     costSalary: 60000
@@ -53,8 +52,6 @@ soldiers:
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
     allowPiloting: true
-
-
   - type: STR_ASTRONAUT
     costBuy: 50000
     costSalary: 30000
@@ -179,7 +176,6 @@ soldiers:
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
     allowPiloting: false
-
   - type: STR_EURONAUT
     costBuy: 50000
     costSalary: 30000
@@ -304,8 +300,6 @@ soldiers:
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
     allowPiloting: false
-
-
   - type: STR_COSMONAUT
     costBuy: 50000
     costSalary: 30000
@@ -437,8 +431,6 @@ soldiers:
     - STR_MAJOR_SOVIET
     - STR_LT_COLONEL_SOVIET
     - STR_COLONEL_SOVIET
-
-
 items:
   - type: STR_CORPSE_ARMOR
     name: STR_CORPSE
@@ -450,7 +442,6 @@ items:
     invHeight: 3
     armor: 30
     recover: true
-
   - type: STR_CORPSE_ASTRONAUT_A7L_SPACESUIT
     name: STR_CORPSE
     battleType: 11
@@ -461,7 +452,6 @@ items:
     invHeight: 3
     armor: 30
     recover: false
-
   - type: STR_CORPSE_ASTRONAUT_A7MMU_SPACESUIT
     name: STR_CORPSE
     battleType: 11
@@ -472,7 +462,6 @@ items:
     invHeight: 3
     armor: 30
     recover: false
-
   - type: STR_CORPSE_ASTRONAUT_SPACESUIT
     name: STR_CORPSE
     battleType: 11
@@ -483,7 +472,6 @@ items:
     invHeight: 3
     armor: 30
     recover: false
-
   - type: STR_CORPSE_USSF_RANGER_SPACESUIT
     name: STR_CORPSE
     battleType: 11
@@ -495,7 +483,6 @@ items:
     armor: 30
     recover: false
 ############################
-
   - type: STR_CORPSE_EURONAUT_SPACESUIT
     name: STR_CORPSE
     battleType: 11
@@ -506,7 +493,6 @@ items:
     invHeight: 3
     armor: 30
     recover: false
-
   - type: STR_CORPSE_UASCNAT_ESPATIER_SPACESUIT
     name: STR_CORPSE
     battleType: 11
@@ -517,9 +503,7 @@ items:
     invHeight: 3
     armor: 30
     recover: false
-
 ############################
-
   - type: STR_CORPSE_ASTRONAUT_KRECHET94_SPACESUIT
     name: STR_CORPSE
     battleType: 11
@@ -530,7 +514,6 @@ items:
     invHeight: 3
     armor: 30
     recover: false
-
   - type: STR_CORPSE_ASTRONAUT_KRECHETMMU_SPACESUIT
     name: STR_CORPSE
     battleType: 11
@@ -541,7 +524,6 @@ items:
     invHeight: 3
     armor: 30
     recover: false
-
   - type: STR_CORPSE_COSMONAUT_SPACESUIT
     name: STR_CORPSE
     battleType: 11
@@ -552,7 +534,6 @@ items:
     invHeight: 3
     armor: 30
     recover: false
-
   - type: STR_CORPSE_VKS_OPERATOR_SPACESUIT
     name: STR_CORPSE
     battleType: 11
@@ -563,9 +544,7 @@ items:
     invHeight: 3
     armor: 30
     recover: false
-
 # Power Armor
-
   - type: STR_CORPSE_MARAUDER
     name: STR_CORPSE
     battleType: 11
@@ -576,7 +555,6 @@ items:
     invHeight: 3
     armor: 40
     recover: true
-
   - type: STR_CORPSE_PATHFINDER
     name: STR_CORPSE
     battleType: 11
@@ -587,11 +565,8 @@ items:
     invHeight: 3
     armor: 40
     recover: true
-
 # Armor
-
 armors:
-
 # Standard Armors
   - type: STR_POWER_SUIT_UC
     spriteSheet: MARAUDER_SPRITESHEET.PCK
@@ -629,7 +604,6 @@ armors:
       - 0.0
       - 0.8
     personalLight: 6
-
   - type: STR_FLYING_SUIT_UC
     spriteSheet: PATHFINDER_SPRITESHEET.PCK
     spriteInv: MAN_PATHFINDER
@@ -667,14 +641,10 @@ armors:
       - 0.0
       - 0.8
     personalLight: 6
-
-
 #Astronaut Armors
-
 ###########################
 ##### US SPACESUITS ######
 #########################
-
   - &A7LSpacesuitAnchor
     type: STR_ASTRONAUT_A7L_SPACESUIT_UC
     spriteSheet: A7L_SPACESUIT_SPRITESHEET.PCK
@@ -712,7 +682,6 @@ armors:
       - 0.0
       - 1.3
     personalLight: 6
-
   - &A7MMUSpacesuitAnchor
     type: STR_ASTRONAUT_A7_MMU_SPACESUIT_UC
     spriteSheet: A7MMU_SPACESUIT_SPRITESHEET.PCK
@@ -752,9 +721,7 @@ armors:
       - 0.0
       - 1.3
     personalLight: 6
-
 # MILITARY
-
   - type: STR_ASTRONAUT_SPACESUIT_UC
     spriteSheet: A14_SPACESUIT_SPRITESHEET.PCK
     spriteInv:  MAN_5A14
@@ -784,8 +751,6 @@ armors:
       - 0.0
       - 1.1
     personalLight: 6
-
-
   - type: STR_USSF_RANGER_SPACESUIT_UC
     spriteSheet: A14MMU_SPACESUIT_SPRITESHEET.PCK
     spriteInv:  MAN_5A14MMU
@@ -817,11 +782,9 @@ armors:
       - 0.0
       - 1.1
     personalLight: 6
-
 #################################
 ####### NATO SPACESUITS ########
 ###############################
-
   - type: STR_EURONAUT_SPACESUIT_UC
     spriteSheet: EURONAUT_SPACESUIT_SPRITESHEET.PCK
     spriteInv:  MAN_5EURONAUT
@@ -851,8 +814,6 @@ armors:
       - 0.0
       - 1.1
     personalLight: 6
-
-
   - type: STR_UASCNAT_ESPATIER_SPACESUIT_UC
     spriteSheet: ESPATIER_SPACESUIT_SPRITESHEET.PCK
     spriteInv:  MAN_5ESPATIER
@@ -884,11 +845,9 @@ armors:
       - 0.0
       - 1.1
     personalLight: 6
-
 #################################
 ##### USSR/WTO SPACESUITS ######
 ##############################
-
   - &Krechet94SpacesuitAnchor
     type: STR_ASTRONAUT_KRECHET94_SPACESUIT_UC
     spriteSheet: KRECHET94_SPACESUIT_SPRITESHEET.PCK
@@ -919,7 +878,6 @@ armors:
       - 1.1
       - 1.3
     personalLight: 6
-
   - &KrechetMMUSpacesuitAnchor
     type: STR_ASTRONAUT_KRECHETMMU_SPACESUIT_UC
     spriteSheet: KRECHETMMU_SPACESUIT_SPRITESHEET.PCK
@@ -952,9 +910,7 @@ armors:
       - 1.1
       - 1.3
     personalLight: 6
-
 # MILITARY
-
   - type: STR_COSMONAUT_SPACESUIT_UC
     spriteSheet: ORLAN109_SPACESUIT_SPRITESHEET.PCK
     spriteInv:  MAN_5ORLAN109
@@ -984,7 +940,6 @@ armors:
       - 0.0
       - 1.1
     personalLight: 6
-
   - type: STR_VKS_OPERATOR_SPACESUIT_UC
     spriteSheet: ORLANMMU_SPACESUIT_SPRITESHEET.PCK
     spriteInv:  MAN_5ORLANMMU
@@ -1016,7 +971,6 @@ armors:
       - 0.0
       - 1.1
     personalLight: 6
-
 units:
   - type: MALE_CIVILIAN
     race: STR_CIVILIAN
@@ -1048,7 +1002,6 @@ units:
     value: 30
     intelligence: 4
     energyRecovery: 20
-
 manufacture:
   - name: STR_REPAIR_POWER_SUIT
     category: STR_PERSONAL_ARMOR
@@ -1071,7 +1024,6 @@ manufacture:
       STR_ELERIUM_115: 3
     producedItems:
       STR_FLYING_SUIT: 1
-
 extraSprites:
   - type: BASEBITS.PCK
     files:
@@ -1121,7 +1073,6 @@ extraSprites:
       814: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank_2_D.png
       815: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank_3_D.png
       816: Resources/SoldiersAndArmors/RankSprites/Smoke/Rank_4_D.png
-
 ########################################
 ########## COMBAT UNIFORM #############
 ######################################
@@ -1157,7 +1108,6 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/SoldiersAndArmors/CombatUniform/Inventory/MAN_0M3.png
-
   - type: XCOM_10.PCK
     width: 512
     height: 720
@@ -1171,7 +1121,6 @@ extraSprites:
   - type: FLOOROB.PCK
     files:
       500: Resources/SoldiersAndArmors/CombatUniform/COMBAT_UNIFORM_CORPSE_FLOOROB.png
-
 ########################################
 ########## PILOT JUMPSUIT #############
 ######################################
@@ -1207,7 +1156,6 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/SoldiersAndArmors/PilotArmor/INVENTORY/MAN_5M3.png
-
   - type: PILOT.PCK
     width: 256
     height: 1400
@@ -1215,19 +1163,15 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersAndArmors/PilotArmor/PilotSpritesheet.png
-
   - type: BIGOBS.PCK
     files:
       501: Resources/SoldiersAndArmors/PilotArmor/PILOT_CORPSE_BIGOB.png
   - type: FLOOROB.PCK
     files:
       501: Resources/SoldiersAndArmors/PilotArmor/PILOT_CORPSE_FLOOROB.png
-
-
 ##################################################
 ######### UN MARAUDER POWER ARMOR ###############
 ################################################
-
 # Armor
   - type: BIGOBS.PCK
     files:
@@ -1246,11 +1190,9 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/SoldiersAndArmors/MarauderArmor/Inventory/MAN_MARAUDER.png
-
 ##################################################
 ######### UN PATHFINDER FLYING ARMOR ###############
 ################################################
-
 # Armor
   - type: BIGOBS.PCK
     files:
@@ -1269,14 +1211,10 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/SoldiersAndArmors/PathfinderArmor/Inventory/MAN_PATHFINDER.png
-
-
 ####################################
 ######### USA SPACESUITS ##########
 ##################################
-
 # NPC CIVILIANS
-
   - type: MAN_5A7L.SPK
     singleImage: true
     files:
@@ -1294,7 +1232,6 @@ extraSprites:
   - type: FLOOROB.PCK
     files:
       512: Resources/SoldiersAndArmors/AstronautA7LArmor/A7L_SPACESUIT_CORPSE_FLOOROB.png
-
   - type: MAN_5A7MMU.SPK
     singleImage: true
     files:
@@ -1312,9 +1249,7 @@ extraSprites:
   - type: FLOOROB.PCK
     files:
       515: Resources/SoldiersAndArmors/AstronautA7MMUArmor/A7MMU_SPACESUIT_CORPSE_FLOOROB.png
-
 # MILITARY
-
   - type: MAN_5A14.SPK
     singleImage: true
     files:
@@ -1332,7 +1267,6 @@ extraSprites:
   - type: FLOOROB.PCK
     files:
       520: Resources/SoldiersAndArmors/AstronautArmor/A14_SPACESUIT_CORPSE_FLOOROB.png
-
   - type: MAN_5A14MMU.SPK
     singleImage: true
     files:
@@ -1350,13 +1284,10 @@ extraSprites:
   - type: FLOOROB.PCK
     files:
       521: Resources/SoldiersAndArmors/USSFRangerArmor/A14MMU_SPACESUIT_CORPSE_FLOOROB.png
-
 ####################################
 ######### NATO SPACESUITS #########
 ##################################
-
 # NPC CIVILIANS
-
   - type: MAN_5EURONAUT.SPK
     singleImage: true
     files:
@@ -1374,7 +1305,6 @@ extraSprites:
   - type: FLOOROB.PCK
     files:
       523: Resources/SoldiersAndArmors/EuronautArmor/EURONAUT_SPACESUIT_CORPSE_FLOOROB.png
-
   - type: MAN_5ESPATIER.SPK
     singleImage: true
     files:
@@ -1392,14 +1322,10 @@ extraSprites:
   - type: FLOOROB.PCK
     files:
       524: Resources/SoldiersAndArmors/EspatierArmor/ESPATIER_SPACESUIT_CORPSE_FLOOROB.png
-
-
 ############################################
 ####### USSR/WARSAW PACT SPACESUITS #######
 ##########################################
-
 # CIVILIAN NPC
-
   - type: MAN_5KRECHET94.SPK
     singleImage: true
     files:
@@ -1417,7 +1343,6 @@ extraSprites:
   - type: FLOOROB.PCK
     files:
       513: Resources/SoldiersAndArmors/AstronautKrechet94Armor/KRECHET94_SPACESUIT_CORPSE_FLOOROB.png
-
   - type: MAN_5KRECHETMMU.SPK
     singleImage: true
     files:
@@ -1435,9 +1360,7 @@ extraSprites:
   - type: FLOOROB.PCK
     files:
       516: Resources/SoldiersAndArmors/AstronautKrechetMMUArmor/KRECHETMMU_SPACESUIT_CORPSE_FLOOROB.png
-
 # MILITARY
-
   - type: MAN_5ORLAN109.SPK
     singleImage: true
     files:
@@ -1455,7 +1378,6 @@ extraSprites:
   - type: FLOOROB.PCK
     files:
       526: Resources/SoldiersAndArmors/CosmonautArmor/ORLAN109_SPACESUIT_CORPSE_FLOOROB.png
-
   - type: MAN_5ORLANMMU.SPK
     singleImage: true
     files:
@@ -1473,9 +1395,7 @@ extraSprites:
   - type: FLOOROB.PCK
     files:
       527: Resources/SoldiersAndArmors/VKSOperatorArmor/ORLANMMU_SPACESUIT_CORPSE_FLOOROB.png
-
 ####################################
-
   - type: BIGOBS.PCK
     files:
       530: Resources/SoldiersAndArmors/AstronautArmor/US_Backpack_3x3.png

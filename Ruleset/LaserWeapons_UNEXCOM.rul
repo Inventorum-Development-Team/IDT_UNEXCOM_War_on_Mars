@@ -4,8 +4,6 @@
 #Mid-range combat: 16-25 tiles # Carbines, Assault Rifles
 #Long range combat: 25-45 tiles # LMGs, Artillery, Battle Rifles, Snipers (min snapRange: 35)
 #Extra long range combat: 46-60 # Snipers
-
-
 items:
   - delete: STR_LASER_PISTOL
   - delete: STR_LASER_RIFLE
@@ -105,7 +103,6 @@ items:
     dropoff: 1
     invWidth: 1
     invHeight: 2
-
   - type: STR_38_LASER_MAGNUM
     categories: [STR_LASER, STR_FIREARMS, STR_PISTOLS, STR_US_TECH]
     requiresBuy:
@@ -150,7 +147,6 @@ items:
     dropoff: 1
     invWidth: 1
     invHeight: 2
-
   - type: STR_CALBR
     categories: [STR_LASER, STR_FIREARMS, STR_RIFLES, STR_US_TECH]
     requiresBuy:
@@ -198,8 +194,6 @@ items:
     dropoff: 1
     invWidth: 1
     invHeight: 3
-
-
   - type: STR_M20_M203_LASER_CARBINE
     categories: [STR_LASER, STR_FIREARMS, STR_CARBINES, STR_US_TECH]
     requiresBuy:
@@ -251,7 +245,6 @@ items:
     dropoff: 1
     invWidth: 2
     invHeight: 3
-
   - type: STR_M5_LASER_SMG
     categories: [STR_LASER, STR_FIREARMS, STR_SMGS, STR_US_TECH]
     requiresBuy:
@@ -303,7 +296,6 @@ items:
     dropoff: 1
     invWidth: 1
     invHeight: 3
-
   - type: STR_ULYSSES_LASER_SNIPER_RIFLE
     categories: [STR_LASER, STR_FIREARMS, STR_SNIPER_RIFLES, STR_US_TECH]
     requiresBuy:
@@ -349,7 +341,6 @@ items:
     dropoff: 1
     invWidth: 2
     invHeight: 3
-
   - type: STR_X4_LASER_SHOTGUN
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_US_TECH, STR_SHOTGUNS]
     requiresBuy:
@@ -396,7 +387,6 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
-
   - type: STR_M4_LASER_LMG
     categories: [STR_LASER, STR_FIREARMS, STR_LMGS, STR_US_TECH]
     requiresBuy:
@@ -441,7 +431,6 @@ items:
     sprayWaypoints: 2
     invWidth: 2
     invHeight: 3
-
   - type: STR_ELERIUM_FLAMETHROWER
     categories: [STR_ARTILLERY, STR_US_TECH, STR_LASER]
     requiresBuy:
@@ -489,11 +478,9 @@ items:
     vaporColorSurface: 1
     vaporDensitySurface: 10
     vaporProbabilitySurface: 100
-
 ###################################
 ###### NATO LASER WEAPONS #########
 #################################
-
   - type: STR_P71_LASER_PISTOL
     categories: [STR_LASER, STR_FIREARMS, STR_PISTOLS, STR_NATO_TECH]
     requiresBuy:
@@ -537,7 +524,6 @@ items:
     dropoff: 1
     invWidth: 1
     invHeight: 2
-
   - type: STR_FN_FLA_LASER_BATTLE_RIFLE
     categories: [STR_LASER, STR_FIREARMS, STR_RIFLES, STR_NATO_TECH]
     requiresBuy:
@@ -585,8 +571,6 @@ items:
     dropoff: 1
     invWidth: 1
     invHeight: 3
-
-
   - type: STR_FN_FLA_LASER_CARBINE
     categories: [STR_LASER, STR_FIREARMS, STR_CARBINES, STR_NATO_TECH]
     requiresBuy:
@@ -634,7 +618,6 @@ items:
     dropoff: 1
     invWidth: 1
     invHeight: 3
-
   - type: STR_L4_ASSAULT_LASER
     categories: [STR_LASER, STR_FIREARMS, STR_RIFLES, STR_NATO_TECH]
     requiresBuy:
@@ -682,7 +665,6 @@ items:
     dropoff: 1
     invWidth: 2
     invHeight: 3
-
   - type: STR_MAT72_SUBMACHINE_LASER
     categories: [STR_LASER, STR_FIREARMS, STR_SMGS, STR_NATO_TECH]
     requiresBuy:
@@ -733,7 +715,6 @@ items:
     sprayWaypoints: 2
     invWidth: 1
     invHeight: 2
-
   - type: STR_CHURCHILL_MARKSMAN_LASER_RIFLE
     categories: [STR_LASER, STR_FIREARMS, STR_SNIPER_RIFLES, STR_NATO_TECH]
     requiresBuy:
@@ -780,7 +761,6 @@ items:
     dropoff: 1
     invWidth: 2
     invHeight: 3
-
   - type: STR_ML73_LASER_MACHINE_GUN
     categories: [STR_LASER, STR_FIREARMS, STR_LMGS, STR_NATO_TECH]
     requiresBuy:
@@ -825,7 +805,6 @@ items:
     sprayWaypoints: 2
     invWidth: 1
     invHeight: 3
-
   - type: STR_M72_AUTOMATIC_RECOILLESS_RIFLE
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_NATO_TECH, STR_ARTILLERY, STR_FUSION]
     requiresBuy:
@@ -867,7 +846,6 @@ items:
     invWidth: 2
     invHeight: 3
     attraction: 8
-
   - type: STR_M72_ARR_HEAT_MAG
     categories: [STR_FIREARMS, STR_ARTILLERY, STR_NATO_TECH, STR_CLIPS]
     requiresBuy:
@@ -1016,7 +994,6 @@ items:
     dropoff: 2
     invWidth: 1
     invHeight: 2
-
   - type: STR_ALK72_LASER_RIFLE
     categories: [STR_LASER, STR_FIREARMS, STR_RIFLES, STR_SOVIET_TECH]
     requiresBuy:
@@ -1067,7 +1044,6 @@ items:
     dropoff: 3
     invWidth: 1
     invHeight: 3
-
   - type: STR_KHARITONOV_LASER_BATTLE_RIFLE
     categories: [STR_LASER, STR_FIREARMS, STR_RIFLES, STR_SOVIET_TECH]
     requiresBuy:
@@ -1113,7 +1089,6 @@ items:
     dropoff: 1
     invWidth: 1
     invHeight: 3
-
   - type: STR_ALP_SUBMACHINE_LASER
     categories: [STR_LASER, STR_FIREARMS, STR_SMGS, STR_SOVIET_TECH]
     requiresBuy:
@@ -1164,7 +1139,6 @@ items:
     dropoff: 2
     invWidth: 1
     invHeight: 2
-
   - type: STR_MIRINOV_LASER_SNIPER
     categories: [STR_LASER, STR_FIREARMS, STR_SNIPER_RIFLES, STR_SOVIET_TECH]
     requiresBuy:
@@ -1211,7 +1185,6 @@ items:
     dropoff: 1
     invWidth: 2
     invHeight: 3
-
   - type: STR_AN_MACHINE_LASER
     categories: [STR_LASER, STR_FIREARMS, STR_LMGS, STR_SOVIET_TECH]
     requiresBuy:
@@ -1269,7 +1242,6 @@ items:
     dropoff: 2
     invWidth: 2
     invHeight: 3
-
   - type: STR_AFINA_ANTITANK_LASER
     categories: [STR_LASER, STR_FIREARMS, STR_ARTILLERY, STR_SOVIET_TECH]
     requiresBuy:
@@ -1308,7 +1280,6 @@ items:
     dropoff: 1
     invWidth: 2
     invHeight: 3
-
   - type: STR_BATTERY
     categories: [STR_LIGHT_EQUIPMENT, STR_LASER]
     size: 0.1
@@ -1330,7 +1301,6 @@ items:
     attraction: 6
     experienceTrainingMode: 32
     medikitActionName: STR_USE_BATTERY
-
   - type: STR_ELERIUM_BATTERY
     categories: [ STR_LIGHT_EQUIPMENT]
     size: 0.1
@@ -1351,20 +1321,17 @@ items:
     attraction: 6
     experienceTrainingMode: 32
     medikitActionName: STR_USE_BATTERY
-
 ####################################
 manufacture:
   - delete: STR_LASER_PISTOL
   - delete: STR_LASER_RIFLE
   - delete: STR_HEAVY_LASER
-
   - name: STR_ELERIUM_BATTERY
     space: 1
     time: 50
     cost: 10000
     requiredItems:
       STR_ELERIUM_115: 5
-
   - name: STR_PEACEMAKER
     space: 1
     time: 50
@@ -1373,8 +1340,6 @@ manufacture:
       STR_ALIEN_LASER_RIFLE: 1
       STR_ALIEN_ALLOYS: 5
       STR_ALIEN_CRYSTAL: 5
-
-
 extraSprites:
   - type: BIGOBS.PCK
     files:
@@ -1451,7 +1416,6 @@ extraSprites:
       2027: Resources/LaserWeapons/USSR/FloorAfinaAntiTankLaser.png
       2028: RESOURCES/Battery/FloorBattery.png
       2029: Resources/Turrets/FloorLaserGatling.png
-
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -1504,4 +1468,3 @@ extraSprites:
       980: Resources/BulletSprites/WideBlueLaser_Bullet.png # 28
       1015: Resources/BulletSprites/WideRedLaser_Bullet.png # 29
       1050: Resources/BulletSprites/FlameProjectile.png # 30
-

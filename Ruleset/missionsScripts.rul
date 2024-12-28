@@ -9,11 +9,9 @@ missionScripts:
   - delete: geniusRetaliation
   - delete: superhumanRetaliation
   #- delete: recurringTerror
-
 #####################
 ###### ACT 1 #######
 ###################
-
   - type: counterInsurgency
     varName: counterInsurgency
     missionWeights:
@@ -31,7 +29,6 @@ missionScripts:
     executionOdds: 100
     lastMonth: 5
     maxRuns: 6
-
   - type: searchAndDestroy
     varName: searchAndDestroy
     missionWeights:
@@ -49,11 +46,9 @@ missionScripts:
     executionOdds: 100
     lastMonth: 5
     maxRuns: 6
-
 #####################
 ###### ACT 2 #######
 ###################
-
   - type: supplyRecovery
     varName: supplyRecovery
     missionWeights:
@@ -72,7 +67,6 @@ missionScripts:
     firstMonth: 7
     lastMonth: 14
     maxRuns: 6
-
   - type: guerrillaStart
     missionWeights:
       0:
@@ -87,7 +81,6 @@ missionScripts:
     varName: guerrillaStart
     startDelay: 20
     randomDelay: 43500
-
   - type: Retaliation
     missionWeights:
       0:
@@ -98,7 +91,6 @@ missionScripts:
     minScore: 1000
     firstMonth: 9
     useTable: false
-
   - type: AirSuperiority1
     missionWeights:
       0:
@@ -108,7 +100,6 @@ missionScripts:
     minScore: 800
     maxScore: 1299
     randomDelay: 20000
-
   - type: counterAttack_AcidaliaPlanitia1
     firstMonth: 6
     lastMonth: 6
@@ -139,7 +130,6 @@ missionScripts:
     regionWeights:
       0:
         STR_ACIDALIA_PLANITIA: 100
-
   - type: counterAttack_VastitasBorealis1
     firstMonth: 6
     lastMonth: 6
@@ -170,7 +160,6 @@ missionScripts:
     regionWeights:
       0:
         STR_VASTITAS_BOREALIS: 100
-
   - type: counterAttack_TerraMeridani1
     firstMonth: 6
     lastMonth: 6
@@ -201,7 +190,6 @@ missionScripts:
     regionWeights:
       0:
         STR_TERRA_MERIDIANI: 100
-
   - type: counterAttack_ArabiaTerra1
     firstMonth: 8
     lastMonth: 10
@@ -232,7 +220,6 @@ missionScripts:
     regionWeights:
       0:
         STR_ARABIA_TERRA: 100
-
   - type: counterAttack_ElysiumPlanitia1
     firstMonth: 8
     lastMonth: 10
@@ -263,7 +250,6 @@ missionScripts:
     regionWeights:
       0:
         STR_ELYSIUM_PLANITIA: 100
-
   - type: counterAttack_AmazonisPlanitia1
     firstMonth: 8
     lastMonth: 9
@@ -294,7 +280,6 @@ missionScripts:
     regionWeights:
       0:
         STR_AMAZONIS_PLANITIA: 100
-
   - type: counterAttack_TerraSirenum1
     firstMonth: 6
     lastMonth: 6
@@ -325,7 +310,6 @@ missionScripts:
     regionWeights:
       0:
         STR_TERRA_SIRENUM: 100
-
   - type: counterAttack_ArgyrePlanitia1
     firstMonth: 6
     lastMonth: 6
@@ -356,7 +340,6 @@ missionScripts:
     regionWeights:
       0:
         STR_ARGYRE_PLANITIA: 100
-
   - type: counterAttack_NoachisTerra1
     firstMonth: 6
     lastMonth: 6
@@ -387,7 +370,6 @@ missionScripts:
     regionWeights:
       0:
         STR_NOACHIS_TERRA: 100
-
   - type: counterAttack_HellaPlanitia1
     firstMonth: 6
     lastMonth: 6
@@ -418,7 +400,6 @@ missionScripts:
     regionWeights:
       0:
         STR_HELLAS_PLANITIA: 100
-
   - type: counterAttack_TerraCimmeria1
     firstMonth: 6
     lastMonth: 6
@@ -449,11 +430,9 @@ missionScripts:
     regionWeights:
       0:
         STR_TERRA_CIMMERIA: 100
-
 #####################
 ###### ACT 3 #######
 ###################
-
   - type: majorEngagement
     varName: majorEngagement
     missionWeights:
@@ -471,7 +450,6 @@ missionScripts:
     firstMonth: 14
     lastMonth: 18
     maxRuns: 6
-
   - type: operationSwordbreaker
     varName: operationSwordbreaker
     missionWeights:

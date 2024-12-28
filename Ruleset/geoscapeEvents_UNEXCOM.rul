@@ -3,118 +3,98 @@ eventScripts:
 ###############################
 ###### WELCOME EVENTS ########
 #############################
-
   - type: STR_WELCOME_MESSAGES_EVENT_SCRIPT_1
     oneTimeSequentialEvents:
      - STR_WELCOME_MESSAGE_1_EVENT
     firstMonth: 0
-
   - type: STR_WELCOME_MESSAGES_EVENT_SCRIPT_2
     oneTimeSequentialEvents:
      - STR_WELCOME_MESSAGE_2_EVENT
     firstMonth: 0
-
   - type: STR_WELCOME_MESSAGES_EVENT_SCRIPT_3
     oneTimeSequentialEvents:
      - STR_WELCOME_MESSAGE_3_EVENT
     firstMonth: 1
-
 #############################
 ###### STORY EVENTS ########
 ###########################
-
   - type: STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT
     firstMonth: 5
-
 #############################
 ###### SUPPLY EVENTS #######
 ###########################
-
   - type: STR_SUCCESSFUL_SMALL_SUPPLY_RUN_MONTH_3_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_SUPPLY_ROCKET_IN_ORBIT_EVENT
      - STR_SMALL_SUPPLY_DROP_EVENT
     firstMonth: 3
     executionOdds: 50
-
   - type: STR_FAILURE_SMALL_SUPPLY_RUN_MONTH_3_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_SUPPLY_ROCKET_IN_ORBIT_EVENT
      - STR_SUPPLY_ROCKET_SHOT_DOWN_EVENT
     firstMonth: 3
     executionOdds: 50
-
   - type: STR_SUCCESSFUL_SMALL_SUPPLY_RUN_MONTH_9_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_SUPPLY_ROCKET_IN_ORBIT_EVENT
      - STR_SMALL_SUPPLY_DROP_EVENT
     firstMonth: 9
     executionOdds: 50
-
   - type: STR_FAILURE_SMALL_SUPPLY_RUN_MONTH_9_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_SUPPLY_ROCKET_IN_ORBIT_EVENT
      - STR_SUPPLY_ROCKET_SHOT_DOWN_EVENT
     firstMonth: 9
     executionOdds: 50
-
   - type: STR_SUCCESSFUL_LARGE_SUPPLY_RUN_MONTH_10_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_SUPPLY_ROCKET_IN_ORBIT_EVENT
      - STR_LARGE_SUPPLY_DROP_EVENT
     firstMonth: 10
     executionOdds: 50
-
   - type: STR_FAILURE_LARGE_SUPPLY_RUN_MONTH_10_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_SUPPLY_ROCKET_IN_ORBIT_EVENT
      - STR_SUPPLY_ROCKET_SHOT_DOWN_EVENT
     firstMonth: 10
     executionOdds: 50
-
   - type: STR_SUCCESSFUL_SMALL_SUPPLY_RUN_MONTH_12_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_SUPPLY_ROCKET_IN_ORBIT_EVENT
      - STR_SMALL_SUPPLY_DROP_EVENT
     firstMonth: 12
     executionOdds: 50
-
   - type: STR_FAILURE_SMALL_SUPPLY_RUN_MONTH_12_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_SUPPLY_ROCKET_IN_ORBIT_EVENT
      - STR_SUPPLY_ROCKET_SHOT_DOWN_EVENT
     firstMonth: 12
     executionOdds: 50
-
   - type: STR_SUCCESSFUL_LARGE_SUPPLY_RUN_MONTH_14_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_SUPPLY_ROCKET_IN_ORBIT_EVENT
      - STR_LARGE_SUPPLY_DROP_EVENT
     firstMonth: 14
     executionOdds: 50
-
   - type: STR_FAILURE_LARGE_SUPPLY_RUN_MONTH_14_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_SUPPLY_ROCKET_IN_ORBIT_EVENT
      - STR_SUPPLY_ROCKET_SHOT_DOWN_EVENT
     firstMonth: 14
     executionOdds: 50
-
 #############################
 ####### SIDE EVENTS ########
 ###########################
-
 # Falklands War subplot
-
   - type: STR_FALKLANDS_WAR_APRIL_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_FALKLAND_WAR_STORY_1_EVENT
      - STR_FALKLAND_WAR_STORY_2_EVENT
     firstMonth: 0
     executionOdds: 100
-
   - type: STR_FALKLANDS_WAR_MAY_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_FALKLAND_WAR_STORY_3_EVENT
@@ -124,7 +104,6 @@ eventScripts:
      - STR_FALKLAND_WAR_STORY_7_EVENT
     firstMonth: 1
     executionOdds: 100
-
   - type: STR_FALKLANDS_WAR_JUNE_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_FALKLAND_WAR_STORY_8_EVENT
@@ -133,167 +112,136 @@ eventScripts:
      - STR_FALKLAND_WAR_STORY_11_EVENT
     firstMonth: 2
     executionOdds: 100
-
 # MARSEC subplot
-
   - type: STR_MARSEC_STORY_1_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_MARSEC_STORY_1_EVENT
     firstMonth: 1
     executionOdds: 100
-
   - type: STR_MARSEC_STORY_2_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_MARSEC_STORY_2_EVENT
     firstMonth: 2
     executionOdds: 100
-
   - type: STR_MARSEC_STORY_3_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_MARSEC_STORY_3_EVENT
     firstMonth: 3
     executionOdds: 100
-
   - type: STR_MARSEC_STORY_4_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_MARSEC_STORY_4_EVENT
     firstMonth: 4
     executionOdds: 100
-
   - type: STR_MARSEC_STORY_5_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_MARSEC_STORY_5_EVENT
     firstMonth: 5
     executionOdds: 100
-
   - type: STR_MARSEC_STORY_6_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_MARSEC_STORY_6_EVENT
     firstMonth: 6
     executionOdds: 100
-
 # TNI subplot
-
   - type: STR_TNI_STORY_1_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_TNI_STORY_1_EVENT
     firstMonth: 0
     executionOdds: 100
-
   - type: STR_TNI_STORY_2_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_TNI_STORY_2_EVENT
     firstMonth: 1
     executionOdds: 100
-
   - type: STR_TNI_STORY_3_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_TNI_STORY_3_EVENT
     firstMonth: 3
     executionOdds: 100
-
   - type: STR_TNI_STORY_4_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_TNI_STORY_4_EVENT
     firstMonth: 4
     executionOdds: 100
-
   - type: STR_TNI_STORY_5_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_TNI_STORY_5_EVENT
     firstMonth: 5
     executionOdds: 100
-
   - type: STR_TNI_STORY_6_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_TNI_STORY_6_EVENT
     firstMonth: 5
     executionOdds: 100
-
   - type: STR_TNI_STORY_7_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_TNI_STORY_7_EVENT
     firstMonth: 7
     executionOdds: 100
-
 ##############################
 ##### Act 1 Side events #####
 ############################
-
 ##########################
 # Misc news
-
   - type: STR_6TH_ANNIVERSARY_SNAKE_REMOVAL_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_6TH_ANNIVERSARY_SNAKE_REMOVAL_EVENT
     firstMonth: 1
     executionOdds: 100
-
   - type: STR_RISE_OF_NEW_CULTS_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_RISE_OF_NEW_CULTS_EVENT
     firstMonth: 3
     executionOdds: 100
-
   - type: STR_SHUTTLE_WINGS_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_SHUTTLE_WINGS_EVENT
     firstMonth: 4
     executionOdds: 100
-
   - type: STR_POKER_PLAYER_TRIAL_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_POKER_PLAYER_TRIAL_EVENT
     firstMonth: 5
     executionOdds: 100
-
   - type: STR_PSIONIC_CIRCLE_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_PSIONIC_CIRCLE_EVENT
     firstMonth: 5
     executionOdds: 100
-
 ##########################
 # Cultural stuff (movies, comics, etc)
-
   - type: STR_CANNES_FESTIVAL_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_CANNES_FESTIVAL_EVENT
     firstMonth: 1
     executionOdds: 100
-
   - type: STR_BLADE_RUNNER_MOVIE_RELEASED_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_BLADE_RUNNER_MOVIE_RELEASED_EVENT
     firstMonth: 2
     executionOdds: 100
-
   - type: STR_CYBERPUNK_NOVEL_RELEASED_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_CYBERPUNK_NOVEL_RELEASED_EVENT
     firstMonth: 7
     executionOdds: 100
-
   - type: STR_AKIRA_MANGA_RELEASED_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_AKIRA_MANGA_RELEASED_EVENT
     firstMonth: 8
     executionOdds: 100
-
   - type: STR_PSIONIC_CIRCLE_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_PSIONIC_CIRCLE_EVENT
     firstMonth: 8
     executionOdds: 100
-
 #############################
 ######### ACT 2 ############
 ###########################
-
 #############################
 ###### STORY EVENTS ########
 ###########################
-
   - type: STR_ALLIED_FORCES_LOCATE_SIGNAL_JAMMER_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_ALLIED_FORCES_LOCATE_SIGNAL_JAMMER_EVENT
@@ -309,57 +257,46 @@ eventScripts:
      - STR_RESCUE_SIGNAL_BROADCASTING_EVENT
     firstMonth: 11
     executionOdds: 100
-
   - type: STR_UN_FLEET_ARRIVING_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_UN_FLEET_ARRIVING_EVENT
     firstMonth: 14
     executionOdds: 100
-
 ##############################
 ##### Act 2 Side events #####
 ############################
-
 # Combat reports
-
   - type: STR_BRITISH_SOLDIERS_DIG_IN_MARINER_TRENCH_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_BRITISH_SOLDIERS_DIG_IN_MARINER_TRENCH_EVENT
     firstMonth: 9
     lastMonth: 11
     executionOdds: 50
-
   - type: STR_ALLIED_HARRIERS_DOGFIGHT_EVENT_SCRIPT_1
     oneTimeSequentialEvents:
      - STR_ALLIED_HARRIERS_DOGFIGHT_EVENT
     firstMonth: 8
     lastMonth: 10
     executionOdds: 50
-
   - type: STR_ALLIED_HARRIERS_DOGFIGHT_EVENT_SCRIPT_2
     oneTimeSequentialEvents:
      - STR_ALLIED_HARRIERS_DOGFIGHT_EVENT
     firstMonth: 11
     lastMonth: 12
     executionOdds: 30
-
 ##############################
 ##### Act 2 Side events #####
 ############################
-
 ##########################
 # Cultural stuff (movies, comics, etc)
-
   - type: STR_STAR_WARS_MOVIE_RELEASED_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_STAR_WARS_MOVIE_RELEASED_EVENT
     firstMonth: 13
     executionOdds: 100
-
 ##############################
 ##### Act 3 Side events #####
 ############################
-
 ##########################
 # Cultural stuff (movies, comics, etc)
   - type: STR_NEUROMANCER_NOVEL_RELEASED_EVENT_SCRIPT
@@ -367,18 +304,14 @@ eventScripts:
      - STR_NEUROMANCER_NOVEL_RELEASED_EVENT
     firstMonth: 15
     executionOdds: 100
-
 ##########################
 # Misc news
-
   - type: STR_REAGAN_ANNOUNCES_SDI_EVENT_SCRIPT
     oneTimeSequentialEvents:
      - STR_REAGAN_ANNOUNCES_SDI_EVENT
     firstMonth: 16
     executionOdds: 100
-
 # Combat reports
-
   - type: STR_ALLIED_TROOPS_OFFENSIVE_EVENT_SCRIPT
     eventWeights:                 # randomly generated repeatable events
       14:
@@ -392,7 +325,6 @@ eventScripts:
     firstMonth: 14
     lastMonth: 18
     executionOdds: 100
-
 #############################
 # - type: STR_TEST_EVENT_SCRIPT
 #    eventWeights:                 # randomly generated repeatable events
@@ -406,14 +338,11 @@ eventScripts:
 #      STR_TEST_EVENT1R: 100
 #      STR_TEST_EVENT1R: 100
 #    timerRandom: 150
-
 events:
 #    regionList: [STR_ARCTIC, STR_NORTH_AMERICA, STR_EUROPE, STR_SOUTH_AMERICA, STR_NORTH_AFRICA, STR_SOUTHERN_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA, STR_NORTH_PACIFIC, STR_SOUTH_PACIFIC, STR_NORTH_ATLANTIC, STR_SOUTH_ATLANTIC, STR_INDIAN_OCEAN]
-
 ###############################
 ###### WELCOME EVENTS ########
 #############################
-
   - name: STR_WELCOME_MESSAGE_1_EVENT
     description: STR_WELCOME_MESSAGE_1_EVENT_DESCRIPTION
     background: BACK01.SCR
@@ -421,7 +350,6 @@ events:
     points: 10
     timer: 180
     timerRandom: 10
-
   - name: STR_WELCOME_MESSAGE_2_EVENT
     description: STR_WELCOME_MESSAGE_2_EVENT_DESCRIPTION
     background: BACK05.SCR
@@ -429,7 +357,6 @@ events:
     points: 10
     timer: 240
     timerRandom: 10
-
   - name: STR_WELCOME_MESSAGE_3_EVENT
     description: STR_WELCOME_MESSAGE_3_EVENT_DESCRIPTION
     background: BACK05.SCR
@@ -437,11 +364,9 @@ events:
     points: 10
     timer: 24000
     timerRandom: 10
-
 #############################
 ###### STORY EVENTS ########
 ###########################
-
   - name: STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT
     description: STR_RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_DESCRIPTION
     background: RECON_PROBES_CONFIRM_INCREASE_ALIEN_ACTIVITY_EVENT_BACKGROUND
@@ -449,7 +374,6 @@ events:
     points: 100
     timer: 180
     timerRandom: 43500
-
   - name: STR_UN_FLEET_ARRIVING_EVENT
     description: STR_UN_FLEET_ARRIVING_EVENT_DESCRIPTION
     background: UN_FLEET_ARRIVING_EVENT_BACKGROUND
@@ -457,15 +381,10 @@ events:
     points: 100
     timer: 180
     timerRandom: 43500
-
-
-
 #############################
 ####### SIDE EVENTS ########
 ###########################
-
 # Falklands War Subplot
-
   - name: STR_FALKLAND_WAR_STORY_1_EVENT
     description: STR_FALKLAND_WAR_STORY_1_EVENT_DESCRIPTION
     background: FALKLAND_WAR_STORY_1_EVENT_BACKGROUND
@@ -473,7 +392,6 @@ events:
     points: 100
     timer: 2880
     #timerRandom: 43500
-
   - name: STR_FALKLAND_WAR_STORY_2_EVENT
     description: STR_FALKLAND_WAR_STORY_2_EVENT_DESCRIPTION
     background: FALKLAND_WAR_STORY_2_EVENT_BACKGROUND
@@ -481,7 +399,6 @@ events:
     points: 100
     timer: 43200
     #timerRandom: 43500
-
   - name: STR_FALKLAND_WAR_STORY_3_EVENT
     description: STR_FALKLAND_WAR_STORY_3_EVENT_DESCRIPTION
     background: FALKLAND_WAR_STORY_3_EVENT_BACKGROUND
@@ -489,7 +406,6 @@ events:
     points: 100
     timer: 2880
     #timerRandom: 43500
-
   - name: STR_FALKLAND_WAR_STORY_4_EVENT
     description: STR_FALKLAND_WAR_STORY_4_EVENT_DESCRIPTION
     background: FALKLAND_WAR_STORY_4_EVENT_BACKGROUND
@@ -497,7 +413,6 @@ events:
     points: 100
     timer: 4350
     #timerRandom: 43500
-
   - name: STR_FALKLAND_WAR_STORY_5_EVENT
     description: STR_FALKLAND_WAR_STORY_5_EVENT_DESCRIPTION
     background: FALKLAND_WAR_STORY_5_EVENT_BACKGROUND
@@ -505,7 +420,6 @@ events:
     points: 100
     timer: 27360
     #timerRandom: 43500
-
   - name: STR_FALKLAND_WAR_STORY_6_EVENT
     description: STR_FALKLAND_WAR_STORY_6_EVENT_DESCRIPTION
     background: FALKLAND_WAR_STORY_6_EVENT_BACKGROUND
@@ -513,7 +427,6 @@ events:
     points: 100
     timer: 36000
     #timerRandom: 43500
-
   - name: STR_FALKLAND_WAR_STORY_7_EVENT
     description: STR_FALKLAND_WAR_STORY_7_EVENT_DESCRIPTION
     background: FALKLAND_WAR_STORY_7_EVENT_BACKGROUND
@@ -521,7 +434,6 @@ events:
     points: 100
     timer: 41760
     #timerRandom: 43500
-
   - name: STR_FALKLAND_WAR_STORY_8_EVENT
     description: STR_FALKLAND_WAR_STORY_8_EVENT_DESCRIPTION
     background: FALKLAND_WAR_STORY_8_EVENT_BACKGROUND
@@ -529,7 +441,6 @@ events:
     points: 100
     timer: 15840
     #timerRandom: 43500
-
   - name: STR_FALKLAND_WAR_STORY_9_EVENT
     description: STR_FALKLAND_WAR_STORY_9_EVENT_DESCRIPTION
     background: FALKLAND_WAR_STORY_9_EVENT_BACKGROUND
@@ -537,7 +448,6 @@ events:
     points: 100
     timer: 20160
     #timerRandom: 43500
-
   - name: STR_FALKLAND_WAR_STORY_10_EVENT
     description: STR_FALKLAND_WAR_STORY_10_EVENT_DESCRIPTION
     background: FALKLAND_WAR_STORY_10_EVENT_BACKGROUND
@@ -545,7 +455,6 @@ events:
     points: 100
     timer: 21600
     #timerRandom: 43500
-
   - name: STR_FALKLAND_WAR_STORY_11_EVENT
     description: STR_FALKLAND_WAR_STORY_11_EVENT_DESCRIPTION
     background: FALKLAND_WAR_STORY_11_EVENT_BACKGROUND
@@ -553,9 +462,7 @@ events:
     points: 100
     timer: 43200
     #timerRandom: 43500
-
 # MARSEC Subplot
-
   - name: STR_MARSEC_STORY_1_EVENT
     description: STR_MARSEC_STORY_1_EVENT_DESCRIPTION
     background: MARSEC_EVENT_BACKGROUND
@@ -563,7 +470,6 @@ events:
     points: 100
     timer: 180
     timerRandom: 43500
-
   - name: STR_MARSEC_STORY_2_EVENT
     description: STR_MARSEC_STORY_2_EVENT_DESCRIPTION
     background: MARSEC_EVENT_BACKGROUND
@@ -571,7 +477,6 @@ events:
     points: 100
     timer: 180
     timerRandom: 43500
-
   - name: STR_MARSEC_STORY_3_EVENT
     description: STR_MARSEC_STORY_3_EVENT_DESCRIPTION
     background: MARSEC_EVENT_BACKGROUND
@@ -579,7 +484,6 @@ events:
     points: 100
     timer: 180
     timerRandom: 43500
-
   - name: STR_MARSEC_STORY_4_EVENT
     description: STR_MARSEC_STORY_4_EVENT_DESCRIPTION
     background: MARSEC_EVENT_BACKGROUND
@@ -587,7 +491,6 @@ events:
     points: 100
     timer: 180
     timerRandom: 43500
-
   - name: STR_MARSEC_STORY_5_EVENT
     description: STR_MARSEC_STORY_5_EVENT_DESCRIPTION
     background: MARSEC_EVENT_BACKGROUND
@@ -595,7 +498,6 @@ events:
     points: 100
     timer: 180
     timerRandom: 43500
-
   - name: STR_MARSEC_STORY_6_EVENT
     description: STR_MARSEC_STORY_6_EVENT_DESCRIPTION
     background: MARSEC_EVENT_BACKGROUND
@@ -603,9 +505,7 @@ events:
     points: 100
     timer: 180
     timerRandom: 43500
-
 # TNI Subplot
-
   - name: STR_TNI_STORY_1_EVENT
     description: STR_TNI_STORY_1_EVENT_DESCRIPTION
     background: TNI_EVENT_BACKGROUND
@@ -613,7 +513,6 @@ events:
     points: 100
     timer: 180
     timerRandom: 43500
-
   - name: STR_TNI_STORY_2_EVENT
     description: STR_TNI_STORY_2_EVENT_DESCRIPTION
     background: TNI_EVENT_BACKGROUND
@@ -621,7 +520,6 @@ events:
     points: 100
     timer: 180
     timerRandom: 43500
-
   - name: STR_TNI_STORY_3_EVENT
     description: STR_TNI_STORY_3_EVENT_DESCRIPTION
     background: TNI_EVENT_BACKGROUND
@@ -629,7 +527,6 @@ events:
     points: 100
     timer: 180
     timerRandom: 43500
-
   - name: STR_TNI_STORY_4_EVENT
     description: STR_TNI_STORY_4_EVENT_DESCRIPTION
     background: TNI_EVENT_BACKGROUND
@@ -637,7 +534,6 @@ events:
     points: 100
     timer: 180
     timerRandom: 43500
-
   - name: STR_TNI_STORY_5_EVENT
     description: STR_TNI_STORY_5_EVENT_DESCRIPTION
     background: TNI_EVENT_BACKGROUND
@@ -645,7 +541,6 @@ events:
     points: 100
     timer: 180
     timerRandom: 43500
-
   - name: STR_TNI_STORY_6_EVENT
     description: STR_TNI_STORY_6_EVENT_DESCRIPTION
     background: TNI_EVENT_BACKGROUND
@@ -653,7 +548,6 @@ events:
     points: 100
     timer: 180
     timerRandom: 43500
-
   - name: STR_TNI_STORY_7_EVENT
     description: STR_TNI_STORY_7_EVENT_DESCRIPTION
     background: TNI_EVENT_BACKGROUND
@@ -661,13 +555,10 @@ events:
     points: 100
     timer: 180
     timerRandom: 43500
-
 # Act 1 side events
-
 ####################
 #### MISC NEWS ####
 #################
-
   - name: STR_6TH_ANNIVERSARY_SNAKE_REMOVAL_EVENT
     description: STR_6TH_ANNIVERSARY_SNAKE_REMOVAL_EVENT_DESCRIPTION
     background: GENERIC_NEWS_EVENT_BACKGROUND
@@ -675,7 +566,6 @@ events:
     points: 30
     timer: 36000
     #timerRandom: 43500
-
   - name: STR_RISE_OF_NEW_CULTS_EVENT
     description: STR_RISE_OF_NEW_CULTS_EVENT_DESCRIPTION
     background: GENERIC_NEWS_EVENT_BACKGROUND
@@ -683,7 +573,6 @@ events:
     points: 30
     timer: 360
     timerRandom: 43500
-
   - name: STR_POKER_PLAYER_TRIAL_EVENT
     description: STR_POKER_PLAYER_TRIAL_EVENT_DESCRIPTION
     background: GENERIC_NEWS_EVENT_BACKGROUND
@@ -691,7 +580,6 @@ events:
     points: 30
     timer: 360
     timerRandom: 43500
-
   - name: STR_SHUTTLE_WINGS_EVENT
     description: STR_SHUTTLE_WINGS_EVENT_DESCRIPTION
     background: BACK14.SCR
@@ -699,7 +587,6 @@ events:
     points: 30
     timer: 360
     timerRandom: 43500
-
   - name: STR_PSIONIC_CIRCLE_EVENT
     description: STR_PSIONIC_CIRCLE_EVENT_DESCRIPTION
     background: GENERIC_NEWS_EVENT_BACKGROUND
@@ -707,11 +594,9 @@ events:
     points: 30
     timer: 25920
     timerRandom: 43500
-
 ######################
 ## CULTURAL STUFF ###
 ####################
-
   - name: STR_CANNES_FESTIVAL_EVENT
     description: STR_CANNES_FESTIVAL_EVENT_DESCRIPTION
     background: CANNES_FESTIVAL_EVENT_BACKGROUND
@@ -719,7 +604,6 @@ events:
     points: 30
     timer: 180
     timerRandom: 37440
-
   - name: STR_BLADE_RUNNER_MOVIE_RELEASED_EVENT
     description: STR_BLADE_RUNNER_MOVIE_RELEASED_EVENT_DESCRIPTION
     background: BLADE_RUNNER_MOVIE_RELEASED_EVENT_BACKGROUND
@@ -727,7 +611,6 @@ events:
     points: 30
     timer: 180
     timerRandom: 36000
-
   - name: STR_CYBERPUNK_NOVEL_RELEASED_EVENT
     description: STR_CYBERPUNK_NOVEL_RELEASED_EVENT_DESCRIPTION
     background: CYBERPUNK_NOVEL_RELEASED_EVENT_BACKGROUND
@@ -735,7 +618,6 @@ events:
     points: 30
     timer: 360
     timerRandom: 43500
-
   - name: STR_AKIRA_MANGA_RELEASED_EVENT
     description: STR_AKIRA_MANGA_RELEASED_EVENT_DESCRIPTION
     background: AKIRA_MANGA_RELEASED_EVENT_BACKGROUND
@@ -743,7 +625,6 @@ events:
     points: 30
     timer: 360
     timerRandom: 28800
-
   - name: STR_NEUROMANCER_NOVEL_RELEASED_EVENT
     description: STR_NEUROMANCER_NOVEL_RELEASED_EVENT_DESCRIPTION
     background: NEUROMANCER_NOVEL_RELEASED_EVENT_BACKGROUND
@@ -751,7 +632,6 @@ events:
     points: 30
     timer: 1440
     timerRandom: 4350
-
   - name: STR_STAR_WARS_MOVIE_RELEASED_EVENT
     description: STR_STAR_WARS_MOVIE_RELEASED_EVENT_DRSCRIPTION
     background: STAR_WARS_MOVIE_RELEASED_EVENT_BACKGROUND
@@ -759,15 +639,12 @@ events:
     points: 30
     timer: 36000
     #timerRandom: 43500
-
 ##########################
 ######### ACT 2 #########
 ########################
-
 #############################
 ###### STORY EVENTS ########
 ###########################
-
   - name: STR_ALLIED_FORCES_LOCATE_SIGNAL_JAMMER_EVENT
     description: STR_ALLIED_FORCES_LOCATE_SIGNAL_JAMMER_EVENT_DESCRIPTION
     background: BACK13.SCR
@@ -775,7 +652,6 @@ events:
     points: 30
     timer: 360
     timerRandom: 4350
-
   - name: STR_ALLIED_FORCES_ATTACK_SIGNAL_JAMMER_EVENT
     description: STR_ALLIED_FORCES_ATTACK_SIGNAL_JAMMER_EVENT_DESCRIPTION
     background: BACK13.SCR
@@ -790,7 +666,6 @@ events:
     points: 30
     timer: 360
     timerRandom: 4350
-
   - name: STR_UN_FLEET_ARRIVING_EVENT
     description: STR_UN_FLEET_ARRIVING_EVENT_DESCRIPTION
     background: UN_FLEET_ARRIVING_EVENT_BACKGROUND
@@ -827,13 +702,10 @@ events:
       - STR_MEDICAL_POUCH
     researchList:
       - STR_ALIEN_BASE_SELF_DESTRUCTION
-
 # Act 2 side events
-
 ####################
 ##### COMBAT #####
 #################
-
   - name: STR_BRITISH_SOLDIERS_DIG_IN_MARINER_TRENCH_EVENT
     description: STR_BRITISH_SOLDIERS_DIG_IN_MARINER_TRENCH_EVENT_DESCRIPTION
     background: BACK02.SCR
@@ -843,7 +715,6 @@ events:
     points: 30
     timer: 360
     timerRandom: 43500
-
   - name: STR_ALLIED_HARRIERS_DOGFIGHT_EVENT
     description: STR_ALLIED_HARRIERS_DOGFIGHT_EVENT_DESCRIPTION
     background: ALLIED_HARRIERS_DOGFIGHT_EVENT_BACKGROUND
@@ -851,11 +722,9 @@ events:
     points: 30
     timer: 360
     timerRandom: 43500
-
 #############################
 ###### SUPPLY EVENTS #######
 ###########################
-
   - name: STR_SUPPLY_ROCKET_IN_ORBIT_EVENT
     description: STR_SUPPLY_ROCKET_IN_ORBIT_EVENT_DESCRIPTION
     background: SUPPLY_ROCKET_IN_ORBIT_EVENT_BACKGROUND
@@ -863,7 +732,6 @@ events:
     points: 5
     timer: 180
     #timerRandom: 180
-
   - name: STR_SUPPLY_ROCKET_SHOT_DOWN_EVENT
     description: STR_SUPPLY_ROCKET_SHOT_DOWN_EVENT_DESCRIPTION
     background: BACK05.SCR
@@ -871,7 +739,6 @@ events:
     points: -10
     timer: 420
     #timerRandom: 180
-
   - name: STR_SMALL_SUPPLY_DROP_EVENT
     description: STR_SMALL_SUPPLY_DROP_EVENT_DESCRIPTION
     background: SMALL_SUPPLY_DROP_EVENT_BACKGROUND
@@ -890,7 +757,6 @@ events:
       - STR_MEDICAL_POUCH
       - STR_BATTERY
       - STR_BATTERY
-
   - name: STR_LARGE_SUPPLY_DROP_EVENT
     description: STR_LARGE_SUPPLY_DROP_EVENT_DESCRIPTION
     background: LARGE_SUPPLY_DROP_EVENT_BACKGROUND
@@ -919,13 +785,10 @@ events:
       - STR_FIELD_DRESSING
       - STR_MEDICAL_POUCH
       - STR_MEDICAL_POUCH
-
 # Act 3 side events
-
 ####################
 #### MISC NEWS ####
 #################
-
   - name: STR_REAGAN_ANNOUNCES_SDI_EVENT
     description: STR_REAGAN_ANNOUNCES_SDI_EVENT_DESCRIPTION
     background: GENERIC_NEWS_EVENT_BACKGROUND
@@ -933,11 +796,9 @@ events:
     points: 30
     timer: 36000
     #timerRandom: 43500
-
 ####################
 ##### COMBAT #####
 #################
-
   - name: STR_ALLIED_TROOPS_OFFENSIVE_EVENT
     description: STR_ALLIED_TROOPS_OFFENSIVE_EVENT_BACKGROUND
     background: GROUND_BATTLE_EVENT_BACKGROUND
@@ -945,7 +806,6 @@ events:
     points: 30
     timer: 360
     timerRandom: 43500
-
 extraSprites:
 ##########################################
 ############ BACKGROUNDS #################
@@ -956,14 +816,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/ALLIED_HARRIERS_DOGFIGHT_EVENT_BACKGROUND.PNG
-
   - type: GROUND_BATTLE_EVENT_BACKGROUND
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Backgrounds/GROUND_BATTLE_EVENT_BACKGROUND.PNG
-
   - type: SUPPLY_ROCKET_IN_ORBIT_EVENT_BACKGROUND
     singleImage: true
     width: 320
@@ -1000,16 +858,13 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/GENERIC_NEWS_EVENT_BACKGROUND.PNG
-
   - type: INSURGENT_OFFENSIVE_EVENT_BACKGROUND
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Backgrounds/INSURGENT_OFFENSIVE_EVENT_BACKGROUND.PNG
-
 #############################
-
   - type: MARSEC_EVENT_BACKGROUND
     singleImage: true
     width: 320
@@ -1022,9 +877,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/TNI_EVENT_BACKGROUND.PNG
-
 ##############################
-
   - type: AKIRA_MANGA_RELEASED_EVENT_BACKGROUND
     singleImage: true
     width: 320
@@ -1049,9 +902,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/CYBERPUNK_NOVEL_RELEASED_EVENT_BACKGROUND.PNG
-
 #######################
-
   - type: FALKLAND_WAR_STORY_1_EVENT_BACKGROUND
     singleImage: true
     width: 320
@@ -1118,7 +969,6 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/FALKLAND_WAR_STORY_11_EVENT_BACKGROUND.PNG
-
   - type: NEUROMANCER_NOVEL_RELEASED_EVENT_BACKGROUND
     singleImage: true
     width: 320
@@ -1131,4 +981,3 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/STAR_WARS_MOVIE_RELEASED_EVENT_BACKGROUND.PNG
-

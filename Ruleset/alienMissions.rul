@@ -20,7 +20,6 @@ alienMissions:
         trajectory: STATIC_TRAJECTORY
         timer: 0
         objective: true
-
   - type: STR_SEARCH_AND_DESTROY_OPERATION_MISSION
     objective: 3
     siteType: STR_SEARCH_AND_DESTROY_OPERATION_DEPLOYMENT
@@ -42,7 +41,6 @@ alienMissions:
         trajectory: STATIC_TRAJECTORY
         timer: 0
         objective: true
-
   - type: STR_SUPPLY_RECOVERY_OPERATION_MISSION
     objective: 3
     siteType: STR_SUPPLY_RECOVERY_OPERATION_DEPLOYMENT
@@ -64,7 +62,6 @@ alienMissions:
         trajectory: STATIC_TRAJECTORY
         timer: 0
         objective: true
-
   - type: STR_ALIEN_INFILTRATION_INITIAL
     points: 50 #Pact score only awarded on month end
     objective: 1
@@ -82,14 +79,12 @@ alienMissions:
         STR_ARMORED_FLOATER: 10
         STR_MUTON: 10
         STR_ARMORED_MUTON: 10
-
     waves:
       - ufo: STR_TERROR_SHIP
         count: 1
         trajectory: P7
         timer: 10 # 9000
     endlessInfiltration: false
-
   - type: STR_ALIEN_RETALIATION
     points: 0
     objective: 4
@@ -114,7 +109,6 @@ alienMissions:
         count: 1
         trajectory: P8
         timer: 5000
-
   - type: STR_ALIEN_SUPPLY
     points: 0
     objective: 5
@@ -125,7 +119,6 @@ alienMissions:
         trajectory: P9
         timer: 6000
         objective: true
-
   - type: STR_AIR_SUPERIORITY_1
     raceWeights:
       0:
@@ -190,7 +183,6 @@ alienMissions:
         count: 1
         trajectory: P2
         timer: 5000
-
   - type: STR_ALIEN_INTERCEPTION_1 # Light interception
     operationType: 6
     points: 0
@@ -238,7 +230,6 @@ alienMissions:
         trajectory: P3
         timer: 90
         huntMode: 1
-
   - type: STR_INVASION_START
     points: 0
     raceWeights:
@@ -347,7 +338,6 @@ alienMissions:
         count: 1
         trajectory: P4
         timer: 5000
-
   - type: STR_MAJOR_ENGAGEMENT_MISSION
     objective: 3
     siteType: STR_MAJOR_ENGAGEMENT_DEPLOYMENT
@@ -365,7 +355,6 @@ alienMissions:
         trajectory: STATIC_TRAJECTORY
         timer: 0
         objective: true
-
   - type: STR_OPERATION_SWORDBREAKER_MISSION
     objective: 3
     siteType: STR_OPERATION_SWORDBREAKER_DEPLOYMENT

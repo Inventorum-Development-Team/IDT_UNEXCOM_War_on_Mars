@@ -294,7 +294,6 @@ items:
     invWidth: 1
     invHeight: 1
     armor: 60
-
   - type: STR_FUSION_SPLITTER
     requires:
       - STR_ALIENS_ONLY
@@ -418,7 +417,6 @@ items:
       #ToWound: 5
       ToArmorPre: 1.1
       #ToTile: 0.73
-
   - type: STR_ETHEREAL_NOBLE_SWORD
     categories: [STR_FUSION, STR_MELEE, STR_ALIEN_TECH]
     size: 0.2
@@ -462,7 +460,6 @@ items:
       ToArmor: 0.5
       ToMorale: 1.2
       #ToMana: 2.0
-
   - type: STR_THERMONUCLEAR_PROJECTILE_LAUNCHER
     requires:
       - STR_ALIENS_ONLY
@@ -525,9 +522,6 @@ items:
     invWidth: 2
     invHeight: 1
     armor: 60
-
-
-
 #  - type: STR_FUSION_
     # listOrder: 0
     # size: 0
@@ -586,12 +580,10 @@ items:
     # clipSize: 1
     # battleType: 2
     # armor: 60
-
   - type: STR_ALIEN_CEPHALOPOD_TISSUE
     size: 0.3
     costSell: 19500
     bigSprite: 1113
-
 manufacture:
   - name: STR_HUMAN_FUSION_RIFLE
     space: 1
@@ -600,7 +592,6 @@ manufacture:
     requiredItems:
       STR_ALIEN_CEPHALOPOD_TISSUE: 5
       STR_ALIEN_ALLOYS: 10
-
   - name: STR_DISASSEMBLE_FUSION_POWER_CELL_LIGHT
     time: 20
     space: 1
@@ -609,7 +600,6 @@ manufacture:
       STR_FUSION_POWER_CELL_LIGHT: 1
     producedItems:
       STR_ELERIUM_115: 5
-
   - name: STR_DISASSEMBLE_FUSION_POWER_CELL_HEAVY
     time: 20
     space: 1
@@ -618,7 +608,6 @@ manufacture:
       STR_FUSION_POWER_CELL_HEAVY: 1
     producedItems:
       STR_ELERIUM_115: 10
-
   - name: STR_DISASSEMBLE_FUSION_POWER_CELL_HUGE
     time: 20
     space: 1
@@ -627,7 +616,6 @@ manufacture:
       STR_FUSION_POWER_CELL_HUGE: 1
     producedItems:
       STR_ELERIUM_115: 15
-
   - name: STR_DISASSEMBLE_FUSION_HANDGUN
     time: 20
     space: 1
@@ -637,7 +625,6 @@ manufacture:
     producedItems:
       STR_ALIEN_CEPHALOPOD_TISSUE: 1
       STR_ALIEN_ALLOYS: 1
-
   - name: STR_DISASSEMBLE_FUSION_SMG
     time: 20
     space: 1
@@ -647,7 +634,6 @@ manufacture:
     producedItems:
       STR_ALIEN_CEPHALOPOD_TISSUE: 2
       STR_ALIEN_ALLOYS: 1
-
   - name: STR_DISASSEMBLE_FUSION_RIFLE
     time: 30
     space: 1
@@ -657,7 +643,6 @@ manufacture:
     producedItems:
       STR_ALIEN_CEPHALOPOD_TISSUE: 3
       STR_ALIEN_ALLOYS: 1
-
   - name: STR_DISASSEMBLE_FUSION_SNIPER
     time: 40
     space: 1
@@ -667,7 +652,6 @@ manufacture:
     producedItems:
       STR_ALIEN_CEPHALOPOD_TISSUE: 3
       STR_ALIEN_ALLOYS: 1
-
   - name: STR_DISASSEMBLE_FUSION_SPLITTER
     time: 40
     space: 1
@@ -677,7 +661,6 @@ manufacture:
     producedItems:
       STR_ALIEN_CEPHALOPOD_TISSUE: 2
       STR_ALIEN_ALLOYS: 2
-
   - name: STR_DISASSEMBLE_FUSION_LANCE
     time: 40
     space: 3
@@ -722,7 +705,6 @@ extraSprites:
       1111: Resources/FusionWeapons/BigThermonuclearProjectileLauncherMagazine.png
       1112: Resources/FusionWeapons/BigHumanFusionRifle.png
       1113: Resources/FusionWeapons/BigAlienCephalopodTissue.png
-
   - type: FLOOROB.PCK
     files:
       1100: Resources/FusionWeapons/FloorFusionHandgun.png
@@ -738,7 +720,6 @@ extraSprites:
       1110: Resources/FusionWeapons/FloorThermonuclearProjectileLauncher.png
       1111: Resources/FusionWeapons/FloorThermonuclearProjectileLauncherMagazine.png
       1112: Resources/FusionWeapons/FloorHumanFusionRifle.png
-
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -754,7 +735,6 @@ extraSprites:
       2548: Resources/FusionWeapons/HandEtherealNobleSword.png
       2556: Resources/FusionWeapons/HandThermonuclearProjectileLauncher.png
       2564: Resources/FusionWeapons/HandHumanFusionRifle.png
-
   - type: Projectiles
     width: 105
     height: 9
@@ -762,7 +742,6 @@ extraSprites:
     subY: 3
     files:
       735: Resources/BulletSprites/Fusion_Bullet.png
-
 #########################################
 ######### UFOPEDIA IMAGES ###############
 #########################################
@@ -772,19 +751,15 @@ extraSprites:
     height: 200
     files:
       0: Resources/UFOpedia/FUSION_WEAPONS_RESEARCH_IMAGE_1.PNG
-
   - type: FUSION_WEAPONS_RESEARCH_IMAGE_2
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/UFOpedia/FUSION_WEAPONS_RESEARCH_IMAGE_2.PNG
-
   - type: INITIAL_FUSION_CELLS_RESEARCH_IMAGE
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/UFOpedia/INITIAL_FUSION_CELLS_RESEARCH_IMAGE.PNG
-
-

@@ -4,7 +4,6 @@ alienRaces:
   - delete: STR_ETHEREAL
   - delete: STR_MUTON
   - delete: STR_FLOATER
-
 ###########################################
 ######## UNARMORED ALIEN RACES  #########
 #########################################
@@ -68,9 +67,6 @@ alienRaces:
       - [STR_CELATID_TERRORIST]
       - [STR_SECTOPOD_TERRORIST]
       - [STR_SECTOPOD_TERRORIST]
-
-
-
 ###########################################
 ########## ARMORED ALIEN RACES  ##########
 #########################################
@@ -124,7 +120,6 @@ alienRaces:
       - [STR_ARMORED_FLOATER_SOLDIER]
       - [STR_CYBERDISC_TERRORIST]
       - [STR_CYBERDISC_TERRORIST, STR_PROBE_TERRORIST, STR_CYBERSPHERE_TERRORIST]
-
 extraStrings:
   - type: en-US
     strings:

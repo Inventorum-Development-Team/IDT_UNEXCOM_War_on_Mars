@@ -169,7 +169,6 @@ alienDeployments:
             - STR_FUSION_POWER_CELL_LIGHT
             - STR_FUSION_POWER_CELL_LIGHT
             - STR_ALIEN_GRENADE
-
       - alienRank: 3
         lowQty: 1
         highQty: 2
@@ -200,7 +199,6 @@ alienDeployments:
             - STR_FUSION_POWER_CELL_HUGE
             - STR_FUSION_POWER_CELL_HUGE
             - STR_FUSION_POWER_CELL_HUGE
-
       - alienRank: 2
         lowQty: 1
         highQty: 2
@@ -1477,7 +1475,6 @@ alienDeployments:
     civilians: 6
     height: 10
     #missionBountyItem: STR_LAB_SHIP_ANALYSIS
-
   - type: STR_TERROR_MISSION
     data: #&TERROR_MISSION_ALIEN_RANKS
       - alienRank: 5
@@ -1661,7 +1658,6 @@ alienDeployments:
       STR_AMERICAN_ASTRONAUT: 2
       STR_SOVIET_COSMONAUT: 2
       STR_SOVIET_RIFLEMAN: 1
-
     terrains:
       - IDT_HUMAN_STATION_NO_UFO
     alert: STR_ALIENS_TERRORISE
@@ -1672,7 +1668,6 @@ alienDeployments:
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 500
-
   - type: STR_ALIEN_BASE_ASSAULT
     ##missionBountyItem: STR_HYPER_WAVE_ENCODER
     #startingCondition: STR_INDOORS
@@ -2088,8 +2083,6 @@ alienDeployments:
     baseDetectionChance: 50            # base radar chance (once every 10 minutes), in percent
     huntMissionMaxFrequency: 1440       # generate hunt mission max every 720 minutes (= 12 hours)
     huntMissionWeights: *INTERCEPTION_MISSIONS
-
-
   - type: STR_ALIEN_BASE_ASSAULT_STAGE_2_UNDERGROUND
     data: *AlienBaseRanks
     baseSelfDestructCode: STR_ALIEN_BASE_SELF_DESTRUCTION
@@ -2109,7 +2102,6 @@ alienDeployments:
     objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
 #END ALIEN BASE ASSAULT STAGE 2
-
 #BEGIN ALIEN BASE ASSAULT STAGE 3, FULLY CREWED BASE
   - type: STR_ALIEN_BASE_ASSAULT_STAGE_3
     ##missionBountyItem: STR_HYPER_WAVE_ENCODER
@@ -2341,8 +2333,6 @@ alienDeployments:
     baseDetectionChance: 50            # base radar chance (once every 10 minutes), in percent
     huntMissionMaxFrequency: 1440       # generate hunt mission max every 720 minutes (= 12 hours)
     huntMissionWeights: *INTERCEPTION_MISSIONS
-
-
   - type: STR_ALIEN_BASE_ASSAULT_STAGE_3_UNDERGROUND
     data: *AlienFortRanks
     briefing:
@@ -2361,7 +2351,6 @@ alienDeployments:
     objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
 #END ALIEN BASE, STAGE 3
-
 #################
 #### ACT 1 #####
 ###############
@@ -2396,7 +2385,6 @@ alienDeployments:
     #markerIcon: 32
     duration: [78, 99]
     despawnPenalty: 100
-
   - type: STR_SEARCH_AND_DESTROY_OPERATION_DEPLOYMENT
     #baseSelfDestructCode: STR_DELETE_SEARCH_AND_DESTROY_OPERATION_OPERATIONS
     height: 10
@@ -2423,12 +2411,9 @@ alienDeployments:
     chronoTrigger: 1
     duration: [78, 99]
     despawnPenalty: 100
-
-
 #################
 #### ACT 2 #####
 ###############
-
   - type: STR_SUPPLY_RECOVERY_OPERATION_DEPLOYMENT
     #baseSelfDestructCode: STR_DELETE_SUPPLY_RECOVERY_OPERATION_OPERATIONS
     height: 10
@@ -2456,12 +2441,9 @@ alienDeployments:
     #markerIcon: 32
     duration: [78, 99]
     despawnPenalty: 100
-
-
 #################
 #### ACT 3 #####
 ###############
-
   - type: STR_MAJOR_ENGAGEMENT_DEPLOYMENT
     #baseSelfDestructCode: STR_DELETE_COUNTER_INSURGENCY_OPERATIONS
     height: 10
@@ -2505,7 +2487,6 @@ alienDeployments:
     #markerIcon: 32
     duration: [78, 99]
     despawnPenalty: 100
-
   - type: STR_OPERATION_SWORDBREAKER_DEPLOYMENT
     #baseSelfDestructCode: STR_DELETE_SUPPLY_RECOVERY_OPERATION_OPERATIONS
     height: 10
@@ -2543,7 +2524,6 @@ alienDeployments:
     #markerIcon: 32
     duration: [78, 99]
     despawnPenalty: 10000
-
   - type: STR_OPERATION_SWORDBREAKER_STAGE_2_DEPLOYMENT
     height: 2
     data: *AlienBaseRanks

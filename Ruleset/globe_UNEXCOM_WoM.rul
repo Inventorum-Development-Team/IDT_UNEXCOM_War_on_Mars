@@ -11,7 +11,6 @@
 #10.- Dark, mottled, smooth lava plains aka "seas"
 #11.- Deep canyon terrain
 #12.- Permafrost ice on the poles
-
 globe:
   data: Resources/Geoscape/WORLD.DAT
   oceanPalette: 12
@@ -183,8 +182,6 @@ globe:
     - id: -20
       deployments:
         STR_OPERATION_SWORDBREAKER_DEPLOYMENT: 100
-
-
   polylines:
     - - 174.39215710264
       - 16.713353144779
@@ -1346,7 +1343,6 @@ globe:
       - -2.5654368129032
       - 256.59055609285997
       - 0.054186450985682
-
 countries:
   - delete: STR_USA
   - delete: STR_RUSSIA
@@ -1375,7 +1371,6 @@ countries:
     labelLon: 106.346
     labelLat: -71.2399
     labelColor: 84
-
   - type: STR_NATO_SECTOR_B
     areas:
       - - 258.66069835069
@@ -1409,7 +1404,6 @@ countries:
     labelLon: 299.453
     labelLat: -25.2676
     labelColor: 84
-
   - type: STR_NATO_SECTOR_E
     areas:
       - - 350.1096962323242
@@ -1421,20 +1415,17 @@ countries:
     labelLon: 59.298569496212
     labelLat: -25.271659722225
     labelColor: 84
-
   - type: STR_UN_SECTOR_1
     areas:
       - - 172.74579171843
         - 260.272027829548
         - -52.546560763891
         - -0.77047743055859
-
     fundingBase: 10
     fundingCap: 100
     labelLon: 213.686
     labelLat: -26.8947
     labelColor: 80
-
   - type: STR_UN_SECTOR_2
     areas:
       - - 120.32038199622002
@@ -1446,20 +1437,17 @@ countries:
     labelLon: 149.453
     labelLat: -28.7382
     labelColor: 80
-
   - type: STR_WARSAW_PACT_SECTOR_1
     areas:
       - - 210.99468277746
         - 150.24811680524
         - 57.747283420136
         - 89.182762586802
-
     fundingBase: 10
     fundingCap: 100
     labelLon: 0.5881892878791746
     labelLat: 72.887164930553
     labelColor: 124
-
   - type: STR_WARSAW_PACT_SECTOR_2
     areas:
       - - 148.24487548578997
@@ -1475,7 +1463,6 @@ countries:
     labelLon: 191.778
     labelLat: 67.7406
     labelColor: 124
-
   - type: STR_WARSAW_PACT_SECTOR_3
     areas:
       - - 174.31995708302
@@ -1487,7 +1474,6 @@ countries:
     labelLon: 206.737
     labelLat: 37.1063
     labelColor: 124
-
   - type: STR_WARSAW_PACT_SECTOR_4
     areas:
       - - 21.116099444129986
@@ -1510,7 +1496,6 @@ countries:
     labelLon: 308.074839027459
     labelLat: 37.868965711802
     labelColor: 124
-
 regions:
   - delete: STR_NORTH_AMERICA
   - delete: STR_ANTARCTICA
@@ -1572,7 +1557,6 @@ regions:
         - [258, 297, 33, 20]
 #2nd elysium planitia mz5
         - [81, 118, -37, -18]
-
   - type: STR_VASTITAS_BOREALIS
     areas:
     #  - - 180.24761545139
@@ -1652,7 +1636,6 @@ regions:
         - [74, 87, 48, 58]
 #2nd Terra Sirenum mz5
         - [193, 224, 55, 64]
-
   - type: STR_ARABIA_TERRA
     areas:
       - - 7.87579948793109
@@ -1741,7 +1724,6 @@ regions:
         - [262, 284, -50, -35]
 #2nd Terra Cimmeria mz5
         - [113, 169, 57, 55]
-
   - type: STR_AMAZONIS_PLANITIA
     areas:
       - - 178.95822644328
@@ -1857,7 +1839,6 @@ regions:
         - [310, 352, -67, -52]
 #2nd Terra Meridiani mz5
         - [41, 60, 2, 13]
-
   - type: STR_ARGYRE_PLANITIA
     areas:
       - - 296.995368804387
@@ -1904,7 +1885,6 @@ regions:
         - [166, 195, -58, -43]
 #2nd VASTITAS_BOREALIS mz5
         - [10, 44, -74, -68]
-
   - type: STR_NOACHIS_TERRA
     areas:
       - - 352.4864820856391
@@ -1958,7 +1938,6 @@ regions:
         - [254, 294, -67, -58]
 #2nd Amazonis planitia mz5
         - [219, 246, 0.4, 18]
-
   - type: STR_HELLAS_PLANITIA
     areas:
       - - 67.068697363414
@@ -2006,7 +1985,6 @@ regions:
         - [1, 8, -32, -5]
 #2nd Amazonis planitia mz5
         - [241, 325, -85, -80]
-
   - type: STR_TERRA_CIMMERIA
     areas:
       - - 109.29086055787002
@@ -2043,9 +2021,7 @@ regions:
         - [284, 295, -30, -19]
 #2nd Arabi terra mz5
         - [62, 72, -17, -3]
-
 ###START REGION COUNTER-INSURGENCY
-
   - type: REGION_COUNTER_INSURGENCY_OPERATION
     missionZones:
       -
@@ -2107,11 +2083,8 @@ regions:
         - [35.8, 35.8, -33.8, -33.8, -10]
         - [74.4, 74.4, -29.6, -29.6, -10]
         - [80.5, 80.5, -8.8, -8.8, -10]
-
 # END REGION COUNTER-INSURGENCY
-
 ###START REGION SEARCH AND DESTROY
-
   - type: REGION_SEARCH_AND_DESTROY_OPERATION
     missionZones:
       -
@@ -2173,11 +2146,8 @@ regions:
         - [35.8, 35.8, -33.8, -33.8, -11]
         - [74.4, 74.4, -29.6, -29.6, -11]
         - [80.5, 80.5, -8.8, -8.8, -11]
-
 # END REGION SEARCH AND DESTROY
-
 ###START REGION SUPPLY RECOVERY
-
   - type: REGION_SUPPLY_RECOVERY_OPERATION
     missionZones:
       -
@@ -2239,11 +2209,8 @@ regions:
         - [35.8, 35.8, -33.8, -33.8, -12]
         - [74.4, 74.4, -29.6, -29.6, -12]
         - [80.5, 80.5, -8.8, -8.8, -12]
-
 # END REGION SUPPLY RECOVERY
-
 ###START REGION MAJOR ENGAGEMENT
-
   - type: REGION_MAJOR_ENGAGEMENT
     missionZones:
       -
@@ -2305,18 +2272,13 @@ regions:
         - [35.8, 35.8, -33.8, -33.8, -13]
         - [74.4, 74.4, -29.6, -29.6, -13]
         - [80.5, 80.5, -8.8, -8.8, -13]
-
 # END REGION MAJOR ENGAGEMENT
-
 ###START REGION OPERATION SWORDBREAKER
-
   - type: REGION_OPERATION_SWORDBREAKER
     missionZones:
       -
         - [236, 236, -18, -18, -20]
-
 # END REGION OPERATION SWORDBREAKER
-
 extraGlobeLabels:
   - type: STR_ACIDALIA_PLANITIA_LABEL
     labelLon: 320.095
@@ -2388,12 +2350,10 @@ extraGlobeLabels:
     labelLat: -8
     labelColor: 10 # blinding red-yellow
     zoomLevel: 2 # no zoom
-
 customPalettes:
   - type: PALETTE_MARS_GEOSCAPE
     target: PAL_GEOSCAPE
     file: Resources/Geoscape/PAL_ARESCAPE.pal
-
 extraSprites:
   - type: TEXTURE.DAT
     width: 416
@@ -2402,4 +2362,3 @@ extraSprites:
     subY: 32
     files:
       0: Resources/Geoscape/TEXTURES_MARS.PNG
-

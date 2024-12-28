@@ -5,11 +5,9 @@ research:
   - delete: STR_HEAVY_LASER
   - delete: STR_LASER_CANNON
   - delete: STR_LASER_DEFENSE
-
 ############################
 ####### ENDGAME PATH #######
 ###########################
-
   - name: STR_ACT_1_TRIGGER
     cost: 0
     needItem: false
@@ -20,7 +18,6 @@ research:
     needItem: false
     dependencies:
       - STR_ACT_1_TRIGGER
-
   - name: STR_ACT_2_TRIGGER
     cost: 0
     needItem: true
@@ -31,7 +28,6 @@ research:
     needItem: true
     disables:
       - STR_ACT_1_PEDIA
-
   - name: STR_ACT_3_TRIGGER
     cost: 0
     needItem: true
@@ -43,12 +39,9 @@ research:
     needItem: true
     disables:
       - STR_ACT_2_PEDIA
-
   - name: STR_ALIEN_BASE_SELF_DESTRUCTION
     cost: 0
     needItem: true
-
-
   - name: STR_ETHEREAL_INSURGENCY_REPORT_1
     cost: 500
     points: 50
@@ -75,7 +68,6 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-
   - name: STR_ETHEREAL_INSURGENCY_REPORT_2
     #cost: 500
     points: 50
@@ -155,7 +147,6 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-
   - name: STR_ETHEREAL_INSURGENCY_REPORT_3
     #cost: 500
     points: 50
@@ -198,7 +189,6 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-
 #############################
 ####### INTERIGATIONS #######
 ###########################
@@ -293,7 +283,6 @@ research:
     destroyItem: true
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
-
   - name: STR_SECTOID_ENGINEER
     cost: 100
     points: 50
@@ -322,7 +311,6 @@ research:
     destroyItem: true
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_2
-
   - name: STR_ARMORED_SECTOID_ENGINEER
     cost: 100
     points: 50
@@ -351,7 +339,6 @@ research:
     destroyItem: true
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_2
-
   - name: STR_SNAKEMAN_ENGINEER
     cost: 100
     points: 50
@@ -373,7 +360,6 @@ research:
     destroyItem: true
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_2
-
   - name: STR_MUTON_MEDIC
     cost: 100
     points: 50
@@ -402,7 +388,6 @@ research:
     destroyItem: true
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_2
-
   - name: STR_ARMORED_MUTON_MEDIC
     cost: 100
     points: 50
@@ -431,7 +416,6 @@ research:
     destroyItem: true
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_2
-
   - name: STR_FLOATER_ENGINEER
     cost: 100
     points: 50
@@ -453,7 +437,6 @@ research:
     destroyItem: true
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_2
-
   - name: STR_ARMORED_FLOATER_MEDIC
     cost: 100
     points: 50
@@ -482,7 +465,6 @@ research:
     destroyItem: true
     unlocks:
       - STR_ETHEREAL_INSURGENCY_REPORT_2
-
   - name: STR_SILACOID_TERRORIST
     cost: 10
     points: 50
@@ -523,7 +505,6 @@ research:
     points: 140
     needItem: true
     destroyItem: true
-
 ########################################
 ####### ALIEN ALLIES RESEARCH #########
 ######################################
@@ -553,7 +534,6 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-
   - name: STR_HEARTS_AND_MINDS_PROJECT_2
     cost: 300
     points: 100
@@ -582,7 +562,6 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-
   - name: STR_HEARTS_AND_MINDS_PROJECT_3
     cost: 400
     points: 200
@@ -611,7 +590,6 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-
   - name: STR_HEARTS_AND_MINDS_SECTOIDS
     cost: 400
     points: 200
@@ -640,7 +618,6 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-
   - name: STR_HEARTS_AND_MINDS_SNAKEMEN
     cost: 200
     points: 200
@@ -669,7 +646,6 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-
   - name: STR_HEARTS_AND_MINDS_FLOATERS
     cost: 300
     points: 200
@@ -698,7 +674,6 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-
   - name: STR_HEARTS_AND_MINDS_MUTONS
     cost: 500
     points: 200
@@ -727,7 +702,6 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-
   - name: STR_HEARTS_AND_MINDS_CEREBREALS
     cost: 150
     points: 200
@@ -756,7 +730,6 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-
   - name: STR_HEARTS_AND_MINDS_CEREBREAL_2
     cost: 150
     points: 200
@@ -785,7 +758,6 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-
   - name: STR_HEARTS_AND_MINDS_CEREBREAL_3
     cost: 200
     points: 200
@@ -814,7 +786,6 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-
 ################################################
 ####### ALIEN ALLOYS WEAPONS RESEARCH #########
 ##############################################
@@ -844,7 +815,6 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-
   - name: STR_ALLOY_CLOSE
     cost: 40
     points: 10
@@ -873,7 +843,6 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-
   - name: STR_ALLOY_RIFLES
     cost: 50
     points: 10
@@ -902,7 +871,6 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-
   - name: STR_ALLOY_EXPLOSIVE
     cost: 60
     points: 10
@@ -931,7 +899,6 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-
   - name: STR_ALLOY_HEAVY
     cost: 70
     points: 10
@@ -960,7 +927,6 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-
   - name: STR_SECRET_CRISIS_PROTOTYPES
     cost: 300
     points: 30
@@ -989,7 +955,6 @@ research:
       - STR_FUSION_WEAPONS_REPORT
     dependencies:
       - STR_ETHEREAL_INSURGENCY_REPORT_2
-
 ##################################
 ######### ALIEN LASERS #########
 ###############################
@@ -999,30 +964,25 @@ research:
     needItem: true
     unlocks:
       - STR_ALIEN_LASERS
-
   - name: STR_ALIEN_LASER_RIFLE
     cost: 50
     points: 50
     needItem: true
     unlocks:
       - STR_ALIEN_LASERS
-
   - name: STR_ALIEN_HEAVY_LASER
     cost: 50
     points: 50
     unlocks:
       - STR_ALIEN_LASERS
     needItem: true
-
   - name: STR_ALIEN_LASERS
     needItem: true
     getOneFree:
       - STR_ALIEN_LASERS
-
 ##################################################
 ######## GENERIC FACTION BALLISTIC FIREARMS #####
 ################################################
-
   - name: STR_M17_CARBINE
     cost: 12
     points: 20
@@ -1047,7 +1007,6 @@ research:
     cost: 12
     points: 20
     needItem: true
-
 ###########################################
 ####### FACTION SELECTION RESEARCH #######
 #########################################
@@ -1083,7 +1042,6 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-
   - name: STR_NATO_SUPPORT_RESEARCH
     cost: 500
     points: 200
@@ -1116,7 +1074,6 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-
   - name: STR_USSR_SUPPORT_RESEARCH
     cost: 500
     points: 200
@@ -1149,7 +1106,6 @@ research:
       - STR_PLASMA_WEAPONS_REPORT
       - STR_ALLOY_WEAPONS_REPORT
       - STR_FUSION_WEAPONS_REPORT
-
 #########################################
 ####### AMERICAN PLASMA RESEARCH ########
 #######################################
@@ -1161,7 +1117,6 @@ research:
     disables:
       - STR_NATO_PLASMA_WEAPONS
       - STR_USSR_PLASMA_WEAPONS
-
   - name: STR_NATO_PLASMA_WEAPONS
     cost: 200
     points: 10
@@ -1170,7 +1125,6 @@ research:
     disables:
       - STR_USA_SUPPORT_RESEARCH
       - STR_USSR_PLASMA_WEAPONS
-
   - name: STR_USSR_PLASMA_WEAPONS
     cost: 200
     points: 10
@@ -1179,7 +1133,6 @@ research:
     disables:
       - STR_NATO_PLASMA_WEAPONS
       - STR_USA_PLASMA_WEAPONS
-
 #######################################
   - name: STR_LASER_HANDGUN_SELECTION
     cost: 30
@@ -1188,7 +1141,6 @@ research:
       - STR_USA_SUPPORT_RESEARCH
       - STR_NATO_SUPPORT_RESEARCH
       - STR_USSR_SUPPORT_RESEARCH
-
   - name: STR_LASER_RIFLE_SELECTION
     cost: 30
     points: 10
@@ -1196,7 +1148,6 @@ research:
       - STR_USA_SUPPORT_RESEARCH
       - STR_NATO_SUPPORT_RESEARCH
       - STR_USSR_SUPPORT_RESEARCH
-
   - name: STR_LASER_CARBINE_SELECTION
     cost: 30
     points: 10
@@ -1204,7 +1155,6 @@ research:
       - STR_USA_SUPPORT_RESEARCH
       - STR_NATO_SUPPORT_RESEARCH
       - STR_USSR_SUPPORT_RESEARCH
-
   - name: STR_LASER_CLOSE_RANGE_WEAPONS_SELECTION
     cost: 30
     points: 10
@@ -1212,7 +1162,6 @@ research:
       - STR_USA_SUPPORT_RESEARCH
       - STR_NATO_SUPPORT_RESEARCH
       - STR_USSR_SUPPORT_RESEARCH
-
   - name: STR_LASER_HEAVY_WEAPONS_SELECTION
     cost: 30
     points: 10
@@ -1220,7 +1169,6 @@ research:
       - STR_USA_SUPPORT_RESEARCH
       - STR_NATO_SUPPORT_RESEARCH
       - STR_USSR_SUPPORT_RESEARCH
-
 #########################################
 ####### AMERICAN LASER RESEARCH ########
 #######################################
@@ -1232,7 +1180,6 @@ research:
     disables:
       - STR_NATO_LASER_HANDGUNS
       - STR_USSR_LASER_HANDGUNS
-
   - name: STR_USA_LASER_RIFLES
     cost: 50
     points: 10
@@ -1241,7 +1188,6 @@ research:
     disables:
       - STR_NATO_LASER_RIFLES
       - STR_USSR_LASER_RIFLES
-
   - name: STR_USA_LASER_CARBINES
     cost: 50
     points: 10
@@ -1250,7 +1196,6 @@ research:
     disables:
       - STR_NATO_LASER_CARBINES
       - STR_USSR_LASER_CARBINES
-
   - name: STR_USA_LASER_CLOSE_RANGE_WEAPONS
     cost: 50
     points: 10
@@ -1259,7 +1204,6 @@ research:
     disables:
       - STR_NATO_LASER_CLOSE_RANGE_WEAPONS
       - STR_USSR_LASER_CLOSE_RANGE_WEAPONS
-
   - name: STR_USA_LASER_HEAVY_WEAPONS
     cost: 50
     points: 10
@@ -1268,7 +1212,6 @@ research:
     disables:
       - STR_NATO_LASER_HEAVY_WEAPONS
       - STR_USSR_LASER_HEAVY_WEAPONS
-
 #########################################
 ####### EUROPEAN LASER RESEARCH ########
 #######################################
@@ -1280,7 +1223,6 @@ research:
     disables:
       - STR_USA_LASER_HANDGUNS
       - STR_USSR_LASER_HANDGUNS
-
   - name: STR_NATO_LASER_RIFLES
     cost: 50
     points: 10
@@ -1289,7 +1231,6 @@ research:
     disables:
       - STR_USA_LASER_RIFLES
       - STR_USSR_LASER_RIFLES
-
   - name: STR_NATO_LASER_CARBINES
     cost: 50
     points: 10
@@ -1298,7 +1239,6 @@ research:
     disables:
       - STR_USA_LASER_CARBINES
       - STR_USSR_LASER_CARBINES
-
   - name: STR_NATO_LASER_CLOSE_RANGE_WEAPONS
     cost: 50
     points: 10
@@ -1307,7 +1247,6 @@ research:
     disables:
       - STR_USA_LASER_CLOSE_RANGE_WEAPONS
       - STR_USSR_LASER_CLOSE_RANGE_WEAPONS
-
   - name: STR_NATO_LASER_HEAVY_WEAPONS
     cost: 50
     points: 10
@@ -1316,7 +1255,6 @@ research:
     disables:
       - STR_USSR_LASER_HEAVY_WEAPONS
       - STR_USSR_LASER_HEAVY_WEAPONS
-
 #########################################
 ######## SOVIET LASER RESEARCH #########
 #######################################
@@ -1328,7 +1266,6 @@ research:
     disables:
       - STR_USA_LASER_HANDGUNS
       - STR_NATO_LASER_HANDGUNS
-
   - name: STR_USSR_LASER_RIFLES
     cost: 50
     points: 10
@@ -1337,7 +1274,6 @@ research:
     disables:
       - STR_USA_LASER_RIFLES
       - STR_NATO_LASER_RIFLES
-
   - name: STR_USSR_LASER_CARBINES
     cost: 50
     points: 10
@@ -1346,7 +1282,6 @@ research:
     disables:
       - STR_USA_LASER_CARBINES
       - STR_NATO_LASER_CARBINES
-
   - name: STR_USSR_LASER_CLOSE_RANGE_WEAPONS
     cost: 50
     points: 10
@@ -1355,7 +1290,6 @@ research:
     disables:
       - STR_USA_LASER_RIFLES
       - STR_NATO_LASER_RIFLES
-
   - name: STR_USSR_LASER_HEAVY_WEAPONS
     cost: 50
     points: 10
@@ -1364,14 +1298,12 @@ research:
     disables:
       - STR_USA_LASER_RIFLES
       - STR_NATO_LASER_RIFLES
-
 ####################
   - name: STR_ALIENS_ONLY
     cost: 10000
     points: 0
     dependencies:
       - STR_ALIENS_ONLY
-
 ####################
   - name: STR_STORY_REPORT_2
     cost: 0
@@ -1405,7 +1337,6 @@ research:
     cost: 0
     points: 1
     needItem: true
-
   - name: STR_FACTIONS_REPORT_USSF
     cost: 0
     points: 1
@@ -1430,7 +1361,6 @@ research:
     cost: 0
     points: 1
     needItem: true
-
   - name: STR_SOVIET_PSIONIC_CORPS_REPORT_1
     cost: 0
     points: 1
@@ -1443,7 +1373,6 @@ research:
     cost: 0
     points: 1
     needItem: true
-
   - name: STR_BALLISTIC_WEAPONS_REPORT
     cost: 0
     points: 1
@@ -1472,17 +1401,14 @@ research:
     cost: 0
     points: 1
     needItem: true
-
   - name: STR_CRAFT_PROPULSION_OVERVIEW
     cost: 0
     points: 1
     needItem: true
-
   - name: STR_SURFACE_WARSHIPS
     cost: 0
     points: 1
     needItem: true
-
   - name: STR_MARTIAN_ATMOSPHERIC_CRAFT_OVERVIEW
     cost: 0
     points: 1
@@ -1575,7 +1501,6 @@ research:
     cost: 0
     points: 1
     needItem: true
-
   - name: STR_CRYSALID_LEGACY
     cost: 0
     points: 1
@@ -1604,7 +1529,6 @@ research:
     cost: 0
     points: 1
     needItem: true
-
   - name: STR_APOLLO_LASER_GATLING_OVERVIEW
     cost: 0
     points: 1
@@ -1661,7 +1585,6 @@ research:
     cost: 0
     points: 1
     needItem: true
-
   - name: STR_SECESSIONIST_HIDEOUTS
     cost: 0
     points: 1
@@ -1810,8 +1733,6 @@ research:
     cost: 0
     points: 1
     needItem: true
-
-
 #########################################
 ######## WIP ZONE #########
 #######################################
@@ -1902,7 +1823,6 @@ research:
         - STR_DYNASOAR_OVERVIEW
         - STR_HERMES_OVERVIEW
         - STR_MIG_105_OVERVIEW
-
   - name: STR_DEVELOP_UNDERSTANDING
     cost: 10
     points: 2
@@ -1955,13 +1875,11 @@ research:
         - STR_ETHEREAL_INSURGENCY_POST_BRAIN
       STR_ACT_3_TRIGGER:
         - STR_HEARTS_AND_MINDS_CHTONITE_3
-
   - name: STR_HEARTS_AND_MINDS_OLD_SCHOOL_BALSITICS
     cost: 1000
     points: 200
     dependencies:
       - STR_HEARTS_AND_MINDS_PROJECT_3
-
   - name: STR_DEVELOP_TIES
     cost: 200
     points: 100
@@ -1973,53 +1891,44 @@ research:
       - STR_HEARTS_AND_MINDS_SECTOIDS_3
       - STR_HEARTS_AND_MINDS_MUTONS_3
       - STR_HEARTS_AND_MINDS_SNAKEMEN_3
-
   - name: STR_HEARTS_AND_MINDS_ATTRACT_THE_FLOATERS
     cost: 100
     points: 50
     dependencies:
       - STR_HEARTS_AND_MINDS_FLOATERS_3
-
   - name: STR_HEARTS_AND_MINDS_OCCUPY_THE_FLOATERS
     cost: 100
     points: 50
     dependencies:
       - STR_HEARTS_AND_MINDS_ATTRACT_THE_FLOATERS
-
   - name: STR_HEARTS_AND_MINDS_FUEL_THE_SECTOIDS
     cost: 100
     points: 50
     dependencies:
       - STR_HEARTS_AND_MINDS_SECTOIDS_3
-
   - name: STR_HEARTS_AND_MINDS_SUPPORT_THE_SECTOIDS
     cost: 100
     points: 50
     dependencies:
       - STR_HEARTS_AND_MINDS_FUEL_THE_SECTOIDS
-
   - name: STR_HEARTS_AND_MINDS_ARM_THE_MUTONS
     cost: 300
     points: 50
     dependencies:
       - STR_HEARTS_AND_MINDS_MUTONS_3
-
   - name: STR_HEARTS_AND_MINDS_CLAD_THE_MUTONS
     cost: 300
     points: 50
     dependencies:
       - STR_HEARTS_AND_MINDS_ARM_THE_MUTONS
-
   - name: STR_HEARTS_AND_MINDS_FEED_THE_SNAKEMEN
     cost: 200
     points: 50
     dependencies:
       - STR_HEARTS_AND_MINDS_SNAKEMEN_3
-
   - name: STR_HEARTS_AND_MINDS_WATCH_THE_SNAKEMEN
     cost: 200
     points: 50
     dependencies:
       - STR_HEARTS_AND_MINDS_FEED_THE_SNAKEMEN
-
 ############################### Extended Lore

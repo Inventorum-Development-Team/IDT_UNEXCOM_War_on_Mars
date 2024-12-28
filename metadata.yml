@@ -1,10 +1,10 @@
 name: "UNEXCOM: War on Mars"
 version: "1.0"
 author: "Inventorum Development Team + cevaralien + liberation"
-description: "1982. We have invaded Mars. Time for payback."
+description: "1982. We have invaded Mars. Time for payback. Survive from alien insurgency attacks until you get new resources and reinforcements."
 id: UNEXCOM_War_on_Mars
 reservedSpace: 7
-requiredExtendedVersion: "6.5.1"
+requiredExtendedVersion: "8.0"
 resourceConfig: transparency.rul
 master: xcom1
 isMaster: true

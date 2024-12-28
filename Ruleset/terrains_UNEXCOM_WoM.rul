@@ -1,6 +1,5 @@
 terrains:
 # CMP hellrazor + efrenespartano
-
   - name: UBASE_MARS
     mapDataSets:
       - BLANKS
@@ -362,7 +361,6 @@ terrains:
       - name: EXPANDEDUBASE_21D #100 #Clone Lab W
         width: 20
         length: 20
-
 # IDT - efrenespartano
   - name: MARS
     enviroEffects: STR_MARS_ENVIRO
@@ -464,7 +462,6 @@ terrains:
       - name: IDT_MARS15
         width: 10
         length: 10
-
   - name: IDT_HUMAN_STATION
     mapDataSets:
       - BLANKS
@@ -510,7 +507,6 @@ terrains:
       - name: IDT_HUMAN_STATION11
         width: 20
         length: 20
-
   - name: IDT_HUMAN_STATION_NO_UFO
     mapDataSets:
       - BLANKS
@@ -519,7 +515,6 @@ terrains:
     script: HUMAN_STATION_NO_UFO
     enviroEffects: STR_MARS_ENVIRO
     mapBlocks: *IDT_HUMAN_STATION_MAPBLOCKS
-
   - name: IDT_MARS_DEBRIS
     mapDataSets:
       - BLANKS
@@ -571,7 +566,6 @@ terrains:
       - name: IDT_MARS_DEBRIS12
         width: 20
         length: 20
-
   - name: IDT_MARS_DRYLAKE
     mapDataSets:
       - BLANKS
@@ -622,7 +616,6 @@ terrains:
       - name: IDT_MARS_DRYLAKE12
         width: 20
         length: 20
-
 #BEGIN OUTPOST UBASE
   - name: UBASE_OUTPOST
     mapDataSets:
@@ -732,7 +725,6 @@ terrains:
             - [ 5, 6, 1]
         fuseTimers:
           SPTURRET_SPAWNER: [0, 0]
-
   - name: UBASE_BASE_SURFACE
     mapDataSets:
       - BLANKS
@@ -835,7 +827,6 @@ terrains:
         width: 10
         length: 10
         groups: 1
-
   - name: UBASE_FORT_SURFACE
     mapDataSets:
       - BLANKS
@@ -939,7 +930,6 @@ terrains:
         width: 10
         length: 10
         groups: 1
-
 # cevaralien
   - name: MARSMOUNT
     script: DEFAULT
@@ -1100,7 +1090,6 @@ terrains:
       - name: MARSCRATER06
         width: 10
         length: 10
-
 # liberation
   - name: MSTD
     mapDataSets:
@@ -1337,7 +1326,6 @@ terrains:
       - name: MSTRK15
         width: 10
         length: 10
-
 mapScripts:
   - type: DEFAULT
     commands:
@@ -1347,7 +1335,6 @@ mapScripts:
       size: 2
       executions: 2
     - type: fillArea
-
   - type: MARSURBAN
     commands:
     - type: addCraft
@@ -1359,7 +1346,6 @@ mapScripts:
         size: [1, 1, 1]
         blocks: [1, 2, 3, 4, 5, 6, 7, 8, 9 ,10]
         #freqs: [3, 3, 2, 2, 2, 2, 1, 1, 1, 1]
-
   - type: HUMAN_STATION_UFO
     commands:
     - type: addUFO
@@ -1368,7 +1354,6 @@ mapScripts:
       size: 2
       executions: 3
     - type: fillArea
-
   - type: HUMAN_STATION_NO_UFO
     commands:
     - type: addCraft
@@ -1376,7 +1361,6 @@ mapScripts:
       size: 2
       executions: 3
     - type: fillArea
-
   - type: MARS_STANDARD_SCRIPT
     commands:
     - type: addUFO
@@ -1385,33 +1369,27 @@ mapScripts:
       size: 2
       executions: 3
     - type: fillArea
-
   - type: MSTDS
     commands:
     - type: addUFO
     - type: addCraft
     - type: fillArea
-
   - type: MSTDSS
     commands:
     - type: addUFO
     - type: addCraft
     - type: fillArea
-
   - type: MPOLN
     commands:
     - type: addUFO
     - type: addCraft
     - type: fillArea
-
   - type: MSTRKN
     commands:
     - type: addUFO
     - type: addCraft
     - type: fillArea
-
 #BEGIN OUTPOST UBASE
-
   - type: ALIEN_OUTPOST # forest, mountain
     commands:
     - type: addCraft
@@ -1430,11 +1408,8 @@ mapScripts:
     - type: fillArea
       groups: [0, 1, 5]
       freqs: [3, 3, 2]
-
 #END OUTPOST UBASE
-
 #BEGIN BASE SURFACE UBASE
-
   - type: ALIEN_BASE_SURFACE #
     commands:
     - type: addCraft
@@ -1450,11 +1425,8 @@ mapScripts:
     - type: fillArea
       groups: [0, 1, 5]
       freqs: [2, 5, 1]
-
 #END BASE SURFACE UBASE
-
 #BEGIN FORT SURFACE UBASE
-
   - type: ALIEN_FORT_SURFACE #
     commands:
     - type: addCraft
@@ -1470,5 +1442,4 @@ mapScripts:
     - type: fillArea
       groups: [0, 1, 5]
       freqs: [1, 5, 1]
-
 #END FORT SURFACE UBASE

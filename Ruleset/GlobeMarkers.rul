@@ -15,13 +15,10 @@ extraSprites:
     files:
       9: Resources/GlobeMarkers/CraftGlobeMarkers.png
 crafts:
-
   - type: STR_HARRIER # ignoreDuplicate
     marker: 10
-
   - type: STR_FORGER # ignoreDuplicate
     marker: 15
-
   - type: STR_COBRA # ignoreDuplicate
     marker: 23
   - type: STR_SABRE # ignoreDuplicate
@@ -32,10 +29,8 @@ crafts:
     marker: 26
   - type: STR_HERMES # ignoreDuplicate
     marker: 37
-
   #- type: STR_GALAXY # ignoreDuplicate
   #  marker: 40
-
   #- type: STR_XC142 # ignoreDuplicate
   #  marker: 41
   #- type: STR_TRANSALL # ignoreDuplicate
@@ -44,7 +39,6 @@ crafts:
   #  marker: 43
   #- type: STR_ILYUSHIN # ignoreDuplicate
   #  marker: 44
-
   #- type: STR_ACHILLES # ignoreDuplicate
   #  marker: 46
   #- type: STR_ORION # ignoreDuplicate
@@ -53,17 +47,13 @@ crafts:
   #  marker: 49
   - type: STR_SPACE_SHUTTLE # ignoreDuplicate
     marker: 50
-
   - type: STR_BASTION # ignoreDuplicate
     marker: 54
   - type: STR_FIRESTORM # ignoreDuplicate
     marker: 55
   - type: STR_LIGHTNING # ignoreDuplicate
     marker: 56
-
 ufos:
-
-
 # Very Small
   - type: STR_SMALL_SCOUT # ignoreDuplicate
     marker: 61
@@ -133,5 +123,3 @@ ufos:
     marker: 65
     markerLand: 70
     markerCrash: 75
-
-

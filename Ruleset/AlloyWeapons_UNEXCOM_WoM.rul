@@ -178,7 +178,6 @@ items:
     vaporColorSurface: 2
     vaporDensitySurface: 1
     vaporProbabilitySurface: 33
-
   - type: STR_FLECHETTE_PISTOL
     requiresBuy:
       - STR_ALLOY_CLOSE
@@ -255,7 +254,6 @@ items:
     vaporColorSurface: 0
     vaporDensitySurface: 1
     vaporProbabilitySurface: 33
-
   - type: STR_ALLOY_PISTOL_FL
     requiresBuy:
       - STR_ALLOY_CLOSE
@@ -285,7 +283,6 @@ items:
     vaporColorSurface: 2
     vaporDensitySurface: 1
     vaporProbabilitySurface: 33
-
   - type: STR_FLECHETTE_AUTO_SHOTGUN
     requiresBuy:
       - STR_ALLOY_CLOSE
@@ -330,7 +327,6 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
-
   - type: STR_ALLOY_AUTO_SHOTGUN_FL
     requiresBuy:
       - STR_ALLOY_CLOSE
@@ -364,7 +360,6 @@ items:
     vaporColorSurface: 0
     vaporDensitySurface: 1
     vaporProbabilitySurface: 33
-
   - type: STR_ALLOY_SMART_RIFLE
     requiresBuy:
       - STR_ALLOY_HEAVY
@@ -393,7 +388,6 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
-
   - type: STR_ALLOY_SMART_RIFLE_MAG
     requiresBuy:
       - STR_ALLOY_HEAVY
@@ -426,7 +420,6 @@ items:
     vaporColorSurface: 0
     vaporDensitySurface: 1
     vaporProbabilitySurface: 33
-
   - type: STR_FLECHETTE_GL
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_FIREARMS, STR_ARTILLERY]
     requiresBuy:
@@ -457,7 +450,6 @@ items:
     invHeight: 3
     armor: 20
     arcingShot: true
-
   - type: STR_30MM_AAG
     requiresBuy:
       - STR_ALLOY_EXPLOSIVE
@@ -488,8 +480,6 @@ items:
     clipSize: 9
     blastRadius: 3
     bulletSprite: 4
-
-
   - type: STR_FLECHETTE_GRENADE
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_LIGHT_EQUIPMENT, STR_EXPLOSIVES]
     requiresBuy:
@@ -513,7 +503,6 @@ items:
     damageType: 3
     battleType: 4
     blastRadius: 4
-
   - type: STR_FLECHETTE_CANNON
     requiresBuy:
       - STR_ALLOY_HEAVY
@@ -561,7 +550,6 @@ items:
     armor: 40
     sprayWaypoints: 2
     attraction: 10
-
   - type: STR_ALLOY_HEAVY_AP
     requiresBuy:
       - STR_ALLOY_HEAVY
@@ -591,7 +579,6 @@ items:
     vaporColorSurface: 0
     vaporDensitySurface: 3
     vaporProbabilitySurface: 33
-
   - type: STR_ALLOY_HEAVY_FL
     requiresBuy:
       - STR_ALLOY_HEAVY
@@ -623,7 +610,6 @@ items:
     vaporColorSurface: 2
     vaporDensitySurface: 2
     vaporProbabilitySurface: 33
-
   - type: STR_FLECHETTE_SNIPER
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_FIREARMS, STR_SNIPER_RIFLES]
     requiresBuy:
@@ -672,7 +658,6 @@ items:
     minRange: 5
     dropoff: 2
     attraction: 10
-
   - type: STR_ALLOY_SNIPER_AP
     requiresBuy:
       - STR_ALLOY_HEAVY
@@ -703,7 +688,6 @@ items:
     vaporColorSurface: 0
     vaporDensitySurface: 1
     vaporProbabilitySurface: 33
-
   - type: STR_ALLOY_SNIPER_FL
     categories: [STR_ALLOY, STR_UNEXCOM_TECH, STR_FIREARMS, STR_SNIPER_RIFLES]
     requiresBuy:
@@ -735,7 +719,6 @@ items:
     vaporColorSurface: 2
     vaporDensitySurface: 1
     vaporProbabilitySurface: 33
-
 manufacture:
   - name: STR_FLECHETTE_PISTOL
     category: STR_WEAPON
@@ -825,7 +808,6 @@ manufacture:
     time: 40
     cost: 5000
     listOrder: 1103
-
   - name: STR_ALLOY_PISTOL_AP
     category: STR_AMMUNITION
     requires:
@@ -914,8 +896,6 @@ manufacture:
     time: 10 #600
     cost: 3000
     listOrder: 1102
-
-
 extraSprites:
 #########################################
 ######### PHLOGISTON WEAPONS ############
@@ -942,8 +922,6 @@ extraSprites:
       1219: Resources/AlloyWeapons/Bigob_G_Pistol_Clip_AA.png
       1220: Resources/AlloyWeapons/Bigob_G_Rifle_Clip_AA.png
       1221: Resources/AlloyWeapons/Bigob_G_Sniper_Clip_AA.png
-
-
   - type: FLOOROB.PCK
     files:
       1202: Resources/AlloyWeapons/Floorob_G_Auto_Shotgun.png
@@ -959,9 +937,6 @@ extraSprites:
       1212: Resources/AlloyWeapons/Floorob_G_Smart_Rifle.png
       1213: Resources/AlloyWeapons/Floorob_G_Smart_Rifle_Clip.png
       1214: Resources/AlloyWeapons/Floorob_G_Sniper.png
-
-
-
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -977,9 +952,6 @@ extraSprites:
       2948: Resources/AlloyWeapons/Handob_G_Rifle.png
       2956: Resources/AlloyWeapons/Handob_G_Smart_Rifle.png
       2964: Resources/AlloyWeapons/Handob_G_Sniper.png
-
-
-
   - type: Projectiles
     height: 3
     width: 105
@@ -987,6 +959,4 @@ extraSprites:
     subY: 3
     files:
      1085: Resources/BulletSprites/Flechette_bullet.png #31
-
-
 #############################

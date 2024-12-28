@@ -56,7 +56,6 @@ crafts:
       - [10, 13, 1, 4]
       - [9, 13, 1, 4]
       - [10, 13, 1, 4]
-
   - type: STR_F15EAGLEACTRAISER
     requires:
       - STR_NXTGENFGHTRTRANS
@@ -131,7 +130,6 @@ crafts:
       - [9, 13, 1, 0]
       - [10, 13, 1, 0]
 ################
-
   - type: STR_PHEONIXHELLRAISER
     requires:
       - STR_NXTGENFGHTRTRANS
@@ -207,7 +205,6 @@ crafts:
       - [10, 12, 1, 0]
       - [9, 13, 1, 0]
       - [10, 13, 1, 0]
-
   - type: STR_VENTURESTAR
     requires:
       - STR_NXTGENFGHTRTRANS
@@ -307,8 +304,6 @@ crafts:
       - [7, 10, 1, 0]
       - [12, 10, 1, 0]
       - [13, 10, 1, 0]
-
-
   - type: STR_COLUMBUSMARK4
    # requires:
    # Gravity Module System
@@ -561,7 +556,6 @@ crafts:
       - [10, 14, 1, 0]
       - [9, 11, 2, 0]
       - [10, 11, 2, 0]
-
   - type: STR_XLAYGUNLOCK
    # requires:
    # Gravity Module System
@@ -748,7 +742,6 @@ crafts:
       - [15, 11, 1, 0]
       - [14, 12, 1, 0]
       - [15, 12, 1, 0]
-
       ##### First Dropship: Infantry
       - [2, 5, 2, 0]
       - [3, 5, 2, 0]
@@ -835,7 +828,6 @@ crafts:
     shieldRecharge: 105
     shieldRechargeInGeoscape: 8
     shieldBleedThrough: 25
-
 ########################
 # manufacture:
  # - name:
@@ -853,8 +845,6 @@ crafts:
   #  points: 200
   #  listOrder: 17002
  #   dependencies:
-
-
 ####
 #ufopaedia:
 #  - id:
@@ -874,15 +864,12 @@ crafts:
  #     width: 205
  #     height: 80
  #   image_id: SPACE_SHUTTLE_UFOPEDIA
-
 ####
 #### Start at 1000 Kiro Xei Marks the Spot
 #### Mimimized + 0
 #### Dogfight + 11
 #### Basebit + 33
-
 #eventScripts:
-
 research:
   - name: STR_NXTGENFGHTRTRANS
     cost: 100
@@ -945,7 +932,6 @@ research:
     dependencies:
       - STR_NXTGENFGHTRTRANS
       - STR_ETHEREAL_INSURGENCY_REPORT_2
-
 ########################
 ufopaedia:
   - id: STR_BREACHER_SHUTTLE
@@ -1138,7 +1124,6 @@ ufopaedia:
       - STR_ETHEREAL_INSURGENCY_REPORT_3
     text: STR_ARMSTRONGREINFORCEMENTWIKI
     #listOrder: 5010
-
 extraSprites:
   - type: STR_BREACHER_SHUTTLE
     singleImage: true
@@ -1194,7 +1179,6 @@ extraSprites:
     height: 200
     files:
       0: Resources/Aircraft/unsc300berserkerwiki.png
-
   - type: BASEBITS.PCK
     files:
       1033: Resources/Aircraft/Breacher_base.png
@@ -1206,7 +1190,6 @@ extraSprites:
       1039: Resources/Aircraft/XLAYGunlock_base.png
       1040: Resources/Aircraft/ArmstrongN1DS_base.png
       1041: Resources/Aircraft/300Berserker_base.png
-
   - type: INTICON.PCK
     files:
       1011: Resources/Aircraft/Breacher_dogfight.png
@@ -1218,7 +1201,6 @@ extraSprites:
       1017: Resources/Aircraft/XLAYGunlock_dogfight.png
       1018: Resources/Aircraft/ArmstrongN1DS_dogfight.png
       1019: Resources/Aircraft/300Berserker_dogfight.png
-
 ###################################################
       1000: Resources/Aircraft/Breacher_minimised.png
       1001: Resources/Aircraft/Actraiser_minimised.png

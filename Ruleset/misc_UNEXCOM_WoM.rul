@@ -96,7 +96,6 @@ itemCategories:
     listOrder: 210
   - type: STR_SPACE
     listOrder: 220
-
 startingBase:
   facilities:
     - type: STR_ACCESS_LIFT
@@ -135,19 +134,16 @@ startingBase:
     - type: STR_GENERAL_STORES
       x: 2
       y: 3
-
   transfers:
     - hours: 12
       scientists: 8
     - hours: 12
       engineers: 8
-
   randomSoldiers:
     STR_UNEXCOM_LEGIONARY: 8
     STR_ASTRONAUT: 2
     STR_EURONAUT: 2
     STR_COSMONAUT: 2
-
   crafts:
     - type: STR_HARRIER
       id: 1
@@ -230,9 +226,6 @@ startingBase:
     STR_BIO_FOAM: 16
   scientists: 10
   engineers: 10
-
-
-
 monthlyRatings:
   6000: STR_MT_RATING_EXEMPLARY
   2800: STR_MT_RATING_EXCELLENT
@@ -279,8 +272,6 @@ alienItemLevels:
   - [2, 3, 3, 3, 3, 3, 4, 4, 4, 4]
   - [3, 3, 3, 3, 3, 3, 4, 4, 4, 4]
   - [3, 3, 3, 3, 3, 3, 4, 4, 4, 4]
-
-
 enviroEffects:
   - type: STR_MARS_ENVIRO
     mapBackgroundColor: 46
@@ -289,7 +280,6 @@ enviroEffects:
     #  STR_ASTRONAUT_A7LB_SPACESUIT_UC: STR_ASTRONAUT_A7LB_SPACESUIT_MARS_UC
     #  STR_ASTRONAUT_KRECHET94_SPACESUIT_UC: STR_ASTRONAUT_KRECHET94_SPACESUIT_MARS_UC
     #  STR_ASTRONAUT_KRECHET94B_SPACESUIT_UC: STR_ASTRONAUT_KRECHET94B_SPACESUIT_MARS_UC
-
   - type: STR_MOON_ENVIRO
     mapBackgroundColor: 7
     #armorTransformations: &Moon
@@ -297,7 +287,6 @@ enviroEffects:
     #  STR_ASTRONAUT_A7LB_SPACESUIT_UC: STR_ASTRONAUT_A7LB_SPACESUIT_MOON_UC
     #  STR_ASTRONAUT_KRECHET94_SPACESUIT_UC: STR_ASTRONAUT_KRECHET94_SPACESUIT_MOON_UC
     #  STR_ASTRONAUT_KRECHET94B_SPACESUIT_UC: STR_ASTRONAUT_KRECHET94B_SPACESUIT_MOON_UC
-
 startingConditions:
   - type: STR_MARS_CONDITION
     #defaultArmor:
@@ -324,8 +313,6 @@ startingConditions:
     #  - STR_SPACE
     #allowedCraft:
     #  - STR_SPACE_SHUTTLE
-
-
 extraSprites:
 ##########################################
 ############ BACKGROUNDS #################
@@ -412,45 +399,37 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/RnD_TERROR_SITE_ALERT_BACKGROUND.PNG
-
   - type: OPERATION_SWORDBREAKER_BACKGROUND
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Backgrounds/OPERATION_SWORDBREAKER_BACKGROUND.PNG
-
   - type: ALIEN_BASE_ASSAULT_BACKGROUND
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Backgrounds/ALIEN_BASE_ASSAULT_BACKGROUND.PNG
-
   - type: MAJOR_ENGAGEMENT_BACKGROUND
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Backgrounds/MAJOR_ENGAGEMENT_BACKGROUND.PNG
-
-
 ### Interception images
-
   - type: InterceptionTroopLander
     singleImage: true
     width: 160
     height: 52
     files:
      0: Resources/UFOinterception/trooplander.png
-
   - type: InterceptionNoFeed
     singleImage: true
     width: 160
     height: 52
     files:
      0: Resources/UFOinterception/nofeed.png
-
 items:
 #DELETE
   - delete: STR_PISTOL
@@ -497,7 +476,6 @@ items:
   - delete: STR_AVALANCHE_MISSILES
   - delete: STR_CANNON
   - delete: STR_CANNON_ROUNDS_X50
-
 manufacture:
   - delete: STR_MOTION_SCANNER
   - delete: STR_STUN_ROD
@@ -528,7 +506,6 @@ manufacture:
   - delete: STR_LASER_CANNON
   - delete: STR_TANK_LASER_CANNON
   - delete: STR_LASER_DEFENSE
-
   - name: STR_SUPPLY_CRATE
     category: STR_MISC
     space: 1
@@ -549,7 +526,6 @@ manufacture:
           STR_5_56MM_NATO_RIFLE_X30: 5
           STR_AK79_RIFLE: 5
           STR_7_62MM_SOVIET_RIFLE_X40: 5
-
 craftWeapons:
 #<delete>
   - delete: STR_STINGRAY
@@ -558,15 +534,12 @@ craftWeapons:
   - delete: STR_FUSION_BALL_UC
   - delete: STR_LASER_CANNON_UC
   - delete: STR_PLASMA_BEAM_UC
-
 crafts:
 #<delete>
   - delete: STR_AVENGER
   - delete: STR_LIGHTNING
   - delete: STR_INTERCEPTOR
   - delete: STR_FIRESTORM
-
-
 invs:
   - id: STR_GROUND
     costs:
@@ -692,14 +665,11 @@ invs:
       STR_RIGHT_HAND: 3
       STR_RIGHT_LEG: 10
       STR_RIGHT_SHOULDER: 10
-
 ufoTrajectories:
-
   - id: STATIC_TRAJECTORY
     groundTimer: 0
     waypoints:
       - [0, 0, 0]
-
   - id: STATIC_TRAJECTORY_BASE
     groundTimer: 0
     waypoints:
