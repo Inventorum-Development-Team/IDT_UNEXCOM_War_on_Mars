@@ -1,4 +1,4 @@
-30-December-2024: v1.1 Upgrade Chapter 1
+1-January-2025: v1.2 Upgrade Chapter 1
 * Updated the mod for OXCE 8.0v
 * All of the Code / Syntax are reorganized to meet minimal requirement.
 * Fixed Typos and adding missing text.
